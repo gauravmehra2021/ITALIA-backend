@@ -42,14 +42,32 @@ builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddHealthChecks();
 
 var corsOrigins = builder.Configuration.GetSection("Cors:Origins").Get<string[]>()
-                  ?? ["http://localhost:5173", "http://127.0.0.1:5173"];
+                  ?? ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:5174", "http://localhost:3000", "http://localhost:4173"];
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Frontend", policy =>
-        policy.WithOrigins(corsOrigins)
+    {
+        if (builder.Environment.IsDevelopment())
+        {
+            policy.SetIsOriginAllowed(origin =>
+            {
+                if (Uri.TryCreate(origin, UriKind.Absolute, out var uri))
+                {
+                    return uri.Host == "localhost" || uri.Host == "127.0.0.1";
+                }
+                return false;
+            })
             .AllowAnyHeader()
-            .AllowAnyMethod());
+            .AllowAnyMethod();
+        }
+        else
+        {
+            policy.WithOrigins(corsOrigins)
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        }
+    });
 });
 
 builder.Logging.ClearProviders();

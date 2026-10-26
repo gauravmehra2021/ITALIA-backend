@@ -1,65 +1,66 @@
-# SS Europa — Advanced AI-Powered Learning Platform
+# SS Europa — Backend Web API (.NET 10)
 
-Clean Architecture **.NET 10** Web API + **React 19 / TypeScript / Vite** frontend.
-
-Prototype implements Phase 1 LMS core with realistic **in-memory** data. MongoDB, Azure Storage, PayPal, and live AI are **mocked** behind replaceable interfaces.
-
-> **Important:** In-memory data resets whenever the API restarts. Demo authentication is explicitly labelled and is **not** production-secure.
+Clean Architecture **.NET 10** Web API powering the SS Europa platform:
+- **ITALIA-ADMIN**: Staff & Admin web dashboard
+- **ITALIA-NATIVE**: Student React Native mobile app (`/api/v1` routes)
+- **ITALIA**: Public static website (Contact us `/api/user/contact-us` and visitor tracking `/api/user/visitor`)
 
 ## Repository layout
 
 ```text
-SS-Europa/
+ITALIA-backend/
 ├── backend/                 .NET Clean Architecture solution
 │   ├── SSeuropa.Domain/
 │   ├── SSeuropa.Application/
 │   ├── SSeuropa.Infrastructure/
 │   ├── SSeuropa.Api/
 │   └── SSeuropa.Tests/
-├── frontend/sseuropa-web/   React + Vite app
 ├── docs/
 │   ├── architecture-summary.md
 │   └── api-documentation.md
+├── package.json
 └── README.md
 ```
 
 ## Prerequisites
 
 - .NET SDK 10.x
-- Node.js 20+ / npm 10+
+- Node.js 20+ / npm 10+ (for npm scripts convenience)
 
-## Backend
+## Running the Backend
+
+You can use standard `dotnet` CLI or `npm`:
 
 ```bash
-cd backend
-dotnet restore SSeuropa.slnx
-dotnet build SSeuropa.slnx
-dotnet test SSeuropa.slnx
-dotnet run --project SSeuropa.Api --launch-profile http
+# Using npm:
+npm run setup      # dotnet restore
+npm run build      # dotnet build
+npm test           # dotnet test
+npm run dev        # dotnet run --project backend/SSeuropa.Api --launch-profile http
+
+# Or directly with dotnet:
+dotnet restore backend/SSeuropa.slnx
+dotnet build backend/SSeuropa.slnx
+dotnet test backend/SSeuropa.slnx
+dotnet run --project backend/SSeuropa.Api --launch-profile http
 ```
 
-- API: http://localhost:5057  
-- Swagger: http://localhost:5057/swagger  
-- Health: http://localhost:5057/health  
+- API Base: `http://localhost:5057`
+- Swagger UI: `http://localhost:5057/swagger`
+- Health Check: `http://localhost:5057/health`
 
-Environment examples:
+### Environment examples:
 
+- `backend/SSeuropa.Api/appsettings.json`
 - `backend/SSeuropa.Api/appsettings.Example.json`
-- Override secrets with env vars (never commit production keys):
-  - `Jwt__Key`
-  - future: `ConnectionStrings__MongoDb`, `PayPal__ClientSecret`, etc.
+- Override secrets with environment variables (e.g. `Jwt__Key`)
 
-## Frontend
+### Connected Applications
 
-```bash
-cd frontend/sseuropa-web
-cp .env.example .env   # VITE_API_BASE_URL=http://localhost:5057
-npm install
-npm run dev
-npm run build
-```
+1. **Admin Portal (`ITALIA-ADMIN`)**: Connects to `http://localhost:5057` via JWT Bearer tokens for curriculum, classes, enquiries, and user management.
+2. **Student Mobile App (`ITALIA-NATIVE`)**: Connects to `http://localhost:5057/api/v1` for student dashboard, course lessons, quizzes, and live classes.
+3. **Public Website (`ITALIA`)**: Submits inquiries to `http://localhost:5057/api/user/contact-us`, automatically capturing leads into the Admissions desk.
 
-- App: http://localhost:5173
 
 ### Demo accounts
 

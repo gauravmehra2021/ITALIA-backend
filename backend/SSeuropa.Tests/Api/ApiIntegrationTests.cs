@@ -52,6 +52,52 @@ public class ApiIntegrationTests : IClassFixture<WebApplicationFactory<Program>>
         dash.StatusCode.Should().Be(HttpStatusCode.OK);
     }
 
+    [Fact]
+    public async Task Website_ContactUs_And_Visitor_Work()
+    {
+        // 1. Visitor tracking
+        var visitorRes = await _client.PostAsJsonAsync("/api/user/visitor", new
+        {
+            timezone = "Europe/Rome",
+            language = "it",
+            page = "/contatti"
+        });
+        visitorRes.StatusCode.Should().Be(HttpStatusCode.OK);
+
+        // 2. Submit contact form from website
+        var contactRes = await _client.PostAsJsonAsync("/api/user/contact-us", new
+        {
+            name = "Giuseppe",
+            surname = "Verdi",
+            email = "giuseppe.verdi@example.it",
+            telephone_number = "+39 340 1234567",
+            country = "Italy",
+            object_type = 1, // Request Information
+            service_of_interest = 2, // Training & Courses
+            preferred_contact_method = 0, // Email
+            message = "Vorrei informazioni sul corso A1.",
+            consent_for_contact = 1,
+            consent_share_data_for_advertising = 0,
+            consent_third_party_promotional = 0
+        });
+        contactRes.StatusCode.Should().Be(HttpStatusCode.OK);
+
+        // 3. Login as Staff and verify the enquiry is listed
+        var staffLogin = await _client.PostAsJsonAsync("/api/auth/demo-login", new
+        {
+            email = "staff@sseuropa.demo",
+            deviceId = "staff-test-device",
+            deviceName = "Integration Test"
+        });
+        staffLogin.StatusCode.Should().Be(HttpStatusCode.OK);
+        var staffData = await staffLogin.Content.ReadFromJsonAsync<ApiEnvelope<AuthData>>(JsonOptions);
+
+        using var staffClient = _client;
+        staffClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", staffData!.Data!.AccessToken);
+        var enquiriesRes = await staffClient.GetAsync("/api/enquiries");
+        enquiriesRes.StatusCode.Should().Be(HttpStatusCode.OK);
+    }
+
     private sealed record ApiEnvelope<T>(bool Success, string? Message, T? Data);
     private sealed record Paged(List<object> Items, int Page, int PageSize, int TotalCount);
     private sealed record AuthData(string AccessToken);
