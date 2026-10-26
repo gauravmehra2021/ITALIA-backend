@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SSeuropa.Api/SSeuropa.Api.csproj" />
+  <Project Path="SSeuropa.Application/SSeuropa.Application.csproj" />
+  <Project Path="SSeuropa.Domain/SSeuropa.Domain.csproj" />
+  <Project Path="SSeuropa.Infrastructure/SSeuropa.Infrastructure.csproj" />
+  <Project Path="SSeuropa.Tests/SSeuropa.Tests.csproj" />
+</Solution>

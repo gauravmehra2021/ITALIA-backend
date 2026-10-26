@@ -1,0 +1,29 @@
+# .NET
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.suo
+**/TestResults/
+
+# Node / Vite
+**/node_modules/
+**/dist/
+**/.env
+!**/.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/*
+
+# Extracted temp docs
+architecture-doc-extracted.txt
+extract-doc.ps1
+
+# Temporary build caches
+**/.build-tmp/
+**/.bundle/
+
