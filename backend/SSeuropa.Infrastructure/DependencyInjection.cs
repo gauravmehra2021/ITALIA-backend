@@ -16,7 +16,6 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         var hasher = new PasswordHasher();
-        services.AddSingleton(InMemoryStore.CreateSeeded(hasher.Hash));
         services.AddSingleton<IPasswordHasher>(hasher);
         services.AddSingleton<IOtpService, OtpService>();
         services.AddSingleton<IJwtTokenService, JwtTokenService>();
@@ -27,25 +26,7 @@ public static class DependencyInjection
         services.AddHttpContextAccessor();
         services.AddScoped<ICurrentUserService, CurrentUserService>();
 
-        services.AddScoped<IUserRepository, InMemoryUserRepository>();
-        services.AddScoped<ISessionRepository, InMemorySessionRepository>();
-        services.AddScoped<IOtpRepository, InMemoryOtpRepository>();
-        services.AddScoped<ICourseRepository, InMemoryCourseRepository>();
-        services.AddScoped<IClassRepository, InMemoryClassRepository>();
-        services.AddScoped<IEnrollmentRepository, InMemoryEnrollmentRepository>();
-        services.AddScoped<IMaterialRepository, InMemoryMaterialRepository>();
-        services.AddScoped<IAssessmentRepository, InMemoryAssessmentRepository>();
-        services.AddScoped<IAttendanceRepository, InMemoryAttendanceRepository>();
-        services.AddScoped<IProgressRepository, InMemoryProgressRepository>();
-        services.AddScoped<ISubscriptionRepository, InMemorySubscriptionRepository>();
-        services.AddScoped<IPaymentRepository, InMemoryPaymentRepository>();
-        services.AddScoped<ICertificateRepository, InMemoryCertificateRepository>();
-        services.AddScoped<INotificationRepository, InMemoryNotificationRepository>();
-        services.AddScoped<IAnnouncementRepository, InMemoryAnnouncementRepository>();
-        services.AddScoped<ISupportTicketRepository, InMemorySupportTicketRepository>();
-        services.AddScoped<IAuditLogRepository, InMemoryAuditLogRepository>();
-        services.AddScoped<IAiSessionRepository, InMemoryAiSessionRepository>();
-        services.AddScoped<IEnquiryRepository, InMemoryEnquiryRepository>();
+        RegisterPersistence(services, configuration, hasher);
 
         var key = configuration["Jwt:Key"] ?? "SSEuropa-Demo-Signing-Key-At-Least-32-Chars!";
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -66,5 +47,90 @@ public static class DependencyInjection
 
         services.AddAuthorization();
         return services;
+    }
+
+    private static void RegisterPersistence(
+        IServiceCollection services,
+        IConfiguration configuration,
+        PasswordHasher hasher)
+    {
+        var connectionString = configuration.GetConnectionString("MongoDb");
+        var provider = configuration["Database:Provider"];
+        if (string.IsNullOrWhiteSpace(provider))
+        {
+            provider = !string.IsNullOrWhiteSpace(connectionString) ? "MongoDb" : "InMemory";
+        }
+
+        if (string.Equals(provider, "MongoDb", StringComparison.OrdinalIgnoreCase))
+        {
+            if (string.IsNullOrWhiteSpace(connectionString))
+            {
+                throw new InvalidOperationException(
+                    "Database:Provider is set to 'MongoDb', but ConnectionStrings:MongoDb is missing or empty.");
+            }
+
+            var options = new MongoDbOptions
+            {
+                ConnectionString = connectionString,
+                DatabaseName = string.IsNullOrWhiteSpace(configuration["Database:DatabaseName"])
+                    ? "sseuropa"
+                    : configuration["Database:DatabaseName"]!,
+                SeedDemoDataOnEmpty = !bool.TryParse(configuration["Database:SeedDemoDataOnEmpty"], out var seed) || seed
+            };
+
+            services.AddSingleton(options);
+            services.AddSingleton<MongoDbContext>();
+            services.AddHostedService<MongoDbInitializer>();
+            services.AddHealthChecks().AddCheck<MongoHealthCheck>("mongodb");
+
+            services.AddScoped<IUserRepository, MongoUserRepository>();
+            services.AddScoped<ISessionRepository, MongoSessionRepository>();
+            services.AddScoped<IOtpRepository, MongoOtpRepository>();
+            services.AddScoped<ICourseRepository, MongoCourseRepository>();
+            services.AddScoped<IClassRepository, MongoClassRepository>();
+            services.AddScoped<IEnrollmentRepository, MongoEnrollmentRepository>();
+            services.AddScoped<IMaterialRepository, MongoMaterialRepository>();
+            services.AddScoped<IAssessmentRepository, MongoAssessmentRepository>();
+            services.AddScoped<IAttendanceRepository, MongoAttendanceRepository>();
+            services.AddScoped<IProgressRepository, MongoProgressRepository>();
+            services.AddScoped<ISubscriptionRepository, MongoSubscriptionRepository>();
+            services.AddScoped<IPaymentRepository, MongoPaymentRepository>();
+            services.AddScoped<ICertificateRepository, MongoCertificateRepository>();
+            services.AddScoped<INotificationRepository, MongoNotificationRepository>();
+            services.AddScoped<IAnnouncementRepository, MongoAnnouncementRepository>();
+            services.AddScoped<ISupportTicketRepository, MongoSupportTicketRepository>();
+            services.AddScoped<IAuditLogRepository, MongoAuditLogRepository>();
+            services.AddScoped<IAiSessionRepository, MongoAiSessionRepository>();
+            services.AddScoped<IEnquiryRepository, MongoEnquiryRepository>();
+            return;
+        }
+
+        if (string.Equals(provider, "InMemory", StringComparison.OrdinalIgnoreCase))
+        {
+            services.AddSingleton(InMemoryStore.CreateSeeded(hasher.Hash));
+            services.AddScoped<IUserRepository, InMemoryUserRepository>();
+            services.AddScoped<ISessionRepository, InMemorySessionRepository>();
+            services.AddScoped<IOtpRepository, InMemoryOtpRepository>();
+            services.AddScoped<ICourseRepository, InMemoryCourseRepository>();
+            services.AddScoped<IClassRepository, InMemoryClassRepository>();
+            services.AddScoped<IEnrollmentRepository, InMemoryEnrollmentRepository>();
+            services.AddScoped<IMaterialRepository, InMemoryMaterialRepository>();
+            services.AddScoped<IAssessmentRepository, InMemoryAssessmentRepository>();
+            services.AddScoped<IAttendanceRepository, InMemoryAttendanceRepository>();
+            services.AddScoped<IProgressRepository, InMemoryProgressRepository>();
+            services.AddScoped<ISubscriptionRepository, InMemorySubscriptionRepository>();
+            services.AddScoped<IPaymentRepository, InMemoryPaymentRepository>();
+            services.AddScoped<ICertificateRepository, InMemoryCertificateRepository>();
+            services.AddScoped<INotificationRepository, InMemoryNotificationRepository>();
+            services.AddScoped<IAnnouncementRepository, InMemoryAnnouncementRepository>();
+            services.AddScoped<ISupportTicketRepository, InMemorySupportTicketRepository>();
+            services.AddScoped<IAuditLogRepository, InMemoryAuditLogRepository>();
+            services.AddScoped<IAiSessionRepository, InMemoryAiSessionRepository>();
+            services.AddScoped<IEnquiryRepository, InMemoryEnquiryRepository>();
+            return;
+        }
+
+        throw new InvalidOperationException(
+            $"Unsupported Database:Provider '{provider}'. Expected 'MongoDb' or 'InMemory'.");
     }
 }

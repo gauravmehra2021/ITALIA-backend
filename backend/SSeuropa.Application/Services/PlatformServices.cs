@@ -477,6 +477,7 @@ public class DashboardService
     private readonly IPaymentRepository _payments;
     private readonly ISubscriptionRepository _subscriptions;
     private readonly IMaterialRepository _materials;
+    private readonly IEnquiryRepository _enquiries;
     private readonly ICurrentUserService _current;
 
     public DashboardService(
@@ -492,6 +493,7 @@ public class DashboardService
         IPaymentRepository payments,
         ISubscriptionRepository subscriptions,
         IMaterialRepository materials,
+        IEnquiryRepository enquiries,
         ICurrentUserService current)
     {
         _enrollments = enrollments;
@@ -506,6 +508,7 @@ public class DashboardService
         _payments = payments;
         _subscriptions = subscriptions;
         _materials = materials;
+        _enquiries = enquiries;
         _current = current;
     }
 
@@ -569,11 +572,51 @@ public class DashboardService
         return new MentorDashboardDto(classes.Count, studentIds, materialCount, classes.Count(c => c.Status == ClassStatus.Completed));
     }
 
+    public async Task<StaffDashboardDto> GetStaffAsync(CancellationToken ct = default)
+    {
+        if (_current.UserId is null || !_current.IsInRole(UserRole.Staff, UserRole.Admin, UserRole.SuperAdmin))
+            throw new UnauthorizedAccessDomainException();
+
+        var enquiries = await _enquiries.GetAllAsync(ct);
+        var tickets = await _tickets.GetAllAsync(ct);
+        var notes = await _notifications.GetByUserAsync(_current.UserId.Value, ct);
+
+        return new StaffDashboardDto(
+            enquiries.Count,
+            enquiries.Count(e => e.Status == EnquiryStatus.New),
+            enquiries.Count(e => e.Status is EnquiryStatus.Contacted or EnquiryStatus.Qualified),
+            enquiries.Count(e => e.Status == EnquiryStatus.Enrolled),
+            tickets.Count(t => t.Status is SupportTicketStatus.Open or SupportTicketStatus.InProgress),
+            notes.Count(n => !n.IsRead));
+    }
+
     public async Task<IReadOnlyList<UserDto>> GetUsersAsync(CancellationToken ct = default)
     {
         if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin))
             throw new UnauthorizedAccessDomainException();
         var users = await _users.GetAllAsync(ct);
         return users.Select(AuthService.Map).ToList();
+    }
+
+    public async Task<UserDto> UpdateUserStatusAsync(Guid userId, bool isActive, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin))
+            throw new UnauthorizedAccessDomainException();
+        var user = await _users.GetByIdAsync(userId, ct)
+            ?? throw new NotFoundException("User", userId);
+        user.Status = isActive ? AccountStatus.Active : AccountStatus.Suspended;
+        await _users.UpdateAsync(user, ct);
+        return AuthService.Map(user);
+    }
+
+    public async Task<UserDto> UpdateUserRoleAsync(Guid userId, UserRole role, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin))
+            throw new UnauthorizedAccessDomainException();
+        var user = await _users.GetByIdAsync(userId, ct)
+            ?? throw new NotFoundException("User", userId);
+        user.Role = role;
+        await _users.UpdateAsync(user, ct);
+        return AuthService.Map(user);
     }
 }

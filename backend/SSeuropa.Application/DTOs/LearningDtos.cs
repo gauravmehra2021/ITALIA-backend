@@ -215,6 +215,18 @@ public record MentorDashboardDto(
     int Materials,
     int PendingAttendance);
 
+public record StaffDashboardDto(
+    int TotalEnquiries,
+    int NewEnquiries,
+    int InFollowUpEnquiries,
+    int EnrolledEnquiries,
+    int OpenTickets,
+    int UnreadNotifications);
+
 public record AuditLogDto(Guid Id, Guid? ActorUserId, string Action, string Resource, string Details, DateTime CreatedAtUtc);
 
 public record SessionDto(Guid Id, Guid UserId, string DeviceId, string DeviceName, DateTime ExpiresAtUtc, bool IsRevoked, DateTime CreatedAtUtc);
+
+public record UpdateUserStatusRequest(bool IsActive);
+
+public record UpdateUserRoleRequest(UserRole Role);

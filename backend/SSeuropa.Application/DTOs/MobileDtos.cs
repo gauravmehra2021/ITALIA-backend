@@ -195,3 +195,21 @@ public record MobileOtpVerifyRequest(
 public record MobileLanguagePreferenceRequest(
     string Language
 );
+
+public record MobileRegisterRequest(
+    string FirstName,
+    string LastName,
+    string Email,
+    string Password,
+    string? PreferredLanguage = "en"
+);
+
+public record MobileForgotPasswordRequest(
+    string Email
+);
+
+public record MobileResetPasswordRequest(
+    string ChallengeId,
+    string Code,
+    string NewPassword
+);

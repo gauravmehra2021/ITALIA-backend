@@ -30,6 +30,14 @@ public class MobileV1Controller(
     // Authentication
     // ==========================================
 
+    [HttpPost("auth/register")]
+    [AllowAnonymous]
+    public async Task<ActionResult<MobileAuthChallengeDto>> Register([FromBody] MobileRegisterRequest request, CancellationToken ct)
+    {
+        var challenge = await authService.RegisterMobileAsync(request, ct);
+        return Ok(challenge);
+    }
+
     [HttpPost("auth/login")]
     [AllowAnonymous]
     public async Task<ActionResult<MobileAuthChallengeDto>> Login([FromBody] MobileLoginRequest request, CancellationToken ct)
@@ -44,6 +52,22 @@ public class MobileV1Controller(
     {
         var session = await authService.VerifyOtpMobileAsync(request.ChallengeId, request.Code, ct);
         return Ok(session);
+    }
+
+    [HttpPost("auth/forgot-password")]
+    [AllowAnonymous]
+    public async Task<ActionResult<MobileAuthChallengeDto>> ForgotPassword([FromBody] MobileForgotPasswordRequest request, CancellationToken ct)
+    {
+        var challenge = await authService.ForgotPasswordAsync(request.Email, ct);
+        return Ok(challenge);
+    }
+
+    [HttpPost("auth/reset-password")]
+    [AllowAnonymous]
+    public async Task<IActionResult> ResetPassword([FromBody] MobileResetPasswordRequest request, CancellationToken ct)
+    {
+        await authService.ResetPasswordAsync(request.ChallengeId, request.Code, request.NewPassword, ct);
+        return Ok(new { message = "Password reset successful." });
     }
 
     [HttpPost("auth/refresh")]

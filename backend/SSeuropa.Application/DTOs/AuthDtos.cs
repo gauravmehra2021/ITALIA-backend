@@ -35,3 +35,7 @@ public record UserDto(
     AccountStatus Status,
     PreferredLanguage PreferredLanguage,
     bool EmailVerified);
+
+public record ForgotPasswordRequest(string Email);
+
+public record ResetPasswordRequest(string ChallengeId, string Code, string NewPassword);

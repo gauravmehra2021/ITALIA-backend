@@ -137,6 +137,11 @@ public class DashboardController(DashboardService service) : ControllerBase
     [HttpGet("mentor")]
     public async Task<ActionResult<ApiResponse<MentorDashboardDto>>> Mentor(CancellationToken ct)
         => Ok(ApiResponse<MentorDashboardDto>.Ok(await service.GetMentorAsync(ct)));
+
+    [HttpGet("staff")]
+    [Authorize(Roles = "Staff,Admin,SuperAdmin")]
+    public async Task<ActionResult<ApiResponse<StaffDashboardDto>>> Staff(CancellationToken ct)
+        => Ok(ApiResponse<StaffDashboardDto>.Ok(await service.GetStaffAsync(ct)));
 }
 
 [ApiController]
@@ -147,6 +152,14 @@ public class UsersController(DashboardService service) : ControllerBase
     [HttpGet]
     public async Task<ActionResult<ApiResponse<IReadOnlyList<UserDto>>>> Get(CancellationToken ct)
         => Ok(ApiResponse<IReadOnlyList<UserDto>>.Ok(await service.GetUsersAsync(ct)));
+
+    [HttpPut("{id:guid}/status")]
+    public async Task<ActionResult<ApiResponse<UserDto>>> UpdateStatus(Guid id, [FromBody] UpdateUserStatusRequest request, CancellationToken ct)
+        => Ok(ApiResponse<UserDto>.Ok(await service.UpdateUserStatusAsync(id, request.IsActive, ct), "User status updated."));
+
+    [HttpPut("{id:guid}/role")]
+    public async Task<ActionResult<ApiResponse<UserDto>>> UpdateRole(Guid id, [FromBody] UpdateUserRoleRequest request, CancellationToken ct)
+        => Ok(ApiResponse<UserDto>.Ok(await service.UpdateUserRoleAsync(id, request.Role, ct), "User role updated."));
 }
 
 [ApiController]

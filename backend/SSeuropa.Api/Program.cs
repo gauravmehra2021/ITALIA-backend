@@ -5,6 +5,7 @@ using SSeuropa.Application;
 using SSeuropa.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -18,7 +19,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Title = "SS Europa API",
         Version = "v1",
-        Description = "Advanced AI-Powered Learning Platform — prototype with in-memory data. Data resets on restart."
+        Description = "Advanced AI-Powered Learning Platform API backed by MongoDB persistence."
     });
 
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
