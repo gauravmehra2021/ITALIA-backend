@@ -21,3 +21,4 @@ public class LearningResource : EntityBase
     public int? DurationSeconds { get; set; }
     public string? ThumbnailObjectKey { get; set; }
 }
+

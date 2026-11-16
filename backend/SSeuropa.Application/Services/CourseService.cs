@@ -12,14 +12,23 @@ public class CourseService
     private readonly ICourseRepository _courses;
     private readonly IUserRepository _users;
     private readonly IEnrollmentRepository _enrollments;
-    private readonly IMaterialRepository _materials;
+    private readonly IMaterialRepository? _materials;
     private readonly ICurrentUserService _current;
 
     public CourseService(
         ICourseRepository courses,
         IUserRepository users,
         IEnrollmentRepository enrollments,
-        IMaterialRepository materials,
+        ICurrentUserService current)
+        : this(courses, users, enrollments, null, current)
+    {
+    }
+
+    public CourseService(
+        ICourseRepository courses,
+        IUserRepository users,
+        IEnrollmentRepository enrollments,
+        IMaterialRepository? materials,
         ICurrentUserService current)
     {
         _courses = courses;
@@ -92,11 +101,14 @@ public class CourseService
         var totalModules = 0;
         var totalLessons = 0;
 
-        foreach (var c in allCourses)
+        if (_materials != null)
         {
-            var mats = await _materials.GetByCourseAsync(c.Id, ct);
-            totalLessons += mats.Count;
-            totalModules += mats.Select(m => m.ModuleTitle).Distinct().Count();
+            foreach (var c in allCourses)
+            {
+                var mats = _materials != null ? await _materials.GetByCourseAsync(c.Id, ct) : (IReadOnlyList<Material>)Array.Empty<Material>();
+                totalLessons += mats.Count;
+                totalModules += mats.Select(m => m.ModuleTitle).Distinct().Count();
+            }
         }
 
         return new CourseStatsDto(
@@ -241,7 +253,7 @@ public class CourseService
             mentorName = mentor?.FullName;
         }
 
-        var mats = await _materials.GetByCourseAsync(c.Id, ct);
+        var mats = _materials != null ? await _materials.GetByCourseAsync(c.Id, ct) : (IReadOnlyList<Material>)Array.Empty<Material>();
         var modulesCount = mats.Select(m => m.ModuleTitle).Distinct().Count();
         if (modulesCount == 0) modulesCount = 6;
         var lessonsCount = mats.Count;

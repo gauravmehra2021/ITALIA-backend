@@ -52,3 +52,4 @@ public interface IAwsS3Service
         string objectKey,
         CancellationToken ct = default);
 }
+

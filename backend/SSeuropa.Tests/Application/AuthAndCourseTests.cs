@@ -42,6 +42,7 @@ public class AuthAndCourseTests
             new InMemoryCourseRepository(_store),
             new InMemoryUserRepository(_store),
             new InMemoryEnrollmentRepository(_store),
+            new InMemoryMaterialRepository(_store),
             _current);
     }
 
