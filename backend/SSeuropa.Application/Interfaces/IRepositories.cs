@@ -62,6 +62,7 @@ public interface IMaterialRepository
     Task<Material?> GetByIdAsync(Guid id, CancellationToken ct = default);
     Task<IReadOnlyList<Material>> GetByCourseAsync(Guid courseId, CancellationToken ct = default);
     Task<Material> AddAsync(Material material, CancellationToken ct = default);
+    Task UpdateAsync(Material material, CancellationToken ct = default);
     Task DeleteAsync(Guid id, CancellationToken ct = default);
 }
 
@@ -173,4 +174,15 @@ public interface IAssignmentRepository
     Task<AssignmentSubmission> AddSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default);
     Task UpdateSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default);
 }
+
+public interface ILearningResourceRepository
+{
+    Task<LearningResource?> GetByIdAsync(Guid id, CancellationToken ct = default);
+    Task<LearningResource?> GetByObjectKeyAsync(string objectKey, CancellationToken ct = default);
+    Task<IReadOnlyList<LearningResource>> GetByCourseAsync(Guid courseId, CancellationToken ct = default);
+    Task<LearningResource> AddAsync(LearningResource resource, CancellationToken ct = default);
+    Task UpdateAsync(LearningResource resource, CancellationToken ct = default);
+    Task DeleteAsync(Guid id, CancellationToken ct = default);
+}
+
 

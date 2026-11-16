@@ -6,7 +6,10 @@ namespace SSeuropa.Domain.Entities;
 public class Course : EntityBase
 {
     public string Title { get; set; } = string.Empty;
+    public string Slug { get; set; } = string.Empty;
+    public string ShortDescription { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
+    public string Objectives { get; set; } = string.Empty;
     public CourseLevel Level { get; set; } = CourseLevel.Beginner;
     public CourseStatus Status { get; set; } = CourseStatus.Draft;
     public int Capacity { get; set; } = 30;
@@ -18,4 +21,5 @@ public class Course : EntityBase
     public string? ThumbnailUrl { get; set; }
     public string? PaymentUrl { get; set; }
     public int DurationWeeks { get; set; } = 8;
+    public int DisplayOrder { get; set; } = 0;
 }

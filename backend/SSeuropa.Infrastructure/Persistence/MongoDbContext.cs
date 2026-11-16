@@ -67,6 +67,7 @@ public sealed class MongoDbContext
     public IMongoCollection<Enquiry> Enquiries => Database.GetCollection<Enquiry>("enquiries");
     public IMongoCollection<Assignment> Assignments => Database.GetCollection<Assignment>("assignments");
     public IMongoCollection<AssignmentSubmission> AssignmentSubmissions => Database.GetCollection<AssignmentSubmission>("assignment_submissions");
+    public IMongoCollection<LearningResource> LearningResources => Database.GetCollection<LearningResource>("learning_resources");
 
     public async Task EnsureIndexesAsync(CancellationToken ct = default)
     {

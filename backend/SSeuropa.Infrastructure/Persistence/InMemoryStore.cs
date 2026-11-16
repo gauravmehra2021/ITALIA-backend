@@ -31,6 +31,7 @@ public class InMemoryStore
     public List<Enquiry> Enquiries { get; } = [];
     public List<Assignment> Assignments { get; } = [];
     public List<AssignmentSubmission> AssignmentSubmissions { get; } = [];
+    public List<LearningResource> LearningResources { get; } = [];
 
 
     public static InMemoryStore CreateSeeded(Func<string, string> hashPassword)

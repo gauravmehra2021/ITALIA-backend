@@ -18,7 +18,21 @@ public record CourseDto(
     string? ThumbnailUrl,
     int DurationWeeks,
     DateTime CreatedAtUtc,
-    string? PaymentUrl = null);
+    string? PaymentUrl = null,
+    string? Slug = null,
+    string? ShortDescription = null,
+    string? Objectives = null,
+    int DisplayOrder = 0,
+    int ModulesCount = 0,
+    int LessonsCount = 0);
+
+public record CourseStatsDto(
+    int TotalCourses,
+    int PublishedCourses,
+    int DraftCourses,
+    int TotalModules,
+    int TotalLessons,
+    int TotalEnrolled);
 
 public record CreateCourseRequest(
     string Title,
@@ -31,7 +45,12 @@ public record CreateCourseRequest(
     string Currency = "EUR",
     int DurationWeeks = 0,
     string? ThumbnailUrl = null,
-    string? PaymentUrl = null);
+    string? PaymentUrl = null,
+    string? Slug = null,
+    string? ShortDescription = null,
+    string? Objectives = null,
+    int DisplayOrder = 0,
+    CourseStatus Status = CourseStatus.Draft);
 
 public record UpdateCourseRequest(
     string Title,
@@ -45,7 +64,11 @@ public record UpdateCourseRequest(
     string Currency = "EUR",
     int DurationWeeks = 0,
     string? ThumbnailUrl = null,
-    string? PaymentUrl = null);
+    string? PaymentUrl = null,
+    string? Slug = null,
+    string? ShortDescription = null,
+    string? Objectives = null,
+    int DisplayOrder = 0);
 
 public record ClassSessionDto(
     Guid Id,

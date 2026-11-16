@@ -151,6 +151,12 @@ public class InMemoryMaterialRepository(InMemoryStore store) : IMaterialReposito
         return Task.FromResult(material);
     }
 
+    public Task UpdateAsync(Material material, CancellationToken ct = default)
+    {
+        material.UpdatedAtUtc = DateTime.UtcNow;
+        return Task.CompletedTask;
+    }
+
     public Task DeleteAsync(Guid id, CancellationToken ct = default)
     {
         store.Materials.RemoveAll(m => m.Id == id);
@@ -453,4 +459,35 @@ public class InMemoryAssignmentRepository(InMemoryStore store) : IAssignmentRepo
         return Task.CompletedTask;
     }
 }
+
+public class InMemoryLearningResourceRepository(InMemoryStore store) : ILearningResourceRepository
+{
+    public Task<LearningResource?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
+        Task.FromResult(store.LearningResources.FirstOrDefault(r => r.Id == id));
+
+    public Task<LearningResource?> GetByObjectKeyAsync(string objectKey, CancellationToken ct = default) =>
+        Task.FromResult(store.LearningResources.FirstOrDefault(r => r.ObjectKey == objectKey));
+
+    public Task<IReadOnlyList<LearningResource>> GetByCourseAsync(Guid courseId, CancellationToken ct = default) =>
+        Task.FromResult<IReadOnlyList<LearningResource>>(store.LearningResources.Where(r => r.CourseId == courseId).ToList());
+
+    public Task<LearningResource> AddAsync(LearningResource resource, CancellationToken ct = default)
+    {
+        store.LearningResources.Add(resource);
+        return Task.FromResult(resource);
+    }
+
+    public Task UpdateAsync(LearningResource resource, CancellationToken ct = default)
+    {
+        resource.UpdatedAtUtc = DateTime.UtcNow;
+        return Task.CompletedTask;
+    }
+
+    public Task DeleteAsync(Guid id, CancellationToken ct = default)
+    {
+        store.LearningResources.RemoveAll(r => r.Id == id);
+        return Task.CompletedTask;
+    }
+}
+
 

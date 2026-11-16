@@ -183,6 +183,9 @@ public class MongoMaterialRepository(MongoDbContext db) : IMaterialRepository
         return material;
     }
 
+    public Task UpdateAsync(Material material, CancellationToken ct = default) =>
+        MongoRepoHelpers.ReplaceAsync(db.Materials, material, ct);
+
     public Task DeleteAsync(Guid id, CancellationToken ct = default) =>
         db.Materials.DeleteOneAsync(m => m.Id == id, ct);
 }
@@ -488,5 +491,30 @@ public class MongoAssignmentRepository(MongoDbContext db) : IAssignmentRepositor
     public Task UpdateSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default) =>
         MongoRepoHelpers.ReplaceAsync(db.AssignmentSubmissions, submission, ct);
 }
+
+public class MongoLearningResourceRepository(MongoDbContext db) : ILearningResourceRepository
+{
+    public async Task<LearningResource?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
+        await db.LearningResources.Find(r => r.Id == id).FirstOrDefaultAsync(ct);
+
+    public async Task<LearningResource?> GetByObjectKeyAsync(string objectKey, CancellationToken ct = default) =>
+        await db.LearningResources.Find(r => r.ObjectKey == objectKey).FirstOrDefaultAsync(ct);
+
+    public async Task<IReadOnlyList<LearningResource>> GetByCourseAsync(Guid courseId, CancellationToken ct = default) =>
+        await db.LearningResources.Find(r => r.CourseId == courseId).ToListAsync(ct);
+
+    public async Task<LearningResource> AddAsync(LearningResource resource, CancellationToken ct = default)
+    {
+        await db.LearningResources.InsertOneAsync(resource, cancellationToken: ct);
+        return resource;
+    }
+
+    public Task UpdateAsync(LearningResource resource, CancellationToken ct = default) =>
+        MongoRepoHelpers.ReplaceAsync(db.LearningResources, resource, ct);
+
+    public Task DeleteAsync(Guid id, CancellationToken ct = default) =>
+        db.LearningResources.DeleteOneAsync(r => r.Id == id, ct);
+}
+
 
 

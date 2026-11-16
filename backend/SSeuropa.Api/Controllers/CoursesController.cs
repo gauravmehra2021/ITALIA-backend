@@ -5,6 +5,7 @@ using SSeuropa.Application.Common;
 using SSeuropa.Application.DTOs;
 using SSeuropa.Application.Interfaces;
 using SSeuropa.Application.Services;
+using SSeuropa.Domain.Enums;
 
 namespace SSeuropa.Api.Controllers;
 
@@ -37,6 +38,14 @@ public class CoursesController(
         return Ok(ApiResponse<PagedResult<CourseDto>>.Ok(result));
     }
 
+    [HttpGet("stats")]
+    [Authorize(Roles = "Mentor,Admin,SuperAdmin,Staff")]
+    public async Task<ActionResult<ApiResponse<CourseStatsDto>>> GetStats(CancellationToken ct)
+    {
+        var stats = await courseService.GetStatsAsync(ct);
+        return Ok(ApiResponse<CourseStatsDto>.Ok(stats));
+    }
+
     [HttpGet("{id:guid}")]
     [AllowAnonymous]
     public async Task<ActionResult<ApiResponse<CourseDto>>> GetById(Guid id, CancellationToken ct)
@@ -60,6 +69,22 @@ public class CoursesController(
     {
         var course = await courseService.UpdateAsync(id, request, ct);
         return Ok(ApiResponse<CourseDto>.Ok(course, "Course updated."));
+    }
+
+    [HttpPost("{id:guid}/publish")]
+    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    public async Task<ActionResult<ApiResponse<CourseDto>>> Publish(Guid id, CancellationToken ct)
+    {
+        var course = await courseService.SetStatusAsync(id, CourseStatus.Published, ct);
+        return Ok(ApiResponse<CourseDto>.Ok(course, "Course published and live for students."));
+    }
+
+    [HttpPost("{id:guid}/unpublish")]
+    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    public async Task<ActionResult<ApiResponse<CourseDto>>> Unpublish(Guid id, CancellationToken ct)
+    {
+        var course = await courseService.SetStatusAsync(id, CourseStatus.Draft, ct);
+        return Ok(ApiResponse<CourseDto>.Ok(course, "Course unpublished and saved to Draft."));
     }
 
     [HttpDelete("{id:guid}")]

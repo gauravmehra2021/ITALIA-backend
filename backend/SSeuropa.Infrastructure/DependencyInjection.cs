@@ -23,6 +23,7 @@ public static class DependencyInjection
         services.AddSingleton<IPaymentGateway, MockPaymentGateway>();
         services.AddHttpClient<IAiLearningService, GeminiAiLearningService>();
         services.AddSingleton<IEmailService, EmailService>();
+        services.AddSingleton<IAwsS3Service, AwsS3Service>();
 
         services.AddHttpContextAccessor();
         services.AddScoped<ICurrentUserService, CurrentUserService>();
@@ -108,6 +109,7 @@ public static class DependencyInjection
             services.AddScoped<IAiSessionRepository, MongoAiSessionRepository>();
             services.AddScoped<IEnquiryRepository, MongoEnquiryRepository>();
             services.AddScoped<IAssignmentRepository, MongoAssignmentRepository>();
+            services.AddScoped<ILearningResourceRepository, MongoLearningResourceRepository>();
             return;
         }
 
@@ -134,6 +136,7 @@ public static class DependencyInjection
             services.AddScoped<IAiSessionRepository, InMemoryAiSessionRepository>();
             services.AddScoped<IEnquiryRepository, InMemoryEnquiryRepository>();
             services.AddScoped<IAssignmentRepository, InMemoryAssignmentRepository>();
+            services.AddScoped<ILearningResourceRepository, InMemoryLearningResourceRepository>();
             return;
         }
 
