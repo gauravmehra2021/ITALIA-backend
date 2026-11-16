@@ -53,7 +53,7 @@ public class ClassService
             Title = request.Title.Trim(),
             ScheduledAtUtc = request.ScheduledAtUtc.ToUniversalTime(),
             DurationMinutes = request.DurationMinutes,
-            MeetingUrl = $"https://meet.google.com/mock-{Guid.NewGuid():N}"[..35],
+            MeetingUrl = !string.IsNullOrWhiteSpace(request.MeetingUrl) ? request.MeetingUrl.Trim() : "https://meet.google.com/uyj-tfhh-zsq",
             MeetingProvider = "GoogleMeet",
             Status = ClassStatus.Scheduled
         };
@@ -111,12 +111,14 @@ public class MaterialService
         await EnsureCourseAccessAsync(courseId, ct);
         var items = await _materials.GetByCourseAsync(courseId, ct);
         var result = new List<MaterialDto>();
-        foreach (var m in items.OrderBy(x => x.SortOrder))
+        foreach (var m in items.OrderBy(x => x.ChapterNumber).ThenBy(x => x.SortOrder))
         {
-            string? url = null;
-            if (m.IsProtected)
+            string? url = m.VideoUrl ?? m.AudioUrl ?? m.PdfUrl;
+            if (string.IsNullOrEmpty(url) && m.IsProtected && !string.IsNullOrEmpty(m.StorageKey))
                 url = await _storage.GetProtectedAccessUrlAsync(m.StorageKey, TimeSpan.FromMinutes(15), ct);
-            result.Add(new MaterialDto(m.Id, m.CourseId, m.Title, m.Description, m.Type, m.IsProtected, m.SortOrder, url));
+            result.Add(new MaterialDto(
+                m.Id, m.CourseId, m.Title, m.Description, m.Type, m.IsProtected, m.SortOrder, url,
+                m.ChapterTitle, m.ChapterNumber, m.VideoUrl, m.AudioUrl, m.PdfUrl, m.ContentText, m.PracticalTask, m.DurationMinutes));
         }
         return result;
     }
@@ -133,12 +135,22 @@ public class MaterialService
             Description = request.Description.Trim(),
             Type = request.Type,
             SortOrder = request.SortOrder,
-            StorageKey = $"mock/{request.CourseId}/{Guid.NewGuid():N}",
+            ChapterTitle = string.IsNullOrWhiteSpace(request.ChapterTitle) ? "Chapter 1: Getting Started" : request.ChapterTitle.Trim(),
+            ChapterNumber = request.ChapterNumber > 0 ? request.ChapterNumber : 1,
+            VideoUrl = request.VideoUrl,
+            AudioUrl = request.AudioUrl,
+            PdfUrl = request.PdfUrl,
+            ContentText = request.ContentText,
+            PracticalTask = request.PracticalTask,
+            DurationMinutes = request.DurationMinutes > 0 ? request.DurationMinutes : 15,
+            StorageKey = request.VideoUrl ?? request.AudioUrl ?? request.PdfUrl ?? $"uploads/{request.CourseId}/{Guid.NewGuid():N}",
             IsProtected = true
         };
         await _materials.AddAsync(material, ct);
-        var url = await _storage.GetProtectedAccessUrlAsync(material.StorageKey, TimeSpan.FromMinutes(15), ct);
-        return new MaterialDto(material.Id, material.CourseId, material.Title, material.Description, material.Type, material.IsProtected, material.SortOrder, url);
+        var url = material.VideoUrl ?? material.AudioUrl ?? material.PdfUrl ?? await _storage.GetProtectedAccessUrlAsync(material.StorageKey, TimeSpan.FromMinutes(15), ct);
+        return new MaterialDto(
+            material.Id, material.CourseId, material.Title, material.Description, material.Type, material.IsProtected, material.SortOrder, url,
+            material.ChapterTitle, material.ChapterNumber, material.VideoUrl, material.AudioUrl, material.PdfUrl, material.ContentText, material.PracticalTask, material.DurationMinutes);
     }
 
     public async Task DeleteAsync(Guid id, CancellationToken ct = default)
@@ -310,3 +322,166 @@ public class ProgressService
         return result;
     }
 }
+
+public class AssignmentService
+{
+    private readonly IAssignmentRepository _assignments;
+    private readonly ICourseRepository _courses;
+    private readonly IEnrollmentRepository _enrollments;
+    private readonly IUserRepository _users;
+    private readonly IEmailService _emailService;
+    private readonly ICurrentUserService _current;
+
+    public AssignmentService(
+        IAssignmentRepository assignments,
+        ICourseRepository courses,
+        IEnrollmentRepository enrollments,
+        IUserRepository users,
+        IEmailService emailService,
+        ICurrentUserService current)
+    {
+        _assignments = assignments;
+        _courses = courses;
+        _enrollments = enrollments;
+        _users = users;
+        _emailService = emailService;
+        _current = current;
+    }
+
+    public async Task<IReadOnlyList<AssignmentDto>> GetByCourseAsync(Guid courseId, CancellationToken ct = default)
+    {
+        var items = await _assignments.GetByCourseAsync(courseId, ct);
+        return items.Select(Map).ToList();
+    }
+
+    public async Task<AssignmentDto> GetByIdAsync(Guid id, CancellationToken ct = default)
+    {
+        var item = await _assignments.GetByIdAsync(id, ct) ?? throw new NotFoundException("Assignment", id);
+        return Map(item);
+    }
+
+    public async Task<AssignmentDto> CreateAsync(CreateAssignmentRequest request, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+            throw new UnauthorizedAccessDomainException();
+
+        _ = await _courses.GetByIdAsync(request.CourseId, ct) ?? throw new NotFoundException("Course", request.CourseId);
+
+        var assignment = new Assignment
+        {
+            CourseId = request.CourseId,
+            ChapterTitle = string.IsNullOrWhiteSpace(request.ChapterTitle) ? "Chapter 1: Practical Assignments" : request.ChapterTitle.Trim(),
+            Title = request.Title.Trim(),
+            Description = request.Description.Trim(),
+            ReferenceFileUrl = request.ReferenceFileUrl,
+            DueDateUtc = request.DueDateUtc,
+            TotalMarks = request.TotalMarks > 0 ? request.TotalMarks : 100,
+            IsActive = true
+        };
+
+        await _assignments.AddAsync(assignment, ct);
+        return Map(assignment);
+    }
+
+    public async Task DeleteAsync(Guid id, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+            throw new UnauthorizedAccessDomainException();
+        await _assignments.DeleteAsync(id, ct);
+    }
+
+    public async Task<AssignmentSubmissionDto> SubmitAsync(Guid assignmentId, SubmitAssignmentRequest request, CancellationToken ct = default)
+    {
+        if (_current.UserId is null) throw new UnauthorizedAccessDomainException();
+        var assignment = await _assignments.GetByIdAsync(assignmentId, ct)
+            ?? throw new NotFoundException("Assignment", assignmentId);
+
+        var user = await _users.GetByIdAsync(_current.UserId.Value, ct)
+            ?? throw new NotFoundException("User", _current.UserId.Value);
+
+        var existing = await _assignments.GetStudentSubmissionForAssignmentAsync(assignmentId, _current.UserId.Value, ct);
+        if (existing is not null)
+        {
+            existing.SubmissionText = request.SubmissionText;
+            existing.SubmissionFileUrl = request.SubmissionFileUrl;
+            existing.SubmittedAtUtc = DateTime.UtcNow;
+            existing.Status = "Submitted";
+            await _assignments.UpdateSubmissionAsync(existing, ct);
+            return MapSubmission(existing);
+        }
+
+        var submission = new AssignmentSubmission
+        {
+            AssignmentId = assignmentId,
+            StudentId = user.Id,
+            StudentName = user.FullName,
+            StudentEmail = user.Email,
+            SubmissionText = request.SubmissionText,
+            SubmissionFileUrl = request.SubmissionFileUrl,
+            SubmittedAtUtc = DateTime.UtcNow,
+            Status = "Submitted"
+        };
+
+        await _assignments.AddSubmissionAsync(submission, ct);
+        return MapSubmission(submission);
+    }
+
+    public async Task<IReadOnlyList<AssignmentSubmissionDto>> GetSubmissionsForAssignmentAsync(Guid assignmentId, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+            throw new UnauthorizedAccessDomainException();
+
+        var items = await _assignments.GetSubmissionsByAssignmentAsync(assignmentId, ct);
+        return items.Select(MapSubmission).ToList();
+    }
+
+    public async Task<IReadOnlyList<AssignmentSubmissionDto>> GetMySubmissionsAsync(CancellationToken ct = default)
+    {
+        if (_current.UserId is null) throw new UnauthorizedAccessDomainException();
+        var items = await _assignments.GetSubmissionsByStudentAsync(_current.UserId.Value, ct);
+        return items.Select(MapSubmission).ToList();
+    }
+
+    public async Task<AssignmentSubmissionDto> GradeSubmissionAsync(Guid submissionId, GradeAssignmentRequest request, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+            throw new UnauthorizedAccessDomainException();
+
+        var submission = await _assignments.GetSubmissionByIdAsync(submissionId, ct)
+            ?? throw new NotFoundException("Submission", submissionId);
+
+        var assignment = await _assignments.GetByIdAsync(submission.AssignmentId, ct);
+
+        submission.MarksObtained = request.MarksObtained;
+        submission.TeacherFeedback = request.TeacherFeedback;
+        submission.GradedAtUtc = DateTime.UtcNow;
+        submission.GradedByMentorId = _current.UserId;
+        submission.Status = "Graded";
+
+        await _assignments.UpdateSubmissionAsync(submission, ct);
+
+        // Notify student via email
+        if (!string.IsNullOrWhiteSpace(submission.StudentEmail) && assignment is not null)
+        {
+            await _emailService.SendAssignmentFeedbackAsync(
+                submission.StudentEmail,
+                submission.StudentName,
+                assignment.Title,
+                request.MarksObtained,
+                request.TeacherFeedback,
+                ct);
+        }
+
+        return MapSubmission(submission);
+    }
+
+    private static AssignmentDto Map(Assignment a) => new(
+        a.Id, a.CourseId, a.ChapterTitle, a.Title, a.Description,
+        a.ReferenceFileUrl, a.DueDateUtc, a.TotalMarks, a.IsActive, a.CreatedAtUtc);
+
+    private static AssignmentSubmissionDto MapSubmission(AssignmentSubmission s) => new(
+        s.Id, s.AssignmentId, s.StudentId, s.StudentName, s.StudentEmail,
+        s.SubmissionText, s.SubmissionFileUrl, s.SubmittedAtUtc,
+        s.MarksObtained, s.TeacherFeedback, s.GradedAtUtc, s.Status);
+}
+

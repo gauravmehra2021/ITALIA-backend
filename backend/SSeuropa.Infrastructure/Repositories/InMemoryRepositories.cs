@@ -394,3 +394,63 @@ public class InMemoryEnquiryRepository(InMemoryStore store) : IEnquiryRepository
         return Task.CompletedTask;
     }
 }
+
+public class InMemoryAssignmentRepository(InMemoryStore store) : IAssignmentRepository
+{
+    public Task<Assignment?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
+        Task.FromResult(store.Assignments.FirstOrDefault(a => a.Id == id && !a.IsDeleted));
+
+    public Task<IReadOnlyList<Assignment>> GetByCourseAsync(Guid courseId, CancellationToken ct = default) =>
+        Task.FromResult<IReadOnlyList<Assignment>>(
+            store.Assignments.Where(a => a.CourseId == courseId && !a.IsDeleted && a.IsActive).ToList());
+
+    public Task<Assignment> AddAsync(Assignment assignment, CancellationToken ct = default)
+    {
+        store.Assignments.Add(assignment);
+        return Task.FromResult(assignment);
+    }
+
+    public Task UpdateAsync(Assignment assignment, CancellationToken ct = default)
+    {
+        assignment.UpdatedAtUtc = DateTime.UtcNow;
+        return Task.CompletedTask;
+    }
+
+    public Task DeleteAsync(Guid id, CancellationToken ct = default)
+    {
+        var item = store.Assignments.FirstOrDefault(a => a.Id == id);
+        if (item is not null)
+        {
+            item.IsDeleted = true;
+            item.DeletedAtUtc = DateTime.UtcNow;
+        }
+        return Task.CompletedTask;
+    }
+
+    public Task<AssignmentSubmission?> GetSubmissionByIdAsync(Guid id, CancellationToken ct = default) =>
+        Task.FromResult(store.AssignmentSubmissions.FirstOrDefault(s => s.Id == id));
+
+    public Task<IReadOnlyList<AssignmentSubmission>> GetSubmissionsByAssignmentAsync(Guid assignmentId, CancellationToken ct = default) =>
+        Task.FromResult<IReadOnlyList<AssignmentSubmission>>(
+            store.AssignmentSubmissions.Where(s => s.AssignmentId == assignmentId).OrderByDescending(s => s.SubmittedAtUtc).ToList());
+
+    public Task<IReadOnlyList<AssignmentSubmission>> GetSubmissionsByStudentAsync(Guid studentId, CancellationToken ct = default) =>
+        Task.FromResult<IReadOnlyList<AssignmentSubmission>>(
+            store.AssignmentSubmissions.Where(s => s.StudentId == studentId).OrderByDescending(s => s.SubmittedAtUtc).ToList());
+
+    public Task<AssignmentSubmission?> GetStudentSubmissionForAssignmentAsync(Guid assignmentId, Guid studentId, CancellationToken ct = default) =>
+        Task.FromResult(store.AssignmentSubmissions.FirstOrDefault(s => s.AssignmentId == assignmentId && s.StudentId == studentId));
+
+    public Task<AssignmentSubmission> AddSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default)
+    {
+        store.AssignmentSubmissions.Add(submission);
+        return Task.FromResult(submission);
+    }
+
+    public Task UpdateSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default)
+    {
+        submission.UpdatedAtUtc = DateTime.UtcNow;
+        return Task.CompletedTask;
+    }
+}
+

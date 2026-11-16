@@ -21,7 +21,8 @@ public static class DependencyInjection
         services.AddSingleton<IJwtTokenService, JwtTokenService>();
         services.AddSingleton<IStorageService, MockStorageService>();
         services.AddSingleton<IPaymentGateway, MockPaymentGateway>();
-        services.AddSingleton<IAiLearningService, MockAiLearningService>();
+        services.AddHttpClient<IAiLearningService, GeminiAiLearningService>();
+        services.AddSingleton<IEmailService, EmailService>();
 
         services.AddHttpContextAccessor();
         services.AddScoped<ICurrentUserService, CurrentUserService>();
@@ -54,7 +55,11 @@ public static class DependencyInjection
         IConfiguration configuration,
         PasswordHasher hasher)
     {
-        var connectionString = configuration.GetConnectionString("MongoDb");
+        var connectionString = configuration.GetConnectionString("MongoDb")
+            ?? configuration["MONGODB_URI"]
+            ?? Environment.GetEnvironmentVariable("MONGODB_URI")
+            ?? configuration["MONGO_URL"]
+            ?? Environment.GetEnvironmentVariable("MONGO_URL");
         var provider = configuration["Database:Provider"];
         if (string.IsNullOrWhiteSpace(provider))
         {
@@ -102,6 +107,7 @@ public static class DependencyInjection
             services.AddScoped<IAuditLogRepository, MongoAuditLogRepository>();
             services.AddScoped<IAiSessionRepository, MongoAiSessionRepository>();
             services.AddScoped<IEnquiryRepository, MongoEnquiryRepository>();
+            services.AddScoped<IAssignmentRepository, MongoAssignmentRepository>();
             return;
         }
 
@@ -127,6 +133,7 @@ public static class DependencyInjection
             services.AddScoped<IAuditLogRepository, InMemoryAuditLogRepository>();
             services.AddScoped<IAiSessionRepository, InMemoryAiSessionRepository>();
             services.AddScoped<IEnquiryRepository, InMemoryEnquiryRepository>();
+            services.AddScoped<IAssignmentRepository, InMemoryAssignmentRepository>();
             return;
         }
 

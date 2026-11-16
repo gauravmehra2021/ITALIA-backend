@@ -160,6 +160,24 @@ public class UsersController(DashboardService service) : ControllerBase
     [HttpPut("{id:guid}/role")]
     public async Task<ActionResult<ApiResponse<UserDto>>> UpdateRole(Guid id, [FromBody] UpdateUserRoleRequest request, CancellationToken ct)
         => Ok(ApiResponse<UserDto>.Ok(await service.UpdateUserRoleAsync(id, request.Role, ct), "User role updated."));
+
+    [HttpPost]
+    public async Task<ActionResult<ApiResponse<UserDto>>> Create([FromBody] CreateUserByAdminRequest request, CancellationToken ct)
+        => Ok(ApiResponse<UserDto>.Ok(await service.CreateUserByAdminAsync(request, ct), "User created and invitation dispatched."));
+
+    [HttpDelete("{id:guid}")]
+    public async Task<ActionResult<ApiResponse<object>>> SoftDelete(Guid id, CancellationToken ct)
+    {
+        await service.SoftDeleteUserAsync(id, ct);
+        return Ok(ApiResponse<object>.Ok(new { }, "User deactivated (soft deleted)."));
+    }
+
+    [HttpPost("{id:guid}/restore")]
+    public async Task<ActionResult<ApiResponse<object>>> Restore(Guid id, CancellationToken ct)
+    {
+        await service.RestoreUserAsync(id, ct);
+        return Ok(ApiResponse<object>.Ok(new { }, "User restored."));
+    }
 }
 
 [ApiController]

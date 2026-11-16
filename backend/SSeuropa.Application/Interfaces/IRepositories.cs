@@ -157,3 +157,20 @@ public interface IEnquiryRepository
     Task UpdateAsync(Enquiry enquiry, CancellationToken ct = default);
     Task DeleteAsync(Guid id, CancellationToken ct = default);
 }
+
+public interface IAssignmentRepository
+{
+    Task<Assignment?> GetByIdAsync(Guid id, CancellationToken ct = default);
+    Task<IReadOnlyList<Assignment>> GetByCourseAsync(Guid courseId, CancellationToken ct = default);
+    Task<Assignment> AddAsync(Assignment assignment, CancellationToken ct = default);
+    Task UpdateAsync(Assignment assignment, CancellationToken ct = default);
+    Task DeleteAsync(Guid id, CancellationToken ct = default);
+
+    Task<AssignmentSubmission?> GetSubmissionByIdAsync(Guid id, CancellationToken ct = default);
+    Task<IReadOnlyList<AssignmentSubmission>> GetSubmissionsByAssignmentAsync(Guid assignmentId, CancellationToken ct = default);
+    Task<IReadOnlyList<AssignmentSubmission>> GetSubmissionsByStudentAsync(Guid studentId, CancellationToken ct = default);
+    Task<AssignmentSubmission?> GetStudentSubmissionForAssignmentAsync(Guid assignmentId, Guid studentId, CancellationToken ct = default);
+    Task<AssignmentSubmission> AddSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default);
+    Task UpdateSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default);
+}
+

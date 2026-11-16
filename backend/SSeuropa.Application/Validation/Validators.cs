@@ -31,9 +31,6 @@ public class CreateCourseRequestValidator : AbstractValidator<CreateCourseReques
     {
         RuleFor(x => x.Title).NotEmpty().MaximumLength(200);
         RuleFor(x => x.Description).NotEmpty().MaximumLength(2000);
-        RuleFor(x => x.Capacity).InclusiveBetween(1, 500);
-        RuleFor(x => x.Price).GreaterThanOrEqualTo(0);
-        RuleFor(x => x.DurationWeeks).InclusiveBetween(1, 52);
     }
 }
 

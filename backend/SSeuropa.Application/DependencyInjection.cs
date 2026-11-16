@@ -14,6 +14,7 @@ public static class DependencyInjection
         services.AddScoped<ClassService>();
         services.AddScoped<MaterialService>();
         services.AddScoped<AssessmentService>();
+        services.AddScoped<AssignmentService>();
         services.AddScoped<ProgressService>();
         services.AddScoped<SubscriptionService>();
         services.AddScoped<CertificateService>();

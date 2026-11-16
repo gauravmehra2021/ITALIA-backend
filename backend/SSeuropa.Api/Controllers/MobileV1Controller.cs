@@ -18,6 +18,7 @@ public class MobileV1Controller(
     CertificateService certificateService,
     CommunicationService commsService,
     AiService aiService,
+    AssignmentService assignmentService,
     IUserRepository userRepository,
     ICourseRepository courseRepository,
     IEnrollmentRepository enrollmentRepository,
@@ -229,7 +230,10 @@ public class MobileV1Controller(
                 CompletedLessons: isEnrolled ? Math.Min(1, materials.Count) : 0,
                 TotalLessons: Math.Max(materials.Count, 4),
                 AccentColor: "#0D5C75",
-                EnrollmentStatus: isEnrolled ? "enrolled" : "available"
+                EnrollmentStatus: isEnrolled ? "enrolled" : "available",
+                Price: c.Price,
+                Currency: c.Currency ?? "EUR",
+                PaymentUrl: c.PaymentUrl
             ));
         }
 
@@ -259,7 +263,10 @@ public class MobileV1Controller(
                 CompletedLessons: Math.Min(2, materials.Count),
                 TotalLessons: Math.Max(materials.Count, 3),
                 AccentColor: "#0D5C75",
-                EnrollmentStatus: "enrolled"
+                EnrollmentStatus: "enrolled",
+                Price: c.Price,
+                Currency: c.Currency ?? "EUR",
+                PaymentUrl: c.PaymentUrl
             ));
         }
 
@@ -271,15 +278,19 @@ public class MobileV1Controller(
     public async Task<IActionResult> Enroll([FromRoute] string courseId, CancellationToken ct)
     {
         var user = await GetCurrentStudentUserAsync(ct);
-        if (!Guid.TryParse(courseId, out var id)) return BadRequest("Invalid course ID.");
+        var allCourses = await courseRepository.GetAllAsync(ct);
 
-        try
+        // Single App Payment / Enrollment unlocks all courses
+        foreach (var c in allCourses)
         {
-            await courseService.EnrollAsync(id, user.Id, ct);
-        }
-        catch (DomainException ex) when (ex.Message.Contains("Already enrolled"))
-        {
-            // Idempotent
+            try
+            {
+                await courseService.EnrollAsync(c.Id, user.Id, ct);
+            }
+            catch (DomainException)
+            {
+                // Idempotent for already enrolled
+            }
         }
 
         return NoContent();
@@ -293,7 +304,7 @@ public class MobileV1Controller(
         var materials = await materialRepository.GetByCourseAsync(id, ct);
 
         var result = new List<MobileLessonDto>();
-        foreach (var m in materials.OrderBy(x => x.SortOrder))
+        foreach (var m in materials.OrderBy(x => x.ChapterNumber).ThenBy(x => x.SortOrder))
         {
             var contentType = m.Type switch
             {
@@ -303,13 +314,22 @@ public class MobileV1Controller(
                 _ => "interactive"
             };
 
+            var url = m.VideoUrl ?? m.AudioUrl ?? m.PdfUrl ?? (!string.IsNullOrEmpty(m.StorageKey) ? $"https://assets.sseuropa.demo/materials/{m.StorageKey}" : null);
+
             result.Add(new MobileLessonDto(
                 Id: m.Id.ToString(),
                 Title: m.Title,
                 ContentType: contentType,
-                DurationMinutes: 15,
+                DurationMinutes: m.DurationMinutes > 0 ? m.DurationMinutes : 15,
                 Completed: false,
-                ContentUrl: $"https://assets.sseuropa.demo/materials/{m.StorageKey}"
+                ContentUrl: url,
+                ChapterTitle: m.ChapterTitle,
+                ChapterNumber: m.ChapterNumber,
+                VideoUrl: m.VideoUrl,
+                AudioUrl: m.AudioUrl,
+                PdfUrl: m.PdfUrl,
+                ContentText: m.ContentText,
+                PracticalTask: m.PracticalTask
             ));
         }
 
@@ -317,14 +337,79 @@ public class MobileV1Controller(
         if (result.Count == 0)
         {
             result.AddRange([
-                new MobileLessonDto(Guid.NewGuid().ToString(), "Introduction & Fundamentals", "video", 20, true, "https://assets.sseuropa.demo/lessons/intro.mp4"),
-                new MobileLessonDto(Guid.NewGuid().ToString(), "Key Vocabulary & Audio Guide", "audio", 15, false, "https://assets.sseuropa.demo/lessons/audio1.mp3"),
-                new MobileLessonDto(Guid.NewGuid().ToString(), "Grammar Workbook & Exercises", "pdf", 25, false, "https://assets.sseuropa.demo/lessons/grammar.pdf")
+                new MobileLessonDto(Guid.NewGuid().ToString(), "Introduction & Fundamentals", "video", 20, true, "https://assets.sseuropa.demo/lessons/intro.mp4", "Chapter 1: Foundations", 1, VideoUrl: "https://assets.sseuropa.demo/lessons/intro.mp4", ContentText: "Welcome to Italian Language & Culture. Practice Italian vowels and consonants daily.", PracticalTask: "Record yourself pronouncing the Italian alphabet."),
+                new MobileLessonDto(Guid.NewGuid().ToString(), "Key Vocabulary & Audio Guide", "audio", 15, false, "https://assets.sseuropa.demo/lessons/audio1.mp3", "Chapter 1: Foundations", 1, AudioUrl: "https://assets.sseuropa.demo/lessons/audio1.mp3", ContentText: "Listen attentively to the native Italian pronunciation.", PracticalTask: "Repeat 10 greeting expressions."),
+                new MobileLessonDto(Guid.NewGuid().ToString(), "Grammar Workbook & Exercises", "pdf", 25, false, "https://assets.sseuropa.demo/lessons/grammar.pdf", "Chapter 2: Essential Grammar", 2, PdfUrl: "https://assets.sseuropa.demo/lessons/grammar.pdf", ContentText: "Comprehensive Italian grammar workbook.", PracticalTask: "Complete exercises on page 4.")
             ]);
         }
 
         return Ok(result);
     }
+
+    [HttpGet("students/me/courses/{courseId}/assignments")]
+    [Authorize]
+    public async Task<ActionResult<IReadOnlyList<MobileAssignmentDto>>> GetCourseAssignments([FromRoute] string courseId, CancellationToken ct)
+    {
+        if (!Guid.TryParse(courseId, out var id)) return BadRequest("Invalid course ID.");
+        var user = await GetCurrentStudentUserAsync(ct);
+
+        var assignments = await assignmentService.GetByCourseAsync(id, ct);
+        var mySubmissions = await assignmentService.GetMySubmissionsAsync(ct);
+
+        var result = new List<MobileAssignmentDto>();
+        foreach (var a in assignments)
+        {
+            var mySub = mySubmissions.FirstOrDefault(s => s.AssignmentId == a.Id);
+            result.Add(new MobileAssignmentDto(
+                Id: a.Id.ToString(),
+                CourseId: a.CourseId.ToString(),
+                ChapterTitle: a.ChapterTitle,
+                Title: a.Title,
+                Description: a.Description,
+                ReferenceFileUrl: a.ReferenceFileUrl,
+                DueDateUtc: a.DueDateUtc,
+                TotalMarks: a.TotalMarks,
+                Submitted: mySub is not null,
+                MySubmissionText: mySub?.SubmissionText,
+                MySubmissionFileUrl: mySub?.SubmissionFileUrl,
+                MarksObtained: mySub?.MarksObtained,
+                TeacherFeedback: mySub?.TeacherFeedback,
+                Status: mySub?.Status ?? "Pending"
+            ));
+        }
+
+        return Ok(result);
+    }
+
+    [HttpPost("assignments/{assignmentId}/submit")]
+    [Authorize]
+    public async Task<ActionResult<MobileAssignmentDto>> SubmitCourseAssignment(
+        [FromRoute] string assignmentId, [FromBody] MobileSubmitAssignmentRequest request, CancellationToken ct)
+    {
+        if (!Guid.TryParse(assignmentId, out var id)) return BadRequest("Invalid assignment ID.");
+        var submission = await assignmentService.SubmitAsync(id, new SubmitAssignmentRequest(request.SubmissionText, request.SubmissionFileUrl), ct);
+        var assignment = await assignmentService.GetByIdAsync(id, ct);
+
+        var dto = new MobileAssignmentDto(
+            Id: assignment.Id.ToString(),
+            CourseId: assignment.CourseId.ToString(),
+            ChapterTitle: assignment.ChapterTitle,
+            Title: assignment.Title,
+            Description: assignment.Description,
+            ReferenceFileUrl: assignment.ReferenceFileUrl,
+            DueDateUtc: assignment.DueDateUtc,
+            TotalMarks: assignment.TotalMarks,
+            Submitted: true,
+            MySubmissionText: submission.SubmissionText,
+            MySubmissionFileUrl: submission.SubmissionFileUrl,
+            MarksObtained: submission.MarksObtained,
+            TeacherFeedback: submission.TeacherFeedback,
+            Status: submission.Status
+        );
+
+        return Ok(dto);
+    }
+
 
     // ==========================================
     // Quizzes & Assessments

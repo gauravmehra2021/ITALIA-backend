@@ -15,6 +15,7 @@ public class AuthService
     private readonly IPasswordHasher _hasher;
     private readonly IOtpService _otpService;
     private readonly IAuditLogRepository _audit;
+    private readonly IEmailService? _emailService;
 
     public AuthService(
         IUserRepository users,
@@ -23,7 +24,8 @@ public class AuthService
         IJwtTokenService jwt,
         IPasswordHasher hasher,
         IOtpService otpService,
-        IAuditLogRepository audit)
+        IAuditLogRepository audit,
+        IEmailService? emailService = null)
     {
         _users = users;
         _sessions = sessions;
@@ -32,6 +34,7 @@ public class AuthService
         _hasher = hasher;
         _otpService = otpService;
         _audit = audit;
+        _emailService = emailService;
     }
 
     public async Task<UserDto> RegisterAsync(RegisterRequest request, CancellationToken ct = default)
@@ -73,28 +76,19 @@ public class AuthService
         if (!_hasher.Verify(request.Password, user.PasswordHash))
             throw new UnauthorizedAccessDomainException("Invalid email or password.");
 
-        if (user.Status == AccountStatus.Suspended || user.Status == AccountStatus.Disabled)
-            throw new UnauthorizedAccessDomainException("Account is not active.");
+        if (user.IsDeleted || user.Status == AccountStatus.Suspended || user.Status == AccountStatus.Disabled)
+            throw new UnauthorizedAccessDomainException("Account is deactivated or suspended. Please contact administrator.");
 
-        // Demo OTP gate for unverified or first-time style challenge
-        var otp = await IssueOtpAsync(user.Id, "login", ct);
+        var auth = await CompleteLoginAsync(user, request.DeviceId, request.DeviceName, ct);
         await _audit.AddAsync(new AuditLog
         {
             ActorUserId = user.Id,
-            Action = "login_otp_issued",
+            Action = "login_success",
             Resource = "auth",
-            Details = $"OTP issued for device {request.DeviceName}"
+            Details = $"Authenticated login for {user.Email} ({user.Role})"
         }, ct);
 
-        return new AuthResponse(
-            AccessToken: string.Empty,
-            RefreshToken: string.Empty,
-            ExpiresAtUtc: DateTime.UtcNow,
-            User: Map(user),
-            RequiresOtp: true,
-            PendingUserId: user.Id,
-            DemoOtpHint: otp.Code,
-            IsDemonstrationOnly: true);
+        return auth;
     }
 
     /// <summary>
@@ -421,7 +415,32 @@ public class AuthService
             Purpose = purpose,
             ExpiresAtUtc = DateTime.UtcNow.AddMinutes(10)
         };
-        return await _otps.AddAsync(challenge, ct);
+        var saved = await _otps.AddAsync(challenge, ct);
+
+        if (_emailService is not null)
+        {
+            try
+            {
+                var user = await _users.GetByIdAsync(userId, ct);
+                if (user is not null && !string.IsNullOrWhiteSpace(user.Email) && !user.Email.EndsWith("@sseuropa.demo", StringComparison.OrdinalIgnoreCase))
+                {
+                    if (purpose == "forgot_password")
+                    {
+                        _ = _emailService.SendPasswordResetCodeAsync(user.Email, code, ct);
+                    }
+                    else
+                    {
+                        _ = _emailService.SendVerificationOtpAsync(user.Email, user.FirstName, code, ct);
+                    }
+                }
+            }
+            catch
+            {
+                // Non-blocking email dispatch fallback
+            }
+        }
+
+        return saved;
     }
 
     public static UserDto Map(User user) => new(

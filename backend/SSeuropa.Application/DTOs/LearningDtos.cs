@@ -17,30 +17,35 @@ public record CourseDto(
     string Currency,
     string? ThumbnailUrl,
     int DurationWeeks,
-    DateTime CreatedAtUtc);
+    DateTime CreatedAtUtc,
+    string? PaymentUrl = null);
 
 public record CreateCourseRequest(
     string Title,
     string Description,
     CourseLevel Level,
-    int Capacity,
-    Guid? MentorId,
-    string Language,
-    decimal Price,
-    string Currency,
-    int DurationWeeks);
+    int Capacity = 9999,
+    Guid? MentorId = null,
+    string Language = "Italian",
+    decimal Price = 0,
+    string Currency = "EUR",
+    int DurationWeeks = 0,
+    string? ThumbnailUrl = null,
+    string? PaymentUrl = null);
 
 public record UpdateCourseRequest(
     string Title,
     string Description,
     CourseLevel Level,
     CourseStatus Status,
-    int Capacity,
-    Guid? MentorId,
-    string Language,
-    decimal Price,
-    string Currency,
-    int DurationWeeks);
+    int Capacity = 9999,
+    Guid? MentorId = null,
+    string Language = "Italian",
+    decimal Price = 0,
+    string Currency = "EUR",
+    int DurationWeeks = 0,
+    string? ThumbnailUrl = null,
+    string? PaymentUrl = null);
 
 public record ClassSessionDto(
     Guid Id,
@@ -60,7 +65,8 @@ public record CreateClassRequest(
     Guid MentorId,
     string Title,
     DateTime ScheduledAtUtc,
-    int DurationMinutes);
+    int DurationMinutes,
+    string? MeetingUrl = null);
 
 public record EnrollmentDto(
     Guid Id,
@@ -79,14 +85,30 @@ public record MaterialDto(
     MaterialType Type,
     bool IsProtected,
     int SortOrder,
-    string? AccessUrl);
+    string? AccessUrl,
+    string ChapterTitle = "Chapter 1: Getting Started",
+    int ChapterNumber = 1,
+    string? VideoUrl = null,
+    string? AudioUrl = null,
+    string? PdfUrl = null,
+    string? ContentText = null,
+    string? PracticalTask = null,
+    int DurationMinutes = 15);
 
 public record CreateMaterialRequest(
     Guid CourseId,
     string Title,
     string Description,
     MaterialType Type,
-    int SortOrder);
+    int SortOrder,
+    string ChapterTitle = "Chapter 1: Getting Started",
+    int ChapterNumber = 1,
+    string? VideoUrl = null,
+    string? AudioUrl = null,
+    string? PdfUrl = null,
+    string? ContentText = null,
+    string? PracticalTask = null,
+    int DurationMinutes = 15);
 
 public record AssessmentDto(
     Guid Id,
@@ -230,3 +252,57 @@ public record SessionDto(Guid Id, Guid UserId, string DeviceId, string DeviceNam
 public record UpdateUserStatusRequest(bool IsActive);
 
 public record UpdateUserRoleRequest(UserRole Role);
+
+public record FileUploadResponse(string Url, string FileName, long FileSize, string ContentType);
+
+public record CreateUserByAdminRequest(
+    string Email,
+    string Password,
+    string FirstName,
+    string LastName,
+    UserRole Role,
+    PreferredLanguage PreferredLanguage = PreferredLanguage.English,
+    string? PhoneNumber = null);
+
+public record AssignmentDto(
+    Guid Id,
+    Guid CourseId,
+    string ChapterTitle,
+    string Title,
+    string Description,
+    string? ReferenceFileUrl,
+    DateTime? DueDateUtc,
+    int TotalMarks,
+    bool IsActive,
+    DateTime CreatedAtUtc);
+
+public record CreateAssignmentRequest(
+    Guid CourseId,
+    string ChapterTitle,
+    string Title,
+    string Description,
+    string? ReferenceFileUrl,
+    DateTime? DueDateUtc,
+    int TotalMarks);
+
+public record AssignmentSubmissionDto(
+    Guid Id,
+    Guid AssignmentId,
+    Guid StudentId,
+    string StudentName,
+    string StudentEmail,
+    string? SubmissionText,
+    string? SubmissionFileUrl,
+    DateTime SubmittedAtUtc,
+    int? MarksObtained,
+    string? TeacherFeedback,
+    DateTime? GradedAtUtc,
+    string Status);
+
+public record SubmitAssignmentRequest(
+    string? SubmissionText,
+    string? SubmissionFileUrl);
+
+public record GradeAssignmentRequest(
+    int MarksObtained,
+    string? TeacherFeedback);

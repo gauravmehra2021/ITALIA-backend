@@ -16,7 +16,10 @@ public record MobileCourseSummaryDto(
     int CompletedLessons,
     int TotalLessons,
     string? AccentColor,
-    string EnrollmentStatus // "enrolled" | "available" | "completed"
+    string EnrollmentStatus, // "enrolled" | "available" | "completed"
+    decimal Price = 0,
+    string Currency = "EUR",
+    string? PaymentUrl = null
 );
 
 public record MobileLessonDto(
@@ -25,8 +28,38 @@ public record MobileLessonDto(
     string ContentType, // "video" | "pdf" | "audio" | "interactive"
     double? DurationMinutes,
     bool Completed,
-    string? ContentUrl
+    string? ContentUrl,
+    string? ChapterTitle = "Chapter 1: Getting Started",
+    int ChapterNumber = 1,
+    string? VideoUrl = null,
+    string? AudioUrl = null,
+    string? PdfUrl = null,
+    string? ContentText = null,
+    string? PracticalTask = null
 );
+
+public record MobileAssignmentDto(
+    string Id,
+    string CourseId,
+    string ChapterTitle,
+    string Title,
+    string Description,
+    string? ReferenceFileUrl,
+    DateTime? DueDateUtc,
+    int TotalMarks,
+    bool Submitted,
+    string? MySubmissionText,
+    string? MySubmissionFileUrl,
+    int? MarksObtained,
+    string? TeacherFeedback,
+    string Status
+);
+
+public record MobileSubmitAssignmentRequest(
+    string? SubmissionText,
+    string? SubmissionFileUrl
+);
+
 
 public record MobileQuizSummaryDto(
     string Id,

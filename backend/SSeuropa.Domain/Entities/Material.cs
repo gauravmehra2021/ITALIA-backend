@@ -12,4 +12,12 @@ public class Material : EntityBase
     public string StorageKey { get; set; } = string.Empty;
     public bool IsProtected { get; set; } = true;
     public int SortOrder { get; set; }
+    public string ChapterTitle { get; set; } = "Chapter 1: Getting Started";
+    public int ChapterNumber { get; set; } = 1;
+    public string? VideoUrl { get; set; }
+    public string? AudioUrl { get; set; }
+    public string? PdfUrl { get; set; }
+    public string? ContentText { get; set; }
+    public string? PracticalTask { get; set; }
+    public int DurationMinutes { get; set; } = 15;
 }

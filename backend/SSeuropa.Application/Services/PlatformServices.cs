@@ -478,6 +478,8 @@ public class DashboardService
     private readonly ISubscriptionRepository _subscriptions;
     private readonly IMaterialRepository _materials;
     private readonly IEnquiryRepository _enquiries;
+    private readonly IPasswordHasher _hasher;
+    private readonly IEmailService _emailService;
     private readonly ICurrentUserService _current;
 
     public DashboardService(
@@ -494,6 +496,8 @@ public class DashboardService
         ISubscriptionRepository subscriptions,
         IMaterialRepository materials,
         IEnquiryRepository enquiries,
+        IPasswordHasher hasher,
+        IEmailService emailService,
         ICurrentUserService current)
     {
         _enrollments = enrollments;
@@ -509,6 +513,8 @@ public class DashboardService
         _subscriptions = subscriptions;
         _materials = materials;
         _enquiries = enquiries;
+        _hasher = hasher;
+        _emailService = emailService;
         _current = current;
     }
 
@@ -619,4 +625,75 @@ public class DashboardService
         await _users.UpdateAsync(user, ct);
         return AuthService.Map(user);
     }
+
+    public async Task<UserDto> CreateUserByAdminAsync(CreateUserByAdminRequest request, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin))
+            throw new UnauthorizedAccessDomainException("Only administrators can create staff or teacher accounts.");
+
+        var existing = await _users.GetByEmailAsync(request.Email.Trim().ToLowerInvariant(), ct);
+        if (existing is not null)
+            throw new ConflictException("An account with this email already exists.");
+
+        var temporaryPassword = string.IsNullOrWhiteSpace(request.Password) ? "SSEuropa@2026" : request.Password;
+        var user = new User
+        {
+            Email = request.Email.Trim().ToLowerInvariant(),
+            PasswordHash = _hasher.Hash(temporaryPassword),
+            FirstName = request.FirstName.Trim(),
+            LastName = request.LastName.Trim(),
+            Role = request.Role,
+            Status = AccountStatus.Active,
+            EmailVerified = true,
+            PreferredLanguage = request.PreferredLanguage,
+            PhoneNumber = request.PhoneNumber,
+            IsProtectedSuperAdmin = false
+        };
+
+        await _users.AddAsync(user, ct);
+
+        // Send onboarding notification email
+        await _emailService.SendStaffInvitationAsync(
+            user.Email,
+            $"{user.FirstName} {user.LastName}",
+            request.Role.ToString(),
+            temporaryPassword,
+            ct);
+
+        return AuthService.Map(user);
+    }
+
+    public async Task SoftDeleteUserAsync(Guid userId, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin))
+            throw new UnauthorizedAccessDomainException();
+
+        var user = await _users.GetByIdAsync(userId, ct)
+            ?? throw new NotFoundException("User", userId);
+
+        if (user.IsProtectedSuperAdmin)
+            throw new ValidationDomainException("Protected Super Administrator account cannot be deleted.");
+
+        user.IsDeleted = true;
+        user.DeletedAtUtc = DateTime.UtcNow;
+        user.Status = AccountStatus.Disabled;
+
+        await _users.UpdateAsync(user, ct);
+    }
+
+    public async Task RestoreUserAsync(Guid userId, CancellationToken ct = default)
+    {
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin))
+            throw new UnauthorizedAccessDomainException();
+
+        var user = await _users.GetByIdAsync(userId, ct)
+            ?? throw new NotFoundException("User", userId);
+
+        user.IsDeleted = false;
+        user.DeletedAtUtc = null;
+        user.Status = AccountStatus.Active;
+
+        await _users.UpdateAsync(user, ct);
+    }
 }
+

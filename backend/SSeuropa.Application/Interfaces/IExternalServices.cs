@@ -44,3 +44,12 @@ public interface ICurrentUserService
     bool IsAuthenticated { get; }
     bool IsInRole(params UserRole[] roles);
 }
+
+public interface IEmailService
+{
+    Task SendStaffInvitationAsync(string toEmail, string recipientName, string role, string temporaryPassword, CancellationToken ct = default);
+    Task SendPasswordResetCodeAsync(string toEmail, string code, CancellationToken ct = default);
+    Task SendVerificationOtpAsync(string toEmail, string studentName, string code, CancellationToken ct = default);
+    Task SendAssignmentFeedbackAsync(string toEmail, string studentName, string assignmentTitle, int marks, string? feedback, CancellationToken ct = default);
+}
+

@@ -45,7 +45,8 @@ public class CourseService
             "price" => query.SortDescending ? filtered.OrderByDescending(c => c.Price) : filtered.OrderBy(c => c.Price),
             "level" => query.SortDescending ? filtered.OrderByDescending(c => c.Level) : filtered.OrderBy(c => c.Level),
             "status" => query.SortDescending ? filtered.OrderByDescending(c => c.Status) : filtered.OrderBy(c => c.Status),
-            _ => query.SortDescending ? filtered.OrderByDescending(c => c.CreatedAtUtc) : filtered.OrderBy(c => c.Title)
+            "title" => query.SortDescending ? filtered.OrderByDescending(c => c.Title) : filtered.OrderBy(c => c.Title),
+            _ => filtered.OrderByDescending(c => c.CreatedAtUtc)
         };
 
         var list = filtered.ToList();
@@ -89,7 +90,9 @@ public class CourseService
             Price = request.Price,
             Currency = request.Currency,
             DurationWeeks = request.DurationWeeks,
-            Status = CourseStatus.Draft
+            ThumbnailUrl = request.ThumbnailUrl,
+            PaymentUrl = request.PaymentUrl,
+            Status = CourseStatus.Published
         };
         await _courses.AddAsync(course, ct);
         return await MapAsync(course, ct);
@@ -112,6 +115,8 @@ public class CourseService
         course.Price = request.Price;
         course.Currency = request.Currency;
         course.DurationWeeks = request.DurationWeeks;
+        course.ThumbnailUrl = request.ThumbnailUrl ?? course.ThumbnailUrl;
+        course.PaymentUrl = request.PaymentUrl ?? course.PaymentUrl;
         course.UpdatedAtUtc = DateTime.UtcNow;
         await _courses.UpdateAsync(course, ct);
         return await MapAsync(course, ct);
@@ -173,6 +178,6 @@ public class CourseService
         return new CourseDto(
             c.Id, c.Title, c.Description, c.Level, c.Status, c.Capacity, c.EnrolledCount,
             c.MentorId, mentorName, c.Language, c.Price, c.Currency, c.ThumbnailUrl,
-            c.DurationWeeks, c.CreatedAtUtc);
+            c.DurationWeeks, c.CreatedAtUtc, c.PaymentUrl);
     }
 }

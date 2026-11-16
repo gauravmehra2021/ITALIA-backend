@@ -31,7 +31,7 @@ public class AuthController(
     {
         await loginValidator.ValidateAndThrowAsync(request, ct);
         var result = await authService.LoginAsync(request, ct);
-        return Ok(ApiResponse<AuthResponse>.Ok(result, "OTP required. Demonstration OTP returned in demoOtpHint."));
+        return Ok(ApiResponse<AuthResponse>.Ok(result, result.RequiresOtp ? "OTP required." : "Login successful."));
     }
 
     /// <summary>

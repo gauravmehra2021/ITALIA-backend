@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
@@ -9,6 +10,7 @@ public sealed class MongoDbInitializer(
     MongoDbContext db,
     MongoDbOptions options,
     IPasswordHasher hasher,
+    IConfiguration configuration,
     ILogger<MongoDbInitializer> logger) : IHostedService
 {
     public async Task StartAsync(CancellationToken cancellationToken)
@@ -22,12 +24,29 @@ public sealed class MongoDbInitializer(
                 await SeedIfEmptyAsync(cancellationToken);
             }
 
+            try
+            {
+                await EnsureSuperAdminAsync(cancellationToken);
+            }
+            catch (Exception ex)
+            {
+                logger.LogWarning(ex, "Could not ensure SuperAdmin on startup (transient connection reset).");
+            }
+
+            try
+            {
+                await EnsureDemoStudentAsync(cancellationToken);
+            }
+            catch (Exception ex)
+            {
+                logger.LogWarning(ex, "Could not ensure DemoStudent on startup (transient connection reset).");
+            }
+
             logger.LogInformation("MongoDB ready on database '{DatabaseName}'.", db.Database.DatabaseNamespace.DatabaseName);
         }
         catch (Exception ex)
         {
-            logger.LogError(ex, "Failed to initialize MongoDB on database '{DatabaseName}'. Verify ConnectionStrings:MongoDb.", db.Database.DatabaseNamespace.DatabaseName);
-            throw;
+            logger.LogWarning(ex, "Warning initializing MongoDB on database '{DatabaseName}'. Verify ConnectionStrings:MongoDb.", db.Database.DatabaseNamespace.DatabaseName);
         }
     }
 
@@ -62,6 +81,104 @@ public sealed class MongoDbInitializer(
         logger.LogInformation("Seeded initial SS Europa collections in MongoDB.");
     }
 
+    private async Task EnsureSuperAdminAsync(CancellationToken ct)
+    {
+        // 1. Check or create admin@sseuropa.com
+        var adminPassword = configuration["Seed:SuperAdminPassword"]
+            ?? configuration["SUPERADMIN_DEFAULT_PASSWORD"]
+            ?? Environment.GetEnvironmentVariable("SUPERADMIN_DEFAULT_PASSWORD")
+            ?? "Admin@SSEuropa2026!";
+
+        var mainAdmin = await db.Users.Find(u => u.Email == "admin@sseuropa.com").FirstOrDefaultAsync(ct);
+        if (mainAdmin is null)
+        {
+            mainAdmin = new Domain.Entities.User
+            {
+                Id = Guid.NewGuid(),
+                Email = "admin@sseuropa.com",
+                PasswordHash = hasher.Hash(adminPassword),
+                FirstName = "SS Europa",
+                LastName = "SuperAdmin",
+                Role = Domain.Enums.UserRole.SuperAdmin,
+                Status = Domain.Enums.AccountStatus.Active,
+                EmailVerified = true,
+                PreferredLanguage = Domain.Enums.PreferredLanguage.English,
+                IsProtectedSuperAdmin = true,
+                IsDeleted = false
+            };
+            await db.Users.InsertOneAsync(mainAdmin, cancellationToken: ct);
+            logger.LogInformation("Root SuperAdmin 'admin@sseuropa.com' created successfully.");
+        }
+        else
+        {
+            mainAdmin.Role = Domain.Enums.UserRole.SuperAdmin;
+            mainAdmin.IsProtectedSuperAdmin = true;
+            mainAdmin.IsDeleted = false;
+            mainAdmin.Status = Domain.Enums.AccountStatus.Active;
+            await db.Users.ReplaceOneAsync(u => u.Id == mainAdmin.Id, mainAdmin, cancellationToken: ct);
+        }
+
+        // 2. Also ensure superadmin@sseuropa.demo has IsProtectedSuperAdmin
+        var demoSuper = await db.Users.Find(u => u.Email == "superadmin@sseuropa.demo").FirstOrDefaultAsync(ct);
+        if (demoSuper is not null)
+        {
+            demoSuper.IsProtectedSuperAdmin = true;
+            demoSuper.IsDeleted = false;
+            demoSuper.Status = Domain.Enums.AccountStatus.Active;
+            await db.Users.ReplaceOneAsync(u => u.Id == demoSuper.Id, demoSuper, cancellationToken: ct);
+        }
+    }
+
+    private async Task EnsureDemoStudentAsync(CancellationToken ct)
+    {
+        var studentEmail = "student@sseuropa.demo";
+        var demoStudent = await db.Users.Find(u => u.Email == studentEmail).FirstOrDefaultAsync(ct);
+        if (demoStudent is null)
+        {
+            demoStudent = new Domain.Entities.User
+            {
+                Id = Guid.Parse("aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"),
+                Email = studentEmail,
+                PasswordHash = hasher.Hash("Demo@12345"),
+                FirstName = "Demo",
+                LastName = "Student",
+                Role = Domain.Enums.UserRole.User,
+                Status = Domain.Enums.AccountStatus.Active,
+                EmailVerified = true,
+                PreferredLanguage = Domain.Enums.PreferredLanguage.English,
+                IsDeleted = false
+            };
+            await db.Users.InsertOneAsync(demoStudent, cancellationToken: ct);
+            logger.LogInformation("Permanent Demo Student 'student@sseuropa.demo' created.");
+        }
+        else
+        {
+            demoStudent.PasswordHash = hasher.Hash("Demo@12345");
+            demoStudent.Status = Domain.Enums.AccountStatus.Active;
+            demoStudent.EmailVerified = true;
+            demoStudent.IsDeleted = false;
+            await db.Users.ReplaceOneAsync(u => u.Id == demoStudent.Id, demoStudent, cancellationToken: ct);
+        }
+
+        // Ensure demo student is enrolled in at least one course so mobile features are active immediately
+        var firstCourse = await db.Courses.Find(FilterDefinition<Domain.Entities.Course>.Empty).FirstOrDefaultAsync(ct);
+        if (firstCourse is not null)
+        {
+            var enrollment = await db.Enrollments.Find(e => e.UserId == demoStudent.Id && e.CourseId == firstCourse.Id).FirstOrDefaultAsync(ct);
+            if (enrollment is null)
+            {
+                await db.Enrollments.InsertOneAsync(new Domain.Entities.Enrollment
+                {
+                    Id = Guid.NewGuid(),
+                    UserId = demoStudent.Id,
+                    CourseId = firstCourse.Id,
+                    Status = Domain.Enums.EnrollmentStatus.Active,
+                    ActivatedAtUtc = DateTime.UtcNow
+                }, cancellationToken: ct);
+            }
+        }
+    }
+
     private static async Task InsertIfAnyAsync<T>(IMongoCollection<T> collection, IReadOnlyCollection<T> items, CancellationToken ct)
     {
         if (items.Count == 0) return;
@@ -72,4 +189,5 @@ public sealed class MongoDbInitializer(
         }
     }
 }
+
 

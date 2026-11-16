@@ -27,6 +27,10 @@ public sealed class MongoDbContext
 
         var mongoUrl = MongoUrl.Create(options.ConnectionString);
         var settings = MongoClientSettings.FromUrl(mongoUrl);
+        settings.RetryReads = true;
+        settings.RetryWrites = true;
+        settings.ConnectTimeout = TimeSpan.FromSeconds(20);
+        settings.SocketTimeout = TimeSpan.FromSeconds(30);
         if (settings.UseTls)
         {
             settings.SslSettings ??= new SslSettings();
@@ -61,6 +65,8 @@ public sealed class MongoDbContext
     public IMongoCollection<AuditLog> AuditLogs => Database.GetCollection<AuditLog>("audit_logs");
     public IMongoCollection<AiSession> AiSessions => Database.GetCollection<AiSession>("ai_sessions");
     public IMongoCollection<Enquiry> Enquiries => Database.GetCollection<Enquiry>("enquiries");
+    public IMongoCollection<Assignment> Assignments => Database.GetCollection<Assignment>("assignments");
+    public IMongoCollection<AssignmentSubmission> AssignmentSubmissions => Database.GetCollection<AssignmentSubmission>("assignment_submissions");
 
     public async Task EnsureIndexesAsync(CancellationToken ct = default)
     {

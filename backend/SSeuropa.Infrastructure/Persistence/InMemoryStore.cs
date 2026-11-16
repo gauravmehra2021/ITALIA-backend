@@ -29,6 +29,9 @@ public class InMemoryStore
     public List<AuditLog> AuditLogs { get; } = [];
     public List<AiSession> AiSessions { get; } = [];
     public List<Enquiry> Enquiries { get; } = [];
+    public List<Assignment> Assignments { get; } = [];
+    public List<AssignmentSubmission> AssignmentSubmissions { get; } = [];
+
 
     public static InMemoryStore CreateSeeded(Func<string, string> hashPassword)
     {
@@ -182,7 +185,7 @@ public class InMemoryStore
                 ScheduledAtUtc = DateTime.UtcNow.AddDays(2).Date.AddHours(16),
                 DurationMinutes = 60,
                 Status = ClassStatus.Scheduled,
-                MeetingUrl = "https://meet.google.com/mock-essentials-w1",
+                MeetingUrl = "https://meet.google.com/uyj-tfhh-zsq",
                 MeetingProvider = "GoogleMeet"
             },
             new ClassSession
@@ -194,7 +197,7 @@ public class InMemoryStore
                 ScheduledAtUtc = DateTime.UtcNow.AddDays(4).Date.AddHours(18),
                 DurationMinutes = 75,
                 Status = ClassStatus.Scheduled,
-                MeetingUrl = "https://meet.google.com/mock-conversation-w3",
+                MeetingUrl = "https://meet.google.com/uyj-tfhh-zsq",
                 MeetingProvider = "GoogleMeet"
             }
         ]);

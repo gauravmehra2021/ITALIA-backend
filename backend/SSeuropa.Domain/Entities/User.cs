@@ -15,6 +15,7 @@ public class User : EntityBase
     public bool EmailVerified { get; set; }
     public string? PhoneNumber { get; set; }
     public DateTime? LastLoginAtUtc { get; set; }
+    public bool IsProtectedSuperAdmin { get; set; } = false;
 
     public string FullName => $"{FirstName} {LastName}".Trim();
 }

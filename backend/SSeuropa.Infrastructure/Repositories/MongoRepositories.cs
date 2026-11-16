@@ -439,3 +439,54 @@ public class MongoEnquiryRepository(MongoDbContext db) : IEnquiryRepository
         db.Enquiries.DeleteOneAsync(e => e.Id == id, ct);
 }
 
+public class MongoAssignmentRepository(MongoDbContext db) : IAssignmentRepository
+{
+    public async Task<Assignment?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
+        await db.Assignments.Find(a => a.Id == id && !a.IsDeleted).FirstOrDefaultAsync(ct);
+
+    public async Task<IReadOnlyList<Assignment>> GetByCourseAsync(Guid courseId, CancellationToken ct = default) =>
+        await db.Assignments.Find(a => a.CourseId == courseId && !a.IsDeleted && a.IsActive).ToListAsync(ct);
+
+    public async Task<Assignment> AddAsync(Assignment assignment, CancellationToken ct = default)
+    {
+        await db.Assignments.InsertOneAsync(assignment, cancellationToken: ct);
+        return assignment;
+    }
+
+    public Task UpdateAsync(Assignment assignment, CancellationToken ct = default) =>
+        MongoRepoHelpers.ReplaceAsync(db.Assignments, assignment, ct);
+
+    public async Task DeleteAsync(Guid id, CancellationToken ct = default)
+    {
+        var assignment = await db.Assignments.Find(a => a.Id == id).FirstOrDefaultAsync(ct);
+        if (assignment is not null)
+        {
+            assignment.IsDeleted = true;
+            assignment.DeletedAtUtc = DateTime.UtcNow;
+            await MongoRepoHelpers.ReplaceAsync(db.Assignments, assignment, ct);
+        }
+    }
+
+    public async Task<AssignmentSubmission?> GetSubmissionByIdAsync(Guid id, CancellationToken ct = default) =>
+        await db.AssignmentSubmissions.Find(s => s.Id == id).FirstOrDefaultAsync(ct);
+
+    public async Task<IReadOnlyList<AssignmentSubmission>> GetSubmissionsByAssignmentAsync(Guid assignmentId, CancellationToken ct = default) =>
+        await db.AssignmentSubmissions.Find(s => s.AssignmentId == assignmentId).SortByDescending(s => s.SubmittedAtUtc).ToListAsync(ct);
+
+    public async Task<IReadOnlyList<AssignmentSubmission>> GetSubmissionsByStudentAsync(Guid studentId, CancellationToken ct = default) =>
+        await db.AssignmentSubmissions.Find(s => s.StudentId == studentId).SortByDescending(s => s.SubmittedAtUtc).ToListAsync(ct);
+
+    public async Task<AssignmentSubmission?> GetStudentSubmissionForAssignmentAsync(Guid assignmentId, Guid studentId, CancellationToken ct = default) =>
+        await db.AssignmentSubmissions.Find(s => s.AssignmentId == assignmentId && s.StudentId == studentId).FirstOrDefaultAsync(ct);
+
+    public async Task<AssignmentSubmission> AddSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default)
+    {
+        await db.AssignmentSubmissions.InsertOneAsync(submission, cancellationToken: ct);
+        return submission;
+    }
+
+    public Task UpdateSubmissionAsync(AssignmentSubmission submission, CancellationToken ct = default) =>
+        MongoRepoHelpers.ReplaceAsync(db.AssignmentSubmissions, submission, ct);
+}
+
+

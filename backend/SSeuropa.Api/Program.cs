@@ -5,7 +5,30 @@ using SSeuropa.Application;
 using SSeuropa.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Load local .env file if present
+var envFile = Path.Combine(Directory.GetCurrentDirectory(), ".env");
+if (File.Exists(envFile))
+{
+    foreach (var line in File.ReadAllLines(envFile))
+    {
+        var trimmed = line.Trim();
+        if (string.IsNullOrEmpty(trimmed) || trimmed.StartsWith('#')) continue;
+        var parts = trimmed.Split('=', 2);
+        if (parts.Length == 2)
+        {
+            var key = parts[0].Trim();
+            var val = parts[1].Trim().Trim('"', '\'');
+            if (string.IsNullOrEmpty(Environment.GetEnvironmentVariable(key)))
+            {
+                Environment.SetEnvironmentVariable(key, val);
+            }
+        }
+    }
+}
+
 builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
+builder.Configuration.AddEnvironmentVariables();
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -86,6 +109,25 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("Frontend");
+
+var uploadsDir = Path.Combine(app.Environment.ContentRootPath, "uploads");
+if (!Directory.Exists(uploadsDir))
+{
+    Directory.CreateDirectory(uploadsDir);
+}
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(uploadsDir),
+    RequestPath = "/uploads",
+    ServeUnknownFileTypes = true,
+    OnPrepareResponse = ctx =>
+    {
+        ctx.Context.Response.Headers["Accept-Ranges"] = "bytes";
+        ctx.Context.Response.Headers["Access-Control-Allow-Origin"] = "*";
+    }
+});
+
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
