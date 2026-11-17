@@ -134,6 +134,11 @@ public class DashboardController(DashboardService service) : ControllerBase
     public async Task<ActionResult<ApiResponse<AdminDashboardDto>>> Admin(CancellationToken ct)
         => Ok(ApiResponse<AdminDashboardDto>.Ok(await service.GetAdminAsync(ct)));
 
+    [HttpGet("superadmin")]
+    [Authorize(Roles = "SuperAdmin")]
+    public async Task<ActionResult<ApiResponse<SuperAdminDashboardDto>>> SuperAdmin(CancellationToken ct)
+        => Ok(ApiResponse<SuperAdminDashboardDto>.Ok(await service.GetSuperAdminAsync(ct)));
+
     [HttpGet("mentor")]
     public async Task<ActionResult<ApiResponse<MentorDashboardDto>>> Mentor(CancellationToken ct)
         => Ok(ApiResponse<MentorDashboardDto>.Ok(await service.GetMentorAsync(ct)));
@@ -145,7 +150,7 @@ public class DashboardController(DashboardService service) : ControllerBase
 }
 
 [ApiController]
-[Authorize(Roles = "Admin,SuperAdmin")]
+[Authorize(Roles = "SuperAdmin")]
 [Route("api/users")]
 public class UsersController(DashboardService service) : ControllerBase
 {

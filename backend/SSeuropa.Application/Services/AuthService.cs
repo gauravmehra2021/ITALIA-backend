@@ -100,7 +100,7 @@ public class AuthService
         var user = await _users.GetByEmailAsync(request.Email.Trim().ToLowerInvariant(), ct)
             ?? throw new NotFoundException($"Demo user '{request.Email}' was not found. Use a seeded account.");
 
-        return await CompleteLoginAsync(user, request.DeviceId, request.DeviceName, ct);
+        return await CompleteLoginAsync(user, request.DeviceId, request.DeviceName, ct, isDemo: true);
     }
 
     public async Task<AuthResponse> VerifyOtpAsync(VerifyOtpRequest request, CancellationToken ct = default)
@@ -358,7 +358,7 @@ public class AuthService
         throw new NotFoundException("Session", sessionId);
     }
 
-    private async Task<AuthResponse> CompleteLoginAsync(User user, string deviceId, string deviceName, CancellationToken ct)
+    private async Task<AuthResponse> CompleteLoginAsync(User user, string deviceId, string deviceName, CancellationToken ct, bool isDemo = false)
     {
         // One active device/session per student
         var existing = await _sessions.GetActiveByUserAsync(user.Id, ct);
@@ -402,7 +402,7 @@ public class AuthService
             RequiresOtp: false,
             PendingUserId: null,
             DemoOtpHint: null,
-            IsDemonstrationOnly: true);
+            IsDemonstrationOnly: isDemo);
     }
 
     private async Task<OtpChallenge> IssueOtpAsync(Guid userId, string purpose, CancellationToken ct)

@@ -35,12 +35,19 @@ public class AuthController(
     }
 
     /// <summary>
-    /// Demonstration-only login that skips OTP. Not for production.
+    /// Demonstration-only login that skips the password. Available in Development only:
+    /// in any other environment it returns 404 so nobody can sign in with just an email.
     /// </summary>
     [HttpPost("demo-login")]
     [AllowAnonymous]
-    public async Task<ActionResult<ApiResponse<AuthResponse>>> DemoLogin(DemoLoginRequest request, CancellationToken ct)
+    public async Task<ActionResult<ApiResponse<AuthResponse>>> DemoLogin(
+        DemoLoginRequest request,
+        [FromServices] IWebHostEnvironment env,
+        CancellationToken ct)
     {
+        if (!env.IsDevelopment())
+            return NotFound();
+
         var result = await authService.DemoLoginAsync(request, ct);
         return Ok(ApiResponse<AuthResponse>.Ok(result, "DEMONSTRATION ONLY — insecure mock authentication."));
     }

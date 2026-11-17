@@ -246,26 +246,41 @@ public record DashboardStatsDto(
     decimal AverageProgress,
     int UnreadNotifications);
 
+/// <summary>Operations overview shown to Admins (and embedded in the Super Admin dashboard).</summary>
 public record AdminDashboardDto(
-    int TotalUsers,
+    int TotalStudents,
     int TotalCourses,
+    int PublishedCourses,
     int ActiveEnrollments,
-    int OpenTickets,
-    decimal TotalRevenue,
-    int ActiveSubscriptions);
+    int UpcomingClasses,
+    int NewEnquiries,
+    int InFollowUpEnquiries,
+    int EnrolledEnquiries);
 
+/// <summary>Team overview for the single Super Admin, plus the operations overview.</summary>
+public record SuperAdminDashboardDto(
+    int Admins,
+    int Staff,
+    int Teachers,
+    int Students,
+    int SuspendedTeamAccounts,
+    AdminDashboardDto Operations);
+
+/// <summary>Teacher (internal role: Mentor) dashboard.</summary>
 public record MentorDashboardDto(
     int AssignedClasses,
     int AssignedStudents,
     int Materials,
-    int PendingAttendance);
+    int PendingAttendance,
+    int UpcomingClasses = 0,
+    int CoursesTaught = 0);
 
 public record StaffDashboardDto(
     int TotalEnquiries,
     int NewEnquiries,
     int InFollowUpEnquiries,
     int EnrolledEnquiries,
-    int OpenTickets,
+    int ClosedEnquiries,
     int UnreadNotifications);
 
 public record AuditLogDto(Guid Id, Guid? ActorUserId, string Action, string Resource, string Details, DateTime CreatedAtUtc);

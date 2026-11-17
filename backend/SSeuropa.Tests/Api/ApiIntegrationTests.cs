@@ -324,7 +324,7 @@ public class ApiIntegrationTests : IClassFixture<WebApplicationFactory<Program>>
     private sealed record Paged(List<object> Items, int Page, int PageSize, int TotalCount);
     private sealed record AuthData(string AccessToken);
     private sealed record EnquiryRecord(Guid Id, string FullName, string Email, string InterestedCourse, string PreferredLanguage);
-    private sealed record StaffDashboardRecord(int TotalEnquiries, int NewEnquiries, int InFollowUpEnquiries, int EnrolledEnquiries, int OpenTickets, int UnreadNotifications);
+    private sealed record StaffDashboardRecord(int TotalEnquiries, int NewEnquiries, int InFollowUpEnquiries, int EnrolledEnquiries, int ClosedEnquiries, int UnreadNotifications);
     private sealed record MobileChallengeRecord(string ChallengeId, string ExpiresAt);
     private sealed record MobileSessionRecord(string AccessToken, string RefreshToken, MobileStudentRecord Student);
     private sealed record MobileStudentRecord(string Id, string DisplayName, string Email, string PreferredLanguage);

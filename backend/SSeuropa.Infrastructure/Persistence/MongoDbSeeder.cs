@@ -118,14 +118,25 @@ public sealed class MongoDbInitializer(
             await db.Users.ReplaceOneAsync(u => u.Id == mainAdmin.Id, mainAdmin, cancellationToken: ct);
         }
 
-        // 2. Also ensure superadmin@sseuropa.demo has IsProtectedSuperAdmin
-        var demoSuper = await db.Users.Find(u => u.Email == "superadmin@sseuropa.demo").FirstOrDefaultAsync(ct);
-        if (demoSuper is not null)
+        // 2. There is exactly ONE Super Admin: admin@sseuropa.com.
+        //    Any other account holding the role is downgraded to Admin. The seeded demo
+        //    super admin (superadmin@sseuropa.demo, password in source) is also suspended.
+        var otherSuperAdmins = await db.Users
+            .Find(u => u.Id != mainAdmin.Id && (u.Role == Domain.Enums.UserRole.SuperAdmin || u.IsProtectedSuperAdmin))
+            .ToListAsync(ct);
+        foreach (var extra in otherSuperAdmins)
         {
-            demoSuper.IsProtectedSuperAdmin = true;
-            demoSuper.IsDeleted = false;
-            demoSuper.Status = Domain.Enums.AccountStatus.Active;
-            await db.Users.ReplaceOneAsync(u => u.Id == demoSuper.Id, demoSuper, cancellationToken: ct);
+            extra.Role = Domain.Enums.UserRole.Admin;
+            extra.IsProtectedSuperAdmin = false;
+            if (string.Equals(extra.Email, "superadmin@sseuropa.demo", StringComparison.OrdinalIgnoreCase))
+            {
+                extra.Status = Domain.Enums.AccountStatus.Suspended;
+            }
+            await db.Users.ReplaceOneAsync(u => u.Id == extra.Id, extra, cancellationToken: ct);
+            logger.LogWarning(
+                "Removed Super Admin role from {Email} (now Admin{Suspended}). admin@sseuropa.com is the only Super Admin.",
+                extra.Email,
+                extra.Status == Domain.Enums.AccountStatus.Suspended ? ", suspended" : string.Empty);
         }
     }
 
