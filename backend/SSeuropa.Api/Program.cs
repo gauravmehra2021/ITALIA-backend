@@ -110,6 +110,16 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("Frontend");
 
+// Built-in course media (illustrations, PDF study sheets) from wwwroot/content.
+app.UseStaticFiles(new StaticFileOptions
+{
+    OnPrepareResponse = ctx =>
+    {
+        ctx.Context.Response.Headers["Access-Control-Allow-Origin"] = "*";
+        ctx.Context.Response.Headers["Cache-Control"] = "public, max-age=604800";
+    }
+});
+
 var uploadsDir = Path.Combine(app.Environment.ContentRootPath, "uploads");
 if (!Directory.Exists(uploadsDir))
 {

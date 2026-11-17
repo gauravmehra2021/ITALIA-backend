@@ -186,3 +186,29 @@ public interface ILearningResourceRepository
 }
 
 
+
+/// <summary>Units, lessons and per-student lesson progress for the course curriculum.</summary>
+public interface ICurriculumRepository
+{
+    Task<IReadOnlyList<CourseUnit>> GetUnitsAsync(Guid courseId, CancellationToken ct = default);
+    Task<CourseUnit?> GetUnitAsync(Guid id, CancellationToken ct = default);
+    Task AddUnitAsync(CourseUnit unit, CancellationToken ct = default);
+    Task UpdateUnitAsync(CourseUnit unit, CancellationToken ct = default);
+    Task DeleteUnitAsync(Guid id, CancellationToken ct = default);
+
+    Task<IReadOnlyList<Lesson>> GetLessonsByCourseAsync(Guid courseId, CancellationToken ct = default);
+    Task<IReadOnlyList<Lesson>> GetLessonsByUnitAsync(Guid unitId, CancellationToken ct = default);
+    Task<Lesson?> GetLessonAsync(Guid id, CancellationToken ct = default);
+    Task AddLessonAsync(Lesson lesson, CancellationToken ct = default);
+    Task UpdateLessonAsync(Lesson lesson, CancellationToken ct = default);
+    Task DeleteLessonAsync(Guid id, CancellationToken ct = default);
+
+    Task<IReadOnlyList<LessonProgress>> GetProgressAsync(Guid userId, Guid courseId, CancellationToken ct = default);
+    Task<IReadOnlyList<LessonProgress>> GetAllProgressForUserAsync(Guid userId, CancellationToken ct = default);
+    Task<IReadOnlyList<LessonProgress>> GetProgressForCourseAsync(Guid courseId, CancellationToken ct = default);
+    Task<LessonProgress?> GetLessonProgressAsync(Guid userId, Guid lessonId, CancellationToken ct = default);
+    Task UpsertProgressAsync(LessonProgress progress, CancellationToken ct = default);
+
+    /// <summary>Removes every unit, lesson and progress record of a course.</summary>
+    Task DeleteCourseCurriculumAsync(Guid courseId, CancellationToken ct = default);
+}

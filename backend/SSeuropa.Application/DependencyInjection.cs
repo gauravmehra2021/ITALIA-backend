@@ -11,6 +11,7 @@ public static class DependencyInjection
         services.AddValidatorsFromAssemblyContaining<Validation.RegisterRequestValidator>();
         services.AddScoped<AuthService>();
         services.AddScoped<CourseService>();
+        services.AddScoped<CurriculumService>();
         services.AddScoped<ClassService>();
         services.AddScoped<MaterialService>();
         services.AddScoped<AssessmentService>();

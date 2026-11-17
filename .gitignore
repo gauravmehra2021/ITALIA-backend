@@ -39,3 +39,6 @@ extract-doc.ps1
 **/.build-tmp/
 **/.bundle/
 
+
+# Content build cache
+content/.cache/

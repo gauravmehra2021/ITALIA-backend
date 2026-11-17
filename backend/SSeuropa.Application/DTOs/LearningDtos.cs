@@ -24,7 +24,9 @@ public record CourseDto(
     string? Objectives = null,
     int DisplayOrder = 0,
     int ModulesCount = 0,
-    int LessonsCount = 0);
+    int LessonsCount = 0,
+    string CefrLevel = "A1",
+    string Category = "Core");
 
 public record CourseStatsDto(
     int TotalCourses,
@@ -50,7 +52,9 @@ public record CreateCourseRequest(
     string? ShortDescription = null,
     string? Objectives = null,
     int DisplayOrder = 0,
-    CourseStatus Status = CourseStatus.Draft);
+    CourseStatus Status = CourseStatus.Draft,
+    string? CefrLevel = null,
+    string? Category = null);
 
 public record UpdateCourseRequest(
     string Title,
@@ -68,7 +72,9 @@ public record UpdateCourseRequest(
     string? Slug = null,
     string? ShortDescription = null,
     string? Objectives = null,
-    int DisplayOrder = 0);
+    int DisplayOrder = 0,
+    string? CefrLevel = null,
+    string? Category = null);
 
 public record ClassSessionDto(
     Guid Id,

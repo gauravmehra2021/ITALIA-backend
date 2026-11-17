@@ -14,6 +14,7 @@ public class CourseService
     private readonly IEnrollmentRepository _enrollments;
     private readonly IMaterialRepository? _materials;
     private readonly ICurrentUserService _current;
+    private readonly ICurriculumRepository? _curriculum;
 
     public CourseService(
         ICourseRepository courses,
@@ -30,7 +31,19 @@ public class CourseService
         IEnrollmentRepository enrollments,
         IMaterialRepository? materials,
         ICurrentUserService current)
+        : this(courses, users, enrollments, materials, current, null)
     {
+    }
+
+    public CourseService(
+        ICourseRepository courses,
+        IUserRepository users,
+        IEnrollmentRepository enrollments,
+        IMaterialRepository? materials,
+        ICurrentUserService current,
+        ICurriculumRepository? curriculum)
+    {
+        _curriculum = curriculum;
         _courses = courses;
         _users = users;
         _enrollments = enrollments;
@@ -151,7 +164,9 @@ public class CourseService
             ThumbnailUrl = request.ThumbnailUrl,
             PaymentUrl = request.PaymentUrl,
             Status = request.Status,
-            DisplayOrder = request.DisplayOrder
+            DisplayOrder = request.DisplayOrder,
+            CefrLevel = string.IsNullOrWhiteSpace(request.CefrLevel) ? "A1" : request.CefrLevel.Trim().ToUpperInvariant(),
+            Category = string.IsNullOrWhiteSpace(request.Category) ? "Core" : request.Category.Trim()
         };
 
         await _courses.AddAsync(course, ct);
@@ -184,6 +199,8 @@ public class CourseService
         course.DisplayOrder = request.DisplayOrder;
         course.ThumbnailUrl = request.ThumbnailUrl ?? course.ThumbnailUrl;
         course.PaymentUrl = request.PaymentUrl ?? course.PaymentUrl;
+        if (!string.IsNullOrWhiteSpace(request.CefrLevel)) course.CefrLevel = request.CefrLevel.Trim().ToUpperInvariant();
+        if (!string.IsNullOrWhiteSpace(request.Category)) course.Category = request.Category.Trim();
         course.UpdatedAtUtc = DateTime.UtcNow;
 
         await _courses.UpdateAsync(course, ct);
@@ -207,6 +224,7 @@ public class CourseService
         if (_current.Role == UserRole.Mentor && course.MentorId.HasValue && course.MentorId != _current.UserId)
             throw new UnauthorizedAccessDomainException("Teachers can only delete their own courses.");
 
+        if (_curriculum != null) await _curriculum.DeleteCourseCurriculumAsync(id, ct);
         await _courses.DeleteAsync(id, ct);
     }
 
@@ -253,11 +271,20 @@ public class CourseService
             mentorName = mentor?.FullName;
         }
 
-        var mats = _materials != null ? await _materials.GetByCourseAsync(c.Id, ct) : (IReadOnlyList<Material>)Array.Empty<Material>();
-        var modulesCount = mats.Select(m => m.ModuleTitle).Distinct().Count();
-        if (modulesCount == 0) modulesCount = 6;
-        var lessonsCount = mats.Count;
-        if (lessonsCount == 0) lessonsCount = 24;
+        // Real counts: curriculum units/lessons when present, otherwise legacy materials.
+        int modulesCount, lessonsCount;
+        var units = _curriculum != null ? await _curriculum.GetUnitsAsync(c.Id, ct) : [];
+        if (units.Count > 0)
+        {
+            modulesCount = units.Count;
+            lessonsCount = (await _curriculum!.GetLessonsByCourseAsync(c.Id, ct)).Count;
+        }
+        else
+        {
+            var mats = _materials != null ? await _materials.GetByCourseAsync(c.Id, ct) : (IReadOnlyList<Material>)Array.Empty<Material>();
+            modulesCount = mats.Select(m => m.ModuleTitle).Distinct().Count();
+            lessonsCount = mats.Count;
+        }
 
         return new CourseDto(
             c.Id, c.Title, c.Description, c.Level, c.Status, c.Capacity, c.EnrolledCount,
@@ -268,7 +295,9 @@ public class CourseService
             Objectives: c.Objectives,
             DisplayOrder: c.DisplayOrder,
             ModulesCount: modulesCount,
-            LessonsCount: lessonsCount);
+            LessonsCount: lessonsCount,
+            CefrLevel: c.CefrLevel,
+            Category: c.Category);
     }
 
     private static string GenerateSlug(string title)

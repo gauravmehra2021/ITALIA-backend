@@ -1,0 +1,12 @@
+{
+  "name": "sseuropa-course-content",
+  "private": true,
+  "type": "module",
+  "description": "Source content for SS Europa courses. `npm run build` downloads illustrations, generates exercises and PDF study sheets, and writes the seed JSON the API loads on startup.",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "pdfkit": "0.15.2"
+  }
+}

@@ -109,3 +109,52 @@ public enum EnquiryStatus
     Enrolled = 3,
     Closed = 4
 }
+
+// ── Curriculum ──────────────────────────────────────────────────────────────
+
+public enum LessonStatus
+{
+    Draft = 0,
+    Published = 1
+}
+
+public enum LessonKind
+{
+    Vocabulary = 0,
+    Dialogue = 1,
+    Grammar = 2,
+    Review = 3,
+    Video = 4,
+    Exam = 5
+}
+
+public enum LessonBlockType
+{
+    Text = 0,
+    Vocabulary = 1,
+    Dialogue = 2,
+    Video = 3,
+    Audio = 4,
+    Image = 5,
+    Pdf = 6,
+    Tip = 7,
+    Table = 8
+}
+
+public enum ExerciseType
+{
+    /// <summary>Hear an Italian word, pick the matching picture (or word).</summary>
+    ListenPick = 0,
+    /// <summary>See an Italian word/sentence, pick the English meaning.</summary>
+    PickTranslation = 1,
+    /// <summary>See a picture, pick the Italian word.</summary>
+    PickWord = 2,
+    /// <summary>Match Italian and English pairs.</summary>
+    MatchPairs = 3,
+    /// <summary>Choose the missing word in a sentence (multiple choice).</summary>
+    FillBlank = 4,
+    /// <summary>Put the words in the right order.</summary>
+    WordOrder = 5,
+    /// <summary>Read/listen and decide true or false.</summary>
+    TrueFalse = 6
+}

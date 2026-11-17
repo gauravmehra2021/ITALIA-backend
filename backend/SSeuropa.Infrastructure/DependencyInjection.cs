@@ -87,6 +87,7 @@ public static class DependencyInjection
             services.AddSingleton(options);
             services.AddSingleton<MongoDbContext>();
             services.AddHostedService<MongoDbInitializer>();
+            services.AddHostedService<CourseContentSeeder>();
             services.AddHealthChecks().AddCheck<MongoHealthCheck>("mongodb");
 
             services.AddScoped<IUserRepository, MongoUserRepository>();
@@ -110,12 +111,14 @@ public static class DependencyInjection
             services.AddScoped<IEnquiryRepository, MongoEnquiryRepository>();
             services.AddScoped<IAssignmentRepository, MongoAssignmentRepository>();
             services.AddScoped<ILearningResourceRepository, MongoLearningResourceRepository>();
+            services.AddScoped<ICurriculumRepository, MongoCurriculumRepository>();
             return;
         }
 
         if (string.Equals(provider, "InMemory", StringComparison.OrdinalIgnoreCase))
         {
             services.AddSingleton(InMemoryStore.CreateSeeded(hasher.Hash));
+            services.AddHostedService<CourseContentSeeder>();
             services.AddScoped<IUserRepository, InMemoryUserRepository>();
             services.AddScoped<ISessionRepository, InMemorySessionRepository>();
             services.AddScoped<IOtpRepository, InMemoryOtpRepository>();
@@ -137,6 +140,7 @@ public static class DependencyInjection
             services.AddScoped<IEnquiryRepository, InMemoryEnquiryRepository>();
             services.AddScoped<IAssignmentRepository, InMemoryAssignmentRepository>();
             services.AddScoped<ILearningResourceRepository, InMemoryLearningResourceRepository>();
+            services.AddScoped<ICurriculumRepository, InMemoryCurriculumRepository>();
             return;
         }
 

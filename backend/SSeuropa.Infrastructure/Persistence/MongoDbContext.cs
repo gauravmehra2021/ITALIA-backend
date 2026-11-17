@@ -52,6 +52,9 @@ public sealed class MongoDbContext
     public IMongoCollection<ClassSession> Classes => Database.GetCollection<ClassSession>("class_sessions");
     public IMongoCollection<Enrollment> Enrollments => Database.GetCollection<Enrollment>("enrollments");
     public IMongoCollection<Material> Materials => Database.GetCollection<Material>("materials");
+    public IMongoCollection<CourseUnit> CourseUnits => Database.GetCollection<CourseUnit>("course_units");
+    public IMongoCollection<Lesson> Lessons => Database.GetCollection<Lesson>("lessons");
+    public IMongoCollection<LessonProgress> LessonProgress => Database.GetCollection<LessonProgress>("lesson_progress");
     public IMongoCollection<Assessment> Assessments => Database.GetCollection<Assessment>("assessments");
     public IMongoCollection<TestAttempt> Attempts => Database.GetCollection<TestAttempt>("test_attempts");
     public IMongoCollection<AttendanceRecord> Attendance => Database.GetCollection<AttendanceRecord>("attendance_records");
@@ -71,6 +74,24 @@ public sealed class MongoDbContext
 
     public async Task EnsureIndexesAsync(CancellationToken ct = default)
     {
+        await CourseUnits.Indexes.CreateOneAsync(
+            new CreateIndexModel<CourseUnit>(Builders<CourseUnit>.IndexKeys.Ascending(u => u.CourseId).Ascending(u => u.Order)),
+            cancellationToken: ct);
+        await Lessons.Indexes.CreateOneAsync(
+            new CreateIndexModel<Lesson>(Builders<Lesson>.IndexKeys.Ascending(l => l.UnitId).Ascending(l => l.Order)),
+            cancellationToken: ct);
+        await Lessons.Indexes.CreateOneAsync(
+            new CreateIndexModel<Lesson>(Builders<Lesson>.IndexKeys.Ascending(l => l.CourseId)),
+            cancellationToken: ct);
+        await LessonProgress.Indexes.CreateOneAsync(
+            new CreateIndexModel<LessonProgress>(
+                Builders<LessonProgress>.IndexKeys.Ascending(p => p.UserId).Ascending(p => p.LessonId),
+                new CreateIndexOptions { Unique = true }),
+            cancellationToken: ct);
+        await LessonProgress.Indexes.CreateOneAsync(
+            new CreateIndexModel<LessonProgress>(Builders<LessonProgress>.IndexKeys.Ascending(p => p.CourseId)),
+            cancellationToken: ct);
+
         await Users.Indexes.CreateOneAsync(
             new CreateIndexModel<User>(
                 Builders<User>.IndexKeys.Ascending(u => u.Email),

@@ -22,4 +22,8 @@ public class Course : EntityBase
     public string? PaymentUrl { get; set; }
     public int DurationWeeks { get; set; } = 8;
     public int DisplayOrder { get; set; } = 0;
+    /// <summary>CEFR level the course targets, e.g. "A1".</summary>
+    public string CefrLevel { get; set; } = "A1";
+    /// <summary>Core, Work, Study or Visit.</summary>
+    public string Category { get; set; } = "Core";
 }
