@@ -125,7 +125,9 @@ public enum LessonKind
     Grammar = 2,
     Review = 3,
     Video = 4,
-    Exam = 5
+    Exam = 5,
+    /// <summary>Speaking practice: a role-play where the learner answers out loud.</summary>
+    Conversation = 6
 }
 
 public enum LessonBlockType
@@ -138,7 +140,9 @@ public enum LessonBlockType
     Image = 5,
     Pdf = 6,
     Tip = 7,
-    Table = 8
+    Table = 8,
+    /// <summary>Interactive role-play: lines marked IsLearner are the learner's turns.</summary>
+    Roleplay = 9
 }
 
 public enum ExerciseType

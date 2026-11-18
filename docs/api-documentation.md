@@ -1,7 +1,7 @@
 # SS Europa API Documentation
 
-Base URL (local): `http://localhost:5057`  
-Swagger UI: `http://localhost:5057/swagger`  
+Base URL (local): `http://localhost:5080`  
+Swagger UI: `http://localhost:5080/swagger`  
 Health: `GET /health`
 
 All JSON responses use:

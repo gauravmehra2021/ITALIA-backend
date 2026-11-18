@@ -512,7 +512,7 @@ public class CurriculumService(
         l.Blocks.Where(b => b.Type == LessonBlockType.Vocabulary).Sum(b => b.Items.Count),
         l.Exercises.Count,
         l.Blocks.Any(b => b.Type == LessonBlockType.Video && !string.IsNullOrWhiteSpace(b.MediaUrl)),
-        l.Blocks.Any(b => b.Type is LessonBlockType.Audio or LessonBlockType.Vocabulary or LessonBlockType.Dialogue),
+        l.Blocks.Any(b => b.Type is LessonBlockType.Audio or LessonBlockType.Vocabulary or LessonBlockType.Dialogue or LessonBlockType.Roleplay),
         l.Blocks.Any(b => b.Type == LessonBlockType.Pdf && !string.IsNullOrWhiteSpace(b.MediaUrl)),
         locked is null ? null : p?.Completed ?? false,
         locked is null ? null : p?.Stars ?? 0,

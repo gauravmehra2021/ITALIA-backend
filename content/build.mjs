@@ -15,6 +15,10 @@ import { fileURLToPath } from 'node:url';
 import PDFDocument from 'pdfkit';
 import { rng, shuffle, hashString } from './lib.mjs';
 import italianA1 from './courses/italian-a1/index.mjs';
+import italianA2 from './courses/italian-a2/index.mjs';
+import italianWork from './courses/italian-work/index.mjs';
+import italianStudy from './courses/italian-study/index.mjs';
+import italianVisit from './courses/italian-visit/index.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const backend = path.resolve(here, '../backend');
@@ -24,9 +28,9 @@ const pdfDir = path.join(backend, 'SSeuropa.Api/wwwroot/content/pdf');
 const cacheDir = path.join(here, '.cache');
 const logoPath = path.join(here, 'assets/logo.png');
 
-const COURSES = [italianA1];
-const XP = { Vocabulary: 20, Dialogue: 25, Grammar: 25, Review: 40 };
-const MINUTES = { Vocabulary: 10, Dialogue: 12, Grammar: 15, Review: 15 };
+const COURSES = [italianA1, italianA2, italianWork, italianStudy, italianVisit];
+const XP = { Vocabulary: 20, Dialogue: 25, Grammar: 25, Review: 40, Conversation: 30 };
+const MINUTES = { Vocabulary: 10, Dialogue: 12, Grammar: 15, Review: 15, Conversation: 8 };
 
 for (const d of [seedDir, imgDir, pdfDir, cacheDir]) fs.mkdirSync(d, { recursive: true });
 
@@ -60,8 +64,11 @@ async function ensureImages(names) {
   for (const name of names) {
     const target = path.join(imgDir, `${slugify(name)}.png`);
     if (fs.existsSync(target)) continue;
-    const url = `https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/${index[name].split('/').map(encodeURIComponent).join('/')}`;
-    const res = await fetch(url);
+    const file = index[name].split('/').map(encodeURIComponent).join('/');
+    const url = `https://cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/${file}`;
+    let res = await fetch(url);
+    // The CDN sometimes refuses files (403); fall back to GitHub directly.
+    if (!res.ok) res = await fetch(`https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/${file}`);
     if (!res.ok) throw new Error(`Download failed (${res.status}): ${url}`);
     fs.writeFileSync(target, Buffer.from(await res.arrayBuffer()));
     downloaded++;
@@ -162,6 +169,30 @@ function matchPairs(words, rand) {
   };
 }
 
+/** "What do you say?" questions from a role-play: the other person's line → the right answer. */
+function replyQuestions(turns, rand, max = 4) {
+  const learnerTurns = turns.filter((t) => t.learner);
+  const out = [];
+  turns.forEach((t, i) => {
+    if (!t.learner || i === 0 || turns[i - 1].learner) return;
+    const others = learnerTurns.filter((o) => o !== t).map((o) => o.it);
+    if (others.length < 2) return;
+    const options = shuffle([t.it, ...shuffle(others, rand).slice(0, 2)], rand);
+    out.push({
+      type: 'PickTranslation',
+      prompt: `They say: “${turns[i - 1].it}” — what do you answer?`,
+      italian: null,
+      imageUrl: null,
+      options: options.map((o) => opt(o)),
+      correctIndex: options.indexOf(t.it),
+      answer: null,
+      pairs: [],
+      explanation: `${turns[i - 1].it} (${turns[i - 1].en}) → ${t.it} (${t.en})`,
+    });
+  });
+  return shuffle(out, rand).slice(0, max);
+}
+
 /** Practice set generated from a list of words. */
 function practiceFromWords(words, rand, { listen = 3, pictures = 2, translate = 2, match = 1 } = {}) {
   const out = [];
@@ -229,6 +260,27 @@ function buildLesson(course, unit, unitIndex, lesson, lessonIndex) {
       if (lesson.words) exercises.push(...practiceFromWords(lesson.words, rand, { listen: 2, pictures: 0, translate: 0, match: 1 }));
       break;
 
+    case 'Conversation':
+      blocks.push(block('Text', { title: 'The situation', body: lesson.scene }));
+      blocks.push(block('Roleplay', {
+        title: lesson.titleIt,
+        caption: lesson.partner,
+        lines: lesson.turns.map((t) => ({
+          speaker: t.learner ? 'You' : lesson.partner,
+          italian: t.it,
+          english: t.en,
+          audioUrl: null,
+          isLearner: t.learner,
+          replies: (t.replies ?? []).map((r) => ({ italian: r.it, english: r.en })),
+        })),
+      }));
+      blocks.push(block('Vocabulary', { title: 'Useful phrases', items: lesson.phrases.map(item) }));
+      exercises = [
+        ...replyQuestions(lesson.turns, rand),
+        ...practiceFromWords(lesson.phrases, rand, { listen: 0, pictures: 0, translate: 2, match: 1 }),
+      ];
+      break;
+
     case 'Review': {
       blocks.push(block('Text', {
         title: 'What you can do now',
@@ -242,6 +294,13 @@ function buildLesson(course, unit, unitIndex, lesson, lessonIndex) {
         body: 'All the words, dialogues and grammar of this unit on one printable sheet.',
         mediaUrl: unitPdfUrl(course, unitIndex),
       }));
+      if (unitIndex === course.units.length - 1) {
+        blocks.push(block('Pdf', {
+          title: 'Course phrasebook (PDF)',
+          body: 'Every word and phrase from the whole course, unit by unit — print it or keep it on your phone.',
+          mediaUrl: phrasebookUrl(course),
+        }));
+      }
       const unitWords = unit.lessons.filter((l) => l.kind === 'Vocabulary').flatMap((l) => l.words);
       exercises = practiceFromWords(unitWords, rand, { listen: 2, pictures: 1, translate: 2, match: 1 });
       break;
@@ -270,6 +329,7 @@ function buildLesson(course, unit, unitIndex, lesson, lessonIndex) {
 }
 
 const unitPdfUrl = (course, unitIndex) => `/content/pdf/${course.slug}-unit-${String(unitIndex + 1).padStart(2, '0')}.pdf`;
+const phrasebookUrl = (course) => `/content/pdf/${course.slug}-phrasebook.pdf`;
 
 function buildCourse(course) {
   return {
@@ -384,6 +444,15 @@ function unitPdf(course, unit, unitIndex) {
         doc.moveDown(0.3);
         table([['Speaker', 'Italian', 'English'], ...lesson.lines.map((l) => [l.speaker, l.it, l.en])], [1.4, 4, 4]);
       }
+      if (lesson.turns) {
+        para(lesson.scene, { color: MUTED, size: 9.5 });
+        doc.moveDown(0.3);
+        table([['Who', 'Italian', 'English'], ...lesson.turns.map((t) => [
+          t.learner ? 'You' : lesson.partner,
+          t.learner && t.replies?.length ? `${t.it}  (or: ${t.replies.map((r) => r.it).join(' / ')})` : t.it,
+          t.en,
+        ])], [1.4, 4, 4]);
+      }
       if (lesson.phrases) table([['Key phrase', 'English'], ...lesson.phrases.map((w) => [w.it, w.en])], [4, 5]);
       if (lesson.explanation) { para(lesson.explanation.replace(/\n- /g, '\n•  ')); doc.moveDown(0.4); }
       if (lesson.table) table(lesson.table, lesson.table[0].map(() => 1));
@@ -417,9 +486,63 @@ function unitPdf(course, unit, unitIndex) {
     const range = doc.bufferedPageRange();
     for (let i = range.start; i < range.start + range.count; i++) {
       doc.switchToPage(i);
+      doc.page.margins.bottom = 0; // let the footer sit below the margin without adding a page
       doc.font('Helvetica').fontSize(8).fillColor(MUTED)
         .text(`SS Europa — Sostegno e Soluzioni per l'Europa  ·  ${pdfText(course.title)}  ·  Page ${i + 1} of ${range.count}`,
           48, doc.page.height - 36, { width, align: 'center', lineBreak: false });
+    }
+    doc.end();
+  });
+}
+
+/** One PDF with every word and phrase of the course, unit by unit. */
+function phrasebookPdf(course) {
+  return new Promise((resolve, reject) => {
+    const file = path.join(pdfDir, path.basename(phrasebookUrl(course)));
+    const doc = new PDFDocument({ size: 'A4', margin: 48, bufferPages: true, info: { Title: `${course.title} — Phrasebook`, Author: 'SS Europa' } });
+    const out = fs.createWriteStream(file);
+    doc.pipe(out);
+    out.on('finish', resolve);
+    out.on('error', reject);
+    const width = doc.page.width - 96;
+
+    doc.rect(0, 0, doc.page.width, 92).fill(BLUE);
+    doc.rect(0, 92, doc.page.width / 3, 4).fill(GREEN);
+    doc.rect((doc.page.width / 3) * 2, 92, doc.page.width / 3, 4).fill(RED);
+    if (fs.existsSync(logoPath)) doc.image(logoPath, 48, 14, { height: 64 });
+    doc.fillColor('#ffffff').font('Helvetica-Bold').fontSize(20).text('Phrasebook', 124, 22, { width: width - 76 });
+    doc.font('Helvetica').fontSize(11).fillColor('#dbe7ff').text(pdfText(course.title), 124, 50, { width: width - 76 });
+    doc.y = 116;
+
+    const rows = (list) => list.forEach((wd, i) => {
+      const it = pdfText(wd.it);
+      const en = pdfText(wd.en);
+      const h = Math.max(doc.font('Helvetica-Bold').fontSize(9.5).heightOfString(it, { width: width * 0.45 }), doc.font('Helvetica').heightOfString(en, { width: width * 0.5 })) + 6;
+      if (doc.y + h > doc.page.height - 56) doc.addPage();
+      const y = doc.y;
+      if (i % 2 === 1) doc.rect(48, y, width, h).fill('#f5f7fb');
+      doc.font('Helvetica-Bold').fontSize(9.5).fillColor(INK).text(it, 53, y + 3, { width: width * 0.45 });
+      doc.font('Helvetica').fontSize(9.5).fillColor(MUTED).text(en, 53 + width * 0.48, y + 3, { width: width * 0.5 });
+      doc.y = y + h;
+    });
+
+    course.units.forEach((u, ui) => {
+      const words = u.lessons.flatMap((l) => [...(l.words ?? []), ...(l.phrases ?? [])]);
+      const seen = new Set();
+      const unique = words.filter((wd) => (seen.has(wd.it) ? false : seen.add(wd.it)));
+      if (doc.y > doc.page.height - 140) doc.addPage();
+      doc.moveDown(0.6).font('Helvetica-Bold').fontSize(13).fillColor(BLUE).text(`${ui + 1}. ${pdfText(u.title)}`, 48, doc.y, { width });
+      doc.font('Helvetica').fontSize(9.5).fillColor(MUTED).text(pdfText(u.titleIt), 48, doc.y, { width });
+      doc.moveDown(0.3);
+      rows(unique);
+    });
+
+    const range = doc.bufferedPageRange();
+    for (let i = range.start; i < range.start + range.count; i++) {
+      doc.switchToPage(i);
+      doc.page.margins.bottom = 0; // let the footer sit below the margin without adding a page
+      doc.font('Helvetica').fontSize(8).fillColor(MUTED)
+        .text(`SS Europa  ·  ${pdfText(course.title)} — Phrasebook  ·  Page ${i + 1} of ${range.count}`, 48, doc.page.height - 36, { width, align: 'center', lineBreak: false });
     }
     doc.end();
   });
@@ -436,5 +559,6 @@ for (const course of COURSES) {
   const exercises = built.units.reduce((n, u) => n + u.lessons.reduce((m, l) => m + l.exercises.length, 0), 0);
   console.log(`${course.title}: ${built.units.length} units, ${lessons} lessons, ${exercises} exercises -> ${path.relative(here, seedFile)}`);
   for (let i = 0; i < course.units.length; i++) await unitPdf(course, course.units[i], i);
-  console.log(`  ${course.units.length} PDF study sheets -> ${path.relative(here, pdfDir)}`);
+  await phrasebookPdf(course);
+  console.log(`  ${course.units.length} PDF study sheets + phrasebook -> ${path.relative(here, pdfDir)}`);
 }

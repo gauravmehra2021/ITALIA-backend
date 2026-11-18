@@ -94,6 +94,18 @@ public class DialogueLine
     public string Italian { get; set; } = string.Empty;
     public string English { get; set; } = string.Empty;
     public string? AudioUrl { get; set; }
+
+    /// <summary>Role-play only: this is the learner's turn (they say Italian or one of the Replies).</summary>
+    public bool IsLearner { get; set; }
+
+    /// <summary>Role-play only: other good answers the learner may choose for this turn.</summary>
+    public List<DialogueReply> Replies { get; set; } = [];
+}
+
+public class DialogueReply
+{
+    public string Italian { get; set; } = string.Empty;
+    public string English { get; set; } = string.Empty;
 }
 
 public class LessonExercise

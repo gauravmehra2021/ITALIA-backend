@@ -64,3 +64,19 @@ export function hashString(s) {
   for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
   return h >>> 0;
 }
+
+// ── Speaking practice (role-play) ───────────────────────────────────────────
+
+/** A line said by the other person in a role-play. */
+export const bot = (it, en) => ({ it, en, learner: false });
+
+/**
+ * The learner's turn. Each argument is [italian, english]; the first is the model
+ * answer, the others are also accepted and shown as suggestions.
+ */
+export const you = (...replies) => ({
+  it: replies[0][0],
+  en: replies[0][1],
+  learner: true,
+  replies: replies.slice(1).map(([it, en]) => ({ it, en })),
+});

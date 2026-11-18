@@ -45,9 +45,9 @@ dotnet test backend/SSeuropa.slnx
 dotnet run --project backend/SSeuropa.Api --launch-profile http
 ```
 
-- API Base: `http://localhost:5057`
-- Swagger UI: `http://localhost:5057/swagger`
-- Health Check: `http://localhost:5057/health`
+- API Base: `http://localhost:5080`
+- Swagger UI: `http://localhost:5080/swagger`
+- Health Check: `http://localhost:5080/health`
 
 ### Environment examples:
 
@@ -57,9 +57,9 @@ dotnet run --project backend/SSeuropa.Api --launch-profile http
 
 ### Connected Applications
 
-1. **Admin Portal (`ITALIA-ADMIN`)**: Connects to `http://localhost:5057` via JWT Bearer tokens for curriculum, classes, enquiries, and user management.
-2. **Student Mobile App (`ITALIA-NATIVE`)**: Connects to `http://localhost:5057/api/v1` for student dashboard, course lessons, quizzes, and live classes.
-3. **Public Website (`ITALIA`)**: Submits inquiries to `http://localhost:5057/api/user/contact-us`, automatically capturing leads into the Admissions desk.
+1. **Admin Portal (`ITALIA-ADMIN`)**: Connects to `http://localhost:5080` via JWT Bearer tokens for curriculum, classes, enquiries, and user management.
+2. **Student Mobile App (`ITALIA-NATIVE`)**: Connects to `http://localhost:5080/api/v1` for student dashboard, course lessons, quizzes, and live classes.
+3. **Public Website (`ITALIA`)**: Submits inquiries to `http://localhost:5080/api/user/contact-us`, automatically capturing leads into the Admissions desk.
 
 
 ### Demo accounts

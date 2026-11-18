@@ -13885,6 +13885,16 @@
               "items": [],
               "lines": [],
               "table": []
+            },
+            {
+              "type": "Pdf",
+              "title": "Course phrasebook (PDF)",
+              "body": "Every word and phrase from the whole course, unit by unit — print it or keep it on your phone.",
+              "mediaUrl": "/content/pdf/italian-a1-foundations-phrasebook.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
             }
           ],
           "exercises": [

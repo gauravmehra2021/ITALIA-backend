@@ -36,3 +36,37 @@ Helpers in `lib.mjs`:
 
 Illustration names are folder names from https://github.com/microsoft/fluentui-emoji/tree/main/assets
 (e.g. `'Red apple'`). The build fails if a name doesn't exist.
+
+## Courses
+
+| Folder | Course | Category |
+|---|---|---|
+| `italian-a1` | Italian A1 — Foundations | Core |
+| `italian-a2` | Italian A2 — Everyday Life | Core |
+| `italian-work` | Italian for Work (job tracks) | Work |
+| `italian-study` | Italian for Students | Study |
+| `italian-visit` | Survival Italian for Visitors | Visit |
+
+Lesson kinds: **Vocabulary**, **Dialogue**, **Grammar**, **Conversation** (speaking role-play) and **Review**.
+Each course also gets a phrasebook PDF (`<slug>-phrasebook.pdf`) linked from its last review lesson.
+
+## Speaking practice (Conversation lessons)
+
+```js
+{
+  kind: 'Conversation',
+  title: 'Passport control', titleIt: 'Al controllo passaporti',
+  summary: '…', scene: 'Where the student is and who they talk to.',
+  partner: 'Officer',
+  turns: [
+    bot('Passaporto, per favore.', 'Passport, please.'),             // the partner speaks
+    you(['Ecco il passaporto.', 'Here is the passport.'],          // the model answer…
+        ['Ecco qui.', 'Here you are.']),                             // …and other accepted answers
+  ],
+  phrases: [w('Ecco il passaporto.', 'Here is the passport.', 'EHK-koh …')],
+}
+```
+
+In the student portal the partner's lines play aloud; on each `you(...)` turn the student taps,
+types or **says** one of the answers (browser speech recognition, Italian). The build also creates
+"They say … — what do you answer?" exercises from the turns.
