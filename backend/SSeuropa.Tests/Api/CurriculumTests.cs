@@ -140,6 +140,52 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     {
         (await _client.GetAsync("/content/img/waving-hand.png")).StatusCode.Should().Be(HttpStatusCode.OK);
         (await _client.GetAsync("/content/pdf/italian-a1-foundations-unit-01.pdf")).StatusCode.Should().Be(HttpStatusCode.OK);
+        (await _client.GetAsync("/content/pdf/corso-italiano-a0-unit-01.pdf")).StatusCode.Should().Be(HttpStatusCode.OK);
+        (await _client.GetAsync("/content/slides/corso-a0-cap1-lez1-slides.pdf")).StatusCode.Should().Be(HttpStatusCode.OK);
+    }
+
+    [Fact]
+    public async Task DemoStudent_HasEveryLessonOpen_OtherStudentsStillUnlockInOrder()
+    {
+        var demo = await LoginAsync("student@sseuropa.demo");
+        var course = (await GetAsync<List<CourseCard>>("/api/learn/courses", demo)).Single(c => c.Course.Slug == "corso-italiano-a0");
+        var outline = await SendAsync<Outline>(HttpMethod.Post, $"/api/learn/courses/{course.Course.Id}/enroll", demo);
+
+        outline.Units.SelectMany(u => u.Lessons).Should().OnlyContain(l => l.Locked == false);
+        var test = outline.Units[1].Lessons[^1]; // Chapter 2 test, nothing completed before it
+        (await RawAsync(HttpMethod.Get, $"/api/learn/lessons/{test.Id}", demo)).StatusCode.Should().Be(HttpStatusCode.OK);
+
+        var other = await LoginAsync("priya@sseuropa.demo");
+        var otherOutline = await SendAsync<Outline>(HttpMethod.Post, $"/api/learn/courses/{course.Course.Id}/enroll", other);
+        otherOutline.Units[1].Lessons[^1].Locked.Should().BeTrue();
+        (await RawAsync(HttpMethod.Get, $"/api/learn/lessons/{test.Id}", other)).StatusCode.Should().Be(HttpStatusCode.Forbidden);
+    }
+
+    [Fact]
+    public async Task SchoolSyllabusCourse_IsSeededOnce_WithPunjabiAndChapterTests()
+    {
+        var admin = await LoginAsync("admin@sseuropa.demo");
+        var catalogue = await GetAsync<List<CourseCard>>("/api/learn/courses", admin);
+
+        // Exactly one copy, with both chapters (4 lessons × 3 parts + a test each).
+        var course = catalogue.Should().ContainSingle(c => c.Course.Slug == "corso-italiano-a0").Subject;
+        course.TotalLessons.Should().Be(26);
+
+        var outline = await GetAsync<Outline>($"/api/curriculum/courses/{course.Course.Id}", admin);
+        outline.Units.Select(u => u.Title).Should().HaveCount(2).And.AllSatisfy(t => t.Should().StartWith("Chapter"));
+
+        // Words carry their Punjabi meaning.
+        var first = await SendAsync<JsonElement>(HttpMethod.Get, $"/api/curriculum/lessons/{outline.Units[0].Lessons[0].Id}", admin);
+        first.GetRawText().Should().Contain("\"punjabi\":\"Kelā\"");
+
+        // Chapter test: 55% is below the school's 60% pass mark, 65% passes.
+        var test = outline.Units[0].Lessons[^1];
+        test.Title.Should().Be("Chapter 1 test");
+        var failed = await SendAsync<LessonResult>(HttpMethod.Post, $"/api/learn/lessons/{test.Id}/complete", admin, new { scorePercent = 55 });
+        failed.Completed.Should().BeFalse();
+        failed.Stars.Should().Be(0);
+        var passed = await SendAsync<LessonResult>(HttpMethod.Post, $"/api/learn/lessons/{test.Id}/complete", admin, new { scorePercent = 65 });
+        passed.Completed.Should().BeTrue();
     }
 
     // ── helpers ─────────────────────────────────────────────────────────────

@@ -140,8 +140,12 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
             var seed = await JsonSerializer.DeserializeAsync<CourseSeed>(stream, Json, ct)
                 ?? throw new InvalidOperationException($"Empty course seed {name}");
 
-            if (existing.Any(c => !c.IsDeleted && string.Equals(c.Slug, seed.Slug, StringComparison.OrdinalIgnoreCase)))
+            var current = existing.FirstOrDefault(c => !c.IsDeleted && string.Equals(c.Slug, seed.Slug, StringComparison.OrdinalIgnoreCase));
+            if (current is not null)
+            {
+                await AppendNewUnitsAsync(current, seed, courses, curriculum, ct);
                 continue;
+            }
 
             var course = new Course
             {
@@ -161,40 +165,76 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
                 DurationWeeks = seed.DurationWeeks,
                 DisplayOrder = seed.DisplayOrder,
                 ThumbnailUrl = seed.ThumbnailUrl,
+                SeededUnitKeys = seed.Units.Select(u => u.UnitKey).ToList(),
             };
             await courses.AddAsync(course, ct);
 
             var lessonCount = 0;
             foreach (var u in seed.Units)
-            {
-                var unit = new CourseUnit
-                {
-                    CourseId = course.Id,
-                    Order = u.Order,
-                    Title = u.Title,
-                    TitleIt = u.TitleIt,
-                    Description = u.Description,
-                    CanDo = u.CanDo,
-                    ImageUrl = u.ImageUrl,
-                    PdfUrl = u.PdfUrl,
-                    LiveClassFocus = u.LiveClassFocus,
-                    Status = u.Status,
-                };
-                await curriculum.AddUnitAsync(unit, ct);
-
-                foreach (var l in u.Lessons)
-                {
-                    l.Id = Guid.NewGuid();
-                    l.CourseId = course.Id;
-                    l.UnitId = unit.Id;
-                    l.CreatedAtUtc = DateTime.UtcNow;
-                    await curriculum.AddLessonAsync(l, ct);
-                    lessonCount++;
-                }
-            }
+                lessonCount += await AddUnitAsync(course.Id, u, u.Order, curriculum, ct);
 
             logger.LogInformation("Seeded course '{Title}' with {Units} units and {Lessons} lessons.", course.Title, seed.Units.Count, lessonCount);
         }
+    }
+
+    /// <summary>
+    /// A built-in course already exists: add only the units (chapters) that were added to
+    /// the seed since it was loaded. Units already loaded are never touched (admins may have
+    /// edited them) and units an admin deleted are not loaded again.
+    /// </summary>
+    private async Task AppendNewUnitsAsync(Course course, CourseSeed seed, ICourseRepository courses, ICurriculumRepository curriculum, CancellationToken ct)
+    {
+        if (course.SeededUnitKeys.Count == 0)
+        {
+            // Loaded before unit keys were recorded: everything in the seed today is already
+            // in the course. Record it as the baseline so nothing is added twice.
+            course.SeededUnitKeys = seed.Units.Select(u => u.UnitKey).ToList();
+            await courses.UpdateAsync(course, ct);
+            return;
+        }
+
+        var missing = seed.Units.Where(u => !course.SeededUnitKeys.Contains(u.UnitKey, StringComparer.OrdinalIgnoreCase)).ToList();
+        if (missing.Count == 0) return;
+
+        var units = await curriculum.GetUnitsAsync(course.Id, ct);
+        var nextOrder = units.Count == 0 ? 1 : units.Max(u => u.Order) + 1;
+        var lessonCount = 0;
+        foreach (var u in missing)
+        {
+            lessonCount += await AddUnitAsync(course.Id, u, nextOrder++, curriculum, ct);
+            course.SeededUnitKeys.Add(u.UnitKey);
+        }
+        await courses.UpdateAsync(course, ct);
+        logger.LogInformation("Added {Units} new units ({Lessons} lessons) to course '{Title}': {Keys}",
+            missing.Count, lessonCount, course.Title, string.Join(", ", missing.Select(u => u.UnitKey)));
+    }
+
+    private static async Task<int> AddUnitAsync(Guid courseId, UnitSeed u, int order, ICurriculumRepository curriculum, CancellationToken ct)
+    {
+        var unit = new CourseUnit
+        {
+            CourseId = courseId,
+            Order = order,
+            Title = u.Title,
+            TitleIt = u.TitleIt,
+            Description = u.Description,
+            CanDo = u.CanDo,
+            ImageUrl = u.ImageUrl,
+            PdfUrl = u.PdfUrl,
+            LiveClassFocus = u.LiveClassFocus,
+            Status = u.Status,
+        };
+        await curriculum.AddUnitAsync(unit, ct);
+
+        foreach (var l in u.Lessons)
+        {
+            l.Id = Guid.NewGuid();
+            l.CourseId = courseId;
+            l.UnitId = unit.Id;
+            l.CreatedAtUtc = DateTime.UtcNow;
+            await curriculum.AddLessonAsync(l, ct);
+        }
+        return u.Lessons.Count;
     }
 
     private sealed class CourseSeed
@@ -215,6 +255,9 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
 
     private sealed class UnitSeed
     {
+        /// <summary>Stable id of the unit inside its course (e.g. "capitolo-1"). Defaults to "unit-{Order}".</summary>
+        public string? Key { get; set; }
+        public string UnitKey => string.IsNullOrWhiteSpace(Key) ? $"unit-{Order}" : Key;
         public int Order { get; set; }
         public string Title { get; set; } = string.Empty;
         public string TitleIt { get; set; } = string.Empty;

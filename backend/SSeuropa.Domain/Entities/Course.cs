@@ -26,4 +26,10 @@ public class Course : EntityBase
     public string CefrLevel { get; set; } = "A1";
     /// <summary>Core, Work, Study or Visit.</summary>
     public string Category { get; set; } = "Core";
+    /// <summary>
+    /// Built-in courses only: keys of the units already loaded from the content seed.
+    /// New chapters added to the seed later are appended once; a unit an admin deleted
+    /// is never loaded again.
+    /// </summary>
+    public List<string> SeededUnitKeys { get; set; } = [];
 }

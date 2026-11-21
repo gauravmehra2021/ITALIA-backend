@@ -16,6 +16,11 @@ public class User : EntityBase
     public string? PhoneNumber { get; set; }
     public DateTime? LastLoginAtUtc { get; set; }
     public bool IsProtectedSuperAdmin { get; set; } = false;
+    /// <summary>
+    /// Every lesson of an enrolled course is open, without finishing the previous one first
+    /// (e.g. the demo student used to review the content). Normal students unlock lessons in order.
+    /// </summary>
+    public bool UnlockAllLessons { get; set; }
 
     public string FullName => $"{FirstName} {LastName}".Trim();
 }

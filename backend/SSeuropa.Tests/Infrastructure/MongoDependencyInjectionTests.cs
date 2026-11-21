@@ -26,6 +26,7 @@ public class MongoDependencyInjectionTests
 
         var services = new ServiceCollection();
         services.AddLogging();
+        services.AddSingleton<IConfiguration>(config); // provided by the host in the real app
         services.AddInfrastructure(config);
 
         using var provider = services.BuildServiceProvider();

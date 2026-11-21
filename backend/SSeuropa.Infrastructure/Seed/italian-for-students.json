@@ -12,6 +12,7 @@
   "thumbnailUrl": "/content/img/graduation-cap.png",
   "units": [
     {
+      "key": "unit-1",
       "order": 1,
       "title": "Arriving: documents & codice fiscale",
       "titleIt": "L'arrivo: documenti e codice fiscale",
@@ -57,6 +58,7 @@
                 {
                   "italian": "il codice fiscale",
                   "english": "the tax code",
+                  "punjabi": null,
                   "pronunciation": "KOH-dee-cheh fees-KAH-leh",
                   "imageUrl": "/content/img/identification-card.png",
                   "audioUrl": null,
@@ -66,6 +68,7 @@
                 {
                   "italian": "il permesso per studio",
                   "english": "study residence permit",
+                  "punjabi": null,
                   "pronunciation": "pehr-MES-soh pehr STOO-dyoh",
                   "imageUrl": "/content/img/passport-control.png",
                   "audioUrl": null,
@@ -75,6 +78,7 @@
                 {
                   "italian": "il visto",
                   "english": "the visa",
+                  "punjabi": null,
                   "pronunciation": "VEES-toh",
                   "imageUrl": "/content/img/passport-control.png",
                   "audioUrl": null,
@@ -84,6 +88,7 @@
                 {
                   "italian": "la questura",
                   "english": "the police headquarters (immigration office)",
+                  "punjabi": null,
                   "pronunciation": "kwehs-TOO-rah",
                   "imageUrl": "/content/img/police-officer.png",
                   "audioUrl": null,
@@ -93,6 +98,7 @@
                 {
                   "italian": "l'ufficio postale",
                   "english": "the post office",
+                  "punjabi": null,
                   "pronunciation": "oof-FEE-choh pohs-TAH-leh",
                   "imageUrl": "/content/img/post-office.png",
                   "audioUrl": null,
@@ -102,6 +108,7 @@
                 {
                   "italian": "la fototessera",
                   "english": "the passport photo",
+                  "punjabi": null,
                   "pronunciation": "foh-toh-TES-seh-rah",
                   "imageUrl": "/content/img/camera.png",
                   "audioUrl": null,
@@ -111,6 +118,7 @@
                 {
                   "italian": "la marca da bollo",
                   "english": "the revenue stamp",
+                  "punjabi": null,
                   "pronunciation": "MAR-kah dah BOL-loh",
                   "imageUrl": "/content/img/label.png",
                   "audioUrl": null,
@@ -120,6 +128,7 @@
                 {
                   "italian": "il conto in banca",
                   "english": "the bank account",
+                  "punjabi": null,
                   "pronunciation": "KON-toh een BAHN-kah",
                   "imageUrl": "/content/img/bank.png",
                   "audioUrl": null,
@@ -129,6 +138,7 @@
                 {
                   "italian": "la SIM",
                   "english": "the SIM card",
+                  "punjabi": null,
                   "pronunciation": "seem",
                   "imageUrl": "/content/img/mobile-phone.png",
                   "audioUrl": null,
@@ -138,6 +148,7 @@
                 {
                   "italian": "l'appuntamento",
                   "english": "the appointment",
+                  "punjabi": null,
                   "pronunciation": "ahp-poon-tah-MEN-toh",
                   "imageUrl": "/content/img/spiral-calendar.png",
                   "audioUrl": null,
@@ -546,6 +557,7 @@
                 {
                   "italian": "Vorrei…, per favore.",
                   "english": "I'd like…, please.",
+                  "punjabi": null,
                   "pronunciation": "vor-REH-ee",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -555,6 +567,7 @@
                 {
                   "italian": "Mi serve…",
                   "english": "I need…",
+                  "punjabi": null,
                   "pronunciation": "mee SEHR-veh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -564,6 +577,7 @@
                 {
                   "italian": "Studio … all'università di…",
                   "english": "I study … at the University of…",
+                  "punjabi": null,
                   "pronunciation": "STOO-dyoh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -573,6 +587,7 @@
                 {
                   "italian": "Devo pagare qualcosa?",
                   "english": "Do I have to pay anything?",
+                  "punjabi": null,
                   "pronunciation": "DEH-voh pah-GAH-reh kwahl-KOH-zah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -582,6 +597,7 @@
                 {
                   "italian": "Quali documenti servono?",
                   "english": "Which documents are needed?",
+                  "punjabi": null,
                   "pronunciation": "KWAH-lee doh-koo-MEN-tee SEHR-voh-noh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -591,6 +607,7 @@
                 {
                   "italian": "Può scriverlo, per favore?",
                   "english": "Can you write it down, please?",
+                  "punjabi": null,
                   "pronunciation": "pwoh SKREE-vehr-loh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -1144,6 +1161,7 @@
       ]
     },
     {
+      "key": "unit-2",
       "order": 2,
       "title": "Enrolling at university",
       "titleIt": "L'immatricolazione",
@@ -1189,6 +1207,7 @@
                 {
                   "italian": "l'università",
                   "english": "the university",
+                  "punjabi": null,
                   "pronunciation": "oo-nee-vehr-see-TAH",
                   "imageUrl": "/content/img/classical-building.png",
                   "audioUrl": null,
@@ -1198,6 +1217,7 @@
                 {
                   "italian": "il corso di laurea",
                   "english": "the degree programme",
+                  "punjabi": null,
                   "pronunciation": "KOR-soh dee LOW-reh-ah",
                   "imageUrl": "/content/img/graduation-cap.png",
                   "audioUrl": null,
@@ -1207,6 +1227,7 @@
                 {
                   "italian": "la laurea magistrale",
                   "english": "the master's degree",
+                  "punjabi": null,
                   "pronunciation": "LOW-reh-ah mah-jees-TRAH-leh",
                   "imageUrl": "/content/img/scroll.png",
                   "audioUrl": null,
@@ -1216,6 +1237,7 @@
                 {
                   "italian": "la segreteria studenti",
                   "english": "the student office",
+                  "punjabi": null,
                   "pronunciation": "seh-greh-teh-REE-ah stoo-DEN-tee",
                   "imageUrl": "/content/img/office-building.png",
                   "audioUrl": null,
@@ -1225,6 +1247,7 @@
                 {
                   "italian": "le tasse universitarie",
                   "english": "university fees",
+                  "punjabi": null,
                   "pronunciation": "TAHS-seh oo-nee-vehr-see-TAH-ryeh",
                   "imageUrl": "/content/img/money-bag.png",
                   "audioUrl": null,
@@ -1234,6 +1257,7 @@
                 {
                   "italian": "il CFU",
                   "english": "the credit (ECTS)",
+                  "punjabi": null,
                   "pronunciation": "chee-EF-feh-OO",
                   "imageUrl": "/content/img/input-numbers.png",
                   "audioUrl": null,
@@ -1243,6 +1267,7 @@
                 {
                   "italian": "il libretto",
                   "english": "the student record",
+                  "punjabi": null,
                   "pronunciation": "lee-BRET-toh",
                   "imageUrl": "/content/img/notebook.png",
                   "audioUrl": null,
@@ -1252,6 +1277,7 @@
                 {
                   "italian": "la matricola",
                   "english": "the student number",
+                  "punjabi": null,
                   "pronunciation": "mah-TREE-koh-lah",
                   "imageUrl": "/content/img/name-badge.png",
                   "audioUrl": null,
@@ -1261,6 +1287,7 @@
                 {
                   "italian": "la borsa di studio",
                   "english": "the scholarship",
+                  "punjabi": null,
                   "pronunciation": "BOR-sah dee STOO-dyoh",
                   "imageUrl": "/content/img/money-with-wings.png",
                   "audioUrl": null,
@@ -1270,6 +1297,7 @@
                 {
                   "italian": "la scadenza",
                   "english": "the deadline",
+                  "punjabi": null,
                   "pronunciation": "skah-DEN-tsah",
                   "imageUrl": "/content/img/calendar.png",
                   "audioUrl": null,
@@ -1670,6 +1698,7 @@
                 {
                   "italian": "Devo completare l'immatricolazione.",
                   "english": "I need to complete my enrolment.",
+                  "punjabi": null,
                   "pronunciation": "DEH-voh kom-pleh-TAH-reh lee-maht-ree-koh-lah-TSYOH-neh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -1679,6 +1708,7 @@
                 {
                   "italian": "Ecco la ricevuta.",
                   "english": "Here is the receipt.",
+                  "punjabi": null,
                   "pronunciation": "EHK-koh lah ree-cheh-VOO-tah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -1688,6 +1718,7 @@
                 {
                   "italian": "Cosa mi manca?",
                   "english": "What am I missing?",
+                  "punjabi": null,
                   "pronunciation": "KOH-zah mee MAHN-kah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -1697,6 +1728,7 @@
                 {
                   "italian": "Come posso pagare?",
                   "english": "How can I pay?",
+                  "punjabi": null,
                   "pronunciation": "KOH-meh POHS-soh pah-GAH-reh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -1706,6 +1738,7 @@
                 {
                   "italian": "Posso chiedere una riduzione?",
                   "english": "Can I ask for a reduction?",
+                  "punjabi": null,
                   "pronunciation": "POHS-soh KYEH-deh-reh OO-nah ree-doo-TSYOH-neh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -1715,6 +1748,7 @@
                 {
                   "italian": "Qual è la scadenza?",
                   "english": "What is the deadline?",
+                  "punjabi": null,
                   "pronunciation": "kwah-LEH lah skah-DEN-tsah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -2268,6 +2302,7 @@
       ]
     },
     {
+      "key": "unit-3",
       "order": 3,
       "title": "Finding a room",
       "titleIt": "Cercare una stanza",
@@ -2313,6 +2348,7 @@
                 {
                   "italian": "la stanza singola",
                   "english": "the single room",
+                  "punjabi": null,
                   "pronunciation": "STAHN-tsah SEEN-goh-lah",
                   "imageUrl": "/content/img/bed.png",
                   "audioUrl": null,
@@ -2322,6 +2358,7 @@
                 {
                   "italian": "la stanza doppia",
                   "english": "the shared room",
+                  "punjabi": null,
                   "pronunciation": "STAHN-tsah DOHP-pyah",
                   "imageUrl": "/content/img/bed.png",
                   "audioUrl": null,
@@ -2331,6 +2368,7 @@
                 {
                   "italian": "l'affitto",
                   "english": "the rent",
+                  "punjabi": null,
                   "pronunciation": "ahf-FEET-toh",
                   "imageUrl": "/content/img/house.png",
                   "audioUrl": null,
@@ -2340,6 +2378,7 @@
                 {
                   "italian": "le spese",
                   "english": "the bills",
+                  "punjabi": null,
                   "pronunciation": "SPEH-zeh",
                   "imageUrl": "/content/img/light-bulb.png",
                   "audioUrl": null,
@@ -2349,6 +2388,7 @@
                 {
                   "italian": "la caparra",
                   "english": "the deposit",
+                  "punjabi": null,
                   "pronunciation": "kah-PAR-rah",
                   "imageUrl": "/content/img/coin.png",
                   "audioUrl": null,
@@ -2358,6 +2398,7 @@
                 {
                   "italian": "il proprietario",
                   "english": "the landlord",
+                  "punjabi": null,
                   "pronunciation": "proh-pryeh-TAH-ryoh",
                   "imageUrl": "/content/img/old-man.png",
                   "audioUrl": null,
@@ -2367,6 +2408,7 @@
                 {
                   "italian": "il coinquilino",
                   "english": "the flatmate",
+                  "punjabi": null,
                   "pronunciation": "koh-een-kwee-LEE-noh",
                   "imageUrl": "/content/img/busts-in-silhouette.png",
                   "audioUrl": null,
@@ -2376,6 +2418,7 @@
                 {
                   "italian": "arredato",
                   "english": "furnished",
+                  "punjabi": null,
                   "pronunciation": "ahr-reh-DAH-toh",
                   "imageUrl": "/content/img/couch-and-lamp.png",
                   "audioUrl": null,
@@ -2385,6 +2428,7 @@
                 {
                   "italian": "la lavatrice",
                   "english": "the washing machine",
+                  "punjabi": null,
                   "pronunciation": "lah-vah-TREE-cheh",
                   "imageUrl": "/content/img/soap.png",
                   "audioUrl": null,
@@ -2394,6 +2438,7 @@
                 {
                   "italian": "il contratto registrato",
                   "english": "registered contract",
+                  "punjabi": null,
                   "pronunciation": "kon-TRAHT-toh reh-jees-TRAH-toh",
                   "imageUrl": "/content/img/memo.png",
                   "audioUrl": null,
@@ -2815,6 +2860,7 @@
                 {
                   "italian": "Chiamo per l'annuncio.",
                   "english": "I'm calling about the advert.",
+                  "punjabi": null,
                   "pronunciation": "KYAH-moh pehr lahn-NOON-choh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -2824,6 +2870,7 @@
                 {
                   "italian": "È ancora libera?",
                   "english": "Is it still free?",
+                  "punjabi": null,
                   "pronunciation": "eh ahn-KOH-rah LEE-beh-rah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -2833,6 +2880,7 @@
                 {
                   "italian": "Le spese sono incluse?",
                   "english": "Are the bills included?",
+                  "punjabi": null,
                   "pronunciation": "leh SPEH-zeh SOH-noh een-KLOO-zeh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -2842,6 +2890,7 @@
                 {
                   "italian": "Il contratto è registrato?",
                   "english": "Is the contract registered?",
+                  "punjabi": null,
                   "pronunciation": "eel kon-TRAHT-toh eh reh-jees-TRAH-toh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -2851,6 +2900,7 @@
                 {
                   "italian": "Posso vedere la stanza?",
                   "english": "Can I see the room?",
+                  "punjabi": null,
                   "pronunciation": "POHS-soh veh-DEH-reh lah STAHN-tsah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -2860,6 +2910,7 @@
                 {
                   "italian": "Quanto è la caparra?",
                   "english": "How much is the deposit?",
+                  "punjabi": null,
                   "pronunciation": "KWAHN-toh eh lah kah-PAR-rah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -3409,6 +3460,7 @@
       ]
     },
     {
+      "key": "unit-4",
       "order": 4,
       "title": "Lectures & exams",
       "titleIt": "Lezioni ed esami",
@@ -3454,6 +3506,7 @@
                 {
                   "italian": "la lezione",
                   "english": "the lecture",
+                  "punjabi": null,
                   "pronunciation": "leh-TSYOH-neh",
                   "imageUrl": "/content/img/teacher.png",
                   "audioUrl": null,
@@ -3463,6 +3516,7 @@
                 {
                   "italian": "l'aula",
                   "english": "the classroom / lecture hall",
+                  "punjabi": null,
                   "pronunciation": "OW-lah",
                   "imageUrl": "/content/img/school.png",
                   "audioUrl": null,
@@ -3472,6 +3526,7 @@
                 {
                   "italian": "il professore",
                   "english": "the professor",
+                  "punjabi": null,
                   "pronunciation": "proh-fes-SOH-reh",
                   "imageUrl": "/content/img/teacher.png",
                   "audioUrl": null,
@@ -3481,6 +3536,7 @@
                 {
                   "italian": "l'esame scritto",
                   "english": "the written exam",
+                  "punjabi": null,
                   "pronunciation": "eh-ZAH-meh SKREET-toh",
                   "imageUrl": "/content/img/pencil.png",
                   "audioUrl": null,
@@ -3490,6 +3546,7 @@
                 {
                   "italian": "l'esame orale",
                   "english": "the oral exam",
+                  "punjabi": null,
                   "pronunciation": "eh-ZAH-meh oh-RAH-leh",
                   "imageUrl": "/content/img/speaking-head.png",
                   "audioUrl": null,
@@ -3499,6 +3556,7 @@
                 {
                   "italian": "l'appello",
                   "english": "the exam date / session",
+                  "punjabi": null,
                   "pronunciation": "ahp-PEL-loh",
                   "imageUrl": "/content/img/calendar.png",
                   "audioUrl": null,
@@ -3508,6 +3566,7 @@
                 {
                   "italian": "il voto",
                   "english": "the grade",
+                  "punjabi": null,
                   "pronunciation": "VOH-toh",
                   "imageUrl": "/content/img/hundred-points.png",
                   "audioUrl": null,
@@ -3517,6 +3576,7 @@
                 {
                   "italian": "trenta e lode",
                   "english": "30 with honours (top grade)",
+                  "punjabi": null,
                   "pronunciation": "TREN-tah eh LOH-deh",
                   "imageUrl": "/content/img/trophy.png",
                   "audioUrl": null,
@@ -3526,6 +3586,7 @@
                 {
                   "italian": "il ricevimento",
                   "english": "office hours",
+                  "punjabi": null,
                   "pronunciation": "ree-cheh-vee-MEN-toh",
                   "imageUrl": "/content/img/mantelpiece-clock.png",
                   "audioUrl": null,
@@ -3535,6 +3596,7 @@
                 {
                   "italian": "gli appunti",
                   "english": "notes",
+                  "punjabi": null,
                   "pronunciation": "ahp-POON-tee",
                   "imageUrl": "/content/img/spiral-notepad.png",
                   "audioUrl": null,
@@ -3935,6 +3997,7 @@
                 {
                   "italian": "Posso farle una domanda?",
                   "english": "Can I ask you a question? (formal)",
+                  "punjabi": null,
                   "pronunciation": "POHS-soh FAR-leh OO-nah doh-MAHN-dah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -3944,6 +4007,7 @@
                 {
                   "italian": "L'esame è scritto o orale?",
                   "english": "Is the exam written or oral?",
+                  "punjabi": null,
                   "pronunciation": "leh-ZAH-meh eh SKREET-toh oh oh-RAH-leh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -3953,6 +4017,7 @@
                 {
                   "italian": "Quali capitoli sono nel programma?",
                   "english": "Which chapters are in the syllabus?",
+                  "punjabi": null,
                   "pronunciation": "KWAH-lee kah-PEE-toh-lee",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -3962,6 +4027,7 @@
                 {
                   "italian": "Quando è il prossimo appello?",
                   "english": "When is the next exam date?",
+                  "punjabi": null,
                   "pronunciation": "KWAHN-doh eh eel PROS-see-moh ahp-PEL-loh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -3971,6 +4037,7 @@
                 {
                   "italian": "Non ho capito bene.",
                   "english": "I didn't understand well.",
+                  "punjabi": null,
                   "pronunciation": "non oh kah-PEE-toh BEH-neh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -3980,6 +4047,7 @@
                 {
                   "italian": "Posso registrare la lezione?",
                   "english": "May I record the lecture?",
+                  "punjabi": null,
                   "pronunciation": "POHS-soh reh-jees-TRAH-reh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -4553,6 +4621,7 @@
       ]
     },
     {
+      "key": "unit-5",
       "order": 5,
       "title": "Library, canteen & study groups",
       "titleIt": "Biblioteca, mensa e gruppi di studio",
@@ -4598,6 +4667,7 @@
                 {
                   "italian": "la biblioteca",
                   "english": "the library",
+                  "punjabi": null,
                   "pronunciation": "bee-blyoh-TEH-kah",
                   "imageUrl": "/content/img/books.png",
                   "audioUrl": null,
@@ -4607,6 +4677,7 @@
                 {
                   "italian": "il prestito",
                   "english": "the loan",
+                  "punjabi": null,
                   "pronunciation": "PRES-tee-toh",
                   "imageUrl": "/content/img/open-book.png",
                   "audioUrl": null,
@@ -4616,6 +4687,7 @@
                 {
                   "italian": "la sala studio",
                   "english": "the study room",
+                  "punjabi": null,
                   "pronunciation": "SAH-lah STOO-dyoh",
                   "imageUrl": "/content/img/desktop-computer.png",
                   "audioUrl": null,
@@ -4625,6 +4697,7 @@
                 {
                   "italian": "la mensa",
                   "english": "the canteen",
+                  "punjabi": null,
                   "pronunciation": "MEN-sah",
                   "imageUrl": "/content/img/fork-and-knife-with-plate.png",
                   "audioUrl": null,
@@ -4634,6 +4707,7 @@
                 {
                   "italian": "il primo",
                   "english": "first course (pasta, rice)",
+                  "punjabi": null,
                   "pronunciation": "PREE-moh",
                   "imageUrl": "/content/img/spaghetti.png",
                   "audioUrl": null,
@@ -4643,6 +4717,7 @@
                 {
                   "italian": "il secondo",
                   "english": "main course (meat, fish)",
+                  "punjabi": null,
                   "pronunciation": "seh-KON-doh",
                   "imageUrl": "/content/img/poultry-leg.png",
                   "audioUrl": null,
@@ -4652,6 +4727,7 @@
                 {
                   "italian": "il compagno di corso",
                   "english": "the classmate",
+                  "punjabi": null,
                   "pronunciation": "kom-PAHN-yoh dee KOR-soh",
                   "imageUrl": "/content/img/busts-in-silhouette.png",
                   "audioUrl": null,
@@ -4661,6 +4737,7 @@
                 {
                   "italian": "ripassare",
                   "english": "to revise",
+                  "punjabi": null,
                   "pronunciation": "ree-pahs-SAH-reh",
                   "imageUrl": "/content/img/memo.png",
                   "audioUrl": null,
@@ -4670,6 +4747,7 @@
                 {
                   "italian": "il portatile",
                   "english": "the laptop",
+                  "punjabi": null,
                   "pronunciation": "por-TAH-tee-leh",
                   "imageUrl": "/content/img/laptop.png",
                   "audioUrl": null,
@@ -4679,6 +4757,7 @@
                 {
                   "italian": "la tessera",
                   "english": "the card",
+                  "punjabi": null,
                   "pronunciation": "TES-seh-rah",
                   "imageUrl": "/content/img/credit-card.png",
                   "audioUrl": null,
@@ -5079,6 +5158,7 @@
                 {
                   "italian": "Facciamo un gruppo di studio?",
                   "english": "Shall we do a study group?",
+                  "punjabi": null,
                   "pronunciation": "fah-CHAH-moh oon GROOP-poh dee STOO-dyoh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -5088,6 +5168,7 @@
                 {
                   "italian": "Dove ci vediamo?",
                   "english": "Where shall we meet?",
+                  "punjabi": null,
                   "pronunciation": "DOH-veh chee veh-DYAH-moh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -5097,6 +5178,7 @@
                 {
                   "italian": "Ripassiamo insieme?",
                   "english": "Shall we revise together?",
+                  "punjabi": null,
                   "pronunciation": "ree-pahs-SYAH-moh een-SYEH-meh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -5106,6 +5188,7 @@
                 {
                   "italian": "Mi presti gli appunti?",
                   "english": "Will you lend me your notes?",
+                  "punjabi": null,
                   "pronunciation": "mee PRES-tee lyee ahp-POON-tee",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -5115,6 +5198,7 @@
                 {
                   "italian": "Vorrei prendere in prestito questo libro.",
                   "english": "I'd like to borrow this book.",
+                  "punjabi": null,
                   "pronunciation": "vor-REH-ee PREN-deh-reh een PRES-tee-toh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -5124,6 +5208,7 @@
                 {
                   "italian": "Sono indietro con lo studio.",
                   "english": "I'm behind with my studies.",
+                  "punjabi": null,
                   "pronunciation": "SOH-noh een-DYEH-troh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -5677,6 +5762,7 @@
       ]
     },
     {
+      "key": "unit-6",
       "order": 6,
       "title": "Health card & a student job",
       "titleIt": "Tessera sanitaria e lavoro per studenti",
@@ -5722,6 +5808,7 @@
                 {
                   "italian": "la tessera sanitaria",
                   "english": "the health card",
+                  "punjabi": null,
                   "pronunciation": "TES-seh-rah sah-nee-TAH-ryah",
                   "imageUrl": "/content/img/identification-card.png",
                   "audioUrl": null,
@@ -5731,6 +5818,7 @@
                 {
                   "italian": "l'ASL",
                   "english": "the local health office",
+                  "punjabi": null,
                   "pronunciation": "AH-zel",
                   "imageUrl": "/content/img/hospital.png",
                   "audioUrl": null,
@@ -5740,6 +5828,7 @@
                 {
                   "italian": "il medico di base",
                   "english": "the family doctor (GP)",
+                  "punjabi": null,
                   "pronunciation": "MEH-dee-koh dee BAH-zeh",
                   "imageUrl": "/content/img/health-worker.png",
                   "audioUrl": null,
@@ -5749,6 +5838,7 @@
                 {
                   "italian": "la ricetta",
                   "english": "the prescription",
+                  "punjabi": null,
                   "pronunciation": "ree-CHET-tah",
                   "imageUrl": "/content/img/page-with-curl.png",
                   "audioUrl": null,
@@ -5758,6 +5848,7 @@
                 {
                   "italian": "prenotare",
                   "english": "to book",
+                  "punjabi": null,
                   "pronunciation": "preh-noh-TAH-reh",
                   "imageUrl": "/content/img/spiral-calendar.png",
                   "audioUrl": null,
@@ -5767,6 +5858,7 @@
                 {
                   "italian": "la visita",
                   "english": "the medical appointment",
+                  "punjabi": null,
                   "pronunciation": "VEE-zee-tah",
                   "imageUrl": "/content/img/stethoscope.png",
                   "audioUrl": null,
@@ -5776,6 +5868,7 @@
                 {
                   "italian": "il lavoro part-time",
                   "english": "part-time job",
+                  "punjabi": null,
                   "pronunciation": "lah-VOH-roh part-time",
                   "imageUrl": "/content/img/hourglass-not-done.png",
                   "audioUrl": null,
@@ -5785,6 +5878,7 @@
                 {
                   "italian": "le ore settimanali",
                   "english": "weekly hours",
+                  "punjabi": null,
                   "pronunciation": "OH-reh set-tee-mah-NAH-lee",
                   "imageUrl": "/content/img/alarm-clock.png",
                   "audioUrl": null,
@@ -5794,6 +5888,7 @@
                 {
                   "italian": "la mancia",
                   "english": "the tip",
+                  "punjabi": null,
                   "pronunciation": "MAHN-chah",
                   "imageUrl": "/content/img/coin.png",
                   "audioUrl": null,
@@ -5803,6 +5898,7 @@
                 {
                   "italian": "il tirocinio",
                   "english": "the internship",
+                  "punjabi": null,
                   "pronunciation": "tee-roh-CHEE-nyoh",
                   "imageUrl": "/content/img/briefcase.png",
                   "audioUrl": null,
@@ -6211,6 +6307,7 @@
                 {
                   "italian": "Ho visto l'annuncio.",
                   "english": "I saw the advert.",
+                  "punjabi": null,
                   "pronunciation": "oh VEES-toh lahn-NOON-choh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -6220,6 +6317,7 @@
                 {
                   "italian": "Sono libero il fine settimana.",
                   "english": "I'm free at the weekend.",
+                  "punjabi": null,
                   "pronunciation": "SOH-noh LEE-beh-roh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -6229,6 +6327,7 @@
                 {
                   "italian": "Posso lavorare massimo 20 ore.",
                   "english": "I can work 20 hours at most.",
+                  "punjabi": null,
                   "pronunciation": "POHS-soh lah-voh-RAH-reh MAHS-see-moh VEN-tee OH-reh",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -6238,6 +6337,7 @@
                 {
                   "italian": "Vorrei prenotare una visita.",
                   "english": "I'd like to book an appointment.",
+                  "punjabi": null,
                   "pronunciation": "vor-REH-ee preh-noh-TAH-reh OO-nah VEE-zee-tah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -6247,6 +6347,7 @@
                 {
                   "italian": "Ho bisogno di una ricetta.",
                   "english": "I need a prescription.",
+                  "punjabi": null,
                   "pronunciation": "oh bee-ZOHN-yoh dee OO-nah ree-CHET-tah",
                   "imageUrl": null,
                   "audioUrl": null,
@@ -6256,6 +6357,7 @@
                 {
                   "italian": "Che cosa devo portare?",
                   "english": "What should I bring?",
+                  "punjabi": null,
                   "pronunciation": "keh KOH-zah DEH-voh por-TAH-reh",
                   "imageUrl": null,
                   "audioUrl": null,

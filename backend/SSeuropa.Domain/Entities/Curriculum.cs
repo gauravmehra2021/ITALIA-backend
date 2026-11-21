@@ -79,6 +79,8 @@ public class VocabularyItem
     public Guid Id { get; set; } = Guid.NewGuid();
     public string Italian { get; set; } = string.Empty;
     public string English { get; set; } = string.Empty;
+    /// <summary>Optional Punjabi meaning (romanised), shown under the English one.</summary>
+    public string? Punjabi { get; set; }
     /// <summary>Simple pronunciation guide, e.g. "CHOW".</summary>
     public string? Pronunciation { get; set; }
     public string? ImageUrl { get; set; }
@@ -93,6 +95,8 @@ public class DialogueLine
     public string Speaker { get; set; } = string.Empty;
     public string Italian { get; set; } = string.Empty;
     public string English { get; set; } = string.Empty;
+    /// <summary>Optional Punjabi meaning (romanised).</summary>
+    public string? Punjabi { get; set; }
     public string? AudioUrl { get; set; }
 
     /// <summary>Role-play only: this is the learner's turn (they say Italian or one of the Replies).</summary>

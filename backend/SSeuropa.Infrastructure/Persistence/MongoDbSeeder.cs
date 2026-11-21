@@ -157,7 +157,8 @@ public sealed class MongoDbInitializer(
                 Status = Domain.Enums.AccountStatus.Active,
                 EmailVerified = true,
                 PreferredLanguage = Domain.Enums.PreferredLanguage.English,
-                IsDeleted = false
+                IsDeleted = false,
+                UnlockAllLessons = true
             };
             await db.Users.InsertOneAsync(demoStudent, cancellationToken: ct);
             logger.LogInformation("Permanent Demo Student 'student@sseuropa.demo' created.");
@@ -168,6 +169,7 @@ public sealed class MongoDbInitializer(
             demoStudent.Status = Domain.Enums.AccountStatus.Active;
             demoStudent.EmailVerified = true;
             demoStudent.IsDeleted = false;
+            demoStudent.UnlockAllLessons = true; // the demo account reviews all content
             await db.Users.ReplaceOneAsync(u => u.Id == demoStudent.Id, demoStudent, cancellationToken: ct);
         }
 

@@ -94,7 +94,8 @@ public class InMemoryStore
                 Role = UserRole.User,
                 Status = AccountStatus.Active,
                 EmailVerified = true,
-                PreferredLanguage = PreferredLanguage.English
+                PreferredLanguage = PreferredLanguage.English,
+                UnlockAllLessons = true
             },
             new User
             {

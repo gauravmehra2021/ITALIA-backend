@@ -56,15 +56,16 @@ public class AuthAndCourseTests
     }
 
     [Fact]
-    public async Task Login_RequiresOtp_AndVerifyCompletes()
+    public async Task Login_WithPassword_ReturnsTokens_AndWrongPasswordFails()
     {
+        // Email + password sign-in (the OTP step was removed from the login flow).
         var login = await _auth.LoginAsync(new LoginRequest("student@sseuropa.demo", "Demo@12345", "dev-1", "Test"));
-        login.RequiresOtp.Should().BeTrue();
-        login.DemoOtpHint.Should().NotBeNullOrWhiteSpace();
+        login.RequiresOtp.Should().BeFalse();
+        login.AccessToken.Should().NotBeNullOrWhiteSpace();
+        login.DemoOtpHint.Should().BeNull();
 
-        var verified = await _auth.VerifyOtpAsync(new VerifyOtpRequest(login.PendingUserId!.Value, login.DemoOtpHint!, "dev-1", "Test"));
-        verified.AccessToken.Should().NotBeNullOrWhiteSpace();
-        verified.RequiresOtp.Should().BeFalse();
+        var wrong = () => _auth.LoginAsync(new LoginRequest("student@sseuropa.demo", "wrong-password", "dev-1", "Test"));
+        await wrong.Should().ThrowAsync<SSeuropa.Domain.Exceptions.UnauthorizedAccessDomainException>();
     }
 
     [Fact]

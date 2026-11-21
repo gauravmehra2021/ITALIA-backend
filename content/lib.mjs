@@ -10,6 +10,18 @@ export const w = (it, en, pron, img = null, ex = null, exEn = null) => ({ it, en
 /** Dialogue line. */
 export const line = (speaker, it, en) => ({ speaker, it, en });
 
+/** Word with a Punjabi meaning: (italian, english, punjabi, { pron, img, ex, exEn }). */
+export const wp = (it, en, pa, { pron = null, img = null, ex = null, exEn = null } = {}) => ({ it, en, pa, pron, img, ex, exEn });
+
+/** Dialogue line with a Punjabi translation. */
+export const lp = (speaker, it, en, pa) => ({ speaker, it, en, pa });
+
+/** Listening question: the app reads `spoken` aloud; the first option is correct. */
+export const lis = (prompt, spoken, ...options) => ({ type: 'ListenPick', prompt, italian: spoken, options });
+
+/** Match pairs written by hand: [[italian, meaning], …]. */
+export const pairs = (prompt, list) => ({ type: 'MatchPairs', prompt, pairs: list.map(([left, right]) => ({ left, right })) });
+
 /** Fill the gap (multiple choice). Use ___ for the gap. */
 export const fb = (sentence, options, explanation = null) => ({
   type: 'FillBlank', prompt: 'Choose the missing word', italian: sentence, options, explanation,

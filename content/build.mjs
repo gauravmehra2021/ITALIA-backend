@@ -19,6 +19,7 @@ import italianA2 from './courses/italian-a2/index.mjs';
 import italianWork from './courses/italian-work/index.mjs';
 import italianStudy from './courses/italian-study/index.mjs';
 import italianVisit from './courses/italian-visit/index.mjs';
+import corsoA0 from './courses/corso-a0/index.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const backend = path.resolve(here, '../backend');
@@ -27,10 +28,20 @@ const imgDir = path.join(backend, 'SSeuropa.Api/wwwroot/content/img');
 const pdfDir = path.join(backend, 'SSeuropa.Api/wwwroot/content/pdf');
 const cacheDir = path.join(here, '.cache');
 const logoPath = path.join(here, 'assets/logo.png');
+// Noto Sans (SIL Open Font License) covers accented Italian and romanised Punjabi (ā, ṭ, ṁ…).
+const FONT_REGULAR = path.join(here, 'assets/NotoSans-Regular.ttf');
+const FONT_BOLD = path.join(here, 'assets/NotoSans-Bold.ttf');
+function newPdf(opts) {
+  const doc = new PDFDocument(opts);
+  doc.registerFont('Body', FONT_REGULAR);
+  doc.registerFont('Body-Bold', FONT_BOLD);
+  doc.font('Body');
+  return doc;
+}
 
-const COURSES = [italianA1, italianA2, italianWork, italianStudy, italianVisit];
-const XP = { Vocabulary: 20, Dialogue: 25, Grammar: 25, Review: 40, Conversation: 30 };
-const MINUTES = { Vocabulary: 10, Dialogue: 12, Grammar: 15, Review: 15, Conversation: 8 };
+const COURSES = [corsoA0, italianA1, italianA2, italianWork, italianStudy, italianVisit];
+const XP = { Vocabulary: 20, Dialogue: 25, Grammar: 25, Review: 40, Conversation: 30, Exam: 60 };
+const MINUTES = { Vocabulary: 10, Dialogue: 12, Grammar: 15, Review: 15, Conversation: 8, Exam: 20 };
 
 for (const d of [seedDir, imgDir, pdfDir, cacheDir]) fs.mkdirSync(d, { recursive: true });
 
@@ -94,6 +105,7 @@ function authored(ex, rand) {
     explanation: ex.explanation ?? null,
   };
   if (ex.type === 'WordOrder') return base;
+  if (ex.type === 'MatchPairs') return { ...base, pairs: ex.pairs };
   if (ex.fixedOrder) {
     return { ...base, options: ex.options.map((t) => opt(t)), correctIndex: ex.correctIndex ?? 0 };
   }
@@ -211,6 +223,7 @@ function practiceFromWords(words, rand, { listen = 3, pictures = 2, translate = 
 const item = (w) => ({
   italian: w.it,
   english: w.en,
+  punjabi: w.pa ?? null,
   pronunciation: w.pron ?? null,
   imageUrl: imageUrl(w.img),
   audioUrl: null,
@@ -235,7 +248,11 @@ function buildLesson(course, unit, unitIndex, lesson, lessonIndex) {
   const blocks = [];
   let exercises = [];
 
-  switch (lesson.kind) {
+  if (lesson.sections) {
+    const r = buildSections(course, lesson, rand);
+    blocks.push(...r.blocks);
+    exercises = r.exercises;
+  } else switch (lesson.kind) {
     case 'Vocabulary':
       if (lesson.intro) blocks.push(block('Text', { body: lesson.intro }));
       blocks.push(block('Vocabulary', { title: 'New words', items: lesson.words.map(item) }));
@@ -246,7 +263,7 @@ function buildLesson(course, unit, unitIndex, lesson, lessonIndex) {
       blocks.push(block('Text', { title: 'The situation', body: lesson.situation }));
       blocks.push(block('Dialogue', {
         title: lesson.titleIt,
-        lines: lesson.lines.map((l) => ({ speaker: l.speaker, italian: l.it, english: l.en, audioUrl: null })),
+        lines: lesson.lines.map((l) => ({ speaker: l.speaker, italian: l.it, english: l.en, punjabi: l.pa ?? null, audioUrl: null })),
       }));
       blocks.push(block('Vocabulary', { title: 'Key phrases', items: lesson.phrases.map(item) }));
       if (lesson.table) blocks.push(block('Table', { title: lesson.tableTitle ?? null, table: lesson.table }));
@@ -328,6 +345,53 @@ function buildLesson(course, unit, unitIndex, lesson, lessonIndex) {
   };
 }
 
+/** Words of a sections lesson. */
+const sectionWords = (lesson) => (lesson.sections ?? []).flatMap((s) => s.words ?? []);
+
+/**
+ * A lesson written as an ordered list of sections:
+ *   { text, title } · { words, title } · { table, title } · { dialogue, title, situation }
+ *   { tip, title } · { reading: { title, it, en } } · { slides, title } · { phrasebook: true }
+ * Practice exercises are generated from the words of the vocabulary sections (unless a
+ * section sets practice: false, or the lesson sets practice: false — tests use only
+ * their own questions).
+ */
+function buildSections(course, lesson, rand) {
+  const blocks = [];
+  for (const s of lesson.sections) {
+    if (s.text) blocks.push(block('Text', { title: s.title ?? null, body: s.text }));
+    else if (s.words) blocks.push(block('Vocabulary', { title: s.title ?? 'New words', items: s.words.map(item) }));
+    else if (s.table) blocks.push(block('Table', { title: s.title ?? null, table: s.table }));
+    else if (s.dialogue) {
+      if (s.situation) blocks.push(block('Text', { title: 'The situation', body: s.situation }));
+      blocks.push(block('Dialogue', {
+        title: s.title ?? 'Dialogo',
+        lines: s.dialogue.map((l) => ({ speaker: l.speaker, italian: l.it, english: l.en, punjabi: l.pa ?? null, audioUrl: null })),
+      }));
+    } else if (s.tip) blocks.push(block('Tip', { title: s.title ?? 'Good to know', body: s.tip }));
+    else if (s.reading) blocks.push(block('Text', { title: s.reading.title, body: s.reading.it, caption: s.reading.en }));
+    else if (s.slides) {
+      blocks.push(block('Pdf', {
+        title: s.title ?? 'Lesson slides (PDF)',
+        body: s.body ?? 'The slides your teacher uses in class. Open them on your phone or print them.',
+        mediaUrl: s.slides,
+      }));
+    } else if (s.phrasebook) {
+      blocks.push(block('Pdf', {
+        title: 'Course phrasebook (PDF)',
+        body: 'Every word and phrase of the course, chapter by chapter, with English and Punjabi.',
+        mediaUrl: phrasebookUrl(course),
+      }));
+    } else throw new Error(`Unknown section in "${lesson.title}": ${JSON.stringify(s).slice(0, 80)}`);
+  }
+  let exercises = [];
+  if (lesson.practice !== false) {
+    const words = lesson.sections.filter((s) => s.words && s.practice !== false).flatMap((s) => s.words);
+    if (words.length >= 4) exercises = practiceFromWords(words, rand, lesson.practice ?? undefined);
+  }
+  return { blocks, exercises };
+}
+
 const unitPdfUrl = (course, unitIndex) => `/content/pdf/${course.slug}-unit-${String(unitIndex + 1).padStart(2, '0')}.pdf`;
 const phrasebookUrl = (course) => `/content/pdf/${course.slug}-phrasebook.pdf`;
 
@@ -345,6 +409,8 @@ function buildCourse(course) {
     displayOrder: course.displayOrder,
     thumbnailUrl: imageUrl(course.cover),
     units: course.units.map((u, ui) => ({
+      // Stable unit id: lets the API append new chapters to a course that is already live.
+      key: u.key ?? `unit-${ui + 1}`,
       order: ui + 1,
       title: u.title,
       titleIt: u.titleIt,
@@ -363,7 +429,7 @@ function collectImages(course) {
   const names = new Set([course.cover]);
   for (const u of course.units) {
     names.add(u.cover);
-    for (const l of u.lessons) for (const w of [...(l.words ?? []), ...(l.phrases ?? []), ...(l.examples ?? [])]) if (w.img) names.add(w.img);
+    for (const l of u.lessons) for (const w of [...(l.words ?? []), ...(l.phrases ?? []), ...(l.examples ?? []), ...sectionWords(l)]) if (w.img) names.add(w.img);
   }
   names.delete(null);
   names.delete(undefined);
@@ -386,7 +452,7 @@ const pdfText = (s) => String(s ?? '')
 function unitPdf(course, unit, unitIndex) {
   return new Promise((resolve, reject) => {
     const file = path.join(pdfDir, path.basename(unitPdfUrl(course, unitIndex)));
-    const doc = new PDFDocument({ size: 'A4', margin: 48, bufferPages: true, info: { Title: `${course.title} — Unit ${unitIndex + 1}: ${unit.title}`, Author: 'SS Europa' } });
+    const doc = newPdf({ size: 'A4', margin: 48, bufferPages: true, info: { Title: `${course.title} — Unit ${unitIndex + 1}: ${unit.title}`, Author: 'SS Europa' } });
     const out = fs.createWriteStream(file);
     doc.pipe(out);
     out.on('finish', resolve);
@@ -400,31 +466,31 @@ function unitPdf(course, unit, unitIndex) {
     doc.rect(doc.page.width / 3, 92, doc.page.width / 3, 4).fill('#ffffff');
     doc.rect((doc.page.width / 3) * 2, 92, doc.page.width / 3, 4).fill(RED);
     if (fs.existsSync(logoPath)) doc.image(logoPath, 48, 14, { height: 64 });
-    doc.fillColor('#ffffff').font('Helvetica-Bold').fontSize(18).text(`Unit ${unitIndex + 1}: ${pdfText(unit.title)}`, 124, 24, { width: width - 76 });
-    doc.font('Helvetica').fontSize(11).fillColor('#dbe7ff').text(`${pdfText(unit.titleIt)}  ·  ${pdfText(course.title)}`, 124, 50, { width: width - 76 });
+    doc.fillColor('#ffffff').font('Body-Bold').fontSize(18).text(`${course.unitLabel ?? 'Unit'} ${unitIndex + 1}: ${pdfText(unit.title.replace(/^(Chapter|Capitolo) \d+: /, ''))}`, 124, 24, { width: width - 76 });
+    doc.font('Body').fontSize(11).fillColor('#dbe7ff').text(`${pdfText(unit.titleIt)}  ·  ${pdfText(course.title)}`, 124, 50, { width: width - 76 });
     doc.y = 116;
     doc.x = 48;
 
     const heading = (t) => {
       if (doc.y > doc.page.height - 120) doc.addPage();
-      doc.moveDown(0.6).font('Helvetica-Bold').fontSize(13).fillColor(BLUE).text(pdfText(t), 48, doc.y, { width });
+      doc.moveDown(0.6).font('Body-Bold').fontSize(13).fillColor(BLUE).text(pdfText(t), 48, doc.y, { width });
       doc.moveTo(48, doc.y + 2).lineTo(48 + width, doc.y + 2).strokeColor('#c7d2fe').lineWidth(1).stroke();
       doc.moveDown(0.5);
     };
-    const para = (t, opts = {}) => doc.font(opts.bold ? 'Helvetica-Bold' : 'Helvetica').fontSize(opts.size ?? 10).fillColor(opts.color ?? INK).text(pdfText(t), 48, doc.y, { width, ...opts });
+    const para = (t, opts = {}) => doc.font(opts.bold ? 'Body-Bold' : 'Body').fontSize(opts.size ?? 10).fillColor(opts.color ?? INK).text(pdfText(t), 48, doc.y, { width, ...opts });
 
     const table = (rows, widths) => {
       const total = widths.reduce((a, b) => a + b, 0);
       const cols = widths.map((w) => (w / total) * width);
       rows.forEach((row, i) => {
-        const h = Math.max(...row.map((c, j) => doc.font(i === 0 ? 'Helvetica-Bold' : 'Helvetica').fontSize(9.5).heightOfString(pdfText(c), { width: cols[j] - 10 }))) + 8;
+        const h = Math.max(...row.map((c, j) => doc.font(i === 0 ? 'Body-Bold' : 'Body').fontSize(9.5).heightOfString(pdfText(c), { width: cols[j] - 10 }))) + 8;
         if (doc.y + h > doc.page.height - 56) doc.addPage();
         const y = doc.y;
         if (i === 0) doc.rect(48, y, width, h).fill('#eef2ff');
         else if (i % 2 === 0) doc.rect(48, y, width, h).fill('#f9fafb');
         let x = 48;
         row.forEach((c, j) => {
-          doc.font(i === 0 ? 'Helvetica-Bold' : j === 0 ? 'Helvetica-Bold' : 'Helvetica').fontSize(9.5).fillColor(i === 0 ? BLUE : INK)
+          doc.font(i === 0 ? 'Body-Bold' : j === 0 ? 'Body-Bold' : 'Body').fontSize(9.5).fillColor(i === 0 ? BLUE : INK)
             .text(pdfText(c), x + 5, y + 4, { width: cols[j] - 10 });
           x += cols[j];
         });
@@ -438,6 +504,27 @@ function unitPdf(course, unit, unitIndex) {
 
     for (const lesson of unit.lessons) {
       heading(`${lesson.title}  —  ${lesson.titleIt}`);
+      if (lesson.sections) {
+        if (lesson.kind === 'Exam') { para(lesson.summary, { color: MUTED, size: 9.5 }); continue; }
+        for (const s of lesson.sections) {
+          const sub = () => { if (s.title) para(s.title, { bold: true, size: 10.5 }); };
+          if (s.words) {
+            sub();
+            const pa = s.words.some((w) => w.pa);
+            table(pa ? [['Italiano', 'English', 'Punjabi'], ...s.words.map((w) => [w.it, w.en, w.pa ?? ''])]
+              : [['Italiano', 'English'], ...s.words.map((w) => [w.it, w.en])], pa ? [3, 3, 3] : [4, 4]);
+          } else if (s.table) { sub(); table(s.table, s.table[0].map(() => 1)); }
+          else if (s.text) { sub(); para(s.text.replace(/\n- /g, '\n•  ')); doc.moveDown(0.4); }
+          else if (s.dialogue) {
+            sub();
+            const pa = s.dialogue.some((l) => l.pa);
+            table(pa ? [['', 'Italiano', 'English', 'Punjabi'], ...s.dialogue.map((l) => [l.speaker, l.it, l.en, l.pa ?? ''])]
+              : [['', 'Italiano', 'English'], ...s.dialogue.map((l) => [l.speaker, l.it, l.en])], pa ? [1.2, 4, 4, 4] : [1.2, 4, 4]);
+          } else if (s.tip) { para(`Good to know: ${s.tip}`, { color: GREEN, size: 9.5 }); doc.moveDown(0.3); }
+          else if (s.reading) { para(s.reading.title, { bold: true }); para(s.reading.it); para(s.reading.en, { color: MUTED, size: 9 }); }
+        }
+        continue;
+      }
       if (lesson.words) table([['Italian', 'Say it', 'English'], ...lesson.words.map((w) => [w.it, w.pron ?? '', w.en])], [3, 3, 3]);
       if (lesson.lines) {
         para(lesson.situation, { color: MUTED, size: 9.5 });
@@ -467,7 +554,7 @@ function unitPdf(course, unit, unitIndex) {
       if (lesson.tip) { doc.moveDown(0.3); para(`Good to know: ${lesson.tip}`, { color: GREEN, size: 9.5 }); }
     }
 
-    if (unit.lessons.some((l) => l.kind === 'Vocabulary' && l.words.some((w) => w.it === 'il modulo'))) {
+    if (unit.lessons.some((l) => l.kind === 'Vocabulary' && l.words?.some((w) => w.it === 'il modulo'))) {
       heading('Practice: fill in the form with your details');
       for (const f of ['Cognome', 'Nome', 'Nazionalità', 'Data di nascita', 'Indirizzo', 'Telefono', 'Codice fiscale', 'Firma']) {
         if (doc.y > doc.page.height - 70) doc.addPage();
@@ -487,7 +574,7 @@ function unitPdf(course, unit, unitIndex) {
     for (let i = range.start; i < range.start + range.count; i++) {
       doc.switchToPage(i);
       doc.page.margins.bottom = 0; // let the footer sit below the margin without adding a page
-      doc.font('Helvetica').fontSize(8).fillColor(MUTED)
+      doc.font('Body').fontSize(8).fillColor(MUTED)
         .text(`SS Europa — Sostegno e Soluzioni per l'Europa  ·  ${pdfText(course.title)}  ·  Page ${i + 1} of ${range.count}`,
           48, doc.page.height - 36, { width, align: 'center', lineBreak: false });
     }
@@ -499,7 +586,7 @@ function unitPdf(course, unit, unitIndex) {
 function phrasebookPdf(course) {
   return new Promise((resolve, reject) => {
     const file = path.join(pdfDir, path.basename(phrasebookUrl(course)));
-    const doc = new PDFDocument({ size: 'A4', margin: 48, bufferPages: true, info: { Title: `${course.title} — Phrasebook`, Author: 'SS Europa' } });
+    const doc = newPdf({ size: 'A4', margin: 48, bufferPages: true, info: { Title: `${course.title} — Phrasebook`, Author: 'SS Europa' } });
     const out = fs.createWriteStream(file);
     doc.pipe(out);
     out.on('finish', resolve);
@@ -510,29 +597,29 @@ function phrasebookPdf(course) {
     doc.rect(0, 92, doc.page.width / 3, 4).fill(GREEN);
     doc.rect((doc.page.width / 3) * 2, 92, doc.page.width / 3, 4).fill(RED);
     if (fs.existsSync(logoPath)) doc.image(logoPath, 48, 14, { height: 64 });
-    doc.fillColor('#ffffff').font('Helvetica-Bold').fontSize(20).text('Phrasebook', 124, 22, { width: width - 76 });
-    doc.font('Helvetica').fontSize(11).fillColor('#dbe7ff').text(pdfText(course.title), 124, 50, { width: width - 76 });
+    doc.fillColor('#ffffff').font('Body-Bold').fontSize(20).text('Phrasebook', 124, 22, { width: width - 76 });
+    doc.font('Body').fontSize(11).fillColor('#dbe7ff').text(pdfText(course.title), 124, 50, { width: width - 76 });
     doc.y = 116;
 
     const rows = (list) => list.forEach((wd, i) => {
       const it = pdfText(wd.it);
-      const en = pdfText(wd.en);
-      const h = Math.max(doc.font('Helvetica-Bold').fontSize(9.5).heightOfString(it, { width: width * 0.45 }), doc.font('Helvetica').heightOfString(en, { width: width * 0.5 })) + 6;
+      const en = pdfText(wd.pa ? `${wd.en}  ·  ${wd.pa}` : wd.en);
+      const h = Math.max(doc.font('Body-Bold').fontSize(9.5).heightOfString(it, { width: width * 0.45 }), doc.font('Body').heightOfString(en, { width: width * 0.5 })) + 6;
       if (doc.y + h > doc.page.height - 56) doc.addPage();
       const y = doc.y;
       if (i % 2 === 1) doc.rect(48, y, width, h).fill('#f5f7fb');
-      doc.font('Helvetica-Bold').fontSize(9.5).fillColor(INK).text(it, 53, y + 3, { width: width * 0.45 });
-      doc.font('Helvetica').fontSize(9.5).fillColor(MUTED).text(en, 53 + width * 0.48, y + 3, { width: width * 0.5 });
+      doc.font('Body-Bold').fontSize(9.5).fillColor(INK).text(it, 53, y + 3, { width: width * 0.45 });
+      doc.font('Body').fontSize(9.5).fillColor(MUTED).text(en, 53 + width * 0.48, y + 3, { width: width * 0.5 });
       doc.y = y + h;
     });
 
     course.units.forEach((u, ui) => {
-      const words = u.lessons.flatMap((l) => [...(l.words ?? []), ...(l.phrases ?? [])]);
+      const words = u.lessons.flatMap((l) => [...(l.words ?? []), ...(l.phrases ?? []), ...sectionWords(l)]);
       const seen = new Set();
       const unique = words.filter((wd) => (seen.has(wd.it) ? false : seen.add(wd.it)));
       if (doc.y > doc.page.height - 140) doc.addPage();
-      doc.moveDown(0.6).font('Helvetica-Bold').fontSize(13).fillColor(BLUE).text(`${ui + 1}. ${pdfText(u.title)}`, 48, doc.y, { width });
-      doc.font('Helvetica').fontSize(9.5).fillColor(MUTED).text(pdfText(u.titleIt), 48, doc.y, { width });
+      doc.moveDown(0.6).font('Body-Bold').fontSize(13).fillColor(BLUE).text(`${ui + 1}. ${pdfText(u.title)}`, 48, doc.y, { width });
+      doc.font('Body').fontSize(9.5).fillColor(MUTED).text(pdfText(u.titleIt), 48, doc.y, { width });
       doc.moveDown(0.3);
       rows(unique);
     });
@@ -541,7 +628,7 @@ function phrasebookPdf(course) {
     for (let i = range.start; i < range.start + range.count; i++) {
       doc.switchToPage(i);
       doc.page.margins.bottom = 0; // let the footer sit below the margin without adding a page
-      doc.font('Helvetica').fontSize(8).fillColor(MUTED)
+      doc.font('Body').fontSize(8).fillColor(MUTED)
         .text(`SS Europa  ·  ${pdfText(course.title)} — Phrasebook  ·  Page ${i + 1} of ${range.count}`, 48, doc.page.height - 36, { width, align: 'center', lineBreak: false });
     }
     doc.end();

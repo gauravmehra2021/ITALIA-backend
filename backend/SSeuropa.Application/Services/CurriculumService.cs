@@ -31,7 +31,17 @@ public class CurriculumService(
         _ => 0
     };
 
+    /// <summary>Chapter tests (Exam lessons) need 60% to pass, as in the school's paper tests.</summary>
+    public const int ExamPassPercent = 60;
+
+    public static int StarsFor(int scorePercent, LessonKind kind) =>
+        kind == LessonKind.Exam && scorePercent < ExamPassPercent ? 0 : StarsFor(scorePercent);
+
     private bool IsStaff => current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin);
+
+    /// <summary>Students with UnlockAllLessons (e.g. the demo account) can open any lesson of a course they're enrolled in.</summary>
+    private async Task<bool> UnlocksAllLessonsAsync(Guid userId, CancellationToken ct) =>
+        (await users.GetByIdAsync(userId, ct))?.UnlockAllLessons == true;
 
     // ══════════════════════════════════════════════════════════════════════
     //  Staff: outline & editing
@@ -246,7 +256,9 @@ public class CurriculumService(
         var isEnrolled = await IsEnrolledAsync(userId, courseId, ct);
         var (units, lessons) = await GetPublishedAsync(courseId, ct);
         var progress = (await curriculum.GetProgressAsync(userId, courseId, ct)).ToDictionary(p => p.LessonId);
-        var unlocked = ComputeUnlocked(lessons, progress);
+        var unlocked = await UnlocksAllLessonsAsync(userId, ct)
+            ? lessons.Select(l => l.Id).ToHashSet()
+            : ComputeUnlocked(lessons, progress);
 
         var unitDtos = units.Select(u =>
         {
@@ -297,7 +309,7 @@ public class CurriculumService(
 
             var (_, lessons) = await GetPublishedAsync(lesson.CourseId, ct);
             var progress = (await curriculum.GetProgressAsync(userId, lesson.CourseId, ct)).ToDictionary(p => p.LessonId);
-            if (!ComputeUnlocked(lessons, progress).Contains(lessonId))
+            if (!ComputeUnlocked(lessons, progress).Contains(lessonId) && !await UnlocksAllLessonsAsync(userId, ct))
                 throw new UnauthorizedAccessDomainException("Finish the previous lesson to unlock this one.");
         }
 
@@ -314,7 +326,7 @@ public class CurriculumService(
         var score = Math.Clamp(request.ScorePercent, 0, 100);
         // Lessons without exercises (e.g. a video) count as fully completed.
         if (lesson.Exercises.Count == 0) score = 100;
-        var stars = StarsFor(score);
+        var stars = StarsFor(score, lesson.Kind);
         var now = DateTime.UtcNow;
 
         var progress = await curriculum.GetLessonProgressAsync(userId, lessonId, ct) ?? new LessonProgress
