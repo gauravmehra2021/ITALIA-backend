@@ -167,12 +167,12 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         var admin = await LoginAsync("admin@sseuropa.demo");
         var catalogue = await GetAsync<List<CourseCard>>("/api/learn/courses", admin);
 
-        // Exactly one copy, with both chapters (4 lessons × 3 parts + a test each).
+        // Exactly one copy, with all 5 chapters (4 lessons × 3 parts + a test each).
         var course = catalogue.Should().ContainSingle(c => c.Course.Slug == "corso-italiano-a0").Subject;
-        course.TotalLessons.Should().Be(26);
+        course.TotalLessons.Should().Be(65);
 
         var outline = await GetAsync<Outline>($"/api/curriculum/courses/{course.Course.Id}", admin);
-        outline.Units.Select(u => u.Title).Should().HaveCount(2).And.AllSatisfy(t => t.Should().StartWith("Chapter"));
+        outline.Units.Select(u => u.Title).Should().HaveCount(5).And.AllSatisfy(t => t.Should().StartWith("Chapter"));
 
         // Words carry their Punjabi meaning.
         var first = await SendAsync<JsonElement>(HttpMethod.Get, $"/api/curriculum/lessons/{outline.Units[0].Lessons[0].Id}", admin);

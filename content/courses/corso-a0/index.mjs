@@ -1,9 +1,12 @@
 import capitolo1 from './capitolo-1.mjs';
 import capitolo2 from './capitolo-2.mjs';
+import capitolo3 from './capitolo-3.mjs';
+import capitolo4 from './capitolo-4.mjs';
+import capitolo5 from './capitolo-5.mjs';
 
 // The school's own syllabus (client material in /syllabus): one unit per chapter
 // (Capitolo), three short self-study lessons per class (Lezione) and a chapter test.
-// To add Capitolo 3, write capitolo-3.mjs and add it to `units` below. On the next
+// To add the next chapter, write capitolo-N.mjs (with key: 'capitolo-N') and add it to `units` below. On the next
 // deploy the API adds the new chapter to the existing course without touching
 // the chapters, edits or student progress that are already there.
 
@@ -21,13 +24,16 @@ export default {
     'Fill in a form with your personal details, dates and numbers up to 100',
     'Talk about your family and describe people',
     'Use essere and avere, the articles, plurals, possessives and adjectives',
+    'Talk about your day with regular and irregular verbs, the time and your hobbies',
+    'Order at the bar and the restaurant, do the shopping and read prices',
+    'Get around town, ask for directions and describe your home',
   ].join('\n'),
   level: 'Beginner',
   cefrLevel: 'A0',
   category: 'Core',
-  durationWeeks: 4,
+  durationWeeks: 10,
   displayOrder: 0,
   cover: 'School',
   unitLabel: 'Capitolo',
-  units: [capitolo1, capitolo2],
+  units: [capitolo1, capitolo2, capitolo3, capitolo4, capitolo5],
 };
