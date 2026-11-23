@@ -150,6 +150,18 @@ public interface IAiSessionRepository
     Task<IReadOnlyList<AiSession>> GetByUserAsync(Guid userId, CancellationToken ct = default);
 }
 
+/// <summary>Translation memory for lesson content (see ContentTranslation).</summary>
+public interface ITranslationRepository
+{
+    Task<IReadOnlyList<ContentTranslation>> GetAllAsync(CancellationToken ct = default);
+    Task<IReadOnlyList<ContentTranslation>> GetBySourcesAsync(IReadOnlyCollection<string> sources, CancellationToken ct = default);
+    Task<ContentTranslation?> GetBySourceAsync(string source, CancellationToken ct = default);
+    Task AddRangeAsync(IReadOnlyCollection<ContentTranslation> items, CancellationToken ct = default);
+    Task UpdateAsync(ContentTranslation item, CancellationToken ct = default);
+    /// <summary>Saves many changed rows in a few round-trips (used by the seeder).</summary>
+    Task UpdateRangeAsync(IReadOnlyCollection<ContentTranslation> items, CancellationToken ct = default);
+}
+
 public interface IEnquiryRepository
 {
     Task<Enquiry?> GetByIdAsync(Guid id, CancellationToken ct = default);

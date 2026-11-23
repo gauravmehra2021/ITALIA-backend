@@ -1,0 +1,2914 @@
+{
+ "- I can help a customer find a product\n- I can work at the till: price, payment, receipt\n- I can deal politely with a complaint": [
+  "- Main grahak nu cheez labhan vich madad kar sakda haan\n- Main cash counter te kamm kar sakda haan: keemat, bhugtaan, raseed\n- Main adab naal shikayat sambhal sakda haan",
+  "- मैं ग्राहक को चीज़ ढूँढने में मदद कर सकता हूँ\n- मैं कैश काउंटर पर काम कर सकता हूँ: कीमत, भुगतान, रसीद\n- मैं शिष्टता से शिकायत सँभाल सकता हूँ"
+ ],
+ "- I can name fruit, vegetables and farm tools\n- I can understand the day's work in the fields\n- I can talk about hours and pay": [
+  "- Main phal, sabziyan te kheti de auzaaran de naam lai sakda haan\n- Main khetan vich din da kamm samajh sakda haan\n- Main ghanteyan te tankhah baare gall kar sakda haan",
+  "- मैं फल, सब्ज़ियों और खेती के औज़ारों के नाम ले सकता हूँ\n- मैं खेतों में दिन का काम समझ सकता हूँ\n- मैं घंटों और मज़दूरी के बारे में बात कर सकता हूँ"
+ ],
+ "- I can name kitchen tools and tasks\n- I can take an order from a customer\n- I can understand instructions from the chef": [
+  "- Main rasoi de auzaaran te kamman de naam lai sakda haan\n- Main grahak ton order lai sakda haan\n- Main chef diyan hidayatan samajh sakda haan",
+  "- मैं रसोई के औज़ारों और कामों के नाम ले सकता हूँ\n- मैं ग्राहक से ऑर्डर ले सकता हूँ\n- मैं शेफ़ के निर्देश समझ सकता हूँ"
+ ],
+ "- I can name tools and building materials\n- I can understand safety rules on site\n- I can ask for tools and help from colleagues": [
+  "- Main auzaaran te usaari de saman de naam lai sakda haan\n- Main site te suraksha de niyam samajh sakda haan\n- Main saathiyan ton auzaar te madad mang sakda haan",
+  "- मैं औज़ारों और निर्माण सामग्री के नाम ले सकता हूँ\n- मैं साइट पर सुरक्षा के नियम समझ सकता हूँ\n- मैं सहकर्मियों से औज़ार और मदद माँग सकता हूँ"
+ ],
+ "- I can name tools, machines and safety equipment\n- I can understand an order and a shift plan\n- I can report a problem with a machine": [
+  "- Main auzaaran, machinan te suraksha de saman de naam lai sakda haan\n- Main order te shift plan samajh sakda haan\n- Main machine di samasya di report kar sakda haan",
+  "- मैं औज़ारों, मशीनों और सुरक्षा उपकरणों के नाम ले सकता हूँ\n- मैं ऑर्डर और शिफ़्ट प्लान समझ सकता हूँ\n- मैं मशीन की समस्या की रिपोर्ट कर सकता हूँ"
+ ],
+ "- I can talk about daily care: meals, medicine, washing\n- I can understand instructions about medicines\n- I can tell the family or the doctor how the person is": [
+  "- Main rozana di dekhbhaal baare gall kar sakda haan: khaana, dawai, nahauna\n- Main dawaiyan baare hidayatan samajh sakda haan\n- Main parivaar jaan doctor nu dass sakda haan ki banda kiven hai",
+  "- मैं रोज़ की देखभाल के बारे में बात कर सकता हूँ: खाना, दवाई, नहलाना\n- मैं दवाइयों के बारे में निर्देश समझ सकता हूँ\n- मैं परिवार या डॉक्टर को बता सकता हूँ कि व्यक्ति कैसा है"
+ ],
+ "- I can understand a simple job advert\n- I can say what work I did and for how long\n- I can answer basic interview questions": [
+  "- Main naukri da saada ishtihaar samajh sakda haan\n- Main dass sakda haan ki main ki kamm keeta te kinna chir\n- Main interview de bunyaadi sawaalan de jawab de sakda haan",
+  "- मैं नौकरी का साधारण विज्ञापन समझ सकता हूँ\n- मैं बता सकता हूँ कि मैंने क्या काम किया और कितने समय तक\n- मैं इंटरव्यू के बुनियादी सवालों के जवाब दे सकता हूँ"
+ ],
+ "- I can understand addresses and floors\n- I can talk to a customer at the door or on the intercom\n- I can explain a delay": [
+  "- Main pate te manzilan samajh sakda haan\n- Main darvaze te jaan intercom te grahak naal gall kar sakda haan\n- Main der da kaaran samjha sakda haan",
+  "- मैं पते और मंज़िलें समझ सकता हूँ\n- मैं दरवाज़े पर या इंटरकॉम पर ग्राहक से बात कर सकता हूँ\n- मैं देरी का कारण समझा सकता हूँ"
+ ],
+ "- I can understand the main parts of a contract and a payslip\n- I can ask for a day off or say I am sick\n- I know where to get help: unions, CAF, INPS": [
+  "- Main contract te salary slip de mukh hisse samajh sakda haan\n- Main chhutti mang sakda haan jaan dass sakda haan ki main bimar haan\n- Mainu pata hai madad kithon leni hai: union, CAF, INPS",
+  "- मैं कॉन्ट्रैक्ट और वेतन पर्ची के मुख्य हिस्से समझ सकता हूँ\n- मैं छुट्टी माँग सकता हूँ या बता सकता हूँ कि मैं बीमार हूँ\n- मुझे पता है मदद कहाँ से लेनी है: यूनियन, CAF, INPS"
+ ],
+ "- I can welcome a guest and give simple information\n- I can name cleaning products and tasks\n- I can understand my daily task list": [
+  "- Main mehmaan da swaagat kar sakda haan te saadi jaankari de sakda haan\n- Main safai de saman te kamman de naam lai sakda haan\n- Main apne rozana de kamman di list samajh sakda haan",
+  "- मैं मेहमान का स्वागत कर सकता हूँ और आसान जानकारी दे सकता हूँ\n- मैं सफ़ाई के सामान और कामों के नाम ले सकता हूँ\n- मैं अपने रोज़ के कामों की सूची समझ सकता हूँ"
+ ],
+ "\"Il mattone\" is…": [
+  "\"Il mattone\" hai…",
+  "\"Il mattone\" है…"
+ ],
+ "\"Il resto\" is…": [
+  "\"Il resto\" hai…",
+  "\"Il resto\" है…"
+ ],
+ "\"Interno 7\" means…": [
+  "\"Interno 7\" da matlab hai…",
+  "\"Interno 7\" का मतलब है…"
+ ],
+ "\"La busta paga\" is…": [
+  "\"La busta paga\" hai…",
+  "\"La busta paga\" है…"
+ ],
+ "\"Stanco\" means…": [
+  "\"Stanco\" da matlab hai…",
+  "\"Stanco\" का मतलब है…"
+ ],
+ "\"Vietato\" means…": [
+  "\"Vietato\" da matlab hai…",
+  "\"Vietato\" का मतलब है…"
+ ],
+ "25 Via Roma.": [
+  "Via Roma 25.",
+  "Via Roma 25।"
+ ],
+ "A beer and a sparkling water, please.": [
+  "Ikk beer te ikk sparkling paani, please.",
+  "एक बीयर और एक स्पार्कलिंग पानी, कृपया।"
+ ],
+ "A bit high, 150 over 90.": [
+  "Thoda vadh, 150 / 90.",
+  "थोड़ा ज़्यादा, 150 / 90।"
+ ],
+ "A dish is sold out. You tell the customer…": [
+  "Koi dish khatam ho gayi hai. Tusin grahak nu kehnde ho…",
+  "कोई डिश खत्म हो गई है। आप ग्राहक से कहते हैं…"
+ ],
+ "A driving licence is not needed.": [
+  "Driving licence di lod nahi.",
+  "ड्राइविंग लाइसेंस की ज़रूरत नहीं।"
+ ],
+ "A few minutes.": [
+  "Kujh minute.",
+  "कुछ मिनट।"
+ ],
+ "A hard hat is compulsory on site. Working at height without a harness is forbidden. Smoking near flammable materials is forbidden. In case of injury, tell the foreman immediately.": [
+  "Site te helmet zaroori hai. Harness ton bina uchaai te kamm karna mana hai. Agg fadan vale saman de nede cigarette peena mana hai. Satt lagan te foreman nu usi vele dasso.",
+  "साइट पर हेलमेट अनिवार्य है। हार्नेस के बिना ऊँचाई पर काम करना मना है। ज्वलनशील सामग्री के पास धूम्रपान मना है। चोट लगने पर फ़ोरमैन को तुरंत बताइए।"
+ ],
+ "A little, but I learn quickly.": [
+  "Thoda jiha, par main jaldi sikhda haan.",
+  "थोड़ा-सा, पर मैं जल्दी सीखता हूँ।"
+ ],
+ "A parcel for Mr Rossi.": [
+  "Mr Rossi layi ikk parcel.",
+  "Mr Rossi के लिए एक पार्सल।"
+ ],
+ "A practical course for people who work, or want to work, in Italy. Each unit is a job track: finding a job and interviews, restaurants and kitchens, hotels and cleaning, care work, shops and supermarkets, warehouses and factories, farms, building sites, delivery — and a final unit on your contract, payslip, holidays and sick leave.": [
+  "Unhan lokan layi practical course jo Italy vich kamm karde han jaan karna chahunde han. Har unit ikk kamm da raah hai: naukri labhna te interview, restaurant te rasoi, hotel te safai, dekhbhaal da kamm, dukaanan te supermarket, godaam te factory, khet, building site, delivery — te aakhri unit tuhade contract, salary slip, chhuttiyan te bimari di chhutti baare.",
+  "उन लोगों के लिए व्यावहारिक कोर्स जो इटली में काम करते हैं या करना चाहते हैं। हर इकाई एक काम का रास्ता है: नौकरी ढूँढना और इंटरव्यू, रेस्टोरेंट और रसोई, होटल और सफ़ाई, देखभाल का काम, दुकानें और सुपरमार्केट, गोदाम और फ़ैक्टरी, खेत, बिल्डिंग साइट, डिलीवरी — और आख़िरी इकाई आपके कॉन्ट्रैक्ट, वेतन पर्ची, छुट्टियों और बीमारी की छुट्टी के बारे में।"
+ ],
+ "A problem with the machine": [
+  "Machine vich samasya",
+  "मशीन में समस्या"
+ ],
+ "A product is sold out. You say…": [
+  "Koi cheez khatam ho gayi hai. Tusin kehnde ho…",
+  "कोई चीज़ खत्म हो गई है। आप कहते हैं…"
+ ],
+ "A signature here, please.": [
+  "Ithe dastakhat, please.",
+  "यहाँ हस्ताक्षर, कृपया।"
+ ],
+ "About fifteen minutes.": [
+  "Lagbhag pandran minute.",
+  "लगभग पंद्रह मिनट।"
+ ],
+ "Addresses, doors and delays.": [
+  "Pate, darvaze te der.",
+  "पते, दरवाज़े और देरी।"
+ ],
+ "Addresses, parcels and the road.": [
+  "Pate, parcel te sadak.",
+  "पते, पार्सल और सड़क।"
+ ],
+ "Ah, finally! I've been waiting for an hour.": [
+  "Achha, aakhir! Main ikk ghante ton udeek kar rahi si.",
+  "अच्छा, आख़िरकार! मैं एक घंटे से इंतज़ार कर रही थी।"
+ ],
+ "Aiutare un cliente": [
+  "Grahak di madad karna",
+  "ग्राहक की मदद करना"
+ ],
+ "All right, I'll wait here.": [
+  "Theek hai, main ithe udeek karda haan.",
+  "ठीक है, मैं यहाँ इंतज़ार करता हूँ।"
+ ],
+ "All right. And to eat?": [
+  "Theek hai. Te khaan layi?",
+  "ठीक है। और खाने के लिए?"
+ ],
+ "All right. Come up, third floor.": [
+  "Theek hai. Upar aa jao, teeji manzil.",
+  "ठीक है। ऊपर आ जाइए, तीसरी मंज़िल।"
+ ],
+ "All right. Tomorrow the doctor comes at ten.": [
+  "Theek hai. Kal doctor das vaje aavega.",
+  "ठीक है। कल डॉक्टर दस बजे आएँगे।"
+ ],
+ "All right. What should I use?": [
+  "Theek hai. Main ki varatan?",
+  "ठीक है। मैं क्या इस्तेमाल करूँ?"
+ ],
+ "Alla porta": [
+  "Darvaze te",
+  "दरवाज़े पर"
+ ],
+ "Alla reception": [
+  "Reception te",
+  "रिसेप्शन पर"
+ ],
+ "Always wear gloves.": [
+  "Hamesha dastaane pao.",
+  "हमेशा दस्ताने पहनिए।"
+ ],
+ "An ID, please.": [
+  "Ikk ID, please.",
+  "एक पहचान पत्र, कृपया।"
+ ],
+ "And her blood pressure?": [
+  "Te unhan da BP?",
+  "और उनका ब्लड प्रेशर?"
+ ],
+ "Answer the employer's questions about experience and availability.": [
+  "Maalik de tajurbe te vehle samey baare sawaalan de jawab devo.",
+  "मालिक के अनुभव और उपलब्धता वाले सवालों के जवाब दीजिए।"
+ ],
+ "Are we working on the scaffolding?": [
+  "Asin paad te kamm karange?",
+  "हम मचान पर काम करेंगे?"
+ ],
+ "Are you ready to order?": [
+  "Order karan layi tyar ho?",
+  "ऑर्डर करने के लिए तैयार हैं?"
+ ],
+ "Ask the farmer about the work, the hours and the pay.": [
+  "Kisaan ton kamm, ghante te tankhah baare puchho.",
+  "किसान से काम, घंटे और मज़दूरी के बारे में पूछिए।"
+ ],
+ "Ask the shift leader.": [
+  "Shift leader nu puchho.",
+  "शिफ़्ट लीडर से पूछिए।"
+ ],
+ "At four. There's a break at noon.": [
+  "Chaar vaje. Baaraan vaje break hai.",
+  "चार बजे। बारह बजे ब्रेक है।"
+ ],
+ "At the door": [
+  "Darvaze te",
+  "दरवाज़े पर"
+ ],
+ "At the reception": [
+  "Reception te",
+  "रिसेप्शन पर"
+ ],
+ "At the traffic light turn right.": [
+  "Traffic light te sajje mudo.",
+  "ट्रैफ़िक लाइट पर दाएँ मुड़िए।"
+ ],
+ "ATTENZIONE: area muletti. Obbligatorio indossare scarpe antinfortunistiche e giubbotto ad alta visibilità. Vietato passare a piedi durante le manovre.": [
+  "DHYAN DIO: forklift ilaaka. Safety jutte te chamkan vali jacket pauna zaroori. Forklift chalde vele paidal langhna mana hai.",
+  "ध्यान दें: फ़ोर्कलिफ़्ट क्षेत्र। सेफ़्टी जूते और चमकीली जैकेट पहनना अनिवार्य। फ़ोर्कलिफ़्ट चलते समय पैदल गुज़रना मना है।"
+ ],
+ "Avvisare che sei malato": [
+  "Bimar hon di soochna dena",
+  "बीमार होने की सूचना देना"
+ ],
+ "Before entering a room, knock and say **Permesso? Servizio pulizie!** (May I? Housekeeping!).": [
+  "Kamre vich jaan ton pehlan darvaza khadkao te kaho **Permesso? Servizio pulizie!** (Andar aa sakda haan? Safai sewa!).",
+  "कमरे में जाने से पहले दरवाज़ा खटखटाइए और कहिए **Permesso? Servizio pulizie!** (अंदर आ सकता हूँ? सफ़ाई सेवा!)।"
+ ],
+ "Before entering a room, you say…": [
+  "Kamre vich jaan ton pehlan tusin kehnde ho…",
+  "कमरे में जाने से पहले आप कहते हैं…"
+ ],
+ "blood pressure": [
+  "Blood pressure (BP)",
+  "ब्लड प्रेशर"
+ ],
+ "Blood pressure is measured once a week.": [
+  "BP hafte vich ikk vaar naapeya jaanda hai.",
+  "ब्लड प्रेशर हफ़्ते में एक बार नापा जाता है।"
+ ],
+ "Blood pressure is normal: 130 over 80.": [
+  "BP theek hai: 130 / 80.",
+  "ब्लड प्रेशर सामान्य है: 130 / 80।"
+ ],
+ "Breakfast is from seven.": [
+  "Naashta satt vaje ton hai.",
+  "नाश्ता सात बजे से है।"
+ ],
+ "Bricks, cement and the spirit level. They're near the container.": [
+  "Ittan, cement te level (sapaat naapan vala). Oh container de nede han.",
+  "ईंटें, सीमेंट और लेवल (स्पिरिट लेवल)। वे कंटेनर के पास हैं।"
+ ],
+ "Bring a real menu to the live class and practise taking orders.": [
+  "Live class vich asli menu lai ke aao te order lain di practice karo.",
+  "लाइव क्लास में असली मेन्यू लाइए और ऑर्डर लेने का अभ्यास कीजिए।"
+ ],
+ "Building-site role-play: the foreman explains the job and the safety rules, workers ask for tools and materials.": [
+  "Building site da role-play: foreman kamm te suraksha de niyam samjhaunda hai, mazdoor auzaar te saman mangde han.",
+  "बिल्डिंग साइट का रोल-प्ले: फ़ोरमैन काम और सुरक्षा नियम समझाता है, मज़दूर औज़ार और सामग्री माँगते हैं।"
+ ],
+ "Building-site words": [
+  "Building site de shabad",
+  "बिल्डिंग साइट के शब्द"
+ ],
+ "Call your boss to say you can't come to work.": [
+  "Apne boss nu phone karke dasso ki tusin kamm te nahi aa sakde.",
+  "अपने बॉस को फ़ोन करके बताइए कि आप काम पर नहीं आ सकते।"
+ ],
+ "Calling in sick": [
+  "Bimar hon di soochna dena",
+  "बीमार होने की सूचना देना"
+ ],
+ "Can you also work nights and on Saturdays?": [
+  "Kya tusin raat nu te Shanivaar nu vi kamm kar sakde ho?",
+  "क्या आप रात को और शनिवार को भी काम कर सकते हैं?"
+ ],
+ "Can you drive the tractor?": [
+  "Tusin tractor chala sakde ho?",
+  "आप ट्रैक्टर चला सकते हैं?"
+ ],
+ "Can you give me gloves?": [
+  "Kya tusin mainu dastaane de sakde ho?",
+  "क्या आप मुझे दस्ताने दे सकते हैं?"
+ ],
+ "Can you help me carry this?": [
+  "Isnu chukan vich meri madad kar sakde ho?",
+  "इसे उठाने में मेरी मदद कर सकते हो?"
+ ],
+ "Can you pass me the hammer?": [
+  "Mainu hathauda phara sakde ho?",
+  "मुझे हथौड़ा पकड़ा सकते हो?"
+ ],
+ "Can you repeat, please?": [
+  "Kirpa karke dobara keh sakde ho?",
+  "कृपया दोबारा कह सकते हैं?"
+ ],
+ "Cardioaspirin: one tablet at lunch. Blood-pressure tablet: one in the morning on an empty stomach. Measure blood pressure twice a day. Drink at least one and a half litres of water.": [
+  "Cardioaspirin: dupehar de khaane naal ikk goli. BP di goli: savere khaali pet ikk. Din vich do vaar BP naapo. Ghatt ton ghatt dedh litre paani peeo.",
+  "Cardioaspirin: दोपहर के खाने के साथ एक गोली। ब्लड प्रेशर की गोली: सुबह खाली पेट एक। दिन में दो बार ब्लड प्रेशर नापिए। कम से कम डेढ़ लीटर पानी पीजिए।"
+ ],
+ "Cardioaspirina: una compressa a pranzo. Pastiglia per la pressione: una la mattina a digiuno. Misurare la pressione due volte al giorno. Bere almeno un litro e mezzo d'acqua.": [
+  "Cardioaspirina: dupehar de khaane naal ikk goli. BP di goli: savere khaali pet ikk. Din vich do vaar BP naapo. Ghatt ton ghatt dedh litre paani peeo.",
+  "Cardioaspirina: दोपहर के खाने के साथ एक गोली। ब्लड प्रेशर की गोली: सुबह खाली पेट एक। दिन में दो बार ब्लड प्रेशर नापिए। कम से कम डेढ़ लीटर पानी पीजिए।"
+ ],
+ "Care review": [
+  "Dekhbhaal da review",
+  "देखभाल का रिव्यू"
+ ],
+ "Care words": [
+  "Dekhbhaal de shabad",
+  "देखभाल के शब्द"
+ ],
+ "Care work & healthcare": [
+  "Dekhbhaal da kamm te sehat sewa",
+  "देखभाल का काम और स्वास्थ्य सेवा"
+ ],
+ "Careful, it's heavy!": [
+  "Dhyan naal, bhaara hai!",
+  "ध्यान से, भारी है!"
+ ],
+ "Careful, the knife is sharp!": [
+  "Dhyan naal, chhuri tez hai!",
+  "ध्यान से, चाकू तेज़ है!"
+ ],
+ "Carers have a national contract (**CCNL lavoro domestico**) with rules on hours, days off and holidays. Ask the family for a written contract and your **INPS** contributions.": [
+  "Dekhbhaal karan valeyan da rashtri contract (**CCNL lavoro domestico**) hai, jis vich ghanteyan, chhuttiyan te holidays de niyam han. Parivaar ton likhti contract te apne **INPS** yogdaan mango.",
+  "देखभाल करने वालों का राष्ट्रीय कॉन्ट्रैक्ट (**CCNL lavoro domestico**) है, जिसमें घंटों, छुट्टी के दिनों और अवकाश के नियम हैं। परिवार से लिखित कॉन्ट्रैक्ट और अपने **INPS** अंशदान माँगिए।"
+ ],
+ "cement": [
+  "Cement",
+  "सीमेंट"
+ ],
+ "Cercasi magazziniere a Modena. Contratto a tempo determinato, 40 ore settimanali, turni dal lunedì al sabato. Richiesta patente B. Inviare il curriculum a lavoro@esempio.it.": [
+  "Modena vich godaam karmchaari chahida hai. Nishchit samey da contract, hafte de 40 ghante, Somvaar ton Shanivaar shift. B licence zaroori. Apna CV lavoro@esempio.it te bhejo.",
+  "Modena में गोदाम कर्मचारी चाहिए। निश्चित अवधि का कॉन्ट्रैक्ट, हफ़्ते के 40 घंटे, सोमवार से शनिवार शिफ़्ट। B लाइसेंस ज़रूरी। अपना CV lavoro@esempio.it पर भेजिए।"
+ ],
+ "Change the sheets every day.": [
+  "Har roz chaadran badlo.",
+  "हर दिन चादरें बदलिए।"
+ ],
+ "Check the expiry date.": [
+  "Expiry date check karo.",
+  "समाप्ति तिथि जाँचिए।"
+ ],
+ "Come, I'll take you there.": [
+  "Aao, main tuhanu othe lai chalda haan.",
+  "आइए, मैं आपको वहाँ ले चलता हूँ।"
+ ],
+ "Coming. Is there a lift?": [
+  "Aa reha haan. Lift hai?",
+  "आ रहा हूँ। लिफ़्ट है?"
+ ],
+ "Construction & building sites": [
+  "Usaari te building site",
+  "निर्माण और बिल्डिंग साइट"
+ ],
+ "Construction review": [
+  "Usaari da review",
+  "निर्माण का रिव्यू"
+ ],
+ "Contract & payslip": [
+  "Contract te salary slip",
+  "कॉन्ट्रैक्ट और वेतन पर्ची"
+ ],
+ "Crops, tools and work questions.": [
+  "Fasalan, auzaar te kamm de sawaal.",
+  "फ़सलें, औज़ार और काम के सवाल।"
+ ],
+ "Customers, till and returns.": [
+  "Grahak, cash counter te vaapsi.",
+  "ग्राहक, कैश काउंटर और वापसी।"
+ ],
+ "Cut the onions.": [
+  "Pyaaz katto.",
+  "प्याज़ काटिए।"
+ ],
+ "CV, interview, contract and working hours.": [
+  "CV, interview, contract te kamm de ghante.",
+  "CV, इंटरव्यू, कॉन्ट्रैक्ट और काम के घंटे।"
+ ],
+ "Da lunedì: controllare le scadenze nel reparto frigo ogni mattina alle 8. I prodotti in scadenza vanno sullo scaffale \"offerte\". Per i resi chiamare il responsabile.": [
+  "Somvaar ton: har savere 8 vaje fridge vale vibhaag vich expiry dates check karo. Jaldi khatam hon vali cheezan \"offers\" vali shelf te jaandiyan han. Vaapsi layi manager nu bulao.",
+  "सोमवार से: हर सुबह 8 बजे फ़्रिज वाले विभाग में समाप्ति तिथियाँ जाँचिए। जल्दी खत्म होने वाली चीज़ें \"ऑफ़र\" वाली शेल्फ़ पर जाती हैं। वापसी के लिए मैनेजर को बुलाइए।"
+ ],
+ "Daily care and medicines.": [
+  "Rozana di dekhbhaal te dawaiyan.",
+  "रोज़ की देखभाल और दवाइयाँ।"
+ ],
+ "Danger!": [
+  "Khatra!",
+  "खतरा!"
+ ],
+ "Danger! Suspended loads.": [
+  "Khatra! Latkda bhaar.",
+  "खतरा! लटकता भार।"
+ ],
+ "Deliver a parcel and explain a delay.": [
+  "Parcel deliver karo te der da kaaran samjhao.",
+  "पार्सल डिलीवर कीजिए और देरी का कारण समझाइए।"
+ ],
+ "Deliver food or parcels: addresses, intercoms, customers and the road.": [
+  "Khaana jaan parcel deliver karo: pate, intercom, grahak te sadak.",
+  "खाना या पार्सल डिलीवर कीजिए: पते, इंटरकॉम, ग्राहक और सड़क।"
+ ],
+ "Delivery & driving": [
+  "Delivery te driving",
+  "डिलीवरी और ड्राइविंग"
+ ],
+ "Delivery for Mrs Ferrari.": [
+  "Mrs Ferrari layi delivery.",
+  "Mrs Ferrari के लिए डिलीवरी।"
+ ],
+ "Delivery review": [
+  "Delivery da review",
+  "डिलीवरी का रिव्यू"
+ ],
+ "Delivery role-play: call a customer who doesn't answer, use the intercom, explain a delay.": [
+  "Delivery da role-play: jawab na den vale grahak nu phone karo, intercom varto, der da kaaran samjhao.",
+  "डिलीवरी का रोल-प्ले: जवाब न देने वाले ग्राहक को फ़ोन कीजिए, इंटरकॉम इस्तेमाल कीजिए, देरी का कारण समझाइए।"
+ ],
+ "Delivery words": [
+  "Delivery de shabad",
+  "डिलीवरी के शब्द"
+ ],
+ "Describe the shop where you buy food: where the bread, the milk and the fruit are.": [
+  "Jis dukaan ton tusin khaana khareedde ho usde baare dasso: bread, doodh te phal kithe han.",
+  "जिस दुकान से आप खाना खरीदते हैं उसके बारे में बताइए: ब्रेड, दूध और फल कहाँ हैं।"
+ ],
+ "Describe your delivery route (or your way to work) in the live class.": [
+  "Live class vich apna delivery da raah (jaan kamm te jaan da raah) dasso.",
+  "लाइव क्लास में अपना डिलीवरी का रास्ता (या काम पर जाने का रास्ता) बताइए।"
+ ],
+ "Destinatario: Marco Galli. Indirizzo: Corso Vittorio Emanuele 48, scala B, interno 7. Note: citofono rotto, chiamare il 347 555 1234. Consegna entro le 13.": [
+  "Lain vala: Marco Galli. Pata: Corso Vittorio Emanuele 48, pauri B, flat 7. Note: intercom kharab hai, 347 555 1234 te phone karo. Delivery 13 vaje tak.",
+  "प्राप्तकर्ता: Marco Galli। पता: Corso Vittorio Emanuele 48, सीढ़ी B, फ़्लैट 7। नोट: इंटरकॉम खराब है, 347 555 1234 पर फ़ोन कीजिए। डिलीवरी 13 बजे तक।"
+ ],
+ "dismissal": [
+  "Naukri ton kadhna (dismissal)",
+  "बर्खास्तगी"
+ ],
+ "Dismissal must be in writing.": [
+  "Naukri ton kadhna likhti hona chahida hai.",
+  "बर्खास्तगी लिखित में होनी चाहिए।"
+ ],
+ "Do I also need the drill?": [
+  "Mainu drill vi chahidi hai?",
+  "मुझे ड्रिल भी चाहिए?"
+ ],
+ "Do not disturb": [
+  "Pareshaan na karo",
+  "परेशान न करें"
+ ],
+ "Do you have a forklift licence?": [
+  "Tuhade kol forklift da licence hai?",
+  "आपके पास फ़ोर्कलिफ़्ट का लाइसेंस है?"
+ ],
+ "Do you have a loyalty card?": [
+  "Tuhade kol loyalty card hai?",
+  "आपके पास लॉयल्टी कार्ड है?"
+ ],
+ "Do you have a residence permit?": [
+  "Tuhade kol residence permit hai?",
+  "आपके पास निवास परमिट है?"
+ ],
+ "Do you have experience in this job?": [
+  "Tuhade kol is kamm da tajurba hai?",
+  "आपके पास इस काम का अनुभव है?"
+ ],
+ "Domani si comincia alle 5:30 per il caldo. Raccolta dell'uva nel campo vicino alla strada. Portate cappello e acqua. Pausa alle 9 e fine alle 12:30.": [
+  "Kal garmi karke 5:30 vaje shuru karange. Sadak de nede vale khet vich angoor todne han. Topi te paani lai ke aao. Break 9 vaje te khatam 12:30 vaje.",
+  "कल गर्मी के कारण 5:30 बजे शुरू करेंगे। सड़क के पास वाले खेत में अंगूर तोड़ने हैं। टोपी और पानी लेकर आइए। ब्रेक 9 बजे और खत्म 12:30 बजे।"
+ ],
+ "Don't climb the scaffolding without a harness.": [
+  "Harness ton bina paad te na chadho.",
+  "हार्नेस के बिना मचान पर न चढ़िए।"
+ ],
+ "Don't touch anything. I'll call the technician.": [
+  "Kujh na chhuho. Main technician nu bulaunda haan.",
+  "कुछ मत छुओ। मैं टेक्नीशियन को बुलाता हूँ।"
+ ],
+ "Enjoy your meal!": [
+  "Khaane da anand lao!",
+  "खाने का आनंद लीजिए!"
+ ],
+ "Enjoy your stay!": [
+  "Apne thaharan da anand lao!",
+  "अपने ठहरने का आनंद लीजिए!"
+ ],
+ "Every building site must have a safety plan. You must get a **hard hat, safety shoes and gloves for free**, and you must never work at height without protection.": [
+  "Har building site da suraksha plan hona zaroori hai. Tuhanu **helmet, safety jutte te dastaane muft** milne chahide han, te tuhanu kade vi uchaai te bina suraksha de kamm nahi karna chahida.",
+  "हर बिल्डिंग साइट की सुरक्षा योजना होनी ज़रूरी है। आपको **हेलमेट, सेफ़्टी जूते और दस्ताने मुफ़्त** मिलने चाहिए, और आपको कभी भी ऊँचाई पर बिना सुरक्षा के काम नहीं करना चाहिए।"
+ ],
+ "Excuse me, the bill, please.": [
+  "Maaf karna, bill, please.",
+  "माफ़ कीजिए, बिल, कृपया।"
+ ],
+ "Excuse me, where can I find basmati rice?": [
+  "Maaf karna, basmati chaul kithe milange?",
+  "माफ़ कीजिए, बासमती चावल कहाँ मिलेंगे?"
+ ],
+ "experience": [
+  "Tajurba",
+  "अनुभव"
+ ],
+ "Farm & agriculture": [
+  "Khet te kheti",
+  "खेत और खेती"
+ ],
+ "Farm review": [
+  "Khet da review",
+  "खेत का रिव्यू"
+ ],
+ "Farm words": [
+  "Khet de shabad",
+  "खेत के शब्द"
+ ],
+ "Farm work also has a national contract with a minimum hourly pay. Being paid \"in black\" (**in nero**) or by a middleman (**caporale**) is illegal — you can get help from a union (*sindacato*) or call **112**.": [
+  "Kheti de kamm da vi rashtri contract hai jis vich ghatt ton ghatt ghante di mazdoori tai hai. \"Kaale\" vich (**in nero**) jaan dalaal (**caporale**) raahin tankhah lena gair-kanooni hai — tusin union (*sindacato*) ton madad lai sakde ho jaan **112** milao.",
+  "खेती के काम का भी राष्ट्रीय कॉन्ट्रैक्ट है जिसमें न्यूनतम प्रति घंटा मज़दूरी तय है। \"काले\" में (**in nero**) या दलाल (**caporale**) के ज़रिए वेतन लेना गैर-कानूनी है — आप यूनियन (*sindacato*) से मदद ले सकते हैं या **112** मिलाइए।"
+ ],
+ "Fields, crops, animals and tools.": [
+  "Khet, fasalan, jaanvar te auzaar.",
+  "खेत, फ़सलें, जानवर और औज़ार।"
+ ],
+ "Fill the bucket with water.": [
+  "Baalti paani naal bharo.",
+  "बाल्टी पानी से भरिए।"
+ ],
+ "Final live class: present your job in Italian — what you do, your hours and one thing you learned about your rights.": [
+  "Aakhri live class: apna kamm Italian vich dasso — tusin ki karde ho, tuhade ghante te apne haqan baare sikhi ikk gall.",
+  "अंतिम लाइव क्लास: अपना काम इटालियन में बताइए — आप क्या करते हैं, आपके घंटे और अपने अधिकारों के बारे में सीखी एक बात।"
+ ],
+ "Find a real job advert online and read it to the class in the live lesson.": [
+  "Online naukri da koi asli ishtihaar labho te live lesson vich class nu parh ke sunao.",
+  "ऑनलाइन नौकरी का कोई असली विज्ञापन ढूँढिए और लाइव लेसन में क्लास को पढ़कर सुनाइए।"
+ ],
+ "Find these items on a payslip (yours or a sample): gross pay, net pay, hours, holidays.": [
+  "Salary slip (apni jaan namoona) te eh cheezan labho: kul tankhah, asal tankhah, ghante, chhuttiyan.",
+  "वेतन पर्ची (अपनी या नमूना) पर ये चीज़ें ढूँढिए: सकल वेतन, शुद्ध वेतन, घंटे, छुट्टियाँ।"
+ ],
+ "Finding a job": [
+  "Naukri labhna",
+  "नौकरी ढूँढना"
+ ],
+ "Floor 2: rooms 201–210. Change sheets and towels in rooms 203 and 207 (departures). Room 205: \"Do not disturb\" sign, don't enter. End of shift: 2 pm.": [
+  "Manzil 2: kamre 201–210. Kamre 203 te 207 vich chaadran te tauliye badlo (ja rahe mehmaan). Kamra 205: \"Pareshaan na karo\" da board, andar na jao. Shift khatam: dupehar 2 vaje.",
+  "मंज़िल 2: कमरे 201–210। कमरा 203 और 207 में चादरें और तौलिए बदलिए (जा रहे मेहमान)। कमरा 205: \"परेशान न करें\" का बोर्ड, अंदर न जाएँ। शिफ़्ट खत्म: दोपहर 2 बजे।"
+ ],
+ "For five minutes.": [
+  "Panj minute ton.",
+  "पाँच मिनट से।"
+ ],
+ "From Monday: check the expiry dates in the fridge aisle every morning at 8. Products close to expiry go on the \"offers\" shelf. For returns call the manager.": [
+  "Somvaar ton: har savere 8 vaje fridge vale aisle vich expiry dates check karo. Jaldi khatam hon vali cheezan \"offers\" vali shelf te jaandiyan han. Vaapsi layi manager nu bulao.",
+  "सोमवार से: हर सुबह 8 बजे फ़्रिज वाले गलियारे में समाप्ति तिथियाँ जाँचिए। जल्दी खत्म होने वाली चीज़ें \"ऑफ़र\" वाली शेल्फ़ पर जाती हैं। वापसी के लिए मैनेजर को बुलाइए।"
+ ],
+ "From seven to ten, on the ground floor.": [
+  "Satt ton das vaje tak, zameeni manzil te.",
+  "सात से दस बजे तक, भूतल पर।"
+ ],
+ "full-time": [
+  "Full-time (poore samey)",
+  "फ़ुल-टाइम (पूर्णकालिक)"
+ ],
+ "Good evening Giulia. Today she's well.": [
+  "Shubh shaam Giulia. Ajj oh theek han.",
+  "शुभ संध्या Giulia। आज वह ठीक हैं।"
+ ],
+ "Good evening, welcome! An ID, please.": [
+  "Shubh shaam, ji aayan nu! Ikk ID, please.",
+  "शुभ संध्या, स्वागत है! एक पहचान पत्र, कृपया।"
+ ],
+ "Good evening, welcome! Something to drink?": [
+  "Shubh shaam, ji aayan nu! Peen layi kujh?",
+  "शुभ संध्या, स्वागत है! पीने के लिए कुछ?"
+ ],
+ "Good evening! Here is the menu. What can I bring you to drink?": [
+  "Shubh shaam! Aah menu. Peen layi ki lai ke aavan?",
+  "शुभ संध्या! यह रहा मेन्यू। पीने के लिए क्या लाऊँ?"
+ ],
+ "Good evening! I'll check right away.": [
+  "Shubh shaam! Main hune check karda haan.",
+  "शुभ संध्या! मैं अभी देखता हूँ।"
+ ],
+ "Good evening. I have a booking under the name Bianchi.": [
+  "Shubh shaam. Bianchi de naam te meri booking hai.",
+  "शुभ संध्या। Bianchi के नाम पर मेरी बुकिंग है।"
+ ],
+ "Good morning, courier. I have a parcel for Ferrari.": [
+  "Shubh saver, courier. Ferrari layi mere kol ikk parcel hai.",
+  "सुप्रभात, कूरियर। Ferrari के लिए मेरे पास एक पार्सल है।"
+ ],
+ "Good morning, it's Imran. I'm ill.": [
+  "Shubh saver, main Imran haan. Main bimar haan.",
+  "सुप्रभात, मैं Imran हूँ। मैं बीमार हूँ।"
+ ],
+ "Good morning, it's Imran. Sorry, I can't come in today.": [
+  "Shubh saver, main Imran haan. Maaf karna, ajj main nahi aa sakda.",
+  "सुप्रभात, मैं Imran हूँ। माफ़ कीजिए, आज मैं नहीं आ सकता।"
+ ],
+ "Good morning, please sit down. What is your name?": [
+  "Shubh saver, kirpa karke baitho. Tuhada naam ki hai?",
+  "सुप्रभात, कृपया बैठिए। आपका नाम क्या है?"
+ ],
+ "Good morning! Today we pick courgettes in greenhouse 3.": [
+  "Shubh saver! Ajj asin greenhouse 3 vich tori todange.",
+  "सुप्रभात! आज हम ग्रीनहाउस 3 में तोरी तोड़ेंगे।"
+ ],
+ "Good morning. My name is Ravi Kumar.": [
+  "Shubh saver. Mera naam Ravi Kumar hai.",
+  "सुप्रभात। मेरा नाम Ravi Kumar है।"
+ ],
+ "Good morning. Today we build up the wall on the second floor.": [
+  "Shubh saver. Ajj asin duji manzil di kandh uchi karange.",
+  "सुप्रभात। आज हम दूसरी मंज़िल की दीवार ऊँची करेंगे।"
+ ],
+ "Good morning. What do I need?": [
+  "Shubh saver. Mainu ki chahida hai?",
+  "सुप्रभात। मुझे क्या चाहिए?"
+ ],
+ "Good morning. What time do we finish?": [
+  "Shubh saver. Asin kinne vaje khatam karange?",
+  "सुप्रभात। हम कितने बजे खत्म करेंगे?"
+ ],
+ "Good. Do you have a driving licence?": [
+  "Vadhiya. Tuhade kol driving licence hai?",
+  "बढ़िया। आपके पास ड्राइविंग लाइसेंस है?"
+ ],
+ "Grapes are picked in September.": [
+  "Angoor September vich todde jaande han.",
+  "अंगूर सितंबर में तोड़े जाते हैं।"
+ ],
+ "Has she eaten?": [
+  "Unhan ne khaana khaadha?",
+  "उन्होंने खाना खाया?"
+ ],
+ "Has she taken her medicines?": [
+  "Unhan ne dawaiyan laiyan?",
+  "उन्होंने दवाइयाँ लीं?"
+ ],
+ "He uses a wheelchair.": [
+  "Oh wheelchair vartda hai.",
+  "वह व्हीलचेयर इस्तेमाल करते हैं।"
+ ],
+ "He walks with a stick.": [
+  "Oh soti naal turde han.",
+  "वह छड़ी से चलते हैं।"
+ ],
+ "heavy": [
+  "Bhaara",
+  "भारी"
+ ],
+ "Hello?": [
+  "Hello?",
+  "हैलो?"
+ ],
+ "Helping a customer": [
+  "Grahak di madad karna",
+  "ग्राहक की मदद करना"
+ ],
+ "Here is my ID card.": [
+  "Aah mera ID card hai.",
+  "यह रहा मेरा पहचान पत्र।"
+ ],
+ "Here is the bill. Card or cash?": [
+  "Aah bill. Card jaan cash?",
+  "यह रहा बिल। कार्ड या नकद?"
+ ],
+ "Here is the key.": [
+  "Aah chaabi.",
+  "यह रही चाबी।"
+ ],
+ "Here is the parcel. A signature here, please.": [
+  "Aah parcel. Ithe dastakhat, please.",
+  "यह रहा पार्सल। यहाँ हस्ताक्षर, कृपया।"
+ ],
+ "Here is your change.": [
+  "Aah tuhada baaki.",
+  "यह रहा आपका बाकी पैसा।"
+ ],
+ "Here you are. Have a nice day!": [
+  "Aah lao. Tuhada din vadhiya rahe!",
+  "यह लीजिए। आपका दिन अच्छा रहे!"
+ ],
+ "Here. It's hot, drink often.": [
+  "Aah lao. Garmi hai, baar-baar paani peeo.",
+  "यह लो। गर्मी है, बार-बार पानी पियो।"
+ ],
+ "Hi, it's Giulia. How is mum today?": [
+  "Hello, main Giulia haan. Ajj mummy kiven han?",
+  "हैलो, मैं Giulia हूँ। आज मम्मी कैसी हैं?"
+ ],
+ "Hold the ladder still.": [
+  "Pauri nu tikaa ke fado.",
+  "सीढ़ी को स्थिर पकड़िए।"
+ ],
+ "Hotel & housekeeping": [
+  "Hotel te safai",
+  "होटल और सफ़ाई"
+ ],
+ "Hotel review": [
+  "Hotel da review",
+  "होटल का रिव्यू"
+ ],
+ "Housekeeping words": [
+  "Housekeeping de shabad",
+  "हाउसकीपिंग के शब्द"
+ ],
+ "How long does it take?": [
+  "Kinna samaa lagega?",
+  "कितना समय लगेगा?"
+ ],
+ "I can answer basic interview questions": [
+  "Main interview de bunyaadi sawaalan de jawab de sakda haan",
+  "मैं इंटरव्यू के बुनियादी सवालों के जवाब दे सकता हूँ"
+ ],
+ "I can ask for a day off or say I am sick": [
+  "Main chhutti mang sakda haan jaan dass sakda haan ki main bimar haan",
+  "मैं छुट्टी माँग सकता हूँ या बता सकता हूँ कि मैं बीमार हूँ"
+ ],
+ "I can ask for tools and help from colleagues": [
+  "Main saathiyan ton auzaar te madad mang sakda haan",
+  "मैं सहकर्मियों से औज़ार और मदद माँग सकता हूँ"
+ ],
+ "I can deal politely with a complaint": [
+  "Main adab naal shikayat sambhal sakda haan",
+  "मैं शिष्टता से शिकायत सँभाल सकता हूँ"
+ ],
+ "I can explain a delay": [
+  "Main der da kaaran samjha sakda haan",
+  "मैं देरी का कारण समझा सकता हूँ"
+ ],
+ "I can help a customer find a product": [
+  "Main grahak nu cheez labhan vich madad kar sakda haan",
+  "मैं ग्राहक को चीज़ ढूँढने में मदद कर सकता हूँ"
+ ],
+ "I can name cleaning products and tasks": [
+  "Main safai de saman te kamman de naam lai sakda haan",
+  "मैं सफ़ाई के सामान और कामों के नाम ले सकता हूँ"
+ ],
+ "I can name fruit, vegetables and farm tools": [
+  "Main phal, sabziyan te kheti de auzaaran de naam lai sakda haan",
+  "मैं फल, सब्ज़ियों और खेती के औज़ारों के नाम ले सकता हूँ"
+ ],
+ "I can name kitchen tools and tasks": [
+  "Main rasoi de auzaaran te kamman de naam lai sakda haan",
+  "मैं रसोई के औज़ारों और कामों के नाम ले सकता हूँ"
+ ],
+ "I can name tools and building materials": [
+  "Main auzaaran te usaari de saman de naam lai sakda haan",
+  "मैं औज़ारों और निर्माण सामग्री के नाम ले सकता हूँ"
+ ],
+ "I can name tools, machines and safety equipment": [
+  "Main auzaaran, machinan te suraksha de saman de naam lai sakda haan",
+  "मैं औज़ारों, मशीनों और सुरक्षा उपकरणों के नाम ले सकता हूँ"
+ ],
+ "I can report a problem with a machine": [
+  "Main machine di samasya di report kar sakda haan",
+  "मैं मशीन की समस्या की रिपोर्ट कर सकता हूँ"
+ ],
+ "I can say what work I did and for how long": [
+  "Main dass sakda haan ki main ki kamm keeta te kinna chir",
+  "मैं बता सकता हूँ कि मैंने क्या काम किया और कितने समय तक"
+ ],
+ "I can take an order from a customer": [
+  "Main grahak ton order lai sakda haan",
+  "मैं ग्राहक से ऑर्डर ले सकता हूँ"
+ ],
+ "I can talk about daily care: meals, medicine, washing": [
+  "Main rozana di dekhbhaal baare gall kar sakda haan: khaana, dawai, nahauna",
+  "मैं रोज़ की देखभाल के बारे में बात कर सकता हूँ: खाना, दवाई, नहलाना"
+ ],
+ "I can talk about hours and pay": [
+  "Main ghanteyan te tankhah baare gall kar sakda haan",
+  "मैं घंटों और मज़दूरी के बारे में बात कर सकता हूँ"
+ ],
+ "I can talk to a customer at the door or on the intercom": [
+  "Main darvaze te jaan intercom te grahak naal gall kar sakda haan",
+  "मैं दरवाज़े पर या इंटरकॉम पर ग्राहक से बात कर सकता हूँ"
+ ],
+ "I can tell the family or the doctor how the person is": [
+  "Main parivaar jaan doctor nu dass sakda haan ki banda kiven hai",
+  "मैं परिवार या डॉक्टर को बता सकता हूँ कि व्यक्ति कैसा है"
+ ],
+ "I can understand a simple job advert": [
+  "Main naukri da saada ishtihaar samajh sakda haan",
+  "मैं नौकरी का साधारण विज्ञापन समझ सकता हूँ"
+ ],
+ "I can understand addresses and floors": [
+  "Main pate te manzilan samajh sakda haan",
+  "मैं पते और मंज़िलें समझ सकता हूँ"
+ ],
+ "I can understand an order and a shift plan": [
+  "Main order te shift plan samajh sakda haan",
+  "मैं ऑर्डर और शिफ़्ट प्लान समझ सकता हूँ"
+ ],
+ "I can understand instructions about medicines": [
+  "Main dawaiyan baare hidayatan samajh sakda haan",
+  "मैं दवाइयों के बारे में निर्देश समझ सकता हूँ"
+ ],
+ "I can understand instructions from the chef": [
+  "Main chef diyan hidayatan samajh sakda haan",
+  "मैं शेफ़ के निर्देश समझ सकता हूँ"
+ ],
+ "I can understand my daily task list": [
+  "Main apne rozana de kamman di list samajh sakda haan",
+  "मैं अपने रोज़ के कामों की सूची समझ सकता हूँ"
+ ],
+ "I can understand safety rules on site": [
+  "Main site te suraksha de niyam samajh sakda haan",
+  "मैं साइट पर सुरक्षा के नियम समझ सकता हूँ"
+ ],
+ "I can understand the day's work in the fields": [
+  "Main khetan vich din da kamm samajh sakda haan",
+  "मैं खेतों में दिन का काम समझ सकता हूँ"
+ ],
+ "I can understand the main parts of a contract and a payslip": [
+  "Main contract te salary slip de mukh hisse samajh sakda haan",
+  "मैं कॉन्ट्रैक्ट और वेतन पर्ची के मुख्य हिस्से समझ सकता हूँ"
+ ],
+ "I can welcome a guest and give simple information": [
+  "Main mehmaan da swaagat kar sakda haan te saadi jaankari de sakda haan",
+  "मैं मेहमान का स्वागत कर सकता हूँ और आसान जानकारी दे सकता हूँ"
+ ],
+ "I can work at the till: price, payment, receipt": [
+  "Main cash counter te kamm kar sakda haan: keemat, bhugtaan, raseed",
+  "मैं कैश काउंटर पर काम कर सकता हूँ: कीमत, भुगतान, रसीद"
+ ],
+ "I can't come in today.": [
+  "Ajj main nahi aa sakda.",
+  "आज मैं नहीं आ सकता।"
+ ],
+ "I can't see it on the shelf.": [
+  "Mainu shelf te nahi dikh rahe.",
+  "मुझे शेल्फ़ पर नहीं दिख रहे।"
+ ],
+ "I check my payslip every month.": [
+  "Main har mahine apni salary slip check karda haan.",
+  "मैं हर महीने अपनी वेतन पर्ची जाँचता हूँ।"
+ ],
+ "I clean the cowshed.": [
+  "Main vaada saaf karda haan.",
+  "मैं बाड़ा साफ़ करता हूँ।"
+ ],
+ "I clean the rooms on the first floor.": [
+  "Main pehli manzil de kamre saaf karda haan.",
+  "मैं पहली मंज़िल के कमरे साफ़ करता हूँ।"
+ ],
+ "I deliver by bicycle.": [
+  "Main cycle te delivery karda haan.",
+  "मैं साइकिल से डिलीवरी करता हूँ।"
+ ],
+ "I have … years of experience.": [
+  "Mere kol … saal da tajurba hai.",
+  "मेरे पास … साल का अनुभव है।"
+ ],
+ "I have a high fever.": [
+  "Mainu tez bukhaar hai.",
+  "मुझे तेज़ बुखार है।"
+ ],
+ "I have a parcel for you": [
+  "Mere kol tuhade layi parcel hai",
+  "मेरे पास आपके लिए पार्सल है"
+ ],
+ "I have a parcel for…": [
+  "Mere kol … layi parcel hai",
+  "मेरे पास … के लिए पार्सल है"
+ ],
+ "I have a permanent contract.": [
+  "Mere kol pakka contract hai.",
+  "मेरे पास स्थायी कॉन्ट्रैक्ट है।"
+ ],
+ "I have a work residence permit.": [
+  "Mere kol kamm vala residence permit hai.",
+  "मेरे पास काम वाला निवास परमिट है।"
+ ],
+ "I have an interview tomorrow.": [
+  "Kal mera interview hai.",
+  "कल मेरा इंटरव्यू है।"
+ ],
+ "I have back pain, I can't walk.": [
+  "Meri kamar vich dard hai, main tur nahi sakda.",
+  "मेरी कमर में दर्द है, मैं चल नहीं सकता।"
+ ],
+ "I have ten deliveries today.": [
+  "Ajj meriyan das deliveries han.",
+  "आज मेरी दस डिलीवरी हैं।"
+ ],
+ "I have two years of experience.": [
+  "Mere kol do saal da tajurba hai.",
+  "मेरे पास दो साल का अनुभव है।"
+ ],
+ "I help her have a shower.": [
+  "Main usnu nahaun vich madad karda haan.",
+  "मैं उन्हें नहाने में मदद करता हूँ।"
+ ],
+ "I know where to get help: unions, CAF, INPS": [
+  "Mainu pata hai madad kithon leni hai: union, CAF, INPS",
+  "मुझे पता है मदद कहाँ से लेनी है: यूनियन, CAF, INPS"
+ ],
+ "I learn quickly.": [
+  "Main jaldi sikhda haan.",
+  "मैं जल्दी सीखता हूँ।"
+ ],
+ "I look after an 85-year-old man.": [
+  "Main ikk 85 saal de bande di dekhbhaal karda haan.",
+  "मैं एक 85 साल के व्यक्ति की देखभाल करता हूँ।"
+ ],
+ "I measure the blood pressure every morning.": [
+  "Main har savere BP naapda haan.",
+  "मैं हर सुबह ब्लड प्रेशर नापता हूँ।"
+ ],
+ "I milk the cows at five.": [
+  "Main panj vaje gaavan di dhaar kadhda haan.",
+  "मैं पाँच बजे गायों का दूध दुहता हूँ।"
+ ],
+ "I put the products on the shelf.": [
+  "Main saman shelf te rakhda haan.",
+  "मैं सामान शेल्फ़ पर रखता हूँ।"
+ ],
+ "I ring the intercom.": [
+  "Main intercom dabaunda haan.",
+  "मैं इंटरकॉम बजाता हूँ।"
+ ],
+ "I work as a bricklayer.": [
+  "Main raj mistri da kamm karda haan.",
+  "मैं राजमिस्त्री का काम करता हूँ।"
+ ],
+ "I work as a live-in carer in Verona.": [
+  "Main Verona vich ghar reh ke dekhbhaal da kamm karda haan.",
+  "मैं Verona में घर में रहकर देखभाल का काम करता हूँ।"
+ ],
+ "I work at the till.": [
+  "Main cash counter te kamm karda haan.",
+  "मैं कैश काउंटर पर काम करता हूँ।"
+ ],
+ "I work on the third floor.": [
+  "Main teeji manzil te kamm karda haan.",
+  "मैं तीसरी मंज़िल पर काम करता हूँ।"
+ ],
+ "I work part-time in the morning.": [
+  "Main savere part-time kamm karda haan.",
+  "मैं सुबह पार्ट-टाइम काम करता हूँ।"
+ ],
+ "I worked as a…": [
+  "Main … de taur te kamm keeta",
+  "मैंने … के रूप में काम किया"
+ ],
+ "I'd like a day off": [
+  "Mainu ikk din di chhutti chahidi hai",
+  "मुझे एक दिन की छुट्टी चाहिए"
+ ],
+ "I'd like a day off.": [
+  "Mainu ikk din di chhutti chahidi hai.",
+  "मुझे एक दिन की छुट्टी चाहिए।"
+ ],
+ "I'll check in the stockroom.": [
+  "Main store room vich check karda haan.",
+  "मैं स्टोर रूम में देखता हूँ।"
+ ],
+ "I'll send you my CV.": [
+  "Main tuhanu apna CV bhejanga.",
+  "मैं आपको अपना CV भेजूँगा।"
+ ],
+ "I'm a permanent employee.": [
+  "Main pakka mulaazam haan.",
+  "मैं स्थायी कर्मचारी हूँ।"
+ ],
+ "I'm available.": [
+  "Main vehla haan.",
+  "मैं उपलब्ध हूँ।"
+ ],
+ "I'm calling 112.": [
+  "Main 112 te phone kar reha haan.",
+  "मैं 112 पर फ़ोन कर रहा हूँ।"
+ ],
+ "I'm going to the doctor.": [
+  "Main doctor kol ja reha haan.",
+  "मैं डॉक्टर के पास जा रहा हूँ।"
+ ],
+ "I'm ill.": [
+  "Main bimar haan.",
+  "मैं बीमार हूँ।"
+ ],
+ "I'm looking for a full-time job.": [
+  "Main full-time naukri labh reha haan.",
+  "मैं फ़ुल-टाइम नौकरी ढूँढ रहा हूँ।"
+ ],
+ "I'm looking for work.": [
+  "Main kamm labh reha haan.",
+  "मैं काम ढूँढ रहा हूँ।"
+ ],
+ "I'm on sick leave for three days.": [
+  "Main tinn din bimari di chhutti te haan.",
+  "मैं तीन दिन बीमारी की छुट्टी पर हूँ।"
+ ],
+ "I'm sorry for the problem.": [
+  "Samasya layi mainu afsos hai.",
+  "समस्या के लिए मुझे खेद है।"
+ ],
+ "I'm sorry, it's sold out.": [
+  "Maaf karna, eh khatam ho gaya hai.",
+  "माफ़ कीजिए, यह खत्म हो गया है।"
+ ],
+ "I'm sorry, it's sold out. It arrives tomorrow.": [
+  "Maaf karna, khatam ho gaye han. Kal aunge.",
+  "माफ़ कीजिए, खत्म हो गए हैं। कल आएँगे।"
+ ],
+ "I'm sorry, we have many deliveries today.": [
+  "Maaf karna, ajj saadiyan bahut deliveries han.",
+  "माफ़ कीजिए, आज हमारी बहुत डिलीवरी हैं।"
+ ],
+ "I'm sorry. Are you going to the doctor?": [
+  "Afsos hai. Doctor kol ja reha hain?",
+  "अफ़सोस है। डॉक्टर के पास जा रहे हो?"
+ ],
+ "I'm ten minutes late.": [
+  "Mainu das minute der ho gayi hai.",
+  "मुझे दस मिनट देर हो गई है।"
+ ],
+ "I've finished my shift.": [
+  "Meri shift khatam ho gayi hai.",
+  "मेरी शिफ़्ट खत्म हो गई है।"
+ ],
+ "I've finished this job.": [
+  "Main eh kamm poora kar leya hai.",
+  "मैंने यह काम पूरा कर लिया है।"
+ ],
+ "I've hurt myself.": [
+  "Mainu satt lag gayi hai.",
+  "मुझे चोट लग गई है।"
+ ],
+ "If a customer complains, stay calm, say **Mi dispiace per il problema** and call the manager (**il responsabile**) if you can't solve it.": [
+  "Je koi grahak shikayat kare, shaant raho, kaho **Mi dispiace per il problema** te je tusin hal na kar sako taan manager (**il responsabile**) nu bulao.",
+  "अगर कोई ग्राहक शिकायत करे, शांत रहिए, कहिए **Mi dispiace per il problema** और अगर आप हल न कर सकें तो मैनेजर (**il responsabile**) को बुलाइए।"
+ ],
+ "If nobody answers, call the customer: *Buongiorno, sono il corriere, sono sotto casa sua.* (Good morning, I'm the courier, I'm outside your building.)": [
+  "Je koi jawab na deve, grahak nu phone karo: *Buongiorno, sono il corriere, sono sotto casa sua.* (Shubh saver, main courier haan, tuhadi building de bahar haan.)",
+  "अगर कोई जवाब न दे, ग्राहक को फ़ोन कीजिए: *Buongiorno, sono il corriere, sono sotto casa sua.* (सुप्रभात, मैं कूरियर हूँ, आपकी बिल्डिंग के बाहर हूँ।)"
+ ],
+ "If you are sick, see your family doctor (**medico di base**): he sends the certificate to INPS online and gives you a **protocol number** to give your employer.": [
+  "Je tusin bimar ho, taan apne family doctor (**medico di base**) kol jao: oh certificate online INPS nu bhejda hai te tuhanu apne maalik nu den layi **protocol number** dinda hai.",
+  "अगर आप बीमार हैं, तो अपने फ़ैमिली डॉक्टर (**medico di base**) के पास जाइए: वह प्रमाणपत्र ऑनलाइन INPS को भेजते हैं और आपको अपने मालिक को देने के लिए **प्रोटोकॉल नंबर** देते हैं।"
+ ],
+ "If you get injured at work, tell your boss **immediately** and go to the **pronto soccorso**: it is a work accident (*infortunio sul lavoro*) and **INAIL** protects you.": [
+  "Je kamm te satt lag jaave, taan apne boss nu **usi vele** dasso te **pronto soccorso** jao: eh kamm vala haadsa (*infortunio sul lavoro*) hai te **INAIL** tuhadi raakhi karda hai.",
+  "अगर काम पर चोट लग जाए, तो अपने बॉस को **तुरंत** बताइए और **pronto soccorso** जाइए: यह कार्यस्थल दुर्घटना (*infortunio sul lavoro*) है और **INAIL** आपकी सुरक्षा करता है।"
+ ],
+ "Il colloquio di lavoro": [
+  "Job interview",
+  "जॉब इंटरव्यू"
+ ],
+ "Il lavoratore è assunto a tempo determinato per 12 mesi, con 40 ore settimanali. Ha diritto a 26 giorni di ferie all'anno. Lo stipendio è pagato entro il 10 del mese successivo.": [
+  "Mulaazam nu 12 mahineyan layi nishchit samey te rakheya gaya hai, hafte de 40 ghante. Usnu saal vich 26 din di chhutti da haq hai. Tankhah agle mahine di 10 tareekh tak ditti jaandi hai.",
+  "कर्मचारी को 12 महीनों के लिए निश्चित अवधि पर रखा गया है, हफ़्ते के 40 घंटे। उसे साल में 26 दिन की छुट्टी का अधिकार है। वेतन अगले महीने की 10 तारीख तक दिया जाता है।"
+ ],
+ "Il primo giorno in azienda": [
+  "Farm te pehla din",
+  "फ़ार्म पर पहला दिन"
+ ],
+ "In cantiere è obbligatorio il caschetto. È vietato lavorare in quota senza imbracatura. È vietato fumare vicino ai materiali infiammabili. In caso di infortunio avvisare subito il capocantiere.": [
+  "Site te helmet zaroori hai. Harness ton bina uchaai te kamm karna mana hai. Agg fadan vale saman de nede cigarette peena mana hai. Satt lagan te foreman nu usi vele dasso.",
+  "साइट पर हेलमेट अनिवार्य है। हार्नेस के बिना ऊँचाई पर काम करना मना है। ज्वलनशील सामग्री के पास धूम्रपान मना है। चोट लगने पर फ़ोरमैन को तुरंत बताइए।"
+ ],
+ "In every unit you learn the words of the job with pictures and audio, then practise a real workplace conversation out loud (an interview, taking an order, reporting a broken machine, calling in sick), and finish with a review and a printable study sheet.": [
+  "Har unit vich tusin tasveeran te audio naal kamm de shabad sikhde ho, phir kamm di thaan di asli gallbaat di uchi awaaz vich practice karde ho (interview, order lena, kharab machine di report, bimari di soochna), te review te print hon vali study sheet naal khatam karde ho.",
+  "हर इकाई में आप तस्वीरों और ऑडियो के साथ काम के शब्द सीखते हैं, फिर कार्यस्थल की असली बातचीत का ज़ोर से अभ्यास करते हैं (इंटरव्यू, ऑर्डर लेना, खराब मशीन की रिपोर्ट, बीमारी की सूचना), और रिव्यू व प्रिंट करने योग्य स्टडी शीट के साथ खत्म करते हैं।"
+ ],
+ "In interviews always use **Lei** and say **Buongiorno** when you enter. Bring copies of your **permesso**, **codice fiscale** and ID.": [
+  "Interview vich hamesha **Lei** varto te andar aunde vele **Buongiorno** kaho. Apne **permesso**, **codice fiscale** te ID diyan copiyan lai ke jao.",
+  "इंटरव्यू में हमेशा **Lei** का प्रयोग कीजिए और अंदर आते समय **Buongiorno** कहिए। अपने **permesso**, **codice fiscale** और ID की कॉपियाँ लेकर जाइए।"
+ ],
+ "In Italian CVs (often in **Europass** format) write your experience from the most recent job. Add a sentence that allows data processing: *Autorizzo il trattamento dei dati personali ai sensi del GDPR.*": [
+  "Italian CV (aksar **Europass** format vich) vich apna tajurba sab ton navi naukri ton shuru karke likho. Data varatan di ijaazat vala vaak jodo: *Autorizzo il trattamento dei dati personali ai sensi del GDPR.*",
+  "इटालियन CV (अक्सर **Europass** फ़ॉर्मेट में) में अपना अनुभव सबसे नई नौकरी से शुरू करके लिखिए। डेटा इस्तेमाल की अनुमति वाला वाक्य जोड़िए: *Autorizzo il trattamento dei dati personali ai sensi del GDPR.*"
+ ],
+ "In kitchens you hear the **imperative**: *Taglia!* (cut!), *Lava!* (wash!), *Porta!* (bring!). It is normal and not rude — kitchens are fast.": [
+  "Rasoi vich tusin **imperative** sunoge: *Taglia!* (katto!), *Lava!* (dhovo!), *Porta!* (lai ke aao!). Eh aam gall hai te rukha nahi — rasoi vich kamm tez chalda hai.",
+  "रसोई में आप **आज्ञार्थ** सुनेंगे: *Taglia!* (काटो!), *Lava!* (धोओ!), *Porta!* (लेकर आओ!)। यह आम बात है और रूखा नहीं — रसोई में काम तेज़ चलता है।"
+ ],
+ "In summer heat, work in the fields between 12:30 and 16:00 can be stopped by regional rules. Drink water often and rest in the shade.": [
+  "Garmiyan di tez garmi vich, ilaakai niyamaan anusaar khetan vich 12:30 ton 16:00 tak kamm rokeya ja sakda hai. Baar-baar paani peeo te chhaan vich aaraam karo.",
+  "गर्मियों की तेज़ गर्मी में, क्षेत्रीय नियमों के अनुसार खेतों में 12:30 से 16:00 तक काम रोका जा सकता है। बार-बार पानी पीजिए और छाँव में आराम कीजिए।"
+ ],
+ "In the green crates. When they are full, take them to the lorry.": [
+  "Hare crates vich. Jadon bhar jaan, truck tak lai jao.",
+  "हरे क्रेट में। जब भर जाएँ, ट्रक तक ले जाओ।"
+ ],
+ "In the kitchen": [
+  "Rasoi vich",
+  "रसोई में"
+ ],
+ "In the live class, read the doctor's instructions aloud and explain them in your own words.": [
+  "Live class vich doctor diyan hidayatan uchi awaaz vich parho te apne shabadan vich samjhao.",
+  "लाइव क्लास में डॉक्टर के निर्देश ज़ोर से पढ़िए और अपने शब्दों में समझाइए।"
+ ],
+ "In the live class, serve two customers at the till: price, payment, bag and receipt.": [
+  "Live class vich cash counter te do grahakan nu sambhalo: keemat, bhugtaan, thaila te raseed.",
+  "लाइव क्लास में कैश काउंटर पर दो ग्राहकों को सँभालिए: कीमत, भुगतान, थैला और रसीद।"
+ ],
+ "Is there a red light?": [
+  "Laal batti hai?",
+  "लाल बत्ती है?"
+ ],
+ "Is there parking?": [
+  "Parking hai?",
+  "पार्किंग है?"
+ ],
+ "Is there water to drink?": [
+  "Peen layi paani hai?",
+  "पीने के लिए पानी है?"
+ ],
+ "It doesn't work.": [
+  "Eh kamm nahi kardi.",
+  "यह काम नहीं करती।"
+ ],
+ "It is 7 am on a building site in Brescia. The foreman gives you today's job.": [
+  "Brescia de ikk building site te savere de 7 vaje han. Foreman tuhanu ajj da kamm dinda hai.",
+  "Brescia की एक बिल्डिंग साइट पर सुबह के 7 बजे हैं। फ़ोरमैन आपको आज का काम देता है।"
+ ],
+ "It is your first day on a farm near Latina. The farmer explains the work.": [
+  "Latina de nede ikk khet te tuhada pehla din hai. Kisaan kamm samjhaunda hai.",
+  "Latina के पास एक खेत पर आपका पहला दिन है। किसान काम समझाता है।"
+ ],
+ "It's a fixed-term contract.": [
+  "Eh nishchit samey da contract hai.",
+  "यह निश्चित अवधि का कॉन्ट्रैक्ट है।"
+ ],
+ "It's in aisle 4, near the pasta.": [
+  "Aisle 4 vich han, pasta de nede.",
+  "गलियारा 4 में हैं, पास्ता के पास।"
+ ],
+ "It's in aisle…": [
+  "Eh aisle … vich hai",
+  "यह गलियारा … में है"
+ ],
+ "It's time for the medicine.": [
+  "Dawai da samaa ho gaya hai.",
+  "दवाई का समय हो गया है।"
+ ],
+ "It's very hot in the greenhouse.": [
+  "Greenhouse vich bahut garmi hai.",
+  "ग्रीनहाउस में बहुत गर्मी है।"
+ ],
+ "Italian addresses: **Via Garibaldi 12, scala C, interno 5** = 12 Garibaldi Street, staircase C, flat 5. The surname is written on the intercom (*citofono*).": [
+  "Italian pate: **Via Garibaldi 12, scala C, interno 5** = Garibaldi gali 12, pauri C, flat 5. Intercom (*citofono*) te surname likheya hunda hai.",
+  "इटालियन पते: **Via Garibaldi 12, scala C, interno 5** = Garibaldi गली 12, सीढ़ी C, फ़्लैट 5। इंटरकॉम (*citofono*) पर उपनाम लिखा होता है।"
+ ],
+ "Italian for Work": [
+  "Kamm layi Italian",
+  "काम के लिए इटालियन"
+ ],
+ "Italy sorts rubbish (**raccolta differenziata**): *carta* (paper), *plastica* (plastic), *vetro* (glass), *organico* (food) and *indifferenziata* (everything else). Ask which bin to use.": [
+  "Italy vich kooda vakh-vakh keeta jaanda hai (**raccolta differenziata**): *carta* (kaagaz), *plastica* (plastic), *vetro* (kaanch), *organico* (khaana) te *indifferenziata* (baaki sab). Puchho ki kehda dabba varatna hai.",
+  "इटली में कूड़ा अलग-अलग किया जाता है (**raccolta differenziata**): *carta* (कागज़), *plastica* (प्लास्टिक), *vetro* (काँच), *organico* (खाना) और *indifferenziata* (बाकी सब)। पूछिए कि कौन-सा डिब्बा इस्तेमाल करना है।"
+ ],
+ "Job adverts and interviews.": [
+  "Naukri de ishtihaar te interview.",
+  "नौकरी के विज्ञापन और इंटरव्यू।"
+ ],
+ "Job search review": [
+  "Naukri labhan da review",
+  "नौकरी ढूँढने का रिव्यू"
+ ],
+ "Job search words": [
+  "Naukri labhan de shabad",
+  "नौकरी ढूँढने के शब्द"
+ ],
+ "Job-ready Italian for restaurants, hotels, care work, shops, warehouses, farms, building sites and delivery — plus your rights at work.": [
+  "Restaurant, hotel, dekhbhaal de kamm, dukaanan, godaam, khet, building site te delivery layi kamm-yog Italian — naal kamm te tuhade haq.",
+  "रेस्टोरेंट, होटल, देखभाल के काम, दुकानों, गोदाम, खेत, बिल्डिंग साइट और डिलीवरी के लिए काम-लायक इटालियन — साथ में काम पर आपके अधिकार।"
+ ],
+ "Just now, suddenly.": [
+  "Hune hi, achanak.",
+  "अभी-अभी, अचानक।"
+ ],
+ "Kitchen words and orders.": [
+  "Rasoi de shabad te order.",
+  "रसोई के शब्द और ऑर्डर।"
+ ],
+ "late": [
+  "Late / der naal",
+  "देर से"
+ ],
+ "Le istruzioni del capocantiere": [
+  "Foreman diyan hidayatan",
+  "फ़ोरमैन के निर्देश"
+ ],
+ "List the safety equipment you wear at work (or would wear) in Italian.": [
+  "Jo suraksha saman tusin kamm te paunde ho (jaan paoge) uski list Italian vich banao.",
+  "जो सुरक्षा उपकरण आप काम पर पहनते हैं (या पहनेंगे) उनकी सूची इटालियन में बनाइए।"
+ ],
+ "Load the pallet onto the lorry.": [
+  "Pallet truck vich ladd do.",
+  "पैलेट ट्रक में लाद दीजिए।"
+ ],
+ "Lunch is at noon.": [
+  "Dupehar da khaana baaraan vaje hai.",
+  "दोपहर का खाना बारह बजे है।"
+ ],
+ "May I clean the room?": [
+  "Kya main kamra saaf kar sakda haan?",
+  "क्या मैं कमरा साफ़ कर सकता हूँ?"
+ ],
+ "Meanwhile prepare the boxes for order 58.": [
+  "Tad tak order 58 layi dabbe tyar karo.",
+  "तब तक ऑर्डर 58 के लिए डिब्बे तैयार करो।"
+ ],
+ "Milk is in the fridge aisle.": [
+  "Doodh fridge vale aisle vich hai.",
+  "दूध फ़्रिज वाले गलियारे में है।"
+ ],
+ "Mock job interviews: each student introduces their experience, availability and documents.": [
+  "Naqli job interview: har student apna tajurba, kado vehla hai te dastavez dassda hai.",
+  "नकली जॉब इंटरव्यू: हर छात्र अपना अनुभव, उपलब्धता और दस्तावेज़ बताता है।"
+ ],
+ "My employer is kind.": [
+  "Mera maalik changa hai.",
+  "मेरा मालिक अच्छा है।"
+ ],
+ "Name five tools you use (or know) in Italian and say what they do.": [
+  "Panj auzaar jo tusin vartde ho (jaan jaande ho) Italian vich naam lao te dasso ki oh ki karde han.",
+  "पाँच औज़ार जो आप इस्तेमाल करते हैं (या जानते हैं) इटालियन में नाम लीजिए और बताइए कि वे क्या करते हैं।"
+ ],
+ "net pay": [
+  "Asal tankhah (net)",
+  "शुद्ध वेतन (नेट)"
+ ],
+ "Net pay is 1,250 euros.": [
+  "Asal tankhah 1,250 euro hai.",
+  "शुद्ध वेतन 1,250 यूरो है।"
+ ],
+ "No, but I come by bus.": [
+  "Nahi, par main bus naal aunda haan.",
+  "नहीं, पर मैं बस से आता हूँ।"
+ ],
+ "No, everything is off.": [
+  "Nahi, sab kujh band hai.",
+  "नहीं, सब कुछ बंद है।"
+ ],
+ "Not at all. Have a nice evening!": [
+  "Koi gall nahi. Shaam vadhiya rahe!",
+  "कोई बात नहीं। शाम अच्छी रहे!"
+ ],
+ "Of course, I'll send it to you on WhatsApp.": [
+  "Zaroor, main tuhanu WhatsApp te bhej davanga.",
+  "ज़रूर, मैं आपको WhatsApp पर भेज दूँगा।"
+ ],
+ "Of course, no problem.": [
+  "Zaroor, koi gall nahi.",
+  "ज़रूर, कोई बात नहीं।"
+ ],
+ "Of course. My hard hat is broken, do you have another one?": [
+  "Zaroor. Mera helmet tutteya hoya hai, tuhade kol hor hai?",
+  "ज़रूर। मेरा हेलमेट टूटा हुआ है, आपके पास दूसरा है?"
+ ],
+ "Of course. Would you like a bag?": [
+  "Zaroor. Thaila chahida hai?",
+  "ज़रूर। थैला चाहिए?"
+ ],
+ "Oggi: taglia le verdure per la zuppa, prepara 5 chili di impasto per la pizza e pulisci il forno alle 15. Il tavolo 7 ha un cliente allergico alle noci.": [
+  "Ajj: soup layi sabziyan katto, pizza layi 5 kilo aata gunno te 15 vaje oven saaf karo. Mez 7 te ikk grahak nu nuts ton allergy hai.",
+  "आज: सूप के लिए सब्ज़ियाँ काटो, पिज़्ज़ा के लिए 5 किलो आटा गूँधो और 15 बजे ओवन साफ़ करो। मेज़ 7 पर एक ग्राहक को मेवों से एलर्जी है।"
+ ],
+ "OK, as soon as I have it.": [
+  "Theek hai, jive hi mere kol aaya.",
+  "ठीक है, जैसे ही मेरे पास आया।"
+ ],
+ "OK, I understand.": [
+  "Theek hai, samajh gaya.",
+  "ठीक है, समझ गया।"
+ ],
+ "OK, I'll take care of it.": [
+  "Theek hai, main sambhal lavanga.",
+  "ठीक है, मैं सँभाल लूँगा।"
+ ],
+ "OK, I'm coming up.": [
+  "Theek hai, main upar aa reha haan.",
+  "ठीक है, मैं ऊपर आ रहा हूँ।"
+ ],
+ "OK, let's start!": [
+  "Theek hai, shuru kariye!",
+  "ठीक है, शुरू करें!"
+ ],
+ "OK. See you tomorrow!": [
+  "Theek hai. Kal milde haan!",
+  "ठीक है। कल मिलते हैं!"
+ ],
+ "OK. Send me the certificate number.": [
+  "Theek hai. Mainu certificate da number bhej dena.",
+  "ठीक है। मुझे प्रमाणपत्र का नंबर भेज देना।"
+ ],
+ "OK. What shall I do in the meantime?": [
+  "Theek hai. Tad tak main ki karan?",
+  "ठीक है। तब तक मैं क्या करूँ?"
+ ],
+ "OK. Where are the bricks?": [
+  "Theek hai. Ittan kithe han?",
+  "ठीक है। ईंटें कहाँ हैं?"
+ ],
+ "One hundred. Thanks!": [
+  "Ikk sau. Dhanvaad!",
+  "सौ। धन्यवाद!"
+ ],
+ "One moment, I'll check in the stockroom.": [
+  "Ikk minute, main store room vich check karda haan.",
+  "एक मिनट, मैं स्टोर रूम में देखता हूँ।"
+ ],
+ "overtime": [
+  "Overtime (vaadhu ghante)",
+  "ओवरटाइम (अतिरिक्त घंटे)"
+ ],
+ "Overtime is paid more.": [
+  "Overtime di tankhah vadh hundi hai.",
+  "ओवरटाइम का वेतन ज़्यादा होता है।"
+ ],
+ "paid holidays": [
+  "Tankhah vali chhuttiyan",
+  "सवैतनिक छुट्टियाँ"
+ ],
+ "Pallets, boxes, machines and safety.": [
+  "Pallet, dabbe, machinan te suraksha.",
+  "पैलेट, डिब्बे, मशीनें और सुरक्षा।"
+ ],
+ "Parlare con la famiglia": [
+  "Parivaar naal gall karna",
+  "परिवार से बात करना"
+ ],
+ "part-time": [
+  "Part-time (adhe samey)",
+  "पार्ट-टाइम (अंशकालिक)"
+ ],
+ "Pass me the hammer": [
+  "Mainu hathauda pharao",
+  "मुझे हथौड़ा दीजिए"
+ ],
+ "Pass me the hammer.": [
+  "Mainu hathauda pharao.",
+  "मुझे हथौड़ा दीजिए।"
+ ],
+ "Pasta is on special offer.": [
+  "Pasta te khaas offer hai.",
+  "पास्ता पर विशेष ऑफ़र है।"
+ ],
+ "Perfect, I'll start right away.": [
+  "Bilkul theek, main hune shuru karda haan.",
+  "बिल्कुल ठीक, मैं अभी शुरू करता हूँ।"
+ ],
+ "Perfect, I'll wait for him. Good night!": [
+  "Bilkul theek, main unhan di udeek karanga. Shubh raat!",
+  "बिल्कुल ठीक, मैं उनका इंतज़ार करूँगा। शुभ रात्रि!"
+ ],
+ "Perfect, room 305. Here is the key.": [
+  "Bilkul theek, kamra 305. Aah chaabi.",
+  "बिल्कुल ठीक, कमरा 305। यह रही चाबी।"
+ ],
+ "Perfect, thank you very much.": [
+  "Bilkul theek, bahut bahut dhanvaad.",
+  "बिल्कुल ठीक, बहुत-बहुत धन्यवाद।"
+ ],
+ "Perfect. We will let you know by Friday.": [
+  "Bilkul theek. Asin Shukarvaar tak dass davange.",
+  "बिल्कुल ठीक। हम शुक्रवार तक बता देंगे।"
+ ],
+ "permanent": [
+  "Pakka (permanent)",
+  "स्थायी"
+ ],
+ "Piano 2: camere 201–210. Cambiare lenzuola e asciugamani nelle camere 203 e 207 (partenze). Camera 205: cartello \"Non disturbare\", non entrare. Fine turno: ore 14.": [
+  "Manzil 2: kamre 201–210. Kamre 203 te 207 vich chaadran te tauliye badlo (ja rahe mehmaan). Kamra 205: \"Pareshaan na karo\" da board, andar na jao. Shift khatam: 14 vaje.",
+  "मंज़िल 2: कमरे 201–210। कमरा 203 और 207 में चादरें और तौलिए बदलिए (जा रहे मेहमान)। कमरा 205: \"परेशान न करें\" का बोर्ड, अंदर न जाएँ। शिफ़्ट खत्म: 14 बजे।"
+ ],
+ "Plan a day of harvest: the farmer explains the work, the workers ask about hours, breaks and pay.": [
+  "Fasal todan de din di yojana banao: kisaan kamm samjhaunda hai, mazdoor ghante, break te tankhah baare puchhde han.",
+  "फ़सल तोड़ने के दिन की योजना बनाइए: किसान काम समझाता है, मज़दूर घंटे, ब्रेक और मज़दूरी के बारे में पूछते हैं।"
+ ],
+ "Plastic bags in Italian shops are not free — always ask **Vuole un sacchetto?** before you put the shopping in one.": [
+  "Italian dukaanan vich plastic de thaile muft nahi hunde — saman paun ton pehlan hamesha puchho **Vuole un sacchetto?**",
+  "इटालियन दुकानों में प्लास्टिक के थैले मुफ़्त नहीं होते — सामान डालने से पहले हमेशा पूछिए **Vuole un sacchetto?**"
+ ],
+ "Please pay at the till.": [
+  "Kirpa karke cash counter te paise devo.",
+  "कृपया कैश काउंटर पर भुगतान कीजिए।"
+ ],
+ "Pleased to meet you, I'm Ravi Kumar.": [
+  "Mil ke khushi hoi, main Ravi Kumar haan.",
+  "मिलकर खुशी हुई, मैं Ravi Kumar हूँ।"
+ ],
+ "Practise a phone call to a customer who doesn't answer the intercom.": [
+  "Intercom da jawab na den vale grahak nu phone karan di practice karo.",
+  "इंटरकॉम का जवाब न देने वाले ग्राहक को फ़ोन करने का अभ्यास कीजिए।"
+ ],
+ "Practise asking colleagues for three tools and for help carrying something heavy.": [
+  "Saathiyan ton tinn auzaar mangan te kujh bhaara chukan vich madad mangan di practice karo.",
+  "सहकर्मियों से तीन औज़ार माँगने और कुछ भारी उठाने में मदद माँगने का अभ्यास कीजिए।"
+ ],
+ "Practise directing customers to five products in your local supermarket.": [
+  "Apne nede de supermarket vich grahakan nu panj cheezan tak rasta dassan di practice karo.",
+  "अपने पास के सुपरमार्केट में ग्राहकों को पाँच चीज़ों तक रास्ता बताने का अभ्यास कीजिए।"
+ ],
+ "Practise reporting two problems: a broken machine and a small injury.": [
+  "Do samasyavan di report karan di practice karo: kharab machine te chhoti satt.",
+  "दो समस्याओं की रिपोर्ट करने का अभ्यास कीजिए: खराब मशीन और छोटी चोट।"
+ ],
+ "Practise taking an order from three customers with different requests.": [
+  "Alag-alag mangan vale tinn grahakan ton order lain di practice karo.",
+  "अलग-अलग माँग वाले तीन ग्राहकों से ऑर्डर लेने का अभ्यास कीजिए।"
+ ],
+ "Practise welcoming a guest and explaining breakfast, Wi-Fi and parking.": [
+  "Mehmaan da swaagat karan te naashta, Wi-Fi te parking samjhaun di practice karo.",
+  "मेहमान का स्वागत करने और नाश्ता, वाई-फ़ाई व पार्किंग समझाने का अभ्यास कीजिए।"
+ ],
+ "Prendere un'ordinazione": [
+  "Order lena",
+  "ऑर्डर लेना"
+ ],
+ "Prepare a short evening report for the family: food, medicines, mood, sleep.": [
+  "Parivaar layi shaam di chhoti report tyar karo: khaana, dawaiyan, mood, neend.",
+  "परिवार के लिए शाम की छोटी रिपोर्ट तैयार कीजिए: खाना, दवाइयाँ, मनोदशा, नींद।"
+ ],
+ "Prepare answers to these questions: experience, availability, documents, driving licence.": [
+  "Inhan sawaalan de jawab tyar karo: tajurba, kado vehle ho, dastavez, driving licence.",
+  "इन सवालों के जवाब तैयार कीजिए: अनुभव, उपलब्धता, दस्तावेज़, ड्राइविंग लाइसेंस।"
+ ],
+ "Prepare order number 58.": [
+  "Order number 58 tyar karo.",
+  "ऑर्डर नंबर 58 तैयार कीजिए।"
+ ],
+ "Prepare the cement.": [
+  "Cement tyar karo.",
+  "सीमेंट तैयार कीजिए।"
+ ],
+ "Prepare three questions for your first day: hours, tools and pay.": [
+  "Apne pehle din layi tinn sawaal tyar karo: ghante, auzaar te tankhah.",
+  "अपने पहले दिन के लिए तीन सवाल तैयार कीजिए: घंटे, औज़ार और मज़दूरी।"
+ ],
+ "Products, rooms and cleaning tasks.": [
+  "Saman, kamre te safai de kamm.",
+  "सामान, कमरे और सफ़ाई के काम।"
+ ],
+ "Put on the hard hat.": [
+  "Helmet pao.",
+  "हेलमेट पहनिए।"
+ ],
+ "Put the pan on the heat.": [
+  "Pan nu agg te rakho.",
+  "पैन को आँच पर रखिए।"
+ ],
+ "Read a real building-site safety sign in the live class.": [
+  "Live class vich building site da asli suraksha board parho.",
+  "लाइव क्लास में बिल्डिंग साइट का असली सुरक्षा संकेत पढ़िए।"
+ ],
+ "Read a real cleaning product label and find the words for danger and gloves.": [
+  "Safai de kise saman da asli label parho te khatre te dastaaneyan vale shabad labho.",
+  "सफ़ाई के किसी सामान का असली लेबल पढ़िए और खतरे व दस्तानों वाले शब्द ढूँढिए।"
+ ],
+ "Read a sample contract and payslip together. Practise calling your boss to say you are sick.": [
+  "Ikk namoona contract te salary slip mil ke parho. Apne boss nu phone karke bimar hon di soochna den di practice karo.",
+  "एक नमूना कॉन्ट्रैक्ट और वेतन पर्ची मिलकर पढ़िए। अपने बॉस को फ़ोन करके बीमार होने की सूचना देने का अभ्यास कीजिए।"
+ ],
+ "Read job ads, talk about your experience and answer the first questions in an interview.": [
+  "Naukri de ishtihaar parho, apne tajurbe baare gall karo te interview de pehle sawaalan de jawab devo.",
+  "नौकरी के विज्ञापन पढ़िए, अपने अनुभव के बारे में बात कीजिए और इंटरव्यू के पहले सवालों के जवाब दीजिए।"
+ ],
+ "Read job adverts and handle a job interview": [
+  "Naukri de ishtihaar parho te job interview sambhalo",
+  "नौकरी के विज्ञापन पढ़िए और जॉब इंटरव्यू सँभालिए"
+ ],
+ "Read your payslip (or a sample) in the live class: hours, gross pay and net pay.": [
+  "Live class vich apni salary slip (jaan namoona) parho: ghante, kul tankhah te asal tankhah.",
+  "लाइव क्लास में अपनी वेतन पर्ची (या नमूना) पढ़िए: घंटे, सकल वेतन और शुद्ध वेतन।"
+ ],
+ "Read: a delivery note": [
+  "Parho: delivery note",
+  "पढ़िए: डिलीवरी नोट"
+ ],
+ "Read: a job advert": [
+  "Parho: naukri da ishtihaar",
+  "पढ़िए: नौकरी का विज्ञापन"
+ ],
+ "Read: a message from the farm": [
+  "Parho: farm da message",
+  "पढ़िए: फ़ार्म का संदेश"
+ ],
+ "Read: a note from the chef": [
+  "Parho: chef da note",
+  "पढ़िए: शेफ़ का नोट"
+ ],
+ "Read: a notice for staff": [
+  "Parho: staff layi soochna",
+  "पढ़िए: स्टाफ़ के लिए सूचना"
+ ],
+ "Read: a safety sign": [
+  "Parho: suraksha board",
+  "पढ़िए: सुरक्षा संकेत"
+ ],
+ "Read: building-site rules": [
+  "Parho: building site de niyam",
+  "पढ़िए: बिल्डिंग साइट के नियम"
+ ],
+ "Read: part of a contract": [
+  "Parho: contract da ikk hissa",
+  "पढ़िए: कॉन्ट्रैक्ट का एक हिस्सा"
+ ],
+ "Read: the doctor's instructions": [
+  "Parho: doctor diyan hidayatan",
+  "पढ़िए: डॉक्टर के निर्देश"
+ ],
+ "Read: today's task list": [
+  "Parho: ajj de kamman di list",
+  "पढ़िए: आज के कामों की सूची"
+ ],
+ "Reception and housekeeping.": [
+  "Reception te housekeeping.",
+  "रिसेप्शन और हाउसकीपिंग।"
+ ],
+ "Reception role-play: welcome guests, give the room key and explain breakfast time. Then read a housekeeping task list.": [
+  "Reception da role-play: mehmaanan da swaagat karo, kamre di chaabi dio te naashte da samaa dasso. Phir housekeeping de kamman di list parho.",
+  "रिसेप्शन का रोल-प्ले: मेहमानों का स्वागत कीजिए, कमरे की चाबी दीजिए और नाश्ते का समय बताइए। फिर हाउसकीपिंग के कामों की सूची पढ़िए।"
+ ],
+ "Recipient: Marco Galli. Address: 48 Corso Vittorio Emanuele, staircase B, flat 7. Notes: intercom broken, call 347 555 1234. Delivery by 1 pm.": [
+  "Lain vala: Marco Galli. Pata: Corso Vittorio Emanuele 48, pauri B, flat 7. Note: intercom kharab hai, 347 555 1234 te phone karo. Delivery dupehar 1 vaje tak.",
+  "प्राप्तकर्ता: Marco Galli। पता: Corso Vittorio Emanuele 48, सीढ़ी B, फ़्लैट 7। नोट: इंटरकॉम खराब है, 347 555 1234 पर फ़ोन कीजिए। डिलीवरी दोपहर 1 बजे तक।"
+ ],
+ "Report a broken machine to the shift leader.": [
+  "Shift leader nu kharab machine di report karo.",
+  "शिफ़्ट लीडर को खराब मशीन की रिपोर्ट कीजिए।"
+ ],
+ "Rest. Get well soon!": [
+  "Aaraam kar. Jaldi theek ho ja!",
+  "आराम करो। जल्दी ठीक हो जाओ!"
+ ],
+ "Restaurant & kitchen": [
+  "Restaurant te rasoi",
+  "रेस्टोरेंट और रसोई"
+ ],
+ "Restaurant review": [
+  "Restaurant da review",
+  "रेस्टोरेंट का रिव्यू"
+ ],
+ "Restaurant shift role-play: the chef gives instructions, the waiter takes orders and serves.": [
+  "Restaurant di shift da role-play: chef hidayatan dinda hai, waiter order lainda hai te parosda hai.",
+  "रेस्टोरेंट की शिफ़्ट का रोल-प्ले: शेफ़ निर्देश देता है, वेटर ऑर्डर लेता है और परोसता है।"
+ ],
+ "Right away!": [
+  "Hune lai aaya!",
+  "अभी लाया!"
+ ],
+ "Right away. Are you ready to order?": [
+  "Hune lai aunda haan. Order karan layi tyar ho?",
+  "अभी लाता हूँ। ऑर्डर करने के लिए तैयार हैं?"
+ ],
+ "Right away. How many boxes?": [
+  "Hune. Kinne dabbe?",
+  "अभी। कितने डिब्बे?"
+ ],
+ "Right away. Please pay at the till, thank you.": [
+  "Hune. Kirpa karke cash counter te paise devo, dhanvaad.",
+  "अभी। कृपया कैश काउंटर पर भुगतान कीजिए, धन्यवाद।"
+ ],
+ "Rights at work — and a final check of the whole course.": [
+  "Kamm te haq — te poore course di aakhri jaanch.",
+  "काम पर अधिकार — और पूरे कोर्स की अंतिम जाँच।"
+ ],
+ "Role-play between a carer and an elderly person's daughter: explain the day, the meals and the medicines.": [
+  "Dekhbhaal karan vale te ikk buzurg di dhee vich role-play: din, khaana te dawaiyan samjhao.",
+  "देखभाल करने वाले और एक बुज़ुर्ग की बेटी के बीच रोल-प्ले: दिन, खाना और दवाइयाँ समझाइए।"
+ ],
+ "safety shoes": [
+  "Safety jutte",
+  "सेफ़्टी जूते"
+ ],
+ "Safety shoes are compulsory.": [
+  "Safety jutte zaroori han.",
+  "सेफ़्टी जूते अनिवार्य हैं।"
+ ],
+ "Safety shoes are needed in the forklift area.": [
+  "Forklift ilaake vich safety jutte chahide han.",
+  "फ़ोर्कलिफ़्ट क्षेत्र में सेफ़्टी जूते चाहिए।"
+ ],
+ "Safety, machines and orders.": [
+  "Suraksha, machinan te order.",
+  "सुरक्षा, मशीनें और ऑर्डर।"
+ ],
+ "Saturdays yes, nights no.": [
+  "Shanivaar haan, raat nahi.",
+  "शनिवार हाँ, रात नहीं।"
+ ],
+ "Serve a couple at their table — you are the waiter.": [
+  "Ikk jode nu unhan de mez te parosao — tusin waiter ho.",
+  "एक जोड़े को उनकी मेज़ पर परोसिए — आप वेटर हैं।"
+ ],
+ "Shall I leave the parcel with the neighbour?": [
+  "Parcel guaandi kol chhadd devan?",
+  "पार्सल पड़ोसी के पास छोड़ दूँ?"
+ ],
+ "She ate little.": [
+  "Unhan ne thoda khaadha.",
+  "उन्होंने थोड़ा खाया।"
+ ],
+ "She has fallen.": [
+  "Oh dig gaye han.",
+  "वह गिर गई हैं।"
+ ],
+ "She has taken the medicines": [
+  "Unhan ne dawaiyan lai laiyan han",
+  "उन्होंने दवाइयाँ ले ली हैं"
+ ],
+ "She/he ate little.": [
+  "Unhan ne thoda khaadha.",
+  "उन्होंने थोड़ा खाया।"
+ ],
+ "She/he has taken the medicines.": [
+  "Unhan ne dawaiyan lai laiyan han.",
+  "उन्होंने दवाइयाँ ले ली हैं।"
+ ],
+ "Shelves, till, offers and returns.": [
+  "Shelf, cash counter, offer te vaapsi.",
+  "शेल्फ़, कैश काउंटर, ऑफ़र और वापसी।"
+ ],
+ "Shift change role-play: hand over the work to a colleague and report a broken machine to the team leader.": [
+  "Shift badalan da role-play: kamm saathi nu saumpo te kharab machine di report team leader nu karo.",
+  "शिफ़्ट बदलने का रोल-प्ले: काम सहकर्मी को सौंपिए और खराब मशीन की रिपोर्ट टीम लीडर को कीजिए।"
+ ],
+ "Shop & supermarket": [
+  "Dukaan te supermarket",
+  "दुकान और सुपरमार्केट"
+ ],
+ "Shop review": [
+  "Dukaan da review",
+  "दुकान का रिव्यू"
+ ],
+ "Shop words": [
+  "Dukaan de shabad",
+  "दुकान के शब्द"
+ ],
+ "Shout **Attento!** (watch out!) if you see a danger for a colleague. Shouting is right when safety is at stake.": [
+  "Je tuhanu kise saathi layi khatra dikhe taan uchi awaaz vich **Attento!** (dhyan naal!) kaho. Jadon suraksha di gall hove taan cheekna theek hai.",
+  "अगर आपको किसी सहकर्मी के लिए खतरा दिखे तो ज़ोर से **Attento!** (सावधान!) कहिए। जब सुरक्षा की बात हो तो चिल्लाना सही है।"
+ ],
+ "sick leave / illness": [
+  "Bimari di chhutti / bimari",
+  "बीमारी की छुट्टी / बीमारी"
+ ],
+ "Sign on the phone, please.": [
+  "Phone te sign karo, please.",
+  "फ़ोन पर साइन कीजिए, कृपया।"
+ ],
+ "Since when?": [
+  "Kado ton?",
+  "कब से?"
+ ],
+ "Someone pays you only in cash without a contract. This is…": [
+  "Koi tuhanu bina contract de sirf cash vich paise dinda hai. Eh hai…",
+  "कोई आपको बिना कॉन्ट्रैक्ट के केवल नकद में पैसे देता है। यह है…"
+ ],
+ "Sorry for the delay, there was a lot of traffic.": [
+  "Der layi maafi, traffic bahut si.",
+  "देरी के लिए माफ़ी, ट्रैफ़िक बहुत था।"
+ ],
+ "Sorry for the delay.": [
+  "Der layi maafi.",
+  "देरी के लिए माफ़ी।"
+ ],
+ "Staircase B, third floor.": [
+  "Pauri B, teeji manzil.",
+  "सीढ़ी B, तीसरी मंज़िल।"
+ ],
+ "Table 3 is waiting.": [
+  "Mez number 3 udeek kar reha hai.",
+  "मेज़ नंबर 3 इंतज़ार कर रहा है।"
+ ],
+ "Take a photo of a safety sign (at work or online) and explain it in the live class.": [
+  "Kise suraksha board di photo lao (kamm te jaan online) te live class vich samjhao.",
+  "किसी सुरक्षा संकेत की फ़ोटो लीजिए (काम पर या ऑनलाइन) और लाइव क्लास में समझाइए।"
+ ],
+ "Take the tray to table 5.": [
+  "Tray mez number 5 te lai jao.",
+  "ट्रे मेज़ नंबर 5 पर ले जाइए।"
+ ],
+ "Taking an order": [
+  "Order lena",
+  "ऑर्डर लेना"
+ ],
+ "Talk to customers, colleagues and your manager": [
+  "Grahakan, saathiyan te apne manager naal gall karo",
+  "ग्राहकों, सहकर्मियों और अपने मैनेजर से बात कीजिए"
+ ],
+ "Talking to the family": [
+  "Parivaar naal gall karna",
+  "परिवार से बात करना"
+ ],
+ "Tap and repeat — customers will ask these questions every day.": [
+  "Tap karo te dohrao — grahak har roz eh sawaal puchhange.",
+  "टैप कीजिए और दोहराइए — ग्राहक हर दिन ये सवाल पूछेंगे।"
+ ],
+ "Tap and repeat. On a building site, understanding quickly keeps you safe.": [
+  "Tap karo te dohrao. Building site te jaldi samajhna tuhanu surakhit rakhda hai.",
+  "टैप कीजिए और दोहराइए। बिल्डिंग साइट पर जल्दी समझना आपको सुरक्षित रखता है।"
+ ],
+ "Tap each card. Many Indian workers in Italy work on farms in Lazio, Lombardy and Emilia — these are their daily words.": [
+  "Har card te tap karo. Italy vich bahut Indian mazdoor Lazio, Lombardy te Emilia de khetan vich kamm karde han — eh unhan de rozana de shabad han.",
+  "हर कार्ड पर टैप कीजिए। इटली में बहुत-से भारतीय मज़दूर Lazio, Lombardy और Emilia के खेतों में काम करते हैं — ये उनके रोज़ के शब्द हैं।"
+ ],
+ "Tap each card. Riders and couriers use these words dozens of times a day.": [
+  "Har card te tap karo. Rider te courier inhan shabadan nu din vich darjanan vaar vartde han.",
+  "हर कार्ड पर टैप कीजिए। राइडर और कूरियर इन शब्दों को दिन में दर्जनों बार इस्तेमाल करते हैं।"
+ ],
+ "Tap each card. Safety words are the most important — learn them first.": [
+  "Har card te tap karo. Suraksha de shabad sab ton zaroori han — pehlan unhan nu sikho.",
+  "हर कार्ड पर टैप कीजिए। सुरक्षा के शब्द सबसे ज़रूरी हैं — पहले उन्हें सीखिए।"
+ ],
+ "Tap each card. Speak slowly and clearly with elderly people — they will thank you.": [
+  "Har card te tap karo. Buzurgan naal hauli te saaf bolo — oh tuhada dhanvaad karange.",
+  "हर कार्ड पर टैप कीजिए। बुज़ुर्गों से धीरे और साफ़ बोलिए — वे आपका धन्यवाद करेंगे।"
+ ],
+ "Tap each card. The chef will use these words all day.": [
+  "Har card te tap karo. Chef saara din eh shabad vartega.",
+  "हर कार्ड पर टैप कीजिए। शेफ़ पूरे दिन ये शब्द इस्तेमाल करेगा।"
+ ],
+ "Tap each card. These words are on your task sheet every day.": [
+  "Har card te tap karo. Eh shabad har roz tuhadi kamm di sheet te hunde han.",
+  "हर कार्ड पर टैप कीजिए। ये शब्द हर दिन आपकी काम की शीट पर होते हैं।"
+ ],
+ "Tap each card. These words protect you — knowing them helps you check you are paid correctly.": [
+  "Har card te tap karo. Eh shabad tuhadi raakhi karde han — inhan nu jaanan naal tusin check kar sakde ho ki tuhanu sahi tankhah mil rahi hai.",
+  "हर कार्ड पर टैप कीजिए। ये शब्द आपकी सुरक्षा करते हैं — इन्हें जानकर आप जाँच सकते हैं कि आपको सही वेतन मिल रहा है।"
+ ],
+ "Tell the daughter how her mother's day went.": [
+  "Dhee nu dasso ki usdi maa da din kiven reha.",
+  "बेटी को बताइए कि उसकी माँ का दिन कैसा रहा।"
+ ],
+ "Thank you very much, goodbye.": [
+  "Bahut bahut dhanvaad, alvida.",
+  "बहुत-बहुत धन्यवाद, अलविदा।"
+ ],
+ "Thank you very much, see you soon.": [
+  "Bahut bahut dhanvaad, jaldi milde haan.",
+  "बहुत-बहुत धन्यवाद, जल्दी मिलते हैं।"
+ ],
+ "Thank you, goodbye.": [
+  "Dhanvaad, alvida.",
+  "धन्यवाद, अलविदा।"
+ ],
+ "Thank you, have a nice day!": [
+  "Dhanvaad, tuhada din vadhiya rahe!",
+  "धन्यवाद, आपका दिन अच्छा रहे!"
+ ],
+ "Thank you, have a nice day.": [
+  "Dhanvaad, tuhada din vadhiya rahe.",
+  "धन्यवाद, आपका दिन अच्छा रहे।"
+ ],
+ "Thank you, very kind.": [
+  "Dhanvaad, bahut meharbaani.",
+  "धन्यवाद, बहुत मेहरबानी।"
+ ],
+ "Thank you! Then I'll pay. Can I pay by debit card?": [
+  "Dhanvaad! Phir main paise de dindi haan. Kya debit card naal de sakdi haan?",
+  "धन्यवाद! फिर मैं भुगतान कर देती हूँ। क्या डेबिट कार्ड से दे सकती हूँ?"
+ ],
+ "Thank you. And the pay, when does it come?": [
+  "Dhanvaad. Te tankhah kado aundi hai?",
+  "धन्यवाद। और मज़दूरी कब आती है?"
+ ],
+ "Thank you. Your room is 305, on the third floor.": [
+  "Dhanvaad. Tuhada kamra 305 hai, teeji manzil te.",
+  "धन्यवाद। आपका कमरा 305 है, तीसरी मंज़िल पर।"
+ ],
+ "Thanks. Do I sign the contract today?": [
+  "Dhanvaad. Kya main contract ajj sign karanga?",
+  "धन्यवाद। क्या मैं कॉन्ट्रैक्ट आज साइन करूँगा?"
+ ],
+ "That's 12.40 euros. Here is the receipt.": [
+  "12.40 euro hoe. Aah raseed.",
+  "12.40 यूरो हुए। यह रही रसीद।"
+ ],
+ "the bag": [
+  "Thaila / bag",
+  "थैला / बैग"
+ ],
+ "the bank transfer": [
+  "Bank transfer",
+  "बैंक ट्रांसफ़र"
+ ],
+ "The bank transfer comes on the 10th of each month, with the payslip.": [
+  "Bank transfer har mahine di 10 tareekh nu aunda hai, salary slip naal.",
+  "बैंक ट्रांसफ़र हर महीने की 10 तारीख को आता है, वेतन पर्ची के साथ।"
+ ],
+ "the bicycle": [
+  "Cycle",
+  "साइकिल"
+ ],
+ "The blood pressure is high.": [
+  "BP vadheya hoya hai.",
+  "ब्लड प्रेशर बढ़ा हुआ है।"
+ ],
+ "The blood-pressure tablet is taken in the morning.": [
+  "BP di goli savere lai jaandi hai.",
+  "ब्लड प्रेशर की गोली सुबह ली जाती है।"
+ ],
+ "the box": [
+  "Dabba",
+  "डिब्बा"
+ ],
+ "The boxes are heavy.": [
+  "Dabbe bhaare han.",
+  "डिब्बे भारी हैं।"
+ ],
+ "the break": [
+  "Break / aaraam",
+  "ब्रेक / आराम"
+ ],
+ "The break is at noon.": [
+  "Break baaraan vaje hai.",
+  "ब्रेक बारह बजे है।"
+ ],
+ "the brick": [
+  "Itt",
+  "ईंट"
+ ],
+ "the bricklayer": [
+  "Raj mistri",
+  "राजमिस्त्री"
+ ],
+ "the broom": [
+  "Jhaadu",
+  "झाड़ू"
+ ],
+ "The broom is in the cupboard.": [
+  "Jhaadu almari vich hai.",
+  "झाड़ू अलमारी में है।"
+ ],
+ "the bucket": [
+  "Baalti",
+  "बाल्टी"
+ ],
+ "the building site": [
+  "Building site",
+  "बिल्डिंग साइट"
+ ],
+ "The cashier decides about returns.": [
+  "Vaapsi baare cashier faisla karda hai.",
+  "वापसी के बारे में कैशियर फ़ैसला करता है।"
+ ],
+ "The chef prepares the sauce.": [
+  "Chef sauce tyar karda hai.",
+  "शेफ़ सॉस तैयार करता है।"
+ ],
+ "The chef shouts \"Taglia le cipolle!\". You…": [
+  "Chef uchi awaaz vich kehnda hai \"Taglia le cipolle!\". Tusin…",
+  "शेफ़ ज़ोर से कहता है \"Taglia le cipolle!\"। आप…"
+ ],
+ "The contract is fixed-term.": [
+  "Contract nishchit samey da hai.",
+  "कॉन्ट्रैक्ट निश्चित अवधि का है।"
+ ],
+ "The contract lasts 12 months.": [
+  "Contract 12 mahine da hai.",
+  "कॉन्ट्रैक्ट 12 महीने का है।"
+ ],
+ "the cook / chef": [
+  "Cook / chef",
+  "रसोइया / शेफ़"
+ ],
+ "the cow": [
+  "Gaan",
+  "गाय"
+ ],
+ "the cowshed": [
+  "Pashuaan da vaada",
+  "पशुओं का बाड़ा"
+ ],
+ "the customer": [
+  "Grahak",
+  "ग्राहक"
+ ],
+ "The customer at table 7 is allergic to milk.": [
+  "Mez 7 vale grahak nu doodh ton allergy hai.",
+  "मेज़ 7 वाले ग्राहक को दूध से एलर्जी है।"
+ ],
+ "The customer is looking for bread.": [
+  "Grahak bread labh reha hai.",
+  "ग्राहक ब्रेड ढूँढ रहा है।"
+ ],
+ "the CV": [
+  "CV (biodata)",
+  "CV (बायोडाटा)"
+ ],
+ "the delivery": [
+  "Delivery",
+  "डिलीवरी"
+ ],
+ "The delivery is by 6 pm.": [
+  "Delivery shaam 6 vaje tak hai.",
+  "डिलीवरी शाम 6 बजे तक है।"
+ ],
+ "the department / aisle": [
+  "Vibhaag / aisle",
+  "विभाग / गलियारा"
+ ],
+ "the detergent": [
+  "Detergent / sabun",
+  "डिटर्जेंट / साबुन"
+ ],
+ "the drill": [
+  "Drill machine",
+  "ड्रिल मशीन"
+ ],
+ "The drill is flat.": [
+  "Drill di battery khatam hai.",
+  "ड्रिल की बैटरी खत्म है।"
+ ],
+ "The elderly lady has fallen. First you…": [
+  "Buzurg aurat dig gayi hai. Sab ton pehlan tusin…",
+  "बुज़ुर्ग महिला गिर गई हैं। सबसे पहले आप…"
+ ],
+ "the elderly person": [
+  "Buzurg",
+  "बुज़ुर्ग"
+ ],
+ "the employee": [
+  "Mulaazam (employee)",
+  "कर्मचारी"
+ ],
+ "the employer": [
+  "Maalik (employer)",
+  "मालिक (नियोक्ता)"
+ ],
+ "The employer asks \"È disponibile il sabato?\". You can work. You say…": [
+  "Maalik puchhda hai \"È disponibile il sabato?\". Tusin kamm kar sakde ho. Tusin kehnde ho…",
+  "मालिक पूछते हैं \"È disponibile il sabato?\"। आप काम कर सकते हैं। आप कहते हैं…"
+ ],
+ "the field": [
+  "Khet",
+  "खेत"
+ ],
+ "The first day on the farm": [
+  "Khet te pehla din",
+  "खेत पर पहला दिन"
+ ],
+ "the floor (level)": [
+  "Manzil",
+  "मंज़िल"
+ ],
+ "The foreman checks the work.": [
+  "Foreman kamm check karda hai.",
+  "फ़ोरमैन काम जाँचता है।"
+ ],
+ "The foreman's instructions": [
+  "Foreman diyan hidayatan",
+  "फ़ोरमैन के निर्देश"
+ ],
+ "the forklift": [
+  "Forklift",
+  "फ़ोर्कलिफ़्ट"
+ ],
+ "the frying pan": [
+  "Frying pan / kadhai",
+  "फ़्राइंग पैन / कड़ाही"
+ ],
+ "the gloves": [
+  "Dastaane",
+  "दस्ताने"
+ ],
+ "the greenhouse": [
+  "Greenhouse",
+  "ग्रीनहाउस"
+ ],
+ "the guest": [
+  "Mehmaan",
+  "मेहमान"
+ ],
+ "The guest in 12 leaves today.": [
+  "12 number vala mehmaan ajj ja reha hai.",
+  "12 नंबर वाला मेहमान आज जा रहा है।"
+ ],
+ "the hammer": [
+  "Hathauda",
+  "हथौड़ा"
+ ],
+ "the hard hat": [
+  "Helmet",
+  "हेलमेट"
+ ],
+ "The hard hat is broken.": [
+  "Helmet tutteya hoya hai.",
+  "हेलमेट टूटा हुआ है।"
+ ],
+ "The hard hat is compulsory.": [
+  "Helmet zaroori hai.",
+  "हेलमेट अनिवार्य है।"
+ ],
+ "the helmet": [
+  "Helmet",
+  "हेलमेट"
+ ],
+ "the hi-vis vest": [
+  "Chamkan vali jacket (hi-vis)",
+  "चमकीली जैकेट (हाई-विज़)"
+ ],
+ "the intercom": [
+  "Intercom",
+  "इंटरकॉम"
+ ],
+ "The intercom doesn't work.": [
+  "Intercom kamm nahi karda.",
+  "इंटरकॉम काम नहीं करता।"
+ ],
+ "the interview": [
+  "Interview",
+  "इंटरव्यू"
+ ],
+ "the job / work": [
+  "Naukri / kamm",
+  "नौकरी / काम"
+ ],
+ "The job interview": [
+  "Job interview",
+  "जॉब इंटरव्यू"
+ ],
+ "The job is 40 hours a week.": [
+  "Naukri hafte de 40 ghante di hai.",
+  "नौकरी हफ़्ते के 40 घंटे की है।"
+ ],
+ "the knife": [
+  "Chhuri",
+  "चाकू"
+ ],
+ "the ladder": [
+  "Pauri",
+  "सीढ़ी"
+ ],
+ "the live-in carer": [
+  "Ghar vich reh ke dekhbhaal karan vala (badante)",
+  "घर में रहकर देखभाल करने वाला (badante)"
+ ],
+ "the machine": [
+  "Machine",
+  "मशीन"
+ ],
+ "The machine doesn't work": [
+  "Machine kamm nahi kardi",
+  "मशीन काम नहीं करती"
+ ],
+ "The machine has stopped.": [
+  "Machine ruk gayi hai.",
+  "मशीन रुक गई है।"
+ ],
+ "the medical certificate": [
+  "Medical certificate",
+  "मेडिकल सर्टिफ़िकेट"
+ ],
+ "the medicine": [
+  "Dawai",
+  "दवाई"
+ ],
+ "the nurse": [
+  "Nurse",
+  "नर्स"
+ ],
+ "The nurse comes on Tuesdays.": [
+  "Nurse Mangalvaar nu aundi hai.",
+  "नर्स मंगलवार को आती है।"
+ ],
+ "the order": [
+  "Order",
+  "ऑर्डर"
+ ],
+ "the oven": [
+  "Oven",
+  "ओवन"
+ ],
+ "the pallet": [
+  "Pallet",
+  "पैलेट"
+ ],
+ "the parcel": [
+  "Parcel",
+  "पार्सल"
+ ],
+ "the pay": [
+  "Tankhah / mazdoori",
+  "मज़दूरी / वेतन"
+ ],
+ "The pay is by the hour.": [
+  "Mazdoori ghante de hisaab naal hai.",
+  "मज़दूरी घंटे के हिसाब से है।"
+ ],
+ "the payslip": [
+  "Salary slip (busta paga)",
+  "वेतन पर्ची (busta paga)"
+ ],
+ "The pizza is in the oven.": [
+  "Pizza oven vich hai.",
+  "पिज़्ज़ा ओवन में है।"
+ ],
+ "the residence permit": [
+  "Residence permit",
+  "निवास परमिट"
+ ],
+ "the return": [
+  "Vaapsi (return)",
+  "वापसी (रिटर्न)"
+ ],
+ "the rubbish": [
+  "Kooda",
+  "कूड़ा"
+ ],
+ "the salary": [
+  "Tankhah",
+  "वेतन"
+ ],
+ "The salary arrives by the 10th of the month.": [
+  "Tankhah mahine di 10 tareekh tak aundi hai.",
+  "वेतन महीने की 10 तारीख तक आता है।"
+ ],
+ "The salary is 1,400 euros.": [
+  "Tankhah 1,400 euro hai.",
+  "वेतन 1,400 यूरो है।"
+ ],
+ "the scaffolding": [
+  "Paad (scaffolding)",
+  "मचान (स्कैफ़ोल्डिंग)"
+ ],
+ "the sheets": [
+  "Chaadran",
+  "चादरें"
+ ],
+ "the shelf": [
+  "Shelf",
+  "शेल्फ़"
+ ],
+ "the shift": [
+  "Shift",
+  "शिफ़्ट"
+ ],
+ "The shift ends at 4 pm.": [
+  "Shift shaam 4 vaje khatam hundi hai.",
+  "शिफ़्ट शाम 4 बजे खत्म होती है।"
+ ],
+ "the shift leader": [
+  "Shift leader",
+  "शिफ़्ट लीडर"
+ ],
+ "The shift starts at six.": [
+  "Shift chhe vaje shuru hundi hai.",
+  "शिफ़्ट छह बजे शुरू होती है।"
+ ],
+ "the site foreman": [
+  "Site foreman",
+  "साइट फ़ोरमैन"
+ ],
+ "The site opens at seven.": [
+  "Site satt vaje khuldi hai.",
+  "साइट सात बजे खुलती है।"
+ ],
+ "the special offer": [
+  "Khaas offer",
+  "विशेष ऑफ़र"
+ ],
+ "the staircase (building entrance)": [
+  "Pauriyan (building da darvaza)",
+  "सीढ़ियाँ (बिल्डिंग का प्रवेश)"
+ ],
+ "the stockroom": [
+  "Store room",
+  "स्टोर रूम"
+ ],
+ "the street number": [
+  "Ghar number",
+  "मकान नंबर"
+ ],
+ "the table": [
+  "Mez",
+  "मेज़"
+ ],
+ "the till": [
+  "Cash counter",
+  "कैश काउंटर"
+ ],
+ "the tomato": [
+  "Tamatar",
+  "टमाटर"
+ ],
+ "The tomatoes are ripe.": [
+  "Tamatar pakk gaye han.",
+  "टमाटर पक गए हैं।"
+ ],
+ "the tractor": [
+  "Tractor",
+  "ट्रैक्टर"
+ ],
+ "the trade union": [
+  "Mazdoor union",
+  "मज़दूर यूनियन"
+ ],
+ "the traffic light": [
+  "Traffic light",
+  "ट्रैफ़िक लाइट"
+ ],
+ "the tray": [
+  "Tray / thaal",
+  "ट्रे / थाल"
+ ],
+ "The union helps me for free.": [
+  "Union meri muft madad kardi hai.",
+  "यूनियन मेरी मुफ़्त मदद करती है।"
+ ],
+ "the waiter": [
+  "Waiter",
+  "वेटर"
+ ],
+ "The waiter brings the dishes.": [
+  "Waiter dishan lai ke aunda hai.",
+  "वेटर डिशें लेकर आता है।"
+ ],
+ "the walking stick": [
+  "Soti / dang",
+  "छड़ी"
+ ],
+ "the wheelchair": [
+  "Wheelchair",
+  "व्हीलचेयर"
+ ],
+ "The words of daily care for an elderly person.": [
+  "Kise buzurg di rozana dekhbhaal de shabad.",
+  "किसी बुज़ुर्ग की रोज़ की देखभाल के शब्द।"
+ ],
+ "The words on your contract and payslip.": [
+  "Tuhade contract te salary slip de shabad.",
+  "आपके कॉन्ट्रैक्ट और वेतन पर्ची के शब्द।"
+ ],
+ "The worker has 10 days of holiday.": [
+  "Mulaazam nu 10 din di chhutti hai.",
+  "कर्मचारी को 10 दिन की छुट्टी है।"
+ ],
+ "The worker is hired on a fixed-term basis for 12 months, 40 hours a week. He is entitled to 26 days of holiday a year. The salary is paid by the 10th of the following month.": [
+  "Mulaazam nu 12 mahineyan layi nishchit samey te rakheya gaya hai, hafte de 40 ghante. Usnu saal vich 26 din di chhutti da haq hai. Tankhah agle mahine di 10 tareekh tak ditti jaandi hai.",
+  "कर्मचारी को 12 महीनों के लिए निश्चित अवधि पर रखा गया है, हफ़्ते के 40 घंटे। उसे साल में 26 दिन की छुट्टी का अधिकार है। वेतन अगले महीने की 10 तारीख तक दिया जाता है।"
+ ],
+ "There was a lot of traffic.": [
+  "Traffic bahut si.",
+  "ट्रैफ़िक बहुत था।"
+ ],
+ "There you go. Thanks and have a nice day.": [
+  "Aah lao. Dhanvaad te tuhada din vadhiya rahe.",
+  "यह लीजिए। धन्यवाद और आपका दिन अच्छा रहे।"
+ ],
+ "There's a new order.": [
+  "Ikk nava order hai.",
+  "एक नया ऑर्डर है।"
+ ],
+ "There's a problem with the machine.": [
+  "Machine vich samasya hai.",
+  "मशीन में समस्या है।"
+ ],
+ "There's nobody home.": [
+  "Ghar koi nahi hai.",
+  "घर पर कोई नहीं है।"
+ ],
+ "There's the \"Do not disturb\" sign.": [
+  "\"Pareshaan na karo\" vala board lageya hai.",
+  "\"परेशान न करें\" वाला बोर्ड लगा है।"
+ ],
+ "These words appear in every job advert and interview in Italy. Tap and repeat each one.": [
+  "Eh shabad Italy vich naukri de har ishtihaar te interview vich aunde han. Har ikk te tap karo te dohrao.",
+  "ये शब्द इटली में नौकरी के हर विज्ञापन और इंटरव्यू में आते हैं। हर एक पर टैप कीजिए और दोहराइए।"
+ ],
+ "They say: “A che ora è la colazione?” — what do you answer?": [
+  "Oh kehnde han: “A che ora è la colazione?” — tusin ki jawab doge?",
+  "वे कहते हैं: “A che ora è la colazione?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ah, finalmente! Aspettavo da un'ora.” — what do you answer?": [
+  "Oh kehnde han: “Ah, finalmente! Aspettavo da un'ora.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ah, finalmente! Aspettavo da un'ora.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Alle quattro. C'è una pausa a mezzogiorno.” — what do you answer?": [
+  "Oh kehnde han: “Alle quattro. C'è una pausa a mezzogiorno.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Alle quattro. C'è una pausa a mezzogiorno.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Bene. Ha la patente?” — what do you answer?": [
+  "Oh kehnde han: “Bene. Ha la patente?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Bene. Ha la patente?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buonasera!” — what do you answer?": [
+  "Oh kehnde han: “Buonasera!” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buonasera!” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buonasera. Ho una prenotazione a nome Bianchi.” — what do you answer?": [
+  "Oh kehnde han: “Buonasera. Ho una prenotazione a nome Bianchi.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buonasera. Ho una prenotazione a nome Bianchi.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buongiorno, si accomodi. Come si chiama?” — what do you answer?": [
+  "Oh kehnde han: “Buongiorno, si accomodi. Come si chiama?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buongiorno, si accomodi. Come si chiama?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buongiorno! Oggi raccogliamo le zucchine nella serra 3.” — what do you answer?": [
+  "Oh kehnde han: “Buongiorno! Oggi raccogliamo le zucchine nella serra 3.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buongiorno! Oggi raccogliamo le zucchine nella serra 3.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buongiorno. Oggi alziamo il muro del secondo piano.” — what do you answer?": [
+  "Oh kehnde han: “Buongiorno. Oggi alziamo il muro del secondo piano.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buongiorno. Oggi alziamo il muro del secondo piano.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “C'è il parcheggio?” — what do you answer?": [
+  "Oh kehnde han: “C'è il parcheggio?” — tusin ki jawab doge?",
+  "वे कहते हैं: “C'è il parcheggio?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “C'è una luce rossa?” — what do you answer?": [
+  "Oh kehnde han: “C'è una luce rossa?” — tusin ki jawab doge?",
+  "वे कहते हैं: “C'è una luce rossa?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Che succede?” — what do you answer?": [
+  "Oh kehnde han: “Che succede?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Che succede?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ciao, sono Giulia. Come sta la mamma oggi?” — what do you answer?": [
+  "Oh kehnde han: “Ciao, sono Giulia. Come sta la mamma oggi?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ciao, sono Giulia. Come sta la mamma oggi?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Cosa è successo?” — what do you answer?": [
+  "Oh kehnde han: “Cosa è successo?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Cosa è successo?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Da quanto tempo?” — what do you answer?": [
+  "Oh kehnde han: “Da quanto tempo?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Da quanto tempo?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “E la pressione?” — what do you answer?": [
+  "Oh kehnde han: “E la pressione?” — tusin ki jawab doge?",
+  "वे कहते हैं: “E la pressione?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ecco la carta d'identità.” — what do you answer?": [
+  "Oh kehnde han: “Ecco la carta d'identità.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ecco la carta d'identità.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ecco. Fa caldo, bevi spesso.” — what do you answer?": [
+  "Oh kehnde han: “Ecco. Fa caldo, bevi spesso.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ecco. Fa caldo, bevi spesso.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Grazie! Allora pago. Posso pagare con il bancomat?” — what do you answer?": [
+  "Oh kehnde han: “Grazie! Allora pago. Posso pagare con il bancomat?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Grazie! Allora pago. Posso pagare con il bancomat?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ha esperienza in questo lavoro?” — what do you answer?": [
+  "Oh kehnde han: “Ha esperienza in questo lavoro?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ha esperienza in questo lavoro?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ha mangiato?” — what do you answer?": [
+  "Oh kehnde han: “Ha mangiato?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ha mangiato?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ha preso le medicine?” — what do you answer?": [
+  "Oh kehnde han: “Ha preso le medicine?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ha preso le medicine?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Il bonifico arriva il 10 di ogni mese, con la busta paga.” — what do you answer?": [
+  "Oh kehnde han: “Il bonifico arriva il 10 di ogni mese, con la busta paga.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Il bonifico arriva il 10 di ogni mese, con la busta paga.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Mattoni, cemento e la livella. Sono vicino al container.” — what do you answer?": [
+  "Oh kehnde han: “Mattoni, cemento e la livella. Sono vicino al container.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Mattoni, cemento e la livella. Sono vicino al container.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Mi dispiace. Vai dal medico?” — what do you answer?": [
+  "Oh kehnde han: “Mi dispiace. Vai dal medico?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Mi dispiace. Vai dal medico?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Non lo vedo sullo scaffale.” — what do you answer?": [
+  "Oh kehnde han: “Non lo vedo sullo scaffale.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Non lo vedo sullo scaffale.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Non toccare niente. Chiamo il tecnico.” — what do you answer?": [
+  "Oh kehnde han: “Non toccare niente. Chiamo il tecnico.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Non toccare niente. Chiamo il tecnico.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Pronto?” — what do you answer?": [
+  "Oh kehnde han: “Pronto?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Pronto?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Può lavorare anche di notte e il sabato?” — what do you answer?": [
+  "Oh kehnde han: “Può lavorare anche di notte e il sabato?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Può lavorare anche di notte e il sabato?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Quanto tempo ci vuole?” — what do you answer?": [
+  "Oh kehnde han: “Quanto tempo ci vuole?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Quanto tempo ci vuole?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Riposati. Buona guarigione!” — what do you answer?": [
+  "Oh kehnde han: “Riposati. Buona guarigione!” — tusin ki jawab doge?",
+  "वे कहते हैं: “Riposati. Buona guarigione!” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Scusi, dove trovo il riso basmati?” — what do you answer?": [
+  "Oh kehnde han: “Scusi, dove trovo il riso basmati?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Scusi, dove trovo il riso basmati?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Scusi, il conto, per favore.” — what do you answer?": [
+  "Oh kehnde han: “Scusi, il conto, per favore.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Scusi, il conto, per favore.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sì, a destra. … Eccomi.” — what do you answer?": [
+  "Oh kehnde han: “Sì, a destra. … Eccomi.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sì, a destra. … Eccomi.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sì, prendilo nel container. A mezzogiorno c'è la pausa pranzo.” — what do you answer?": [
+  "Oh kehnde han: “Sì, prendilo nel container. A mezzogiorno c'è la pausa pranzo.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sì, prendilo nel container. A mezzogiorno c'è la pausa pranzo.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sì, uno, grazie.” — what do you answer?": [
+  "Oh kehnde han: “Sì, uno, grazie.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sì, uno, grazie.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sì? Chi è?” — what do you answer?": [
+  "Oh kehnde han: “Sì? Chi è?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sì? Chi è?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sì. Metti sempre l'imbracatura e il caschetto.” — what do you answer?": [
+  "Oh kehnde han: “Sì. Metti sempre l'imbracatura e il caschetto.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sì. Metti sempre l'imbracatura e il caschetto.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Una birra e un'acqua frizzante, per favore.” — what do you answer?": [
+  "Oh kehnde han: “Una birra e un'acqua frizzante, per favore.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Una birra e un'acqua frizzante, per favore.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Va bene. Salga pure, terzo piano.” — what do you answer?": [
+  "Oh kehnde han: “Va bene. Salga pure, terzo piano.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Va bene. Salga pure, terzo piano.” — आप क्या जवाब देंगे?"
+ ],
+ "Throw away the rubbish.": [
+  "Kooda sutt dio.",
+  "कूड़ा फेंक दीजिए।"
+ ],
+ "Till and customer-service role-play: a customer cannot find a product, then wants to return one.": [
+  "Cash counter te customer service da role-play: ikk grahak nu koi cheez nahi labhdi, phir oh ikk cheez vaapas karna chahunda hai.",
+  "कैश काउंटर और ग्राहक सेवा का रोल-प्ले: एक ग्राहक को कोई चीज़ नहीं मिलती, फिर वह एक चीज़ वापस करना चाहता है।"
+ ],
+ "to clean": [
+  "Saaf karna",
+  "साफ़ करना"
+ ],
+ "to cut": [
+  "Kattna",
+  "काटना"
+ ],
+ "to harvest / pick": [
+  "Fasal todna / chugna",
+  "फ़सल तोड़ना / चुनना"
+ ],
+ "to have a shower": [
+  "Nahauna (shower)",
+  "नहाना (शावर)"
+ ],
+ "to wash the dishes": [
+  "Bhaande dhona",
+  "बर्तन धोना"
+ ],
+ "Today he is very tired.": [
+  "Ajj oh bahut thakke hoe han.",
+  "आज वह बहुत थके हुए हैं।"
+ ],
+ "Today she's a bit tired.": [
+  "Ajj oh thodiyan thakkiyan hoiyan han.",
+  "आज वह थोड़ी थकी हुई हैं।"
+ ],
+ "Today she/he is well.": [
+  "Ajj oh theek han.",
+  "आज वह ठीक हैं।"
+ ],
+ "Today we pick tomatoes.": [
+  "Ajj asin tamatar todde haan.",
+  "आज हम टमाटर तोड़ते हैं।"
+ ],
+ "Today: cut the vegetables for the soup, prepare 5 kilos of pizza dough and clean the oven at 3 pm. Table 7 has a customer allergic to nuts.": [
+  "Ajj: soup layi sabziyan katto, pizza layi 5 kilo aata gunno te dupehar 3 vaje oven saaf karo. Mez 7 te ikk grahak nu nuts ton allergy hai.",
+  "आज: सूप के लिए सब्ज़ियाँ काटो, पिज़्ज़ा के लिए 5 किलो आटा गूँधो और दोपहर 3 बजे ओवन साफ़ करो। मेज़ 7 पर एक ग्राहक को मेवों से एलर्जी है।"
+ ],
+ "Tomorrow grapes are harvested.": [
+  "Kal angoor todde jaange.",
+  "कल अंगूर तोड़े जाएँगे।"
+ ],
+ "Tomorrow we start at 5:30 because of the heat. Grape harvest in the field near the road. Bring a hat and water. Break at 9, finish at 12:30.": [
+  "Kal garmi karke 5:30 vaje shuru karange. Sadak de nede vale khet vich angoor todne han. Topi te paani lai ke aao. Break 9 vaje, khatam 12:30 vaje.",
+  "कल गर्मी के कारण 5:30 बजे शुरू करेंगे। सड़क के पास वाले खेत में अंगूर तोड़ने हैं। टोपी और पानी लेकर आइए। ब्रेक 9 बजे, खत्म 12:30 बजे।"
+ ],
+ "Tonight I wash the dishes.": [
+  "Ajj raat main bhaande dhovanga.",
+  "आज रात मैं बर्तन धोऊँगा।"
+ ],
+ "Tools and tasks of a restaurant kitchen.": [
+  "Restaurant di rasoi de auzaar te kamm.",
+  "रेस्टोरेंट की रसोई के औज़ार और काम।"
+ ],
+ "Tools, materials and safety.": [
+  "Auzaar, saman te suraksha.",
+  "औज़ार, सामग्री और सुरक्षा।"
+ ],
+ "Un problema con la macchina": [
+  "Machine vich samasya",
+  "मशीन में समस्या"
+ ],
+ "Understand safety signs and report problems or injuries": [
+  "Suraksha de nishaan samjho te samasyavan jaan sattan di report karo",
+  "सुरक्षा के संकेत समझिए और समस्याओं या चोटों की रिपोर्ट कीजिए"
+ ],
+ "Understand today's work and ask for what you need.": [
+  "Ajj da kamm samjho te jo chahida hai mango.",
+  "आज का काम समझिए और जो चाहिए माँगिए।"
+ ],
+ "Understand your contract and payslip and know your rights": [
+  "Apna contract te salary slip samjho te apne haq jaano",
+  "अपना कॉन्ट्रैक्ट और वेतन पर्ची समझिए और अपने अधिकार जानिए"
+ ],
+ "Understand your contract, payslip, holidays and sick leave — and where to get help.": [
+  "Apna contract, salary slip, chhuttiyan te bimari di chhutti samjho — te madad kithon leni hai.",
+  "अपना कॉन्ट्रैक्ट, वेतन पर्ची, छुट्टियाँ और बीमारी की छुट्टी समझिए — और मदद कहाँ से लेनी है।"
+ ],
+ "Understood, thanks.": [
+  "Samajh gaya, dhanvaad.",
+  "समझ गया, धन्यवाद।"
+ ],
+ "Understood. Can you give me gloves, please?": [
+  "Samajh gaya. Kirpa karke mainu dastaane de sakde ho?",
+  "समझ गया। कृपया मुझे दस्ताने दे सकते हैं?"
+ ],
+ "Use a little detergent.": [
+  "Thoda jiha detergent varto.",
+  "थोड़ा-सा डिटर्जेंट इस्तेमाल कीजिए।"
+ ],
+ "Use the words and instructions of your job": [
+  "Apne kamm de shabad te hidayatan varto",
+  "अपने काम के शब्द और निर्देश इस्तेमाल कीजिए"
+ ],
+ "Warehouse & factory": [
+  "Godaam te factory",
+  "गोदाम और फ़ैक्टरी"
+ ],
+ "Warehouse review": [
+  "Godaam da review",
+  "गोदाम का रिव्यू"
+ ],
+ "Warehouse words": [
+  "Godaam de shabad",
+  "गोदाम के शब्द"
+ ],
+ "Warehouse worker wanted in Modena. Fixed-term contract, 40 hours a week, shifts Monday to Saturday. B licence required. Send your CV to lavoro@esempio.it.": [
+  "Modena vich godaam karmchaari chahida hai. Nishchit samey da contract, hafte de 40 ghante, Somvaar ton Shanivaar shift. B licence zaroori. Apna CV lavoro@esempio.it te bhejo.",
+  "Modena में गोदाम कर्मचारी चाहिए। निश्चित अवधि का कॉन्ट्रैक्ट, हफ़्ते के 40 घंटे, सोमवार से शनिवार शिफ़्ट। B लाइसेंस ज़रूरी। अपना CV lavoro@esempio.it पर भेजिए।"
+ ],
+ "WARNING: forklift area. Safety shoes and hi-vis vest are compulsory. No walking through during manoeuvres.": [
+  "DHYAN DIO: forklift ilaaka. Safety jutte te chamkan vali jacket zaroori. Forklift chalde vele paidal langhna mana hai.",
+  "ध्यान दें: फ़ोर्कलिफ़्ट क्षेत्र। सेफ़्टी जूते और चमकीली जैकेट अनिवार्य। फ़ोर्कलिफ़्ट चलते समय पैदल गुज़रना मना है।"
+ ],
+ "Watch out!": [
+  "Dhyan naal!",
+  "सावधान!"
+ ],
+ "We need more bricks.": [
+  "Saanu hor ittan chahidiyan han.",
+  "हमें और ईंटें चाहिए।"
+ ],
+ "We work in the field from six.": [
+  "Asin chhe vaje ton khet vich kamm karde haan.",
+  "हम छह बजे से खेत में काम करते हैं।"
+ ],
+ "Wear the helmet on the scooter.": [
+  "Scooter te helmet pao.",
+  "स्कूटर पर हेलमेट पहनिए।"
+ ],
+ "Wear the hi-vis vest.": [
+  "Chamkan vali jacket pao.",
+  "चमकीली जैकेट पहनिए।"
+ ],
+ "Welcome!": [
+  "Ji aayan nu!",
+  "स्वागत है!"
+ ],
+ "What are the working hours?": [
+  "Kamm de ghante ki han?",
+  "काम के घंटे क्या हैं?"
+ ],
+ "What can I bring you to drink": [
+  "Peen layi ki lai ke aavan",
+  "पीने के लिए क्या लाऊँ"
+ ],
+ "What can I bring you?": [
+  "Tuhade layi ki lai ke aavan?",
+  "आपके लिए क्या लाऊँ?"
+ ],
+ "What do I do now?": [
+  "Hun main ki karan?",
+  "अब मैं क्या करूँ?"
+ ],
+ "What do I need?": [
+  "Mainu ki chahida hai?",
+  "मुझे क्या चाहिए?"
+ ],
+ "What happened?": [
+  "Ki hoya?",
+  "क्या हुआ?"
+ ],
+ "What time do we finish": [
+  "Asin kinne vaje khatam karange",
+  "हम कितने बजे खत्म करेंगे"
+ ],
+ "What time do we finish?": [
+  "Asin kinne vaje khatam karange?",
+  "हम कितने बजे खत्म करेंगे?"
+ ],
+ "What time is breakfast?": [
+  "Naashta kinne vaje hai?",
+  "नाश्ता कितने बजे है?"
+ ],
+ "What's happening?": [
+  "Ki ho reha hai?",
+  "क्या हो रहा है?"
+ ],
+ "When can I start": [
+  "Main kado shuru kar sakda haan",
+  "मैं कब शुरू कर सकता हूँ"
+ ],
+ "When can I start?": [
+  "Main kado shuru kar sakda haan?",
+  "मैं कब शुरू कर सकता हूँ?"
+ ],
+ "When does the pay come?": [
+  "Tankhah kado aundi hai?",
+  "मज़दूरी कब आती है?"
+ ],
+ "Where can you get free help with your payslip?": [
+  "Salary slip layi muft madad kithon mil sakdi hai?",
+  "वेतन पर्ची के लिए मुफ़्त मदद कहाँ मिल सकती है?"
+ ],
+ "Where do I put the courgettes?": [
+  "Tori kithe rakhan?",
+  "तोरी कहाँ रखूँ?"
+ ],
+ "Where do I put…?": [
+  "… kithe rakhan?",
+  "… कहाँ रखूँ?"
+ ],
+ "With customers always be formal: **voi** for a group, **Lei** for one person. When you bring the food, say **Buon appetito!**": [
+  "Grahakan naal hamesha formal raho: group layi **voi**, ikk bande layi **Lei**. Jadon khaana lai ke jao, kaho **Buon appetito!**",
+  "ग्राहकों के साथ हमेशा औपचारिक रहिए: समूह के लिए **voi**, एक व्यक्ति के लिए **Lei**। जब खाना लेकर जाएँ, कहिए **Buon appetito!**"
+ ],
+ "Work as a carer (badante), care assistant or in a care home: help an elderly person and talk to the family and the nurse.": [
+  "Badante (dekhbhaal karan vala), care assistant jaan care home vich kamm karo: kise buzurg di madad karo te parivaar te nurse naal gall karo.",
+  "badante (देखभाल करने वाला), केयर असिस्टेंट या केयर होम में काम कीजिए: किसी बुज़ुर्ग की मदद कीजिए और परिवार व नर्स से बात कीजिए।"
+ ],
+ "Work as a waiter, kitchen helper or pizza maker: tools, orders and talking to customers.": [
+  "Waiter, rasoi helper jaan pizza banaun vale de taur te kamm karo: auzaar, order te grahakan naal gall.",
+  "वेटर, रसोई सहायक या पिज़्ज़ा बनाने वाले के रूप में काम कीजिए: औज़ार, ऑर्डर और ग्राहकों से बात।"
+ ],
+ "Work at a hotel reception, in housekeeping or for a cleaning company.": [
+  "Hotel reception, housekeeping jaan safai company vich kamm karo.",
+  "होटल रिसेप्शन, हाउसकीपिंग या सफ़ाई कंपनी में काम कीजिए।"
+ ],
+ "Work at the till, on the shelves or in customer service.": [
+  "Cash counter, shelf jaan customer service te kamm karo.",
+  "कैश काउंटर, शेल्फ़ या ग्राहक सेवा पर काम कीजिए।"
+ ],
+ "Work finishes at 4 pm.": [
+  "Kamm shaam 4 vaje khatam hunda hai.",
+  "काम शाम 4 बजे खत्म होता है।"
+ ],
+ "Work in fields, greenhouses and with animals: harvest, tools, weather and hours.": [
+  "Khetan, greenhouse te jaanvaran naal kamm karo: fasal todna, auzaar, mausam te ghante.",
+  "खेतों, ग्रीनहाउस और जानवरों के साथ काम कीजिए: फ़सल तोड़ना, औज़ार, मौसम और घंटे।"
+ ],
+ "Work in logistics or production: orders, pallets, machines and shifts.": [
+  "Logistics jaan production vich kamm karo: order, pallet, machinan te shift.",
+  "लॉजिस्टिक्स या उत्पादन में काम कीजिए: ऑर्डर, पैलेट, मशीनें और शिफ़्ट।"
+ ],
+ "Work on a building site: tools, materials and safety rules.": [
+  "Building site te kamm karo: auzaar, saman te suraksha de niyam.",
+  "बिल्डिंग साइट पर काम कीजिए: औज़ार, सामग्री और सुरक्षा के नियम।"
+ ],
+ "Would you like a bag": [
+  "Thaila chahida hai",
+  "थैला चाहिए"
+ ],
+ "Would you like a bag?": [
+  "Thaila chahida hai?",
+  "थैला चाहिए?"
+ ],
+ "Write a short WhatsApp message to your boss to ask for a day off next Friday.": [
+  "Agle Shukarvaar di chhutti mangan layi apne boss nu chhota WhatsApp message likho.",
+  "अगले शुक्रवार की छुट्टी माँगने के लिए अपने बॉस को छोटा WhatsApp संदेश लिखिए।"
+ ],
+ "Write down the medicines, the times and the doctor's number on a sheet near the fridge. In an emergency call **112** first, then the family.": [
+  "Fridge de nede ikk sheet te dawaiyan, samaa te doctor da number likh ke rakho. Emergency vich pehlan **112** milao, phir parivaar nu.",
+  "फ़्रिज के पास एक शीट पर दवाइयाँ, समय और डॉक्टर का नंबर लिखकर रखिए। आपातकाल में पहले **112** मिलाइए, फिर परिवार को।"
+ ],
+ "Write five things you do in a kitchen with a verb: \"Taglio le verdure.\"": [
+  "Rasoi vich tusin jo panj kamm karde ho, verb naal likho: \"Taglio le verdure.\"",
+  "रसोई में आप जो पाँच काम करते हैं, क्रिया के साथ लिखिए: \"Taglio le verdure.\""
+ ],
+ "Write the daily timetable of an elderly person you help (or imagine): breakfast, medicine, lunch, walk, dinner.": [
+  "Jis buzurg di tusin madad karde ho (jaan socho) usda rozana da timetable likho: naashta, dawai, dupehar da khaana, sair, raat da khaana.",
+  "जिस बुज़ुर्ग की आप मदद करते हैं (या सोचिए) उसका रोज़ का टाइमटेबल लिखिए: नाश्ता, दवाई, दोपहर का खाना, सैर, रात का खाना।"
+ ],
+ "Write what you pick or grow in each season in Italian.": [
+  "Har mausam vich tusin jo todde jaan ugaunde ho, Italian vich likho.",
+  "हर मौसम में आप जो तोड़ते या उगाते हैं, इटालियन में लिखिए।"
+ ],
+ "Write your cleaning routine for one room in four steps, in Italian.": [
+  "Ikk kamre di safai di apni routine Italian vich chaar kadman vich likho.",
+  "एक कमरे की सफ़ाई की अपनी दिनचर्या इटालियन में चार चरणों में लिखिए।"
+ ],
+ "Write your own address in the Italian format and read it aloud.": [
+  "Apna pata Italian format vich likho te uchi awaaz vich parho.",
+  "अपना पता इटालियन फ़ॉर्मेट में लिखिए और ज़ोर से पढ़िए।"
+ ],
+ "Write your work experience in two sentences: \"Ho lavorato come … per … anni.\"": [
+  "Apna kamm da tajurba do vaakan vich likho: \"Ho lavorato come … per … anni.\"",
+  "अपना काम का अनुभव दो वाक्यों में लिखिए: \"Ho lavorato come … per … anni.\""
+ ],
+ "Yes, a B licence.": [
+  "Haan, B licence.",
+  "हाँ, B लाइसेंस।"
+ ],
+ "Yes, a margherita and a pizza without cheese. Is that possible?": [
+  "Haan, ikk margherita te ikk bina cheese vala pizza. Ho sakda hai?",
+  "हाँ, एक मार्गेरिटा और एक बिना चीज़ वाला पिज़्ज़ा। हो सकता है?"
+ ],
+ "Yes, all of them, at eight and at eight pm.": [
+  "Haan, saariyan, savere atth vaje te raat atth vaje.",
+  "हाँ, सारी, सुबह आठ बजे और रात आठ बजे।"
+ ],
+ "Yes, at lunch she ate pasta and fruit.": [
+  "Haan, dupehar nu unhan ne pasta te phal khaadhe.",
+  "हाँ, दोपहर को उन्होंने पास्ता और फल खाए।"
+ ],
+ "Yes, behind the hotel. It's free.": [
+  "Haan, hotel de pichhe. Muft hai.",
+  "हाँ, होटल के पीछे। मुफ़्त है।"
+ ],
+ "Yes, for employed work.": [
+  "Haan, naukri vale kamm layi.",
+  "हाँ, नौकरी वाले काम के लिए।"
+ ],
+ "Yes, here is a copy.": [
+  "Haan, aah ikk copy hai.",
+  "हाँ, यह एक कॉपी है।"
+ ],
+ "Yes, hold the card near here.": [
+  "Haan, card ithe nede karo.",
+  "हाँ, कार्ड यहाँ पास लाइए।"
+ ],
+ "Yes, I already have it.": [
+  "Haan, mere kol pehlan hi hai.",
+  "हाँ, मेरे पास पहले से है।"
+ ],
+ "Yes, I worked two years in a warehouse.": [
+  "Haan, main do saal ikk godaam vich kamm keeta.",
+  "हाँ, मैंने दो साल एक गोदाम में काम किया।"
+ ],
+ "Yes, I'll tell the pizza maker.": [
+  "Haan, main pizza banaun vale nu dass dinda haan.",
+  "हाँ, मैं पिज़्ज़ा बनाने वाले को बता देता हूँ।"
+ ],
+ "Yes, I'm available.": [
+  "Haan, main vehla haan.",
+  "हाँ, मैं उपलब्ध हूँ।"
+ ],
+ "Yes, I'm calling the doctor now.": [
+  "Haan, main hune doctor nu phone kar reha haan.",
+  "हाँ, मैं अभी डॉक्टर को फ़ोन कर रहा हूँ।"
+ ],
+ "Yes, I'm going to the doctor this morning.": [
+  "Haan, ajj savere main doctor kol ja reha haan.",
+  "हाँ, आज सुबह मैं डॉक्टर के पास जा रहा हूँ।"
+ ],
+ "Yes, it costs 10 euros a day.": [
+  "Haan, 10 euro rozana lagde han.",
+  "हाँ, 10 यूरो रोज़ लगते हैं।"
+ ],
+ "Yes, on the right. … Here I am.": [
+  "Haan, sajje paase. … Main aa gayi.",
+  "हाँ, दाईं ओर। … मैं आ गई।"
+ ],
+ "Yes, one, thanks.": [
+  "Haan, ikk, dhanvaad.",
+  "हाँ, एक, धन्यवाद।"
+ ],
+ "Yes, take it from the container. At noon there's the lunch break.": [
+  "Haan, container vichon lai lao. Baaraan vaje lunch break hai.",
+  "हाँ, कंटेनर से ले लो। बारह बजे लंच ब्रेक है।"
+ ],
+ "Yes, the blood-pressure tablet.": [
+  "Haan, BP vali goli.",
+  "हाँ, ब्लड प्रेशर वाली गोली।"
+ ],
+ "Yes, the red light is on.": [
+  "Haan, laal batti jagdi hai.",
+  "हाँ, लाल बत्ती जल रही है।"
+ ],
+ "Yes? Who is it?": [
+  "Haan? Kaun hai?",
+  "हाँ? कौन है?"
+ ],
+ "Yes. Always wear the harness and the hard hat.": [
+  "Haan. Hamesha harness te helmet pao.",
+  "हाँ। हमेशा हार्नेस और हेलमेट पहनो।"
+ ],
+ "You are a carer for Signora Rosa, 88. Her daughter Giulia calls in the evening to ask how her mother is.": [
+  "Tusin 88 saal di Signora Rosa di dekhbhaal karde ho. Usdi dhee Giulia shaam nu phone karke puchhdi hai ki usdi maa kiven hai.",
+  "आप 88 साल की Signora Rosa की देखभाल करते हैं। उनकी बेटी Giulia शाम को फ़ोन करके पूछती है कि उसकी माँ कैसी है।"
+ ],
+ "You are a courier in Milan. You ring the intercom for a parcel delivery. You are 20 minutes late.": [
+  "Tusin Milan vich courier ho. Tusin parcel delivery layi intercom dabaunde ho. Tusin 20 minute late ho.",
+  "आप मिलान में कूरियर हैं। आप पार्सल डिलीवरी के लिए इंटरकॉम बजाते हैं। आप 20 मिनट देर से हैं।"
+ ],
+ "You are at an interview for a job in a warehouse near Bologna. The manager asks you some questions.": [
+  "Tusin Bologna de nede ikk godaam di naukri layi interview te ho. Manager tuhanu kujh sawaal puchhda hai.",
+  "आप बोलोन्या के पास एक गोदाम की नौकरी के लिए इंटरव्यू में हैं। मैनेजर आपसे कुछ सवाल पूछते हैं।"
+ ],
+ "You are ill and can't work. You call and say…": [
+  "Tusin bimar ho te kamm nahi kar sakde. Tusin phone karke kehnde ho…",
+  "आप बीमार हैं और काम नहीं कर सकते। आप फ़ोन करके कहते हैं…"
+ ],
+ "You are late. You say…": [
+  "Tusin late ho. Tusin kehnde ho…",
+  "आप देर से हैं। आप कहते हैं…"
+ ],
+ "You are the receptionist: welcome a guest.": [
+  "Tusin receptionist ho: ikk mehmaan da swaagat karo.",
+  "आप रिसेप्शनिस्ट हैं: एक मेहमान का स्वागत कीजिए।"
+ ],
+ "You can get free help with your contract, payslip and permit at a **patronato** or a **CAF** (offices of the trade unions CGIL, CISL, UIL).": [
+  "Apne contract, salary slip te permit layi tusin **patronato** jaan **CAF** (CGIL, CISL, UIL mazdoor unionan de daftar) ton muft madad lai sakde ho.",
+  "अपने कॉन्ट्रैक्ट, वेतन पर्ची और परमिट के लिए आप **patronato** या **CAF** (CGIL, CISL, UIL मज़दूर यूनियनों के दफ़्तर) से मुफ़्त मदद ले सकते हैं।"
+ ],
+ "You can walk through when the forklift is working.": [
+  "Jadon forklift chal rahi hove, tusin paidal langh sakde ho.",
+  "जब फ़ोर्कलिफ़्ट चल रही हो, आप पैदल गुज़र सकते हैं।"
+ ],
+ "You can work at height without a harness.": [
+  "Tusin harness ton bina uchaai te kamm kar sakde ho.",
+  "आप हार्नेस के बिना ऊँचाई पर काम कर सकते हैं।"
+ ],
+ "You change the sheets in room 203.": [
+  "Tusin kamra 203 vich chaadran badalde ho.",
+  "आप कमरा 203 में चादरें बदलते हैं।"
+ ],
+ "You check the expiry dates every morning.": [
+  "Tusin har savere expiry dates check karde ho.",
+  "आप हर सुबह समाप्ति तिथियाँ जाँचते हैं।"
+ ],
+ "You have the right to safety training (**formazione sulla sicurezza**) and to free protective equipment (**DPI**). If you don't understand an instruction, ask: *Può ripetere?*": [
+  "Tuhanu suraksha training (**formazione sulla sicurezza**) te muft suraksha saman (**DPI**) da haq hai. Je koi hidayat samajh na aave, taan puchho: *Può ripetere?*",
+  "आपको सुरक्षा प्रशिक्षण (**formazione sulla sicurezza**) और मुफ़्त सुरक्षा उपकरण (**DPI**) का अधिकार है। अगर कोई निर्देश समझ न आए, तो पूछिए: *Può ripetere?*"
+ ],
+ "You haven't paid my overtime.": [
+  "Tusin mera overtime nahi ditta.",
+  "आपने मेरा ओवरटाइम नहीं दिया।"
+ ],
+ "You hurt your hand. You tell your boss…": [
+  "Tuhade hath te satt lag gayi. Tusin apne boss nu kehnde ho…",
+  "आपके हाथ पर चोट लग गई। आप अपने बॉस से कहते हैं…"
+ ],
+ "You must clean the oven at 3 pm.": [
+  "Tuhanu dupehar 3 vaje oven saaf karna hai.",
+  "आपको दोपहर 3 बजे ओवन साफ़ करना है।"
+ ],
+ "You must not enter room 205.": [
+  "Tusin kamra 205 vich nahi jaana.",
+  "आपको कमरा 205 में नहीं जाना है।"
+ ],
+ "You need the receipt for a return.": [
+  "Vaapsi layi raseed chahidi hai.",
+  "वापसी के लिए रसीद चाहिए।"
+ ],
+ "You see a falling load near a colleague. You shout…": [
+  "Tusin kise saathi de nede bhaar digda vekhde ho. Tusin uchi awaaz vich kehnde ho…",
+  "आप किसी सहकर्मी के पास भार गिरता देखते हैं। आप ज़ोर से कहते हैं…"
+ ],
+ "You wake up with a high fever. You call your boss at 6:30, before your shift.": [
+  "Tusin tez bukhaar naal jaagde ho. Tusin apni shift ton pehlan 6:30 vaje apne boss nu phone karde ho.",
+  "आप तेज़ बुखार के साथ जागते हैं। आप अपनी शिफ़्ट से पहले 6:30 बजे अपने बॉस को फ़ोन करते हैं।"
+ ],
+ "You work as a waiter in a pizzeria in Brescia. A couple sits at table 4. Now YOU speak to the customers.": [
+  "Tusin Brescia de ikk pizzeria vich waiter ho. Ikk jodi mez number 4 te baithdi hai. Hun TUSIN grahakan naal gall karde ho.",
+  "आप Brescia के एक पिज़्ज़ेरिया में वेटर हैं। एक जोड़ा मेज़ नंबर 4 पर बैठता है। अब आप ग्राहकों से बात करते हैं।"
+ ],
+ "You work at the reception of a hotel in Rimini. A guest arrives with a suitcase. YOU are the receptionist.": [
+  "Tusin Rimini de ikk hotel di reception te kamm karde ho. Ikk mehmaan suitcase lai ke aunda hai. TUSIN receptionist ho.",
+  "आप Rimini के एक होटल के रिसेप्शन पर काम करते हैं। एक मेहमान सूटकेस लेकर आता है। आप रिसेप्शनिस्ट हैं।"
+ ],
+ "You work in a supermarket in Turin. A lady is looking for something. YOU are the shop assistant.": [
+  "Tusin Turin de ikk supermarket vich kamm karde ho. Ikk aurat kujh labh rahi hai. TUSIN shop assistant ho.",
+  "आप Turin के एक सुपरमार्केट में काम करते हैं। एक महिला कुछ ढूँढ रही है। आप दुकान सहायक हैं।"
+ ],
+ "You work in a supermarket: find a product and handle payment.": [
+  "Tusin supermarket vich kamm karde ho: cheez labho te bhugtaan sambhalo.",
+  "आप सुपरमार्केट में काम करते हैं: चीज़ ढूँढिए और भुगतान सँभालिए।"
+ ],
+ "You work on a packaging line in a factory near Treviso. The machine stops. You call the shift leader.": [
+  "Tusin Treviso de nede ikk factory vich packing line te kamm karde ho. Machine ruk jaandi hai. Tusin shift leader nu bulaunde ho.",
+  "आप Treviso के पास एक फ़ैक्टरी में पैकिंग लाइन पर काम करते हैं। मशीन रुक जाती है। आप शिफ़्ट लीडर को बुलाते हैं।"
+ ],
+ "You're welcome! Enjoy your stay.": [
+  "Koi gall nahi! Apne thaharan da anand lao.",
+  "कोई बात नहीं! अपने ठहरने का आनंद लीजिए।"
+ ],
+ "Your rights at work": [
+  "Kamm te tuhade haq",
+  "काम पर आपके अधिकार"
+ ],
+ "Your room is on the third floor": [
+  "Tuhada kamra teeji manzil te hai",
+  "आपका कमरा तीसरी मंज़िल पर है"
+ ],
+ "Your room is…": [
+  "Tuhada kamra … hai",
+  "आपका कमरा … है"
+ ]
+}

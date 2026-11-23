@@ -145,6 +145,23 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     }
 
     [Fact]
+    public async Task Student_SavesPortalLanguage_OnlyEnglishPunjabiHindiUrdu()
+    {
+        var student = await LoginAsync("priya@sseuropa.demo");
+
+        (await SendAsync<string>(HttpMethod.Put, "/api/learn/me/language", student, new { language = "punjabi" })).Should().Be("Punjabi");
+        var again = await _client.PostAsJsonAsync("/api/auth/demo-login", new { email = "priya@sseuropa.demo", deviceId = "t-priya@sseuropa.demo", deviceName = "Test" });
+        (await again.Content.ReadAsStringAsync()).Should().Contain("\"preferredLanguage\":\"Punjabi\"");
+
+        (await SendAsync<string>(HttpMethod.Put, "/api/learn/me/language", student, new { language = "Hindi" })).Should().Be("Hindi");
+        (await SendAsync<string>(HttpMethod.Put, "/api/learn/me/language", student, new { language = "urdu" })).Should().Be("Urdu");
+        (await RawAsync(HttpMethod.Put, "/api/learn/me/language", student, new { language = "Italian" })).StatusCode.Should().Be(HttpStatusCode.BadRequest);
+        (await RawAsync(HttpMethod.Put, "/api/learn/me/language", student, new { language = "Klingon" })).StatusCode.Should().Be(HttpStatusCode.BadRequest);
+
+        (await SendAsync<string>(HttpMethod.Put, "/api/learn/me/language", student, new { language = "English" })).Should().Be("English");
+    }
+
+    [Fact]
     public async Task DemoStudent_HasEveryLessonOpen_OtherStudentsStillUnlockInOrder()
     {
         var demo = await LoginAsync("student@sseuropa.demo");

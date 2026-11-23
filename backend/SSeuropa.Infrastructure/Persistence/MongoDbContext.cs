@@ -68,6 +68,7 @@ public sealed class MongoDbContext
     public IMongoCollection<AuditLog> AuditLogs => Database.GetCollection<AuditLog>("audit_logs");
     public IMongoCollection<AiSession> AiSessions => Database.GetCollection<AiSession>("ai_sessions");
     public IMongoCollection<Enquiry> Enquiries => Database.GetCollection<Enquiry>("enquiries");
+    public IMongoCollection<ContentTranslation> Translations => Database.GetCollection<ContentTranslation>("content_translations");
     public IMongoCollection<Assignment> Assignments => Database.GetCollection<Assignment>("assignments");
     public IMongoCollection<AssignmentSubmission> AssignmentSubmissions => Database.GetCollection<AssignmentSubmission>("assignment_submissions");
     public IMongoCollection<LearningResource> LearningResources => Database.GetCollection<LearningResource>("learning_resources");
@@ -139,6 +140,12 @@ public sealed class MongoDbContext
             new CreateIndexModel<Enquiry>(Builders<Enquiry>.IndexKeys.Descending(e => e.CreatedAtUtc)),
             new CreateIndexModel<Enquiry>(Builders<Enquiry>.IndexKeys.Ascending(e => e.Status).Descending(e => e.CreatedAtUtc))
         ], ct);
+
+        await Translations.Indexes.CreateOneAsync(
+            new CreateIndexModel<ContentTranslation>(
+                Builders<ContentTranslation>.IndexKeys.Ascending(t => t.Source),
+                new CreateIndexOptions { Unique = true }),
+            cancellationToken: ct);
 
         await Notifications.Indexes.CreateOneAsync(
             new CreateIndexModel<Notification>(

@@ -32,6 +32,7 @@ public class InMemoryStore
     public List<AuditLog> AuditLogs { get; } = [];
     public List<AiSession> AiSessions { get; } = [];
     public List<Enquiry> Enquiries { get; } = [];
+    public List<ContentTranslation> Translations { get; } = [];
     public List<Assignment> Assignments { get; } = [];
     public List<AssignmentSubmission> AssignmentSubmissions { get; } = [];
     public List<LearningResource> LearningResources { get; } = [];

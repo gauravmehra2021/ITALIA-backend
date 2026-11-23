@@ -387,6 +387,26 @@ public class CurriculumService(
             completedCount == lessons.Count && lessons.Count > 0);
     }
 
+    /// <summary>Languages the student portal is translated into.</summary>
+    private static readonly PreferredLanguage[] PortalLanguages = [PreferredLanguage.English, PreferredLanguage.Punjabi, PreferredLanguage.Hindi, PreferredLanguage.Urdu];
+
+    /// <summary>Saves the language the student wants the portal in, and returns it.</summary>
+    public async Task<PreferredLanguage> SetPreferredLanguageAsync(SetLanguageRequest request, CancellationToken ct = default)
+    {
+        var userId = RequireUser();
+        if (!Enum.TryParse<PreferredLanguage>(request.Language?.Trim(), true, out var language)
+            || !Enum.IsDefined(language) || !PortalLanguages.Contains(language))
+            throw new ValidationDomainException("Choose English, Punjabi, Hindi or Urdu.");
+
+        var user = await users.GetByIdAsync(userId, ct) ?? throw new NotFoundException("User", userId);
+        if (user.PreferredLanguage != language)
+        {
+            user.PreferredLanguage = language;
+            await users.UpdateAsync(user, ct);
+        }
+        return language;
+    }
+
     public async Task<LearnerSummaryDto> GetLearnerSummaryAsync(CancellationToken ct = default)
     {
         var userId = RequireUser();

@@ -113,6 +113,9 @@ public record MoveRequest(int Direction);
 
 public record CompleteLessonRequest(int ScorePercent, int CorrectAnswers = 0, int TotalQuestions = 0);
 
+/// <summary>Language of the student portal: "English", "Punjabi", "Hindi" or "Urdu".</summary>
+public record SetLanguageRequest(string Language);
+
 public record LessonResultDto(
     Guid LessonId,
     int ScorePercent,

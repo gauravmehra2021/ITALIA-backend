@@ -112,6 +112,7 @@ public static class DependencyInjection
             services.AddScoped<IAssignmentRepository, MongoAssignmentRepository>();
             services.AddScoped<ILearningResourceRepository, MongoLearningResourceRepository>();
             services.AddScoped<ICurriculumRepository, MongoCurriculumRepository>();
+            services.AddScoped<ITranslationRepository, MongoTranslationRepository>();
             return;
         }
 
@@ -141,6 +142,7 @@ public static class DependencyInjection
             services.AddScoped<IAssignmentRepository, InMemoryAssignmentRepository>();
             services.AddScoped<ILearningResourceRepository, InMemoryLearningResourceRepository>();
             services.AddScoped<ICurriculumRepository, InMemoryCurriculumRepository>();
+            services.AddScoped<ITranslationRepository, InMemoryTranslationRepository>();
             return;
         }
 

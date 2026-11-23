@@ -1,0 +1,2210 @@
+{
+ "- I can answer simple questions at passport control\n- I can say why I am visiting and how long I stay\n- I can ask where the luggage, the exit and the taxis are": [
+  "- Main passport check te saade sawaalan de jawab de sakda haan\n- Main dass sakda haan ki main kyon aaya haan te kinna chir rukanga\n- Main puchh sakda haan ki saman, bahar da rasta te taxi kithe han",
+  "- मैं पासपोर्ट जाँच पर आसान सवालों के जवाब दे सकता हूँ\n- मैं बता सकता हूँ कि मैं क्यों आया हूँ और कितने समय रुकूँगा\n- मैं पूछ सकता हूँ कि सामान, निकास और टैक्सी कहाँ हैं"
+ ],
+ "- I can ask how much something costs\n- I can ask for another size or colour\n- I can pay and ask for a receipt": [
+  "- Main puchh sakda haan ki koi cheez kinne di hai\n- Main hor size jaan rang mang sakda haan\n- Main paise de sakda haan te raseed mang sakda haan",
+  "- मैं पूछ सकता हूँ कि कोई चीज़ कितने की है\n- मैं दूसरा साइज़ या रंग माँग सकता हूँ\n- मैं भुगतान कर सकता हूँ और रसीद माँग सकता हूँ"
+ ],
+ "- I can ask where a place is\n- I can understand left, right, straight on\n- I can buy tickets for a museum or a monument": [
+  "- Main puchh sakda haan ki koi thaan kithe hai\n- Main khabbe, sajje, seedhe samajh sakda haan\n- Main museum jaan smaarak diyan ticketan khareed sakda haan",
+  "- मैं पूछ सकता हूँ कि कोई जगह कहाँ है\n- मैं बाएँ, दाएँ, सीधे समझ सकता हूँ\n- मैं संग्रहालय या स्मारक के टिकट खरीद सकता हूँ"
+ ],
+ "- I can check in with a booking\n- I can ask about breakfast and Wi-Fi\n- I can report a problem in my room": [
+  "- Main booking naal check-in kar sakda haan\n- Main naashte te Wi-Fi baare puchh sakda haan\n- Main apne kamre di samasya dass sakda haan",
+  "- मैं बुकिंग के साथ चेक-इन कर सकता हूँ\n- मैं नाश्ते और वाई-फ़ाई के बारे में पूछ सकता हूँ\n- मैं अपने कमरे की समस्या बता सकता हूँ"
+ ],
+ "- I can explain simple symptoms at the pharmacy\n- I can call for help and say where I am\n- I can report a lost or stolen item": [
+  "- Main pharmacy vich saade lakshan samjha sakda haan\n- Main madad layi phone kar sakda haan te dass sakda haan ki main kithe haan\n- Main gumm jaan chori hoyi cheez di report kar sakda haan",
+  "- मैं फ़ार्मेसी में आसान लक्षण समझा सकता हूँ\n- मैं मदद के लिए फ़ोन कर सकता हूँ और बता सकता हूँ कि मैं कहाँ हूँ\n- मैं खोई या चोरी हुई चीज़ की रिपोर्ट कर सकता हूँ"
+ ],
+ "- I can introduce myself and my country\n- I can talk about what I like in Italy\n- I can exchange numbers and make a plan": [
+  "- Main apni te apne desh di jaan-pehchaan karva sakda haan\n- Main gall kar sakda haan ki Italy vich mainu ki pasand hai\n- Main number vatt sakda haan te yojana bana sakda haan",
+  "- मैं अपना और अपने देश का परिचय दे सकता हूँ\n- मैं बात कर सकता हूँ कि इटली में मुझे क्या पसंद है\n- मैं नंबर बदल सकता हूँ और योजना बना सकता हूँ"
+ ],
+ "- I can order food and drinks\n- I can ask about ingredients and say what I don't eat\n- I can ask for the bill": [
+  "- Main khaana te drinks order kar sakda haan\n- Main samagri baare puchh sakda haan te dass sakda haan ki main ki nahi khaanda\n- Main bill mang sakda haan",
+  "- मैं खाना और पेय ऑर्डर कर सकता हूँ\n- मैं सामग्री के बारे में पूछ सकता हूँ और बता सकता हूँ कि मैं क्या नहीं खाता\n- मैं बिल माँग सकता हूँ"
+ ],
+ "- I can tell a taxi driver where I want to go\n- I can buy a train ticket and ask the platform\n- I can ask which bus goes to a place": [
+  "- Main taxi driver nu dass sakda haan ki main kithe jaana chahunda haan\n- Main train ticket khareed sakda haan te platform puchh sakda haan\n- Main puchh sakda haan ki kehdi bus kise thaan jaandi hai",
+  "- मैं टैक्सी ड्राइवर को बता सकता हूँ कि मैं कहाँ जाना चाहता हूँ\n- मैं ट्रेन टिकट खरीद सकता हूँ और प्लेटफ़ॉर्म पूछ सकता हूँ\n- मैं पूछ सकता हूँ कि कौन-सी बस किसी जगह जाती है"
+ ],
+ "\"Acqua frizzante\" is…": [
+  "\"Acqua frizzante\" hai…",
+  "\"Acqua frizzante\" है…"
+ ],
+ "\"In contanti\" means…": [
+  "\"In contanti\" da matlab hai…",
+  "\"In contanti\" का मतलब है…"
+ ],
+ "**Caffè** in Italy means a small espresso. Ask for **un cappuccino** only in the morning — Italians rarely drink it after lunch, but nobody will refuse you!": [
+  "Italy vich **Caffè** da matlab chhota espresso hai. **un cappuccino** sirf savere mango — Italian dupehar de khaane ton baad ise ghatt hi peende han, par koi tuhanu mana nahi karega!",
+  "इटली में **Caffè** का मतलब छोटा एस्प्रेसो है। **un cappuccino** केवल सुबह माँगिए — इटालियन दोपहर के खाने के बाद इसे कम ही पीते हैं, पर कोई आपको मना नहीं करेगा!"
+ ],
+ "**Mi dica** literally means \"tell me\" — it is how Italian staff say \"How can I help you?\".": [
+  "**Mi dica** da sidha matlab hai \"mainu dasso\" — Italian staff isde naal \"main tuhadi ki madad karan?\" kehnde han.",
+  "**Mi dica** का शब्दशः मतलब है \"मुझे बताइए\" — इटालियन स्टाफ़ इससे \"मैं आपकी क्या मदद करूँ?\" कहते हैं।"
+ ],
+ "A **green cross** means pharmacy. At night and on Sundays one pharmacy in each area is open: the list (*farmacie di turno*) is on every pharmacy door.": [
+  "**Hara cross** da matlab pharmacy hai. Raat nu te Aitvaar nu har ilaake vich ikk pharmacy khulli hundi hai: list (*farmacie di turno*) har pharmacy de darvaze te hundi hai.",
+  "**हरा क्रॉस** का मतलब फ़ार्मेसी है। रात को और रविवार को हर इलाके में एक फ़ार्मेसी खुली रहती है: सूची (*farmacie di turno*) हर फ़ार्मेसी के दरवाज़े पर होती है।"
+ ],
+ "A bottle of still water.": [
+  "Saade paani di ikk botal.",
+  "सादे पानी की एक बोतल।"
+ ],
+ "A double room.": [
+  "Ikk double kamra.",
+  "एक डबल कमरा।"
+ ],
+ "A one-way ticket.": [
+  "Ikk paase di ticket.",
+  "एकतरफ़ा टिकट।"
+ ],
+ "A short, practical course for tourists, business travellers and family visitors. In 8 short units you practise the real situations of a trip to Italy: passport control, train tickets and taxis, checking in at a hotel, ordering food (including vegetarian and halal-friendly requests), shopping, asking the way, the pharmacy and emergencies, and making Italian friends.": [
+  "Tourists, kaarobaari yatriyan te parivaar nu milan aun valeyan layi chhota, practical course. 8 chhotiyan units vich tusin Italy de safar diyan asli halataan di practice karde ho: passport check, train ticket te taxi, hotel vich check-in, khaana order karna (shakahari te halal vali benti samet), khareedari, rasta puchhna, pharmacy te emergency, te Italian dost banauna.",
+  "पर्यटकों, व्यापारिक यात्रियों और परिवार से मिलने आने वालों के लिए छोटा, व्यावहारिक कोर्स। 8 छोटी इकाइयों में आप इटली यात्रा की असली स्थितियों का अभ्यास करते हैं: पासपोर्ट जाँच, ट्रेन टिकट और टैक्सी, होटल में चेक-इन, खाना ऑर्डर करना (शाकाहारी और हलाल अनुरोध समेत), खरीदारी, रास्ता पूछना, फ़ार्मेसी और आपातकाल, और इटालियन दोस्त बनाना।"
+ ],
+ "A table for two please": [
+  "Do jaaneyan layi ikk mez, please",
+  "दो लोगों के लिए एक मेज़, कृपया"
+ ],
+ "A table for two, please.": [
+  "Do jaaneyan layi ikk mez, please.",
+  "दो लोगों के लिए एक मेज़, कृपया।"
+ ],
+ "A ticket to Venice, please.": [
+  "Venice layi ikk ticket, please.",
+  "वेनिस के लिए एक टिकट, कृपया।"
+ ],
+ "A ticket to…, please.": [
+  "… layi ikk ticket, please.",
+  "… के लिए एक टिकट, कृपया।"
+ ],
+ "A&E / emergency room": [
+  "Emergency room (Pronto Soccorso)",
+  "आपातकालीन कक्ष (Pronto Soccorso)"
+ ],
+ "Act out a check-in in the live class, then report one problem in your room.": [
+  "Live class vich check-in da role-play karo, phir apne kamre di ikk samasya dasso.",
+  "लाइव क्लास में चेक-इन का रोल-प्ले कीजिए, फिर अपने कमरे की एक समस्या बताइए।"
+ ],
+ "Adulti: una compressa due o tre volte al giorno. Non superare le tre compresse al giorno. Tenere lontano dai bambini.": [
+  "Vadde: ikk goli din vich do jaan tinn vaar. Din vich tinn goliyan ton vadh na lao. Bachchiyan ton door rakho.",
+  "वयस्क: एक गोली दिन में दो या तीन बार। दिन में तीन गोलियों से ज़्यादा न लें। बच्चों से दूर रखें।"
+ ],
+ "Adults: one tablet two or three times a day. Do not exceed three tablets a day. Keep away from children.": [
+  "Vadde: ikk goli din vich do jaan tinn vaar. Din vich tinn goliyan ton vadh na lao. Bachchiyan ton door rakho.",
+  "वयस्क: एक गोली दिन में दो या तीन बार। दिन में तीन गोलियों से ज़्यादा न लें। बच्चों से दूर रखें।"
+ ],
+ "After meals, OK.": [
+  "Khaane ton baad, theek hai.",
+  "खाने के बाद, ठीक है।"
+ ],
+ "Ah, Neapolitan pizza is the best! My name is Luca.": [
+  "Achha, Naples da pizza sab ton vadhiya hai! Mera naam Luca hai.",
+  "अच्छा, नेपल्स का पिज़्ज़ा सबसे अच्छा है! मेरा नाम Luca है।"
+ ],
+ "air-conditioning": [
+  "AC (air-conditioning)",
+  "AC (एयर-कंडीशनिंग)"
+ ],
+ "Airport review": [
+  "Airport da review",
+  "एयरपोर्ट का रिव्यू"
+ ],
+ "Airport words": [
+  "Airport de shabad",
+  "एयरपोर्ट के शब्द"
+ ],
+ "Al controllo passaporti": [
+  "Passport check te",
+  "पासपोर्ट जाँच पर"
+ ],
+ "All right, thanks.": [
+  "Theek hai, dhanvaad.",
+  "ठीक है, धन्यवाद।"
+ ],
+ "All right. Enjoy your stay!": [
+  "Theek hai. Apne thaharan da anand lao!",
+  "ठीक है। अपने ठहरने का आनंद लीजिए!"
+ ],
+ "All right. How much is it?": [
+  "Theek hai. Kinne di hai?",
+  "ठीक है। कितने की है?"
+ ],
+ "An espresso, please.": [
+  "Ikk espresso, please.",
+  "एक एस्प्रेसो, कृपया।"
+ ],
+ "Answer the officer's questions politely.": [
+  "Afsar de sawaalan de adab naal jawab devo.",
+  "अधिकारी के सवालों के शिष्टता से जवाब दीजिए।"
+ ],
+ "Are you allergic to any medicine?": [
+  "Tuhanu kise dawai ton allergy hai?",
+  "आपको किसी दवाई से एलर्जी है?"
+ ],
+ "Around town": [
+  "Shehar vich",
+  "शहर में"
+ ],
+ "Ask for a size, try it on and pay.": [
+  "Size mango, pa ke vekho te paise devo.",
+  "साइज़ माँगिए, पहनकर देखिए और भुगतान कीजिए।"
+ ],
+ "Ask for directions and handle a health emergency": [
+  "Rasta puchho te sehat di emergency sambhalo",
+  "रास्ता पूछिए और स्वास्थ्य आपातकाल सँभालिए"
+ ],
+ "Ask the way to two places in your town (in Italian, even if you practise alone).": [
+  "Apne shehar diyan do thaavan da rasta puchho (Italian vich, bhaven ikalle practice karo).",
+  "अपने शहर की दो जगहों का रास्ता पूछिए (इटालियन में, भले ही अकेले अभ्यास करें)।"
+ ],
+ "Ask the way, understand simple directions and buy museum tickets.": [
+  "Rasta puchho, saadiyan dishavan samjho te museum diyan ticketan khareedo.",
+  "रास्ता पूछिए, आसान दिशाएँ समझिए और संग्रहालय के टिकट खरीदिए।"
+ ],
+ "Asking the way": [
+  "Rasta puchhna",
+  "रास्ता पूछना"
+ ],
+ "At a friend's in Milan.": [
+  "Milan vich ikk dost de ghar.",
+  "मिलान में एक दोस्त के घर।"
+ ],
+ "At nine. Will you give me your number?": [
+  "Nau vaje. Apna number doge?",
+  "नौ बजे। अपना नंबर दोगे?"
+ ],
+ "At the airport": [
+  "Airport te",
+  "एयरपोर्ट पर"
+ ],
+ "At the hotel": [
+  "Hotel vich",
+  "होटल में"
+ ],
+ "At the pharmacy": [
+  "Pharmacy vich",
+  "फ़ार्मेसी में"
+ ],
+ "At the pharmacy: explain symptoms. Then practise an emergency call to 112: who you are, where you are, what happened.": [
+  "Pharmacy vich: lakshan samjhao. Phir 112 te emergency call di practice karo: tusin kaun ho, kithe ho, ki hoya.",
+  "फ़ार्मेसी में: लक्षण समझाइए। फिर 112 पर आपातकालीन कॉल का अभ्यास कीजिए: आप कौन हैं, कहाँ हैं, क्या हुआ।"
+ ],
+ "At the ticket office": [
+  "Ticket office te",
+  "टिकट ऑफ़िस पर"
+ ],
+ "Attention: flight AZ 769 to Delhi leaves from gate 14. Passengers are asked to go to boarding.": [
+  "Dhyan dio: Delhi jaan vali flight AZ 769 gate 14 ton jaandi hai. Yatriyan nu boarding layi jaan di benti hai.",
+  "ध्यान दें: दिल्ली जाने वाली फ़्लाइट AZ 769 गेट 14 से जाती है। यात्रियों से बोर्डिंग के लिए जाने का अनुरोध है।"
+ ],
+ "Attenzione: il volo AZ 769 per Delhi parte dall'uscita 14. I passeggeri sono pregati di presentarsi all'imbarco.": [
+  "Dhyan dio: Delhi jaan vali flight AZ 769 gate 14 ton jaavegi. Yatriyan nu boarding layi pahunchan di benti hai.",
+  "ध्यान दें: दिल्ली जाने वाली फ़्लाइट AZ 769 गेट 14 से जाएगी। यात्रियों से बोर्डिंग के लिए पहुँचने का अनुरोध है।"
+ ],
+ "baggage claim": [
+  "Saman lain di thaan (baggage claim)",
+  "सामान लेने की जगह (बैगेज क्लेम)"
+ ],
+ "Baggage claim is on the ground floor.": [
+  "Baggage claim zameeni manzil te hai.",
+  "बैगेज क्लेम भूतल पर है।"
+ ],
+ "Bangladesh": [
+  "Bangladesh",
+  "बांग्लादेश"
+ ],
+ "beautiful / nice": [
+  "Sohna / vadhiya",
+  "सुंदर / अच्छा"
+ ],
+ "Before you get on a regional train or a bus, **stamp your paper ticket** in the small machine (*convalidare*). Without the stamp you can get a fine.": [
+  "Regional train jaan bus vich chadhan ton pehlan, chhoti machine vich **apni kaagaz di ticket stamp karo** (*convalidare*). Stamp ton bina jurmaana ho sakda hai.",
+  "क्षेत्रीय ट्रेन या बस में चढ़ने से पहले, छोटी मशीन में **अपना कागज़ का टिकट स्टैम्प कीजिए** (*convalidare*)। स्टैम्प के बिना जुर्माना हो सकता है।"
+ ],
+ "big": [
+  "Vadda",
+  "बड़ा"
+ ],
+ "Book a table, order and ask for the bill.": [
+  "Mez book karo, order karo te bill mango.",
+  "मेज़ बुक कीजिए, ऑर्डर कीजिए और बिल माँगिए।"
+ ],
+ "Breakfast ends at 9.": [
+  "Naashta 9 vaje khatam hunda hai.",
+  "नाश्ता 9 बजे खत्म होता है।"
+ ],
+ "Breakfast is from 7 to 10.": [
+  "Naashta 7 ton 10 vaje tak hai.",
+  "नाश्ता 7 से 10 बजे तक है।"
+ ],
+ "Bring a photo of something you want to buy and ask for it in Italian in the live class.": [
+  "Jo cheez tusin khareedna chahunde ho usdi photo lai ke aao te live class vich Italian vich mango.",
+  "जो चीज़ आप खरीदना चाहते हैं उसकी फ़ोटो लाइए और लाइव क्लास में इटालियन में माँगिए।"
+ ],
+ "Bring a real or invented train ticket to the live class and explain it in Italian: destination, time, platform.": [
+  "Live class vich asli jaan banavati train ticket lai ke aao te Italian vich samjhao: manzil, samaa, platform.",
+  "लाइव क्लास में असली या काल्पनिक ट्रेन टिकट लाइए और इटालियन में समझाइए: गंतव्य, समय, प्लेटफ़ॉर्म।"
+ ],
+ "Buy a train ticket and find your platform.": [
+  "Train ticket khareedo te apna platform labho.",
+  "ट्रेन टिकट खरीदिए और अपना प्लेटफ़ॉर्म ढूँढिए।"
+ ],
+ "Buy clothes and souvenirs, ask the price and the size, and pay.": [
+  "Kapde te yaadgaari cheezan khareedo, keemat te size puchho, te paise devo.",
+  "कपड़े और यादगार चीज़ें खरीदिए, कीमत और साइज़ पूछिए, और भुगतान कीजिए।"
+ ],
+ "Buy tickets and use taxis, trains and buses": [
+  "Ticket khareedo te taxi, train te bus varto",
+  "टिकट खरीदिए और टैक्सी, ट्रेन व बस का प्रयोग कीजिए"
+ ],
+ "Buy train tickets at a pretend ticket office: one-way or return, time, platform. Then give a taxi driver an address.": [
+  "Naqli ticket office te train ticket khareedo: ikk paase jaan aun-jaan, samaa, platform. Phir taxi driver nu pata dasso.",
+  "नकली टिकट ऑफ़िस पर ट्रेन टिकट खरीदिए: एकतरफ़ा या आना-जाना, समय, प्लेटफ़ॉर्म। फिर टैक्सी ड्राइवर को पता बताइए।"
+ ],
+ "Buying a jacket": [
+  "Jacket khareedna",
+  "जैकेट खरीदना"
+ ],
+ "By card, thanks.": [
+  "Card naal, dhanvaad.",
+  "कार्ड से, धन्यवाद।"
+ ],
+ "Call an ambulance!": [
+  "Ambulance bulao!",
+  "एम्बुलेंस बुलाओ!"
+ ],
+ "Can I have another towel?": [
+  "Kya mainu ikk hor tauliya mil sakda hai?",
+  "क्या मुझे एक और तौलिया मिल सकता है?"
+ ],
+ "Can I leave my suitcase here?": [
+  "Kya main apna suitcase ithe chhadd sakda haan?",
+  "क्या मैं अपना सूटकेस यहाँ छोड़ सकता हूँ?"
+ ],
+ "Can I see the menu?": [
+  "Kya main menu vekh sakda haan?",
+  "क्या मैं मेन्यू देख सकता हूँ?"
+ ],
+ "Can you give me the receipt?": [
+  "Kya tusin mainu raseed de sakde ho?",
+  "क्या आप मुझे रसीद दे सकते हैं?"
+ ],
+ "Can you take me to this address?": [
+  "Kya tusin mainu is pate te lai ja sakde ho?",
+  "क्या आप मुझे इस पते पर ले जा सकते हैं?"
+ ],
+ "Chat with a friendly Italian at a café.": [
+  "Cafe vich kise dostana Italian naal gappan maaro.",
+  "कैफ़े में किसी दोस्ताना इटालियन से गपशप कीजिए।"
+ ],
+ "Chat with Italians: where you are from, what you like, the weather and plans.": [
+  "Italian lokan naal gappan maaro: tusin kithon ho, tuhanu ki pasand hai, mausam te yojanavan.",
+  "इटालियन लोगों से गपशप कीजिए: आप कहाँ से हैं, आपको क्या पसंद है, मौसम और योजनाएँ।"
+ ],
+ "Chatting words": [
+  "Gallbaat de shabad",
+  "बातचीत के शब्द"
+ ],
+ "Check in and check out at a pretend reception, then report a problem (no hot water, broken air-conditioning).": [
+  "Naqli reception te check-in te check-out karo, phir koi samasya dasso (garam paani nahi, AC kharab).",
+  "नकली रिसेप्शन पर चेक-इन और चेक-आउट कीजिए, फिर कोई समस्या बताइए (गरम पानी नहीं, AC खराब)।"
+ ],
+ "Check in at a hotel and solve problems in your room": [
+  "Hotel vich check-in karo te apne kamre diyan chhotiyan samasyavan hal karo",
+  "होटल में चेक-इन कीजिए और अपने कमरे की छोटी समस्याएँ सुलझाइए"
+ ],
+ "Check in, ask for what you need and solve small problems in your room.": [
+  "Check-in karo, jo chahida hai mango te apne kamre diyan chhotiyan samasyavan hal karo.",
+  "चेक-इन कीजिए, जो चाहिए माँगिए और अपने कमरे की छोटी समस्याएँ सुलझाइए।"
+ ],
+ "Check the airport words and phrases.": [
+  "Airport de shabad te vaak check karo.",
+  "एयरपोर्ट के शब्द और वाक्य जाँचिए।"
+ ],
+ "Check-in, breakfast and problems.": [
+  "Check-in, naashta te samasyavan.",
+  "चेक-इन, नाश्ता और समस्याएँ।"
+ ],
+ "Check-out is by 11.": [
+  "Check-out 11 vaje tak hai.",
+  "चेक-आउट 11 बजे तक है।"
+ ],
+ "Checking in": [
+  "Check-in karna",
+  "चेक-इन करना"
+ ],
+ "Chiedere la strada": [
+  "Rasta puchhna",
+  "रास्ता पूछना"
+ ],
+ "Ciao Arjun! Sono Luca, del concerto. Domani andiamo al mare con degli amici. Vieni anche tu? Partiamo alle dieci dalla stazione.": [
+  "Hello Arjun! Main Luca haan, concert vala. Kal asin kujh dostan naal samundar kinare ja rahe haan. Tu vi aavenga? Asin das vaje station ton chalange.",
+  "हाय Arjun! मैं Luca हूँ, कॉन्सर्ट वाला। कल हम कुछ दोस्तों के साथ समुद्र किनारे जा रहे हैं। तुम भी आओगे? हम दस बजे स्टेशन से निकलेंगे।"
+ ],
+ "Compro una giacca": [
+  "Main jacket khareedda haan",
+  "मैं जैकेट खरीदता हूँ"
+ ],
+ "Countries, likes and the weather.": [
+  "Desh, pasand te mausam.",
+  "देश, पसंद और मौसम।"
+ ],
+ "currency exchange": [
+  "Currency exchange (paise badalna)",
+  "मुद्रा विनिमय"
+ ],
+ "customs": [
+  "Custom",
+  "कस्टम"
+ ],
+ "Dear guest, breakfast is served from 7:00 to 10:00. Check-out is by 11:00. For any problem call reception (number 9).": [
+  "Maanyog mehmaan, naashta 7:00 ton 10:00 vaje tak parosya jaanda hai. Check-out 11:00 vaje tak hai. Kise vi samasya layi reception nu phone karo (number 9).",
+  "आदरणीय मेहमान, नाश्ता 7:00 से 10:00 बजे तक परोसा जाता है। चेक-आउट 11:00 बजे तक है। किसी भी समस्या के लिए रिसेप्शन को फ़ोन कीजिए (नंबर 9)।"
+ ],
+ "Describe the way from your home to the nearest shop with three directions in Italian.": [
+  "Apne ghar ton sab ton nedi dukaan tak da rasta Italian vich tinn dishavan naal dasso.",
+  "अपने घर से सबसे पास की दुकान तक का रास्ता इटालियन में तीन दिशाओं के साथ बताइए।"
+ ],
+ "Directions & sightseeing": [
+  "Raste te ghumna-phirna",
+  "रास्ते और घूमना-फिरना"
+ ],
+ "Directions review": [
+  "Rasteyan da review",
+  "रास्तों का रिव्यू"
+ ],
+ "Do you have a city map?": [
+  "Tuhade kol shehar da naqsha hai?",
+  "आपके पास शहर का नक्शा है?"
+ ],
+ "Do you have a smaller size?": [
+  "Chhota size hai?",
+  "छोटा साइज़ है?"
+ ],
+ "Do you have dishes with chicken?": [
+  "Tuhade kol chicken valiyan dishan han?",
+  "आपके पास चिकन वाली डिशें हैं?"
+ ],
+ "Do you have it in black?": [
+  "Kya eh kaale rang vich hai?",
+  "क्या यह काले रंग में है?"
+ ],
+ "Do you have it in size M?": [
+  "Kya eh M size vich hai?",
+  "क्या यह M साइज़ में है?"
+ ],
+ "Do you like Naples?": [
+  "Tuhanu Naples pasand hai?",
+  "तुम्हें नेपल्स पसंद है?"
+ ],
+ "Do you like…?": [
+  "Tuhanu … pasand hai?",
+  "तुम्हें … पसंद है?"
+ ],
+ "Emergency numbers: **112** for everything (police, ambulance, fire). If your passport is lost or stolen, report it at the police (**denuncia**) and contact your embassy.": [
+  "Emergency numbers: har cheez layi **112** (police, ambulance, agg). Je tuhada passport gumm jaan chori ho jaave, taan police vich report (**denuncia**) karo te apni embassy naal sampark karo.",
+  "आपातकालीन नंबर: हर चीज़ के लिए **112** (पुलिस, एम्बुलेंस, आग)। अगर आपका पासपोर्ट खो जाए या चोरी हो जाए, तो पुलिस में रिपोर्ट (**denuncia**) कीजिए और अपने दूतावास से संपर्क कीजिए।"
+ ],
+ "Every unit has picture words with audio, a speaking role-play where you answer out loud, and a quick review with a printable study sheet.": [
+  "Har unit vich audio vale tasveeri shabad, bolan vala role-play jis vich tusin uchi awaaz vich jawab dinde ho, te print hon vali study sheet naal chhota review hai.",
+  "हर इकाई में ऑडियो वाले चित्र-शब्द, बोलने वाला रोल-प्ले जिसमें आप ज़ोर से जवाब देते हैं, और प्रिंट करने योग्य स्टडी शीट के साथ छोटा रिव्यू है।"
+ ],
+ "Excuse me, how do I get to the Colosseum?": [
+  "Maaf karna, Colosseum kiven jaana hai?",
+  "माफ़ कीजिए, Colosseum कैसे जाना है?"
+ ],
+ "Excuse me, where is the Colosseum?": [
+  "Maaf karna, Colosseum kithe hai?",
+  "माफ़ कीजिए, Colosseum कहाँ है?"
+ ],
+ "Explain a small health problem, buy medicine and ask for help in an emergency.": [
+  "Sehat di chhoti samasya samjhao, dawai khareedo te emergency vich madad mango.",
+  "स्वास्थ्य की छोटी समस्या समझाइए, दवाई खरीदिए और आपातकाल में मदद माँगिए।"
+ ],
+ "Explain your symptoms and buy medicine.": [
+  "Apne lakshan samjhao te dawai khareedo.",
+  "अपने लक्षण समझाइए और दवाई खरीदिए।"
+ ],
+ "far": [
+  "Door",
+  "दूर"
+ ],
+ "fever": [
+  "Bukhaar",
+  "बुखार"
+ ],
+ "Final live class: tell the teacher about your trip — arrival, hotel, a meal, a visit and a new friend.": [
+  "Aakhri live class: teacher nu apne safar baare dasso — pahunchna, hotel, ikk khaana, ikk ghummna te ikk nava dost.",
+  "अंतिम लाइव क्लास: शिक्षक को अपनी यात्रा के बारे में बताइए — पहुँचना, होटल, एक भोजन, एक सैर और एक नया दोस्त।"
+ ],
+ "Find the Colosseum with the help of a local.": [
+  "Kise local bande di madad naal Colosseum labho.",
+  "किसी स्थानीय व्यक्ति की मदद से Colosseum ढूँढिए।"
+ ],
+ "First courses: spaghetti with tomato €9, mushroom risotto €12. Main courses: roast chicken €14, grilled fish €18. Cover charge €2.": [
+  "Pehla course: tamatar vale spaghetti €9, mushroom risotto €12. Mukh course: bhunneya chicken €14, grill keeti machhi €18. Cover charge €2.",
+  "पहला कोर्स: टमाटर वाले स्पेगेटी €9, मशरूम रिसोट्टो €12। मुख्य कोर्स: भुना चिकन €14, ग्रिल की हुई मछली €18। कवर चार्ज €2।"
+ ],
+ "Fiumicino airport is big.": [
+  "Fiumicino airport vadda hai.",
+  "Fiumicino एयरपोर्ट बड़ा है।"
+ ],
+ "Food & drink": [
+  "Khaana te peena",
+  "खाना और पेय"
+ ],
+ "Frecciarossa 9541 — Roma Termini — ore 11:20 — binario 5 — ritardo 10 minuti.": [
+  "Frecciarossa 9541 — Roma Termini — 11:20 vaje — platform 5 — 10 minute late.",
+  "Frecciarossa 9541 — Roma Termini — 11:20 बजे — प्लेटफ़ॉर्म 5 — 10 मिनट देर से।"
+ ],
+ "Frecciarossa 9541 — Rome Termini — 11:20 — platform 5 — 10 minutes late.": [
+  "Frecciarossa 9541 — Rome Termini — 11:20 — platform 5 — 10 minute late.",
+  "Frecciarossa 9541 — Rome Termini — 11:20 — प्लेटफ़ॉर्म 5 — 10 मिनट देर से।"
+ ],
+ "From platform 8. Have a good trip!": [
+  "Platform 8 ton. Safar shubh hove!",
+  "प्लेटफ़ॉर्म 8 से। यात्रा शुभ हो!"
+ ],
+ "From seven to ten, in the room here on the right.": [
+  "Satt ton das vaje tak, ithe sajje paase vale kamre vich.",
+  "सात से दस बजे तक, यहाँ दाईं ओर वाले कमरे में।"
+ ],
+ "Gentile ospite, la colazione è servita dalle 7:00 alle 10:00. Il check-out è entro le 11:00. Per qualsiasi problema chiami la reception (numero 9).": [
+  "Maanyog mehmaan, naashta 7:00 ton 10:00 vaje tak parosya jaanda hai. Check-out 11:00 vaje tak hai. Kise vi samasya layi reception nu phone karo (number 9).",
+  "आदरणीय मेहमान, नाश्ता 7:00 से 10:00 बजे तक परोसा जाता है। चेक-आउट 11:00 बजे तक है। किसी भी समस्या के लिए रिसेप्शन को फ़ोन कीजिए (नंबर 9)।"
+ ],
+ "Get through the airport and passport control": [
+  "Airport te passport check ton langho",
+  "एयरपोर्ट और पासपोर्ट जाँच से गुज़रिए"
+ ],
+ "Give your name, your passport and ask about breakfast.": [
+  "Apna naam, apna passport dio te naashte baare puchho.",
+  "अपना नाम, अपना पासपोर्ट दीजिए और नाश्ते के बारे में पूछिए।"
+ ],
+ "Gladly! / I'd love to!": [
+  "Khushi naal! / Zaroor!",
+  "खुशी से! / ज़रूर!"
+ ],
+ "Gladly! What time?": [
+  "Khushi naal! Kinne vaje?",
+  "खुशी से! कितने बजे?"
+ ],
+ "Go straight on.": [
+  "Seedhe jao.",
+  "सीधे जाइए।"
+ ],
+ "Good evening! How many of you are there?": [
+  "Shubh shaam! Tusin kinne jane ho?",
+  "शुभ संध्या! आप कितने लोग हैं?"
+ ],
+ "Good evening! Welcome. Do you have a booking?": [
+  "Shubh shaam! Ji aayan nu. Tuhadi booking hai?",
+  "शुभ संध्या! स्वागत है। आपकी बुकिंग है?"
+ ],
+ "Good morning, how can I help?": [
+  "Shubh saver, dasso?",
+  "सुप्रभात, बताइए?"
+ ],
+ "Good morning! Can I help you?": [
+  "Shubh saver! Main tuhadi madad kar sakda haan?",
+  "सुप्रभात! मैं आपकी मदद कर सकता हूँ?"
+ ],
+ "Good morning. Here is the passport.": [
+  "Shubh saver. Aah passport.",
+  "सुप्रभात। यह रहा पासपोर्ट।"
+ ],
+ "Good morning. I have a headache and a slight fever.": [
+  "Shubh saver. Mera sir dukhda hai te halka bukhaar hai.",
+  "सुप्रभात। मेरा सिर दुखता है और हल्का बुखार है।"
+ ],
+ "Good morning. Passport, please.": [
+  "Shubh saver. Passport, please.",
+  "सुप्रभात। पासपोर्ट, कृपया।"
+ ],
+ "headache": [
+  "Sir dard",
+  "सिरदर्द"
+ ],
+ "Health & help": [
+  "Sehat te madad",
+  "स्वास्थ्य और मदद"
+ ],
+ "Health review": [
+  "Sehat da review",
+  "स्वास्थ्य का रिव्यू"
+ ],
+ "Help!": [
+  "Bachao!",
+  "बचाओ!"
+ ],
+ "Help! Call an ambulance!": [
+  "Bachao! Ambulance bulao!",
+  "बचाओ! एम्बुलेंस बुलाओ!"
+ ],
+ "Here is my passport.": [
+  "Aah mera passport hai.",
+  "यह रहा मेरा पासपोर्ट।"
+ ],
+ "Here is the passport.": [
+  "Aah passport.",
+  "यह रहा पासपोर्ट।"
+ ],
+ "Here is the receipt. Have a nice day!": [
+  "Aah raseed. Tuhada din vadhiya rahe!",
+  "यह रही रसीद। आपका दिन अच्छा रहे!"
+ ],
+ "Here is the S. How is it?": [
+  "Aah S. Kiven hai?",
+  "यह रहा S। कैसी है?"
+ ],
+ "Hi Arjun! It's Luca, from the concert. Tomorrow we're going to the beach with some friends. Are you coming too? We leave at ten from the station.": [
+  "Hello Arjun! Main Luca haan, concert vala. Kal asin kujh dostan naal beach te ja rahe haan. Tu vi aa reha hain? Asin das vaje station ton chalange.",
+  "हाय Arjun! मैं Luca हूँ, कॉन्सर्ट वाला। कल हम कुछ दोस्तों के साथ बीच पर जा रहे हैं। तुम भी आ रहे हो? हम दस बजे स्टेशन से निकलेंगे।"
+ ],
+ "Hi! Are you here on holiday?": [
+  "Hello! Ithe chhuttiyan te aaye ho?",
+  "हाय! यहाँ छुट्टियों पर आए हो?"
+ ],
+ "Hotel words": [
+  "Hotel de shabad",
+  "होटल के शब्द"
+ ],
+ "How are you paying?": [
+  "Paise kiven doge?",
+  "भुगतान कैसे करेंगे?"
+ ],
+ "How long are you staying in Italy?": [
+  "Tusin Italy vich kinna chir rukoge?",
+  "आप इटली में कितने समय रुकेंगे?"
+ ],
+ "How much is this jacket": [
+  "Eh jacket kinne di hai",
+  "यह जैकेट कितने की है"
+ ],
+ "I am allergic to nuts.": [
+  "Mainu nuts ton allergy hai.",
+  "मुझे मेवों से एलर्जी है।"
+ ],
+ "I am in … street, number…": [
+  "Main … gali vich haan, number…",
+  "मैं … गली में हूँ, नंबर…"
+ ],
+ "I can answer simple questions at passport control": [
+  "Main passport check te saade sawaalan de jawab de sakda haan",
+  "मैं पासपोर्ट जाँच पर आसान सवालों के जवाब दे सकता हूँ"
+ ],
+ "I can ask about breakfast and Wi-Fi": [
+  "Main naashte te Wi-Fi baare puchh sakda haan",
+  "मैं नाश्ते और वाई-फ़ाई के बारे में पूछ सकता हूँ"
+ ],
+ "I can ask about ingredients and say what I don't eat": [
+  "Main samagri baare puchh sakda haan te dass sakda haan ki main ki nahi khaanda",
+  "मैं सामग्री के बारे में पूछ सकता हूँ और बता सकता हूँ कि मैं क्या नहीं खाता"
+ ],
+ "I can ask for another size or colour": [
+  "Main hor size jaan rang mang sakda haan",
+  "मैं दूसरा साइज़ या रंग माँग सकता हूँ"
+ ],
+ "I can ask for the bill": [
+  "Main bill mang sakda haan",
+  "मैं बिल माँग सकता हूँ"
+ ],
+ "I can ask how much something costs": [
+  "Main puchh sakda haan ki koi cheez kinne di hai",
+  "मैं पूछ सकता हूँ कि कोई चीज़ कितने की है"
+ ],
+ "I can ask where a place is": [
+  "Main puchh sakda haan ki koi thaan kithe hai",
+  "मैं पूछ सकता हूँ कि कोई जगह कहाँ है"
+ ],
+ "I can ask where the luggage, the exit and the taxis are": [
+  "Main puchh sakda haan ki saman, bahar da rasta te taxi kithe han",
+  "मैं पूछ सकता हूँ कि सामान, बाहर का रास्ता और टैक्सी कहाँ हैं"
+ ],
+ "I can ask which bus goes to a place": [
+  "Main puchh sakda haan ki kehdi bus kise thaan jaandi hai",
+  "मैं पूछ सकता हूँ कि कौन-सी बस किसी जगह जाती है"
+ ],
+ "I can buy a train ticket and ask the platform": [
+  "Main train ticket khareed sakda haan te platform puchh sakda haan",
+  "मैं ट्रेन टिकट खरीद सकता हूँ और प्लेटफ़ॉर्म पूछ सकता हूँ"
+ ],
+ "I can buy tickets for a museum or a monument": [
+  "Main museum jaan smaarak diyan ticketan khareed sakda haan",
+  "मैं संग्रहालय या स्मारक के टिकट खरीद सकता हूँ"
+ ],
+ "I can call for help and say where I am": [
+  "Main madad layi phone kar sakda haan te dass sakda haan ki main kithe haan",
+  "मैं मदद के लिए फ़ोन कर सकता हूँ और बता सकता हूँ कि मैं कहाँ हूँ"
+ ],
+ "I can check in with a booking": [
+  "Main booking naal check-in kar sakda haan",
+  "मैं बुकिंग के साथ चेक-इन कर सकता हूँ"
+ ],
+ "I can exchange numbers and make a plan": [
+  "Main number vatt sakda haan te yojana bana sakda haan",
+  "मैं नंबर बदल सकता हूँ और योजना बना सकता हूँ"
+ ],
+ "I can explain simple symptoms at the pharmacy": [
+  "Main pharmacy vich saade lakshan samjha sakda haan",
+  "मैं फ़ार्मेसी में आसान लक्षण समझा सकता हूँ"
+ ],
+ "I can introduce myself and my country": [
+  "Main apni te apne desh di jaan-pehchaan karva sakda haan",
+  "मैं अपना और अपने देश का परिचय दे सकता हूँ"
+ ],
+ "I can order food and drinks": [
+  "Main khaana te drinks order kar sakda haan",
+  "मैं खाना और पेय ऑर्डर कर सकता हूँ"
+ ],
+ "I can pay and ask for a receipt": [
+  "Main paise de sakda haan te raseed mang sakda haan",
+  "मैं भुगतान कर सकता हूँ और रसीद माँग सकता हूँ"
+ ],
+ "I can report a lost or stolen item": [
+  "Main gumm jaan chori hoyi cheez di report kar sakda haan",
+  "मैं खोई या चोरी हुई चीज़ की रिपोर्ट कर सकता हूँ"
+ ],
+ "I can report a problem in my room": [
+  "Main apne kamre di samasya dass sakda haan",
+  "मैं अपने कमरे की समस्या बता सकता हूँ"
+ ],
+ "I can say why I am visiting and how long I stay": [
+  "Main dass sakda haan ki main kyon aaya haan te kinna chir rukanga",
+  "मैं बता सकता हूँ कि मैं क्यों आया हूँ और कितने समय रुकूँगा"
+ ],
+ "I can talk about what I like in Italy": [
+  "Main gall kar sakda haan ki Italy vich mainu ki pasand hai",
+  "मैं बात कर सकता हूँ कि इटली में मुझे क्या पसंद है"
+ ],
+ "I can tell a taxi driver where I want to go": [
+  "Main taxi driver nu dass sakda haan ki main kithe jaana chahunda haan",
+  "मैं टैक्सी ड्राइवर को बता सकता हूँ कि मैं कहाँ जाना चाहता हूँ"
+ ],
+ "I can understand left, right, straight on": [
+  "Main khabbe, sajje, seedhe samajh sakda haan",
+  "मैं बाएँ, दाएँ, सीधे समझ सकता हूँ"
+ ],
+ "I can't find my suitcase.": [
+  "Mainu apna suitcase nahi labh reha.",
+  "मुझे अपना सूटकेस नहीं मिल रहा।"
+ ],
+ "I come from Bangladesh.": [
+  "Main Bangladesh ton aaya haan.",
+  "मैं बांग्लादेश से आया हूँ।"
+ ],
+ "I come from…": [
+  "Main … ton aaya haan",
+  "मैं … से आया हूँ"
+ ],
+ "I don't eat pork.": [
+  "Main suar da maas nahi khaanda.",
+  "मैं सूअर का मांस नहीं खाता।"
+ ],
+ "I don't feel well": [
+  "Main theek mehsoos nahi kar reha",
+  "मैं ठीक महसूस नहीं कर रहा"
+ ],
+ "I don't feel well.": [
+  "Main theek mehsoos nahi kar reha.",
+  "मैं ठीक महसूस नहीं कर रहा।"
+ ],
+ "I have a booking under the name…": [
+  "… de naam te meri booking hai",
+  "… के नाम पर मेरी बुकिंग है"
+ ],
+ "I have a booking.": [
+  "Meri booking hai.",
+  "मेरी बुकिंग है।"
+ ],
+ "I have a fever.": [
+  "Mainu bukhaar hai.",
+  "मुझे बुखार है।"
+ ],
+ "I have a headache.": [
+  "Mera sir dukhda hai.",
+  "मेरा सिर दुखता है।"
+ ],
+ "I have lost my passport.": [
+  "Mera passport gumm ho gaya hai.",
+  "मेरा पासपोर्ट खो गया है।"
+ ],
+ "I have the ticket on my phone.": [
+  "Ticket mere phone vich hai.",
+  "टिकट मेरे फ़ोन में है।"
+ ],
+ "I like": [
+  "Mainu pasand hai",
+  "मुझे पसंद है"
+ ],
+ "I like it a lot.": [
+  "Mainu bahut pasand hai.",
+  "मुझे बहुत पसंद है।"
+ ],
+ "I like Italy very much": [
+  "Mainu Italy bahut pasand hai",
+  "मुझे इटली बहुत पसंद है"
+ ],
+ "I like Italy very much.": [
+  "Mainu Italy bahut pasand hai.",
+  "मुझे इटली बहुत पसंद है।"
+ ],
+ "I must call the police.": [
+  "Mainu police nu phone karna paina hai.",
+  "मुझे पुलिस को फ़ोन करना है।"
+ ],
+ "I need a doctor.": [
+  "Mainu doctor chahida hai.",
+  "मुझे डॉक्टर चाहिए।"
+ ],
+ "I prefer sparkling water.": [
+  "Mainu sparkling paani pasand hai.",
+  "मुझे स्पार्कलिंग पानी पसंद है।"
+ ],
+ "I really like it, I'll take it.": [
+  "Mainu bahut pasand hai, main lai lavanga.",
+  "मुझे बहुत पसंद है, मैं ले लूँगा।"
+ ],
+ "I take a taxi to the centre.": [
+  "Main centre layi taxi lainda haan.",
+  "मैं केंद्र के लिए टैक्सी लेता हूँ।"
+ ],
+ "I take bus number 40.": [
+  "Main bus number 40 lainda haan.",
+  "मैं बस नंबर 40 लेता हूँ।"
+ ],
+ "I'd like a ticket to Venice.": [
+  "Mainu Venice di ikk ticket chahidi hai.",
+  "मुझे वेनिस का एक टिकट चाहिए।"
+ ],
+ "I'd like to check out.": [
+  "Main check-out karna chahunda haan.",
+  "मैं चेक-आउट करना चाहता हूँ।"
+ ],
+ "I'll ask at reception.": [
+  "Main reception te puchhanga.",
+  "मैं रिसेप्शन पर पूछूँगा।"
+ ],
+ "I'll have…": [
+  "Main … lavanga",
+  "मैं … लूँगा"
+ ],
+ "I'll take it.": [
+  "Main lai lavanga.",
+  "मैं ले लूँगा।"
+ ],
+ "I'm from Pakistan, from Karachi.": [
+  "Main Pakistan ton haan, Karachi ton.",
+  "मैं पाकिस्तान से हूँ, कराची से।"
+ ],
+ "I'm from Pakistan.": [
+  "Main Pakistan ton haan.",
+  "मैं पाकिस्तान से हूँ।"
+ ],
+ "I'm going to the station.": [
+  "Main station ja reha haan.",
+  "मैं स्टेशन जा रहा हूँ।"
+ ],
+ "I'm here for tourism.": [
+  "Main ghumman aaya haan.",
+  "मैं घूमने आया हूँ।"
+ ],
+ "I'm here for work.": [
+  "Main kamm layi aaya haan.",
+  "मैं काम के लिए आया हूँ।"
+ ],
+ "I'm Indian, from Mumbai.": [
+  "Main Indian haan, Mumbai ton.",
+  "मैं भारतीय हूँ, मुंबई से।"
+ ],
+ "I'm just looking, thanks.": [
+  "Main bas vekh reha haan, dhanvaad.",
+  "मैं बस देख रहा हूँ, धन्यवाद।"
+ ],
+ "I'm just looking.": [
+  "Main bas vekh reha haan.",
+  "मैं बस देख रहा हूँ।"
+ ],
+ "I'm staying ten days.": [
+  "Main das din rukanga.",
+  "मैं दस दिन रुकूँगा।"
+ ],
+ "I'm staying two weeks.": [
+  "Main do hafte rukanga.",
+  "मैं दो हफ़्ते रुकूँगा।"
+ ],
+ "I'm visiting my family.": [
+  "Main apne parivaar nu milan aaya haan.",
+  "मैं अपने परिवार से मिलने आया हूँ।"
+ ],
+ "If people speak fast, it is fine to say **Più piano, per favore** (more slowly, please). Italians are usually happy to help visitors who try their language.": [
+  "Je lok tez bolan, taan **Più piano, per favore** (hauli, please) kehna bilkul theek hai. Italian aam taur te unhan yatriyan di khushi naal madad karde han jo unhan di bhasha bolan di koshish karde han.",
+  "अगर लोग तेज़ बोलें, तो **Più piano, per favore** (धीरे, कृपया) कहना बिल्कुल ठीक है। इटालियन आमतौर पर उन यात्रियों की खुशी से मदद करते हैं जो उनकी भाषा बोलने की कोशिश करते हैं।"
+ ],
+ "If something is broken, start with **Scusi, …** and say *… non funziona* (… doesn't work). It works for the TV, the shower, the lift, everything.": [
+  "Je kujh kharab hai, **Scusi, …** naal shuru karo te kaho *… non funziona* (… kamm nahi karda). Eh TV, shower, lift, har cheez layi kamm aunda hai.",
+  "अगर कुछ खराब है, **Scusi, …** से शुरू कीजिए और कहिए *… non funziona* (… काम नहीं करता)। यह टीवी, शावर, लिफ़्ट, हर चीज़ के लिए काम आता है।"
+ ],
+ "If the fever doesn't go away, see a doctor.": [
+  "Je bukhaar na utre, taan doctor nu dikhao.",
+  "अगर बुखार न उतरे, तो डॉक्टर को दिखाइए।"
+ ],
+ "Il check-in": [
+  "Check-in",
+  "चेक-इन"
+ ],
+ "In a hotel in Rome.": [
+  "Rome de ikk hotel vich.",
+  "रोम के एक होटल में।"
+ ],
+ "In a hotel.": [
+  "Ikk hotel vich.",
+  "एक होटल में।"
+ ],
+ "In a taxi, you show your phone and say…": [
+  "Taxi vich, tusin apna phone dikha ke kehnde ho…",
+  "टैक्सी में, आप अपना फ़ोन दिखाकर कहते हैं…"
+ ],
+ "In biglietteria": [
+  "Ticket office vich",
+  "टिकट ऑफ़िस में"
+ ],
+ "in cash": [
+  "Cash vich",
+  "नकद में"
+ ],
+ "In cash.": [
+  "Cash vich.",
+  "नकद में।"
+ ],
+ "In churches cover your shoulders and knees. Many museums are closed on **Monday** (*lunedì*) and free on the **first Sunday of the month**.": [
+  "Churchan vich apne modhe te godde dhakko. Bahut museum **Somvaar** (*lunedì*) nu band hunde han te **mahine de pehle Aitvaar** nu muft hunde han.",
+  "चर्चों में अपने कंधे और घुटने ढकिए। बहुत-से संग्रहालय **सोमवार** (*lunedì*) को बंद होते हैं और **महीने के पहले रविवार** को मुफ़्त होते हैं।"
+ ],
+ "In farmacia": [
+  "Pharmacy vich",
+  "फ़ार्मेसी में"
+ ],
+ "In markets you can try to bargain a little: **Mi fa uno sconto?** (Can you give me a discount?). In normal shops prices are fixed.": [
+  "Mandiyan vich tusin thoda mol-bhaav kar sakde ho: **Mi fa uno sconto?** (Kujh ghatt kar doge?). Aam dukaanan vich keematan pakkiyan hundiyan han.",
+  "बाज़ारों में आप थोड़ा मोलभाव कर सकते हैं: **Mi fa uno sconto?** (कुछ कम कर देंगे?)। सामान्य दुकानों में कीमतें तय होती हैं।"
+ ],
+ "In restaurants you will often see **coperto** on the bill: a small cover charge per person for bread and service. It is normal. Tipping is not required.": [
+  "Restaurantan vich tusin aksar bill te **coperto** vekhoge: bread te sewa layi har bande da chhota jiha kharcha. Eh aam gall hai. Tip dena zaroori nahi.",
+  "रेस्टोरेंटों में आप अक्सर बिल पर **coperto** देखेंगे: ब्रेड और सेवा के लिए प्रति व्यक्ति छोटा शुल्क। यह आम बात है। टिप देना ज़रूरी नहीं।"
+ ],
+ "In the live class, call a pretend 112: say your name, where you are and what happened.": [
+  "Live class vich naqli 112 te phone karo: apna naam, tusin kithe ho te ki hoya, dasso.",
+  "लाइव क्लास में नकली 112 पर फ़ोन कीजिए: अपना नाम, आप कहाँ हैं और क्या हुआ, बताइए।"
+ ],
+ "India": [
+  "India",
+  "भारत"
+ ],
+ "Is everything OK? Would you like a dessert?": [
+  "Sab theek hai? Koi mitha chahida hai?",
+  "सब ठीक है? कोई मिठाई चाहिए?"
+ ],
+ "Is it far on foot": [
+  "Paidal door hai",
+  "पैदल दूर है"
+ ],
+ "Is it far on foot?": [
+  "Paidal door hai?",
+  "पैदल दूर है?"
+ ],
+ "Is it near?": [
+  "Nede hai?",
+  "पास है?"
+ ],
+ "Is it without pork?": [
+  "Kya eh bina suar de maas hai?",
+  "क्या यह बिना सूअर के मांस का है?"
+ ],
+ "Is there a currency exchange here?": [
+  "Ithe currency exchange hai?",
+  "यहाँ मुद्रा विनिमय है?"
+ ],
+ "Is there a lift?": [
+  "Lift hai?",
+  "लिफ़्ट है?"
+ ],
+ "Is there a metro nearby?": [
+  "Nede koi metro hai?",
+  "पास में कोई मेट्रो है?"
+ ],
+ "Is there a pharmacy open?": [
+  "Koi pharmacy khulli hai?",
+  "कोई फ़ार्मेसी खुली है?"
+ ],
+ "Is there a vegetarian dish?": [
+  "Koi shakahari dish hai?",
+  "कोई शाकाहारी डिश है?"
+ ],
+ "It costs 79 euros. It's on sale.": [
+  "79 euro di hai. Sale vich hai.",
+  "79 यूरो की है। सेल में है।"
+ ],
+ "It's 45 euros.": [
+  "45 euro di hai.",
+  "45 यूरो का है।"
+ ],
+ "It's a bit big. Do you have a smaller size?": [
+  "Thodi vaddi hai. Chhota size hai?",
+  "थोड़ी बड़ी है। छोटा साइज़ है?"
+ ],
+ "It's a bit small.": [
+  "Eh thoda chhota hai.",
+  "यह थोड़ा छोटा है।"
+ ],
+ "it's cold": [
+  "Thand hai",
+  "ठंड है"
+ ],
+ "It's cold in Milan in winter.": [
+  "Sardiyan vich Milan vich thand hundi hai.",
+  "सर्दियों में मिलान में ठंड होती है।"
+ ],
+ "It's cold.": [
+  "Thand hai.",
+  "ठंड है।"
+ ],
+ "it's hot": [
+  "Garmi hai",
+  "गर्मी है"
+ ],
+ "It's hot today.": [
+  "Ajj garmi hai.",
+  "आज गर्मी है।"
+ ],
+ "It's hot.": [
+  "Garmi hai.",
+  "गर्मी है।"
+ ],
+ "It's near! Go straight on along Via dei Fori Imperiali.": [
+  "Nede hai! Via dei Fori Imperiali te seedhe jao.",
+  "पास है! Via dei Fori Imperiali पर सीधे जाइए।"
+ ],
+ "It's on the key: firenze2026. Have a nice evening!": [
+  "Chaabi te likheya hai: firenze2026. Shaam vadhiya rahe!",
+  "चाबी पर लिखा है: firenze2026। शाम अच्छी रहे!"
+ ],
+ "It's perfect, I'll take it.": [
+  "Bilkul theek hai, main lai lavanga.",
+  "बिल्कुल ठीक है, मैं ले लूँगा।"
+ ],
+ "it's raining": [
+  "Meenh pai reha hai",
+  "बारिश हो रही है"
+ ],
+ "It's raining, I'll take the umbrella.": [
+  "Meenh pai reha hai, main chhatri lai lavanga.",
+  "बारिश हो रही है, मैं छाता ले लूँगा।"
+ ],
+ "It's raining.": [
+  "Meenh pai reha hai.",
+  "बारिश हो रही है।"
+ ],
+ "It's too big.": [
+  "Eh bahut vadda hai.",
+  "यह बहुत बड़ा है।"
+ ],
+ "Italian sales (**saldi**) happen twice a year: from early January and from early July. Keep the **scontrino** — you need it to change an item.": [
+  "Italian sale (**saldi**) saal vich do vaar hundi hai: Janvari de shuru ton te July de shuru ton. **scontrino** sambhal ke rakho — cheez badlan layi chahida hai.",
+  "इटालियन सेल (**saldi**) साल में दो बार होती है: जनवरी की शुरुआत से और जुलाई की शुरुआत से। **scontrino** संभालकर रखिए — चीज़ बदलने के लिए चाहिए।"
+ ],
+ "Italians love talking about **food** and **football**. A compliment about the local food is the best way to start a conversation!": [
+  "Italian **khaane** te **football** baare gall karna bahut pasand karde han. Local khaane di taareef gallbaat shuru karan da sab ton vadhiya tareeka hai!",
+  "इटालियन **खाने** और **फ़ुटबॉल** के बारे में बात करना बहुत पसंद करते हैं। स्थानीय खाने की तारीफ़ बातचीत शुरू करने का सबसे अच्छा तरीका है!"
+ ],
+ "Land in Italy with confidence: passport control, luggage and finding your way out.": [
+  "Bharose naal Italy utro: passport check, saman te bahar da rasta labhna.",
+  "भरोसे के साथ इटली उतरिए: पासपोर्ट जाँच, सामान और बाहर का रास्ता ढूँढना।"
+ ],
+ "Learn these words before you need them. In an emergency in Italy call **112**.": [
+  "Lod paun ton pehlan eh shabad sikh lao. Italy vich emergency vich **112** milao.",
+  "ज़रूरत पड़ने से पहले ये शब्द सीख लीजिए। इटली में आपातकाल में **112** मिलाइए।"
+ ],
+ "Let's go and get an ice cream!": [
+  "Chalo ice cream khaan chaliye!",
+  "चलो आइसक्रीम खाने चलें!"
+ ],
+ "Let's go to A&E.": [
+  "Emergency room chaliye.",
+  "आपातकालीन कक्ष चलें।"
+ ],
+ "Let's go!": [
+  "Chalo!",
+  "चलो!"
+ ],
+ "Listen and repeat. You will need these words every day as a visitor.": [
+  "Suno te dohrao. Yatri de taur te tuhanu eh shabad har roz chahide honge.",
+  "सुनिए और दोहराइए। यात्री के रूप में आपको ये शब्द हर दिन चाहिए होंगे।"
+ ],
+ "Look up the train from Rome to a city you want to visit and write the question: \"Da quale binario parte il treno per …?\"": [
+  "Rome ton jis shehar tusin jaana chahunde ho uski train labho te sawaal likho: \"Da quale binario parte il treno per …?\"",
+  "रोम से जिस शहर आप जाना चाहते हैं उसकी ट्रेन ढूँढिए और सवाल लिखिए: \"Da quale binario parte il treno per …?\""
+ ],
+ "Luca is going to the beach tomorrow.": [
+  "Luca kal beach te ja reha hai.",
+  "Luca कल बीच पर जा रहा है।"
+ ],
+ "Many thanks, good evening!": [
+  "Bahut dhanvaad, shubh shaam!",
+  "बहुत धन्यवाद, शुभ संध्या!"
+ ],
+ "Meeting an Italian": [
+  "Kise Italian nu milna",
+  "किसी इटालियन से मिलना"
+ ],
+ "Menu words and what to say at the table.": [
+  "Menu de shabad te mez te ki kehna hai.",
+  "मेन्यू के शब्द और मेज़ पर क्या कहना है।"
+ ],
+ "Menus, orders and the bill.": [
+  "Menu, order te bill.",
+  "मेन्यू, ऑर्डर और बिल।"
+ ],
+ "More slowly, please.": [
+  "Hauli bolo, please.",
+  "धीरे बोलिए, कृपया।"
+ ],
+ "Most Italian hotels ask for your passport at check-in — it is required by law. They give it back after a few minutes.": [
+  "Zyadatar Italian hotel check-in vele tuhada passport mangde han — kanoon anusaar zaroori hai. Kujh minutan baad vaapas de dinde han.",
+  "ज़्यादातर इटालियन होटल चेक-इन के समय आपका पासपोर्ट माँगते हैं — कानूनन ज़रूरी है। कुछ मिनट बाद वापस दे देते हैं।"
+ ],
+ "My … hurts / I have a … ache": [
+  "Mera … dukhda hai / Mere … vich dard hai",
+  "मेरा … दुखता है / मेरे … में दर्द है"
+ ],
+ "My son has a stomach ache.": [
+  "Mere putt de pet vich dard hai.",
+  "मेरे बेटे के पेट में दर्द है।"
+ ],
+ "My wallet has been stolen.": [
+  "Mera batua chori ho gaya hai.",
+  "मेरा बटुआ चोरी हो गया है।"
+ ],
+ "near": [
+  "Nede",
+  "पास"
+ ],
+ "Nice to meet you, Luca! I'm Arjun.": [
+  "Mil ke khushi hoi, Luca! Main Arjun haan.",
+  "मिलकर खुशी हुई, Luca! मैं Arjun हूँ।"
+ ],
+ "Nice to meet you! My name is Sana.": [
+  "Mil ke khushi hoi! Mera naam Sana hai.",
+  "मिलकर खुशी हुई! मेरा नाम Sana है।"
+ ],
+ "Nice! Where are you from?": [
+  "Vadhiya! Tusin kithon ho?",
+  "बढ़िया! तुम कहाँ से हो?"
+ ],
+ "No, I've been working here for a month.": [
+  "Nahi, main ithe ikk mahine ton kamm kar reha haan.",
+  "नहीं, मैं यहाँ एक महीने से काम कर रहा हूँ।"
+ ],
+ "No, no allergies.": [
+  "Nahi, koi allergy nahi.",
+  "नहीं, कोई एलर्जी नहीं।"
+ ],
+ "No, ten minutes on foot. You see it at the end of the road.": [
+  "Nahi, paidal das minute. Sadak de ant te dikh jaavega.",
+  "नहीं, पैदल दस मिनट। सड़क के अंत में दिख जाएगा।"
+ ],
+ "No, thank you. The bill, please.": [
+  "Nahi, dhanvaad. Bill, please.",
+  "नहीं, धन्यवाद। बिल, कृपया।"
+ ],
+ "Nothing to declare at customs.": [
+  "Custom vich dassan layi kujh nahi.",
+  "कस्टम में बताने के लिए कुछ नहीं।"
+ ],
+ "Of course. Here is the ticket.": [
+  "Zaroor. Aah ticket.",
+  "ज़रूर। यह रहा टिकट।"
+ ],
+ "Officials always use the formal **Lei**: *Dove alloggia?* (Where are you staying?). Answer with short, clear sentences — that is perfectly polite.": [
+  "Afsar hamesha formal **Lei** vartde han: *Dove alloggia?* (Tusin kithe thehar rahe ho?). Chhote, saaf vaakan naal jawab devo — eh bilkul adab vala hai.",
+  "अधिकारी हमेशा औपचारिक **Lei** का प्रयोग करते हैं: *Dove alloggia?* (आप कहाँ ठहर रहे हैं?)। छोटे, साफ़ वाक्यों में जवाब दीजिए — यह बिल्कुल शिष्ट है।"
+ ],
+ "On signs, **Arrivi** = arrivals, **Partenze** = departures, **Uscita** = exit or gate, **Uscita 12** = gate 12.": [
+  "Boardan te, **Arrivi** = aun vali flights, **Partenze** = jaan vali flights, **Uscita** = bahar da rasta jaan gate, **Uscita 12** = gate 12.",
+  "संकेतों पर, **Arrivi** = आगमन, **Partenze** = प्रस्थान, **Uscita** = निकास या गेट, **Uscita 12** = गेट 12।"
+ ],
+ "on the left": [
+  "Khabbe paase",
+  "बाईं ओर"
+ ],
+ "on the right": [
+  "Sajje paase",
+  "दाईं ओर"
+ ],
+ "One tablet every eight hours. Thank you.": [
+  "Har atth ghante baad ikk goli. Dhanvaad.",
+  "हर आठ घंटे में एक गोली। धन्यवाद।"
+ ],
+ "one way": [
+  "Ikk paase (one way)",
+  "एकतरफ़ा"
+ ],
+ "One way or return?": [
+  "Ikk paase jaan aun-jaan?",
+  "एकतरफ़ा या आना-जाना?"
+ ],
+ "One way.": [
+  "Ikk paase.",
+  "एकतरफ़ा।"
+ ],
+ "Opening hours: Tuesday to Sunday, 9:00–19:00. Closed Monday. Full ticket €16, reduced for students €2.": [
+  "Khulan da samaa: Mangalvaar ton Aitvaar, 9:00–19:00. Somvaar band. Poori ticket €16, students layi chhoot vali €2.",
+  "खुलने का समय: मंगलवार से रविवार, 9:00–19:00। सोमवार बंद। पूरा टिकट €16, छात्रों के लिए रियायती €2।"
+ ],
+ "Orario: da martedì a domenica, 9:00–19:00. Lunedì chiuso. Biglietto intero 16 €, ridotto per studenti 2 €.": [
+  "Samaa: Mangalvaar ton Aitvaar, 9:00–19:00. Somvaar band. Poori ticket 16 €, students layi chhoot vali 2 €.",
+  "समय: मंगलवार से रविवार, 9:00–19:00। सोमवार बंद। पूरा टिकट 16 €, छात्रों के लिए रियायती 2 €।"
+ ],
+ "Order a full meal in a role-play restaurant, including a special request (vegetarian, no pork, no alcohol).": [
+  "Role-play restaurant vich poora khaana order karo, ikk khaas benti samet (shakahari, bina suar de maas, bina sharaab).",
+  "रोल-प्ले रेस्टोरेंट में पूरा खाना ऑर्डर कीजिए, एक खास अनुरोध समेत (शाकाहारी, बिना सूअर के मांस, बिना शराब)।"
+ ],
+ "Order a meal in the live class and ask for the bill.": [
+  "Live class vich khaana order karo te bill mango.",
+  "लाइव क्लास में खाना ऑर्डर कीजिए और बिल माँगिए।"
+ ],
+ "Order coffee at the bar, eat at a restaurant and ask for the bill.": [
+  "Bar vich coffee order karo, restaurant vich khaao te bill mango.",
+  "बार में कॉफ़ी ऑर्डर कीजिए, रेस्टोरेंट में खाइए और बिल माँगिए।"
+ ],
+ "Order food and explain what you do not eat": [
+  "Khaana order karo te dasso ki tusin ki nahi khaande",
+  "खाना ऑर्डर कीजिए और बताइए कि आप क्या नहीं खाते"
+ ],
+ "Ordering a meal": [
+  "Khaana order karna",
+  "खाना ऑर्डर करना"
+ ],
+ "Ordinare al ristorante": [
+  "Restaurant vich order karna",
+  "रेस्टोरेंट में ऑर्डर करना"
+ ],
+ "Pakistan": [
+  "Pakistan",
+  "पाकिस्तान"
+ ],
+ "Passport control": [
+  "Passport check",
+  "पासपोर्ट जाँच"
+ ],
+ "Pasta with tomato is good.": [
+  "Tamatar vala pasta vadhiya hai.",
+  "टमाटर वाला पास्ता अच्छा है।"
+ ],
+ "Perfect, I'll have the tagliatelle.": [
+  "Bilkul theek, main tagliatelle lavanga.",
+  "बिल्कुल ठीक, मैं टालियातेले लूँगा।"
+ ],
+ "Perfect, thank you.": [
+  "Bilkul theek, dhanvaad.",
+  "बिल्कुल ठीक, धन्यवाद।"
+ ],
+ "Perfect! I'll take it.": [
+  "Bilkul theek! Main lai lavanga.",
+  "बिल्कुल ठीक! मैं ले लूँगा।"
+ ],
+ "Perfect. A double room for three nights. Can I have an ID?": [
+  "Bilkul theek. Tinn raatan layi double kamra. Kya mainu koi ID mil sakdi hai?",
+  "बिल्कुल ठीक। तीन रातों के लिए डबल कमरा। क्या मुझे कोई पहचान पत्र मिल सकता है?"
+ ],
+ "Perfect. And for the tickets?": [
+  "Bilkul theek. Te ticketan layi?",
+  "बिल्कुल ठीक। और टिकट के लिए?"
+ ],
+ "Pharmacy & emergencies": [
+  "Pharmacy te emergency",
+  "फ़ार्मेसी और आपातकाल"
+ ],
+ "Pharmacy, symptoms and emergencies.": [
+  "Pharmacy, lakshan te emergency.",
+  "फ़ार्मेसी, लक्षण और आपातकाल।"
+ ],
+ "Places and directions.": [
+  "Thaavan te dishavan.",
+  "जगहें और दिशाएँ।"
+ ],
+ "Plan a day of sightseeing and present it in Italian in the live class.": [
+  "Ghumman de ikk din di yojana banao te live class vich Italian vich sunao.",
+  "घूमने के एक दिन की योजना बनाइए और लाइव क्लास में इटालियन में प्रस्तुत कीजिए।"
+ ],
+ "Please, have a seat. Here is the menu. Something to drink?": [
+  "Aao ji, baitho. Aah menu. Peen layi kujh?",
+  "आइए, बैठिए। यह रहा मेन्यू। पीने के लिए कुछ?"
+ ],
+ "Practise asking for three things: another size, another colour, and a discount.": [
+  "Tinn cheezan mangan di practice karo: hor size, hor rang, te chhoot.",
+  "तीन चीज़ें माँगने का अभ्यास कीजिए: दूसरा साइज़, दूसरा रंग, और छूट।"
+ ],
+ "Practise reporting two problems: \"La doccia non funziona.\" and \"Non c'è l'asciugamano.\"": [
+  "Do samasyavan dassan di practice karo: \"La doccia non funziona.\" te \"Non c'è l'asciugamano.\"",
+  "दो समस्याएँ बताने का अभ्यास कीजिए: \"La doccia non funziona.\" और \"Non c'è l'asciugamano.\""
+ ],
+ "Practise saying your symptoms for two problems: headache and stomach ache.": [
+  "Do samasyavan layi apne lakshan dassan di practice karo: sir dard te pet dard.",
+  "दो समस्याओं के लिए अपने लक्षण बताने का अभ्यास कीजिए: सिरदर्द और पेट दर्द।"
+ ],
+ "Practise the dialogue twice: once for a one-way ticket and once for a return.": [
+  "Gallbaat di do vaar practice karo: ikk vaar ikk paase di ticket layi te ikk vaar aun-jaan layi.",
+  "बातचीत का दो बार अभ्यास कीजिए: एक बार एकतरफ़ा टिकट के लिए और एक बार आने-जाने के लिए।"
+ ],
+ "Prepare a 1-minute chat: your country, your city, what you like in Italy and a plan for tonight.": [
+  "1 minute di gall tyar karo: tuhada desh, tuhada shehar, Italy vich tuhanu ki pasand hai te ajj raat di yojana.",
+  "1 मिनट की बात तैयार कीजिए: आपका देश, आपका शहर, इटली में आपको क्या पसंद है और आज रात की योजना।"
+ ],
+ "Prepare your answers for passport control and say them to your teacher in the live class.": [
+  "Passport check de apne jawab tyar karo te live class vich apne teacher nu sunao.",
+  "पासपोर्ट जाँच के अपने जवाब तैयार कीजिए और लाइव क्लास में अपने शिक्षक को सुनाइए।"
+ ],
+ "Prices, sizes and paying.": [
+  "Keematan, size te bhugtaan.",
+  "कीमतें, साइज़ और भुगतान।"
+ ],
+ "Primi: spaghetti al pomodoro 9 €, risotto ai funghi 12 €. Secondi: pollo arrosto 14 €, pesce alla griglia 18 €. Coperto 2 €.": [
+  "Pehla course: tamatar vale spaghetti 9 €, mushroom risotto 12 €. Mukh course: bhunneya chicken 14 €, grill keeti machhi 18 €. Coperto 2 €.",
+  "पहला कोर्स: टमाटर वाले स्पेगेटी 9 €, मशरूम रिसोट्टो 12 €। मुख्य कोर्स: भुना चिकन 14 €, ग्रिल की हुई मछली 18 €। कवर चार्ज 2 €।"
+ ],
+ "Read: a departures board": [
+  "Parho: departures board",
+  "पढ़िए: प्रस्थान बोर्ड"
+ ],
+ "Read: a menu": [
+  "Parho: menu",
+  "पढ़िए: मेन्यू"
+ ],
+ "Read: a message from a new friend": [
+  "Parho: nave dost da message",
+  "पढ़िए: नए दोस्त का संदेश"
+ ],
+ "Read: a note in your room": [
+  "Parho: tuhade kamre vich note",
+  "पढ़िए: आपके कमरे में नोट"
+ ],
+ "Read: a shop sign": [
+  "Parho: dukaan da board",
+  "पढ़िए: दुकान का बोर्ड"
+ ],
+ "Read: an airport announcement": [
+  "Parho: airport di announcement",
+  "पढ़िए: एयरपोर्ट की घोषणा"
+ ],
+ "Read: medicine instructions": [
+  "Parho: dawai diyan hidayatan",
+  "पढ़िए: दवाई के निर्देश"
+ ],
+ "Read: museum information": [
+  "Parho: museum di jaankari",
+  "पढ़िए: संग्रहालय की जानकारी"
+ ],
+ "Restaurant & café": [
+  "Restaurant te cafe",
+  "रेस्टोरेंट और कैफ़े"
+ ],
+ "return": [
+  "Aun-jaan (return)",
+  "आना-जाना (रिटर्न)"
+ ],
+ "Return, please.": [
+  "Aun-jaan di, please.",
+  "आने-जाने का, कृपया।"
+ ],
+ "Return.": [
+  "Aun-jaan.",
+  "आना-जाना।"
+ ],
+ "Right away. Are you paying together or separately?": [
+  "Hune. Ikatthe paise doge jaan alag-alag?",
+  "अभी। साथ में भुगतान करेंगे या अलग-अलग?"
+ ],
+ "Role-play passport control and the lost-luggage desk. Practise saying how long you stay and where.": [
+  "Passport check te gumm hoye saman vale desk da role-play. Dassan di practice karo ki kinna chir te kithe rukoge.",
+  "पासपोर्ट जाँच और खोए सामान वाले डेस्क का रोल-प्ले। बताने का अभ्यास कीजिए कि कितने समय और कहाँ रुकेंगे।"
+ ],
+ "Rooms, keys, breakfast and Wi-Fi.": [
+  "Kamre, chaabiyan, naashta te Wi-Fi.",
+  "कमरे, चाबियाँ, नाश्ता और वाई-फ़ाई।"
+ ],
+ "SALDI fino al 50%. I cambi sono possibili entro 30 giorni con lo scontrino. Non si accettano assegni.": [
+  "SALE 50% tak. Raseed naal 30 dinan de andar cheez badli ja sakdi hai. Cheque nahi lainde.",
+  "सेल 50% तक। रसीद के साथ 30 दिनों के अंदर चीज़ बदली जा सकती है। चेक स्वीकार नहीं।"
+ ],
+ "SALE up to 50%. Exchanges are possible within 30 days with the receipt. Cheques not accepted.": [
+  "SALE 50% tak. Raseed naal 30 dinan de andar badli ho sakdi hai. Cheque nahi lainde.",
+  "सेल 50% तक। रसीद के साथ 30 दिनों के अंदर बदली हो सकती है। चेक स्वीकार नहीं।"
+ ],
+ "Say out loud: why you visit, how long you stay and where you sleep — three sentences.": [
+  "Uchi awaaz vich kaho: tusin kyon aaye ho, kinna chir rukoge te kithe saunge — tinn vaak.",
+  "ज़ोर से कहिए: आप क्यों आए हैं, कितने समय रुकेंगे और कहाँ सोएँगे — तीन वाक्य।"
+ ],
+ "Say your dietary needs in Italian: what you don't eat and any allergy.": [
+  "Italian vich apniyan khaane diyan lodan dasso: tusin ki nahi khaande te koi allergy.",
+  "इटालियन में अपनी खाने की ज़रूरतें बताइए: आप क्या नहीं खाते और कोई एलर्जी।"
+ ],
+ "Separately, please.": [
+  "Alag-alag, please.",
+  "अलग-अलग, कृपया।"
+ ],
+ "Shop for clothes in a role-play: ask for a size, try it on, say it is too big/small, and pay.": [
+  "Role-play vich kapde khareedo: size mango, pa ke vekho, dasso ki bahut vadda/chhota hai, te paise devo.",
+  "रोल-प्ले में कपड़े खरीदिए: साइज़ माँगिए, पहनकर देखिए, बताइए कि बहुत बड़ा/छोटा है, और भुगतान कीजिए।"
+ ],
+ "Shop, ask prices and sizes, and pay": [
+  "Khareedari karo, keemat te size puchho, te paise devo",
+  "खरीदारी कीजिए, कीमत और साइज़ पूछिए, और भुगतान कीजिए"
+ ],
+ "Shopping review": [
+  "Khareedari da review",
+  "खरीदारी का रिव्यू"
+ ],
+ "Shopping words": [
+  "Khareedari de shabad",
+  "खरीदारी के शब्द"
+ ],
+ "Shops, sizes, colours and money.": [
+  "Dukaanan, size, rang te paise.",
+  "दुकानें, साइज़, रंग और पैसे।"
+ ],
+ "Since last night.": [
+  "Kal raat ton.",
+  "कल रात से।"
+ ],
+ "Since this morning.": [
+  "Ajj savere ton.",
+  "आज सुबह से।"
+ ],
+ "small": [
+  "Chhota",
+  "छोटा"
+ ],
+ "Small talk — and a final check of the whole course.": [
+  "Halki-phulki gallbaat — te poore course di aakhri jaanch.",
+  "हल्की-फुल्की बातचीत — और पूरे कोर्स की अंतिम जाँच।"
+ ],
+ "Small talk & new friends": [
+  "Halki-phulki gallbaat te nave dost",
+  "हल्की-फुल्की बातचीत और नए दोस्त"
+ ],
+ "Someone invites you and you want to go. You say…": [
+  "Koi tuhanu bulaunda hai te tusin jaana chahunde ho. Tusin kehnde ho…",
+  "कोई आपको बुलाता है और आप जाना चाहते हैं। आप कहते हैं…"
+ ],
+ "Someone says \"Giri a destra\". You…": [
+  "Koi kehnda hai \"Giri a destra\". Tusin…",
+  "कोई कहता है \"Giri a destra\"। आप…"
+ ],
+ "Speed-chatting: two minutes with each classmate about your country, what you like in Italy and your plans.": [
+  "Speed-chatting: har saathi naal do minute apne desh, Italy vich tuhanu ki pasand hai te apniyan yojanavan baare.",
+  "स्पीड-चैटिंग: हर सहपाठी के साथ दो मिनट अपने देश, इटली में आपको क्या पसंद है और अपनी योजनाओं के बारे में।"
+ ],
+ "stolen": [
+  "Chori ho gaya",
+  "चोरी हो गया"
+ ],
+ "stomach ache": [
+  "Pet dard",
+  "पेट दर्द"
+ ],
+ "Sure, it's 333 123 4567.": [
+  "Zaroor, 333 123 4567 hai.",
+  "ज़रूर, 333 123 4567 है।"
+ ],
+ "Survival Italian for Visitors": [
+  "Ghummanyan layi zaroori Italian",
+  "पर्यटकों के लिए ज़रूरी इटालियन"
+ ],
+ "Take a taxi, buy a train ticket and find the right bus.": [
+  "Taxi lao, train di ticket khareedo te sahi bus labho.",
+  "टैक्सी लीजिए, ट्रेन का टिकट खरीदिए और सही बस ढूँढिए।"
+ ],
+ "Take this: one tablet every eight hours, after meals.": [
+  "Eh lao: har atth ghante baad ikk goli, khaane ton baad.",
+  "यह लीजिए: हर आठ घंटे में एक गोली, खाने के बाद।"
+ ],
+ "Tap and repeat. Directions are short words — listen to them several times.": [
+  "Tap karo te dohrao. Dishavan chhote shabad han — inhan nu kai vaar suno.",
+  "टैप कीजिए और दोहराइए। दिशाएँ छोटे शब्द हैं — इन्हें कई बार सुनिए।"
+ ],
+ "Tap and repeat. With these words you can start a friendly chat anywhere.": [
+  "Tap karo te dohrao. Inhan shabadan naal tusin kithe vi dostana gallbaat shuru kar sakde ho.",
+  "टैप कीजिए और दोहराइए। इन शब्दों से आप कहीं भी दोस्ताना बातचीत शुरू कर सकते हैं।"
+ ],
+ "Tap each card and repeat. These are the words of every hotel reception.": [
+  "Har card te tap karo te dohrao. Eh har hotel reception de shabad han.",
+  "हर कार्ड पर टैप कीजिए और दोहराइए। ये हर होटल रिसेप्शन के शब्द हैं।"
+ ],
+ "Tap each card to hear it. These words are on every sign in an Italian airport.": [
+  "Sunan layi har card te tap karo. Eh shabad Italian airport de har board te hunde han.",
+  "सुनने के लिए हर कार्ड पर टैप कीजिए। ये शब्द इटालियन एयरपोर्ट के हर संकेत पर होते हैं।"
+ ],
+ "Tap each card. Many visitors from South Asia also learn the words for \"vegetarian\" and \"without meat\" here.": [
+  "Har card te tap karo. Dakhan Asia de bahut yatri ithe \"shakahari\" te \"bina meat\" de shabad vi sikhde han.",
+  "हर कार्ड पर टैप कीजिए। दक्षिण एशिया के बहुत-से यात्री यहाँ \"शाकाहारी\" और \"बिना मांस\" के शब्द भी सीखते हैं।"
+ ],
+ "Tap each card. Numbers and prices are easier if you listen several times.": [
+  "Har card te tap karo. Number te keematan kai vaar sunan naal saukhe ho jaande han.",
+  "हर कार्ड पर टैप कीजिए। संख्याएँ और कीमतें कई बार सुनने से आसान हो जाती हैं।"
+ ],
+ "Taxi, train & bus": [
+  "Taxi, train te bus",
+  "टैक्सी, ट्रेन और बस"
+ ],
+ "Taxis, trains, buses and tickets.": [
+  "Taxi, train, bus te ticket.",
+  "टैक्सी, ट्रेन, बस और टिकट।"
+ ],
+ "Thank you very much, very kind!": [
+  "Bahut bahut dhanvaad, bahut meharbaani!",
+  "बहुत-बहुत धन्यवाद, बहुत मेहरबानी!"
+ ],
+ "Thank you, good night!": [
+  "Dhanvaad, shubh raat!",
+  "धन्यवाद, शुभ रात्रि!"
+ ],
+ "Thank you, goodbye!": [
+  "Dhanvaad, alvida!",
+  "धन्यवाद, अलविदा!"
+ ],
+ "Thank you. The room is 204, on the second floor.": [
+  "Dhanvaad. Kamra 204 hai, duji manzil te.",
+  "धन्यवाद। कमरा 204 है, दूसरी मंज़िल पर।"
+ ],
+ "Thanks, but I can't tonight.": [
+  "Dhanvaad, par ajj raat main nahi aa sakda.",
+  "धन्यवाद, पर आज रात मैं नहीं आ सकता।"
+ ],
+ "Thanks, have a nice day!": [
+  "Dhanvaad, tuhada din vadhiya rahe!",
+  "धन्यवाद, आपका दिन अच्छा रहे!"
+ ],
+ "Thanks. And the Wi-Fi?": [
+  "Dhanvaad. Te Wi-Fi?",
+  "धन्यवाद। और वाई-फ़ाई?"
+ ],
+ "Thanks. The platform?": [
+  "Dhanvaad. Platform?",
+  "धन्यवाद। प्लेटफ़ॉर्म?"
+ ],
+ "the address": [
+  "Pata",
+  "पता"
+ ],
+ "The air-conditioning doesn't work.": [
+  "AC kamm nahi karda.",
+  "AC काम नहीं करता।"
+ ],
+ "the airport": [
+  "Airport",
+  "एयरपोर्ट"
+ ],
+ "the bathroom": [
+  "Bathroom",
+  "बाथरूम"
+ ],
+ "The bathroom is in the room.": [
+  "Bathroom kamre vich hai.",
+  "बाथरूम कमरे में है।"
+ ],
+ "the booking": [
+  "Booking",
+  "बुकिंग"
+ ],
+ "the bus": [
+  "Bus",
+  "बस"
+ ],
+ "the church": [
+  "Church (girja ghar)",
+  "चर्च (गिरजाघर)"
+ ],
+ "The church is very old.": [
+  "Church bahut purana hai.",
+  "चर्च बहुत पुराना है।"
+ ],
+ "The cover charge costs 5 euros.": [
+  "Cover charge 5 euro hai.",
+  "कवर चार्ज 5 यूरो है।"
+ ],
+ "the doctor": [
+  "Doctor",
+  "डॉक्टर"
+ ],
+ "The emergency number in Italy is…": [
+  "Italy vich emergency number hai…",
+  "इटली में आपातकालीन नंबर है…"
+ ],
+ "the entrance ticket": [
+  "Entry ticket",
+  "प्रवेश टिकट"
+ ],
+ "the espresso coffee": [
+  "Espresso coffee",
+  "एस्प्रेसो कॉफ़ी"
+ ],
+ "the exit / the gate": [
+  "Bahar da rasta / gate",
+  "निकास / गेट"
+ ],
+ "The exit is on the right.": [
+  "Bahar da rasta sajje paase hai.",
+  "निकास दाईं ओर है।"
+ ],
+ "the fitting room": [
+  "Trial room",
+  "ट्रायल रूम"
+ ],
+ "the flight": [
+  "Flight",
+  "फ़्लाइट"
+ ],
+ "The flight goes to Dhaka.": [
+  "Flight Dhaka jaandi hai.",
+  "फ़्लाइट ढाका जाती है।"
+ ],
+ "The flight is late.": [
+  "Flight late hai.",
+  "फ़्लाइट देर से है।"
+ ],
+ "The flight leaves from gate 14.": [
+  "Flight gate 14 ton jaandi hai.",
+  "फ़्लाइट गेट 14 से जाती है।"
+ ],
+ "the hospital": [
+  "Hospital",
+  "अस्पताल"
+ ],
+ "The hot water doesn't work.": [
+  "Garam paani kamm nahi karda.",
+  "गरम पानी काम नहीं करता।"
+ ],
+ "The Italian you need for a trip: airport, transport, hotel, restaurants, shopping, sightseeing and emergencies — with speaking practice.": [
+  "Safar layi zaroori Italian: airport, transport, hotel, restaurant, khareedari, ghumna-phirna te emergency — bolan di practice naal.",
+  "यात्रा के लिए ज़रूरी इटालियन: एयरपोर्ट, परिवहन, होटल, रेस्टोरेंट, खरीदारी, घूमना-फिरना और आपातकाल — बोलने के अभ्यास के साथ।"
+ ],
+ "the key": [
+  "Chaabi",
+  "चाबी"
+ ],
+ "the lift": [
+  "Lift",
+  "लिफ़्ट"
+ ],
+ "The lift is on the left.": [
+  "Lift khabbe paase hai.",
+  "लिफ़्ट बाईं ओर है।"
+ ],
+ "the luggage": [
+  "Saman",
+  "सामान"
+ ],
+ "the map": [
+  "Naqsha",
+  "नक्शा"
+ ],
+ "The medicine must be kept away from children.": [
+  "Dawai bachchiyan ton door rakhni zaroori hai.",
+  "दवाई बच्चों से दूर रखनी ज़रूरी है।"
+ ],
+ "the menu": [
+  "Menu",
+  "मेन्यू"
+ ],
+ "the museum": [
+  "Museum",
+  "संग्रहालय"
+ ],
+ "The museum is closed on Monday.": [
+  "Museum Somvaar nu band hai.",
+  "संग्रहालय सोमवार को बंद है।"
+ ],
+ "The museum is closed on Mondays.": [
+  "Museum Somvaar nu band hunda hai.",
+  "संग्रहालय सोमवार को बंद होता है।"
+ ],
+ "The museum is on the right.": [
+  "Museum sajje paase hai.",
+  "संग्रहालय दाईं ओर है।"
+ ],
+ "the passport": [
+  "Passport",
+  "पासपोर्ट"
+ ],
+ "The person speaks too fast. You say…": [
+  "Banda bahut tez bolda hai. Tusin kehnde ho…",
+  "व्यक्ति बहुत तेज़ बोलता है। आप कहते हैं…"
+ ],
+ "the pharmacy": [
+  "Pharmacy",
+  "फ़ार्मेसी"
+ ],
+ "the phone number": [
+  "Phone number",
+  "फ़ोन नंबर"
+ ],
+ "the platform": [
+  "Platform",
+  "प्लेटफ़ॉर्म"
+ ],
+ "the police": [
+  "Police",
+  "पुलिस"
+ ],
+ "the price": [
+  "Keemat",
+  "कीमत"
+ ],
+ "the reception": [
+  "Reception",
+  "रिसेप्शन"
+ ],
+ "The reduced ticket costs 16 euros.": [
+  "Chhoot vali ticket 16 euro di hai.",
+  "रियायती टिकट 16 यूरो का है।"
+ ],
+ "The roast chicken costs 14 euros.": [
+  "Bhunneya chicken 14 euro da hai.",
+  "भुना चिकन 14 यूरो का है।"
+ ],
+ "the room": [
+  "Kamra",
+  "कमरा"
+ ],
+ "the sales": [
+  "Sale",
+  "सेल"
+ ],
+ "The shirt is too small. You ask…": [
+  "Kameez bahut chhoti hai. Tusin puchhde ho…",
+  "कमीज़ बहुत छोटी है। आप पूछते हैं…"
+ ],
+ "the shop": [
+  "Dukaan",
+  "दुकान"
+ ],
+ "The shop opens at nine.": [
+  "Dukaan nau vaje khuldi hai.",
+  "दुकान नौ बजे खुलती है।"
+ ],
+ "The sign says \"Uscita\". It means…": [
+  "Board te likheya hai \"Uscita\". Isda matlab hai…",
+  "संकेत पर लिखा है \"Uscita\"। इसका मतलब है…"
+ ],
+ "the size (clothes)": [
+  "Size (kapdeyan da)",
+  "साइज़ (कपड़ों का)"
+ ],
+ "the square": [
+  "Chaunk",
+  "चौक"
+ ],
+ "the station": [
+  "Station",
+  "स्टेशन"
+ ],
+ "the stop": [
+  "Stop",
+  "स्टॉप"
+ ],
+ "the taxi": [
+  "Taxi",
+  "टैक्सी"
+ ],
+ "the taxi driver": [
+  "Taxi driver",
+  "टैक्सी ड्राइवर"
+ ],
+ "The taxi driver is kind.": [
+  "Taxi driver changa hai.",
+  "टैक्सी ड्राइवर अच्छा है।"
+ ],
+ "the ticket": [
+  "Ticket",
+  "टिकट"
+ ],
+ "The ticket office is on the left of the entrance.": [
+  "Ticket office entrance de khabbe paase hai.",
+  "टिकट ऑफ़िस प्रवेश द्वार के बाईं ओर है।"
+ ],
+ "the towel": [
+  "Tauliya",
+  "तौलिया"
+ ],
+ "the train": [
+  "Train",
+  "ट्रेन"
+ ],
+ "The train is on time.": [
+  "Train samey te hai.",
+  "ट्रेन समय पर है।"
+ ],
+ "The train leaves from platform 5.": [
+  "Train platform 5 ton jaandi hai.",
+  "ट्रेन प्लेटफ़ॉर्म 5 से जाती है।"
+ ],
+ "The train to Florence leaves at ten.": [
+  "Florence di train das vaje jaandi hai.",
+  "फ़्लोरेंस की ट्रेन दस बजे जाती है।"
+ ],
+ "the underground": [
+  "Metro (underground)",
+  "मेट्रो (भूमिगत)"
+ ],
+ "The underground is fast.": [
+  "Metro tez hai.",
+  "मेट्रो तेज़ है।"
+ ],
+ "The words you see and hear from the plane to the exit.": [
+  "Jahaz ton bahar tak jo shabad tusin vekhde te sunde ho.",
+  "विमान से बाहर तक जो शब्द आप देखते और सुनते हैं।"
+ ],
+ "There are sales in July.": [
+  "July vich sale hundi hai.",
+  "जुलाई में सेल होती है।"
+ ],
+ "There are two of us.": [
+  "Asin do jane haan.",
+  "हम दो लोग हैं।"
+ ],
+ "There is no hot water. You say…": [
+  "Garam paani nahi hai. Tusin kehnde ho…",
+  "गरम पानी नहीं है। आप कहते हैं…"
+ ],
+ "There's a train at 10:35. Is that OK?": [
+  "10:35 di train hai. Theek hai?",
+  "10:35 की ट्रेन है। ठीक है?"
+ ],
+ "They leave at eight.": [
+  "Oh atth vaje chalde han.",
+  "वे आठ बजे निकलते हैं।"
+ ],
+ "They say: “Alle nove. Mi dai il tuo numero?” — what do you answer?": [
+  "Oh kehnde han: “Alle nove. Mi dai il tuo numero?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Alle nove. Mi dai il tuo numero?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buonasera! Benvenuto. Ha una prenotazione?” — what do you answer?": [
+  "Oh kehnde han: “Buonasera! Benvenuto. Ha una prenotazione?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buonasera! Benvenuto. Ha una prenotazione?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buonasera! Quanti siete?” — what do you answer?": [
+  "Oh kehnde han: “Buonasera! Quanti siete?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buonasera! Quanti siete?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buongiorno, mi dica.” — what do you answer?": [
+  "Oh kehnde han: “Buongiorno, mi dica.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buongiorno, mi dica.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buongiorno! Posso aiutarla?” — what do you answer?": [
+  "Oh kehnde han: “Buongiorno! Posso aiutarla?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buongiorno! Posso aiutarla?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Buongiorno. Passaporto, per favore.” — what do you answer?": [
+  "Oh kehnde han: “Buongiorno. Passaporto, per favore.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Buongiorno. Passaporto, per favore.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “C'è un treno alle 10:35. Va bene?” — what do you answer?": [
+  "Oh kehnde han: “C'è un treno alle 10:35. Va bene?” — tusin ki jawab doge?",
+  "वे कहते हैं: “C'è un treno alle 10:35. Va bene?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Certo. Ecco il biglietto.” — what do you answer?": [
+  "Oh kehnde han: “Certo. Ecco il biglietto.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Certo. Ecco il biglietto.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ciao! Sei qui in vacanza?” — what do you answer?": [
+  "Oh kehnde han: “Ciao! Sei qui in vacanza?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ciao! Sei qui in vacanza?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Costa 79 euro. È in saldo.” — what do you answer?": [
+  "Oh kehnde han: “Costa 79 euro. È in saldo.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Costa 79 euro. È in saldo.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Da quando?” — what do you answer?": [
+  "Oh kehnde han: “Da quando?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Da quando?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Dove alloggia?” — what do you answer?": [
+  "Oh kehnde han: “Dove alloggia?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Dove alloggia?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “È sulla chiave: firenze2026. Buona serata!” — what do you answer?": [
+  "Oh kehnde han: “È sulla chiave: firenze2026. Buona serata!” — tusin ki jawab doge?",
+  "वे कहते हैं: “È sulla chiave: firenze2026. Buona serata!” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “È vicino! Vada sempre dritto per Via dei Fori Imperiali.” — what do you answer?": [
+  "Oh kehnde han: “È vicino! Vada sempre dritto per Via dei Fori Imperiali.” — tusin ki jawab doge?",
+  "वे कहते हैं: “È vicino! Vada sempre dritto per Via dei Fori Imperiali.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ecco la S. Come va?” — what do you answer?": [
+  "Oh kehnde han: “Ecco la S. Come va?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ecco la S. Come va?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Grazie. La camera è la 204, al secondo piano.” — what do you answer?": [
+  "Oh kehnde han: “Grazie. La camera è la 204, al secondo piano.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Grazie. La camera è la 204, al secondo piano.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “La biglietteria è a sinistra dell'ingresso.” — what do you answer?": [
+  "Oh kehnde han: “La biglietteria è a sinistra dell'ingresso.” — tusin ki jawab doge?",
+  "वे कहते हैं: “La biglietteria è a sinistra dell'ingresso.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “No, dieci minuti a piedi. Lo vede alla fine della strada.” — what do you answer?": [
+  "Oh kehnde han: “No, dieci minuti a piedi. Lo vede alla fine della strada.” — tusin ki jawab doge?",
+  "वे कहते हैं: “No, dieci minuti a piedi. Lo vede alla fine della strada.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Perfetto. Una camera doppia per tre notti. Posso avere un documento?” — what do you answer?": [
+  "Oh kehnde han: “Perfetto. Una camera doppia per tre notti. Posso avere un documento?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Perfetto. Una camera doppia per tre notti. Posso avere un documento?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Prenda questo: una compressa ogni otto ore, dopo i pasti.” — what do you answer?": [
+  "Oh kehnde han: “Prenda questo: una compressa ogni otto ore, dopo i pasti.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Prenda questo: una compressa ogni otto ore, dopo i pasti.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Qual è il motivo del viaggio?” — what do you answer?": [
+  "Oh kehnde han: “Qual è il motivo del viaggio?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Qual è il motivo del viaggio?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Se la febbre non passa, vada dal medico.” — what do you answer?": [
+  "Oh kehnde han: “Se la febbre non passa, vada dal medico.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Se la febbre non passa, vada dal medico.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sì, eccola. Il camerino è lì in fondo.” — what do you answer?": [
+  "Oh kehnde han: “Sì, eccola. Il camerino è lì in fondo.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sì, eccola. Il camerino è lì in fondo.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sì, le tagliatelle ai funghi sono vegetariane.” — what do you answer?": [
+  "Oh kehnde han: “Sì, le tagliatelle ai funghi sono vegetariane.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sì, le tagliatelle ai funghi sono vegetariane.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sì? Ha bisogno di aiuto?” — what do you answer?": [
+  "Oh kehnde han: “Sì? Ha bisogno di aiuto?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sì? Ha bisogno di aiuto?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Siete pronti per ordinare?” — what do you answer?": [
+  "Oh kehnde han: “Siete pronti per ordinare?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Siete pronti per ordinare?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Solo andata o andata e ritorno?” — what do you answer?": [
+  "Oh kehnde han: “Solo andata o andata e ritorno?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Solo andata o andata e ritorno?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Sono 45 euro.” — what do you answer?": [
+  "Oh kehnde han: “Sono 45 euro.” — tusin ki jawab doge?",
+  "वे कहते हैं: “Sono 45 euro.” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Stasera c'è un concerto in piazza. Vuoi venire?” — what do you answer?": [
+  "Oh kehnde han: “Stasera c'è un concerto in piazza. Vuoi venire?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Stasera c'è un concerto in piazza. Vuoi venire?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Ti piace Napoli?” — what do you answer?": [
+  "Oh kehnde han: “Ti piace Napoli?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Ti piace Napoli?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Tutto bene? Volete un dolce?” — what do you answer?": [
+  "Oh kehnde han: “Tutto bene? Volete un dolce?” — tusin ki jawab doge?",
+  "वे कहते हैं: “Tutto bene? Volete un dolce?” — आप क्या जवाब देंगे?"
+ ],
+ "They say: “Va bene. Buona permanenza!” — what do you answer?": [
+  "Oh kehnde han: “Va bene. Buona permanenza!” — tusin ki jawab doge?",
+  "वे कहते हैं: “Va bene. Buona permanenza!” — आप क्या जवाब देंगे?"
+ ],
+ "This is the address.": [
+  "Aah pata hai.",
+  "यह पता है।"
+ ],
+ "Together, by card.": [
+  "Ikatthe, card naal.",
+  "साथ में, कार्ड से।"
+ ],
+ "Tonight there's a concert in the square. Do you want to come?": [
+  "Ajj raat chaunk vich concert hai. Aauna chahoge?",
+  "आज रात चौक में कॉन्सर्ट है। आना चाहोगे?"
+ ],
+ "Trains, buses and taxis.": [
+  "Train, bus te taxi.",
+  "ट्रेन, बस और टैक्सी।"
+ ],
+ "Transport review": [
+  "Transport da review",
+  "परिवहन का रिव्यू"
+ ],
+ "Transport words": [
+  "Transport de shabad",
+  "परिवहन के शब्द"
+ ],
+ "Two Cokes, please.": [
+  "Do Coke, please.",
+  "दो कोक, कृपया।"
+ ],
+ "Two entrance tickets.": [
+  "Do entry ticketan.",
+  "दो प्रवेश टिकट।"
+ ],
+ "Two tickets, one reduced.": [
+  "Do ticketan, ikk chhoot vali.",
+  "दो टिकट, एक रियायती।"
+ ],
+ "Una chiacchierata": [
+  "Gappan",
+  "गपशप"
+ ],
+ "Use a city map: one student asks the way, the other gives directions. Then buy museum tickets with a student discount.": [
+  "Shehar da naqsha varto: ikk student rasta puchhda hai, duja rasta dassda hai. Phir student chhoot naal museum diyan ticketan khareedo.",
+  "शहर का नक्शा इस्तेमाल कीजिए: एक छात्र रास्ता पूछता है, दूसरा रास्ता बताता है। फिर छात्र छूट के साथ संग्रहालय के टिकट खरीदिए।"
+ ],
+ "vegetarian": [
+  "Shakahari",
+  "शाकाहारी"
+ ],
+ "What a beautiful city!": [
+  "Kinna sohna shehar hai!",
+  "कितना सुंदर शहर है!"
+ ],
+ "What is the price?": [
+  "Keemat ki hai?",
+  "कीमत क्या है?"
+ ],
+ "What is the reason for your trip?": [
+  "Tuhade safar da kaaran ki hai?",
+  "आपकी यात्रा का कारण क्या है?"
+ ],
+ "What is the Wi-Fi password?": [
+  "Wi-Fi da password ki hai?",
+  "वाई-फ़ाई का पासवर्ड क्या है?"
+ ],
+ "What size do you wear?": [
+  "Tusin kehda size pehnde ho?",
+  "आप कौन-सा साइज़ पहनते हैं?"
+ ],
+ "What time is breakfast": [
+  "Naashta kinne vaje hai",
+  "नाश्ता कितने बजे है"
+ ],
+ "Where are you staying?": [
+  "Tusin kithe thehar rahe ho?",
+  "आप कहाँ ठहर रहे हैं?"
+ ],
+ "Where is baggage claim": [
+  "Baggage claim kithe hai",
+  "बैगेज क्लेम कहाँ है"
+ ],
+ "Where is baggage claim?": [
+  "Baggage claim kithe hai?",
+  "बैगेज क्लेम कहाँ है?"
+ ],
+ "Where is my luggage?": [
+  "Mera saman kithe hai?",
+  "मेरा सामान कहाँ है?"
+ ],
+ "Where is the fitting room?": [
+  "Trial room kithe hai?",
+  "ट्रायल रूम कहाँ है?"
+ ],
+ "Where is the hospital?": [
+  "Hospital kithe hai?",
+  "अस्पताल कहाँ है?"
+ ],
+ "Where is the stop?": [
+  "Stop kithe hai?",
+  "स्टॉप कहाँ है?"
+ ],
+ "Which bus goes to the centre": [
+  "Kehdi bus centre jaandi hai",
+  "कौन-सी बस केंद्र जाती है"
+ ],
+ "Which bus goes to the centre?": [
+  "Kehdi bus centre jaandi hai?",
+  "कौन-सी बस केंद्र जाती है?"
+ ],
+ "Which platform does it leave from?": [
+  "Kehde platform ton jaandi hai?",
+  "किस प्लेटफ़ॉर्म से जाती है?"
+ ],
+ "Wi-Fi": [
+  "Wi-Fi",
+  "वाई-फ़ाई"
+ ],
+ "Will you give me your number?": [
+  "Apna number doge?",
+  "अपना नंबर दोगे?"
+ ],
+ "With people your age, Italians switch to **tu** quickly. If someone says *Diamoci del tu* (let's use \"tu\"), you can stop using **Lei**.": [
+  "Apni umar de lokan naal Italian jaldi **tu** te aa jaande han. Je koi kahe *Diamoci del tu* (\"tu\" varatiye), taan tusin **Lei** chhadd sakde ho.",
+  "अपनी उम्र के लोगों के साथ इटालियन जल्दी **tu** पर आ जाते हैं। अगर कोई कहे *Diamoci del tu* (\"tu\" इस्तेमाल करें), तो आप **Lei** छोड़ सकते हैं।"
+ ],
+ "without pork": [
+  "Bina suar de maas",
+  "बिना सूअर के मांस"
+ ],
+ "Words to say what hurts and to ask for help.": [
+  "Ki dukhda hai eh dassan te madad mangan de shabad.",
+  "क्या दर्द होता है यह बताने और मदद माँगने के शब्द।"
+ ],
+ "Write a short message to a hotel: \"Buongiorno, ho una prenotazione per due notti a nome …\".": [
+  "Hotel nu chhota message likho: \"Buongiorno, ho una prenotazione per due notti a nome …\".",
+  "होटल को छोटा संदेश लिखिए: \"Buongiorno, ho una prenotazione per due notti a nome …\"।"
+ ],
+ "Write in Italian: your name, your hotel address and one allergy, and keep it in your phone.": [
+  "Italian vich likho: tuhada naam, tuhade hotel da pata te ikk allergy, te isnu apne phone vich rakho.",
+  "इटालियन में लिखिए: आपका नाम, आपके होटल का पता और एक एलर्जी, और इसे अपने फ़ोन में रखिए।"
+ ],
+ "Write the five airport signs you would follow after landing, in order, in Italian.": [
+  "Utran ton baad jinhan panj airport boardan de pichhe tusin jaoge, unhan nu kram naal Italian vich likho.",
+  "उतरने के बाद जिन पाँच एयरपोर्ट संकेतों के पीछे आप जाएँगे, उन्हें क्रम से इटालियन में लिखिए।"
+ ],
+ "Write the price of three things you bought this week, in words: \"Il pane costa due euro.\"": [
+  "Is hafte khareediyan tinn cheezan di keemat shabadan vich likho: \"Il pane costa due euro.\"",
+  "इस हफ़्ते खरीदी तीन चीज़ों की कीमत शब्दों में लिखिए: \"Il pane costa due euro.\""
+ ],
+ "Write three sentences: where you come from, what you like in Italy and what the weather is like today.": [
+  "Tinn vaak likho: tusin kithon aaye ho, Italy vich tuhanu ki pasand hai te ajj mausam kiho jiha hai.",
+  "तीन वाक्य लिखिए: आप कहाँ से आए हैं, इटली में आपको क्या पसंद है और आज मौसम कैसा है।"
+ ],
+ "Write your perfect order in Italian: a drink, a main dish and a dessert.": [
+  "Apna pasandida order Italian vich likho: ikk drink, ikk mukh dish te ikk mitha.",
+  "अपना पसंदीदा ऑर्डर इटालियन में लिखिए: एक पेय, एक मुख्य डिश और एक मिठाई।"
+ ],
+ "Yes, a margherita pizza, please.": [
+  "Haan, ikk margherita pizza, please.",
+  "हाँ, एक मार्गेरिटा पिज़्ज़ा, कृपया।"
+ ],
+ "Yes, a tiramisù!": [
+  "Haan, ikk tiramisù!",
+  "हाँ, एक तिरामिसु!"
+ ],
+ "Yes, here it is. The fitting room is at the back there.": [
+  "Haan, aah lao. Trial room othe pichhe hai.",
+  "हाँ, यह लीजिए। ट्रायल रूम वहाँ पीछे है।"
+ ],
+ "Yes, I booked online.": [
+  "Haan, main online book keeta si.",
+  "हाँ, मैंने ऑनलाइन बुक किया था।"
+ ],
+ "Yes, I like it a lot! The pizza is excellent.": [
+  "Haan, bahut pasand hai! Pizza kamaal da hai.",
+  "हाँ, बहुत पसंद है! पिज़्ज़ा कमाल का है।"
+ ],
+ "Yes, I'll text you on WhatsApp.": [
+  "Haan, main tainu WhatsApp te message karanga.",
+  "हाँ, मैं तुम्हें WhatsApp पर संदेश करूँगा।"
+ ],
+ "Yes, I'm allergic to penicillin.": [
+  "Haan, mainu penicillin ton allergy hai.",
+  "हाँ, मुझे पेनिसिलिन से एलर्जी है।"
+ ],
+ "Yes, I'm on holiday for a week.": [
+  "Haan, main ikk hafte layi chhuttiyan te haan.",
+  "हाँ, मैं एक हफ़्ते के लिए छुट्टियों पर हूँ।"
+ ],
+ "Yes, it's beautiful, but it's hot!": [
+  "Haan, sohna hai, par garmi hai!",
+  "हाँ, सुंदर है, पर गर्मी है!"
+ ],
+ "Yes, thanks. How much is this jacket?": [
+  "Haan, dhanvaad. Eh jacket kinne di hai?",
+  "हाँ, धन्यवाद। यह जैकेट कितने की है?"
+ ],
+ "Yes, that's fine. How much is it?": [
+  "Haan, theek hai. Kinne di hai?",
+  "हाँ, ठीक है। कितने का है?"
+ ],
+ "Yes, the tagliatelle with mushrooms are vegetarian.": [
+  "Haan, mushroom vale tagliatelle shakahari han.",
+  "हाँ, मशरूम वाले टालियातेले शाकाहारी हैं।"
+ ],
+ "Yes, under the name Sharma.": [
+  "Haan, Sharma de naam te.",
+  "हाँ, Sharma के नाम पर।"
+ ],
+ "Yes? Do you need help?": [
+  "Haan? Madad chahidi hai?",
+  "हाँ? मदद चाहिए?"
+ ],
+ "Yes. Is there a vegetarian dish?": [
+  "Haan. Koi shakahari dish hai?",
+  "हाँ। कोई शाकाहारी डिश है?"
+ ],
+ "You are at Milano Centrale and want to go to Venice. Talk to the person at the ticket office.": [
+  "Tusin Milano Centrale te ho te Venice jaana chahunde ho. Ticket office vale bande naal gall karo.",
+  "आप Milano Centrale पर हैं और वेनिस जाना चाहते हैं। टिकट ऑफ़िस वाले व्यक्ति से बात कीजिए।"
+ ],
+ "You are in a clothes shop in Milan and like a blue jacket. A shop assistant comes to help you.": [
+  "Tusin Milan di ikk kapdeyan di dukaan vich ho te tuhanu ikk neeli jacket pasand hai. Ikk shop assistant madad layi aunda hai.",
+  "आप मिलान की एक कपड़ों की दुकान में हैं और आपको एक नीली जैकेट पसंद है। एक दुकान सहायक मदद के लिए आता है।"
+ ],
+ "You are in a shop and want the price. You ask…": [
+  "Tusin dukaan vich ho te keemat jaanani chahunde ho. Tusin puchhde ho…",
+  "आप दुकान में हैं और कीमत जानना चाहते हैं। आप पूछते हैं…"
+ ],
+ "You are lost near Piazza Venezia in Rome and want to go to the Colosseum. You stop a lady on the street.": [
+  "Tusin Rome vich Piazza Venezia de nede raah bhull gaye ho te Colosseum jaana chahunde ho. Tusin gali vich ikk aurat nu rokde ho.",
+  "आप रोम में Piazza Venezia के पास रास्ता भूल गए हैं और Colosseum जाना चाहते हैं। आप गली में एक महिला को रोकते हैं।"
+ ],
+ "You are sitting at a café in Naples. The young man at the next table starts a conversation.": [
+  "Tusin Naples de ikk cafe vich baithe ho. Agle mez vala jawan munda gall shuru karda hai.",
+  "आप नेपल्स के एक कैफ़े में बैठे हैं। अगली मेज़ वाला युवक बातचीत शुरू करता है।"
+ ],
+ "You arrive at a small hotel in Florence in the evening. The receptionist welcomes you.": [
+  "Tusin shaam nu Florence de ikk chhote hotel pahunchde ho. Receptionist tuhada swaagat karda hai.",
+  "आप शाम को फ़्लोरेंस के एक छोटे होटल पहुँचते हैं। रिसेप्शनिस्ट आपका स्वागत करता है।"
+ ],
+ "You can exchange a product within 30 days.": [
+  "Tusin 30 dinan de andar cheez badal sakde ho.",
+  "आप 30 दिनों के अंदर चीज़ बदल सकते हैं।"
+ ],
+ "You can take five tablets a day.": [
+  "Tusin din vich panj goliyan lai sakde ho.",
+  "आप दिन में पाँच गोलियाँ ले सकते हैं।"
+ ],
+ "You don't need the receipt to exchange.": [
+  "Badlan layi raseed di lod nahi.",
+  "बदलने के लिए रसीद की ज़रूरत नहीं।"
+ ],
+ "You have had a headache and a slight fever since this morning. You go into a pharmacy.": [
+  "Ajj savere ton tuhada sir dukh reha hai te halka bukhaar hai. Tusin pharmacy vich jaande ho.",
+  "आज सुबह से आपका सिर दुख रहा है और हल्का बुखार है। आप फ़ार्मेसी में जाते हैं।"
+ ],
+ "You have just landed in Rome. The officer at passport control asks you a few questions. Answer in Italian — tap a suggestion or say it out loud.": [
+  "Tusin hune Rome utre ho. Passport check vala afsar tuhanu kujh sawaal puchhda hai. Italian vich jawab devo — suggestion te tap karo jaan uchi awaaz vich bolo.",
+  "आप अभी रोम उतरे हैं। पासपोर्ट जाँच वाला अधिकारी आपसे कुछ सवाल पूछता है। इटालियन में जवाब दीजिए — सुझाव पर टैप कीजिए या ज़ोर से बोलिए।"
+ ],
+ "You need the emergency services. You call…": [
+  "Tuhanu emergency sewavan chahidiyan han. Tusin milaunde ho…",
+  "आपको आपातकालीन सेवाएँ चाहिए। आप मिलाते हैं…"
+ ],
+ "You walk into a trattoria in Bologna with a friend. The waiter comes to you.": [
+  "Tusin ikk dost naal Bologna de ikk trattoria vich jaande ho. Waiter tuhade kol aunda hai.",
+  "आप एक दोस्त के साथ बोलोन्या की एक ट्रैटोरिया में जाते हैं। वेटर आपके पास आता है।"
+ ],
+ "You want to go and come back. You say…": [
+  "Tusin ja ke vaapas aauna chahunde ho. Tusin kehnde ho…",
+  "आप जाकर वापस आना चाहते हैं। आप कहते हैं…"
+ ],
+ "You want to leave your bag after check-out. You ask…": [
+  "Tusin check-out ton baad apna bag chhaddna chahunde ho. Tusin puchhde ho…",
+  "आप चेक-आउट के बाद अपना बैग छोड़ना चाहते हैं। आप पूछते हैं…"
+ ],
+ "You're welcome, enjoy your visit!": [
+  "Koi gall nahi, ghumman da anand lao!",
+  "कोई बात नहीं, घूमने का आनंद लीजिए!"
+ ],
+ "Your suitcase didn't arrive. What do you say?": [
+  "Tuhada suitcase nahi aaya. Tusin ki kehnde ho?",
+  "आपका सूटकेस नहीं आया। आप क्या कहते हैं?"
+ ],
+ "Your wallet was stolen. You say…": [
+  "Tuhada batua chori ho gaya. Tusin kehnde ho…",
+  "आपका बटुआ चोरी हो गया। आप कहते हैं…"
+ ]
+}

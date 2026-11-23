@@ -96,11 +96,24 @@ public class CurriculumController(CurriculumService service) : ControllerBase
 [ApiController]
 [Authorize]
 [Route("api/learn")]
-public class LearnController(CurriculumService service, CourseService courses, Application.Interfaces.ICurrentUserService current) : ControllerBase
+public class LearnController(CurriculumService service, CourseService courses, TranslationService translations, Application.Interfaces.ICurrentUserService current) : ControllerBase
 {
+    /// <summary>
+    /// Translations (Punjabi, Hindi or Urdu) of the English content texts the student has on screen.
+    /// Returns { text: translation } only for texts that have a translation.
+    /// </summary>
+    [HttpPost("translations")]
+    public async Task<ActionResult<ApiResponse<Dictionary<string, string>>>> Translations([FromBody] TranslateTextsRequest request, CancellationToken ct)
+        => Ok(ApiResponse<Dictionary<string, string>>.Ok(await translations.TranslateAsync(request, ct)));
+
     [HttpGet("me")]
     public async Task<ActionResult<ApiResponse<LearnerSummaryDto>>> Me(CancellationToken ct)
         => Ok(ApiResponse<LearnerSummaryDto>.Ok(await service.GetLearnerSummaryAsync(ct)));
+
+    /// <summary>Saves the portal language (English, Punjabi, Hindi or Urdu) on the student's profile.</summary>
+    [HttpPut("me/language")]
+    public async Task<ActionResult<ApiResponse<string>>> SetLanguage([FromBody] SetLanguageRequest request, CancellationToken ct)
+        => Ok(ApiResponse<string>.Ok((await service.SetPreferredLanguageAsync(request, ct)).ToString()));
 
     [HttpGet("courses")]
     public async Task<ActionResult<ApiResponse<List<CourseCardDto>>>> Catalogue(CancellationToken ct)

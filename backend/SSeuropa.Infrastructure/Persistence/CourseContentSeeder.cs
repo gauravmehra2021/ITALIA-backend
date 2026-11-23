@@ -51,6 +51,7 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
             var sp = scope.ServiceProvider;
             await RemoveLegacyCoursesAsync(sp, ct);
             await SeedCoursesAsync(sp, ct);
+            await SeedTranslationsAsync(sp, ct);
         }
         catch (Exception ex)
         {
@@ -235,6 +236,62 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
             await curriculum.AddLessonAsync(l, ct);
         }
         return u.Lessons.Count;
+    }
+
+    /// <summary>
+    /// Loads the built-in Punjabi / Hindi / Urdu translations (Translations/content-translations.json,
+    /// produced by ITALIA-backend/content). New texts are added; for texts already in the
+    /// database only empty languages are filled — a translation edited by an admin is never
+    /// replaced.
+    /// </summary>
+    private async Task SeedTranslationsAsync(IServiceProvider sp, CancellationToken ct)
+    {
+        var assembly = typeof(CourseContentSeeder).Assembly;
+        var name = assembly.GetManifestResourceNames().FirstOrDefault(n => n.EndsWith(".Translations.content-translations.json", StringComparison.Ordinal));
+        if (name is null) return;
+
+        await using var stream = assembly.GetManifestResourceStream(name)!;
+        var seed = await JsonSerializer.DeserializeAsync<List<TranslationSeed>>(stream, Json, ct) ?? [];
+        var repo = sp.GetRequiredService<ITranslationRepository>();
+        var existing = (await repo.GetAllAsync(ct)).ToDictionary(t => t.Source, StringComparer.Ordinal);
+
+        var added = new List<ContentTranslation>();
+        var filled = new List<ContentTranslation>();
+        foreach (var s in seed)
+        {
+            var source = s.En?.Trim();
+            if (string.IsNullOrEmpty(source)) continue;
+            var pa = string.IsNullOrWhiteSpace(s.Pa) ? null : s.Pa.Trim();
+            var hi = string.IsNullOrWhiteSpace(s.Hi) ? null : s.Hi.Trim();
+            var ur = string.IsNullOrWhiteSpace(s.Ur) ? null : s.Ur.Trim();
+
+            if (!existing.TryGetValue(source, out var row))
+            {
+                var item = new ContentTranslation { Source = source, Punjabi = pa, Hindi = hi, Urdu = ur };
+                existing[source] = item;
+                added.Add(item);
+                continue;
+            }
+
+            var changed = false;
+            if (string.IsNullOrWhiteSpace(row.Punjabi) && pa is not null) { row.Punjabi = pa; changed = true; }
+            if (string.IsNullOrWhiteSpace(row.Hindi) && hi is not null) { row.Hindi = hi; changed = true; }
+            if (string.IsNullOrWhiteSpace(row.Urdu) && ur is not null) { row.Urdu = ur; changed = true; }
+            if (changed) filled.Add(row);
+        }
+
+        await repo.AddRangeAsync(added, ct);
+        if (filled.Count > 0) await repo.UpdateRangeAsync(filled, ct);
+        if (added.Count > 0 || filled.Count > 0)
+            logger.LogInformation("Content translations: {Added} added, {Filled} filled in.", added.Count, filled.Count);
+    }
+
+    private sealed class TranslationSeed
+    {
+        public string? En { get; set; }
+        public string? Pa { get; set; }
+        public string? Hi { get; set; }
+        public string? Ur { get; set; }
     }
 
     private sealed class CourseSeed

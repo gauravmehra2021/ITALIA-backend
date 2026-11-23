@@ -491,3 +491,45 @@ public class InMemoryLearningResourceRepository(InMemoryStore store) : ILearning
 }
 
 
+
+public class InMemoryTranslationRepository(InMemoryStore store) : ITranslationRepository
+{
+    public Task<IReadOnlyList<ContentTranslation>> GetAllAsync(CancellationToken ct = default)
+    {
+        lock (store.Translations) return Task.FromResult<IReadOnlyList<ContentTranslation>>(store.Translations.ToList());
+    }
+
+    public Task<IReadOnlyList<ContentTranslation>> GetBySourcesAsync(IReadOnlyCollection<string> sources, CancellationToken ct = default)
+    {
+        var set = sources as IReadOnlySet<string> ?? sources.ToHashSet(StringComparer.Ordinal);
+        lock (store.Translations)
+            return Task.FromResult<IReadOnlyList<ContentTranslation>>(store.Translations.Where(t => set.Contains(t.Source)).ToList());
+    }
+
+    public Task<ContentTranslation?> GetBySourceAsync(string source, CancellationToken ct = default)
+    {
+        lock (store.Translations) return Task.FromResult(store.Translations.FirstOrDefault(t => t.Source == source));
+    }
+
+    public Task AddRangeAsync(IReadOnlyCollection<ContentTranslation> items, CancellationToken ct = default)
+    {
+        lock (store.Translations)
+        {
+            var existing = store.Translations.Select(t => t.Source).ToHashSet(StringComparer.Ordinal);
+            store.Translations.AddRange(items.Where(i => existing.Add(i.Source)));
+        }
+        return Task.CompletedTask;
+    }
+
+    public Task UpdateAsync(ContentTranslation item, CancellationToken ct = default)
+    {
+        item.UpdatedAtUtc = DateTime.UtcNow;
+        return Task.CompletedTask;
+    }
+
+    public Task UpdateRangeAsync(IReadOnlyCollection<ContentTranslation> items, CancellationToken ct = default)
+    {
+        foreach (var item in items) item.UpdatedAtUtc = DateTime.UtcNow;
+        return Task.CompletedTask;
+    }
+}

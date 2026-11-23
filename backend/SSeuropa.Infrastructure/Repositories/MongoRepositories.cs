@@ -518,3 +518,51 @@ public class MongoLearningResourceRepository(MongoDbContext db) : ILearningResou
 
 
 
+
+public class MongoTranslationRepository(MongoDbContext db) : ITranslationRepository
+{
+    public async Task<IReadOnlyList<ContentTranslation>> GetAllAsync(CancellationToken ct = default) =>
+        await db.Translations.Find(FilterDefinition<ContentTranslation>.Empty).ToListAsync(ct);
+
+    public async Task<IReadOnlyList<ContentTranslation>> GetBySourcesAsync(IReadOnlyCollection<string> sources, CancellationToken ct = default)
+    {
+        if (sources.Count == 0) return [];
+        return await db.Translations.Find(Builders<ContentTranslation>.Filter.In(t => t.Source, sources)).ToListAsync(ct);
+    }
+
+    public async Task<ContentTranslation?> GetBySourceAsync(string source, CancellationToken ct = default) =>
+        await db.Translations.Find(t => t.Source == source).FirstOrDefaultAsync(ct);
+
+    public async Task AddRangeAsync(IReadOnlyCollection<ContentTranslation> items, CancellationToken ct = default)
+    {
+        if (items.Count == 0) return;
+        // Unordered: a text added meanwhile by another instance doesn't stop the rest.
+        try
+        {
+            await db.Translations.InsertManyAsync(items, new InsertManyOptions { IsOrdered = false }, ct);
+        }
+        catch (MongoBulkWriteException<ContentTranslation> ex) when (ex.WriteErrors.All(e => e.Category == ServerErrorCategory.DuplicateKey))
+        {
+        }
+    }
+
+    public Task UpdateAsync(ContentTranslation item, CancellationToken ct = default)
+    {
+        item.UpdatedAtUtc = DateTime.UtcNow;
+        return db.Translations.ReplaceOneAsync(t => t.Id == item.Id, item, cancellationToken: ct);
+    }
+
+    public async Task UpdateRangeAsync(IReadOnlyCollection<ContentTranslation> items, CancellationToken ct = default)
+    {
+        var now = DateTime.UtcNow;
+        foreach (var chunk in items.Chunk(500))
+        {
+            var models = chunk.Select(item =>
+            {
+                item.UpdatedAtUtc = now;
+                return new ReplaceOneModel<ContentTranslation>(Builders<ContentTranslation>.Filter.Eq(t => t.Id, item.Id), item);
+            }).ToList();
+            await db.Translations.BulkWriteAsync(models, new BulkWriteOptions { IsOrdered = false }, ct);
+        }
+    }
+}

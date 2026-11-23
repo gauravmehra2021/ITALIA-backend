@@ -14,6 +14,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import PDFDocument from 'pdfkit';
 import { rng, shuffle, hashString } from './lib.mjs';
+import { collectTexts } from './translatable.mjs';
 import italianA1 from './courses/italian-a1/index.mjs';
 import italianA2 from './courses/italian-a2/index.mjs';
 import italianWork from './courses/italian-work/index.mjs';
@@ -637,9 +638,11 @@ function phrasebookPdf(course) {
 
 // ── Run ─────────────────────────────────────────────────────────────────────
 
+const builtCourses = [];
 for (const course of COURSES) {
   await ensureImages(collectImages(course));
   const built = buildCourse(course);
+  builtCourses.push(built);
   const seedFile = path.join(seedDir, `${course.slug}.json`);
   fs.writeFileSync(seedFile, JSON.stringify(built, null, 2) + '\n');
   const lessons = built.units.reduce((n, u) => n + u.lessons.length, 0);
@@ -649,3 +652,96 @@ for (const course of COURSES) {
   await phrasebookPdf(course);
   console.log(`  ${course.units.length} PDF study sheets + phrasebook -> ${path.relative(here, pdfDir)}`);
 }
+
+// ── Translations (Punjabi / Hindi / Urdu of the English content) ────────────
+//
+// Source of truth: content/translations/*.json — { "English text": ["Punjabi", "Hindi"] }
+// and content/translations/urdu/*.json — { "English text": "Urdu (Urdu script)" }.
+// Punjabi meanings already written on words and dialogue lines are used too.
+// Output: ../backend/SSeuropa.Infrastructure/Translations/content-translations.json,
+// loaded by the API on startup (only empty languages are filled — admin edits win).
+
+const trDir = path.join(here, 'translations');
+const memory = new Map(); // en → { pa, hi, ur }
+const put = (en, pa, hi, ur) => {
+  const k = en.trim();
+  const cur = memory.get(k) ?? {};
+  memory.set(k, { pa: cur.pa || pa || null, hi: cur.hi || hi || null, ur: cur.ur || ur || null });
+};
+const jsonFiles = (dir) => (fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort() : []);
+for (const f of jsonFiles(trDir)) {
+  const data = JSON.parse(fs.readFileSync(path.join(trDir, f), 'utf8'));
+  for (const [en, v] of Object.entries(data)) put(en, v?.[0], v?.[1], null);
+}
+const urDir = path.join(trDir, 'urdu');
+for (const f of jsonFiles(urDir)) {
+  const data = JSON.parse(fs.readFileSync(path.join(urDir, f), 'utf8'));
+  for (const [en, v] of Object.entries(data)) put(en, null, null, typeof v === 'string' ? v : null);
+}
+for (const c of builtCourses) {
+  for (const u of c.units) for (const l of u.lessons) for (const b of l.blocks) {
+    for (const it of b.items) if (it.punjabi) put(it.english, it.punjabi, null, null);
+    for (const ln of b.lines) if (ln.punjabi) put(ln.english, ln.punjabi, null, null);
+  }
+}
+
+const used = new Set();
+const trReport = [];
+for (const c of builtCourses) {
+  const texts = collectTexts(c);
+  let pa = 0;
+  let hi = 0;
+  let ur = 0;
+  for (const t of texts) {
+    used.add(t);
+    const m = memory.get(t);
+    if (m?.pa) pa++;
+    if (m?.hi) hi++;
+    if (m?.ur) ur++;
+  }
+  const pct = (n) => Math.round((n / Math.max(1, texts.size)) * 100);
+  trReport.push(`  ${c.title}: ${texts.size} texts — Punjabi ${pa} (${pct(pa)}%), Hindi ${hi} (${pct(hi)}%), Urdu ${ur} (${pct(ur)}%)`);
+}
+const trRows = [...memory.entries()]
+  .filter(([en, v]) => used.has(en) && (v.pa || v.hi || v.ur))
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([en, v]) => ({ en, pa: v.pa, hi: v.hi, ur: v.ur }));
+const trOut = path.join(backend, 'SSeuropa.Infrastructure/Translations/content-translations.json');
+fs.mkdirSync(path.dirname(trOut), { recursive: true });
+fs.writeFileSync(trOut, JSON.stringify(trRows, null, 1) + '\n');
+console.log(`Translations: ${trRows.length} texts -> ${path.relative(here, trOut)}`);
+console.log(trReport.join('\n'));
+const unusedTr = [...memory.keys()].filter((k) => !used.has(k));
+if (unusedTr.length) console.log(`  (${unusedTr.length} translations not used by any course)`);
+
+// Work list for translators: texts still missing a language (not shipped, git-ignored).
+const todo = [...used].filter((t) => !memory.get(t)?.pa || !memory.get(t)?.hi);
+fs.mkdirSync(path.join(here, '.cache'), { recursive: true });
+fs.writeFileSync(path.join(here, '.cache', 'translations-todo.json'), JSON.stringify(todo, null, 1) + '\n');
+// Same list grouped by the first course that uses each text, with any Punjabi already known
+// (then only Hindi is missing). File name to merge into: translations/NN-<slug>.json.
+const todoByCourse = {};
+const seen = new Set();
+builtCourses.forEach((c, i) => {
+  const file = `${String(i + 1).padStart(2, '0')}-${COURSES[i].slug}.json`;
+  for (const t of collectTexts(c)) {
+    if (seen.has(t)) continue;
+    seen.add(t);
+    const m = memory.get(t);
+    if (m?.pa && m?.hi) continue;
+    (todoByCourse[file] ??= []).push(m?.pa ? { en: t, pa: m.pa } : { en: t });
+  }
+});
+fs.writeFileSync(path.join(here, '.cache', 'translations-todo-by-course.json'), JSON.stringify(todoByCourse, null, 1) + '\n');
+// Urdu work list: texts without Urdu, grouped the same way (merge into translations/urdu/NN-<slug>.json).
+const urTodo = {};
+const urSeen = new Set();
+builtCourses.forEach((c, i) => {
+  const file = `${String(i + 1).padStart(2, '0')}-${COURSES[i].slug}.json`;
+  for (const t of collectTexts(c)) {
+    if (urSeen.has(t)) continue;
+    urSeen.add(t);
+    if (!memory.get(t)?.ur) (urTodo[file] ??= []).push(t);
+  }
+});
+fs.writeFileSync(path.join(here, '.cache', 'translations-todo-urdu.json'), JSON.stringify(urTodo, null, 1) + '\n');
