@@ -533,3 +533,30 @@ public class InMemoryTranslationRepository(InMemoryStore store) : ITranslationRe
         return Task.CompletedTask;
     }
 }
+
+public class InMemoryBatchRepository(InMemoryStore store) : IBatchRepository
+{
+    public Task<Batch?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
+        Task.FromResult(store.Batches.FirstOrDefault(b => b.Id == id && !b.IsDeleted));
+
+    public Task<IReadOnlyList<Batch>> GetAllAsync(CancellationToken ct = default) =>
+        Task.FromResult<IReadOnlyList<Batch>>(store.Batches.Where(b => !b.IsDeleted).OrderBy(b => b.Name).ToList());
+
+    public Task<Batch> AddAsync(Batch batch, CancellationToken ct = default)
+    {
+        store.Batches.Add(batch);
+        return Task.FromResult(batch);
+    }
+
+    public Task UpdateAsync(Batch batch, CancellationToken ct = default)
+    {
+        batch.UpdatedAtUtc = DateTime.UtcNow;
+        return Task.CompletedTask;
+    }
+
+    public Task DeleteAsync(Guid id, CancellationToken ct = default)
+    {
+        store.Batches.RemoveAll(b => b.Id == id);
+        return Task.CompletedTask;
+    }
+}

@@ -51,5 +51,7 @@ public interface IEmailService
     Task SendPasswordResetCodeAsync(string toEmail, string code, CancellationToken ct = default);
     Task SendVerificationOtpAsync(string toEmail, string studentName, string code, CancellationToken ct = default);
     Task SendAssignmentFeedbackAsync(string toEmail, string studentName, string assignmentTitle, int marks, string? feedback, CancellationToken ct = default);
+    /// <summary>Login details for a student account created by the team, or a password reset done by the team.</summary>
+    Task SendStudentWelcomeAsync(string toEmail, string studentName, string temporaryPassword, string? batchName, bool isReset, CancellationToken ct = default);
 }
 

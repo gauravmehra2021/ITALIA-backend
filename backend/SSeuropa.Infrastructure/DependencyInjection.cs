@@ -109,6 +109,7 @@ public static class DependencyInjection
             services.AddScoped<IAuditLogRepository, MongoAuditLogRepository>();
             services.AddScoped<IAiSessionRepository, MongoAiSessionRepository>();
             services.AddScoped<IEnquiryRepository, MongoEnquiryRepository>();
+            services.AddScoped<IBatchRepository, MongoBatchRepository>();
             services.AddScoped<IAssignmentRepository, MongoAssignmentRepository>();
             services.AddScoped<ILearningResourceRepository, MongoLearningResourceRepository>();
             services.AddScoped<ICurriculumRepository, MongoCurriculumRepository>();
@@ -139,6 +140,7 @@ public static class DependencyInjection
             services.AddScoped<IAuditLogRepository, InMemoryAuditLogRepository>();
             services.AddScoped<IAiSessionRepository, InMemoryAiSessionRepository>();
             services.AddScoped<IEnquiryRepository, InMemoryEnquiryRepository>();
+            services.AddScoped<IBatchRepository, InMemoryBatchRepository>();
             services.AddScoped<IAssignmentRepository, InMemoryAssignmentRepository>();
             services.AddScoped<ILearningResourceRepository, InMemoryLearningResourceRepository>();
             services.AddScoped<ICurriculumRepository, InMemoryCurriculumRepository>();

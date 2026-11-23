@@ -224,3 +224,13 @@ public interface ICurriculumRepository
     /// <summary>Removes every unit, lesson and progress record of a course.</summary>
     Task DeleteCourseCurriculumAsync(Guid courseId, CancellationToken ct = default);
 }
+
+/// <summary>Student batches (groups) and the courses assigned to them.</summary>
+public interface IBatchRepository
+{
+    Task<Batch?> GetByIdAsync(Guid id, CancellationToken ct = default);
+    Task<IReadOnlyList<Batch>> GetAllAsync(CancellationToken ct = default);
+    Task<Batch> AddAsync(Batch batch, CancellationToken ct = default);
+    Task UpdateAsync(Batch batch, CancellationToken ct = default);
+    Task DeleteAsync(Guid id, CancellationToken ct = default);
+}

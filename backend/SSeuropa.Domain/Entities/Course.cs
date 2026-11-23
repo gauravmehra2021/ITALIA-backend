@@ -32,4 +32,9 @@ public class Course : EntityBase
     /// is never loaded again.
     /// </summary>
     public List<string> SeededUnitKeys { get; set; } = [];
+    /// <summary>
+    /// Every student may see and join this course, even without a batch (e.g. a free demo course).
+    /// Other courses are open only to students whose batch has the course assigned.
+    /// </summary>
+    public bool OpenToAll { get; set; }
 }

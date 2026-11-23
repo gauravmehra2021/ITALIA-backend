@@ -34,7 +34,8 @@ public record UserDto(
     UserRole Role,
     AccountStatus Status,
     PreferredLanguage PreferredLanguage,
-    bool EmailVerified);
+    bool EmailVerified,
+    bool MustChangePassword = false);
 
 public record ForgotPasswordRequest(string Email);
 

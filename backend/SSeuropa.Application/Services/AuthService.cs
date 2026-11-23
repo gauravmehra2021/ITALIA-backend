@@ -313,6 +313,34 @@ public class AuthService
         }, ct);
     }
 
+    /// <summary>Signed-in user replaces their password (required after a temporary password from the team).</summary>
+    public async Task<UserDto> ChangePasswordAsync(Guid userId, ChangePasswordRequest request, CancellationToken ct = default)
+    {
+        var user = await _users.GetByIdAsync(userId, ct) ?? throw new NotFoundException("User", userId);
+        if (!_hasher.Verify(request.CurrentPassword ?? "", user.PasswordHash))
+            throw new ValidationDomainException("Your current password is not correct.");
+
+        var next = request.NewPassword ?? "";
+        if (next.Length < 8)
+            throw new ValidationDomainException("The new password must be at least 8 characters.");
+        if (!next.Any(char.IsLetter) || !next.Any(char.IsDigit))
+            throw new ValidationDomainException("The new password must contain letters and at least one number.");
+        if (_hasher.Verify(next, user.PasswordHash))
+            throw new ValidationDomainException("Choose a password different from the temporary one.");
+
+        user.PasswordHash = _hasher.Hash(next);
+        user.MustChangePassword = false;
+        await _users.UpdateAsync(user, ct);
+        await _audit.AddAsync(new AuditLog
+        {
+            ActorUserId = user.Id,
+            Action = "password_changed",
+            Resource = "auth",
+            Details = $"Password changed by {user.Email}"
+        }, ct);
+        return Map(user);
+    }
+
     public async Task LogoutAsync(Guid userId, CancellationToken ct = default)
     {
         var session = await _sessions.GetActiveByUserAsync(userId, ct);
@@ -452,5 +480,6 @@ public class AuthService
         user.Role,
         user.Status,
         user.PreferredLanguage,
-        user.EmailVerified);
+        user.EmailVerified,
+        user.MustChangePassword);
 }

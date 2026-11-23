@@ -87,6 +87,35 @@ SS Europa Academic Team";
         await SendEmailAsync(toEmail, subject, body, ct);
     }
 
+    public async Task SendStudentWelcomeAsync(string toEmail, string studentName, string temporaryPassword, string? batchName, bool isReset, CancellationToken ct = default)
+    {
+        var portalUrl = _config["Email:StudentPortalUrl"] ?? "https://student.sseuropa.com";
+        var subject = isReset
+            ? "SS Europa – Your new temporary password"
+            : "Welcome to SS Europa – Your student account is ready";
+        var intro = isReset
+            ? "Your SS Europa team has reset your password. Use the temporary password below to sign in."
+            : "Welcome to SS Europa! Your team has created a student account for you so you can start learning Italian.";
+        var batchLine = string.IsNullOrWhiteSpace(batchName) ? "" : $"\nYour batch: {batchName}\n";
+        var body = $@"Hello {studentName},
+
+{intro}
+{batchLine}
+Your login details:
+Email: {toEmail}
+Temporary password: {temporaryPassword}
+Sign in here: {portalUrl}/login
+
+When you sign in for the first time you will be asked to choose your own new password.
+Please do not share this password with anyone.
+
+Buono studio!
+The SS Europa Team
+https://sseuropa.com";
+
+        await SendEmailAsync(toEmail, subject, body, ct);
+    }
+
     private async Task SendEmailAsync(string toEmail, string subject, string body, CancellationToken ct)
     {
         var smtpHost = _config["Email:SmtpHost"]

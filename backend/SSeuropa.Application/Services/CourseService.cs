@@ -15,6 +15,7 @@ public class CourseService
     private readonly IMaterialRepository? _materials;
     private readonly ICurrentUserService _current;
     private readonly ICurriculumRepository? _curriculum;
+    private readonly CourseAccessService? _access;
 
     public CourseService(
         ICourseRepository courses,
@@ -42,7 +43,20 @@ public class CourseService
         IMaterialRepository? materials,
         ICurrentUserService current,
         ICurriculumRepository? curriculum)
+        : this(courses, users, enrollments, materials, current, curriculum, null)
     {
+    }
+
+    public CourseService(
+        ICourseRepository courses,
+        IUserRepository users,
+        IEnrollmentRepository enrollments,
+        IMaterialRepository? materials,
+        ICurrentUserService current,
+        ICurriculumRepository? curriculum,
+        CourseAccessService? access)
+    {
+        _access = access;
         _curriculum = curriculum;
         _courses = courses;
         _users = users;
@@ -166,7 +180,8 @@ public class CourseService
             Status = request.Status,
             DisplayOrder = request.DisplayOrder,
             CefrLevel = string.IsNullOrWhiteSpace(request.CefrLevel) ? "A1" : request.CefrLevel.Trim().ToUpperInvariant(),
-            Category = string.IsNullOrWhiteSpace(request.Category) ? "Core" : request.Category.Trim()
+            Category = string.IsNullOrWhiteSpace(request.Category) ? "Core" : request.Category.Trim(),
+            OpenToAll = request.OpenToAll ?? false
         };
 
         await _courses.AddAsync(course, ct);
@@ -201,6 +216,7 @@ public class CourseService
         course.PaymentUrl = request.PaymentUrl ?? course.PaymentUrl;
         if (!string.IsNullOrWhiteSpace(request.CefrLevel)) course.CefrLevel = request.CefrLevel.Trim().ToUpperInvariant();
         if (!string.IsNullOrWhiteSpace(request.Category)) course.Category = request.Category.Trim();
+        if (request.OpenToAll.HasValue) course.OpenToAll = request.OpenToAll.Value;
         course.UpdatedAtUtc = DateTime.UtcNow;
 
         await _courses.UpdateAsync(course, ct);
@@ -234,9 +250,24 @@ public class CourseService
         if (course.Status != CourseStatus.Published)
             throw new ValidationDomainException("Only published courses can be enrolled.");
 
+        // Students can only join the courses of their batch (plus courses open to all).
+        if (_access is not null && !await _access.CanEnrollAsync(userId, courseId, ct))
+            throw new UnauthorizedAccessDomainException("This course is not part of your batch. Please ask your SS Europa team to add it.");
+
         var existing = await _enrollments.GetByUserAndCourseAsync(userId, courseId, ct);
-        if (existing is not null)
+        if (existing is not null && existing.Status == EnrollmentStatus.Active)
             throw new ConflictException("Already enrolled in this course.");
+        if (existing is not null)
+        {
+            // Closed earlier (e.g. moved to another batch): open it again, progress is kept.
+            existing.Status = EnrollmentStatus.Active;
+            existing.ActivatedAtUtc = DateTime.UtcNow;
+            await _enrollments.UpdateAsync(existing, ct);
+            course.EnrolledCount += 1;
+            await _courses.UpdateAsync(course, ct);
+            var owner = await _users.GetByIdAsync(userId, ct);
+            return new EnrollmentDto(existing.Id, userId, owner?.FullName ?? "", courseId, course.Title, existing.Status, existing.ActivatedAtUtc);
+        }
 
         if (course.EnrolledCount >= course.Capacity)
             throw new ValidationDomainException("Course is at capacity.");
@@ -297,7 +328,8 @@ public class CourseService
             ModulesCount: modulesCount,
             LessonsCount: lessonsCount,
             CefrLevel: c.CefrLevel,
-            Category: c.Category);
+            Category: c.Category,
+            OpenToAll: c.OpenToAll);
     }
 
     private static string GenerateSlug(string title)

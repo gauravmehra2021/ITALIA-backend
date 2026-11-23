@@ -68,6 +68,7 @@ public sealed class MongoDbContext
     public IMongoCollection<AuditLog> AuditLogs => Database.GetCollection<AuditLog>("audit_logs");
     public IMongoCollection<AiSession> AiSessions => Database.GetCollection<AiSession>("ai_sessions");
     public IMongoCollection<Enquiry> Enquiries => Database.GetCollection<Enquiry>("enquiries");
+    public IMongoCollection<Batch> Batches => Database.GetCollection<Batch>("batches");
     public IMongoCollection<ContentTranslation> Translations => Database.GetCollection<ContentTranslation>("content_translations");
     public IMongoCollection<Assignment> Assignments => Database.GetCollection<Assignment>("assignments");
     public IMongoCollection<AssignmentSubmission> AssignmentSubmissions => Database.GetCollection<AssignmentSubmission>("assignment_submissions");

@@ -566,3 +566,24 @@ public class MongoTranslationRepository(MongoDbContext db) : ITranslationReposit
         }
     }
 }
+
+public class MongoBatchRepository(MongoDbContext db) : IBatchRepository
+{
+    public async Task<Batch?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
+        await db.Batches.Find(b => b.Id == id && !b.IsDeleted).FirstOrDefaultAsync(ct);
+
+    public async Task<IReadOnlyList<Batch>> GetAllAsync(CancellationToken ct = default) =>
+        await db.Batches.Find(b => !b.IsDeleted).SortBy(b => b.Name).ToListAsync(ct);
+
+    public async Task<Batch> AddAsync(Batch batch, CancellationToken ct = default)
+    {
+        await db.Batches.InsertOneAsync(batch, cancellationToken: ct);
+        return batch;
+    }
+
+    public Task UpdateAsync(Batch batch, CancellationToken ct = default) =>
+        MongoRepoHelpers.ReplaceAsync(db.Batches, batch, ct);
+
+    public Task DeleteAsync(Guid id, CancellationToken ct = default) =>
+        db.Batches.DeleteOneAsync(b => b.Id == id, ct);
+}

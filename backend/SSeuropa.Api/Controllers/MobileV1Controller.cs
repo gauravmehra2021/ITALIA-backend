@@ -25,7 +25,8 @@ public class MobileV1Controller(
     IMaterialRepository materialRepository,
     IAssessmentRepository assessmentRepository,
     IClassRepository classRepository,
-    ICurrentUserService currentUser) : ControllerBase
+    ICurrentUserService currentUser,
+    CourseAccessService courseAccess) : ControllerBase
 {
     // ==========================================
     // Authentication
@@ -209,11 +210,17 @@ public class MobileV1Controller(
     public async Task<ActionResult<IReadOnlyList<MobileCourseSummaryDto>>> GetCatalogue(CancellationToken ct)
     {
         var allCourses = await courseRepository.GetAllAsync(ct);
-        var published = allCourses.Where(c => c.Status == CourseStatus.Published).ToList();
-
         var userId = currentUser.UserId;
+        // Signed-in students see only their batch's courses (plus courses open to all and ones they're in).
+        var visible = userId.HasValue ? await courseAccess.GetVisibleCourseIdsAsync(userId.Value, ct) : null;
+        var published = allCourses
+            .Where(c => c.Status == CourseStatus.Published && (visible is null || visible.Contains(c.Id)))
+            .ToList();
+
         var userEnrollments = userId.HasValue
-            ? (await enrollmentRepository.GetByUserAsync(userId.Value, ct)).ToDictionary(e => e.CourseId)
+            ? (await enrollmentRepository.GetByUserAsync(userId.Value, ct))
+                .Where(e => e.Status == EnrollmentStatus.Active)
+                .GroupBy(e => e.CourseId).ToDictionary(g => g.Key, g => g.First())
             : new Dictionary<Guid, Enrollment>();
 
         var result = new List<MobileCourseSummaryDto>();

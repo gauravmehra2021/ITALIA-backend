@@ -26,6 +26,8 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     [Fact]
     public async Task BuiltInA1Course_IsSeeded_AndOldDemoCoursesAreGone()
     {
+        // Students only see the courses of their batch.
+        await PlaceInBatchWithAllCoursesAsync("priya@sseuropa.demo");
         var student = await LoginAsync("priya@sseuropa.demo");
         var catalogue = await GetAsync<List<CourseCard>>("/api/learn/courses", student);
 
@@ -36,6 +38,7 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     [Fact]
     public async Task Student_EnrollsAndLearns_LessonsUnlockInOrder()
     {
+        await PlaceInBatchWithAllCoursesAsync("priya@sseuropa.demo");
         var student = await LoginAsync("priya@sseuropa.demo");
         var course = (await GetAsync<List<CourseCard>>("/api/learn/courses", student)).Single(c => c.Course.Slug == "italian-a1-foundations");
 
@@ -80,10 +83,17 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     [Fact]
     public async Task NotEnrolled_CanOpenFreePreview_ButNotOtherLessons()
     {
-        var student = await LoginAsync("student@sseuropa.demo");
+        // A brand-new student without a batch; the course is open to every student (like a free demo course).
+        var admin = await LoginAsync("admin@sseuropa.demo");
+        var a1 = (await GetAsync<List<CourseCard>>("/api/learn/courses", admin)).Single(c => c.Course.Slug == "italian-a1-foundations");
+        await SetOpenToAllAsync(a1.Course.Id, true);
+        var email = $"preview-{Guid.NewGuid():N}@example.com";
+        var created = await SendAsync<JsonElement>(HttpMethod.Post, "/api/students", admin, new { firstName = "Preview", lastName = "Student", email });
+        var student = await PasswordLoginAsync(email, created.GetProperty("temporaryPassword").GetString()!);
+
         var course = (await GetAsync<List<CourseCard>>("/api/learn/courses", student)).Single(c => c.Course.Slug == "italian-a1-foundations");
         var outline = await GetAsync<Outline>($"/api/learn/courses/{course.Course.Id}", student);
-        if (outline.IsEnrolled) return; // another test may have enrolled this demo account
+        outline.IsEnrolled.Should().BeFalse();
 
         var preview = outline.Units[0].Lessons.Single(l => l.IsFreePreview);
         (await RawAsync(HttpMethod.Get, $"/api/learn/lessons/{preview.Id}", student)).StatusCode.Should().Be(HttpStatusCode.OK);
@@ -164,6 +174,7 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     [Fact]
     public async Task DemoStudent_HasEveryLessonOpen_OtherStudentsStillUnlockInOrder()
     {
+        await PlaceInBatchWithAllCoursesAsync("student@sseuropa.demo", "priya@sseuropa.demo");
         var demo = await LoginAsync("student@sseuropa.demo");
         var course = (await GetAsync<List<CourseCard>>("/api/learn/courses", demo)).Single(c => c.Course.Slug == "corso-italiano-a0");
         var outline = await SendAsync<Outline>(HttpMethod.Post, $"/api/learn/courses/{course.Course.Id}/enroll", demo);
@@ -214,6 +225,40 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         return (await res.Content.ReadFromJsonAsync<Envelope<AuthData>>(JsonOptions))!.Data!.AccessToken;
     }
 
+    private async Task<string> PasswordLoginAsync(string email, string password)
+    {
+        var res = await _client.PostAsJsonAsync("/api/auth/login", new { email, password, deviceId = $"t-{email}", deviceName = "Test" });
+        res.StatusCode.Should().Be(HttpStatusCode.OK);
+        return (await res.Content.ReadFromJsonAsync<Envelope<AuthData>>(JsonOptions))!.Data!.AccessToken;
+    }
+
+    /// <summary>Students only see their batch's courses: put them in a new batch that has every course.</summary>
+    private async Task PlaceInBatchWithAllCoursesAsync(params string[] emails)
+    {
+        var admin = await LoginAsync("admin@sseuropa.demo");
+        var courses = await GetAsync<List<CourseCard>>("/api/learn/courses", admin);
+        var batch = await SendAsync<JsonElement>(HttpMethod.Post, "/api/batches", admin, new
+        {
+            name = $"Test batch {Guid.NewGuid():N}",
+            level = "A1",
+            courseIds = courses.Select(c => c.Course.Id).ToList()
+        });
+        var students = await GetAsync<List<StudentRow>>("/api/students", admin);
+        var ids = students.Where(s => emails.Contains(s.Email)).Select(s => s.Id).ToList();
+        ids.Should().HaveCount(emails.Length);
+        await SendAsync<JsonElement>(HttpMethod.Post, "/api/students/move", admin, new { studentIds = ids, batchId = batch.GetProperty("id").GetGuid() });
+    }
+
+    private async Task SetOpenToAllAsync(Guid courseId, bool open)
+    {
+        var admin = await LoginAsync("admin@sseuropa.demo");
+        var res = await RawAsync(HttpMethod.Get, $"/api/courses/{courseId}", admin);
+        var course = System.Text.Json.Nodes.JsonNode.Parse(await res.Content.ReadAsStringAsync())!["data"]!;
+        course["openToAll"] = open;
+        var put = await RawAsync(HttpMethod.Put, $"/api/courses/{courseId}", admin, course);
+        put.IsSuccessStatusCode.Should().BeTrue(await put.Content.ReadAsStringAsync());
+    }
+
     private async Task<HttpResponseMessage> RawAsync(HttpMethod method, string path, string token, object? body = null)
     {
         using var req = new HttpRequestMessage(method, path);
@@ -234,6 +279,7 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
 
     private sealed record Envelope<T>(bool Success, string? Message, T? Data);
     private sealed record AuthData(string AccessToken);
+    private sealed record StudentRow(Guid Id, string Email);
     private sealed record CourseInfo(Guid Id, string Title, string? Slug);
     private sealed record CourseCard(CourseInfo Course, bool IsEnrolled, int CompletionPercent, int TotalLessons);
     private sealed record LessonSummary(Guid Id, string Title, bool IsFreePreview, int ExerciseCount, bool? Locked, int? Stars);

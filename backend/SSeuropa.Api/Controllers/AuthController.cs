@@ -76,6 +76,15 @@ public class AuthController(
         return Ok(ApiResponse<object>.Ok(new { }, "Password has been successfully reset."));
     }
 
+    [HttpPost("change-password")]
+    [Authorize]
+    public async Task<ActionResult<ApiResponse<UserDto>>> ChangePassword([FromBody] ChangePasswordRequest request, CancellationToken ct)
+    {
+        if (currentUser.UserId is null) return Unauthorized();
+        var user = await authService.ChangePasswordAsync(currentUser.UserId.Value, request, ct);
+        return Ok(ApiResponse<UserDto>.Ok(user, "Password changed."));
+    }
+
     [HttpPost("logout")]
     [Authorize]
     public async Task<ActionResult<ApiResponse<object>>> Logout(CancellationToken ct)

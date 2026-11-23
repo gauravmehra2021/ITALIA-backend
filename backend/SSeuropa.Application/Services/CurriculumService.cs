@@ -20,7 +20,8 @@ public class CurriculumService(
     IProgressRepository courseProgress,
     IUserRepository users,
     ICurrentUserService current,
-    CourseService courseService)
+    CourseService courseService,
+    CourseAccessService access)
 {
     // Stars from a lesson score. 50% is the pass mark.
     public static int StarsFor(int scorePercent) => scorePercent switch
@@ -235,8 +236,11 @@ public class CurriculumService(
     public async Task<List<CourseCardDto>> GetCatalogueAsync(CancellationToken ct = default)
     {
         var userId = RequireUser();
+        // Students see only their batch's courses, courses open to all, and courses they're already in.
+        var visible = await access.GetVisibleCourseIdsAsync(userId, ct);
         var all = (await courses.GetAllAsync(ct))
             .Where(c => c.Status == CourseStatus.Published && !c.IsDeleted)
+            .Where(c => visible is null || visible.Contains(c.Id))
             .OrderBy(c => c.DisplayOrder).ThenBy(c => c.Title)
             .ToList();
 
@@ -252,6 +256,8 @@ public class CurriculumService(
         var course = await GetCourseAsync(courseId, ct);
         if (course.Status != CourseStatus.Published && !IsStaff)
             throw new NotFoundException("Course", courseId);
+        if (!IsStaff && !await access.CanSeeAsync(userId, courseId, ct))
+            throw new UnauthorizedAccessDomainException("This course is not part of your batch.");
 
         var isEnrolled = await IsEnrolledAsync(userId, courseId, ct);
         var (units, lessons) = await GetPublishedAsync(courseId, ct);
@@ -301,6 +307,9 @@ public class CurriculumService(
         var course = await GetCourseAsync(lesson.CourseId, ct);
         if (course.Status != CourseStatus.Published || lesson.Status != LessonStatus.Published)
             throw new NotFoundException("Lesson", lessonId);
+        // Free-preview lessons too: only for courses the student may see.
+        if (!await access.CanSeeAsync(userId, lesson.CourseId, ct))
+            throw new UnauthorizedAccessDomainException("This course is not part of your batch.");
 
         if (!lesson.IsFreePreview)
         {

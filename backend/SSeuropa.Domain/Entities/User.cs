@@ -22,5 +22,12 @@ public class User : EntityBase
     /// </summary>
     public bool UnlockAllLessons { get; set; }
 
+    /// <summary>Students only: the batch the student belongs to (null = not placed in a batch yet).</summary>
+    public Guid? BatchId { get; set; }
+    /// <summary>The account was created by the team, not by signing up. These students get a temporary password by email.</summary>
+    public bool AddedByStaff { get; set; }
+    /// <summary>The student must choose a new password before using the portal (set whenever a temporary password is issued).</summary>
+    public bool MustChangePassword { get; set; }
+
     public string FullName => $"{FirstName} {LastName}".Trim();
 }
