@@ -53,13 +53,126 @@ public class CurriculumService(
         EnsureStaff();
         var course = await GetCourseAsync(courseId, ct);
         var units = await curriculum.GetUnitsAsync(courseId, ct);
+        var modules = await curriculum.GetModulesAsync(courseId, ct);
         var lessons = await curriculum.GetLessonsByCourseAsync(courseId, ct);
 
-        var unitDtos = units.Select(u => ToUnitDto(u, lessons.Where(l => l.UnitId == u.Id).OrderBy(l => l.Order)
-            .Select(l => ToSummary(l)).ToList())).ToList();
+        var unitDtos = units.Select(u =>
+        {
+            var summaries = lessons.Where(l => l.UnitId == u.Id).OrderBy(l => l.Order).Select(l => ToSummary(l)).ToList();
+            return ToUnitDto(u, summaries, modules: StaffModules(modules.Where(m => m.UnitId == u.Id), summaries, lessons));
+        }).ToList();
 
+        var required = lessons.Count(l => !ModuleStructure.IsPendingVideo(l));
         return new CourseOutlineDto(
-            await courseService.GetByIdAsync(course.Id, ct), unitDtos, lessons.Count, 0, 0, 0, lessons.Count * 3, 0, false, null);
+            await courseService.GetByIdAsync(course.Id, ct), unitDtos, required, 0, 0, 0, required * 3, 0, false, null);
+    }
+
+    private static List<ModuleDto> StaffModules(IEnumerable<CourseModule> modules, List<LessonSummaryDto> summaries, IReadOnlyList<Lesson> lessons) =>
+        modules.OrderBy(m => m.Order).Select(m =>
+        {
+            var mine = summaries.Where(s => s.ModuleId == m.Id).ToList();
+            var video = lessons.FirstOrDefault(l => l.ModuleId == m.Id && l.IsModuleVideo);
+            return new ModuleDto(m.Id, m.UnitId, m.Order, m.Title, m.TitleIt, m.Description, m.ImageUrl, mine,
+                mine.Count(s => !s.VideoPending), VideoReady: video is not null && ModuleStructure.HasVideo(video), IsTest: m.IsTest);
+        }).ToList();
+
+    // ── Modules ────────────────────────────────────────────────────────────
+
+    public async Task<ModuleDto> CreateModuleAsync(Guid unitId, SaveModuleRequest request, CancellationToken ct = default)
+    {
+        var unit = await curriculum.GetUnitAsync(unitId, ct) ?? throw new NotFoundException("Unit", unitId);
+        EnsureCanEdit(await GetCourseAsync(unit.CourseId, ct));
+        Require(request.Title, "Module title");
+
+        var existing = await curriculum.GetModulesByUnitAsync(unitId, ct);
+        var module = new CourseModule
+        {
+            CourseId = unit.CourseId,
+            UnitId = unit.Id,
+            Order = existing.Count == 0 ? 1 : existing.Max(m => m.Order) + 1,
+        };
+        Apply(module, request);
+        await curriculum.AddModuleAsync(module, ct);
+        // Every module starts with its video lesson (the video itself can be added later) — test modules have none.
+        if (!module.IsTest)
+            await curriculum.AddLessonAsync(ModuleStructure.NewVideoLesson(module, unit.Status), ct);
+        await ModuleStructure.NormalizeUnitAsync(curriculum, unit.Id, ct);
+        return await GetStaffModuleAsync(module, ct);
+    }
+
+    public async Task<ModuleDto> UpdateModuleAsync(Guid moduleId, SaveModuleRequest request, CancellationToken ct = default)
+    {
+        var module = await curriculum.GetModuleAsync(moduleId, ct) ?? throw new NotFoundException("Module", moduleId);
+        EnsureCanEdit(await GetCourseAsync(module.CourseId, ct));
+        Require(request.Title, "Module title");
+
+        var oldTitle = module.Title;
+        Apply(module, request);
+        await curriculum.UpdateModuleAsync(module, ct);
+
+        // Keep the default name of the module video in step with the module name.
+        var video = (await curriculum.GetLessonsByUnitAsync(module.UnitId, ct)).FirstOrDefault(l => l.ModuleId == module.Id && l.IsModuleVideo);
+        if (video is not null && video.Title == ModuleStructure.VideoTitle(oldTitle) && oldTitle != module.Title)
+        {
+            video.Title = ModuleStructure.VideoTitle(module.Title);
+            await curriculum.UpdateLessonAsync(video, ct);
+        }
+
+        // Switched to or from "test module": add or remove the (empty) video lesson.
+        if (await curriculum.GetUnitAsync(module.UnitId, ct) is { } unit)
+            await ModuleStructure.EnsureUnitAsync(curriculum, unit, ct);
+        return await GetStaffModuleAsync(module, ct);
+    }
+
+    public async Task MoveModuleAsync(Guid moduleId, int direction, CancellationToken ct = default)
+    {
+        var module = await curriculum.GetModuleAsync(moduleId, ct) ?? throw new NotFoundException("Module", moduleId);
+        EnsureCanEdit(await GetCourseAsync(module.CourseId, ct));
+        var modules = (await curriculum.GetModulesByUnitAsync(module.UnitId, ct)).OrderBy(m => m.Order).ToList();
+        var index = modules.FindIndex(m => m.Id == moduleId);
+        var target = index + Math.Sign(direction);
+        if (target < 0 || target >= modules.Count) return;
+        (modules[index], modules[target]) = (modules[target], modules[index]);
+        for (var i = 0; i < modules.Count; i++)
+        {
+            if (modules[i].Order == i + 1) continue;
+            modules[i].Order = i + 1;
+            await curriculum.UpdateModuleAsync(modules[i], ct);
+        }
+        await ModuleStructure.NormalizeUnitAsync(curriculum, module.UnitId, ct);
+    }
+
+    public async Task DeleteModuleAsync(Guid moduleId, CancellationToken ct = default)
+    {
+        var module = await curriculum.GetModuleAsync(moduleId, ct) ?? throw new NotFoundException("Module", moduleId);
+        EnsureCanEdit(await GetCourseAsync(module.CourseId, ct));
+        await curriculum.DeleteModuleAsync(moduleId, ct);
+        await ModuleStructure.NormalizeUnitAsync(curriculum, module.UnitId, ct);
+    }
+
+    private async Task<ModuleDto> GetStaffModuleAsync(CourseModule module, CancellationToken ct)
+    {
+        var lessons = await curriculum.GetLessonsByUnitAsync(module.UnitId, ct);
+        var summaries = lessons.OrderBy(l => l.Order).Select(l => ToSummary(l)).ToList();
+        return StaffModules([module], summaries, lessons)[0];
+    }
+
+    /// <summary>The module a new lesson goes into: the one asked for, or the last module of the unit (created if the unit has none).</summary>
+    private async Task<CourseModule> ResolveModuleAsync(CourseUnit unit, Guid? moduleId, CancellationToken ct)
+    {
+        if (moduleId is { } id)
+        {
+            var chosen = await curriculum.GetModuleAsync(id, ct) ?? throw new NotFoundException("Module", id);
+            if (chosen.UnitId != unit.Id) throw new ValidationDomainException("That module belongs to another unit.");
+            return chosen;
+        }
+        var modules = await curriculum.GetModulesByUnitAsync(unit.Id, ct);
+        if (modules.Count > 0) return modules.OrderBy(m => m.Order).Last();
+
+        var module = new CourseModule { CourseId = unit.CourseId, UnitId = unit.Id, Order = 1, Title = "Module 1" };
+        await curriculum.AddModuleAsync(module, ct);
+        await curriculum.AddLessonAsync(ModuleStructure.NewVideoLesson(module, unit.Status), ct);
+        return module;
     }
 
     public async Task<UnitDto> CreateUnitAsync(Guid courseId, SaveUnitRequest request, CancellationToken ct = default)
@@ -76,7 +189,16 @@ public class CurriculumService(
         };
         Apply(unit, request);
         await curriculum.AddUnitAsync(unit, ct);
-        return ToUnitDto(unit, []);
+        // A new unit starts with its first module (and that module's video lesson).
+        await ResolveModuleAsync(unit, null, ct);
+        return await GetStaffUnitAsync(unit, ct);
+    }
+
+    private async Task<UnitDto> GetStaffUnitAsync(CourseUnit unit, CancellationToken ct)
+    {
+        var lessons = await curriculum.GetLessonsByUnitAsync(unit.Id, ct);
+        var summaries = lessons.OrderBy(l => l.Order).Select(l => ToSummary(l)).ToList();
+        return ToUnitDto(unit, summaries, modules: StaffModules(await curriculum.GetModulesByUnitAsync(unit.Id, ct), summaries, lessons));
     }
 
     public async Task<UnitDto> UpdateUnitAsync(Guid unitId, SaveUnitRequest request, CancellationToken ct = default)
@@ -87,8 +209,7 @@ public class CurriculumService(
 
         Apply(unit, request);
         await curriculum.UpdateUnitAsync(unit, ct);
-        var lessons = await curriculum.GetLessonsByUnitAsync(unit.Id, ct);
-        return ToUnitDto(unit, lessons.Select(l => ToSummary(l)).ToList());
+        return await GetStaffUnitAsync(unit, ct);
     }
 
     public async Task DeleteUnitAsync(Guid unitId, CancellationToken ct = default)
@@ -122,16 +243,24 @@ public class CurriculumService(
         EnsureCanEdit(await GetCourseAsync(unit.CourseId, ct));
         Require(request.Title, "Lesson title");
 
-        var existing = await curriculum.GetLessonsByUnitAsync(unitId, ct);
+        var module = await ResolveModuleAsync(unit, request.ModuleId, ct);
         var lesson = new Lesson
         {
             CourseId = unit.CourseId,
             UnitId = unit.Id,
-            Order = existing.Count == 0 ? 1 : existing.Max(l => l.Order) + 1
+            ModuleId = module.Id,
+            Order = int.MaxValue / 2, // last in its module; renumbered below
         };
-        Apply(lesson, request);
+        Apply(lesson, request with { Order = null });
         await curriculum.AddLessonAsync(lesson, ct);
+        await ModuleStructure.NormalizeUnitAsync(curriculum, unit.Id, ct);
         return await ToLessonDtoAsync(lesson, null, ct);
+    }
+
+    public async Task<LessonDto> CreateLessonInModuleAsync(Guid moduleId, SaveLessonRequest request, CancellationToken ct = default)
+    {
+        var module = await curriculum.GetModuleAsync(moduleId, ct) ?? throw new NotFoundException("Module", moduleId);
+        return await CreateLessonAsync(module.UnitId, request with { ModuleId = module.Id }, ct);
     }
 
     public async Task<LessonDto> UpdateLessonAsync(Guid lessonId, SaveLessonRequest request, CancellationToken ct = default)
@@ -140,18 +269,26 @@ public class CurriculumService(
         EnsureCanEdit(await GetCourseAsync(lesson.CourseId, ct));
         Require(request.Title, "Lesson title");
 
-        if (request.UnitId.HasValue && request.UnitId.Value != lesson.UnitId)
+        var oldUnitId = lesson.UnitId;
+        var targetUnitId = request.UnitId ?? lesson.UnitId;
+        var moving = targetUnitId != lesson.UnitId || (request.ModuleId.HasValue && request.ModuleId != lesson.ModuleId);
+        if (moving)
         {
-            var newUnit = await curriculum.GetUnitAsync(request.UnitId.Value, ct) ?? throw new NotFoundException("Unit", request.UnitId.Value);
+            if (lesson.IsModuleVideo)
+                throw new ValidationDomainException("The module video always stays first in its own module.");
+            var newUnit = await curriculum.GetUnitAsync(targetUnitId, ct) ?? throw new NotFoundException("Unit", targetUnitId);
             if (newUnit.CourseId != lesson.CourseId)
                 throw new ValidationDomainException("A lesson can only move to a unit of the same course.");
-            var siblings = await curriculum.GetLessonsByUnitAsync(newUnit.Id, ct);
+            var module = await ResolveModuleAsync(newUnit, request.ModuleId, ct);
             lesson.UnitId = newUnit.Id;
-            lesson.Order = siblings.Count == 0 ? 1 : siblings.Max(l => l.Order) + 1;
+            lesson.ModuleId = module.Id;
+            lesson.Order = int.MaxValue / 2; // last in the new module
         }
 
-        Apply(lesson, request);
+        Apply(lesson, moving ? request with { Order = null } : request);
         await curriculum.UpdateLessonAsync(lesson, ct);
+        await ModuleStructure.NormalizeUnitAsync(curriculum, lesson.UnitId, ct);
+        if (oldUnitId != lesson.UnitId) await ModuleStructure.NormalizeUnitAsync(curriculum, oldUnitId, ct);
         return await ToLessonDtoAsync(lesson, null, ct);
     }
 
@@ -159,25 +296,30 @@ public class CurriculumService(
     {
         var lesson = await curriculum.GetLessonAsync(lessonId, ct) ?? throw new NotFoundException("Lesson", lessonId);
         EnsureCanEdit(await GetCourseAsync(lesson.CourseId, ct));
+        if (lesson.IsModuleVideo)
+            throw new ValidationDomainException("Every module starts with its video lesson. Open it to add or change the video, or delete the whole module.");
         await curriculum.DeleteLessonAsync(lessonId, ct);
-        await RenumberLessonsAsync(lesson.UnitId, ct);
+        await ModuleStructure.NormalizeUnitAsync(curriculum, lesson.UnitId, ct);
     }
 
+    /// <summary>Moves a lesson up or down inside its module. The module video always stays first.</summary>
     public async Task MoveLessonAsync(Guid lessonId, int direction, CancellationToken ct = default)
     {
         var lesson = await curriculum.GetLessonAsync(lessonId, ct) ?? throw new NotFoundException("Lesson", lessonId);
         EnsureCanEdit(await GetCourseAsync(lesson.CourseId, ct));
-        var lessons = (await curriculum.GetLessonsByUnitAsync(lesson.UnitId, ct)).ToList();
-        var index = lessons.FindIndex(l => l.Id == lessonId);
+        if (lesson.IsModuleVideo)
+            throw new ValidationDomainException("The module video always comes first in its module.");
+        var siblings = (await curriculum.GetLessonsByUnitAsync(lesson.UnitId, ct))
+            .Where(l => l.ModuleId == lesson.ModuleId && !l.IsModuleVideo)
+            .OrderBy(l => l.Order)
+            .ToList();
+        var index = siblings.FindIndex(l => l.Id == lessonId);
         var target = index + Math.Sign(direction);
-        if (target < 0 || target >= lessons.Count) return;
-        (lessons[index], lessons[target]) = (lessons[target], lessons[index]);
-        for (var i = 0; i < lessons.Count; i++)
-        {
-            if (lessons[i].Order == i + 1) continue;
-            lessons[i].Order = i + 1;
-            await curriculum.UpdateLessonAsync(lessons[i], ct);
-        }
+        if (index < 0 || target < 0 || target >= siblings.Count) return;
+        (siblings[index].Order, siblings[target].Order) = (siblings[target].Order, siblings[index].Order);
+        await curriculum.UpdateLessonAsync(siblings[index], ct);
+        await curriculum.UpdateLessonAsync(siblings[target], ct);
+        await ModuleStructure.NormalizeUnitAsync(curriculum, lesson.UnitId, ct);
     }
 
     /// <summary>Publishes or unpublishes every unit and lesson of a course in one go.</summary>
@@ -200,7 +342,7 @@ public class CurriculumService(
     {
         EnsureStaff();
         await GetCourseAsync(courseId, ct);
-        var totalLessons = (await curriculum.GetLessonsByCourseAsync(courseId, ct)).Count(l => l.Status == LessonStatus.Published);
+        var totalLessons = (await curriculum.GetLessonsByCourseAsync(courseId, ct)).Count(l => l.Status == LessonStatus.Published && !ModuleStructure.IsPendingVideo(l));
         var progress = await curriculum.GetProgressForCourseAsync(courseId, ct);
         var courseEnrollments = (await enrollments.GetAllAsync(ct)).Where(e => e.CourseId == courseId).ToList();
 
@@ -266,6 +408,9 @@ public class CurriculumService(
             ? lessons.Select(l => l.Id).ToHashSet()
             : ComputeUnlocked(lessons, progress);
 
+        var modules = await curriculum.GetModulesAsync(courseId, ct);
+        bool Done(Lesson l) => progress.TryGetValue(l.Id, out var p) && p.Completed;
+
         var unitDtos = units.Select(u =>
         {
             var unitLessons = lessons.Where(l => l.UnitId == u.Id).ToList();
@@ -275,26 +420,50 @@ public class CurriculumService(
                 var open = IsStaff || (isEnrolled && unlocked.Contains(l.Id)) || l.IsFreePreview;
                 return ToSummary(l, p, locked: !open);
             }).ToList();
+
+            // Module cards: a module is open when one of its lessons is open, i.e. the previous
+            // module is complete (lessons unlock strictly in order through the whole course).
+            var moduleDtos = modules.Where(m => m.UnitId == u.Id).OrderBy(m => m.Order).Select(m =>
+            {
+                var mine = summaries.Where(s => s.ModuleId == m.Id).ToList();
+                var required = unitLessons.Where(l => l.ModuleId == m.Id && !ModuleStructure.IsPendingVideo(l)).ToList();
+                var video = unitLessons.FirstOrDefault(l => l.ModuleId == m.Id && l.IsModuleVideo);
+                return new ModuleDto(m.Id, m.UnitId, m.Order, m.Title, m.TitleIt, m.Description, m.ImageUrl, mine,
+                    required.Count,
+                    required.Count(Done),
+                    required.Sum(l => progress.TryGetValue(l.Id, out var p) ? p.Stars : 0),
+                    Locked: mine.Count > 0 && mine.All(s => s.Locked == true),
+                    Completed: required.Count > 0 && required.All(Done),
+                    VideoReady: video is not null && ModuleStructure.HasVideo(video),
+                    IsTest: m.IsTest);
+            }).Where(m => m.Lessons.Count > 0).ToList();
+
+            var unitRequired = unitLessons.Where(l => !ModuleStructure.IsPendingVideo(l)).ToList();
             return ToUnitDto(u, summaries,
-                completed: unitLessons.Count(l => progress.TryGetValue(l.Id, out var p) && p.Completed),
-                stars: unitLessons.Sum(l => progress.TryGetValue(l.Id, out var p) ? p.Stars : 0));
+                completed: unitRequired.Count(Done),
+                stars: unitRequired.Sum(l => progress.TryGetValue(l.Id, out var p) ? p.Stars : 0),
+                modules: moduleDtos);
         }).ToList();
 
-        var completedCount = lessons.Count(l => progress.TryGetValue(l.Id, out var p) && p.Completed);
-        var next = lessons.FirstOrDefault(l => !(progress.TryGetValue(l.Id, out var p) && p.Completed));
+        var requiredLessons = Required(lessons);
+        var completedCount = requiredLessons.Count(Done);
+        var next = requiredLessons.FirstOrDefault(l => !Done(l));
 
         return new CourseOutlineDto(
             await courseService.GetByIdAsync(courseId, ct),
             unitDtos,
-            lessons.Count,
+            requiredLessons.Count,
             completedCount,
-            Percent(completedCount, lessons.Count),
-            progress.Values.Sum(p => p.Stars),
-            lessons.Count * 3,
+            Percent(completedCount, requiredLessons.Count),
+            requiredLessons.Sum(l => progress.TryGetValue(l.Id, out var p) ? p.Stars : 0),
+            requiredLessons.Count * 3,
             progress.Values.Sum(p => p.XpEarned),
             isEnrolled,
             next?.Id);
     }
+
+    /// <summary>Lessons that count for progress: everything except module videos that have no video yet.</summary>
+    private static List<Lesson> Required(IEnumerable<Lesson> lessons) => lessons.Where(l => !ModuleStructure.IsPendingVideo(l)).ToList();
 
     public async Task<LessonDto> GetLessonAsync(Guid lessonId, CancellationToken ct = default)
     {
@@ -331,6 +500,8 @@ public class CurriculumService(
         // Same access rules as opening the lesson.
         await GetLessonAsync(lessonId, ct);
         var lesson = (await curriculum.GetLessonAsync(lessonId, ct))!;
+        if (ModuleStructure.IsPendingVideo(lesson))
+            throw new ValidationDomainException("This video isn't ready yet. You can go on to the next lesson.");
 
         var score = Math.Clamp(request.ScorePercent, 0, 100);
         // Lessons without exercises (e.g. a video) count as fully completed.
@@ -367,15 +538,18 @@ public class CurriculumService(
         await curriculum.UpsertProgressAsync(progress, ct);
 
         // Course-level progress + daily streak (shared with dashboards and the mobile app).
-        var (units, lessons) = await GetPublishedAsync(lesson.CourseId, ct);
+        var (_, published) = await GetPublishedAsync(lesson.CourseId, ct);
+        var lessons = Required(published);
         var all = (await curriculum.GetProgressAsync(userId, lesson.CourseId, ct)).ToDictionary(p => p.LessonId);
-        var completedCount = lessons.Count(l => all.TryGetValue(l.Id, out var p) && p.Completed);
+        bool Done(Lesson l) => all.TryGetValue(l.Id, out var p) && p.Completed;
+        var completedCount = lessons.Count(Done);
         var coursePercent = Percent(completedCount, lessons.Count);
         var streak = await UpdateCourseProgressAsync(userId, lesson.CourseId, coursePercent, all.Values, now, ct);
 
-        var unitLessons = lessons.Where(l => l.UnitId == lesson.UnitId).ToList();
-        var unitCompleted = !wasCompleted && progress.Completed
-            && unitLessons.All(l => all.TryGetValue(l.Id, out var p) && p.Completed);
+        var justCompleted = !wasCompleted && progress.Completed;
+        var unitCompleted = justCompleted && lessons.Where(l => l.UnitId == lesson.UnitId).All(Done);
+        var moduleCompleted = justCompleted && lesson.ModuleId.HasValue
+            && lessons.Where(l => l.ModuleId == lesson.ModuleId).All(Done);
         var index = lessons.FindIndex(l => l.Id == lesson.Id);
         var next = index >= 0 && index + 1 < lessons.Count ? lessons[index + 1] : null;
 
@@ -393,7 +567,8 @@ public class CurriculumService(
             coursePercent,
             next?.Id,
             unitCompleted,
-            completedCount == lessons.Count && lessons.Count > 0);
+            completedCount == lessons.Count && lessons.Count > 0,
+            moduleCompleted);
     }
 
     /// <summary>Languages the student portal is translated into.</summary>
@@ -459,7 +634,7 @@ public class CurriculumService(
 
     private async Task<CourseCardDto> BuildCardAsync(Course c, Guid userId, CancellationToken ct)
     {
-        var (_, lessons) = await GetPublishedAsync(c.Id, ct);
+        var lessons = Required((await GetPublishedAsync(c.Id, ct)).Lessons);
         var progress = (await curriculum.GetProgressAsync(userId, c.Id, ct)).ToDictionary(p => p.LessonId);
         var completed = lessons.Count(l => progress.TryGetValue(l.Id, out var p) && p.Completed);
         var next = lessons.FirstOrDefault(l => !(progress.TryGetValue(l.Id, out var p) && p.Completed));
@@ -509,13 +684,17 @@ public class CurriculumService(
     /// <summary>A lesson is unlocked when it's the first lesson, or the lesson before it is completed.</summary>
     private static HashSet<Guid> ComputeUnlocked(List<Lesson> orderedLessons, Dictionary<Guid, LessonProgress> progress)
     {
+        // A module video that has no video yet ("coming soon") is passed as soon as it is open,
+        // so it never blocks the next lesson. Modules open in order as a consequence: the first
+        // lesson of a module opens only when the last lesson of the previous module is completed.
         var unlocked = new HashSet<Guid>();
-        for (var i = 0; i < orderedLessons.Count; i++)
+        var previousPassed = true;
+        foreach (var lesson in orderedLessons)
         {
-            var open = i == 0
-                || (progress.TryGetValue(orderedLessons[i - 1].Id, out var prev) && prev.Completed)
-                || (progress.TryGetValue(orderedLessons[i].Id, out var self) && self.Completed);
-            if (open) unlocked.Add(orderedLessons[i].Id);
+            var completed = progress.TryGetValue(lesson.Id, out var self) && self.Completed;
+            var open = previousPassed || completed;
+            if (open) unlocked.Add(lesson.Id);
+            previousPassed = completed || (open && ModuleStructure.IsPendingVideo(lesson));
         }
         return unlocked;
     }
@@ -539,12 +718,21 @@ public class CurriculumService(
         }
         var index = ordered.FindIndex(x => x.Id == l.Id);
 
+        // Students skip module videos that aren't ready yet when going back and forth.
+        bool Visible(Lesson x) => IsStaff || !ModuleStructure.IsPendingVideo(x);
+        Guid? previous = null, next = null;
+        for (var i = index - 1; i >= 0; i--) if (Visible(ordered[i])) { previous = ordered[i].Id; break; }
+        if (index >= 0) for (var i = index + 1; i < ordered.Count; i++) if (Visible(ordered[i])) { next = ordered[i].Id; break; }
+
+        var module = l.ModuleId is { } moduleId ? await curriculum.GetModuleAsync(moduleId, ct) : null;
+
         return new LessonDto(
             l.Id, l.CourseId, l.UnitId, unit?.Title ?? string.Empty, l.Order, l.Title, l.TitleIt, l.Kind, l.Summary,
             l.EstimatedMinutes, l.XpReward, l.Status, l.IsFreePreview, l.Blocks, l.Exercises, l.Homework,
-            index > 0 ? ordered[index - 1].Id : null,
-            index >= 0 && index + 1 < ordered.Count ? ordered[index + 1].Id : null,
-            p?.Stars, p?.BestScorePercent, p?.Completed);
+            previous,
+            next,
+            p?.Stars, p?.BestScorePercent, p?.Completed,
+            l.ModuleId, module?.Title, l.IsModuleVideo, ModuleStructure.IsPendingVideo(l));
     }
 
     private static LessonSummaryDto ToSummary(Lesson l, LessonProgress? p = null, bool? locked = null) => new(
@@ -558,11 +746,23 @@ public class CurriculumService(
         locked is null ? null : p?.Completed ?? false,
         locked is null ? null : p?.Stars ?? 0,
         locked is null ? null : p?.BestScorePercent ?? 0,
-        locked);
+        locked,
+        l.ModuleId,
+        l.IsModuleVideo,
+        ModuleStructure.IsPendingVideo(l));
 
-    private static UnitDto ToUnitDto(CourseUnit u, List<LessonSummaryDto> lessons, int completed = 0, int stars = 0) => new(
+    private static UnitDto ToUnitDto(CourseUnit u, List<LessonSummaryDto> lessons, int completed = 0, int stars = 0, List<ModuleDto>? modules = null) => new(
         u.Id, u.CourseId, u.Order, u.Title, u.TitleIt, u.Description, u.CanDo, u.ImageUrl, u.PdfUrl, u.LiveClassFocus,
-        u.Status, lessons, completed, stars);
+        u.Status, lessons, completed, stars, modules ?? []);
+
+    private static void Apply(CourseModule module, SaveModuleRequest r)
+    {
+        module.Title = r.Title.Trim();
+        module.TitleIt = r.TitleIt?.Trim() ?? string.Empty;
+        module.Description = r.Description?.Trim() ?? string.Empty;
+        module.ImageUrl = Blank(r.ImageUrl);
+        if (r.IsTest.HasValue) module.IsTest = r.IsTest.Value;
+    }
 
     private static void Apply(CourseUnit unit, SaveUnitRequest r)
     {
@@ -581,7 +781,8 @@ public class CurriculumService(
     {
         lesson.Title = r.Title.Trim();
         lesson.TitleIt = r.TitleIt?.Trim() ?? string.Empty;
-        lesson.Kind = r.Kind;
+        // The module video is always a video lesson.
+        lesson.Kind = lesson.IsModuleVideo ? LessonKind.Video : r.Kind;
         lesson.Summary = r.Summary?.Trim() ?? string.Empty;
         lesson.EstimatedMinutes = Math.Clamp(r.EstimatedMinutes, 1, 180);
         lesson.XpReward = Math.Clamp(r.XpReward, 0, 500);
@@ -625,17 +826,6 @@ public class CurriculumService(
             if (units[i].Order == i + 1) continue;
             units[i].Order = i + 1;
             await curriculum.UpdateUnitAsync(units[i], ct);
-        }
-    }
-
-    private async Task RenumberLessonsAsync(Guid unitId, CancellationToken ct)
-    {
-        var lessons = await curriculum.GetLessonsByUnitAsync(unitId, ct);
-        for (var i = 0; i < lessons.Count; i++)
-        {
-            if (lessons[i].Order == i + 1) continue;
-            lessons[i].Order = i + 1;
-            await curriculum.UpdateLessonAsync(lessons[i], ct);
         }
     }
 

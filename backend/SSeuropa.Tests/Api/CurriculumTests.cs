@@ -46,8 +46,11 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         enrolled.IsEnrolled.Should().BeTrue();
         enrolled.Units.Should().HaveCount(10);
 
-        var first = enrolled.Units[0].Lessons[0];
-        var second = enrolled.Units[0].Lessons[1];
+        // Every module starts with its video; it has no video yet here, so it doesn't block.
+        var study = enrolled.Units[0].Lessons.Where(l => !l.IsModuleVideo).ToList();
+        enrolled.Units[0].Lessons[0].IsModuleVideo.Should().BeTrue();
+        var first = study[0];
+        var second = study[1];
         first.Locked.Should().BeFalse();
         second.Locked.Should().BeTrue();
 
@@ -73,7 +76,7 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
 
         var outline = await GetAsync<Outline>($"/api/learn/courses/{course.Course.Id}", student);
         outline.CompletedLessons.Should().Be(1);
-        outline.Units[0].Lessons[0].Stars.Should().Be(3);
+        outline.Units[0].Lessons.Single(l => l.Id == first.Id).Stars.Should().Be(3);
 
         var me = await GetAsync<LearnerSummary>("/api/learn/me", student);
         me.TotalXp.Should().BeGreaterThan(0);
@@ -138,7 +141,9 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         lesson.Title.Should().Be("Saluti");
 
         var outline = await GetAsync<Outline>($"/api/curriculum/courses/{courseRes.Id}", teacher);
-        outline.Units.Single().Lessons.Single().ExerciseCount.Should().Be(1);
+        // A new unit starts with a module whose first lesson is the module video.
+        outline.Units.Single().Lessons[0].IsModuleVideo.Should().BeTrue();
+        outline.Units.Single().Lessons.Single(l => !l.IsModuleVideo).ExerciseCount.Should().Be(1);
 
         var student = await LoginAsync("priya@sseuropa.demo");
         (await RawAsync(HttpMethod.Post, $"/api/curriculum/courses/{courseRes.Id}/units", student, new { title = "Nope" }))
@@ -203,7 +208,7 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         outline.Units.Select(u => u.Title).Should().HaveCount(5).And.AllSatisfy(t => t.Should().StartWith("Chapter"));
 
         // Words carry their Punjabi meaning.
-        var first = await SendAsync<JsonElement>(HttpMethod.Get, $"/api/curriculum/lessons/{outline.Units[0].Lessons[0].Id}", admin);
+        var first = await SendAsync<JsonElement>(HttpMethod.Get, $"/api/curriculum/lessons/{outline.Units[0].Lessons.First(l => !l.IsModuleVideo).Id}", admin);
         first.GetRawText().Should().Contain("\"punjabi\":\"Kelā\"");
 
         // Chapter test: 55% is below the school's 60% pass mark, 65% passes.
@@ -282,7 +287,7 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     private sealed record StudentRow(Guid Id, string Email);
     private sealed record CourseInfo(Guid Id, string Title, string? Slug);
     private sealed record CourseCard(CourseInfo Course, bool IsEnrolled, int CompletionPercent, int TotalLessons);
-    private sealed record LessonSummary(Guid Id, string Title, bool IsFreePreview, int ExerciseCount, bool? Locked, int? Stars);
+    private sealed record LessonSummary(Guid Id, string Title, bool IsFreePreview, int ExerciseCount, bool? Locked, int? Stars, bool IsModuleVideo);
     private sealed record UnitData(Guid Id, int Order, string Title, List<LessonSummary> Lessons);
     private sealed record Outline(CourseInfo Course, List<UnitData> Units, int TotalLessons, int CompletedLessons, bool IsEnrolled);
     private sealed record Block(string Type);

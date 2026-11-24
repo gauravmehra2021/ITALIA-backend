@@ -51,6 +51,7 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
             var sp = scope.ServiceProvider;
             await RemoveLegacyCoursesAsync(sp, ct);
             await SeedCoursesAsync(sp, ct);
+            await EnsureModulesAsync(sp, ct);
             await SeedTranslationsAsync(sp, ct);
         }
         catch (Exception ex)
@@ -61,6 +62,22 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
     }
 
     public Task StopAsync(CancellationToken ct) => Task.CompletedTask;
+
+    /// <summary>
+    /// Every course follows Unit → Module → Lesson, each module starting with its video lesson.
+    /// Content made before modules existed is grouped into modules once; nothing is deleted.
+    /// </summary>
+    private async Task EnsureModulesAsync(IServiceProvider sp, CancellationToken ct)
+    {
+        var courses = sp.GetRequiredService<ICourseRepository>();
+        var curriculum = sp.GetRequiredService<ICurriculumRepository>();
+        foreach (var course in (await courses.GetAllAsync(ct)).Where(c => !c.IsDeleted))
+        {
+            var changes = await SSeuropa.Application.Services.ModuleStructure.EnsureCourseAsync(curriculum, course.Id, ct);
+            if (changes > 0)
+                logger.LogInformation("Organised course '{Title}' into modules ({Changes} changes).", course.Title, changes);
+        }
+    }
 
     private async Task RemoveLegacyCoursesAsync(IServiceProvider sp, CancellationToken ct)
     {
@@ -94,6 +111,7 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
             await mongo.Certificates.DeleteManyAsync(c => ids.Contains(c.CourseId), ct);
             await mongo.LessonProgress.DeleteManyAsync(p => ids.Contains(p.CourseId), ct);
             await mongo.Lessons.DeleteManyAsync(l => ids.Contains(l.CourseId), ct);
+            await mongo.CourseModules.DeleteManyAsync(m => ids.Contains(m.CourseId), ct);
             await mongo.CourseUnits.DeleteManyAsync(u => ids.Contains(u.CourseId), ct);
             await mongo.Courses.DeleteManyAsync(c => ids.Contains(c.Id), ct);
         }
@@ -117,6 +135,7 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
             memory.Certificates.RemoveAll(c => ids.Contains(c.CourseId));
             memory.LessonProgress.RemoveAll(p => ids.Contains(p.CourseId));
             memory.Lessons.RemoveAll(l => ids.Contains(l.CourseId));
+            memory.CourseModules.RemoveAll(m => ids.Contains(m.CourseId));
             memory.CourseUnits.RemoveAll(u => ids.Contains(u.CourseId));
             memory.Courses.RemoveAll(c => ids.Contains(c.Id));
         }

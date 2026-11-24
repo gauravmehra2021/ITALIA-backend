@@ -53,6 +53,7 @@ public sealed class MongoDbContext
     public IMongoCollection<Enrollment> Enrollments => Database.GetCollection<Enrollment>("enrollments");
     public IMongoCollection<Material> Materials => Database.GetCollection<Material>("materials");
     public IMongoCollection<CourseUnit> CourseUnits => Database.GetCollection<CourseUnit>("course_units");
+    public IMongoCollection<CourseModule> CourseModules => Database.GetCollection<CourseModule>("course_modules");
     public IMongoCollection<Lesson> Lessons => Database.GetCollection<Lesson>("lessons");
     public IMongoCollection<LessonProgress> LessonProgress => Database.GetCollection<LessonProgress>("lesson_progress");
     public IMongoCollection<Assessment> Assessments => Database.GetCollection<Assessment>("assessments");

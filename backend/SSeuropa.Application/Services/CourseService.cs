@@ -308,7 +308,8 @@ public class CourseService
         if (units.Count > 0)
         {
             modulesCount = units.Count;
-            lessonsCount = (await _curriculum!.GetLessonsByCourseAsync(c.Id, ct)).Count;
+            // Module videos that have no video yet don't count as lessons.
+            lessonsCount = (await _curriculum!.GetLessonsByCourseAsync(c.Id, ct)).Count(l => !ModuleStructure.IsPendingVideo(l));
         }
         else
         {

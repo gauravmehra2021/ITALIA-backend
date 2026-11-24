@@ -22,8 +22,32 @@ public class MongoCurriculumRepository(MongoDbContext db) : ICurriculumRepositor
     public async Task DeleteUnitAsync(Guid id, CancellationToken ct = default)
     {
         await db.Lessons.DeleteManyAsync(l => l.UnitId == id, ct);
+        await db.CourseModules.DeleteManyAsync(m => m.UnitId == id, ct);
         await db.LessonProgress.DeleteManyAsync(p => p.UnitId == id, ct);
         await db.CourseUnits.DeleteOneAsync(u => u.Id == id, ct);
+    }
+
+    public async Task<IReadOnlyList<CourseModule>> GetModulesAsync(Guid courseId, CancellationToken ct = default) =>
+        await db.CourseModules.Find(m => m.CourseId == courseId).SortBy(m => m.Order).ToListAsync(ct);
+
+    public async Task<IReadOnlyList<CourseModule>> GetModulesByUnitAsync(Guid unitId, CancellationToken ct = default) =>
+        await db.CourseModules.Find(m => m.UnitId == unitId).SortBy(m => m.Order).ToListAsync(ct);
+
+    public async Task<CourseModule?> GetModuleAsync(Guid id, CancellationToken ct = default) =>
+        await db.CourseModules.Find(m => m.Id == id).FirstOrDefaultAsync(ct);
+
+    public Task AddModuleAsync(CourseModule module, CancellationToken ct = default) =>
+        db.CourseModules.InsertOneAsync(module, cancellationToken: ct);
+
+    public Task UpdateModuleAsync(CourseModule module, CancellationToken ct = default) =>
+        MongoRepoHelpers.ReplaceAsync(db.CourseModules, module, ct);
+
+    public async Task DeleteModuleAsync(Guid id, CancellationToken ct = default)
+    {
+        var lessonIds = await db.Lessons.Find(l => l.ModuleId == id).Project(l => l.Id).ToListAsync(ct);
+        await db.LessonProgress.DeleteManyAsync(p => lessonIds.Contains(p.LessonId), ct);
+        await db.Lessons.DeleteManyAsync(l => l.ModuleId == id, ct);
+        await db.CourseModules.DeleteOneAsync(m => m.Id == id, ct);
     }
 
     public async Task<IReadOnlyList<Lesson>> GetLessonsByCourseAsync(Guid courseId, CancellationToken ct = default) =>
@@ -74,6 +98,7 @@ public class MongoCurriculumRepository(MongoDbContext db) : ICurriculumRepositor
         await db.LessonProgress.DeleteManyAsync(p => p.CourseId == courseId, ct);
         await db.Lessons.DeleteManyAsync(l => l.CourseId == courseId, ct);
         await db.CourseUnits.DeleteManyAsync(u => u.CourseId == courseId, ct);
+        await db.CourseModules.DeleteManyAsync(m => m.CourseId == courseId, ct);
     }
 }
 
@@ -111,8 +136,44 @@ public class InMemoryCurriculumRepository(InMemoryStore store) : ICurriculumRepo
         lock (_gate)
         {
             store.Lessons.RemoveAll(l => l.UnitId == id);
+            store.CourseModules.RemoveAll(m => m.UnitId == id);
             store.LessonProgress.RemoveAll(p => p.UnitId == id);
             store.CourseUnits.RemoveAll(u => u.Id == id);
+        }
+        return Task.CompletedTask;
+    }
+
+    public Task<IReadOnlyList<CourseModule>> GetModulesAsync(Guid courseId, CancellationToken ct = default) =>
+        List(store.CourseModules.Where(m => m.CourseId == courseId).OrderBy(m => m.Order));
+
+    public Task<IReadOnlyList<CourseModule>> GetModulesByUnitAsync(Guid unitId, CancellationToken ct = default) =>
+        List(store.CourseModules.Where(m => m.UnitId == unitId).OrderBy(m => m.Order));
+
+    public Task<CourseModule?> GetModuleAsync(Guid id, CancellationToken ct = default)
+    {
+        lock (_gate) return Task.FromResult(store.CourseModules.FirstOrDefault(m => m.Id == id));
+    }
+
+    public Task AddModuleAsync(CourseModule module, CancellationToken ct = default)
+    {
+        lock (_gate) store.CourseModules.Add(module);
+        return Task.CompletedTask;
+    }
+
+    public Task UpdateModuleAsync(CourseModule module, CancellationToken ct = default)
+    {
+        module.UpdatedAtUtc = DateTime.UtcNow;
+        return Task.CompletedTask;
+    }
+
+    public Task DeleteModuleAsync(Guid id, CancellationToken ct = default)
+    {
+        lock (_gate)
+        {
+            var lessonIds = store.Lessons.Where(l => l.ModuleId == id).Select(l => l.Id).ToHashSet();
+            store.LessonProgress.RemoveAll(p => lessonIds.Contains(p.LessonId));
+            store.Lessons.RemoveAll(l => l.ModuleId == id);
+            store.CourseModules.RemoveAll(m => m.Id == id);
         }
         return Task.CompletedTask;
     }
@@ -182,6 +243,7 @@ public class InMemoryCurriculumRepository(InMemoryStore store) : ICurriculumRepo
             store.LessonProgress.RemoveAll(p => p.CourseId == courseId);
             store.Lessons.RemoveAll(l => l.CourseId == courseId);
             store.CourseUnits.RemoveAll(u => u.CourseId == courseId);
+            store.CourseModules.RemoveAll(m => m.CourseId == courseId);
         }
         return Task.CompletedTask;
     }

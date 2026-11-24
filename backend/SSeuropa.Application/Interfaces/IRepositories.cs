@@ -208,6 +208,14 @@ public interface ICurriculumRepository
     Task UpdateUnitAsync(CourseUnit unit, CancellationToken ct = default);
     Task DeleteUnitAsync(Guid id, CancellationToken ct = default);
 
+    Task<IReadOnlyList<CourseModule>> GetModulesAsync(Guid courseId, CancellationToken ct = default);
+    Task<IReadOnlyList<CourseModule>> GetModulesByUnitAsync(Guid unitId, CancellationToken ct = default);
+    Task<CourseModule?> GetModuleAsync(Guid id, CancellationToken ct = default);
+    Task AddModuleAsync(CourseModule module, CancellationToken ct = default);
+    Task UpdateModuleAsync(CourseModule module, CancellationToken ct = default);
+    /// <summary>Removes the module, its lessons and the progress in those lessons.</summary>
+    Task DeleteModuleAsync(Guid id, CancellationToken ct = default);
+
     Task<IReadOnlyList<Lesson>> GetLessonsByCourseAsync(Guid courseId, CancellationToken ct = default);
     Task<IReadOnlyList<Lesson>> GetLessonsByUnitAsync(Guid unitId, CancellationToken ct = default);
     Task<Lesson?> GetLessonAsync(Guid id, CancellationToken ct = default);

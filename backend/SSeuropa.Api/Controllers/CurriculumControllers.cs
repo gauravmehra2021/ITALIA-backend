@@ -65,6 +65,34 @@ public class CurriculumController(CurriculumService service) : ControllerBase
         return Ok(ApiResponse<object>.Ok(new { }, "Unit deleted."));
     }
 
+    // ── Modules (groups of lessons inside a unit; each starts with its video lesson) ──
+
+    [HttpPost("units/{unitId:guid}/modules")]
+    public async Task<ActionResult<ApiResponse<ModuleDto>>> CreateModule(Guid unitId, [FromBody] SaveModuleRequest request, CancellationToken ct)
+        => Ok(ApiResponse<ModuleDto>.Ok(await service.CreateModuleAsync(unitId, request, ct), "Module created with its video lesson."));
+
+    [HttpPut("modules/{moduleId:guid}")]
+    public async Task<ActionResult<ApiResponse<ModuleDto>>> UpdateModule(Guid moduleId, [FromBody] SaveModuleRequest request, CancellationToken ct)
+        => Ok(ApiResponse<ModuleDto>.Ok(await service.UpdateModuleAsync(moduleId, request, ct), "Module saved."));
+
+    [HttpPost("modules/{moduleId:guid}/move")]
+    public async Task<ActionResult<ApiResponse<object>>> MoveModule(Guid moduleId, [FromBody] MoveRequest request, CancellationToken ct)
+    {
+        await service.MoveModuleAsync(moduleId, request.Direction, ct);
+        return Ok(ApiResponse<object>.Ok(new { }));
+    }
+
+    [HttpDelete("modules/{moduleId:guid}")]
+    public async Task<ActionResult<ApiResponse<object>>> DeleteModule(Guid moduleId, CancellationToken ct)
+    {
+        await service.DeleteModuleAsync(moduleId, ct);
+        return Ok(ApiResponse<object>.Ok(new { }, "Module deleted."));
+    }
+
+    [HttpPost("modules/{moduleId:guid}/lessons")]
+    public async Task<ActionResult<ApiResponse<LessonDto>>> CreateLessonInModule(Guid moduleId, [FromBody] SaveLessonRequest request, CancellationToken ct)
+        => Ok(ApiResponse<LessonDto>.Ok(await service.CreateLessonInModuleAsync(moduleId, request, ct), "Lesson created."));
+
     [HttpPost("units/{unitId:guid}/lessons")]
     public async Task<ActionResult<ApiResponse<LessonDto>>> CreateLesson(Guid unitId, [FromBody] SaveLessonRequest request, CancellationToken ct)
         => Ok(ApiResponse<LessonDto>.Ok(await service.CreateLessonAsync(unitId, request, ct), "Lesson created."));

@@ -26,7 +26,11 @@ public record LessonSummaryDto(
     bool? Completed = null,
     int? Stars = null,
     int? BestScorePercent = null,
-    bool? Locked = null);
+    bool? Locked = null,
+    Guid? ModuleId = null,
+    bool IsModuleVideo = false,
+    /// <summary>Module video without a video yet ("coming soon"): it never blocks the student.</summary>
+    bool VideoPending = false);
 
 public record UnitDto(
     Guid Id,
@@ -42,7 +46,29 @@ public record UnitDto(
     LessonStatus Status,
     List<LessonSummaryDto> Lessons,
     int CompletedLessons = 0,
-    int Stars = 0);
+    int Stars = 0,
+    List<ModuleDto>? Modules = null);
+
+/// <summary>
+/// A group of lessons inside a unit, shown to students as a card. Locked until the previous module
+/// is complete (every lesson done, tests passed). Lessons are in order, the module video first.
+/// </summary>
+public record ModuleDto(
+    Guid Id,
+    Guid UnitId,
+    int Order,
+    string Title,
+    string TitleIt,
+    string Description,
+    string? ImageUrl,
+    List<LessonSummaryDto> Lessons,
+    int TotalLessons,
+    int CompletedLessons = 0,
+    int Stars = 0,
+    bool? Locked = null,
+    bool? Completed = null,
+    bool VideoReady = false,
+    bool IsTest = false);
 
 public record CourseOutlineDto(
     CourseDto Course,
@@ -77,7 +103,11 @@ public record LessonDto(
     Guid? NextLessonId,
     int? Stars = null,
     int? BestScorePercent = null,
-    bool? Completed = null);
+    bool? Completed = null,
+    Guid? ModuleId = null,
+    string? ModuleTitle = null,
+    bool IsModuleVideo = false,
+    bool VideoPending = false);
 
 // ── Staff: editing ───────────────────────────────────────────────────────────
 
@@ -105,7 +135,16 @@ public record SaveLessonRequest(
     List<LessonExercise>? Exercises = null,
     string? Homework = null,
     int? Order = null,
-    Guid? UnitId = null);
+    Guid? UnitId = null,
+    Guid? ModuleId = null);
+
+public record SaveModuleRequest(
+    string Title,
+    string? TitleIt = null,
+    string? Description = null,
+    string? ImageUrl = null,
+    /// <summary>Test module: no video lesson.</summary>
+    bool? IsTest = null);
 
 public record MoveRequest(int Direction);
 
@@ -128,7 +167,8 @@ public record LessonResultDto(
     int CourseCompletionPercent,
     Guid? NextLessonId,
     bool UnitCompleted,
-    bool CourseCompleted);
+    bool CourseCompleted,
+    bool ModuleCompleted = false);
 
 public record CourseCardDto(
     CourseDto Course,

@@ -9,7 +9,9 @@ namespace SSeuropa.Domain.Entities;
 //   Course (CEFR level or track)
 //     └─ Unit  = one real-life topic ≈ one week, with "can-do" goals,
 //               a printable study sheet (PDF) and a live speaking class
-//          └─ Lesson = 5–15 min self-study, one goal
+//          └─ Module = a group of lessons (e.g. one classroom class); starts with a video
+//               and opens when the previous module is complete
+//               └─ Lesson = 5–15 min self-study, one goal
 //               ├─ Blocks    : what the student studies (words, dialogue,
 //               │              grammar notes, video, audio, image, PDF, tips)
 //               └─ Exercises : what the student practises (listen & pick,
@@ -18,6 +20,24 @@ namespace SSeuropa.Domain.Entities;
 // Students earn 0–3 stars and XP per lesson (LessonProgress). Course
 // completion is derived from completed lessons.
 // ─────────────────────────────────────────────────────────────────────────────
+
+/// <summary>
+/// A module groups the lessons of a unit (e.g. one classroom "Lezione"): it always starts with a
+/// video lesson (except test modules), and the next module opens only when every lesson of this one is completed.
+/// </summary>
+public class CourseModule : EntityBase
+{
+    public Guid CourseId { get; set; }
+    public Guid UnitId { get; set; }
+    /// <summary>Position inside the unit (1, 2, 3…).</summary>
+    public int Order { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public string TitleIt { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public string? ImageUrl { get; set; }
+    /// <summary>A test module (e.g. the chapter test): it has no video lesson.</summary>
+    public bool IsTest { get; set; }
+}
 
 public class CourseUnit : EntityBase
 {
@@ -56,6 +76,13 @@ public class Lesson : EntityBase
     public List<LessonExercise> Exercises { get; set; } = [];
     /// <summary>Speaking/writing task to prepare for the live class.</summary>
     public string? Homework { get; set; }
+    /// <summary>The module (group of lessons inside the unit) this lesson belongs to.</summary>
+    public Guid? ModuleId { get; set; }
+    /// <summary>
+    /// The video lesson every module starts with. It always stays first in its module and can't be
+    /// deleted on its own. Until a video is added it shows "video coming soon" and doesn't block students.
+    /// </summary>
+    public bool IsModuleVideo { get; set; }
 }
 
 public class LessonBlock

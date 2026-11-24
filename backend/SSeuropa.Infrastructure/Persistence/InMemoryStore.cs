@@ -17,6 +17,7 @@ public class InMemoryStore
     public List<Enrollment> Enrollments { get; } = [];
     public List<Material> Materials { get; } = [];
     public List<CourseUnit> CourseUnits { get; } = [];
+    public List<CourseModule> CourseModules { get; } = [];
     public List<Lesson> Lessons { get; } = [];
     public List<LessonProgress> LessonProgress { get; } = [];
     public List<Assessment> Assessments { get; } = [];
