@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SSeuropa.Api.Storage;
 using SSeuropa.Application.Common;
 using SSeuropa.Application.DTOs;
 using SSeuropa.Application.Interfaces;
@@ -214,18 +215,22 @@ public class UploadsController(
         )));
     }
 
+    // Local stand-in for an S3 upload (only used when no AWS keys are set).
+    // Staff only, and the key must stay inside the uploads folder: before, anyone could write
+    // any file anywhere on the server with a key like "../../appsettings.json".
     [HttpPut("local-direct")]
-    [AllowAnonymous]
-    [RequestSizeLimit(500 * 1024 * 1024)]
-    public async Task<IActionResult> LocalDirectUpload([FromQuery] string key, CancellationToken ct)
+    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [RequestSizeLimit(UploadStorage.MaxUploadBytes)]
+    public async Task<IActionResult> LocalDirectUpload([FromQuery] string key, [FromServices] IConfiguration config, CancellationToken ct)
     {
-        var sanitizedKey = key.TrimStart('/').Replace('\\', '/');
-        var fullPath = Path.Combine(env.ContentRootPath, "uploads", sanitizedKey);
-        var dir = Path.GetDirectoryName(fullPath);
-        if (dir is not null && !Directory.Exists(dir))
+        var root = UploadStorage.Root(config, env);
+        var fullPath = UploadStorage.SafePath(root, key);
+        if (fullPath is null || !key.TrimStart('/').StartsWith("courses/", StringComparison.Ordinal))
         {
-            Directory.CreateDirectory(dir);
+            return BadRequest(new { success = false, message = "Invalid upload key." });
         }
+        var sanitizedKey = Path.GetRelativePath(root, fullPath).Replace('\\', '/');
+        Directory.CreateDirectory(Path.GetDirectoryName(fullPath)!);
 
         await using var targetStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write);
         await Request.Body.CopyToAsync(targetStream, ct);

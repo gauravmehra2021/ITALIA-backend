@@ -1,6 +1,9 @@
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Http.Features;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.OpenApi;
 using SSeuropa.Api.Middleware;
+using SSeuropa.Api.Storage;
 using SSeuropa.Application;
 using SSeuropa.Infrastructure;
 
@@ -98,8 +101,20 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 
+// Lesson videos up to 500 MB: the default form limit (128 MB) would reject them.
+builder.Services.Configure<FormOptions>(o => o.MultipartBodyLengthLimit = UploadStorage.MaxUploadBytes);
+
+// Behind nginx / a load balancer: read the original https scheme and host from the proxy headers.
+builder.Services.Configure<ForwardedHeadersOptions>(o =>
+{
+    o.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto | ForwardedHeaders.XForwardedHost;
+    o.KnownIPNetworks.Clear();
+    o.KnownProxies.Clear();
+});
+
 var app = builder.Build();
 
+app.UseForwardedHeaders();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 if (app.Environment.IsDevelopment())
@@ -120,11 +135,7 @@ app.UseStaticFiles(new StaticFileOptions
     }
 });
 
-var uploadsDir = Path.Combine(app.Environment.ContentRootPath, "uploads");
-if (!Directory.Exists(uploadsDir))
-{
-    Directory.CreateDirectory(uploadsDir);
-}
+var uploadsDir = UploadStorage.Root(app.Configuration, app.Environment);
 
 app.UseStaticFiles(new StaticFileOptions
 {

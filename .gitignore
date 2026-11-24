@@ -42,3 +42,6 @@ extract-doc.ps1
 
 # Content build cache
 content/.cache/
+
+# Files uploaded by teachers at runtime (lesson videos, images, PDFs) — never commit them
+backend/SSeuropa.Api/uploads/

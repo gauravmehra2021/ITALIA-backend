@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SSeuropa.Application.Common;
 using SSeuropa.Application.DTOs;
+using SSeuropa.Api.Storage;
 
 namespace SSeuropa.Api.Controllers;
 
@@ -32,7 +33,8 @@ public class MediaController : ControllerBase
 
     [HttpPost("upload")]
     [Authorize(Roles = "Admin,SuperAdmin,Mentor")]
-    [RequestSizeLimit(500 * 1024 * 1024)] // 500 MB max for video lectures
+    [RequestSizeLimit(UploadStorage.MaxUploadBytes)] // 500 MB max for video lectures
+    [RequestFormLimits(MultipartBodyLengthLimit = UploadStorage.MaxUploadBytes)]
     public async Task<ActionResult<ApiResponse<FileUploadResponse>>> Upload(
         [FromForm] IFormFile? file,
         [FromForm] string? category,
@@ -53,11 +55,9 @@ public class MediaController : ControllerBase
         var sanitizedCategory = string.IsNullOrWhiteSpace(category) ? "general" : category.Trim().ToLowerInvariant();
         sanitizedCategory = new string(sanitizedCategory.Where(c => char.IsLetterOrDigit(c) || c == '-').ToArray());
 
-        var uploadsRoot = Path.Combine(_env.ContentRootPath, "uploads", sanitizedCategory);
-        if (!Directory.Exists(uploadsRoot))
-        {
-            Directory.CreateDirectory(uploadsRoot);
-        }
+        if (string.IsNullOrEmpty(sanitizedCategory)) sanitizedCategory = "general";
+        var uploadsRoot = Path.Combine(UploadStorage.Root(_config, _env), sanitizedCategory);
+        Directory.CreateDirectory(uploadsRoot);
 
         var cleanFileName = Path.GetFileNameWithoutExtension(file.FileName);
         cleanFileName = new string(cleanFileName.Where(c => char.IsLetterOrDigit(c) || c == '_' || c == '-').ToArray());
@@ -71,11 +71,9 @@ public class MediaController : ControllerBase
             await file.CopyToAsync(stream, ct);
         }
 
-        // Generate public accessible URL
-        var request = HttpContext.Request;
-        var baseUrl = $"{request.Scheme}://{request.Host}";
+        // Public link: Storage:PublicBaseUrl on a live server, otherwise the (proxy-aware) request address.
         var relativeUrl = $"/uploads/{sanitizedCategory}/{storedFileName}";
-        var absoluteUrl = $"{baseUrl}{relativeUrl}";
+        var absoluteUrl = UploadStorage.PublicUrl(_config, HttpContext.Request, relativeUrl);
 
         var response = new FileUploadResponse(
             Url: absoluteUrl,
