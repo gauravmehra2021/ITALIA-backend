@@ -224,6 +224,19 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
             lessonCount += await AddUnitAsync(course.Id, u, nextOrder++, curriculum, ct);
             course.SeededUnitKeys.Add(u.UnitKey);
         }
+
+        // The new chapters can change what the course covers (e.g. A0 → A2). Refresh the
+        // course texts too, but only while the title is still one of the built-in ones:
+        // a course an admin has renamed keeps all of its texts.
+        if (seed.PreviousTitles.Contains(course.Title.Trim(), StringComparer.OrdinalIgnoreCase))
+        {
+            course.Title = seed.Title;
+            course.ShortDescription = seed.ShortDescription;
+            course.Description = seed.Description;
+            course.Objectives = seed.Objectives;
+            course.CefrLevel = seed.CefrLevel;
+            course.DurationWeeks = seed.DurationWeeks;
+        }
         await courses.UpdateAsync(course, ct);
         logger.LogInformation("Added {Units} new units ({Lessons} lessons) to course '{Title}': {Keys}",
             missing.Count, lessonCount, course.Title, string.Join(", ", missing.Select(u => u.UnitKey)));
@@ -326,6 +339,8 @@ public sealed class CourseContentSeeder(IServiceScopeFactory scopes, ILogger<Cou
         public int DurationWeeks { get; set; }
         public int DisplayOrder { get; set; }
         public string? ThumbnailUrl { get; set; }
+        /// <summary>Earlier built-in titles of this course (see AppendNewUnitsAsync).</summary>
+        public List<string> PreviousTitles { get; set; } = [];
         public List<UnitSeed> Units { get; set; } = [];
     }
 

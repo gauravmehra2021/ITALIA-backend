@@ -35,7 +35,7 @@ public class ModuleTests : IClassFixture<WebApplicationFactory<Program>>
         var outline = await GetAsync<Outline>($"/api/curriculum/courses/{course.Course.Id}", admin);
 
         // Placeholder videos don't count as lessons.
-        course.TotalLessons.Should().Be(65);
+        course.TotalLessons.Should().Be(156);
 
         var unit = outline.Units[0];
         unit.Modules.Select(m => m.Title).Should().StartWith(["Lezione 1", "Lezione 2"]);
@@ -49,6 +49,16 @@ public class ModuleTests : IClassFixture<WebApplicationFactory<Program>>
         // Lesson numbers run through the whole unit, module after module.
         unit.Lessons.Select(l => l.Order).Should().Equal(Enumerable.Range(1, unit.Lessons.Count));
         unit.Modules.SelectMany(m => m.Lessons).Select(l => l.Id).Should().Equal(unit.Lessons.Select(l => l.Id));
+
+        // Every chapter has Lezione 1–4 and ends with its test (Chapter 7: final A1, Chapter 12: final A2).
+        outline.Units.Should().HaveCount(12).And.AllSatisfy(u =>
+        {
+            u.Modules.Take(4).Select(m => m.Title).Should().Equal("Lezione 1", "Lezione 2", "Lezione 3", "Lezione 4");
+            u.Modules.Should().HaveCount(5);
+            u.Modules[^1].IsTest.Should().BeTrue();
+        });
+        outline.Units[6].Modules[^1].Title.Should().Be("Final A1 test (Chapters 1–7)");
+        outline.Units[11].Modules[^1].Title.Should().Be("Final A2 test (Chapters 8–12)");
     }
 
     [Fact]

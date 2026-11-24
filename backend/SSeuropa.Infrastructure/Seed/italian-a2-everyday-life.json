@@ -10,6 +10,7 @@
   "durationWeeks": 8,
   "displayOrder": 2,
   "thumbnailUrl": "/content/img/books.png",
+  "previousTitles": [],
   "units": [
     {
       "key": "unit-1",

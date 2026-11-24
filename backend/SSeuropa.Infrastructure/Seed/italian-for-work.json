@@ -10,6 +10,7 @@
   "durationWeeks": 10,
   "displayOrder": 3,
   "thumbnailUrl": "/content/img/briefcase.png",
+  "previousTitles": [],
   "units": [
     {
       "key": "unit-1",

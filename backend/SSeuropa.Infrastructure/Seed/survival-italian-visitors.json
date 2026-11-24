@@ -10,6 +10,7 @@
   "durationWeeks": 4,
   "displayOrder": 5,
   "thumbnailUrl": "/content/img/luggage.png",
+  "previousTitles": [],
   "units": [
     {
       "key": "unit-1",

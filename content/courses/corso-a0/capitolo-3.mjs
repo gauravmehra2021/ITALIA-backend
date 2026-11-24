@@ -437,7 +437,7 @@ export default {
           title: 'A che ora…? Le fasce del giorno',
           words: [
             wp('di mattina (6–12)', 'in the morning', 'Saver', { img: 'Sunrise', ex: 'Vado al lavoro alle otto di mattina.', exEn: 'I go to work at eight in the morning.' }),
-            wp('di pomeriggio (13–18)', 'in the afternoon', 'Dupahar', { img: 'Sun', ex: 'Finisco il lavoro alle cinque di pomeriggio.', exEn: 'I finish work at five in the afternoon.' }),
+            wp('di pomeriggio (13–18)', 'in the afternoon', 'Dupahar', { img: 'Sun behind cloud', ex: 'Finisco il lavoro alle cinque di pomeriggio.', exEn: 'I finish work at five in the afternoon.' }),
             wp('di sera (18–23)', 'in the evening', 'Shām', { img: 'Sunset', ex: 'Vengo a scuola alle sette di sera.', exEn: 'I come to school at seven in the evening.' }),
             wp('di notte (23–5)', 'at night', 'Rāt', { img: 'Night with stars', ex: 'Dormo da mezzanotte alle sei.', exEn: 'I sleep from midnight to six.' }),
           ],

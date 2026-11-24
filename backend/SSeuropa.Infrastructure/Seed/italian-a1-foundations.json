@@ -10,6 +10,7 @@
   "durationWeeks": 10,
   "displayOrder": 1,
   "thumbnailUrl": "/content/img/graduation-cap.png",
+  "previousTitles": [],
   "units": [
     {
       "key": "unit-1",

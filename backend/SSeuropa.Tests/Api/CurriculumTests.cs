@@ -200,12 +200,13 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         var admin = await LoginAsync("admin@sseuropa.demo");
         var catalogue = await GetAsync<List<CourseCard>>("/api/learn/courses", admin);
 
-        // Exactly one copy, with all 5 chapters (4 lessons × 3 parts + a test each).
+        // Exactly one copy, with all 12 chapters (4 lessons × 3 parts + a test each).
         var course = catalogue.Should().ContainSingle(c => c.Course.Slug == "corso-italiano-a0").Subject;
-        course.TotalLessons.Should().Be(65);
+        course.TotalLessons.Should().Be(156);
+        course.Course.CefrLevel.Should().Be("A0–A2");
 
         var outline = await GetAsync<Outline>($"/api/curriculum/courses/{course.Course.Id}", admin);
-        outline.Units.Select(u => u.Title).Should().HaveCount(5).And.AllSatisfy(t => t.Should().StartWith("Chapter"));
+        outline.Units.Select(u => u.Title).Should().HaveCount(12).And.AllSatisfy(t => t.Should().StartWith("Chapter"));
 
         // Words carry their Punjabi meaning.
         var first = await SendAsync<JsonElement>(HttpMethod.Get, $"/api/curriculum/lessons/{outline.Units[0].Lessons.First(l => !l.IsModuleVideo).Id}", admin);
@@ -285,7 +286,7 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     private sealed record Envelope<T>(bool Success, string? Message, T? Data);
     private sealed record AuthData(string AccessToken);
     private sealed record StudentRow(Guid Id, string Email);
-    private sealed record CourseInfo(Guid Id, string Title, string? Slug);
+    private sealed record CourseInfo(Guid Id, string Title, string? Slug, string CefrLevel);
     private sealed record CourseCard(CourseInfo Course, bool IsEnrolled, int CompletionPercent, int TotalLessons);
     private sealed record LessonSummary(Guid Id, string Title, bool IsFreePreview, int ExerciseCount, bool? Locked, int? Stars, bool IsModuleVideo);
     private sealed record UnitData(Guid Id, int Order, string Title, List<LessonSummary> Lessons);

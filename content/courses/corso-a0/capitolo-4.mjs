@@ -48,8 +48,8 @@ export default {
         {
           title: 'I pasti della giornata',
           words: [
-            wp('la colazione', 'breakfast', 'Nāshtā', { pron: 'lah koh-lah-tsee-OH-neh', img: 'Croissant', ex: 'La mattina faccio colazione al bar.', exEn: 'In the morning I have breakfast at the café.' }),
-            wp('il pranzo', 'lunch', 'Dupahar dā khāṇā', { pron: 'eel PRAHN-tsoh', img: 'Sandwich', ex: 'In pausa pranzo prendo un panino al bar.', exEn: 'On my lunch break I have a sandwich at the café.' }),
+            wp('la colazione', 'breakfast', 'Nāshtā', { pron: 'lah koh-lah-tsee-OH-neh', img: 'Sunrise', ex: 'La mattina faccio colazione al bar.', exEn: 'In the morning I have breakfast at the café.' }),
+            wp('il pranzo', 'lunch', 'Dupahar dā khāṇā', { pron: 'eel PRAHN-tsoh', img: 'Fork and knife with plate', ex: 'In pausa pranzo prendo un panino al bar.', exEn: 'On my lunch break I have a sandwich at the café.' }),
             wp('la merenda', 'afternoon snack', 'Shām dā nāshtā', { pron: 'lah meh-REN-dah', img: 'Soft ice cream', ex: 'Alle quattro faccio merenda con un succo.', exEn: 'At four I have a snack with a juice.' }),
             wp('la cena', 'dinner', 'Rāt dā khāṇā', { pron: 'lah CHEH-nah', img: 'Spaghetti', ex: 'La sera ceno a casa con la mia famiglia.', exEn: 'In the evening I have dinner at home with my family.' }),
           ],

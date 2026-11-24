@@ -409,6 +409,7 @@ function buildCourse(course) {
     durationWeeks: course.durationWeeks,
     displayOrder: course.displayOrder,
     thumbnailUrl: imageUrl(course.cover),
+    previousTitles: course.previousTitles ?? [],
     units: course.units.map((u, ui) => ({
       // Stable unit id: lets the API append new chapters to a course that is already live.
       key: u.key ?? `unit-${ui + 1}`,
