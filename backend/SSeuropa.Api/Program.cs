@@ -112,6 +112,8 @@ builder.Services.Configure<ForwardedHeadersOptions>(o =>
     o.KnownProxies.Clear();
 });
 
+builder.Services.AddSingleton<SSeuropa.Api.Storage.ProtectedDocuments>();
+
 var app = builder.Build();
 
 app.UseForwardedHeaders();
@@ -125,7 +127,20 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("Frontend");
 
-// Built-in course media (illustrations, PDF study sheets) from wwwroot/content.
+// Syllabus PDFs can't be downloaded from their plain address: students view them in the app through
+// a short-lived link from /api/documents/link (see ProtectedDocuments).
+app.Use(async (ctx, next) =>
+{
+    var path = ctx.Request.Path.Value ?? string.Empty;
+    if (await ctx.RequestServices.GetRequiredService<SSeuropa.Api.Storage.ProtectedDocuments>().IsProtectedAsync(path, ctx.RequestAborted))
+    {
+        ctx.Response.StatusCode = StatusCodes.Status404NotFound;
+        return;
+    }
+    await next();
+});
+
+// Built-in course media (illustrations) from wwwroot/content.
 app.UseStaticFiles(new StaticFileOptions
 {
     OnPrepareResponse = ctx =>

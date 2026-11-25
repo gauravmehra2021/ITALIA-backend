@@ -154,9 +154,42 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     public async Task CourseMedia_IsServed()
     {
         (await _client.GetAsync("/content/img/waving-hand.png")).StatusCode.Should().Be(HttpStatusCode.OK);
-        (await _client.GetAsync("/content/pdf/italian-a1-foundations-unit-01.pdf")).StatusCode.Should().Be(HttpStatusCode.OK);
-        (await _client.GetAsync("/content/pdf/corso-italiano-a0-unit-01.pdf")).StatusCode.Should().Be(HttpStatusCode.OK);
-        (await _client.GetAsync("/content/slides/corso-a0-cap1-lez1-slides.pdf")).StatusCode.Should().Be(HttpStatusCode.OK);
+        // The syllabus PDFs are not public files any more.
+        (await _client.GetAsync("/content/pdf/italian-a1-foundations-unit-01.pdf")).StatusCode.Should().Be(HttpStatusCode.NotFound);
+        (await _client.GetAsync("/content/pdf/corso-italiano-a0-unit-01.pdf")).StatusCode.Should().Be(HttpStatusCode.NotFound);
+        (await _client.GetAsync("/content/slides/corso-a0-cap1-lez1-slides.pdf")).StatusCode.Should().Be(HttpStatusCode.NotFound);
+    }
+
+    [Fact]
+    public async Task SyllabusPdfs_OpenOnlyThroughShortLinks_ForStudentsWhoMaySeeTheCourse()
+    {
+        const string slides = "/content/slides/corso-a0-cap1-lez1-slides.pdf";
+        var admin = await LoginAsync("admin@sseuropa.demo");
+        var email = $"pdf-{Guid.NewGuid():N}@example.com";
+        var created = await SendAsync<JsonElement>(HttpMethod.Post, "/api/students", admin, new { firstName = "Pdf", lastName = "Student", email });
+        var studentId = created.GetProperty("student").GetProperty("id").GetGuid();
+        var student = await PasswordLoginAsync(email, created.GetProperty("temporaryPassword").GetString()!);
+
+        // No batch yet: the slides of Capitolo 1 stay closed. Not signed in: no link at all.
+        (await RawAsync(HttpMethod.Post, "/api/documents/link", student, new { url = slides })).StatusCode.Should().Be(HttpStatusCode.Forbidden);
+        (await _client.PostAsJsonAsync("/api/documents/link", new { url = slides })).StatusCode.Should().Be(HttpStatusCode.Unauthorized);
+
+        // In a batch with Capitolo 1: a link that shows the PDF in the page and is never cached.
+        var chapter1 = (await GetAsync<List<CourseCard>>("/api/learn/courses", admin)).Single(c => c.Course.Slug == "corso-italiano-capitolo-1").Course.Id;
+        var batch = await SendAsync<JsonElement>(HttpMethod.Post, "/api/batches", admin, new { name = $"Pdf batch {Guid.NewGuid():N}", level = "A0", courseIds = new[] { chapter1 } });
+        await SendAsync<JsonElement>(HttpMethod.Post, "/api/students/move", admin, new { studentIds = new[] { studentId }, batchId = batch.GetProperty("id").GetGuid() });
+        var link = await SendAsync<JsonElement>(HttpMethod.Post, "/api/documents/link", student, new { url = slides });
+        var url = link.GetProperty("url").GetString()!;
+        var file = await _client.GetAsync(url);
+        file.StatusCode.Should().Be(HttpStatusCode.OK);
+        file.Content.Headers.ContentType!.MediaType.Should().Be("application/pdf");
+        file.Headers.CacheControl!.NoStore.Should().BeTrue();
+
+        // A changed link doesn't work; another chapter's slides stay closed.
+        (await _client.GetAsync(url.Replace("lez1", "lez2"))).StatusCode.Should().Be(HttpStatusCode.Forbidden);
+        (await RawAsync(HttpMethod.Post, "/api/documents/link", student, new { url = "/content/slides/corso-a0-cap2-lez1-slides.pdf" })).StatusCode.Should().Be(HttpStatusCode.Forbidden);
+        // The team can open every document.
+        (await RawAsync(HttpMethod.Post, "/api/documents/link", admin, new { url = "/content/slides/corso-a0-cap2-lez1-slides.pdf" })).StatusCode.Should().Be(HttpStatusCode.OK);
     }
 
     [Fact]

@@ -472,8 +472,12 @@ function unitPdf(course, unit, unitIndex) {
     doc.rect(doc.page.width / 3, 92, doc.page.width / 3, 4).fill('#ffffff');
     doc.rect((doc.page.width / 3) * 2, 92, doc.page.width / 3, 4).fill(RED);
     if (fs.existsSync(logoPath)) doc.image(logoPath, 48, 14, { height: 64 });
-    doc.fillColor('#ffffff').font('Body-Bold').fontSize(18).text(`${course.unitLabel ?? 'Unit'} ${unitIndex + 1}: ${pdfText(unit.title.replace(/^(Chapter|Capitolo) \d+: /, ''))}`, 124, 24, { width: width - 76 });
-    doc.font('Body').fontSize(11).fillColor('#dbe7ff').text(`${pdfText(unit.titleIt)}  ·  ${pdfText(course.title)}`, 124, 50, { width: width - 76 });
+    // Chapter courses (split from one course) keep their chapter number; the subtitle follows the
+    // title so a two-line title never runs into it, and doesn't repeat the course name for a chapter course.
+    const number = (course.unitOffset ?? 0) + unitIndex + 1;
+    doc.fillColor('#ffffff').font('Body-Bold').fontSize(16).text(`${course.unitLabel ?? 'Unit'} ${number}: ${pdfText(unit.title.replace(/^(Chapter|Capitolo) \d+: /, ''))}`, 124, 20, { width: width - 76 });
+    const subtitle = course.splitFrom ? pdfText(unit.titleIt) : `${pdfText(unit.titleIt)}  ·  ${pdfText(course.title)}`;
+    doc.font('Body').fontSize(10).fillColor('#dbe7ff').text(subtitle, 124, doc.y + 2, { width: width - 76, height: 88 - doc.y, ellipsis: true });
     doc.y = 116;
     doc.x = 48;
 
