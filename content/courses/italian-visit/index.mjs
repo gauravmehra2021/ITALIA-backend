@@ -727,7 +727,7 @@ export default {
   cefrLevel: 'A1',
   category: 'Visit',
   durationWeeks: 4,
-  displayOrder: 5,
+  displayOrder: 24,
   cover: 'Luggage',
   units,
 };

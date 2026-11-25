@@ -1,0 +1,5772 @@
+{
+  "slug": "corso-italiano-capitolo-4",
+  "title": "Capitolo 4 · At the café, the restaurant and the supermarket",
+  "shortDescription": "Order at the bar with vorrei and prendo, read a restaurant menu and ask for the bill, explain allergies and food preferences, buy food with the right quantities and containers, count over 100, and use c'è / ci sono and the partitives (del, della, dei…).",
+  "description": "Part of the official SS Europa Italian course used in our classes, for learners from India, Pakistan and Bangladesh who are going to Italy to work, study or live. Chapters 1–7 take you from zero to level A1 and Chapters 8–12 to level A2 — study them in order.\n\nEvery 60-minute class of the chapter is split into three short lessons you can study on your phone, with pictures, audio, grammar tables and exercises. Every word comes with its English and Punjabi meaning, the slides of each class are attached as PDF, and the chapter ends with a test (pass mark 60%).",
+  "objectives": "I can order food and drinks at the bar and ask how much it costs\nI can read an Italian menu, order a meal and ask for the bill\nI can say if I am vegetarian, allergic or don't eat something\nI can buy food with kilos, etti, bottles and packets\nI can read prices and numbers over 100\nI can say what there is and isn't with c'è / ci sono and the partitives",
+  "level": "Beginner",
+  "cefrLevel": "A1",
+  "category": "Core",
+  "durationWeeks": 2,
+  "displayOrder": 3,
+  "thumbnailUrl": "/content/img/hot-beverage.png",
+  "previousTitles": [],
+  "splitFrom": "corso-italiano-a0",
+  "units": [
+    {
+      "key": "capitolo-4",
+      "order": 1,
+      "title": "Chapter 4: At the café, the restaurant and the supermarket",
+      "titleIt": "Capitolo 4: Al bar, al ristorante e al supermercato",
+      "description": "Order at the bar with vorrei and prendo, read a restaurant menu and ask for the bill, explain allergies and food preferences, buy food with the right quantities and containers, count over 100, and use c'è / ci sono and the partitives (del, della, dei…).",
+      "canDo": [
+        "I can order food and drinks at the bar and ask how much it costs",
+        "I can read an Italian menu, order a meal and ask for the bill",
+        "I can say if I am vegetarian, allergic or don't eat something",
+        "I can buy food with kilos, etti, bottles and packets",
+        "I can read prices and numbers over 100",
+        "I can say what there is and isn't with c'è / ci sono and the partitives"
+      ],
+      "imageUrl": "/content/img/hot-beverage.png",
+      "pdfUrl": "/content/pdf/corso-italiano-a0-unit-04.pdf",
+      "liveClassFocus": "Role-plays: barista and customer at the bar, waiter and customer at the restaurant (with the bill), and a full shopping trip with a list, quantities and the total in euro.",
+      "status": "Published",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Lesson 1 · At the café: drinks, food and meals",
+          "titleIt": "Lezione 1 · Al bar: bevande, cibo e pasti",
+          "kind": "Vocabulary",
+          "summary": "Caffè, cappuccino, cornetto, acqua frizzante… and the meals of the day.",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 4 · Lezione 1 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap4-lez1-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Al bar: bevande calde e fredde",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "un caffè",
+                  "english": "an espresso",
+                  "punjabi": "Kaafi",
+                  "pronunciation": "oon kahf-FEH",
+                  "imageUrl": "/content/img/hot-beverage.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un cappuccino",
+                  "english": "a cappuccino",
+                  "punjabi": "Kapuchino",
+                  "pronunciation": "oon kahp-poot-CHEE-noh",
+                  "imageUrl": "/content/img/teacup-without-handle.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un tè",
+                  "english": "a tea",
+                  "punjabi": "Chaah",
+                  "pronunciation": "oon TEH",
+                  "imageUrl": "/content/img/teapot.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un cornetto / una brioche",
+                  "english": "a croissant",
+                  "punjabi": "Mitha kroisaan",
+                  "pronunciation": "oon kor-NET-toh",
+                  "imageUrl": "/content/img/croissant.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "l'acqua naturale",
+                  "english": "still water",
+                  "punjabi": "Saada paani",
+                  "pronunciation": "LAHK-kwah nah-too-RAH-leh",
+                  "imageUrl": "/content/img/droplet.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "l'acqua frizzante",
+                  "english": "sparkling water",
+                  "punjabi": "Gais vaala paani",
+                  "pronunciation": "LAHK-kwah freed-DZAHN-teh",
+                  "imageUrl": "/content/img/bottle-with-popping-cork.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un succo di frutta",
+                  "english": "a fruit juice",
+                  "punjabi": "Phalaan da joos",
+                  "pronunciation": "oon SOOK-koh dee FROOT-tah",
+                  "imageUrl": "/content/img/beverage-box.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "una spremuta",
+                  "english": "a fresh orange juice",
+                  "punjabi": "Taaza santre da joos",
+                  "pronunciation": "OO-nah spreh-MOO-tah",
+                  "imageUrl": "/content/img/tangerine.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "I pasti della giornata",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "la colazione",
+                  "english": "breakfast",
+                  "punjabi": "Naashta",
+                  "pronunciation": "lah koh-lah-tsee-OH-neh",
+                  "imageUrl": "/content/img/sunrise.png",
+                  "audioUrl": null,
+                  "example": "La mattina faccio colazione al bar.",
+                  "exampleEnglish": "In the morning I have breakfast at the café."
+                },
+                {
+                  "italian": "il pranzo",
+                  "english": "lunch",
+                  "punjabi": "Dupahar da khaana",
+                  "pronunciation": "eel PRAHN-tsoh",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png",
+                  "audioUrl": null,
+                  "example": "In pausa pranzo prendo un panino al bar.",
+                  "exampleEnglish": "On my lunch break I have a sandwich at the café."
+                },
+                {
+                  "italian": "la merenda",
+                  "english": "afternoon snack",
+                  "punjabi": "Shaam da naashta",
+                  "pronunciation": "lah meh-REN-dah",
+                  "imageUrl": "/content/img/soft-ice-cream.png",
+                  "audioUrl": null,
+                  "example": "Alle quattro faccio merenda con un succo.",
+                  "exampleEnglish": "At four I have a snack with a juice."
+                },
+                {
+                  "italian": "la cena",
+                  "english": "dinner",
+                  "punjabi": "Raat da khaana",
+                  "pronunciation": "lah CHEH-nah",
+                  "imageUrl": "/content/img/spaghetti.png",
+                  "audioUrl": null,
+                  "example": "La sera ceno a casa con la mia famiglia.",
+                  "exampleEnglish": "In the evening I have dinner at home with my family."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Cibo al bar",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "un panino / un tramezzino",
+                  "english": "a sandwich / a triangle sandwich",
+                  "punjabi": "Saindvich",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/sandwich.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "una pizza / un'insalata",
+                  "english": "a pizza / a salad",
+                  "punjabi": "Piza / Salad",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/pizza.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un toast / una focaccia",
+                  "english": "a toasted sandwich / focaccia bread",
+                  "punjabi": "Tost / Fokacha",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/bread.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "i biscotti",
+                  "english": "biscuits",
+                  "punjabi": "Biskut",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/cookie.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "In Italy **un caffè** is always a small, strong espresso. If you want milk, ask for **un cappuccino** or **un caffè macchiato**. Italians drink cappuccino only at breakfast!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "una spremuta",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "un cornetto / una brioche",
+                  "imageUrl": "/content/img/croissant.png"
+                },
+                {
+                  "text": "la cena",
+                  "imageUrl": "/content/img/spaghetti.png"
+                },
+                {
+                  "text": "una spremuta",
+                  "imageUrl": "/content/img/tangerine.png"
+                },
+                {
+                  "text": "un caffè",
+                  "imageUrl": "/content/img/hot-beverage.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "una spremuta = a fresh orange juice"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la cena",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'acqua naturale",
+                  "imageUrl": "/content/img/droplet.png"
+                },
+                {
+                  "text": "la cena",
+                  "imageUrl": "/content/img/spaghetti.png"
+                },
+                {
+                  "text": "il pranzo",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                },
+                {
+                  "text": "la colazione",
+                  "imageUrl": "/content/img/sunrise.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la cena = dinner"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la merenda",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il pranzo",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                },
+                {
+                  "text": "una spremuta",
+                  "imageUrl": "/content/img/tangerine.png"
+                },
+                {
+                  "text": "un caffè",
+                  "imageUrl": "/content/img/hot-beverage.png"
+                },
+                {
+                  "text": "la merenda",
+                  "imageUrl": "/content/img/soft-ice-cream.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la merenda = afternoon snack"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/droplet.png",
+              "options": [
+                {
+                  "text": "una spremuta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'acqua naturale",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un cornetto / una brioche",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la merenda",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'acqua naturale = still water"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/hot-beverage.png",
+              "options": [
+                {
+                  "text": "un caffè",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'acqua frizzante",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la merenda",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la cena",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "un caffè = an espresso"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'acqua naturale",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sparkling water",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a cappuccino",
+                  "imageUrl": null
+                },
+                {
+                  "text": "still water",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a tea",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "un caffè",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a fresh orange juice",
+                  "imageUrl": null
+                },
+                {
+                  "text": "an espresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a croissant",
+                  "imageUrl": null
+                },
+                {
+                  "text": "breakfast",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "un succo di frutta",
+                  "right": "a fruit juice"
+                },
+                {
+                  "left": "il pranzo",
+                  "right": "lunch"
+                },
+                {
+                  "left": "l'acqua naturale",
+                  "right": "still water"
+                },
+                {
+                  "left": "l'acqua frizzante",
+                  "right": "sparkling water"
+                },
+                {
+                  "left": "la merenda",
+                  "right": "afternoon snack"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'acqua frizzante",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fruit juice",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hot tea",
+                  "imageUrl": null
+                },
+                {
+                  "text": "still water",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sparkling water",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la merenda",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dinner",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lunch",
+                  "imageUrl": null
+                },
+                {
+                  "text": "breakfast",
+                  "imageUrl": null
+                },
+                {
+                  "text": "afternoon snack",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What is \"la colazione\"?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dinner",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lunch",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a snack",
+                  "imageUrl": null
+                },
+                {
+                  "text": "breakfast",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write what you eat and drink for colazione, pranzo and cena."
+        },
+        {
+          "order": 2,
+          "title": "Lesson 1 · Ordering: vorrei, prendo, quanto costa?",
+          "titleIt": "Lezione 1 · Ordinare al bar e i prezzi",
+          "kind": "Grammar",
+          "summary": "Polite phrases for ordering, the receipt and the change, and reading prices in euro.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Ordinare al bar: VORREI e PRENDO",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Funzione",
+                  "Espressione",
+                  "Esempio",
+                  "English / Punjabi"
+                ],
+                [
+                  "ask politely",
+                  "Vorrei… (per favore)",
+                  "Buongiorno, vorrei un caffè.",
+                  "I would like… · Mainu chaahida hai"
+                ],
+                [
+                  "choose",
+                  "Io prendo…",
+                  "Io prendo un panino e un'acqua.",
+                  "I'll have… · Main lainda haan"
+                ],
+                [
+                  "ask the barista",
+                  "Avete…? / C'è…?",
+                  "Scusi, avete cornetti alla crema?",
+                  "Do you have…? · Ki tuhade kol hai?"
+                ],
+                [
+                  "ask the price",
+                  "Quanto costa? / Quanto viene?",
+                  "Scusi, quanto viene in tutto?",
+                  "How much is it? · Kinne paise hoe?"
+                ],
+                [
+                  "barista's answer",
+                  "Subito! / Ecco a lei!",
+                  "Ecco il cappuccino. Sono 1,50 €.",
+                  "Right away / Here you are · Aah lao ji"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "3 parole importanti al bar italiano",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "lo scontrino",
+                  "english": "the receipt",
+                  "punjabi": "Rasid",
+                  "pronunciation": "loh skon-TREE-noh",
+                  "imageUrl": "/content/img/receipt.png",
+                  "audioUrl": null,
+                  "example": "Prima paghi alla cassa e prendi lo scontrino.",
+                  "exampleEnglish": "First you pay at the till and take the receipt."
+                },
+                {
+                  "italian": "il resto",
+                  "english": "the change (money)",
+                  "punjabi": "Baaki paise",
+                  "pronunciation": "eel RES-toh",
+                  "imageUrl": "/content/img/coin.png",
+                  "audioUrl": null,
+                  "example": "Ecco 5 euro. — Grazie, ecco il resto!",
+                  "exampleEnglish": "Here are 5 euros. — Thank you, here's your change!"
+                },
+                {
+                  "italian": "al banco / al tavolo",
+                  "english": "at the counter / at the table",
+                  "punjabi": "Kauntar te / Tebal te",
+                  "pronunciation": "ahl BAHN-koh / ahl TAH-voh-loh",
+                  "imageUrl": "/content/img/chair.png",
+                  "audioUrl": null,
+                  "example": "Al banco costa meno rispetto al tavolo!",
+                  "exampleEnglish": "At the counter it costs less than at the table!"
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Quanto costa? Leggere i prezzi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Prezzo",
+                  "Prodotto",
+                  "Si legge"
+                ],
+                [
+                  "1,20 €",
+                  "un caffè espresso",
+                  "un euro e venti"
+                ],
+                [
+                  "1,50 €",
+                  "un cappuccino",
+                  "un euro e cinquanta"
+                ],
+                [
+                  "4,50 €",
+                  "un panino imbottito",
+                  "quattro euro e cinquanta"
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "One thing: **Quanto costa il caffè? — Costa 1,20 €.** More things: **Quanto costano due panini? — Costano 9,00 €.** The comma is the decimal point: 1,20 € = *un euro e venti*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "PickTranslation",
+              "prompt": "How do you ask politely for a coffee?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Dammi un caffè.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Voglio caffè subito.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vorrei un caffè, per favore.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Caffè!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You want to know the total. You say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Quanto viene in tutto?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Come si chiama?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Che ore sono?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Dov'è il bar?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Lo scontrino\" is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "the menu",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the receipt",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the counter",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the change",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen: how much is it?",
+              "italian": "Un euro e venti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "2,10 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "12,00 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1,20 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1,02 €",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen: how much is it?",
+              "italian": "Quattro euro e cinquanta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "4,15 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "14,50 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "5,40 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "4,50 €",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Quanto ___ due panini?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "costi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "costano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "costiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "costa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Quanto ___ il cappuccino?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "costa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "costo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "costano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "costi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I would like a coffee please\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vorrei un caffè per favore",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 orders you could make at the bar with vorrei or prendo, and ask the price."
+        },
+        {
+          "order": 3,
+          "title": "Lesson 1 · Dialogue: Good morning, what would you like?",
+          "titleIt": "Lezione 1 · Dialogo: Buongiorno, cosa desidera?",
+          "kind": "Dialogue",
+          "summary": "A customer orders breakfast at the bar.",
+          "estimatedMinutes": 8,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "A customer walks into a café in the morning.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: Buongiorno, cosa desidera?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Barista",
+                  "italian": "Buongiorno! Prego, cosa desidera?",
+                  "english": "Good morning! What would you like?",
+                  "punjabi": "Sat Sri Akal! Ki chaahida hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Buongiorno! Vorrei un cappuccino e un cornetto alla marmellata.",
+                  "english": "Good morning! I would like a cappuccino and a jam croissant.",
+                  "punjabi": "Sat Sri Akal! Mainu ikk kapuchino ate jaim vaala kroisaan chaahida hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Barista",
+                  "italian": "Subito! Da bere prende qualcos'altro?",
+                  "english": "Right away! Anything else to drink?",
+                  "punjabi": "Hune! Peen lai hor kujh?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Sì, prendo anche una bottiglia d'acqua naturale. Quanto viene?",
+                  "english": "Yes, I'll also have a bottle of still water. How much is it?",
+                  "punjabi": "Haan, ikk botal saada paani vi. Kinne paise hoe?",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Gioco di ruolo: barista e cliente",
+              "body": "1. **Studente A, il barista:** saluta, chiedi «Cosa desidera?» e di' il prezzo.\n2. **Studente B, il cliente:** ordina con «Vorrei… / Prendo…» e chiedi «Quanto viene?».\n3. **Poi cambiate ruolo!** Provate con la colazione (mattina) e il pranzo (panino e acqua).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The customer wants an espresso.)",
+              "italian": "Il cliente vuole un caffè.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The customer has a jam croissant.)",
+              "italian": "Il cliente prende un cornetto alla marmellata.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The customer also has sparkling water.)",
+              "italian": "Il cliente prende anche l'acqua frizzante.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Cosa desidera?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "How much is it?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Anything else?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Where do you live?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "What would you like?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I'll also have a bottle of water\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Prendo anche una bottiglia d'acqua",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play at home: order your breakfast in Italian from start to finish, out loud."
+        },
+        {
+          "order": 4,
+          "title": "Lesson 2 · The Italian menu",
+          "titleIt": "Lezione 2 · Le portate del menù",
+          "kind": "Vocabulary",
+          "summary": "Antipasto, primo, secondo, contorno, dolce — and the coperto and the conto.",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 4 · Lezione 2 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap4-lez2-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Le portate del menù italiano",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "l'antipasto",
+                  "english": "starter",
+                  "punjabi": "Shuruati khaana",
+                  "pronunciation": "lahn-tee-PAHS-toh",
+                  "imageUrl": "/content/img/olive.png",
+                  "audioUrl": null,
+                  "example": "Bruschette, olive, formaggi.",
+                  "exampleEnglish": "Bruschetta, olives, cheeses."
+                },
+                {
+                  "italian": "il primo",
+                  "english": "first course (pasta, rice, soup)",
+                  "punjabi": "Pahila khaana",
+                  "pronunciation": "eel PREE-moh",
+                  "imageUrl": "/content/img/spaghetti.png",
+                  "audioUrl": null,
+                  "example": "Pasta al pomodoro, risotto, lasagne.",
+                  "exampleEnglish": "Pasta with tomato, risotto, lasagne."
+                },
+                {
+                  "italian": "il secondo",
+                  "english": "main course (meat, fish, eggs)",
+                  "punjabi": "Mukkh khaana",
+                  "pronunciation": "eel seh-KON-doh",
+                  "imageUrl": "/content/img/poultry-leg.png",
+                  "audioUrl": null,
+                  "example": "Pollo arrosto, pesce, frittata.",
+                  "exampleEnglish": "Roast chicken, fish, omelette."
+                },
+                {
+                  "italian": "il contorno",
+                  "english": "side dish",
+                  "punjabi": "Said dish",
+                  "pronunciation": "eel kon-TOR-noh",
+                  "imageUrl": "/content/img/green-salad.png",
+                  "audioUrl": null,
+                  "example": "Insalata mista, patate al forno.",
+                  "exampleEnglish": "Mixed salad, roast potatoes."
+                },
+                {
+                  "italian": "il dolce",
+                  "english": "dessert",
+                  "punjabi": "Mithai",
+                  "pronunciation": "eel DOL-cheh",
+                  "imageUrl": "/content/img/shortcake.png",
+                  "audioUrl": null,
+                  "example": "Tiramisù, gelato, panna cotta.",
+                  "exampleEnglish": "Tiramisu, ice cream, panna cotta."
+                },
+                {
+                  "italian": "le bevande",
+                  "english": "drinks",
+                  "punjabi": "Peen lai",
+                  "pronunciation": "leh beh-VAHN-deh",
+                  "imageUrl": "/content/img/cup-with-straw.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il coperto",
+                  "english": "cover charge (bread and service)",
+                  "punjabi": "Tebal chaarj",
+                  "pronunciation": "eel koh-PEHR-toh",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il conto",
+                  "english": "the bill",
+                  "punjabi": "Bil",
+                  "pronunciation": "eel KON-toh",
+                  "imageUrl": "/content/img/receipt.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Italians don't eat every course! A normal meal is **un primo** or **un secondo con contorno**. The **coperto** (e.g. 2,00 € per person) is a normal charge for bread and table service, not a tip.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il secondo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il dolce",
+                  "imageUrl": "/content/img/shortcake.png"
+                },
+                {
+                  "text": "il conto",
+                  "imageUrl": "/content/img/receipt.png"
+                },
+                {
+                  "text": "il secondo",
+                  "imageUrl": "/content/img/poultry-leg.png"
+                },
+                {
+                  "text": "il contorno",
+                  "imageUrl": "/content/img/green-salad.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il secondo = main course (meat, fish, eggs)"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il primo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il primo",
+                  "imageUrl": "/content/img/spaghetti.png"
+                },
+                {
+                  "text": "il secondo",
+                  "imageUrl": "/content/img/poultry-leg.png"
+                },
+                {
+                  "text": "il coperto",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                },
+                {
+                  "text": "il contorno",
+                  "imageUrl": "/content/img/green-salad.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il primo = first course (pasta, rice, soup)"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il dolce",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le bevande",
+                  "imageUrl": "/content/img/cup-with-straw.png"
+                },
+                {
+                  "text": "il primo",
+                  "imageUrl": "/content/img/spaghetti.png"
+                },
+                {
+                  "text": "il dolce",
+                  "imageUrl": "/content/img/shortcake.png"
+                },
+                {
+                  "text": "il secondo",
+                  "imageUrl": "/content/img/poultry-leg.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il dolce = dessert"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/cup-with-straw.png",
+              "options": [
+                {
+                  "text": "l'antipasto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le bevande",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il conto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il contorno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "le bevande = drinks"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/fork-and-knife-with-plate.png",
+              "options": [
+                {
+                  "text": "il coperto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il conto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il secondo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'antipasto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il coperto = cover charge (bread and service)"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "le bevande",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dessert",
+                  "imageUrl": null
+                },
+                {
+                  "text": "drinks",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the bill",
+                  "imageUrl": null
+                },
+                {
+                  "text": "first course (pasta, rice, soup)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "il coperto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "main course (meat, fish, eggs)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "side dish",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cover charge (bread and service)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dessert",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "l'antipasto",
+                  "right": "starter"
+                },
+                {
+                  "left": "il dolce",
+                  "right": "dessert"
+                },
+                {
+                  "left": "il coperto",
+                  "right": "cover charge (bread and service)"
+                },
+                {
+                  "left": "il contorno",
+                  "right": "side dish"
+                },
+                {
+                  "left": "il primo",
+                  "right": "first course (pasta, rice, soup)"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Pasta and risotto are…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il secondo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il contorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il dolce",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il primo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Roast chicken is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il primo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il dolce",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'antipasto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il secondo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Tiramisù is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il contorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il dolce",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il primo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'antipasto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "An insalata mista with your main course is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il coperto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il contorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il conto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il primo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your perfect Italian menu: antipasto, primo, secondo, contorno and dolce."
+        },
+        {
+          "order": 5,
+          "title": "Lesson 2 · Prendere, mangiare, pagare and food needs",
+          "titleIt": "Lezione 2 · Prendere, mangiare, pagare e le esigenze alimentari",
+          "kind": "Grammar",
+          "summary": "The three restaurant verbs, allergies, \"I'm vegetarian\" and \"without…\".",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Presente: PRENDERE, MANGIARE, PAGARE",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "PRENDERE (order / take)",
+                  "MANGIARE (eat · khaana)",
+                  "PAGARE (pay · paise dene)"
+                ],
+                [
+                  "io",
+                  "prendo",
+                  "mangio",
+                  "pago"
+                ],
+                [
+                  "tu",
+                  "prendi",
+                  "mangi (one i)",
+                  "paghi (+ h)"
+                ],
+                [
+                  "lui / lei",
+                  "prende",
+                  "mangia",
+                  "paga"
+                ],
+                [
+                  "noi",
+                  "prendiamo",
+                  "mangiamo (one i)",
+                  "paghiamo (+ h)"
+                ],
+                [
+                  "voi",
+                  "prendete",
+                  "mangiate",
+                  "pagate"
+                ],
+                [
+                  "loro",
+                  "prendono",
+                  "mangiano",
+                  "pagano"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Allergie, intolleranze e preferenze",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Sono allergico / allergica a…",
+                  "english": "I am allergic to…",
+                  "punjabi": "Mainu … ton alarji hai",
+                  "pronunciation": "SOH-noh ahl-LEHR-jee-koh",
+                  "imageUrl": "/content/img/peanuts.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Sono intollerante al lattosio.",
+                  "english": "I am lactose intolerant.",
+                  "punjabi": "Mainu dudh ton intolerans hai.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/glass-of-milk.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Sono vegetariano / vegetariana.",
+                  "english": "I am vegetarian.",
+                  "punjabi": "Main shaakahari haan.",
+                  "pronunciation": "SOH-noh veh-jeh-tah-ree-AH-noh",
+                  "imageUrl": "/content/img/leafy-green.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Non mangio carne / maiale / pesce.",
+                  "english": "I don't eat meat / pork / fish.",
+                  "punjabi": "Main maas / suar / machhi nahi khaanda.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/cut-of-meat.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un panino senza prosciutto",
+                  "english": "a sandwich without ham",
+                  "punjabi": "… ton bina",
+                  "pronunciation": "SEN-tsah proh-SHOOT-toh",
+                  "imageUrl": "/content/img/sandwich.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Questo piatto ha carne o uova?",
+                  "english": "Does this dish have meat or eggs?",
+                  "punjabi": "Ki is dish vich maas jaan ande han?",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/egg.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Mangiare** keeps one **i**: *tu mangi, noi mangiamo*. **Pagare** adds an **h** to keep the hard g sound: *tu paghi, noi paghiamo*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Questo piatto ha carne o uova?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono vegetariano / vegetariana.",
+                  "imageUrl": "/content/img/leafy-green.png"
+                },
+                {
+                  "text": "un panino senza prosciutto",
+                  "imageUrl": "/content/img/sandwich.png"
+                },
+                {
+                  "text": "Non mangio carne / maiale / pesce.",
+                  "imageUrl": "/content/img/cut-of-meat.png"
+                },
+                {
+                  "text": "Questo piatto ha carne o uova?",
+                  "imageUrl": "/content/img/egg.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Questo piatto ha carne o uova? = Does this dish have meat or eggs?"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Sono vegetariano / vegetariana.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono allergico / allergica a…",
+                  "imageUrl": "/content/img/peanuts.png"
+                },
+                {
+                  "text": "Non mangio carne / maiale / pesce.",
+                  "imageUrl": "/content/img/cut-of-meat.png"
+                },
+                {
+                  "text": "un panino senza prosciutto",
+                  "imageUrl": "/content/img/sandwich.png"
+                },
+                {
+                  "text": "Sono vegetariano / vegetariana.",
+                  "imageUrl": "/content/img/leafy-green.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Sono vegetariano / vegetariana. = I am vegetarian."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Sono allergico / allergica a…",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono vegetariano / vegetariana.",
+                  "imageUrl": "/content/img/leafy-green.png"
+                },
+                {
+                  "text": "Sono allergico / allergica a…",
+                  "imageUrl": "/content/img/peanuts.png"
+                },
+                {
+                  "text": "Questo piatto ha carne o uova?",
+                  "imageUrl": "/content/img/egg.png"
+                },
+                {
+                  "text": "Sono intollerante al lattosio.",
+                  "imageUrl": "/content/img/glass-of-milk.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Sono allergico / allergica a… = I am allergic to…"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/sandwich.png",
+              "options": [
+                {
+                  "text": "Non mangio carne / maiale / pesce.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un panino senza prosciutto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono allergico / allergica a…",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono intollerante al lattosio.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "un panino senza prosciutto = a sandwich without ham"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/glass-of-milk.png",
+              "options": [
+                {
+                  "text": "Questo piatto ha carne o uova?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Non mangio carne / maiale / pesce.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono allergico / allergica a…",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono intollerante al lattosio.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Sono intollerante al lattosio. = I am lactose intolerant."
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "un panino senza prosciutto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I don't eat meat / pork / fish.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a sandwich without ham",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I am lactose intolerant.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I am vegetarian.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Sono intollerante al lattosio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Does this dish have meat or eggs?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a sandwich without ham",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I am lactose intolerant.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I am allergic to…",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Questo piatto ha carne o uova?",
+                  "right": "Does this dish have meat or eggs?"
+                },
+                {
+                  "left": "Non mangio carne / maiale / pesce.",
+                  "right": "I don't eat meat / pork / fish."
+                },
+                {
+                  "left": "Sono allergico / allergica a…",
+                  "right": "I am allergic to…"
+                },
+                {
+                  "left": "Sono intollerante al lattosio.",
+                  "right": "I am lactose intolerant."
+                },
+                {
+                  "left": "Sono vegetariano / vegetariana.",
+                  "right": "I am vegetarian."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Al ristorante noi ___ un primo piatto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prendono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendete",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ la carne o sei vegetariano?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mangi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mangii",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mangia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mangiate",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Alla cassa tu ___ con la carta?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "paghi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paga",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "I clienti ___ il conto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "pagano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paga",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paghiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paghano",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ insieme.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "pagiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paga",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paghiamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You don't eat pork. You say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Non mangio maiale.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Non mangio pesce.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono allergico al latte.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mangio solo maiale.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Sono vegetariano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I am allergic.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I am vegetarian.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I am full.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I am hungry.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I would like a sandwich without ham\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vorrei un panino senza prosciutto",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 sentences about what you eat and don't eat (Sono…, Non mangio…, Sono allergico a…)."
+        },
+        {
+          "order": 6,
+          "title": "Lesson 2 · Dialogue: ordering and asking for the bill",
+          "titleIt": "Lezione 2 · Dialogo: ordinare e chiedere il conto",
+          "kind": "Dialogue",
+          "summary": "Two friends order dinner and pay by card.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Chiedere il conto e pagare",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Scusi, il conto, per favore!",
+                  "english": "Excuse me, the bill, please!",
+                  "punjabi": "Maaf karna, bil le ao ji!",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/receipt.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ci porta il conto?",
+                  "english": "Could you bring us the bill?",
+                  "punjabi": "Saanu bil de devo?",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/receipt.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Pago in contanti.",
+                  "english": "I pay in cash.",
+                  "punjabi": "Main nakad paise denda haan.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/euro-banknote.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Pago con la carta.",
+                  "english": "I pay by card.",
+                  "punjabi": "Main kaard naal paise denda haan.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/credit-card.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Paghiamo insieme / separato.",
+                  "english": "We pay together / separately.",
+                  "punjabi": "Asi ikatthe / vakhre paise devange.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/credit-card.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Two friends at a restaurant in the evening. One is vegetarian, the other doesn't eat pork.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: ordinare e chiedere il conto",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Cameriere",
+                  "italian": "Buonasera! Cosa prendete da mangiare?",
+                  "english": "Good evening! What are you having to eat?",
+                  "punjabi": "Shubh shaam! Tusi ki khaoge?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente 1",
+                  "italian": "Io sono vegetariano: prendo un primo di pasta al pomodoro.",
+                  "english": "I am vegetarian: I'll have pasta with tomato sauce.",
+                  "punjabi": "Main shaakahari haan: main tamatar vaala paasta lainda haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente 2",
+                  "italian": "Io non mangio maiale: prendo pollo arrosto con contorno di patate.",
+                  "english": "I don't eat pork: I'll have roast chicken with potatoes.",
+                  "punjabi": "Main suar da maas nahi khaanda: murga ate aalu lainda haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente 1",
+                  "italian": "Scusi, ci porta il conto? Paghiamo con la carta.",
+                  "english": "Excuse me, could you bring us the bill? We'll pay by card.",
+                  "punjabi": "Maaf karna, bil le ao ji? Asi kaard naal paise devange.",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Gioco di ruolo: cameriere e cliente",
+              "body": "1. **Ordina le portate:** antipasto, primo, secondo, contorno o dolce con «Prendo…».\n2. **Esprimi preferenze:** «Non mangio… / Sono vegetariano / Senza…».\n3. **Chiedi il conto:** «Il conto, per favore!» e scegli contanti o carta.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Paghiamo insieme / separato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Pago in contanti.",
+                  "imageUrl": "/content/img/euro-banknote.png"
+                },
+                {
+                  "text": "Scusi, il conto, per favore!",
+                  "imageUrl": "/content/img/receipt.png"
+                },
+                {
+                  "text": "Ci porta il conto?",
+                  "imageUrl": "/content/img/receipt.png"
+                },
+                {
+                  "text": "Paghiamo insieme / separato.",
+                  "imageUrl": "/content/img/credit-card.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Paghiamo insieme / separato. = We pay together / separately."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Scusi, il conto, per favore!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Scusi, il conto, per favore!",
+                  "imageUrl": "/content/img/receipt.png"
+                },
+                {
+                  "text": "Pago in contanti.",
+                  "imageUrl": "/content/img/euro-banknote.png"
+                },
+                {
+                  "text": "Pago con la carta.",
+                  "imageUrl": "/content/img/credit-card.png"
+                },
+                {
+                  "text": "Paghiamo insieme / separato.",
+                  "imageUrl": "/content/img/credit-card.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Scusi, il conto, per favore! = Excuse me, the bill, please!"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ci porta il conto?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ci porta il conto?",
+                  "imageUrl": "/content/img/receipt.png"
+                },
+                {
+                  "text": "Pago in contanti.",
+                  "imageUrl": "/content/img/euro-banknote.png"
+                },
+                {
+                  "text": "Pago con la carta.",
+                  "imageUrl": "/content/img/credit-card.png"
+                },
+                {
+                  "text": "Paghiamo insieme / separato.",
+                  "imageUrl": "/content/img/credit-card.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ci porta il conto? = Could you bring us the bill?"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/euro-banknote.png",
+              "options": [
+                {
+                  "text": "Pago con la carta.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Paghiamo insieme / separato.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Scusi, il conto, per favore!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Pago in contanti.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Pago in contanti. = I pay in cash."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/credit-card.png",
+              "options": [
+                {
+                  "text": "Paghiamo insieme / separato.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Pago con la carta.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Pago in contanti.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Scusi, il conto, per favore!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Pago con la carta. = I pay by card."
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Pago in contanti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I pay in cash.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "We pay together / separately.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I pay by card.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Could you bring us the bill?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Pago con la carta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I pay in cash.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I pay by card.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "We pay together / separately.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Could you bring us the bill?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Ci porta il conto?",
+                  "right": "Could you bring us the bill?"
+                },
+                {
+                  "left": "Pago in contanti.",
+                  "right": "I pay in cash."
+                },
+                {
+                  "left": "Paghiamo insieme / separato.",
+                  "right": "We pay together / separately."
+                },
+                {
+                  "left": "Scusi, il conto, per favore!",
+                  "right": "Excuse me, the bill, please!"
+                },
+                {
+                  "left": "Pago con la carta.",
+                  "right": "I pay by card."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Customer 1 is vegetarian.)",
+              "italian": "Il cliente 1 è vegetariano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Customer 2 eats pork.)",
+              "italian": "Il cliente 2 mangia maiale.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (They pay in cash.)",
+              "italian": "Pagano in contanti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "At the end of the meal you say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono vegetariano.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Buongiorno!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vorrei un antipasto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Il conto, per favore!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Paghiamo separato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "We pay in cash.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "We pay by card.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "We pay separately.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "We pay together.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Excuse me, could you bring us the bill\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Scusi ci porta il conto",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play with a partner: order a full meal, say one food preference and ask for the bill."
+        },
+        {
+          "order": 7,
+          "title": "Lesson 3 · Food at the supermarket and the market",
+          "titleIt": "Lezione 3 · Frutta, verdura, carne, pesce e latticini",
+          "kind": "Vocabulary",
+          "summary": "Mele, pomodori, pollo, pesce, latte, formaggio, pane… and where to buy them.",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 4 · Lezione 3 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap4-lez3-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "La frutta e la verdura",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "le mele",
+                  "english": "apples",
+                  "punjabi": "Seb",
+                  "pronunciation": "leh MEH-leh",
+                  "imageUrl": "/content/img/red-apple.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le banane",
+                  "english": "bananas",
+                  "punjabi": "Kele",
+                  "pronunciation": "leh bah-NAH-neh",
+                  "imageUrl": "/content/img/banana.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le arance",
+                  "english": "oranges",
+                  "punjabi": "Santre",
+                  "pronunciation": "leh ah-RAHN-cheh",
+                  "imageUrl": "/content/img/tangerine.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le fragole",
+                  "english": "strawberries",
+                  "punjabi": "Straabariaan",
+                  "pronunciation": "leh FRAH-goh-leh",
+                  "imageUrl": "/content/img/strawberry.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "i pomodori",
+                  "english": "tomatoes",
+                  "punjabi": "Tamatar",
+                  "pronunciation": "ee poh-moh-DOH-ree",
+                  "imageUrl": "/content/img/tomato.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le patate",
+                  "english": "potatoes",
+                  "punjabi": "Aalu",
+                  "pronunciation": "leh pah-TAH-teh",
+                  "imageUrl": "/content/img/potato.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le cipolle",
+                  "english": "onions",
+                  "punjabi": "Gande / Piaz",
+                  "pronunciation": "leh chee-POL-leh",
+                  "imageUrl": "/content/img/onion.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le carote",
+                  "english": "carrots",
+                  "punjabi": "Gaajaraan",
+                  "pronunciation": "leh kah-ROH-teh",
+                  "imageUrl": "/content/img/carrot.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Carne, pesce, latticini e pane",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "il pollo",
+                  "english": "chicken",
+                  "punjabi": "Murga",
+                  "pronunciation": "eel POL-loh",
+                  "imageUrl": "/content/img/poultry-leg.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la carne",
+                  "english": "meat",
+                  "punjabi": "Maas",
+                  "pronunciation": "lah KAHR-neh",
+                  "imageUrl": "/content/img/cut-of-meat.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il pesce",
+                  "english": "fish",
+                  "punjabi": "Machhi",
+                  "pronunciation": "eel PEH-sheh",
+                  "imageUrl": "/content/img/fish.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "i gamberi",
+                  "english": "prawns",
+                  "punjabi": "Jhinge",
+                  "pronunciation": "ee GAHM-beh-ree",
+                  "imageUrl": "/content/img/shrimp.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il latte",
+                  "english": "milk",
+                  "punjabi": "Dudh",
+                  "pronunciation": "eel LAHT-teh",
+                  "imageUrl": "/content/img/glass-of-milk.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il formaggio",
+                  "english": "cheese",
+                  "punjabi": "Panir",
+                  "pronunciation": "eel for-MAHD-joh",
+                  "imageUrl": "/content/img/cheese-wedge.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il burro",
+                  "english": "butter",
+                  "punjabi": "Makkhan",
+                  "pronunciation": "eel BOOR-roh",
+                  "imageUrl": "/content/img/butter.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il pane",
+                  "english": "bread",
+                  "punjabi": "Roti",
+                  "pronunciation": "eel PAH-neh",
+                  "imageUrl": "/content/img/bread.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le uova",
+                  "english": "eggs",
+                  "punjabi": "Ande",
+                  "pronunciation": "leh WOH-vah",
+                  "imageUrl": "/content/img/egg.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Dove facciamo la spesa?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Dove",
+                  "Cosa",
+                  "Esempio"
+                ],
+                [
+                  "al mercato (open-air market · mandi)",
+                  "frutta e verdura fresca di stagione",
+                  "Compro un chilo di pomodori al mercato."
+                ],
+                [
+                  "al supermercato",
+                  "latticini, pane, carne, pesce, prodotti confezionati",
+                  "Prendo pasta, latte e pane al supermercato."
+                ],
+                [
+                  "in panetteria / al reparto forno",
+                  "pane fresco, focaccia, biscotti",
+                  "Compro il pane in panetteria."
+                ],
+                [
+                  "al banco frigo",
+                  "latte, formaggio, yogurt, burro",
+                  "Lo yogurt è al banco frigo."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Le uova** (eggs) is irregular: one egg is **un uovo**, two eggs are **due uova** — and it's feminine in the plural!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il latte",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la carne",
+                  "imageUrl": "/content/img/cut-of-meat.png"
+                },
+                {
+                  "text": "le fragole",
+                  "imageUrl": "/content/img/strawberry.png"
+                },
+                {
+                  "text": "il latte",
+                  "imageUrl": "/content/img/glass-of-milk.png"
+                },
+                {
+                  "text": "le cipolle",
+                  "imageUrl": "/content/img/onion.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il latte = milk"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "le arance",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il formaggio",
+                  "imageUrl": "/content/img/cheese-wedge.png"
+                },
+                {
+                  "text": "le arance",
+                  "imageUrl": "/content/img/tangerine.png"
+                },
+                {
+                  "text": "le cipolle",
+                  "imageUrl": "/content/img/onion.png"
+                },
+                {
+                  "text": "il pollo",
+                  "imageUrl": "/content/img/poultry-leg.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "le arance = oranges"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "i pomodori",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il burro",
+                  "imageUrl": "/content/img/butter.png"
+                },
+                {
+                  "text": "i pomodori",
+                  "imageUrl": "/content/img/tomato.png"
+                },
+                {
+                  "text": "la carne",
+                  "imageUrl": "/content/img/cut-of-meat.png"
+                },
+                {
+                  "text": "i gamberi",
+                  "imageUrl": "/content/img/shrimp.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "i pomodori = tomatoes"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/butter.png",
+              "options": [
+                {
+                  "text": "il formaggio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il pesce",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il pollo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il burro",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il burro = butter"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/potato.png",
+              "options": [
+                {
+                  "text": "il pollo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le patate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il burro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le arance",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "le patate = potatoes"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "il burro",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "butter",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tomatoes",
+                  "imageUrl": null
+                },
+                {
+                  "text": "apples",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chicken",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "le patate",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bread",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fish",
+                  "imageUrl": null
+                },
+                {
+                  "text": "potatoes",
+                  "imageUrl": null
+                },
+                {
+                  "text": "eggs",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "il latte",
+                  "right": "milk"
+                },
+                {
+                  "left": "il burro",
+                  "right": "butter"
+                },
+                {
+                  "left": "il pollo",
+                  "right": "chicken"
+                },
+                {
+                  "left": "il formaggio",
+                  "right": "cheese"
+                },
+                {
+                  "left": "il pesce",
+                  "right": "fish"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Milk, cheese and yogurt are…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la carne",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la verdura",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la frutta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "i latticini",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where do you buy fresh seasonal fruit and vegetables cheaply?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in banca",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al bar",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in farmacia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al mercato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "le cipolle",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "potatoes",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tomatoes",
+                  "imageUrl": null
+                },
+                {
+                  "text": "carrots",
+                  "imageUrl": null
+                },
+                {
+                  "text": "onions",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your shopping list for this week in Italian, with the article (le mele, il latte…)."
+        },
+        {
+          "order": 8,
+          "title": "Lesson 3 · Quantities and containers",
+          "titleIt": "Lezione 3 · Unità di misura e contenitori",
+          "kind": "Grammar",
+          "summary": "Un chilo di, un etto di, una bottiglia di, un pacco di, una scatola di…",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Chilo, etto, bottiglia, pacco",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Unità / contenitore",
+                  "Misura",
+                  "Esempio",
+                  "English / Punjabi"
+                ],
+                [
+                  "un chilo di / mezzo chilo di",
+                  "1.000 g / 500 g",
+                  "Vorrei un chilo di mele e mezzo chilo di carne.",
+                  "1 kg / half a kg · ikk kilo / addha kilo"
+                ],
+                [
+                  "un etto di / due etti di",
+                  "100 g / 200 g",
+                  "Prendo due etti di formaggio fresco.",
+                  "100 g / 200 g · sau / do sau graam"
+                ],
+                [
+                  "una bottiglia di / un litro di",
+                  "liquids",
+                  "Compro una bottiglia d'acqua e un litro di latte.",
+                  "a bottle / litre of · ikk botal / litar"
+                ],
+                [
+                  "un pacco di",
+                  "dry packets",
+                  "Prendo un pacco di pasta, di riso o di biscotti.",
+                  "a pack of · ikk paikat"
+                ],
+                [
+                  "una scatola di / un vasetto di",
+                  "tins / jars",
+                  "Vorrei una scatola di tonno e un vasetto di yogurt.",
+                  "a tin / jar of · ikk dabba / dabbi"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Examples",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "un chilo di mele",
+                  "english": "1 kg of apples",
+                  "punjabi": "Ikk kilo seb",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/red-apple.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "due etti di formaggio",
+                  "english": "200 g of cheese",
+                  "punjabi": "Do sau graam panir",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/cheese-wedge.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "una bottiglia d'acqua",
+                  "english": "a bottle of water",
+                  "punjabi": "Ikk botal paani",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/droplet.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un litro di latte",
+                  "english": "a litre of milk",
+                  "punjabi": "Ikk litar dudh",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/glass-of-milk.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un pacco di pasta",
+                  "english": "a packet of pasta",
+                  "punjabi": "Ikk paikat paasta",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/package.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "una scatola di tonno",
+                  "english": "a tin of tuna",
+                  "punjabi": "Ikk dabba tuna machhi",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/canned-food.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Italians buy cheese and ham by the **etto** (100 grams): *un etto di prosciutto*, *due etti di formaggio*. After a quantity always use **di**: *un chilo **di** pomodori*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "una scatola di tonno",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "un litro di latte",
+                  "imageUrl": "/content/img/glass-of-milk.png"
+                },
+                {
+                  "text": "un chilo di mele",
+                  "imageUrl": "/content/img/red-apple.png"
+                },
+                {
+                  "text": "due etti di formaggio",
+                  "imageUrl": "/content/img/cheese-wedge.png"
+                },
+                {
+                  "text": "una scatola di tonno",
+                  "imageUrl": "/content/img/canned-food.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "una scatola di tonno = a tin of tuna"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "un pacco di pasta",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "una bottiglia d'acqua",
+                  "imageUrl": "/content/img/droplet.png"
+                },
+                {
+                  "text": "due etti di formaggio",
+                  "imageUrl": "/content/img/cheese-wedge.png"
+                },
+                {
+                  "text": "un litro di latte",
+                  "imageUrl": "/content/img/glass-of-milk.png"
+                },
+                {
+                  "text": "un pacco di pasta",
+                  "imageUrl": "/content/img/package.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "un pacco di pasta = a packet of pasta"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "una bottiglia d'acqua",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "due etti di formaggio",
+                  "imageUrl": "/content/img/cheese-wedge.png"
+                },
+                {
+                  "text": "una bottiglia d'acqua",
+                  "imageUrl": "/content/img/droplet.png"
+                },
+                {
+                  "text": "un pacco di pasta",
+                  "imageUrl": "/content/img/package.png"
+                },
+                {
+                  "text": "un litro di latte",
+                  "imageUrl": "/content/img/glass-of-milk.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "una bottiglia d'acqua = a bottle of water"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/glass-of-milk.png",
+              "options": [
+                {
+                  "text": "una bottiglia d'acqua",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una scatola di tonno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un litro di latte",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un pacco di pasta",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "un litro di latte = a litre of milk"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/red-apple.png",
+              "options": [
+                {
+                  "text": "due etti di formaggio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una bottiglia d'acqua",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una scatola di tonno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un chilo di mele",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "un chilo di mele = 1 kg of apples"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "un litro di latte",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a tin of tuna",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a bottle of water",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a packet of pasta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a litre of milk",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "un chilo di mele",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "200 g of cheese",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a litre of milk",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1 kg of apples",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a packet of pasta",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "una bottiglia d'acqua",
+                  "right": "a bottle of water"
+                },
+                {
+                  "left": "due etti di formaggio",
+                  "right": "200 g of cheese"
+                },
+                {
+                  "left": "un chilo di mele",
+                  "right": "1 kg of apples"
+                },
+                {
+                  "left": "un litro di latte",
+                  "right": "a litre of milk"
+                },
+                {
+                  "left": "una scatola di tonno",
+                  "right": "a tin of tuna"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Un etto\" is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "10 grams",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1 kilo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "100 grams",
+                  "imageUrl": null
+                },
+                {
+                  "text": "500 grams",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Mezzo chilo\" is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "50 grams",
+                  "imageUrl": null
+                },
+                {
+                  "text": "500 grams",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1.000 grams",
+                  "imageUrl": null
+                },
+                {
+                  "text": "100 grams",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vorrei un chilo ___ mele.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "con",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prendo un ___ di pasta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "pacco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "litro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "etto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vasetto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Compro una ___ d'acqua.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "scatola",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chilo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bottiglia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pacco",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vorrei due ___ di formaggio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "litri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "etto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bottiglie",
+                  "imageUrl": null
+                },
+                {
+                  "text": "etti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I would like a kilo of tomatoes\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vorrei un chilo di pomodori",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 5 things you buy with the right quantity or container (un litro di latte…)."
+        },
+        {
+          "order": 9,
+          "title": "Lesson 3 · Numbers over 100 and prices",
+          "titleIt": "Lezione 3 · I numeri oltre 100 e i prezzi",
+          "kind": "Dialogue",
+          "summary": "Cento, duecento, mille, duemila — read a receipt and pay at the supermarket.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Contare oltre 100",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "100 – 199",
+                  "200 – 900",
+                  "1.000 +"
+                ],
+                [
+                  "100 = cento",
+                  "200 = duecento",
+                  "1.000 = mille"
+                ],
+                [
+                  "120 = centoventi",
+                  "300 = trecento",
+                  "1.500 = millecinquecento"
+                ],
+                [
+                  "150 = centocinquanta",
+                  "500 = cinquecento",
+                  "2.000 = duemila"
+                ],
+                [
+                  "185 = centottantacinque",
+                  "800 = ottocento",
+                  "10.000 = diecimila"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Numbers",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "cento",
+                  "english": "100",
+                  "punjabi": "Sau",
+                  "pronunciation": "CHEN-toh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "duecento",
+                  "english": "200",
+                  "punjabi": "Do sau",
+                  "pronunciation": "doo-eh-CHEN-toh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "cinquecento",
+                  "english": "500",
+                  "punjabi": "Panj sau",
+                  "pronunciation": "cheen-kweh-CHEN-toh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "mille",
+                  "english": "1.000",
+                  "punjabi": "Ikk hazar",
+                  "pronunciation": "MEEL-leh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "duemila",
+                  "english": "2.000",
+                  "punjabi": "Do hazar",
+                  "pronunciation": "doo-eh-MEE-lah",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Prezzi e pesi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Prezzo / peso",
+                  "Si legge"
+                ],
+                [
+                  "1,80 € (un etto di formaggio)",
+                  "un euro e ottanta"
+                ],
+                [
+                  "14,50 € (un chilo di pesce)",
+                  "quattordici euro e cinquanta"
+                ],
+                [
+                  "125,90 € (spesa settimanale)",
+                  "centoventicinque euro e novanta"
+                ],
+                [
+                  "250 g",
+                  "duecentocinquanta grammi"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "A customer buys food for the week at the supermarket.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: al banco e alla cassa del supermercato",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Commesso",
+                  "italian": "Buongiorno! Dica pure, cosa desidera?",
+                  "english": "Good morning! Tell me, what would you like?",
+                  "punjabi": "Dassi ji, ki chaahida hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Vorrei un chilo di pesce fresco, due etti di formaggio e mezzo chilo di pane.",
+                  "english": "I would like 1 kg of fresh fish, 200 g of cheese and half a kilo of bread.",
+                  "punjabi": "Mainu ikk kilo taazi machhi, do sau graam panir ate addha kilo roti chaahidi hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Ho anche due pacchi di pasta e una bottiglia d'olio. Quanto viene in tutto?",
+                  "english": "I also have two packets of pasta and a bottle of oil. How much is it altogether?",
+                  "punjabi": "Mere kol do paikat paasta ate ikk botal tel vi hai. Kinne paise hoe?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cassiera",
+                  "italian": "Sono centodieci euro e cinquanta. Paga con la carta?",
+                  "english": "That's 110.50 €. Are you paying by card?",
+                  "punjabi": "110,50 € hoe ji. Kaard naal paise devoge?",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Cento** and **mille** don't take \"un\": 100 = *cento* (not \"un cento\"), 1.000 = *mille*. The plural of mille is **-mila**: *duemila, tremila*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the number",
+              "italian": "centoventi",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "102",
+                  "imageUrl": null
+                },
+                {
+                  "text": "120",
+                  "imageUrl": null
+                },
+                {
+                  "text": "220",
+                  "imageUrl": null
+                },
+                {
+                  "text": "112",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the number",
+              "italian": "duecentocinquanta",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "150",
+                  "imageUrl": null
+                },
+                {
+                  "text": "250",
+                  "imageUrl": null
+                },
+                {
+                  "text": "205",
+                  "imageUrl": null
+                },
+                {
+                  "text": "2.500",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the number",
+              "italian": "millecinquecento",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "5.100",
+                  "imageUrl": null
+                },
+                {
+                  "text": "150",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1.500",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1.050",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "How do you write 130?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "trecento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "centotredici",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cento e trenta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "centotrenta",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "How do you write 1.000?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "cento cento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un mille",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mille",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mila",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The customer pays 110.50 €.)",
+              "italian": "La cliente paga 110,50 €.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The customer buys 200 g of fish.)",
+              "italian": "La cliente compra due etti di pesce.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play: make a shopping list over 100 € (e.g. 112,80 €) and read the total out loud."
+        },
+        {
+          "order": 10,
+          "title": "Lesson 4 · There is, there are: c'è / ci sono",
+          "titleIt": "Lezione 4 · C'è e ci sono",
+          "kind": "Grammar",
+          "summary": "Say what there is (and isn't) in the fridge, the kitchen and the shop.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 4 · Lezione 4 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap4-lez4-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "C'è / ci sono: presenza e assenza",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Forma",
+                  "Uso",
+                  "Esempio",
+                  "English / Punjabi"
+                ],
+                [
+                  "C'È + singolare",
+                  "there is",
+                  "In frigo c'è una bottiglia di latte.",
+                  "There is · ikk cheez hai"
+                ],
+                [
+                  "CI SONO + plurale",
+                  "there are",
+                  "Sul tavolo ci sono quattro mele.",
+                  "There are · bahut chizaan han"
+                ],
+                [
+                  "NON C'È / NON CI SONO",
+                  "absence",
+                  "In cucina non c'è pane.",
+                  "There isn't · nahi hai"
+                ],
+                [
+                  "C'È…? / CI SONO…?",
+                  "question",
+                  "Scusi, c'è il pesce fresco oggi?",
+                  "Is there…? · ki … hai?"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "In cucina e nel negozio: cosa c'è?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "in frigo",
+                  "english": "in the fridge",
+                  "punjabi": "Frij vich",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "C'è lo yogurt e ci sono le carote, ma non c'è il burro.",
+                  "exampleEnglish": "There's yogurt and there are carrots, but there's no butter."
+                },
+                {
+                  "italian": "in dispensa",
+                  "english": "in the pantry",
+                  "punjabi": "Rasoi di almari vich",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Ci sono due pacchi di riso, ma non c'è l'olio.",
+                  "exampleEnglish": "There are two packets of rice, but there's no oil."
+                },
+                {
+                  "italian": "al mercato",
+                  "english": "at the market",
+                  "punjabi": "Mandi vich",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Ci sono pomodori maturi? — Sì, eccoli!",
+                  "exampleEnglish": "Are there ripe tomatoes? — Yes, here they are!"
+                },
+                {
+                  "italian": "al supermercato",
+                  "english": "at the supermarket",
+                  "punjabi": "Dukan vich",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Scusi, c'è il pane integrale? — Sì, al reparto forno.",
+                  "exampleEnglish": "Excuse me, is there wholemeal bread? — Yes, in the bakery section."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**C'è** = ci + è (singular). **Ci sono** = plural. Count the things: *c'è **un** pezzo di formaggio* · *ci sono **sei** uova*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "In frigo ___ una bottiglia di latte fresco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ci sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Sul tavolo ___ tre bicchieri e due piatti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Scusi, ___ del pane integrale oggi?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "In dispensa ___ uova per fare la torta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non c'è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "In cucina ___ pane.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non c'è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Choose the correct sentence:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "C'è quattro mele.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono quattro mele ci.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ci sono quattro mele.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ci è quattro mele.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"There is no butter in the fridge\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "In frigo non c'è il burro",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Open your fridge and write 3 things there are and 2 things there aren't."
+        },
+        {
+          "order": 11,
+          "title": "Lesson 4 · Some: del, della, dei, un po' di",
+          "titleIt": "Lezione 4 · Gli articoli partitivi",
+          "kind": "Grammar",
+          "summary": "Del, della, dell', dei, degli, delle and un po' di for amounts that aren't exact.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "I partitivi: DI + articolo",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Genere e numero",
+                  "di + articolo",
+                  "Partitivo",
+                  "Esempio"
+                ],
+                [
+                  "maschile singolare (il)",
+                  "di + il",
+                  "DEL",
+                  "Vorrei del pane, del latte e del riso."
+                ],
+                [
+                  "femminile singolare (la)",
+                  "di + la",
+                  "DELLA",
+                  "Compro della carne, della pasta e della frutta."
+                ],
+                [
+                  "singolare + vocale (l')",
+                  "di + l'",
+                  "DELL'",
+                  "Prendo dell'acqua, dell'olio e dell'insalata."
+                ],
+                [
+                  "maschile plurale (i / gli)",
+                  "di + i / gli",
+                  "DEI / DEGLI",
+                  "Ci sono dei pomodori e degli spinaci."
+                ],
+                [
+                  "femminile plurale (le)",
+                  "di + le",
+                  "DELLE",
+                  "Vorrei delle mele, delle patate e delle uova."
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "3 modi per chiedere una quantità non precisa",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Forma",
+                  "Uso",
+                  "Esempio"
+                ],
+                [
+                  "UN PO' DI",
+                  "a small amount (a little · thodha jiha)",
+                  "Vorrei un po' di formaggio, un po' di sale."
+                ],
+                [
+                  "DEL / DELLA / DELL'",
+                  "some (singular: weighed food, liquids)",
+                  "Prendo del pesce, della mozzarella e dell'acqua."
+                ],
+                [
+                  "DEI / DEGLI / DELLE",
+                  "some (plural = alcuni / alcune)",
+                  "Compro dei biscotti, degli yogurt e delle banane."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "In a **negative** sentence don't use the partitive: *C'è **del** latte? — No, non c'è latte!*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Al mercato compro ___ pomodori rossi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dei",
+                  "imageUrl": null
+                },
+                {
+                  "text": "della",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Compro anche ___ mele dolci.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dei",
+                  "imageUrl": null
+                },
+                {
+                  "text": "degli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vorrei ___ pane fresco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "degli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un po' di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "della",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vorrei ___ acqua naturale.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dei",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dell'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "In frigo c'è ___ frutta fresca.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "della",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dei",
+                  "imageUrl": null
+                },
+                {
+                  "text": "degli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ci sono ___ spinaci.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "degli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dei",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prendo ___ pesce.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "della",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dell'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "— C'è del latte? — No, …",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "c'è della latte.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non c'è latte.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non c'è del latte.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ci sono latte.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 4 things you want to buy with del / della / dei / delle / un po' di."
+        },
+        {
+          "order": 12,
+          "title": "Lesson 4 · Dialogue: doing the shopping",
+          "titleIt": "Lezione 4 · Dialogo: fare la spesa al negozio",
+          "kind": "Dialogue",
+          "summary": "A full shopping conversation with c'è, un po' di and the partitives.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "A customer at a small food shop.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: fare la spesa al negozio",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Commesso",
+                  "italian": "Buongiorno! Dica pure, cosa desidera?",
+                  "english": "Good morning! What would you like?",
+                  "punjabi": "Sat Sri Akal! Ki chaahida hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Buongiorno! C'è del pesce fresco? Vorrei anche un po' di formaggio.",
+                  "english": "Good morning! Is there any fresh fish? I'd also like a little cheese.",
+                  "punjabi": "Sat Sri Akal! Ki taazi machhi hai? Mainu thodha panir vi chaahida hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Commesso",
+                  "italian": "Sì, c'è del salmone ottimo! E poi ci sono delle fragole molto dolci.",
+                  "english": "Yes, there's some excellent salmon! And there are some very sweet strawberries.",
+                  "punjabi": "Haan ji, vadhia saaman machhi hai! Ate mitthiaan straabariaan vi han.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Prendo mezzo chilo di salmone, delle fragole e un pacco di pasta. Quanto viene?",
+                  "english": "I'll take half a kilo of salmon, some strawberries and a packet of pasta. How much is it?",
+                  "punjabi": "Addha kilo machhi, straabariaan ate ikk paikat paasta lainda haan. Kinne paise hoe?",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play completo: fare la spesa",
+              "body": "1. **Controlla cosa manca:** in cucina non c'è pane e non ci sono uova — scrivi la tua lista di 4 prodotti.\n2. **Chiedi e ordina al banco:** usa «C'è / Ci sono…?», «un po' di», i partitivi e chilo / etto.\n3. **Chiedi il prezzo e paga:** «Quanto viene in tutto?», leggi il totale in euro, poi cambiate ruolo!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The shop assistant has some salmon.)",
+              "italian": "Il commesso ha del salmone.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The customer takes a kilo of salmon.)",
+              "italian": "La cliente prende un chilo di salmone.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The customer also buys some strawberries.)",
+              "italian": "La cliente compra anche delle fragole.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Dica pure!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Go ahead, tell me!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Pay here!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Wait a moment!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Goodbye!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Is there any fresh fish\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "C'è del pesce fresco",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Full role-play with a partner: check what is missing, order with c'è / partitives / quantities, ask the total and pay."
+        },
+        {
+          "order": 13,
+          "title": "Chapter 4 test",
+          "titleIt": "Test Capitolo 4",
+          "kind": "Exam",
+          "summary": "Listening, menu and food, numbers over 100, prendere / mangiare / pagare, c'è / ci sono and partitives. Pass mark: 60%.",
+          "estimatedMinutes": 25,
+          "xpReward": 60,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Test Capitolo 4",
+              "body": "This test checks everything in Chapter 4 (Lessons 1–4).\n\n- **1. Listening** — orders, preferences, quantities, prices and weights\n- **2. Vocabulary** — menu, food, containers and numbers over 100\n- **3. Grammar** — prendere, mangiare, pagare, c'è / ci sono and partitives\n- **4. Writing** — sentences about ordering and shopping\n\nYou need **60%** to pass. You can repeat the test as many times as you like.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The **written part** (at the restaurant and the shopping list) and the **oral interview** (bar and restaurant, shopping and prices, c'è / ci sono — 2 minutes) are done **with your teacher** in the live class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Buongiorno, vorrei un caffè e un cornetto, per favore.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "VORREI UN CAFFÈ E UN CORNETTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VORREI UN TÈ E UN PANINO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Io sono pronto: come secondo prendo il pesce con insalata.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "COME PRIMO PRENDO LA PASTA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "COME SECONDO PRENDO IL PESCE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Scusi, non posso bere il cappuccino perché sono allergico al latte.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "SONO VEGETARIANO, NON MANGIO CARNE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SONO ALLERGICO AL LATTE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Al mercato compro un chilo di mele rosse.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "COMPRO UN CHILO DI MELE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "COMPRO UN ETTO DI FORMAGGIO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Dobbiamo fare la spesa perché in frigo non ci sono uova.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "IN FRIGO NON CI SONO UOVA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "IN FRIGO C'È DEL LATTE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the price or weight",
+              "italian": "Un euro e quaranta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "4,10 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1,40 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1,14 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "14,00 €",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the price or weight",
+              "italian": "Diciotto euro e cinquanta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "18,15 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "80,50 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "8,50 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "18,50 €",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the price or weight",
+              "italian": "Centoquindici euro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "15,00 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "150,00 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "105,00 €",
+                  "imageUrl": null
+                },
+                {
+                  "text": "115,00 €",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the price or weight",
+              "italian": "Duecentocinquanta grammi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "2.500 g",
+                  "imageUrl": null
+                },
+                {
+                  "text": "150 g",
+                  "imageUrl": null
+                },
+                {
+                  "text": "250 g",
+                  "imageUrl": null
+                },
+                {
+                  "text": "205 g",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the price or weight",
+              "italian": "Cinquecento grammi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "105 g",
+                  "imageUrl": null
+                },
+                {
+                  "text": "50 g",
+                  "imageUrl": null
+                },
+                {
+                  "text": "500 g",
+                  "imageUrl": null
+                },
+                {
+                  "text": "5.000 g",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "2A · Match each word with its meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Antipasto",
+                  "right": "Starter · Shuruati khaana"
+                },
+                {
+                  "left": "Contorno",
+                  "right": "Side dish · Said dish"
+                },
+                {
+                  "left": "Latticini",
+                  "right": "Dairy products · Dudh de utpad"
+                },
+                {
+                  "left": "Una bottiglia d'acqua",
+                  "right": "A bottle of water · Paani di botal"
+                },
+                {
+                  "left": "Il conto",
+                  "right": "The bill · Bil"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Write the number in Italian: 100",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "centi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mille",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un cento",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Write the number in Italian: 130",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "trentacento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "centotredici",
+                  "imageUrl": null
+                },
+                {
+                  "text": "centotrenta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "trecento",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Write the number in Italian: 250",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "duecentocinquanta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "duecinquanta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cinquecentodue",
+                  "imageUrl": null
+                },
+                {
+                  "text": "duecentoquindici",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Write the number in Italian: 500",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "cinquecento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cinquemila",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cinquanta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cinquecenti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Write the number in Italian: 1.000",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mille",
+                  "imageUrl": null
+                },
+                {
+                  "text": "diecicento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un mille",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mila",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Al ristorante noi ___ (prendere) un primo piatto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prendo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendiamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Tu ___ (mangiare) la carne o sei vegetariano?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mangi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mangiate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mangia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mangii",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Alla cassa tu ___ (pagare) con la carta o in contanti?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "pagate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paga",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paghi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · I clienti ___ (pagare) il conto al barista.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "paga",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "paghano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagate",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · In frigo ___ una bottiglia di latte fresco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Sul tavolo ___ tre bicchieri e due piatti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "non c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Scusi, ___ del pane integrale oggi?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "non ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · In dispensa ___ uova per fare la torta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Al mercato compro ___ pomodori rossi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dei",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · … e ___ mele dolci.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dei",
+                  "imageUrl": null
+                },
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Vorrei ___ pane fresco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "degli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un po' di",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · … e ___ acqua naturale.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dell'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dei",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · In frigo c'è ___ frutta fresca.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "della",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · … e ci sono ___ spinaci.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "delle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "degli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"At the café in the morning I have a cappuccino\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Al bar la mattina prendo un cappuccino",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"At the supermarket I buy a kilo of apples\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Al supermercato compro un chilo di mele",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"In my kitchen there are some potatoes\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Nella mia cucina ci sono delle patate",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Written part for your teacher: complete the 5 sentences about the bar, the restaurant, what you don't eat, your shopping and your kitchen. Then prepare the 2-minute oral interview."
+        }
+      ]
+    }
+  ]
+}

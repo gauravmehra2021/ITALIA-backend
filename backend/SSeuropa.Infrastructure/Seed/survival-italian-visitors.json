@@ -8,9 +8,10 @@
   "cefrLevel": "A1",
   "category": "Visit",
   "durationWeeks": 4,
-  "displayOrder": 5,
+  "displayOrder": 24,
   "thumbnailUrl": "/content/img/luggage.png",
   "previousTitles": [],
+  "splitFrom": null,
   "units": [
     {
       "key": "unit-1",

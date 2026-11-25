@@ -14,13 +14,14 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import PDFDocument from 'pdfkit';
 import { rng, shuffle, hashString } from './lib.mjs';
-import { collectTexts } from './translatable.mjs';
+import { collectTexts, tableMeanings, splitMeaning } from './translatable.mjs';
+import { plainPunjabi } from './plainPunjabi.mjs';
 import italianA1 from './courses/italian-a1/index.mjs';
 import italianA2 from './courses/italian-a2/index.mjs';
 import italianWork from './courses/italian-work/index.mjs';
 import italianStudy from './courses/italian-study/index.mjs';
 import italianVisit from './courses/italian-visit/index.mjs';
-import corsoA0 from './courses/corso-a0/index.mjs';
+import corsoChapters, { phrasebookCourse as corsoPhrasebook } from './courses/corso-a0/index.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const backend = path.resolve(here, '../backend');
@@ -40,7 +41,7 @@ function newPdf(opts) {
   return doc;
 }
 
-const COURSES = [corsoA0, italianA1, italianA2, italianWork, italianStudy, italianVisit];
+const COURSES = [...corsoChapters, italianA1, italianA2, italianWork, italianStudy, italianVisit];
 const XP = { Vocabulary: 20, Dialogue: 25, Grammar: 25, Review: 40, Conversation: 30, Exam: 60 };
 const MINUTES = { Vocabulary: 10, Dialogue: 12, Grammar: 15, Review: 15, Conversation: 8, Exam: 20 };
 
@@ -245,7 +246,8 @@ const block = (type, extra) => ({
 });
 
 function buildLesson(course, unit, unitIndex, lesson, lessonIndex) {
-  const rand = rng(hashString(`${course.slug}:${unitIndex}:${lessonIndex}`));
+  // Chapter courses split from one course keep the old key, so their exercises stay the same.
+  const rand = rng(hashString(`${course.contentKey ?? course.slug}:${(course.unitOffset ?? 0) + unitIndex}:${lessonIndex}`));
   const blocks = [];
   let exercises = [];
 
@@ -312,7 +314,7 @@ function buildLesson(course, unit, unitIndex, lesson, lessonIndex) {
         body: 'All the words, dialogues and grammar of this unit on one printable sheet.',
         mediaUrl: unitPdfUrl(course, unitIndex),
       }));
-      if (unitIndex === course.units.length - 1) {
+      if (!course.phrasebookSlug && unitIndex === course.units.length - 1) {
         blocks.push(block('Pdf', {
           title: 'Course phrasebook (PDF)',
           body: 'Every word and phrase from the whole course, unit by unit — print it or keep it on your phone.',
@@ -393,8 +395,9 @@ function buildSections(course, lesson, rand) {
   return { blocks, exercises };
 }
 
-const unitPdfUrl = (course, unitIndex) => `/content/pdf/${course.slug}-unit-${String(unitIndex + 1).padStart(2, '0')}.pdf`;
-const phrasebookUrl = (course) => `/content/pdf/${course.slug}-phrasebook.pdf`;
+const unitPdfUrl = (course, unitIndex) => `/content/pdf/${course.pdfSlug ?? course.slug}-unit-${String((course.unitOffset ?? 0) + unitIndex + 1).padStart(2, '0')}.pdf`;
+// Chapter courses share one phrasebook (course.phrasebookSlug), built from all chapters.
+const phrasebookUrl = (course) => `/content/pdf/${course.phrasebookSlug ?? course.slug}-phrasebook.pdf`;
 
 function buildCourse(course) {
   return {
@@ -410,6 +413,7 @@ function buildCourse(course) {
     displayOrder: course.displayOrder,
     thumbnailUrl: imageUrl(course.cover),
     previousTitles: course.previousTitles ?? [],
+    splitFrom: course.splitFrom ?? null,
     units: course.units.map((u, ui) => ({
       // Stable unit id: lets the API append new chapters to a course that is already live.
       key: u.key ?? `unit-${ui + 1}`,
@@ -454,7 +458,7 @@ const pdfText = (s) => String(s ?? '')
 function unitPdf(course, unit, unitIndex) {
   return new Promise((resolve, reject) => {
     const file = path.join(pdfDir, path.basename(unitPdfUrl(course, unitIndex)));
-    const doc = newPdf({ size: 'A4', margin: 48, bufferPages: true, info: { Title: `${course.title} — Unit ${unitIndex + 1}: ${unit.title}`, Author: 'SS Europa' } });
+    const doc = newPdf({ size: 'A4', margin: 48, bufferPages: true, info: { Title: `${course.title} — Unit ${(course.unitOffset ?? 0) + unitIndex + 1}: ${unit.title}`, Author: 'SS Europa' } });
     const out = fs.createWriteStream(file);
     doc.pipe(out);
     out.on('finish', resolve);
@@ -642,7 +646,8 @@ function phrasebookPdf(course) {
 const builtCourses = [];
 for (const course of COURSES) {
   await ensureImages(collectImages(course));
-  const built = buildCourse(course);
+  // Roman Punjabi in plain letters everywhere (Main, Tusi, haan — not Maiṁ, Tusīṁ, hāṁ).
+  const built = JSON.parse(plainPunjabi(JSON.stringify(buildCourse(course))));
   builtCourses.push(built);
   const seedFile = path.join(seedDir, `${course.slug}.json`);
   fs.writeFileSync(seedFile, JSON.stringify(built, null, 2) + '\n');
@@ -650,9 +655,12 @@ for (const course of COURSES) {
   const exercises = built.units.reduce((n, u) => n + u.lessons.reduce((m, l) => m + l.exercises.length, 0), 0);
   console.log(`${course.title}: ${built.units.length} units, ${lessons} lessons, ${exercises} exercises -> ${path.relative(here, seedFile)}`);
   for (let i = 0; i < course.units.length; i++) await unitPdf(course, course.units[i], i);
-  await phrasebookPdf(course);
-  console.log(`  ${course.units.length} PDF study sheets + phrasebook -> ${path.relative(here, pdfDir)}`);
+  if (!course.phrasebookSlug) await phrasebookPdf(course);
+  console.log(`  ${course.units.length} PDF study sheet(s)${course.phrasebookSlug ? '' : ' + phrasebook'} -> ${path.relative(here, pdfDir)}`);
 }
+await phrasebookPdf(corsoPhrasebook); // shared by the Capitolo courses
+// The old one-course seed must not come back: the API would load it again as a course.
+fs.rmSync(path.join(seedDir, `${corsoPhrasebook.slug}.json`), { force: true });
 
 // ── Translations (Punjabi / Hindi / Urdu of the English content) ────────────
 //
@@ -667,7 +675,7 @@ const memory = new Map(); // en → { pa, hi, ur }
 const put = (en, pa, hi, ur) => {
   const k = en.trim();
   const cur = memory.get(k) ?? {};
-  memory.set(k, { pa: cur.pa || pa || null, hi: cur.hi || hi || null, ur: cur.ur || ur || null });
+  memory.set(k, { pa: cur.pa || plainPunjabi(pa) || null, hi: cur.hi || hi || null, ur: cur.ur || ur || null });
 };
 const jsonFiles = (dir) => (fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort() : []);
 for (const f of jsonFiles(trDir)) {
@@ -683,6 +691,13 @@ for (const c of builtCourses) {
   for (const u of c.units) for (const l of u.lessons) for (const b of l.blocks) {
     for (const it of b.items) if (it.punjabi) put(it.english, it.punjabi, null, null);
     for (const ln of b.lines) if (ln.punjabi) put(ln.english, ln.punjabi, null, null);
+    // Grammar tables with a Punjabi column: the Punjabi of each English cell.
+    if (b.type === 'Table') for (const [en, pa] of tableMeanings(b.table)) if (pa) put(en, pa, null, null);
+  }
+  // Match pairs written as "English · Punjabi".
+  for (const u of c.units) for (const l of u.lessons) for (const e of l.exercises) for (const p of e.pairs ?? []) {
+    const [en, pa] = splitMeaning(p.right);
+    if (en && pa) put(en, pa, null, null);
   }
 }
 

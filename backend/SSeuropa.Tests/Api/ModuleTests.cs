@@ -31,11 +31,13 @@ public class ModuleTests : IClassFixture<WebApplicationFactory<Program>>
     public async Task SchoolCourse_IsGroupedIntoLezioniModules_EachStartingWithAVideo()
     {
         var admin = await DemoLoginAsync("admin@sseuropa.demo");
-        var course = (await GetAsync<List<CourseCard>>("/api/learn/courses", admin)).Single(c => c.Course.Slug == "corso-italiano-a0");
+        var catalogue = await GetAsync<List<CourseCard>>("/api/learn/courses", admin);
+        var chapters = catalogue.Where(c => c.Course.Slug.StartsWith("corso-italiano-capitolo-")).ToList();
+        var course = chapters.Single(c => c.Course.Slug == "corso-italiano-capitolo-1");
         var outline = await GetAsync<Outline>($"/api/curriculum/courses/{course.Course.Id}", admin);
 
         // Placeholder videos don't count as lessons.
-        course.TotalLessons.Should().Be(156);
+        course.TotalLessons.Should().Be(13);
 
         var unit = outline.Units[0];
         unit.Modules.Select(m => m.Title).Should().StartWith(["Lezione 1", "Lezione 2"]);
@@ -50,15 +52,19 @@ public class ModuleTests : IClassFixture<WebApplicationFactory<Program>>
         unit.Lessons.Select(l => l.Order).Should().Equal(Enumerable.Range(1, unit.Lessons.Count));
         unit.Modules.SelectMany(m => m.Lessons).Select(l => l.Id).Should().Equal(unit.Lessons.Select(l => l.Id));
 
-        // Every chapter has Lezione 1–4 and ends with its test (Chapter 7: final A1, Chapter 12: final A2).
-        outline.Units.Should().HaveCount(12).And.AllSatisfy(u =>
+        // Every chapter course has Lezione 1–4 and ends with its test (Chapter 7: final A1, Chapter 12: final A2).
+        chapters.Should().HaveCount(12);
+        var units = new List<UnitData>();
+        foreach (var c in chapters)
+            units.Add((await GetAsync<Outline>($"/api/curriculum/courses/{c.Course.Id}", admin)).Units.Should().ContainSingle().Subject);
+        units.Should().AllSatisfy(u =>
         {
             u.Modules.Take(4).Select(m => m.Title).Should().Equal("Lezione 1", "Lezione 2", "Lezione 3", "Lezione 4");
             u.Modules.Should().HaveCount(5);
             u.Modules[^1].IsTest.Should().BeTrue();
         });
-        outline.Units[6].Modules[^1].Title.Should().Be("Final A1 test (Chapters 1–7)");
-        outline.Units[11].Modules[^1].Title.Should().Be("Final A2 test (Chapters 8–12)");
+        units[6].Modules[^1].Title.Should().Be("Final A1 test (Chapters 1–7)");
+        units[11].Modules[^1].Title.Should().Be("Final A2 test (Chapters 8–12)");
     }
 
     [Fact]

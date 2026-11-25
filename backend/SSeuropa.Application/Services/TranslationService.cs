@@ -244,6 +244,8 @@ public static class ContentTexts
                     if (b.Type is LessonBlockType.Text or LessonBlockType.Tip or LessonBlockType.Pdf) Add(b.Body);
                     if (b.Type == LessonBlockType.Text) Add(b.Caption);
                     if (b.Type == LessonBlockType.Table && b.Table.Count > 0) foreach (var h in b.Table[0]) Add(h);
+                    // …and the English cells of tables that carry a Punjabi meaning (shown in Hindi / Urdu).
+                    if (b.Type == LessonBlockType.Table) foreach (var (en, _) in PunjabiText.TableMeanings(b.Table)) Add(en);
                     foreach (var it in b.Items) { Add(it.English); Add(it.ExampleEnglish); }
                     foreach (var ln in b.Lines) { Add(ln.English); foreach (var r in ln.Replies) Add(r.English); }
                 }
@@ -255,7 +257,7 @@ public static class ContentTexts
                     if (e.Type == ExerciseType.PickTranslation && (e.Prompt ?? string.Empty).EndsWith("What does it mean?", StringComparison.Ordinal))
                         foreach (var o in e.Options) Add(o.Text);
                     if (e.Type == ExerciseType.MatchPairs)
-                        foreach (var p in e.Pairs) Add(p.Right.Split(" · ")[0]);
+                        foreach (var p in e.Pairs) Add(PunjabiText.SplitMeaning(p.Right).English);
                 }
             }
         }

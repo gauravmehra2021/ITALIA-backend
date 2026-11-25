@@ -1,0 +1,5335 @@
+{
+  "slug": "corso-italiano-capitolo-12",
+  "title": "Capitolo 12 · The future, indirect pronouns, real life — A2 review",
+  "shortDescription": "The futuro semplice for plans, forecasts and promises (parlerò, sarò, avrò, andrò, farò), the indirect pronouns (mi, ti, gli, le, ci, vi) and the connectors perché, quindi, però, anche se, three real-life situations (post office and Comune, a job interview, phoning the plumber), then the complete A1–A2 review and the final A2 test.",
+  "description": "Part of the official SS Europa Italian course used in our classes, for learners from India, Pakistan and Bangladesh who are going to Italy to work, study or live. Chapters 1–7 take you from zero to level A1 and Chapters 8–12 to level A2 — study them in order.\n\nEvery 60-minute class of the chapter is split into three short lessons you can study on your phone, with pictures, audio, grammar tables and exercises. Every word comes with its English and Punjabi meaning, the slides of each class are attached as PDF, and the chapter ends with a test (pass mark 60%).\n\nThis chapter also has the final A2 test (Chapters 8–12); the written part and the oral interview are done with your teacher.",
+  "objectives": "I can talk about my plans and make forecasts with the futuro semplice\nI can use the irregular futures: sarò, avrò, andrò, farò, verrò, potrò, dovrò\nI can use the indirect pronouns: gli telefono, le regalo un fiore, ti consiglio…\nI can link sentences with perché, quindi, però, anche se\nI can manage the post office, the Comune, a simple job interview and a call about a repair at home\nI can use the 4 main tenses together — level A2",
+  "level": "Beginner",
+  "cefrLevel": "A2",
+  "category": "Core",
+  "durationWeeks": 2,
+  "displayOrder": 11,
+  "thumbnailUrl": "/content/img/graduation-cap.png",
+  "previousTitles": [],
+  "splitFrom": "corso-italiano-a0",
+  "units": [
+    {
+      "key": "capitolo-12",
+      "order": 1,
+      "title": "Chapter 12: The future, indirect pronouns, real life — A2 review",
+      "titleIt": "Capitolo 12: Il futuro, i pronomi indiretti, la vita in Italia — ripasso A2",
+      "description": "The futuro semplice for plans, forecasts and promises (parlerò, sarò, avrò, andrò, farò), the indirect pronouns (mi, ti, gli, le, ci, vi) and the connectors perché, quindi, però, anche se, three real-life situations (post office and Comune, a job interview, phoning the plumber), then the complete A1–A2 review and the final A2 test.",
+      "canDo": [
+        "I can talk about my plans and make forecasts with the futuro semplice",
+        "I can use the irregular futures: sarò, avrò, andrò, farò, verrò, potrò, dovrò",
+        "I can use the indirect pronouns: gli telefono, le regalo un fiore, ti consiglio…",
+        "I can link sentences with perché, quindi, però, anche se",
+        "I can manage the post office, the Comune, a simple job interview and a call about a repair at home",
+        "I can use the 4 main tenses together — level A2"
+      ],
+      "imageUrl": "/content/img/graduation-cap.png",
+      "pdfUrl": "/content/pdf/corso-italiano-a0-unit-12.pdf",
+      "liveClassFocus": "Role-play two real-life scenarios (post office / Comune, job interview, plumber), then the 3 parts of the final A2 oral exam: talk about yourself with all 4 tenses, a role-play, and a then-and-now comparison.",
+      "status": "Published",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Lesson 1 · The futuro semplice",
+          "titleIt": "Lezione 1 · Il futuro semplice: forme regolari e irregolari",
+          "kind": "Grammar",
+          "summary": "Parlerò, prenderò, partirò — and sarò, avrò, andrò, farò, verrò, potrò, dovrò.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 12 · Lezione 1 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap12-lez1-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Verbi regolari: -ARE / -ERE → -ERÒ · -IRE → -IRÒ",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Persona",
+                  "PARLARE",
+                  "PRENDERE",
+                  "PARTIRE",
+                  "English",
+                  "Punjabi"
+                ],
+                [
+                  "io",
+                  "parlerò",
+                  "prenderò",
+                  "partirò",
+                  "I will speak",
+                  "main bolanga"
+                ],
+                [
+                  "tu",
+                  "parlerai",
+                  "prenderai",
+                  "partirai",
+                  "you will speak",
+                  "tu bolega"
+                ],
+                [
+                  "lui / lei",
+                  "parlerà",
+                  "prenderà",
+                  "partirà",
+                  "he / she will speak",
+                  "uh bolega / bolegi"
+                ],
+                [
+                  "noi",
+                  "parleremo",
+                  "prenderemo",
+                  "partiremo",
+                  "we will speak",
+                  "asi bolange"
+                ],
+                [
+                  "voi",
+                  "parlerete",
+                  "prenderete",
+                  "partirete",
+                  "you (pl.) will speak",
+                  "tusi bologe"
+                ],
+                [
+                  "loro",
+                  "parleranno",
+                  "prenderanno",
+                  "partiranno",
+                  "they will speak",
+                  "uh bolange"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "I 7 verbi irregolari più usati",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Infinito",
+                  "io",
+                  "tu",
+                  "lui / lei",
+                  "noi / voi / loro"
+                ],
+                [
+                  "ESSERE",
+                  "sarò",
+                  "sarai",
+                  "sarà",
+                  "saremo / sarete / saranno"
+                ],
+                [
+                  "AVERE",
+                  "avrò",
+                  "avrai",
+                  "avrà",
+                  "avremo / avrete / avranno"
+                ],
+                [
+                  "ANDARE",
+                  "andrò",
+                  "andrai",
+                  "andrà",
+                  "andremo / andrete / andranno"
+                ],
+                [
+                  "FARE",
+                  "farò",
+                  "farai",
+                  "farà",
+                  "faremo / farete / faranno"
+                ],
+                [
+                  "VENIRE",
+                  "verrò",
+                  "verrai",
+                  "verrà",
+                  "verremo / verrete / verranno"
+                ],
+                [
+                  "POTERE",
+                  "potrò",
+                  "potrai",
+                  "potrà",
+                  "potremo / potrete / potranno"
+                ],
+                [
+                  "DOVERE",
+                  "dovrò",
+                  "dovrai",
+                  "dovrà",
+                  "dovremo / dovrete / dovranno"
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Verbs in **-care / -gare** keep the hard sound with an **h**: cer**c**are → cer**ch**erò, gio**c**are → gio**ch**erò, pa**g**are → pa**gh**erò.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'anno prossimo io ___ una casa più grande.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "cercerò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cercherò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cerco ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cercarò",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'anno prossimo io ___ un corso.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho fatto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "farò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "facerò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "farerò",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domani noi ___ dal medico.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andaremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "anderemo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo andati",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domani noi ___ chiedere la ricetta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "potremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "poteremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "potevamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "possiamo ieri",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Stasera ___ io la cena al ristorante!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "pagavo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagherò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagarò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pagerò",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tra due anni loro ___ un lavoro nuovo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "avrano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno avuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "averanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "avranno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ a Roma in primavera?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vieni ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venirai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "verrai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venerai",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domani ___ bel tempo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è stato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sarà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "essera",
+                  "imageUrl": null
+                },
+                {
+                  "text": "era",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the future of 5 regular verbs and the 7 irregular ones for io and noi."
+        },
+        {
+          "order": 2,
+          "title": "Lesson 1 · Plans, forecasts and promises",
+          "titleIt": "Lezione 1 · Progetti, previsioni e promesse",
+          "kind": "Vocabulary",
+          "summary": "Domani, tra poco, l'anno prossimo — work, study and holidays.",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "3 usi principali del futuro",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Uso",
+                  "Esempio"
+                ],
+                [
+                  "1. Progetti di lavoro e studio",
+                  "A settembre farò un corso nuovo."
+                ],
+                [
+                  "2. Previsioni (meteo e futuro)",
+                  "Domani pioverà e farà freddo."
+                ],
+                [
+                  "3. Promesse e decisioni",
+                  "Ti chiamerò stasera, te lo prometto!"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Parole segnale",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "domani",
+                  "english": "tomorrow",
+                  "punjabi": "Kall (aun vaala)",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "tra poco",
+                  "english": "soon / in a moment",
+                  "punjabi": "Thodi der vich",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/hourglass-not-done.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "tra due anni",
+                  "english": "in two years",
+                  "punjabi": "Do saal baad",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/spiral-calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la settimana prossima",
+                  "english": "next week",
+                  "punjabi": "Agale hafte",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/tear-off-calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "l'anno prossimo",
+                  "english": "next year",
+                  "punjabi": "Agale saal",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Cosa farai quest'anno?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Il mese prossimo avrò un colloquio e troverò un lavoro migliore.",
+                  "english": "Next month I'll have an interview and find a better job.",
+                  "punjabi": "Agale mahine meri intarviu hovegi ate main vadhia kamm labhanga.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "L'anno prossimo prenderò la patente e studierò italiano B1.",
+                  "english": "Next year I'll get my driving licence and study Italian B1.",
+                  "punjabi": "Agale saal main draiving laisains lavanga ate B1 Italian padhanga.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ad agosto andremo in India e vedremo tutta la famiglia!",
+                  "english": "In August we'll go to India and see the whole family!",
+                  "punjabi": "Agasat vich asi Bhaarat jaavange ate saare parivar nu milange!",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "tra due anni",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la settimana prossima",
+                  "imageUrl": "/content/img/tear-off-calendar.png"
+                },
+                {
+                  "text": "l'anno prossimo",
+                  "imageUrl": "/content/img/calendar.png"
+                },
+                {
+                  "text": "tra poco",
+                  "imageUrl": "/content/img/hourglass-not-done.png"
+                },
+                {
+                  "text": "tra due anni",
+                  "imageUrl": "/content/img/spiral-calendar.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "tra due anni = in two years"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la settimana prossima",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "domani",
+                  "imageUrl": "/content/img/calendar.png"
+                },
+                {
+                  "text": "tra due anni",
+                  "imageUrl": "/content/img/spiral-calendar.png"
+                },
+                {
+                  "text": "la settimana prossima",
+                  "imageUrl": "/content/img/tear-off-calendar.png"
+                },
+                {
+                  "text": "l'anno prossimo",
+                  "imageUrl": "/content/img/calendar.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la settimana prossima = next week"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "l'anno prossimo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'anno prossimo",
+                  "imageUrl": "/content/img/calendar.png"
+                },
+                {
+                  "text": "tra poco",
+                  "imageUrl": "/content/img/hourglass-not-done.png"
+                },
+                {
+                  "text": "la settimana prossima",
+                  "imageUrl": "/content/img/tear-off-calendar.png"
+                },
+                {
+                  "text": "tra due anni",
+                  "imageUrl": "/content/img/spiral-calendar.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'anno prossimo = next year"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/hourglass-not-done.png",
+              "options": [
+                {
+                  "text": "domani",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tra poco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'anno prossimo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tra due anni",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "tra poco = soon / in a moment"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/calendar.png",
+              "options": [
+                {
+                  "text": "la settimana prossima",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tra due anni",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'anno prossimo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "domani",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "domani = tomorrow"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "tra poco",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "soon / in a moment",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tomorrow",
+                  "imageUrl": null
+                },
+                {
+                  "text": "next week",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in two years",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "domani",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "tomorrow",
+                  "imageUrl": null
+                },
+                {
+                  "text": "next week",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in two years",
+                  "imageUrl": null
+                },
+                {
+                  "text": "next year",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "l'anno prossimo",
+                  "right": "next year"
+                },
+                {
+                  "left": "domani",
+                  "right": "tomorrow"
+                },
+                {
+                  "left": "tra poco",
+                  "right": "soon / in a moment"
+                },
+                {
+                  "left": "tra due anni",
+                  "right": "in two years"
+                },
+                {
+                  "left": "la settimana prossima",
+                  "right": "next week"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Domani pioverà\" is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "an order",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a promise",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a forecast",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a past habit",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Ti chiamerò stasera, te lo prometto!\" is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a promise",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a forecast",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a habit",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a description",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "A settembre ___ un corso nuovo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "facevo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho fatto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "farò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faccio ieri",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domani ___ freddo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "farà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha fatto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faceva",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ad agosto ___ in India.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andavamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo andati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andiamo ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andremo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'anno prossimo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "this year",
+                  "imageUrl": null
+                },
+                {
+                  "text": "last year",
+                  "imageUrl": null
+                },
+                {
+                  "text": "every year",
+                  "imageUrl": null
+                },
+                {
+                  "text": "next year",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 plans for this year: one for work, one for study, one for holidays."
+        },
+        {
+          "order": 3,
+          "title": "Lesson 1 · Gurpreet's and Navdeep's plans",
+          "titleIt": "Lezione 1 · I progetti di Gurpreet e Navdeep",
+          "kind": "Dialogue",
+          "summary": "Cambierò casa e lavoro · Farò un corso e viaggerò — then ask your partner.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Due piani a confronto",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Gurpreet · lavoro e casa",
+                  "Navdeep · studio e viaggi"
+                ],
+                [
+                  "«Cambierò casa e lavoro»",
+                  "«Farò un corso e viaggerò»"
+                ],
+                [
+                  "Avrò un contratto fisso, comprerò un'auto usata e affitterò un appartamento più grande.",
+                  "Finirò il corso di cucina, verrò a Roma in primavera e visiterò il Colosseo."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Two colleagues talk on Friday afternoon.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: cosa farai questo fine settimana?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Luca",
+                  "italian": "Cosa farai questo fine settimana?",
+                  "english": "What will you do this weekend?",
+                  "punjabi": "Is hafte de ant te tusi ki karoge?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Navdeep",
+                  "italian": "Sabato andrò al mercato e pulirò casa.",
+                  "english": "On Saturday I'll go to the market and clean the house.",
+                  "punjabi": "Shanivar nu main baazar jaavanga ate ghar saaf karanga.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Luca",
+                  "italian": "E dove andrai in vacanza quest'estate?",
+                  "english": "And where will you go on holiday this summer?",
+                  "punjabi": "Ate is garmiaan chhuttiaan vich kitthe jaoge?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Navdeep",
+                  "italian": "Ad agosto partirò per Roma e visiterò il Colosseo!",
+                  "english": "In August I'll leave for Rome and visit the Colosseum!",
+                  "punjabi": "Agasat vich main Roma jaavanga ate Kolosiam vekhanga!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet will buy a new car.)",
+              "italian": "Gurpreet comprerà un'auto nuova.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet will rent a bigger flat.)",
+              "italian": "Gurpreet affitterà un appartamento più grande.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Navdeep will finish the cooking course.)",
+              "italian": "Navdeep finirà il corso di cucina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Navdeep will go to Rome in winter.)",
+              "italian": "Navdeep andrà a Roma in inverno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"On Saturday I'll go to the market and clean the house\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Sabato andrò al mercato e pulirò casa",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"In two years I'll have a new job\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Tra due anni avrò un lavoro nuovo",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Ask a partner: Cosa farai questo fine settimana? Dove andrai in vacanza? Che lavoro farai tra due anni?"
+        },
+        {
+          "order": 4,
+          "title": "Lesson 2 · Indirect pronouns: mi, ti, gli, le, ci, vi",
+          "titleIt": "Lezione 2 · I pronomi indiretti (a chi?)",
+          "kind": "Grammar",
+          "summary": "Gli telefono, le regalo un fiore, ti consiglio di riposare…",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 12 · Lezione 2 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap12-lez2-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Rispondono alla domanda «A chi?»",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "A chi?",
+                  "Pronome",
+                  "Esempio",
+                  "English · Punjabi"
+                ],
+                [
+                  "a me",
+                  "mi",
+                  "Marco mi telefona ogni sera.",
+                  "to me · mainu"
+                ],
+                [
+                  "a te",
+                  "ti",
+                  "Domani ti scrivo un messaggio.",
+                  "to you · tainu"
+                ],
+                [
+                  "a lui",
+                  "gli",
+                  "Gli regalo un libro per il compleanno.",
+                  "to him · usnu"
+                ],
+                [
+                  "a lei / a Lei",
+                  "le / Le",
+                  "Le chiedo un consiglio sul lavoro.",
+                  "to her / to you (polite) · usnu / tuhanu (aap nu)"
+                ],
+                [
+                  "a noi",
+                  "ci",
+                  "Il maestro ci spiega la regola.",
+                  "to us · saanu"
+                ],
+                [
+                  "a voi",
+                  "vi",
+                  "Ragazzi, vi consiglio questo film!",
+                  "to you all · tuhanu"
+                ],
+                [
+                  "a loro",
+                  "gli",
+                  "I nonni aspettano: gli porto la spesa.",
+                  "to them · uhnaan nu"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Verbi con «a»",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "telefonare a — Ora gli telefono.",
+                  "english": "to phone — I'll phone him now.",
+                  "punjabi": "Hun main usnu fon karda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "scrivere a — Sara ci scrive ogni giorno.",
+                  "english": "to write to — Sara writes to us every day.",
+                  "punjabi": "Sara saanu har roz likhdi hai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "chiedere a — Ti chiedo aiuto.",
+                  "english": "to ask — I'm asking you for help.",
+                  "punjabi": "Main tainu madad lai puchhda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "regalare a — Le regaliamo dei fiori.",
+                  "english": "to give (a present) — We give her flowers.",
+                  "punjabi": "Asi usnu phul dinde haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "consigliare a — Ti consiglio di riposare.",
+                  "english": "to advise — I advise you to rest.",
+                  "punjabi": "Main tainu aaram karan di salah dinda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Due regole pratiche",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Regola",
+                  "Esempi"
+                ],
+                [
+                  "GLI = a lui / a loro · LE = a lei",
+                  "Parlo con Paolo → Gli parlo. Parlo con Anna → Le parlo. Parlo con i ragazzi → Gli parlo."
+                ],
+                [
+                  "before the verb or joined to the infinitive",
+                  "Ti voglio telefonare = Voglio telefonarti. Devo scrivergli un'email."
+                ]
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Mio fratello è a casa, ora ___ telefono.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "È la festa della mamma: ___ regaliamo dei fiori.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Hai mal di testa? ___ consiglio di riposare.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Gli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domani è il compleanno di Maria: ___ regalerò un libro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il maestro ___ spiega la regola (a noi).",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ragazzi, ___ consiglio questo film!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "I nonni aspettano: ___ porto la spesa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Devo ___ un'email (a lui).",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "scrivergli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli scrivere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scriverle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scriverlo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 5 sentences: who you phone, write to, ask, give presents to and advise (Gli telefono…, le scrivo…)."
+        },
+        {
+          "order": 5,
+          "title": "Lesson 2 · Connectors: perché, quindi, però, anche se",
+          "titleIt": "Lezione 2 · I connettivi logici",
+          "kind": "Vocabulary",
+          "summary": "Cause, consequence, contrast and concession — and perché vs quindi.",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "4 connettivi fondamentali",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "perché",
+                  "english": "because",
+                  "punjabi": "Kiunki",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/light-bulb.png",
+                  "audioUrl": null,
+                  "example": "Studio perché voglio un buon lavoro.",
+                  "exampleEnglish": "I study because I want a good job."
+                },
+                {
+                  "italian": "quindi",
+                  "english": "so / therefore",
+                  "punjabi": "Is lai",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/right-arrow.png",
+                  "audioUrl": null,
+                  "example": "Piove, quindi prendo l'ombrello.",
+                  "exampleEnglish": "It's raining, so I take my umbrella."
+                },
+                {
+                  "italian": "però",
+                  "english": "but / however",
+                  "punjabi": "Par",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/left-right-arrow.png",
+                  "audioUrl": null,
+                  "example": "Sono stanco, però vengo alla festa.",
+                  "exampleEnglish": "I'm tired, but I'm coming to the party."
+                },
+                {
+                  "italian": "anche se",
+                  "english": "even if / although",
+                  "punjabi": "Bhaaven ki",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/umbrella.png",
+                  "audioUrl": null,
+                  "example": "Esco anche se fa molto freddo.",
+                  "exampleEnglish": "I go out even though it's very cold."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Perché (motivo) vs quindi (risultato)",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Risultato → PERCHÉ → motivo",
+                  "Motivo → QUINDI → risultato"
+                ],
+                [
+                  "Prendo il treno perché è veloce.",
+                  "Il treno è veloce, quindi lo prendo."
+                ]
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "perché",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "però",
+                  "imageUrl": "/content/img/left-right-arrow.png"
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": "/content/img/right-arrow.png"
+                },
+                {
+                  "text": "anche se",
+                  "imageUrl": "/content/img/umbrella.png"
+                },
+                {
+                  "text": "perché",
+                  "imageUrl": "/content/img/light-bulb.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "perché = because"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "quindi",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "perché",
+                  "imageUrl": "/content/img/light-bulb.png"
+                },
+                {
+                  "text": "anche se",
+                  "imageUrl": "/content/img/umbrella.png"
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": "/content/img/right-arrow.png"
+                },
+                {
+                  "text": "però",
+                  "imageUrl": "/content/img/left-right-arrow.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "quindi = so / therefore"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "anche se",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "anche se",
+                  "imageUrl": "/content/img/umbrella.png"
+                },
+                {
+                  "text": "però",
+                  "imageUrl": "/content/img/left-right-arrow.png"
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": "/content/img/right-arrow.png"
+                },
+                {
+                  "text": "perché",
+                  "imageUrl": "/content/img/light-bulb.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "anche se = even if / although"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/left-right-arrow.png",
+              "options": [
+                {
+                  "text": "però",
+                  "imageUrl": null
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "anche se",
+                  "imageUrl": null
+                },
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "però = but / however"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "però",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "even if / although",
+                  "imageUrl": null
+                },
+                {
+                  "text": "because",
+                  "imageUrl": null
+                },
+                {
+                  "text": "but / however",
+                  "imageUrl": null
+                },
+                {
+                  "text": "so / therefore",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "però",
+                  "right": "but / however"
+                },
+                {
+                  "left": "anche se",
+                  "right": "even if / although"
+                },
+                {
+                  "left": "perché",
+                  "right": "because"
+                },
+                {
+                  "left": "quindi",
+                  "right": "so / therefore"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Pioveva forte, ___ ho preso il bus.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                },
+                {
+                  "text": "anche se",
+                  "imageUrl": null
+                },
+                {
+                  "text": "però",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Studio ___ voglio un buon lavoro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "però",
+                  "imageUrl": null
+                },
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                },
+                {
+                  "text": "anche se",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Esco ___ fa molto freddo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                },
+                {
+                  "text": "come",
+                  "imageUrl": null
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "anche se",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Sono stanco, ___ vengo alla festa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                },
+                {
+                  "text": "però",
+                  "imageUrl": null
+                },
+                {
+                  "text": "come",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prendo il treno ___ è veloce.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                },
+                {
+                  "text": "però",
+                  "imageUrl": null
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "anche se",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il treno è veloce, ___ lo prendo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "anche se",
+                  "imageUrl": null
+                },
+                {
+                  "text": "però",
+                  "imageUrl": null
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "anche se",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "so",
+                  "imageUrl": null
+                },
+                {
+                  "text": "even though",
+                  "imageUrl": null
+                },
+                {
+                  "text": "because",
+                  "imageUrl": null
+                },
+                {
+                  "text": "when",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 4 sentences about your life in Italy, one with each connector."
+        },
+        {
+          "order": 6,
+          "title": "Lesson 2 · A phone call between friends",
+          "titleIt": "Lezione 2 · Un consiglio al telefono tra amici",
+          "kind": "Dialogue",
+          "summary": "Kiran and Priya choose a present for Luca — pronouns and connectors together.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Kiran phones Priya about Luca's birthday.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: che cosa gli regaliamo?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Kiran",
+                  "italian": "Ciao Priya! Ti telefono perché domani è il compleanno di Luca. Che cosa gli regaliamo?",
+                  "english": "Hi Priya! I'm calling you because tomorrow is Luca's birthday. What shall we give him?",
+                  "punjabi": "Sat Sri Akal Priya! Main tainu fon kita kiunki kall Luca da janamdin hai. Asi usnu ki tohfa deie?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Priya",
+                  "italian": "Lui ama leggere, quindi ti consiglio un bel romanzo italiano!",
+                  "english": "He loves reading, so I suggest a good Italian novel!",
+                  "punjabi": "Usnu padhna pasand hai, is lai main ikk vadhia Italvi naaval di salah dindi haan!",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Kiran",
+                  "italian": "Ottima idea! Oggi pomeriggio passo in libreria anche se piove, però poi mi aiuti a scrivere il biglietto!",
+                  "english": "Great idea! This afternoon I'll go to the bookshop even if it's raining, but then you help me write the card!",
+                  "punjabi": "Bahut vadhia! Ajj dupahir main kitabaan di dukan jaavangi bhaaven minh pai riha hai, par phir tu kaard likhan vich meri madad kari!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Gioco di ruolo: chiedi e dai consigli",
+              "body": "- **Studente A chiede un consiglio:** «Ti chiedo un consiglio perché devo comprare un regalo…»\n- **Studente B consiglia e motiva:** «Ti consiglio un orologio perché è utile, però costa un po'.»",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Tomorrow is Luca's birthday.)",
+              "italian": "Domani è il compleanno di Luca.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Luca loves cooking.)",
+              "italian": "Luca ama cucinare.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Priya suggests a novel.)",
+              "italian": "Priya consiglia un romanzo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Kiran goes to the bookshop only if it doesn't rain.)",
+              "italian": "Kiran va in libreria solo se non piove.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"What shall we give him\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Che cosa gli regaliamo",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I suggest a good novel\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ti consiglio un bel romanzo",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play with a partner: ask for advice about a present and answer with ti consiglio… perché / però…"
+        },
+        {
+          "order": 7,
+          "title": "Lesson 3 · At the post office and the Comune",
+          "titleIt": "Lezione 3 · All'ufficio postale e in Comune",
+          "kind": "Dialogue",
+          "summary": "Una raccomandata, una bolletta, il cambio di residenza — with Lei.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 12 · Lezione 3 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap12-lez3-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Parole chiave",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "la raccomandata",
+                  "english": "registered letter",
+                  "punjabi": "Rajistard chitthi",
+                  "pronunciation": "lah rahk-koh-mahn-DAH-tah",
+                  "imageUrl": "/content/img/envelope.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la bolletta / il bollettino",
+                  "english": "bill / payment slip",
+                  "punjabi": "Bill / Bill di parchi",
+                  "pronunciation": "lah bol-LET-tah",
+                  "imageUrl": "/content/img/light-bulb.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il codice fiscale",
+                  "english": "tax code",
+                  "punjabi": "Taiks kod",
+                  "pronunciation": "eel KOH-dee-cheh fees-KAH-leh",
+                  "imageUrl": "/content/img/identification-card.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il cambio di residenza",
+                  "english": "change of address (registration)",
+                  "punjabi": "Rihaish di tabdili",
+                  "pronunciation": "reh-zee-DEN-tsah",
+                  "imageUrl": "/content/img/house.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il modulo",
+                  "english": "form",
+                  "punjabi": "Faaram",
+                  "pronunciation": "eel MOH-doo-loh",
+                  "imageUrl": "/content/img/clipboard.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la marca da bollo",
+                  "english": "revenue stamp",
+                  "punjabi": "Sarkari tikat",
+                  "pronunciation": "lah MAR-kah dah BOL-loh",
+                  "imageUrl": "/content/img/postbox.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la ricevuta",
+                  "english": "receipt",
+                  "punjabi": "Rasid",
+                  "pronunciation": "lah ree-cheh-VOO-tah",
+                  "imageUrl": "/content/img/receipt.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "lo sportello",
+                  "english": "counter / window",
+                  "punjabi": "Khidki",
+                  "pronunciation": "loh spor-TEL-loh",
+                  "imageUrl": "/content/img/office-building.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "At the post office and then at the Comune.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Scenario 1: allo sportello",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Utente",
+                  "italian": "Buongiorno, vorrei spedire questa raccomandata e pagare una bolletta.",
+                  "english": "Good morning, I'd like to send this registered letter and pay a bill.",
+                  "punjabi": "Sat Sri Akal, main eh rajistard chitthi bhejni ate ikk bill bharna chaahunda haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Impiegato",
+                  "italian": "Certamente. Mi dà il Suo documento d'identità e il codice fiscale?",
+                  "english": "Certainly. May I have your ID and your tax code?",
+                  "punjabi": "Zarur. Aapna shanakhti kaard ate taiks kod de sakde ho?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Utente",
+                  "italian": "Ecco. In Comune devo fare il cambio di residenza: quali moduli devo compilare?",
+                  "english": "Here you are. At the Comune I have to change my address: which forms do I have to fill in?",
+                  "punjabi": "Eh lao. Kamiun vich mainu rihaish badlni hai: kihade faaram bharne painge?",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la marca da bollo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il cambio di residenza",
+                  "imageUrl": "/content/img/house.png"
+                },
+                {
+                  "text": "la marca da bollo",
+                  "imageUrl": "/content/img/postbox.png"
+                },
+                {
+                  "text": "il codice fiscale",
+                  "imageUrl": "/content/img/identification-card.png"
+                },
+                {
+                  "text": "la ricevuta",
+                  "imageUrl": "/content/img/receipt.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la marca da bollo = revenue stamp"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "lo sportello",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il codice fiscale",
+                  "imageUrl": "/content/img/identification-card.png"
+                },
+                {
+                  "text": "la marca da bollo",
+                  "imageUrl": "/content/img/postbox.png"
+                },
+                {
+                  "text": "la bolletta / il bollettino",
+                  "imageUrl": "/content/img/light-bulb.png"
+                },
+                {
+                  "text": "lo sportello",
+                  "imageUrl": "/content/img/office-building.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "lo sportello = counter / window"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la bolletta / il bollettino",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la marca da bollo",
+                  "imageUrl": "/content/img/postbox.png"
+                },
+                {
+                  "text": "lo sportello",
+                  "imageUrl": "/content/img/office-building.png"
+                },
+                {
+                  "text": "la bolletta / il bollettino",
+                  "imageUrl": "/content/img/light-bulb.png"
+                },
+                {
+                  "text": "la ricevuta",
+                  "imageUrl": "/content/img/receipt.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la bolletta / il bollettino = bill / payment slip"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/envelope.png",
+              "options": [
+                {
+                  "text": "il cambio di residenza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo sportello",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la raccomandata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la marca da bollo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la raccomandata = registered letter"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/receipt.png",
+              "options": [
+                {
+                  "text": "il codice fiscale",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la ricevuta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la raccomandata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la bolletta / il bollettino",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la ricevuta = receipt"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la raccomandata",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "revenue stamp",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bill / payment slip",
+                  "imageUrl": null
+                },
+                {
+                  "text": "registered letter",
+                  "imageUrl": null
+                },
+                {
+                  "text": "receipt",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la ricevuta",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "revenue stamp",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bill / payment slip",
+                  "imageUrl": null
+                },
+                {
+                  "text": "receipt",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tax code",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "lo sportello",
+                  "right": "counter / window"
+                },
+                {
+                  "left": "la ricevuta",
+                  "right": "receipt"
+                },
+                {
+                  "left": "la bolletta / il bollettino",
+                  "right": "bill / payment slip"
+                },
+                {
+                  "left": "la marca da bollo",
+                  "right": "revenue stamp"
+                },
+                {
+                  "left": "il cambio di residenza",
+                  "right": "change of address (registration)"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "A letter with proof of delivery is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "un modulo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una raccomandata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una ricevuta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una bolletta",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You moved house. At the Comune you do…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il codice fiscale",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la marca da bollo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il cambio di residenza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la raccomandata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Compilare il modulo\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "pay the bill",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fill in the form",
+                  "imageUrl": null
+                },
+                {
+                  "text": "send the letter",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sign the receipt",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The customer wants to pay a bill.)",
+              "italian": "L'utente vuole pagare una bolletta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The clerk asks for the passport and driving licence.)",
+              "italian": "L'impiegato chiede il passaporto e la patente.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I would like to send this registered letter\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vorrei spedire questa raccomandata",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write what you need to say at the post office to send a parcel and pay a bill."
+        },
+        {
+          "order": 8,
+          "title": "Lesson 3 · A simple job interview",
+          "titleIt": "Lezione 3 · Un colloquio di lavoro semplice",
+          "kind": "Dialogue",
+          "summary": "Past experience (lavoravo, ho lavorato), driving licence, shifts and «sarò disponibile».",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "A candidate at a job interview.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Scenario 2: il colloquio",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Datore di lavoro",
+                  "italian": "Buongiorno! Mi parli delle Sue esperienze precedenti.",
+                  "english": "Good morning! Tell me about your previous experience.",
+                  "punjabi": "Sat Sri Akal! Mainu aapne pichhle tajurbe baare dasso.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Candidato",
+                  "italian": "Nel mio Paese lavoravo in un magazzino. Qui in Italia ho lavorato sei mesi come operaio.",
+                  "english": "In my country I worked in a warehouse. Here in Italy I worked for six months as a factory worker.",
+                  "punjabi": "Aapne desh vich main godam vich kamm karda si. Ithe Itali vich main chhe mahine mazdur vajon kamm kita.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Datore di lavoro",
+                  "italian": "Ha la patente B? È disponibile a fare i turni?",
+                  "english": "Do you have a B licence? Are you available for shifts?",
+                  "punjabi": "Ki tuhade kol B laisains hai? Ki tusi shiftaan vich kamm kar sakde ho?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Candidato",
+                  "italian": "Sì, ho la patente, quindi posso venire in auto, e sarò disponibile subito!",
+                  "english": "Yes, I have a licence, so I can come by car, and I'll be available straight away!",
+                  "punjabi": "Haan, mere kol laisains hai, is lai main kaar te aa sakda haan, ate main turant tiar hovanga!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Frasi utili per il colloquio",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Ho esperienza come magazziniere / saldatore / cuoco.",
+                  "english": "I have experience as a warehouse worker / welder / cook.",
+                  "punjabi": "Mainu godam vaale / veldar / rasoie da tajurba hai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Che contratto e che orario di lavoro offrite?",
+                  "english": "What contract and working hours do you offer?",
+                  "punjabi": "Tusi kihada ikrarnama ate kamm da samaan dinde ho?",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Sono disponibile a fare i turni.",
+                  "english": "I'm available for shifts.",
+                  "punjabi": "Main shiftaan vich kamm karan lai tiar haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "In an interview use all your tenses: **imperfetto** for your old job (*lavoravo*), **passato prossimo** for a finished experience (*ho lavorato sei mesi*), **futuro** for what you will do (*sarò disponibile*).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (In his country the candidate worked in a warehouse.)",
+              "italian": "Nel suo Paese il candidato lavorava in un magazzino.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (In Italy he worked two years as a cook.)",
+              "italian": "In Italia ha lavorato due anni come cuoco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The candidate has a driving licence.)",
+              "italian": "Il candidato ha la patente.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Nel mio Paese ___ in un magazzino.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lavoro domani",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavoravo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavorerò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho lavorato domani",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Qui in Italia ___ sei mesi come operaio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho lavorato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavoro ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavorerò ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavoravo sempre",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ disponibile subito!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Essere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono stato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ero",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sarò",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I have experience as a warehouse worker\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ho esperienza come magazziniere",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Prepare your answers for an interview: your past job, your experience in Italy, your availability."
+        },
+        {
+          "order": 9,
+          "title": "Lesson 3 · A problem at home: calling the plumber",
+          "titleIt": "Lezione 3 · Un problema in casa: telefonare all'idraulico",
+          "kind": "Dialogue",
+          "summary": "Il rubinetto perde, la caldaia non funziona — quando potrà venire?",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "La casa e i guasti",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "l'idraulico",
+                  "english": "plumber",
+                  "punjabi": "Palambar",
+                  "pronunciation": "lee-DROW-lee-koh",
+                  "imageUrl": "/content/img/wrench.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il proprietario / l'inquilino",
+                  "english": "landlord / tenant",
+                  "punjabi": "Maalak makan / Kiraedar",
+                  "pronunciation": "proh-pryeh-TAH-ryoh / leen-kwee-LEE-noh",
+                  "imageUrl": "/content/img/key.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Il rubinetto perde acqua.",
+                  "english": "The tap is leaking.",
+                  "punjabi": "Tuti chon paani chonda hai.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/droplet.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "La caldaia non funziona.",
+                  "english": "The boiler isn't working.",
+                  "punjabi": "Boilar kamm nahi kar riha.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/fire.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Il lavandino è otturato.",
+                  "english": "The sink is blocked.",
+                  "punjabi": "Sink band hai.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/potable-water.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Il riscaldamento è rotto.",
+                  "english": "The heating is broken.",
+                  "punjabi": "Hitar kharab hai.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/cold-face.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Scenario 3: la telefonata",
+              "body": "**Spiegare il guasto**\n- «Pronto, buongiorno! Sono l'inquilino di via Roma 12.»\n- «Il rubinetto della cucina perde acqua.»\n- «La caldaia non funziona e non c'è acqua calda.»\n\n**Chiedere intervento e prezzo**\n- «Quando potrà venire a controllare?»\n- «Domani mattina sarò a casa fino alle dodici.»\n- «Quanto costerà la riparazione, più o meno?»",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play: scegliete 2 scenari",
+              "body": "- **Scenario A · Poste / Comune:** spedire un pacco o il cambio di residenza — «Buongiorno, vorrei… Mi può dare…? Quanto costa?»\n- **Scenario B · Colloquio:** candidato e datore di lavoro — imperfetto (*lavoravo…*), passato prossimo e futuro (*sarò…*).\n- **Scenario C · Guasto in casa:** inquilino e idraulico — spiega il problema con *perché / quindi* e fissa l'orario.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Il rubinetto perde acqua.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Il riscaldamento è rotto.",
+                  "imageUrl": "/content/img/cold-face.png"
+                },
+                {
+                  "text": "l'idraulico",
+                  "imageUrl": "/content/img/wrench.png"
+                },
+                {
+                  "text": "Il rubinetto perde acqua.",
+                  "imageUrl": "/content/img/droplet.png"
+                },
+                {
+                  "text": "il proprietario / l'inquilino",
+                  "imageUrl": "/content/img/key.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Il rubinetto perde acqua. = The tap is leaking."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Il lavandino è otturato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Il lavandino è otturato.",
+                  "imageUrl": "/content/img/potable-water.png"
+                },
+                {
+                  "text": "Il rubinetto perde acqua.",
+                  "imageUrl": "/content/img/droplet.png"
+                },
+                {
+                  "text": "Il riscaldamento è rotto.",
+                  "imageUrl": "/content/img/cold-face.png"
+                },
+                {
+                  "text": "l'idraulico",
+                  "imageUrl": "/content/img/wrench.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Il lavandino è otturato. = The sink is blocked."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il proprietario / l'inquilino",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il proprietario / l'inquilino",
+                  "imageUrl": "/content/img/key.png"
+                },
+                {
+                  "text": "Il rubinetto perde acqua.",
+                  "imageUrl": "/content/img/droplet.png"
+                },
+                {
+                  "text": "La caldaia non funziona.",
+                  "imageUrl": "/content/img/fire.png"
+                },
+                {
+                  "text": "Il lavandino è otturato.",
+                  "imageUrl": "/content/img/potable-water.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il proprietario / l'inquilino = landlord / tenant"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/cold-face.png",
+              "options": [
+                {
+                  "text": "Il rubinetto perde acqua.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Il lavandino è otturato.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "La caldaia non funziona.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Il riscaldamento è rotto.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Il riscaldamento è rotto. = The heating is broken."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/wrench.png",
+              "options": [
+                {
+                  "text": "Il riscaldamento è rotto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'idraulico",
+                  "imageUrl": null
+                },
+                {
+                  "text": "La caldaia non funziona.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Il lavandino è otturato.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'idraulico = plumber"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Il riscaldamento è rotto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "The heating is broken.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "The tap is leaking.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "plumber",
+                  "imageUrl": null
+                },
+                {
+                  "text": "landlord / tenant",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'idraulico",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "The tap is leaking.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "The boiler isn't working.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "landlord / tenant",
+                  "imageUrl": null
+                },
+                {
+                  "text": "plumber",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Il rubinetto perde acqua.",
+                  "right": "The tap is leaking."
+                },
+                {
+                  "left": "Il lavandino è otturato.",
+                  "right": "The sink is blocked."
+                },
+                {
+                  "left": "il proprietario / l'inquilino",
+                  "right": "landlord / tenant"
+                },
+                {
+                  "left": "l'idraulico",
+                  "right": "plumber"
+                },
+                {
+                  "left": "Il riscaldamento è rotto.",
+                  "right": "The heating is broken."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "No hot water: probably…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la raccomandata è persa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il lavandino è otturato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il modulo è sbagliato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la caldaia non funziona",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Who repairs a leaking tap?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'idraulico",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'impiegato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il commesso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il farmacista",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You rent the flat: you are…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'inquilino",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il proprietario",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'idraulico",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il datore di lavoro",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Quando ___ venire a controllare?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "puoi ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "potrà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha potuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "poteva",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domani mattina ___ a casa fino alle dodici.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sarò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono stato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "essere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ero",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Quanto ___ la riparazione?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "costerà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "costare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "costava",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è costato ieri",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the phone call to your landlord about a problem in your home (6 sentences)."
+        },
+        {
+          "order": 10,
+          "title": "Lesson 4 · A2 review: the 4 tenses",
+          "titleIt": "Lezione 4 · Ripasso A2: la mappa dei tempi verbali",
+          "kind": "Review",
+          "summary": "Imperfetto, passato prossimo, presente, futuro — when to use each one.",
+          "estimatedMinutes": 15,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 12 · Lezione 4 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap12-lez4-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "I 4 tempi fondamentali",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Tempo",
+                  "Quando si usa",
+                  "Esempio",
+                  "English",
+                  "Punjabi"
+                ],
+                [
+                  "IMPERFETTO",
+                  "past habit / background",
+                  "Da piccolo andavo a scuola a piedi.",
+                  "I used to go",
+                  "jaanda si"
+                ],
+                [
+                  "PASSATO PROSSIMO",
+                  "finished action / event",
+                  "Ieri sono andato al mercato.",
+                  "I went",
+                  "gia si"
+                ],
+                [
+                  "PRESENTE",
+                  "today / current habits",
+                  "Oggi lavoro in un'azienda.",
+                  "I work",
+                  "kamm karda haan"
+                ],
+                [
+                  "FUTURO SEMPLICE",
+                  "plans / forecasts",
+                  "L'anno prossimo farò un corso B1.",
+                  "I will do",
+                  "karanga"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "4 aree lessicali chiave del livello A2",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Area",
+                  "Parole"
+                ],
+                [
+                  "Casa e città",
+                  "affitto, bolletta, residenza, quartiere"
+                ],
+                [
+                  "Lavoro e studio",
+                  "contratto, turni, colloquio, patente"
+                ],
+                [
+                  "Salute e spesa",
+                  "ricetta, farmacia, scontrino, reparto"
+                ],
+                [
+                  "Viaggi e tempo",
+                  "binario, ritardo, prenotazione, clima"
+                ]
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Da bambina Sofia ___ timida.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sarà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è stata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "era",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Da bambina Sofia ___ molti libri.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "leggeva",
+                  "imageUrl": null
+                },
+                {
+                  "text": "legge",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggerà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha letto ieri",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri sera mentre noi ___, ha suonato il campanello.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ceneremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cenavamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo cenato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ceniamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri sera mentre noi cenavamo, ___ il campanello.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "suonava",
+                  "imageUrl": null
+                },
+                {
+                  "text": "suonerà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "suona",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha suonato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Oggi ___ in un'azienda.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho lavorato domani",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavoro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavorerò ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavoravo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'anno prossimo ___ un corso B1.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "farò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faccio ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho fatto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "facevo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Ieri sono andato al mercato\" is in the…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "presente",
+                  "imageUrl": null
+                },
+                {
+                  "text": "imperfetto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "passato prossimo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "futuro",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write one sentence about yourself in each of the 4 tenses."
+        },
+        {
+          "order": 11,
+          "title": "Lesson 4 · A2 review: direct or indirect pronoun?",
+          "titleIt": "Lezione 4 · Ripasso A2: pronomi diretti e indiretti",
+          "kind": "Review",
+          "summary": "Chi? Che cosa? → lo, la, li, le · A chi? → mi, ti, gli, le, ci, vi.",
+          "estimatedMinutes": 12,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Non confondere CHI e A CHI",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "DIRETTI (chi? che cosa?)",
+                  "INDIRETTI (a chi?)"
+                ],
+                [
+                  "Compro il pane → Lo compro.",
+                  "Telefono a Paolo → Gli telefono."
+                ],
+                [
+                  "Chiamo Maria → La chiamo.",
+                  "Regalo un fiore a Maria → Le regalo un fiore."
+                ],
+                [
+                  "Saluto gli amici → Li saluto.",
+                  "Scrivo ai miei genitori → Gli scrivo."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Telefonare a** takes an indirect pronoun (*le telefono*), but **chiamare** takes a direct one (*la chiamo*) — same meaning, different pronoun!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Compri tu i biglietti? — Sì, ___ compro io oggi pomeriggio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domani è il compleanno di Maria: ___ regalerò un libro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "… e ___ telefonerò.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Chiamo Maria → ___ chiamo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "La",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Gli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Scrivo ai miei genitori → ___ scrivo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Le",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Saluto gli amici → ___ saluto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Gli",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il pane? ___ compro al mercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "La",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Le",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Paolo è malato: ___ porto la medicina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 sentences with a direct pronoun and 3 with an indirect pronoun about your family."
+        },
+        {
+          "order": 12,
+          "title": "Lesson 4 · Preparing the A2 oral exam",
+          "titleIt": "Lezione 4 · Preparare l'esame orale A2",
+          "kind": "Review",
+          "summary": "The 3 parts of the oral exam and the examiner's questions.",
+          "estimatedMinutes": 15,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Le 3 prove del colloquio orale A2 (10–12 minuti)",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Prova",
+                  "Durata",
+                  "Contenuto"
+                ],
+                [
+                  "1 · Presentazione personale",
+                  "3 minuti",
+                  "chi sei, il passato, il lavoro attuale e i progetti futuri"
+                ],
+                [
+                  "2 · Dialogo di ruolo",
+                  "4 minuti",
+                  "al medico, in posta, al colloquio o con l'idraulico"
+                ],
+                [
+                  "3 · Descrivere e confrontare",
+                  "3 minuti",
+                  "città vs campagna o il tuo Paese ieri e oggi"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "Prova 1 · Le domande dell'esaminatore",
+              "body": "1. Come ti chiami, da dove vieni e dove abiti adesso? (**presente**)\n2. Che cosa facevi nel tuo Paese prima di venire in Italia? (**imperfetto**)\n3. Quando sei arrivato/a in Italia e cosa hai fatto all'inizio? (**passato prossimo**)\n4. Quali progetti hai per il lavoro, lo studio o le vacanze? (**futuro**)",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Simulazione a coppie: scegli una carta",
+              "body": "- **Carta A · situazione pratica (Lei formale):** colloquio o ufficio pubblico — usa *vorrei, posso, quindi, perché* e i pronomi indiretti.\n- **Carta B · confronto ieri e oggi:** città vs campagna / Paese vs Italia — usa imperfetto, presente e comparativi (*più … di / che, meno … di, -issimo*).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Congratulations: you have finished the whole A1–A2 programme! Before the exam your teacher will say **«In bocca al lupo!»** — answer **«Crepi!»**",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prima di venire in Italia ___ l'autista.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "farò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faccio domani",
+                  "imageUrl": null
+                },
+                {
+                  "text": "facevo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho fatto domani",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tre anni fa sono ___ in Italia in aereo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "arrivavo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arrivato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arrivare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arriverò",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "All'inizio la vita era più difficile ___ non parlavo italiano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                },
+                {
+                  "text": "però",
+                  "imageUrl": null
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "come",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'estate prossima ___ in vacanza con la mia famiglia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vado ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono andato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andrò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andavo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Viaggiare in treno è più comodo ___ viaggiare in autobus.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "come",
+                  "imageUrl": null
+                },
+                {
+                  "text": "di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "che",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Questo telefono è ___ ed è il migliore del negozio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bellissimo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il più bellissimo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "più bellissimo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bellissimo di",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "In Prova 1, \"Che cosa facevi nel tuo Paese?\" needs…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "the presente",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the imperfetto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the futuro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the imperative",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Prepare Prova 1: answer the 4 examiner's questions aloud in 3 minutes."
+        },
+        {
+          "order": 13,
+          "title": "Final A2 test (Chapters 8–12)",
+          "titleIt": "Test finale livello A2 (Capitoli 8–12)",
+          "kind": "Exam",
+          "summary": "The final A2 test: listening, vocabulary and grammar from Chapters 8–12. Pass mark: 60%.",
+          "estimatedMinutes": 30,
+          "xpReward": 60,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Test finale livello A2",
+              "body": "This is the final test of level A2. It checks everything in Chapters 8–12.\n\n- **1. Listening** — sentences and a story in past, present and future\n- **2. Vocabulary** — travel, health, daily life and offices\n- **3. Grammar** — the tenses, the pronouns, the imperative and comparisons\n- **4. Writing** — my story: yesterday, today and tomorrow\n\nYou need **60%** to pass. You can repeat the test as many times as you like.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The **written part** (your story with the 4 tenses) and the **final oral exam** (your past compared with today · a real situation in Italy · your plans for the future — 3 minutes) are done **with your teacher** in the live class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Pdf",
+              "title": "Course phrasebook (PDF)",
+              "body": "Every word and phrase of the course, chapter by chapter, with English and Punjabi.",
+              "mediaUrl": "/content/pdf/corso-italiano-a0-phrasebook.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "In stazione: ieri ho preso il treno dal binario tre per andare a Milano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "IERI HO PRESO IL TRENO DAL BINARIO TRE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MIA MOGLIE È PARTITA IN AEREO STAMATTINA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Ho camminato tutto il giorno e mi fanno male le gambe da ieri sera.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "HO MAL DI GOLA E HO PRESO UNO SCIROPPO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MI FANNO MALE LE GAMBE DA IERI SERA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Il dottore dice: prenda queste compresse dopo i pasti per tre giorni.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "NON USCIRE OGGI, RIPOSA A CASA!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PRENDA QUESTE COMPRESSE DOPO I PASTI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Stamattina mentre dormivo, è suonata la sveglia alle sei.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "DA PICCOLO ABITAVO IN UN PICCOLO VILLAGGIO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MENTRE DORMIVO, È SUONATA LA SVEGLIA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Ho trovato un nuovo contratto: l'anno prossimo andrò a lavorare a Milano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "GLI HO TELEFONATO PERCHÉ AVEVO UN PROBLEMA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "L'ANNO PROSSIMO ANDRÒ A LAVORARE A MILANO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen: \"Quando ___ nel mio Paese, facevo l'autista.\" (1)",
+              "italian": "Quando abitavo nel mio Paese, facevo l'autista.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ABITO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ABITAVO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ABITERÒ",
+                  "imageUrl": null
+                },
+                {
+                  "text": "HO ABITATO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"Tre anni fa sono ___ in Italia\" (2)",
+              "italian": "Tre anni fa sono arrivato in Italia in aereo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "NATO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ARRIVATO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "RIMASTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PARTITO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"la vita era più difficile ___ non parlavo italiano\" (3)",
+              "italian": "All'inizio la vita era più difficile perché non parlavo italiano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "QUINDI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ANCHE SE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PERCHÉ",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PERÒ",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"l'estate prossima ___ in vacanza\" (4)",
+              "italian": "Oggi lavoro in un'azienda e l'estate prossima andrò in vacanza con la mia famiglia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "SONO ANDATO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ANDRÒ",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VADO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ANDAVO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"e ___ molti regali ai miei genitori\" (5)",
+              "italian": "E porterò molti regali ai miei genitori.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "PORTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PORTAVO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "HO PORTATO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PORTERÒ",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "2A · Match each word with its meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Prenotazione / Binario",
+                  "right": "Booking / Platform · Buking / Pletfarm"
+                },
+                {
+                  "left": "Ricetta medica / Sciroppo",
+                  "right": "Prescription / Syrup · Parchi / Sharbat"
+                },
+                {
+                  "left": "Caotico / Frenetico",
+                  "right": "Chaotic / Hectic · Raula / Tez"
+                },
+                {
+                  "left": "Raccomandata / Bollettino",
+                  "right": "Registered letter / Payment slip · Rajistard chitthi / Bill"
+                },
+                {
+                  "left": "Idraulico / Caldaia",
+                  "right": "Plumber / Boiler · Palambar / Boilar"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Prima di partire preparo la ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "patente",
+                  "imageUrl": null
+                },
+                {
+                  "text": "campagna",
+                  "imageUrl": null
+                },
+                {
+                  "text": "valigia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbre",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Ho 39 di temperatura: ho la ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "patente",
+                  "imageUrl": null
+                },
+                {
+                  "text": "campagna",
+                  "imageUrl": null
+                },
+                {
+                  "text": "valigia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbre",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · L'aria è pulita e c'è silenzio in ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "patente",
+                  "imageUrl": null
+                },
+                {
+                  "text": "campagna",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "valigia",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Per guidare il furgone serve la ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "patente",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "valigia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "campagna",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Pioveva forte, ___ ho preso il bus.",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "come",
+                  "imageUrl": null
+                },
+                {
+                  "text": "anche se",
+                  "imageUrl": null
+                },
+                {
+                  "text": "perché",
+                  "imageUrl": null
+                },
+                {
+                  "text": "quindi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Da bambina Sofia ___ (essere) timida…",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sarà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "era",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è stata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · … e ___ (leggere) molti libri.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "legge",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggerà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggeva",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Ieri sera mentre noi ___ (cenare)…",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ceniamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo cenato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ceneremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cenavamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · … ___ (suonare) il campanello.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "suonava",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha suonato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "suonerà",
+                  "imageUrl": null
+                },
+                {
+                  "text": "suona",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · (Sofia) Domenica scorsa io e mia sorella ___ (andare) a Verona…",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "siamo andate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo andati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andavamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo andato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · … e ___ (divertirsi) molto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "abbiamo divertito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci siamo divertiti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci siamo divertite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci divertivamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · L'anno prossimo io ___ (cercare) una casa più grande…",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "cercerò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cercherò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cercavo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho cercato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · … e ___ (fare) un corso.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "farò",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho fatto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "facevo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "facerò",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Domani noi ___ (andare) dal medico…",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andavamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo andati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "anderemo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · … e ___ (potere) chiedere la ricetta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "potremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo potuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "poteremo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "potevamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · (tu) «Hai mal di testa: ___ (prendere) una compressa…»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prendi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prenda",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prenderai ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendere",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · (tu) «… e non ___ (uscire)!»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "uscirai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "esca",
+                  "imageUrl": null
+                },
+                {
+                  "text": "esci",
+                  "imageUrl": null
+                },
+                {
+                  "text": "uscire",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · (Lei) «Buongiorno Signora, ___ (compilare) questo modulo…»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "compili",
+                  "imageUrl": null
+                },
+                {
+                  "text": "compila",
+                  "imageUrl": null
+                },
+                {
+                  "text": "compilare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "compilerà",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · (Lei) «… e ___ (firmare) qui.»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "firma",
+                  "imageUrl": null
+                },
+                {
+                  "text": "firmerai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "firmare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "firmi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Compri tu i biglietti? — Sì, ___ compro io oggi pomeriggio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Domani è il compleanno di Maria: ___ regalerò un libro…",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · … e ___ telefonerò.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Viaggiare in treno è più comodo ___ viaggiare in autobus.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "che",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Questo telefono è ___",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bellissimo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "più bellissimo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · … ed è ___ del negozio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il migliore",
+                  "imageUrl": null
+                },
+                {
+                  "text": "migliore",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"When I lived in my country I was a driver\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Quando abitavo nel mio Paese facevo l'autista",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I arrived in Italy three years ago\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Sono arrivato in Italia tre anni fa",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I study hard because I want a good job\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Studio con impegno perché voglio un buon lavoro",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Next year I will do an Italian course\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "L'anno prossimo farò un corso di italiano",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Written part for your teacher: complete the 5 sentences of your story (imperfetto, passato prossimo, presente + comparative, a connector, futuro). Then prepare the 3-minute final oral exam."
+        }
+      ]
+    }
+  ]
+}

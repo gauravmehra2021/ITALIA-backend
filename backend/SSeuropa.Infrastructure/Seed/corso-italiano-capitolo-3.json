@@ -1,0 +1,5860 @@
+{
+  "slug": "corso-italiano-capitolo-3",
+  "title": "Capitolo 3 · Verbs, the time and free time",
+  "shortDescription": "The present tense of regular verbs in -ARE, -ERE and -IRE, negative sentences with NON, the most important irregular verbs, telling the time, hobbies and sports, how often you do things and what you like.",
+  "description": "Part of the official SS Europa Italian course used in our classes, for learners from India, Pakistan and Bangladesh who are going to Italy to work, study or live. Chapters 1–7 take you from zero to level A1 and Chapters 8–12 to level A2 — study them in order.\n\nEvery 60-minute class of the chapter is split into three short lessons you can study on your phone, with pictures, audio, grammar tables and exercises. Every word comes with its English and Punjabi meaning, the slides of each class are attached as PDF, and the chapter ends with a test (pass mark 60%).",
+  "objectives": "I can use regular verbs in -ARE, -ERE and -IRE in the present tense\nI can build a sentence and make it negative with NON\nI can use irregular verbs: andare, fare, stare, bere, volere, potere, dovere, venire, uscire…\nI can ask and tell the time and say when I do things\nI can talk about my hobbies and how often I do them\nI can say what I like and don't like with mi piace / mi piacciono",
+  "level": "Beginner",
+  "cefrLevel": "A1",
+  "category": "Core",
+  "durationWeeks": 2,
+  "displayOrder": 2,
+  "thumbnailUrl": "/content/img/alarm-clock.png",
+  "previousTitles": [],
+  "splitFrom": "corso-italiano-a0",
+  "units": [
+    {
+      "key": "capitolo-3",
+      "order": 1,
+      "title": "Chapter 3: Verbs, the time and free time",
+      "titleIt": "Capitolo 3: I verbi, l'ora e il tempo libero",
+      "description": "The present tense of regular verbs in -ARE, -ERE and -IRE, negative sentences with NON, the most important irregular verbs, telling the time, hobbies and sports, how often you do things and what you like.",
+      "canDo": [
+        "I can use regular verbs in -ARE, -ERE and -IRE in the present tense",
+        "I can build a sentence and make it negative with NON",
+        "I can use irregular verbs: andare, fare, stare, bere, volere, potere, dovere, venire, uscire…",
+        "I can ask and tell the time and say when I do things",
+        "I can talk about my hobbies and how often I do them",
+        "I can say what I like and don't like with mi piace / mi piacciono"
+      ],
+      "imageUrl": "/content/img/alarm-clock.png",
+      "pdfUrl": "/content/pdf/corso-italiano-a0-unit-03.pdf",
+      "liveClassFocus": "Interview a partner about his or her day: what do you do and not do, what time do you go to work or school, what do you like doing in your free time and how often?",
+      "status": "Published",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Lesson 1 · Verbs in -ARE",
+          "titleIt": "Lezione 1 · I verbi in -ARE",
+          "kind": "Grammar",
+          "summary": "The three verb groups and the present tense of parlare, lavorare, abitare…",
+          "estimatedMinutes": 15,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 3 · Lezione 1 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap3-lez1-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Cos'è un verbo? Le 3 coniugazioni",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Gruppo",
+                  "Ending",
+                  "Examples",
+                  "English"
+                ],
+                [
+                  "1ª coniugazione",
+                  "-ARE",
+                  "parlare · lavorare",
+                  "to speak · to work (the biggest group!)"
+                ],
+                [
+                  "2ª coniugazione",
+                  "-ERE",
+                  "leggere · scrivere",
+                  "to read · to write"
+                ],
+                [
+                  "3ª coniugazione",
+                  "-IRE",
+                  "dormire · aprire",
+                  "to sleep · to open"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "6 verbi importanti in -ARE",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "parlare",
+                  "english": "to speak",
+                  "punjabi": "Bolna",
+                  "pronunciation": "pahr-LAH-reh",
+                  "imageUrl": "/content/img/speaking-head.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "lavorare",
+                  "english": "to work",
+                  "punjabi": "Kamm karna",
+                  "pronunciation": "lah-voh-RAH-reh",
+                  "imageUrl": "/content/img/briefcase.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "abitare",
+                  "english": "to live (in a place)",
+                  "punjabi": "Rahina",
+                  "pronunciation": "ah-bee-TAH-reh",
+                  "imageUrl": "/content/img/house.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "studiare",
+                  "english": "to study",
+                  "punjabi": "Padhna",
+                  "pronunciation": "stoo-dee-AH-reh",
+                  "imageUrl": "/content/img/books.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "cucinare",
+                  "english": "to cook",
+                  "punjabi": "Khaana pakauna",
+                  "pronunciation": "koo-chee-NAH-reh",
+                  "imageUrl": "/content/img/cooking.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "guardare",
+                  "english": "to watch / to look at",
+                  "punjabi": "Vekhna",
+                  "pronunciation": "gwahr-DAH-reh",
+                  "imageUrl": "/content/img/television.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Radice + desinenza: PARL-ARE, LAVOR-ARE",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "PARLARE",
+                  "LAVORARE",
+                  "English",
+                  "Punjabi"
+                ],
+                [
+                  "io",
+                  "parlo",
+                  "lavoro",
+                  "I speak / work",
+                  "Main bolda haan"
+                ],
+                [
+                  "tu",
+                  "parli",
+                  "lavori",
+                  "you speak / work",
+                  "Tu bolda hain"
+                ],
+                [
+                  "lui / lei",
+                  "parla",
+                  "lavora",
+                  "he / she speaks",
+                  "Uh bolda / boldi hai"
+                ],
+                [
+                  "noi",
+                  "parliamo",
+                  "lavoriamo",
+                  "we speak / work",
+                  "Asi bolde haan"
+                ],
+                [
+                  "voi",
+                  "parlate",
+                  "lavorate",
+                  "you (pl.) speak",
+                  "Tusi bolde ho"
+                ],
+                [
+                  "loro",
+                  "parlano",
+                  "lavorano",
+                  "they speak / work",
+                  "Uh bolde han"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Verbi in pratica",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Mia madre cucina bene.",
+                  "english": "My mother cooks well.",
+                  "punjabi": "Meri maata vadhia khaana pakaundi hai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Noi abitiamo a Mantova.",
+                  "english": "We live in Mantova.",
+                  "punjabi": "Asi Mantova vich rahinde haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Loro guardano la TV la sera.",
+                  "english": "They watch TV in the evening.",
+                  "punjabi": "Uh shaam nu TV vekhde han.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Io studio, tu studi, noi studiamo.",
+                  "english": "I study, you study, we study.",
+                  "punjabi": "Main padhda haan…",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Take the ending **-are** off and add **-o, -i, -a, -iamo, -ate, -ano**. Verbs in **-iare** (studiare, mangiare) keep only **one i** with tu and noi: *tu studi, noi studiamo* (NOT studii).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "cucinare",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "studiare",
+                  "imageUrl": "/content/img/books.png"
+                },
+                {
+                  "text": "parlare",
+                  "imageUrl": "/content/img/speaking-head.png"
+                },
+                {
+                  "text": "cucinare",
+                  "imageUrl": "/content/img/cooking.png"
+                },
+                {
+                  "text": "lavorare",
+                  "imageUrl": "/content/img/briefcase.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "cucinare = to cook"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "studiare",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "parlare",
+                  "imageUrl": "/content/img/speaking-head.png"
+                },
+                {
+                  "text": "abitare",
+                  "imageUrl": "/content/img/house.png"
+                },
+                {
+                  "text": "guardare",
+                  "imageUrl": "/content/img/television.png"
+                },
+                {
+                  "text": "studiare",
+                  "imageUrl": "/content/img/books.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "studiare = to study"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "parlare",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lavorare",
+                  "imageUrl": "/content/img/briefcase.png"
+                },
+                {
+                  "text": "cucinare",
+                  "imageUrl": "/content/img/cooking.png"
+                },
+                {
+                  "text": "parlare",
+                  "imageUrl": "/content/img/speaking-head.png"
+                },
+                {
+                  "text": "studiare",
+                  "imageUrl": "/content/img/books.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "parlare = to speak"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/briefcase.png",
+              "options": [
+                {
+                  "text": "studiare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavorare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "parlare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cucinare",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "lavorare = to work"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/house.png",
+              "options": [
+                {
+                  "text": "guardare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abitare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cucinare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavorare",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "abitare = to live (in a place)"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "lavorare",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to study",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to work",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to live (in a place)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to speak",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "abitare",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to live (in a place)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to cook",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to speak",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to work",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "abitare",
+                  "right": "to live (in a place)"
+                },
+                {
+                  "left": "parlare",
+                  "right": "to speak"
+                },
+                {
+                  "left": "studiare",
+                  "right": "to study"
+                },
+                {
+                  "left": "lavorare",
+                  "right": "to work"
+                },
+                {
+                  "left": "cucinare",
+                  "right": "to cook"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Io ___ italiano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "parlo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "parlano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "parli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "parla",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ in un ristorante?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lavori",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavora",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavoro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavorate",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Lei ___ a Suzzara.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "abitano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abiti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ l'italiano la sera.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "studiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "studiate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "studiano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "studio",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Voi ___ la cena?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "cucinate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cucinamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cucinano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cucini",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Loro ___ la TV.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "guardate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "guarda",
+                  "imageUrl": null
+                },
+                {
+                  "text": "guardiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "guardano",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Tu… (studiare)",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "studii",
+                  "imageUrl": null
+                },
+                {
+                  "text": "studi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "studio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "studia",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Which group does \"dormire\" belong to?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "3ª coniugazione (-IRE)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "2ª coniugazione (-ERE)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "1ª coniugazione (-ARE)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"We live in Mantova\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Noi abitiamo a Mantova",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 6 sentences about your family with 6 different -ARE verbs (Mio padre lavora…, Mia sorella studia…)."
+        },
+        {
+          "order": 2,
+          "title": "Lesson 1 · Building a sentence and saying NO",
+          "titleIt": "Lezione 1 · La frase affermativa e negativa",
+          "kind": "Grammar",
+          "summary": "Subject + verb + complement, and the negative with NON.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Struttura della frase: soggetto + verbo + complemento",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "1. Soggetto (chi?)",
+                  "2. Verbo (azione)",
+                  "3. Complemento (cosa / dove?)"
+                ],
+                [
+                  "Io",
+                  "parlo",
+                  "italiano."
+                ],
+                [
+                  "Maria",
+                  "cucina",
+                  "il riso."
+                ],
+                [
+                  "Noi",
+                  "studiamo",
+                  "a scuola."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": null,
+              "body": "In Italian the subject can be left out, because the verb already says who: **(Io) parlo italiano** = **Parlo italiano**.\n\nPunjabi: Karta (soggetto) + Kriya (verbo) + Karam / Thaan (complemento).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Frase affermativa (+) e negativa (−)",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "(+) Affermativa",
+                  "(−) Negativa: NON + verbo",
+                  "English"
+                ],
+                [
+                  "Io lavoro domenica.",
+                  "Io non lavoro domenica.",
+                  "I (don't) work on Sunday."
+                ],
+                [
+                  "Noi parliamo francese.",
+                  "Noi non parliamo francese.",
+                  "We (don't) speak French."
+                ],
+                [
+                  "Loro guardano la TV.",
+                  "Loro non guardano la TV.",
+                  "They (don't) watch TV."
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Examples",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Parlo punjabi e italiano.",
+                  "english": "I speak Punjabi and Italian.",
+                  "punjabi": "Main Punjabi ate Italian bolda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Non parlo tedesco.",
+                  "english": "I don't speak German.",
+                  "punjabi": "Main German nahi bolda.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Oggi non lavoro.",
+                  "english": "I'm not working today.",
+                  "punjabi": "Ajj main kamm nahi karda.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**NON always goes right before the verb** (Punjabi: NON hamesha kriya ton pahilaan lagda hai). *Io non lavoro* — never \"Io lavoro non\".",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "PickTranslation",
+              "prompt": "Make it negative: \"Io lavoro oggi.\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Non io lavoro oggi.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Io lavoro oggi non.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Io non lavoro oggi.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Io lavoro non oggi.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Make it negative: \"Loro guardano la TV.\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Loro guardano non la TV.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Non loro guardano la TV.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Loro non guardano la TV.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Which sentence is correct?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Parlo italiano.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Parlo io italiano non.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Italiano parlo non.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Non parlo tedesco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I don't understand German.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I study German.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I speak German.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I don't speak German.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I don't work on Sunday\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Io non lavoro domenica",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"We don't speak French\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Noi non parliamo francese",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 things you do and 3 things you don't do (Cucino ogni giorno. Non guardo la TV…)."
+        },
+        {
+          "order": 3,
+          "title": "Lesson 1 · Dialogue: Do you speak Italian? Are you working today?",
+          "titleIt": "Lezione 1 · Dialogo: Parli italiano? Lavori oggi?",
+          "kind": "Dialogue",
+          "summary": "Manpreet talks about where she lives and what she does today.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Two classmates meet after the Italian lesson.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: Parli italiano? Lavori oggi?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "A",
+                  "italian": "Ciao Manpreet! Tu abiti a Mantova?",
+                  "english": "Hi Manpreet! Do you live in Mantova?",
+                  "punjabi": "Sat Sri Akal Manpreet! Ki tu Mantova vich rahindi hain?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Manpreet",
+                  "italian": "No, non abito a Mantova. Abito a Suzzara.",
+                  "english": "No, I don't live in Mantova. I live in Suzzara.",
+                  "punjabi": "Nahi, main Mantova vich nahi rahindi. Main Suzzara vich rahindi haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "A",
+                  "italian": "Lavori oggi pomeriggio o studi italiano?",
+                  "english": "Are you working this afternoon or studying Italian?",
+                  "punjabi": "Ki ajj dupahir nu kamm karna hai jaan Italian padhni hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Manpreet",
+                  "italian": "Oggi non lavoro! Studio italiano e poi cucino a casa.",
+                  "english": "I'm not working today! I study Italian and then I cook at home.",
+                  "punjabi": "Ajj main kamm nahi kardi! Main Italian padhdi haan ate phir ghar khaana pakaundi haan.",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Intervista il tuo compagno (sì / no)",
+              "body": "1. **Che lingue parli?** — Sì: *Parlo punjabi e italiano.* · No: *Non parlo tedesco.*\n2. **Cucini a casa? Guardi la TV la sera?** — Sì: *Cucino ogni giorno.* · No: *Non guardo la TV.*\n3. **Dove abiti e dove lavori?** — *Abito a… e lavoro / non lavoro…*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Manpreet lives in Mantova.)",
+              "italian": "Manpreet abita a Mantova.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Manpreet lives in Suzzara.)",
+              "italian": "Manpreet abita a Suzzara.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Manpreet is working today.)",
+              "italian": "Oggi Manpreet lavora.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (After the lesson Manpreet cooks at home.)",
+              "italian": "Dopo la lezione Manpreet cucina a casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Che lingue parli?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Do you cook at home?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Where do you live?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "What languages do you speak?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Are you working today?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I study Italian and then I cook\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Studio italiano e poi cucino",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Pair activity: ask a classmate the 3 interview questions and answer with sì or no (with NON)."
+        },
+        {
+          "order": 4,
+          "title": "Lesson 2 · Verbs in -ERE",
+          "titleIt": "Lezione 2 · I verbi in -ERE",
+          "kind": "Grammar",
+          "summary": "Leggere, scrivere, prendere, vivere in the present tense.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 3 · Lezione 2 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap3-lez2-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "4 verbi importanti in -ERE",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "leggere",
+                  "english": "to read",
+                  "punjabi": "Padhna (kitab)",
+                  "pronunciation": "LED-jeh-reh",
+                  "imageUrl": "/content/img/open-book.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "scrivere",
+                  "english": "to write",
+                  "punjabi": "Likhna",
+                  "pronunciation": "SKREE-veh-reh",
+                  "imageUrl": "/content/img/writing-hand.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "prendere",
+                  "english": "to take / to have (bus, coffee)",
+                  "punjabi": "Laina (bass / kaafi)",
+                  "pronunciation": "PREN-deh-reh",
+                  "imageUrl": "/content/img/bus.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "vivere",
+                  "english": "to live",
+                  "punjabi": "Rahina / Jiuna",
+                  "pronunciation": "VEE-veh-reh",
+                  "imageUrl": "/content/img/house-with-garden.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Presente: LEGG-ERE e SCRIV-ERE",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "LEGGERE",
+                  "SCRIVERE",
+                  "English",
+                  "Punjabi"
+                ],
+                [
+                  "io",
+                  "leggo",
+                  "scrivo",
+                  "I read / write",
+                  "Main padhda / likhda haan"
+                ],
+                [
+                  "tu",
+                  "leggi",
+                  "scrivi",
+                  "you read / write",
+                  "Tu padhda / likhda hain"
+                ],
+                [
+                  "lui / lei",
+                  "legge",
+                  "scrive",
+                  "he / she reads",
+                  "Uh padhda / padhdi hai"
+                ],
+                [
+                  "noi",
+                  "leggiamo",
+                  "scriviamo",
+                  "we read / write",
+                  "Asi padhde haan"
+                ],
+                [
+                  "voi",
+                  "leggete",
+                  "scrivete",
+                  "you (pl.) read",
+                  "Tusi padhde ho"
+                ],
+                [
+                  "loro",
+                  "leggono",
+                  "scrivono",
+                  "they read / write",
+                  "Uh padhde han"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Esempi quotidiani",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Io leggo il libro di italiano.",
+                  "english": "I read the Italian book.",
+                  "punjabi": "Main Italian kitab padhda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Tu scrivi sul quaderno.",
+                  "english": "You write in the notebook.",
+                  "punjabi": "Tu kaapi te likhda hain.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Noi prendiamo l'autobus la mattina.",
+                  "english": "We take the bus in the morning.",
+                  "punjabi": "Asi savere bass lainde haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Loro vivono in Italia da due anni.",
+                  "english": "They have lived in Italy for two years.",
+                  "punjabi": "Uh do saal ton Italy vich rahinde han.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Endings of -ERE verbs: **-o, -i, -e, -iamo, -ete, -ono**. Compare with -ARE: only lui/lei (**-e**), voi (**-ete**) and loro (**-ono**) are different.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "scrivere",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prendere",
+                  "imageUrl": "/content/img/bus.png"
+                },
+                {
+                  "text": "vivere",
+                  "imageUrl": "/content/img/house-with-garden.png"
+                },
+                {
+                  "text": "scrivere",
+                  "imageUrl": "/content/img/writing-hand.png"
+                },
+                {
+                  "text": "leggere",
+                  "imageUrl": "/content/img/open-book.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "scrivere = to write"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "leggere",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "leggere",
+                  "imageUrl": "/content/img/open-book.png"
+                },
+                {
+                  "text": "prendere",
+                  "imageUrl": "/content/img/bus.png"
+                },
+                {
+                  "text": "vivere",
+                  "imageUrl": "/content/img/house-with-garden.png"
+                },
+                {
+                  "text": "scrivere",
+                  "imageUrl": "/content/img/writing-hand.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "leggere = to read"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "vivere",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vivere",
+                  "imageUrl": "/content/img/house-with-garden.png"
+                },
+                {
+                  "text": "leggere",
+                  "imageUrl": "/content/img/open-book.png"
+                },
+                {
+                  "text": "scrivere",
+                  "imageUrl": "/content/img/writing-hand.png"
+                },
+                {
+                  "text": "prendere",
+                  "imageUrl": "/content/img/bus.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "vivere = to live"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/bus.png",
+              "options": [
+                {
+                  "text": "prendere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vivere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scrivere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggere",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "prendere = to take / to have (bus, coffee)"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "prendere",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to live",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to take / to have (bus, coffee)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to read",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to write",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "prendere",
+                  "right": "to take / to have (bus, coffee)"
+                },
+                {
+                  "left": "leggere",
+                  "right": "to read"
+                },
+                {
+                  "left": "vivere",
+                  "right": "to live"
+                },
+                {
+                  "left": "scrivere",
+                  "right": "to write"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Io ___ il libro di italiano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "legge",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ sul quaderno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "scrivi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scrivete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scrivo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scrive",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Lui ___ un caffè.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prendono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prende",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ l'autobus la mattina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prendono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prende",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Voi ___ in Italia?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vivono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "viviamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vive",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vivete",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Loro ___ in Italia da due anni.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vivano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vive",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vivete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vivono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Prendo l'autobus.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I take the bus.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I wait for the bus.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I miss the bus.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I drive the bus.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"We take the bus\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Noi prendiamo l'autobus",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write what you read, what you write and what transport you take every day (Leggo…, Scrivo…, Prendo…)."
+        },
+        {
+          "order": 5,
+          "title": "Lesson 2 · Verbs in -IRE and -ISC-",
+          "titleIt": "Lezione 2 · I verbi in -IRE e in -ISC-",
+          "kind": "Grammar",
+          "summary": "Dormire, aprire, partire — and capire, finire with -isc-.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Verbi in -IRE (gruppo normale)",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "dormire",
+                  "english": "to sleep",
+                  "punjabi": "Sauna",
+                  "pronunciation": "dor-MEE-reh",
+                  "imageUrl": "/content/img/bed.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "aprire",
+                  "english": "to open",
+                  "punjabi": "Kholhna",
+                  "pronunciation": "ah-PREE-reh",
+                  "imageUrl": "/content/img/door.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "partire",
+                  "english": "to leave",
+                  "punjabi": "Ravana hona / Jaana",
+                  "pronunciation": "pahr-TEE-reh",
+                  "imageUrl": "/content/img/airplane-departure.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "-IRE normale: DORMIRE",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "io",
+                  "tu",
+                  "lui / lei",
+                  "noi",
+                  "voi",
+                  "loro"
+                ],
+                [
+                  "dormo",
+                  "dormi",
+                  "dorme",
+                  "dormiamo",
+                  "dormite",
+                  "dormono"
+                ],
+                [
+                  "apro",
+                  "apri",
+                  "apre",
+                  "apriamo",
+                  "aprite",
+                  "aprono"
+                ],
+                [
+                  "parto",
+                  "parti",
+                  "parte",
+                  "partiamo",
+                  "partite",
+                  "partono"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Verbi con -ISC-: CAPIRE e FINIRE",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "CAPIRE (understand)",
+                  "FINIRE (finish)",
+                  "English",
+                  "Punjabi"
+                ],
+                [
+                  "io",
+                  "capisco",
+                  "finisco",
+                  "I understand / finish",
+                  "Main samajhda haan"
+                ],
+                [
+                  "tu",
+                  "capisci",
+                  "finisci",
+                  "you understand / finish",
+                  "Tu samajhda hain"
+                ],
+                [
+                  "lui / lei",
+                  "capisce",
+                  "finisce",
+                  "he / she understands",
+                  "Uh samajhda hai"
+                ],
+                [
+                  "noi",
+                  "capiamo (no -isc-)",
+                  "finiamo (no -isc-)",
+                  "we understand / finish",
+                  "Asi samajhde haan"
+                ],
+                [
+                  "voi",
+                  "capite (no -isc-)",
+                  "finite (no -isc-)",
+                  "you (pl.) understand",
+                  "Tusi samajhde ho"
+                ],
+                [
+                  "loro",
+                  "capiscono",
+                  "finiscono",
+                  "they understand / finish",
+                  "Uh samajhde han"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Examples",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "capire",
+                  "english": "to understand",
+                  "punjabi": "Samajhna",
+                  "pronunciation": "kah-PEE-reh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "finire",
+                  "english": "to finish",
+                  "punjabi": "Khatam karna",
+                  "pronunciation": "fee-NEE-reh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Capisco abbastanza.",
+                  "english": "I understand quite well.",
+                  "punjabi": "Main kaafi samajhda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Finisco il lavoro alle cinque.",
+                  "english": "I finish work at five.",
+                  "punjabi": "Main 5 vaje kamm khatam karda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**-ISC-** goes in io, tu, lui/lei and loro, but **not in noi and voi**: *capisco, capisci, capisce, capiamo, capite, capiscono*. In **-sco** and **-scono** the sound is hard [sk]; in **-sci** and **-sce** it is soft [sh].",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Io ___ otto ore.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dormono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dorme",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dormo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dormi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ la finestra?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "apro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aprite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "apri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "apre",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il treno ___ alle nove.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "parti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "parto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "parte",
+                  "imageUrl": null
+                },
+                {
+                  "text": "partono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Io ___ bene l'italiano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "capo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capiscono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capisco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capisci",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ alle sei.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "finiscono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finiscamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finite",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Voi ___ la lezione?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "capiscite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capiscete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capiamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Loro ___ il lavoro tardi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "finiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finisce",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finiscono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Which form is correct for \"noi\"?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "capiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capisciamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capiscamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capiscono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"What time do you finish work\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "A che ora finisci il lavoro",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write at what time you finish work or school and how many hours you sleep (Finisco alle…, Dormo … ore)."
+        },
+        {
+          "order": 6,
+          "title": "Lesson 2 · Dialogue: Do you understand Italian?",
+          "titleIt": "Lezione 2 · Dialogo: Capisci l'italiano?",
+          "kind": "Dialogue",
+          "summary": "Harman reads and writes every day and takes the bus to school.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Ripasso: verbi in -ARE e NON",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Singolare",
+                  "Plurale",
+                  "Negativa"
+                ],
+                [
+                  "io parlo · tu parli · lui parla",
+                  "noi parliamo · voi parlate · loro parlano",
+                  "Io non lavoro domenica."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Harman meets a friend at the bus stop.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: Capisci l'italiano?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "A",
+                  "italian": "Ciao Harman! Capisci bene l'italiano adesso?",
+                  "english": "Hi Harman! Do you understand Italian well now?",
+                  "punjabi": "Sat Sri Akal Harman! Ki tu hun Italian changi tarhaan samajhda hain?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Harman",
+                  "italian": "Sì, capisco abbastanza! Leggo e scrivo ogni giorno.",
+                  "english": "Yes, I understand quite well! I read and write every day.",
+                  "punjabi": "Haan, main kaafi samajhda haan! Main har roz padhda ate likhda haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "A",
+                  "italian": "A che ora finisci il lavoro oggi?",
+                  "english": "What time do you finish work today?",
+                  "punjabi": "Ajj kamm kadon khatam karda hain?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Harman",
+                  "italian": "Finisco alle cinque e poi prendo l'autobus per andare a scuola!",
+                  "english": "I finish at five and then I take the bus to go to school!",
+                  "punjabi": "Main 5 vaje kamm khatam karda haan ate phir skool jaan lai bass lainda haan!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Intervista il tuo compagno",
+              "body": "1. **Leggi o scrivi in italiano a casa?** — *Leggo e scrivo ogni sera.* / *Non leggo molto.*\n2. **Prendi l'autobus o il treno per andare al lavoro?** — *Prendo l'autobus.* / *Non prendo il treno.*\n3. **Capisci l'italiano? A che ora finisci il lavoro?** — *Capisco abbastanza! Finisco alle…*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Harman understands Italian quite well.)",
+              "italian": "Harman capisce abbastanza l'italiano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Harman reads and writes every day.)",
+              "italian": "Harman legge e scrive ogni giorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Harman finishes work at seven.)",
+              "italian": "Harman finisce il lavoro alle sette.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (After work Harman takes the train.)",
+              "italian": "Dopo il lavoro Harman prende il treno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "A che ora finisci il lavoro?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "What time do you start work?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "What time do you finish work?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Do you like your work?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Where do you work?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I understand Italian quite well\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Capisco abbastanza l'italiano",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Pair activity: ask a classmate the 3 questions and write down the answers."
+        },
+        {
+          "order": 7,
+          "title": "Lesson 3 · Irregular verbs",
+          "titleIt": "Lezione 3 · I verbi irregolari",
+          "kind": "Grammar",
+          "summary": "Andare, fare, dare, stare · bere, volere, potere, dovere · venire, uscire, dire, salire.",
+          "estimatedMinutes": 15,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 3 · Lezione 3 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap3-lez3-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Irregolari in -ARE: andare, fare, dare, stare",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "ANDARE (go · jaana)",
+                  "FARE (do / make · karna)",
+                  "DARE (give · dena)",
+                  "STARE (stay / be · rahina)"
+                ],
+                [
+                  "io",
+                  "vado",
+                  "faccio",
+                  "do",
+                  "sto"
+                ],
+                [
+                  "tu",
+                  "vai",
+                  "fai",
+                  "dai",
+                  "stai"
+                ],
+                [
+                  "lui / lei",
+                  "va",
+                  "fa",
+                  "dà",
+                  "sta"
+                ],
+                [
+                  "noi",
+                  "andiamo",
+                  "facciamo",
+                  "diamo",
+                  "stiamo"
+                ],
+                [
+                  "voi",
+                  "andate",
+                  "fate",
+                  "date",
+                  "state"
+                ],
+                [
+                  "loro",
+                  "vanno",
+                  "fanno",
+                  "danno",
+                  "stanno"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Irregolari in -ERE: bere, volere, potere, dovere",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "BERE (drink · pina)",
+                  "VOLERE (want · chaahuna)",
+                  "POTERE (can · sakna)",
+                  "DOVERE (must · chaahida)"
+                ],
+                [
+                  "io",
+                  "bevo",
+                  "voglio",
+                  "posso",
+                  "devo"
+                ],
+                [
+                  "tu",
+                  "bevi",
+                  "vuoi",
+                  "puoi",
+                  "devi"
+                ],
+                [
+                  "lui / lei",
+                  "beve",
+                  "vuole",
+                  "può",
+                  "deve"
+                ],
+                [
+                  "noi",
+                  "beviamo",
+                  "vogliamo",
+                  "possiamo",
+                  "dobbiamo"
+                ],
+                [
+                  "voi",
+                  "bevete",
+                  "volete",
+                  "potete",
+                  "dovete"
+                ],
+                [
+                  "loro",
+                  "bevono",
+                  "vogliono",
+                  "possono",
+                  "devono"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Irregolari in -IRE: venire, uscire, dire, salire",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "VENIRE (come · auna)",
+                  "USCIRE (go out · baahar jaana)",
+                  "DIRE (say · kahina)",
+                  "SALIRE (go up / get on · chadhna)"
+                ],
+                [
+                  "io",
+                  "vengo",
+                  "esco",
+                  "dico",
+                  "salgo"
+                ],
+                [
+                  "tu",
+                  "vieni",
+                  "esci",
+                  "dici",
+                  "sali"
+                ],
+                [
+                  "lui / lei",
+                  "viene",
+                  "esce",
+                  "dice",
+                  "sale"
+                ],
+                [
+                  "noi",
+                  "veniamo",
+                  "usciamo",
+                  "diciamo",
+                  "saliamo"
+                ],
+                [
+                  "voi",
+                  "venite",
+                  "uscite",
+                  "dite",
+                  "salite"
+                ],
+                [
+                  "loro",
+                  "vengono",
+                  "escono",
+                  "dicono",
+                  "salgono"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Examples",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Come stai? — Sto bene!",
+                  "english": "How are you? — I'm fine!",
+                  "punjabi": "Ki haal hai? — Main theek haan!",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Vado al lavoro alle otto.",
+                  "english": "I go to work at eight.",
+                  "punjabi": "Main atth vaje kamm te jaanda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Faccio colazione al bar.",
+                  "english": "I have breakfast at the café.",
+                  "punjabi": "Main baar vich naashta karda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Bevo un tè. Voglio riposare.",
+                  "english": "I drink tea. I want to rest.",
+                  "punjabi": "Main chaah pinda haan. Main aaram karna chaahunda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Posso venire alle cinque.",
+                  "english": "I can come at five.",
+                  "punjabi": "Main panj vaje aa sakda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Esco di casa alle sette.",
+                  "english": "I leave home at seven.",
+                  "punjabi": "Main satt vaje ghar ton nikalda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Volere, potere, dovere** are followed by a verb in the infinitive: *Voglio **uscire**. Posso **venire**? Devo **lavorare**.*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Io ___ al lavoro in bicicletta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "va",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vado",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ sport il sabato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "facciamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faccio",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Come ___? (tu)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "stai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "state",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Loro ___ il tè caldo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bevono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "beviamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "beve",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bevi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Io ___ uscire stasera.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "voglio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vuole",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vogliono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vuoi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ venire alle cinque?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "posso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "puoi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "può",
+                  "imageUrl": null
+                },
+                {
+                  "text": "potete",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ lavorare domani.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dovete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "devo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dobbiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "devono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Lui ___ con gli amici.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "esci",
+                  "imageUrl": null
+                },
+                {
+                  "text": "esce",
+                  "imageUrl": null
+                },
+                {
+                  "text": "esco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "escono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Loro ___ al parco all'una.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vengo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "viene",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vengono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Faccio\" is a form of…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "stare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finire",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 4 sentences about your day with andare, fare, bere and uscire."
+        },
+        {
+          "order": 8,
+          "title": "Lesson 3 · Telling the time",
+          "titleIt": "Lezione 3 · Che ore sono?",
+          "kind": "Vocabulary",
+          "summary": "È l'una, sono le due… e un quarto, e mezza, meno un quarto — and the parts of the day.",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Chiedere e dire l'ora",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Che ore sono? / Che ora è?",
+                  "english": "What time is it?",
+                  "punjabi": "Kinne vaje han?",
+                  "pronunciation": "keh OH-reh SOH-noh",
+                  "imageUrl": "/content/img/mantelpiece-clock.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "È l'una.",
+                  "english": "It's one o'clock.",
+                  "punjabi": "Ikk vajia hai.",
+                  "pronunciation": "eh LOO-nah",
+                  "imageUrl": "/content/img/one-oclock.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Sono le due.",
+                  "english": "It's two o'clock.",
+                  "punjabi": "Do vaje han.",
+                  "pronunciation": "SOH-noh leh DOO-eh",
+                  "imageUrl": "/content/img/two-oclock.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "È mezzogiorno.",
+                  "english": "It's midday.",
+                  "punjabi": "Dupahir de baaraan vaje han.",
+                  "pronunciation": "eh med-dzoh-JOR-noh",
+                  "imageUrl": "/content/img/sun.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "È mezzanotte.",
+                  "english": "It's midnight.",
+                  "punjabi": "Adhi raat hai.",
+                  "pronunciation": "eh med-dzah-NOT-teh",
+                  "imageUrl": "/content/img/crescent-moon.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le tre e un quarto",
+                  "english": "3:15 (quarter past three)",
+                  "punjabi": "Sava tinn",
+                  "pronunciation": "leh TREH eh oon KWAHR-toh",
+                  "imageUrl": "/content/img/three-oclock.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le otto e mezza",
+                  "english": "8:30 (half past eight)",
+                  "punjabi": "Saadhe atth",
+                  "pronunciation": "leh OT-toh eh MED-dzah",
+                  "imageUrl": "/content/img/eight-thirty.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "le nove meno un quarto",
+                  "english": "8:45 (quarter to nine)",
+                  "punjabi": "Paune naun",
+                  "pronunciation": "leh NOH-veh MEH-noh oon KWAHR-toh",
+                  "imageUrl": "/content/img/nine-oclock.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Le ore e i minuti",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Time",
+                  "Italiano",
+                  "English",
+                  "Punjabi"
+                ],
+                [
+                  "1:00",
+                  "È l'una. (singular!)",
+                  "It's one o'clock",
+                  "Ikk vajia hai"
+                ],
+                [
+                  "2:00 – 11:00",
+                  "Sono le due / le undici.",
+                  "It's two / eleven o'clock",
+                  "Do / giaraan vaje han"
+                ],
+                [
+                  "12:00",
+                  "È mezzogiorno / mezzanotte.",
+                  "It's midday / midnight",
+                  "Baaraan vaje"
+                ],
+                [
+                  ":15",
+                  "e un quarto",
+                  "quarter past",
+                  "Sava"
+                ],
+                [
+                  ":30",
+                  "e mezza / e mezzo",
+                  "half past",
+                  "Saadhe"
+                ],
+                [
+                  ":45",
+                  "meno un quarto (of the next hour)",
+                  "quarter to",
+                  "Paune"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "A che ora…? Le fasce del giorno",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "di mattina (6–12)",
+                  "english": "in the morning",
+                  "punjabi": "Saver",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/sunrise.png",
+                  "audioUrl": null,
+                  "example": "Vado al lavoro alle otto di mattina.",
+                  "exampleEnglish": "I go to work at eight in the morning."
+                },
+                {
+                  "italian": "di pomeriggio (13–18)",
+                  "english": "in the afternoon",
+                  "punjabi": "Dupahar",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/sun-behind-cloud.png",
+                  "audioUrl": null,
+                  "example": "Finisco il lavoro alle cinque di pomeriggio.",
+                  "exampleEnglish": "I finish work at five in the afternoon."
+                },
+                {
+                  "italian": "di sera (18–23)",
+                  "english": "in the evening",
+                  "punjabi": "Shaam",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/sunset.png",
+                  "audioUrl": null,
+                  "example": "Vengo a scuola alle sette di sera.",
+                  "exampleEnglish": "I come to school at seven in the evening."
+                },
+                {
+                  "italian": "di notte (23–5)",
+                  "english": "at night",
+                  "punjabi": "Raat",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/night-with-stars.png",
+                  "audioUrl": null,
+                  "example": "Dormo da mezzanotte alle sei.",
+                  "exampleEnglish": "I sleep from midnight to six."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Asking **\"A che ora…?\"** (at what time?), answer with **alle** + hour: *alle otto, alle cinque*. With one o'clock say **all'una**: *Vado a casa all'una.*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "È mezzogiorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le nove meno un quarto",
+                  "imageUrl": "/content/img/nine-oclock.png"
+                },
+                {
+                  "text": "È mezzogiorno.",
+                  "imageUrl": "/content/img/sun.png"
+                },
+                {
+                  "text": "di sera (18–23)",
+                  "imageUrl": "/content/img/sunset.png"
+                },
+                {
+                  "text": "È l'una.",
+                  "imageUrl": "/content/img/one-oclock.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "È mezzogiorno. = It's midday."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Sono le due.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "di mattina (6–12)",
+                  "imageUrl": "/content/img/sunrise.png"
+                },
+                {
+                  "text": "Sono le due.",
+                  "imageUrl": "/content/img/two-oclock.png"
+                },
+                {
+                  "text": "le tre e un quarto",
+                  "imageUrl": "/content/img/three-oclock.png"
+                },
+                {
+                  "text": "di sera (18–23)",
+                  "imageUrl": "/content/img/sunset.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Sono le due. = It's two o'clock."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "È l'una.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "di pomeriggio (13–18)",
+                  "imageUrl": "/content/img/sun-behind-cloud.png"
+                },
+                {
+                  "text": "Sono le due.",
+                  "imageUrl": "/content/img/two-oclock.png"
+                },
+                {
+                  "text": "È mezzogiorno.",
+                  "imageUrl": "/content/img/sun.png"
+                },
+                {
+                  "text": "È l'una.",
+                  "imageUrl": "/content/img/one-oclock.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "È l'una. = It's one o'clock."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/night-with-stars.png",
+              "options": [
+                {
+                  "text": "Che ore sono? / Che ora è?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le nove meno un quarto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "di notte (23–5)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È mezzogiorno.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "di notte (23–5) = at night"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/three-oclock.png",
+              "options": [
+                {
+                  "text": "di pomeriggio (13–18)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le nove meno un quarto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le tre e un quarto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le otto e mezza",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "le tre e un quarto = 3:15 (quarter past three)"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "di notte (23–5)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "8:45 (quarter to nine)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "It's one o'clock.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in the evening",
+                  "imageUrl": null
+                },
+                {
+                  "text": "at night",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "le tre e un quarto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "3:15 (quarter past three)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "8:45 (quarter to nine)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in the evening",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in the afternoon",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "di notte (23–5)",
+                  "right": "at night"
+                },
+                {
+                  "left": "Sono le due.",
+                  "right": "It's two o'clock."
+                },
+                {
+                  "left": "di pomeriggio (13–18)",
+                  "right": "in the afternoon"
+                },
+                {
+                  "left": "le tre e un quarto",
+                  "right": "3:15 (quarter past three)"
+                },
+                {
+                  "left": "È l'una.",
+                  "right": "It's one o'clock."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen: what time is it?",
+              "italian": "Sono le sette e un quarto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "07:30",
+                  "imageUrl": null
+                },
+                {
+                  "text": "06:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "07:45",
+                  "imageUrl": null
+                },
+                {
+                  "text": "07:15",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen: what time is it?",
+              "italian": "Sono le quattro e mezza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "04:30",
+                  "imageUrl": null
+                },
+                {
+                  "text": "05:30",
+                  "imageUrl": null
+                },
+                {
+                  "text": "04:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "03:30",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen: what time is it?",
+              "italian": "Sono le otto meno un quarto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "08:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "08:45",
+                  "imageUrl": null
+                },
+                {
+                  "text": "07:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "07:45",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "01:00 = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "È le uno.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È l'una.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono l'una.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le una.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "09:15 = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono le nove meno un quarto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le nove e un quarto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le nove e mezza.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le dieci e un quarto.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "12:00 (midday) = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "È l'una.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le due.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È mezzanotte.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È mezzogiorno.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vado a casa ___ una.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "all'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alle",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Finisco il lavoro ___ cinque.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "alle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "all'",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your timetable: at what time you get up, go to work or school, eat and go to bed."
+        },
+        {
+          "order": 9,
+          "title": "Lesson 3 · Dialogue: What time is it?",
+          "titleIt": "Lezione 3 · Dialogo: Che ore sono?",
+          "kind": "Dialogue",
+          "summary": "Jaspreet and a classmate take a coffee break.",
+          "estimatedMinutes": 8,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Two classmates during the Italian lesson.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: Che ore sono?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "A",
+                  "italian": "Scusa Jaspreet, che ore sono adesso?",
+                  "english": "Excuse me Jaspreet, what time is it now?",
+                  "punjabi": "Maaf karna Jaspreet, hun kinne vaje han?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Jaspreet",
+                  "italian": "Sono le dieci e un quarto! Facciamo una pausa?",
+                  "english": "It's quarter past ten! Shall we take a break?",
+                  "punjabi": "Sava das vaje han! Thodha aaram karie?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "A",
+                  "italian": "Volentieri! Io bevo un caffè, e tu cosa bevi?",
+                  "english": "Gladly! I'll drink a coffee, and what will you drink?",
+                  "punjabi": "Zarur! Main kaafi pinda haan, tu ki pinda hain?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Jaspreet",
+                  "italian": "Io bevo un tè caldo. Poi all'una vado a casa!",
+                  "english": "I'll drink a hot tea. Then at one I go home!",
+                  "punjabi": "Main garam chaah pinda haan. Phir ikk vaje ghar jaanda haan!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Intervista il tuo compagno",
+              "body": "1. **Come stai oggi? A che ora vai al lavoro?** — *Sto bene! Vado al lavoro alle…*\n2. **Cosa bevi la mattina? Cosa vuoi fare?** — *Bevo tè o caffè. Voglio riposare!*\n3. **A che ora esci di casa? Quando vieni a scuola?** — *Esco alle… e vengo a scuola alle…*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (It is half past ten.)",
+              "italian": "Sono le dieci e mezza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Jaspreet drinks a hot tea.)",
+              "italian": "Jaspreet beve un tè caldo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Jaspreet goes home at one.)",
+              "italian": "Jaspreet va a casa all'una.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Facciamo una pausa?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Shall we go home?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Shall we take a break?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Shall we have lunch?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Shall we start?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"What time is it now\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Che ore sono adesso",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I drink a hot tea\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Io bevo un tè caldo",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Pair activity: ask a classmate the 3 questions and answer with irregular verbs."
+        },
+        {
+          "order": 10,
+          "title": "Lesson 4 · Hobbies and sports",
+          "titleIt": "Lezione 4 · Hobby, sport e tempo libero",
+          "kind": "Vocabulary",
+          "summary": "Giocare a cricket, andare in palestra, ascoltare musica, uscire con gli amici…",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 3 · Lezione 4 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap3-lez4-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Hobby e sport",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "giocare a calcio",
+                  "english": "to play football (soccer)",
+                  "punjabi": "Futbal khedna",
+                  "pronunciation": "joh-KAH-reh ah KAHL-choh",
+                  "imageUrl": "/content/img/soccer-ball.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "giocare a cricket",
+                  "english": "to play cricket",
+                  "punjabi": "Kriket khedna",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/cricket-game.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "giocare a carte",
+                  "english": "to play cards",
+                  "punjabi": "Taash khedna",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/joker.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "andare in palestra",
+                  "english": "to go to the gym",
+                  "punjabi": "Jim jaana",
+                  "pronunciation": "pah-LES-trah",
+                  "imageUrl": "/content/img/person-lifting-weights.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "andare in piscina",
+                  "english": "to go to the swimming pool",
+                  "punjabi": "Pool te jaana",
+                  "pronunciation": "pee-SHEE-nah",
+                  "imageUrl": "/content/img/person-swimming.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "andare in bici",
+                  "english": "to go cycling",
+                  "punjabi": "Saikil chalauna",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/bicycle.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "correre",
+                  "english": "to run",
+                  "punjabi": "Daudna",
+                  "pronunciation": "KOR-reh-reh",
+                  "imageUrl": "/content/img/person-running.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "passeggiare al parco",
+                  "english": "to walk in the park",
+                  "punjabi": "Paark vich sair karna",
+                  "pronunciation": "pahs-sed-JAH-reh",
+                  "imageUrl": "/content/img/person-walking.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "ascoltare musica",
+                  "english": "to listen to music",
+                  "punjabi": "Sangit sunna",
+                  "pronunciation": "ahs-kol-TAH-reh MOO-zee-kah",
+                  "imageUrl": "/content/img/headphone.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "guardare film",
+                  "english": "to watch films",
+                  "punjabi": "Filmaan vekhniaan",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/clapper-board.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Cosa fai nel tempo libero?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "cucinare",
+                  "english": "to cook",
+                  "punjabi": "Khaana banauna",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/cooking.png",
+                  "audioUrl": null,
+                  "example": "Nel tempo libero cucino piatti indiani.",
+                  "exampleEnglish": "In my free time I cook Indian dishes."
+                },
+                {
+                  "italian": "viaggiare",
+                  "english": "to travel",
+                  "punjabi": "Safar karna",
+                  "pronunciation": "vee-ahd-JAH-reh",
+                  "imageUrl": "/content/img/airplane.png",
+                  "audioUrl": null,
+                  "example": "In estate viaggiamo in treno in Italia.",
+                  "exampleEnglish": "In summer we travel around Italy by train."
+                },
+                {
+                  "italian": "uscire con gli amici",
+                  "english": "to go out with friends",
+                  "punjabi": "Dostaan naal baahar jaana",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/party-popper.png",
+                  "audioUrl": null,
+                  "example": "Il venerdì sera esco con gli amici.",
+                  "exampleEnglish": "On Friday evening I go out with friends."
+                },
+                {
+                  "italian": "restare a casa",
+                  "english": "to stay at home",
+                  "punjabi": "Ghar rahina",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/couch-and-lamp.png",
+                  "audioUrl": null,
+                  "example": "La domenica resto a casa e guardo la TV.",
+                  "exampleEnglish": "On Sunday I stay at home and watch TV."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Sports with a ball or cards use **giocare a**: *gioco a calcio, a cricket, a carte*. Places use **andare in**: *vado in palestra, in piscina, in bici*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "giocare a cricket",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andare in bici",
+                  "imageUrl": "/content/img/bicycle.png"
+                },
+                {
+                  "text": "giocare a cricket",
+                  "imageUrl": "/content/img/cricket-game.png"
+                },
+                {
+                  "text": "cucinare",
+                  "imageUrl": "/content/img/cooking.png"
+                },
+                {
+                  "text": "ascoltare musica",
+                  "imageUrl": "/content/img/headphone.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "giocare a cricket = to play cricket"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "andare in palestra",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ascoltare musica",
+                  "imageUrl": "/content/img/headphone.png"
+                },
+                {
+                  "text": "andare in palestra",
+                  "imageUrl": "/content/img/person-lifting-weights.png"
+                },
+                {
+                  "text": "giocare a carte",
+                  "imageUrl": "/content/img/joker.png"
+                },
+                {
+                  "text": "correre",
+                  "imageUrl": "/content/img/person-running.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "andare in palestra = to go to the gym"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "ascoltare musica",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "passeggiare al parco",
+                  "imageUrl": "/content/img/person-walking.png"
+                },
+                {
+                  "text": "ascoltare musica",
+                  "imageUrl": "/content/img/headphone.png"
+                },
+                {
+                  "text": "andare in palestra",
+                  "imageUrl": "/content/img/person-lifting-weights.png"
+                },
+                {
+                  "text": "guardare film",
+                  "imageUrl": "/content/img/clapper-board.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "ascoltare musica = to listen to music"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/joker.png",
+              "options": [
+                {
+                  "text": "passeggiare al parco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "giocare a carte",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andare in palestra",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andare in bici",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "giocare a carte = to play cards"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/person-running.png",
+              "options": [
+                {
+                  "text": "correre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "giocare a cricket",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andare in bici",
+                  "imageUrl": null
+                },
+                {
+                  "text": "uscire con gli amici",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "correre = to run"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "giocare a carte",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to play cards",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to watch films",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to play cricket",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to go cycling",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "correre",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to play cricket",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to stay at home",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to go to the swimming pool",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to run",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "cucinare",
+                  "right": "to cook"
+                },
+                {
+                  "left": "correre",
+                  "right": "to run"
+                },
+                {
+                  "left": "guardare film",
+                  "right": "to watch films"
+                },
+                {
+                  "left": "ascoltare musica",
+                  "right": "to listen to music"
+                },
+                {
+                  "left": "viaggiare",
+                  "right": "to travel"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il sabato gioco ___ cricket.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "con",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vado ___ palestra tre volte a settimana.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "per",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "uscire con gli amici",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to stay at home",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to play cards",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to travel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to go out with friends",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 4 things you do in your free time (Nel tempo libero gioco a…, vado in…, ascolto…)."
+        },
+        {
+          "order": 11,
+          "title": "Lesson 4 · How often? Sempre, spesso, mai",
+          "titleIt": "Lezione 4 · Gli avverbi di frequenza",
+          "kind": "Grammar",
+          "summary": "Sempre, spesso, qualche volta, raramente, non… mai — and where to put them.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Sempre, spesso, qualche volta, raramente, non… mai",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "sempre (100%)",
+                  "english": "always",
+                  "punjabi": "Hamesha",
+                  "pronunciation": "SEM-preh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Gioco sempre a cricket il sabato pomeriggio.",
+                  "exampleEnglish": "I always play cricket on Saturday afternoon."
+                },
+                {
+                  "italian": "spesso (75%)",
+                  "english": "often",
+                  "punjabi": "Aksar",
+                  "pronunciation": "SPES-soh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Andiamo spesso a passeggiare al parco.",
+                  "exampleEnglish": "We often go for a walk in the park."
+                },
+                {
+                  "italian": "qualche volta (40%)",
+                  "english": "sometimes",
+                  "punjabi": "Kade-kade",
+                  "pronunciation": "KWAHL-keh VOL-tah",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Qualche volta guardo un film al cinema.",
+                  "exampleEnglish": "Sometimes I watch a film at the cinema."
+                },
+                {
+                  "italian": "raramente (15%)",
+                  "english": "rarely",
+                  "punjabi": "Bahut ghatt",
+                  "pronunciation": "rah-rah-MEN-teh",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Vado raramente in piscina in inverno.",
+                  "exampleEnglish": "I rarely go to the pool in winter."
+                },
+                {
+                  "italian": "non… mai (0%)",
+                  "english": "never",
+                  "punjabi": "Kade nahi",
+                  "pronunciation": "non… MAH-ee",
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Io non gioco mai a carte!",
+                  "exampleEnglish": "I never play cards!"
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Dove mettiamo gli avverbi?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Rule",
+                  "Examples"
+                ],
+                [
+                  "sempre, spesso, raramente → after the verb",
+                  "Io ascolto sempre la musica. · Lui va spesso in palestra."
+                ],
+                [
+                  "double negative: NON + verbo + MAI",
+                  "Io non lavoro mai la domenica. · Noi non beviamo mai vino."
+                ],
+                [
+                  "qualche volta → at the start or at the end",
+                  "Qualche volta vado al cinema. · Vado al cinema qualche volta."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "In Italian **NON and MAI go together** (Punjabi: NON ate MAI ikatthe aunde han): *Non corro mai.* Saying \"Corro mai\" alone is wrong.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "qualche volta (40%)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sometimes",
+                  "imageUrl": null
+                },
+                {
+                  "text": "never",
+                  "imageUrl": null
+                },
+                {
+                  "text": "always",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rarely",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "spesso (75%)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sometimes",
+                  "imageUrl": null
+                },
+                {
+                  "text": "never",
+                  "imageUrl": null
+                },
+                {
+                  "text": "often",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rarely",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "qualche volta (40%)",
+                  "right": "sometimes"
+                },
+                {
+                  "left": "sempre (100%)",
+                  "right": "always"
+                },
+                {
+                  "left": "spesso (75%)",
+                  "right": "often"
+                },
+                {
+                  "left": "non… mai (0%)",
+                  "right": "never"
+                },
+                {
+                  "left": "raramente (15%)",
+                  "right": "rarely"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Choose the correct sentence:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Non io vado mai in piscina.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Io vado non mai in piscina.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Io non vado mai in piscina.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Io mai vado in piscina non.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Choose the correct sentence:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Lui spesso va non in palestra.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Lui va spesso in palestra.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Spesso lui in palestra va.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Raramente\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "rarely",
+                  "imageUrl": null
+                },
+                {
+                  "text": "often",
+                  "imageUrl": null
+                },
+                {
+                  "text": "never",
+                  "imageUrl": null
+                },
+                {
+                  "text": "always",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Which adverb means 100%?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sempre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "spesso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "raramente",
+                  "imageUrl": null
+                },
+                {
+                  "text": "qualche volta",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Non lavoro mai la domenica.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I often work on Sunday.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I sometimes work on Sunday.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I never work on Sunday.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I always work on Sunday.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I always listen to music\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Io ascolto sempre la musica",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"We never drink wine\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Noi non beviamo mai vino",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write one sentence with each adverb: sempre, spesso, qualche volta, raramente, non… mai."
+        },
+        {
+          "order": 12,
+          "title": "Lesson 4 · I like… Mi piace / Mi piacciono",
+          "titleIt": "Lezione 4 · Esprimere gusti: mi piace",
+          "kind": "Dialogue",
+          "summary": "Say what you like and don't like, with a dialogue about free time.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Mi piace / non mi piace + nome o infinito",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Struttura",
+                  "Quando si usa",
+                  "Esempio",
+                  "English / Punjabi"
+                ],
+                [
+                  "mi piace + infinito",
+                  "with an action",
+                  "Mi piace giocare a calcio.",
+                  "I like playing · khedna pasand hai"
+                ],
+                [
+                  "mi piace + nome singolare",
+                  "with a singular noun",
+                  "Mi piace lo sport / la musica.",
+                  "I like sport / music · sport / sangeet pasand hai"
+                ],
+                [
+                  "mi piacciono + plurale",
+                  "with a plural noun",
+                  "Mi piacciono i film d'azione.",
+                  "I like action films · filmaan pasand han"
+                ],
+                [
+                  "non mi piace + inf. / nome",
+                  "negative",
+                  "Non mi piace correre al freddo.",
+                  "I don't like · pasand nahi hai"
+                ],
+                [
+                  "ti piace…?",
+                  "question (+ molto / per niente)",
+                  "Ti piace cucinare? — Sì, molto!",
+                  "Do you like…? · ki tainu pasand hai?"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Two friends talk about their hobbies.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: Cosa ti piace fare nel tempo libero?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "A",
+                  "italian": "Ciao Gurpreet! Cosa ti piace fare nel tempo libero?",
+                  "english": "Hi Gurpreet! What do you like doing in your free time?",
+                  "punjabi": "Sat Sri Akal Gurpreet! Vehle samen vich tainu ki karna pasand hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Gurpreet",
+                  "italian": "Mi piace molto giocare a cricket e ascoltare musica. E a te?",
+                  "english": "I really like playing cricket and listening to music. And you?",
+                  "punjabi": "Mainu kriket khedna ate sangit sunna bahut pasand hai. Ate tainu?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "A",
+                  "italian": "A me piace andare in palestra. Ci vai spesso anche tu?",
+                  "english": "I like going to the gym. Do you go there often too?",
+                  "punjabi": "Mainu jim jaana pasand hai. Ki tu vi aksar jaanda hain?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Gurpreet",
+                  "italian": "Qualche volta! Invece non mi piace per niente correre, non corro mai!",
+                  "english": "Sometimes! But I don't like running at all, I never run!",
+                  "punjabi": "Kade-kade! Par mainu daudna bilkul pasand nahi, main kade nahi daudda!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Intervista il tuo compagno",
+              "body": "1. **Cosa ti piace fare nel tempo libero?** — *Mi piace molto… / Non mi piace…*\n2. **Quale sport fai spesso? Quale raramente?** — *Gioco spesso a… Vado raramente…*\n3. **Cosa non fai mai nel tempo libero?** — *Non guardo mai… Non vado mai…*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Mi piace** with one thing or an action, **mi piacciono** with more things: *Mi piace il caffè · Mi piacciono i cornetti.*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ cucinare piatti italiani e indiani.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi piace",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi piacciono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Non ___ gli sport pericolosi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi piace",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi piacciono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ la musica indiana.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi piacciono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi piace",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ i film d'azione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi piacciono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi piace",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet likes playing cricket.)",
+              "italian": "A Gurpreet piace giocare a cricket.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet often runs.)",
+              "italian": "Gurpreet corre spesso.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Ti piace cucinare?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Are you cooking?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Do you like cooking?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Can you cook?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Do you cook often?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I don't like running\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Non mi piace correre",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 things you like and 2 things you don't like, using mi piace / mi piacciono / non mi piace."
+        },
+        {
+          "order": 13,
+          "title": "Chapter 3 test",
+          "titleIt": "Test Capitolo 3",
+          "kind": "Exam",
+          "summary": "Listening, free time, the time, regular and irregular verbs, NON and mi piace. Pass mark: 60%.",
+          "estimatedMinutes": 25,
+          "xpReward": 60,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Test Capitolo 3",
+              "body": "This test checks everything in Chapter 3 (Lessons 1–4).\n\n- **1. Listening** — sentences and times\n- **2. Vocabulary** — free time, sports, frequency and the time\n- **3. Grammar** — regular and irregular verbs, NON, mi piace / mi piacciono\n- **4. Writing** — sentences about your day\n\nYou need **60%** to pass. You can repeat the test as many times as you like.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The **written part** (my day and free time) and the **oral interview** (daily actions, the time, hobbies — 2 minutes) are done **with your teacher** in the live class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Io non parlo italiano molto bene, ma studio ogni giorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "IO NON PARLO ITALIANO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "IO PARLO ITALIANO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Il venerdì finisco alle cinque del pomeriggio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "FINISCO ALLE SETTE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "FINISCO ALLE CINQUE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Nel tempo libero vado raramente in palestra.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "VADO RARAMENTE IN PALESTRA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VADO SEMPRE IN PALESTRA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Mi piace cucinare per la mia famiglia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "NON MI PIACE CUCINARE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MI PIACE CUCINARE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "La mattina noi beviamo un caffè insieme.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "LEGGIAMO UN LIBRO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "BEVIAMO UN CAFFÈ",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the time",
+              "italian": "Sono le sette e un quarto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "07:30",
+                  "imageUrl": null
+                },
+                {
+                  "text": "07:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "06:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "07:45",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the time",
+              "italian": "È l'una.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "01:30",
+                  "imageUrl": null
+                },
+                {
+                  "text": "01:00",
+                  "imageUrl": null
+                },
+                {
+                  "text": "12:00",
+                  "imageUrl": null
+                },
+                {
+                  "text": "11:00",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the time",
+              "italian": "Sono le quattro e mezza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "03:30",
+                  "imageUrl": null
+                },
+                {
+                  "text": "04:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "04:30",
+                  "imageUrl": null
+                },
+                {
+                  "text": "05:30",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the time",
+              "italian": "Sono le otto meno un quarto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "07:45",
+                  "imageUrl": null
+                },
+                {
+                  "text": "08:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "07:15",
+                  "imageUrl": null
+                },
+                {
+                  "text": "08:45",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen and choose the time",
+              "italian": "Sono le nove di sera.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "20:00",
+                  "imageUrl": null
+                },
+                {
+                  "text": "21:00",
+                  "imageUrl": null
+                },
+                {
+                  "text": "21:30",
+                  "imageUrl": null
+                },
+                {
+                  "text": "19:00",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "2A · Match each expression with its meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Ascoltare musica",
+                  "right": "To listen to music · Sangit sunna"
+                },
+                {
+                  "left": "Giocare a calcio",
+                  "right": "To play football · Futbal khedna"
+                },
+                {
+                  "left": "Uscire con gli amici",
+                  "right": "To go out with friends · Dostaan naal baahar jaana"
+                },
+                {
+                  "left": "Sempre",
+                  "right": "Always · Hamesha"
+                },
+                {
+                  "left": "Non … mai",
+                  "right": "Never · Kade nahi"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · 01:00 = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "È le uno.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È l'una.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le una.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono l'uno.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · 04:30 = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono le quattro e mezza.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È le quattro e mezza.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le cinque meno mezza.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le quattro e un quarto.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · 09:15 = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono le nove e mezza.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le dieci e un quarto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le nove e un quarto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le nove meno un quarto.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · 12:00 = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono le dodici e mezza.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È mezzogiorno.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È l'una.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le due.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · 07:45 = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sono le sette meno un quarto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le otto meno un quarto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le sette e mezza.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono le otto e un quarto.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Noi ___ (lavorare) in fabbrica dal lunedì al venerdì.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lavoro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavoriamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavorano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavorate",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Tu ___ (leggere) un libro in italiano ogni sera?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "leggete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "legge",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Maria e Luca ___ (abitare) a Mantova.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "abitiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abitano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abitate",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Io ___ (capire) bene la lezione di italiano!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "capo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capisco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capisci",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Voi ___ (dormire) otto ore di notte.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dormite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dormiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dorme",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dormono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Io ___ (andare) al lavoro in bicicletta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "va",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vado",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vai",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Io ___ (fare) colazione al bar.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faccio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fanno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Loro ___ (bere) il tè caldo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bevete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bevono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "beve",
+                  "imageUrl": null
+                },
+                {
+                  "text": "beviamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Loro ___ (uscire) di casa alle otto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "escie",
+                  "imageUrl": null
+                },
+                {
+                  "text": "esce",
+                  "imageUrl": null
+                },
+                {
+                  "text": "uscono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "escono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "3B · Make it negative: \"Tu guardi la televisione di sera.\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Tu non guardi la televisione di sera.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Non tu guardi la televisione di sera.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Tu guardi la televisione non di sera.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Tu guardi non la televisione di sera.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · ___ cucinare piatti italiani e indiani.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi piacciono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi piace",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Non ___ gli sport pericolosi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi piace",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi piacciono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "3C · Choose the correct sentence",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Io non vado mai in piscina d'inverno.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Io vado non mai in piscina d'inverno.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"In the morning I have breakfast at seven\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "La mattina faccio colazione alle sette",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"In my free time I often play cricket\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Nel tempo libero gioco spesso a cricket",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I really like cooking\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Mi piace molto cucinare",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Written part for your teacher: complete the 5 sentences about your day, your timetable, your free time, what you never do and what you like. Then prepare the 2-minute oral interview."
+        }
+      ]
+    }
+  ]
+}

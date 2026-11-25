@@ -8,9 +8,10 @@
   "cefrLevel": "A2",
   "category": "Study",
   "durationWeeks": 6,
-  "displayOrder": 4,
+  "displayOrder": 23,
   "thumbnailUrl": "/content/img/graduation-cap.png",
   "previousTitles": [],
+  "splitFrom": null,
   "units": [
     {
       "key": "unit-1",

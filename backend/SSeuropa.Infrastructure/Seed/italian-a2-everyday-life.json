@@ -8,9 +8,10 @@
   "cefrLevel": "A2",
   "category": "Core",
   "durationWeeks": 8,
-  "displayOrder": 2,
+  "displayOrder": 21,
   "thumbnailUrl": "/content/img/books.png",
   "previousTitles": [],
+  "splitFrom": null,
   "units": [
     {
       "key": "unit-1",

@@ -553,7 +553,7 @@ export default {
   cefrLevel: 'A2',
   category: 'Study',
   durationWeeks: 6,
-  displayOrder: 4,
+  displayOrder: 23,
   cover: 'Graduation cap',
   units,
 };

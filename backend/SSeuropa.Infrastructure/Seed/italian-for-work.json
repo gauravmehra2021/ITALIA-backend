@@ -8,9 +8,10 @@
   "cefrLevel": "A1–A2",
   "category": "Work",
   "durationWeeks": 10,
-  "displayOrder": 3,
+  "displayOrder": 22,
   "thumbnailUrl": "/content/img/briefcase.png",
   "previousTitles": [],
+  "splitFrom": null,
   "units": [
     {
       "key": "unit-1",

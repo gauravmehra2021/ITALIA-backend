@@ -1,0 +1,5242 @@
+{
+  "slug": "corso-italiano-capitolo-10",
+  "title": "Capitolo 10 · Health — the body, the doctor and the pharmacy",
+  "shortDescription": "The parts of the body and saying what hurts (ho mal di…, mi fa / mi fanno male, ho la febbre), at the doctor's and at the pharmacy (la ricetta, lo sciroppo, le compresse, la pomata), the direct object pronouns lo, la, li, le, and the imperative for advice and instructions — informal (prendi!) and formal (prenda!).",
+  "description": "Part of the official SS Europa Italian course used in our classes, for learners from India, Pakistan and Bangladesh who are going to Italy to work, study or live. Chapters 1–7 take you from zero to level A1 and Chapters 8–12 to level A2 — study them in order.\n\nEvery 60-minute class of the chapter is split into three short lessons you can study on your phone, with pictures, audio, grammar tables and exercises. Every word comes with its English and Punjabi meaning, the slides of each class are attached as PDF, and the chapter ends with a test (pass mark 60%).",
+  "objectives": "I can name the main parts of the body\nI can say what hurts: ho mal di testa, mi fa male la schiena, mi fanno male le gambe\nI can explain my symptoms to the doctor and ask for a prescription\nI can buy medicine at the pharmacy and understand how to take it\nI can avoid repeating nouns with lo, la, li, le: Prendi lo sciroppo? Sì, lo prendo\nI can give advice to a friend (riposa, non uscire!) and understand formal instructions (prenda, firmi qui)",
+  "level": "Beginner",
+  "cefrLevel": "A2",
+  "category": "Core",
+  "durationWeeks": 2,
+  "displayOrder": 9,
+  "thumbnailUrl": "/content/img/stethoscope.png",
+  "previousTitles": [],
+  "splitFrom": "corso-italiano-a0",
+  "units": [
+    {
+      "key": "capitolo-10",
+      "order": 1,
+      "title": "Chapter 10: Health — the body, the doctor and the pharmacy",
+      "titleIt": "Capitolo 10: La salute, i pronomi diretti e l'imperativo",
+      "description": "The parts of the body and saying what hurts (ho mal di…, mi fa / mi fanno male, ho la febbre), at the doctor's and at the pharmacy (la ricetta, lo sciroppo, le compresse, la pomata), the direct object pronouns lo, la, li, le, and the imperative for advice and instructions — informal (prendi!) and formal (prenda!).",
+      "canDo": [
+        "I can name the main parts of the body",
+        "I can say what hurts: ho mal di testa, mi fa male la schiena, mi fanno male le gambe",
+        "I can explain my symptoms to the doctor and ask for a prescription",
+        "I can buy medicine at the pharmacy and understand how to take it",
+        "I can avoid repeating nouns with lo, la, li, le: Prendi lo sciroppo? Sì, lo prendo",
+        "I can give advice to a friend (riposa, non uscire!) and understand formal instructions (prenda, firmi qui)"
+      ],
+      "imageUrl": "/content/img/stethoscope.png",
+      "pdfUrl": "/content/pdf/corso-italiano-a0-unit-10.pdf",
+      "liveClassFocus": "Role-play at the doctor's (two symptoms, allergies, prescription) and at the pharmacy (syrup or ointment, how to take it), then give a sick friend 3 pieces of advice with the imperative.",
+      "status": "Published",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Lesson 1 · The parts of the body",
+          "titleIt": "Lezione 1 · Le parti del corpo",
+          "kind": "Vocabulary",
+          "summary": "La testa, la gola, la pancia, la schiena, il braccio, la gamba, il dente, la mano, il piede.",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 10 · Lezione 1 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap10-lez1-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Le parti del corpo più frequenti",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "la testa",
+                  "english": "head",
+                  "punjabi": "Sir",
+                  "pronunciation": "lah TES-tah",
+                  "imageUrl": "/content/img/face-with-head-bandage.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la gola",
+                  "english": "throat",
+                  "punjabi": "Gala",
+                  "pronunciation": "lah GOH-lah",
+                  "imageUrl": "/content/img/face-with-thermometer.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la pancia",
+                  "english": "stomach / belly",
+                  "punjabi": "Pet",
+                  "pronunciation": "lah PAHN-chah",
+                  "imageUrl": "/content/img/nauseated-face.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la schiena",
+                  "english": "back",
+                  "punjabi": "Pitth / Lakk",
+                  "pronunciation": "lah SKYEH-nah",
+                  "imageUrl": "/content/img/person-standing.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il braccio — le braccia",
+                  "english": "arm — arms",
+                  "punjabi": "Baanh",
+                  "pronunciation": "eel BRAHT-choh",
+                  "imageUrl": "/content/img/flexed-biceps.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la gamba — le gambe",
+                  "english": "leg — legs",
+                  "punjabi": "Latt",
+                  "pronunciation": "lah GAHM-bah",
+                  "imageUrl": "/content/img/leg.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il dente — i denti",
+                  "english": "tooth — teeth",
+                  "punjabi": "Dand",
+                  "pronunciation": "eel DEN-teh",
+                  "imageUrl": "/content/img/tooth.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la mano — le mani",
+                  "english": "hand — hands",
+                  "punjabi": "Hatth",
+                  "pronunciation": "lah MAH-noh",
+                  "imageUrl": "/content/img/raised-hand.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il piede — i piedi",
+                  "english": "foot — feet",
+                  "punjabi": "Pair",
+                  "pronunciation": "eel PYEH-deh",
+                  "imageUrl": "/content/img/foot.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Two irregular plurals: **il braccio → le braccia** and **la mano → le mani** (la mano is feminine even though it ends in -o).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il piede — i piedi",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la gola",
+                  "imageUrl": "/content/img/face-with-thermometer.png"
+                },
+                {
+                  "text": "la pancia",
+                  "imageUrl": "/content/img/nauseated-face.png"
+                },
+                {
+                  "text": "il dente — i denti",
+                  "imageUrl": "/content/img/tooth.png"
+                },
+                {
+                  "text": "il piede — i piedi",
+                  "imageUrl": "/content/img/foot.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il piede — i piedi = foot — feet"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la gola",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la gamba — le gambe",
+                  "imageUrl": "/content/img/leg.png"
+                },
+                {
+                  "text": "la pancia",
+                  "imageUrl": "/content/img/nauseated-face.png"
+                },
+                {
+                  "text": "la gola",
+                  "imageUrl": "/content/img/face-with-thermometer.png"
+                },
+                {
+                  "text": "il piede — i piedi",
+                  "imageUrl": "/content/img/foot.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la gola = throat"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la mano — le mani",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la testa",
+                  "imageUrl": "/content/img/face-with-head-bandage.png"
+                },
+                {
+                  "text": "la mano — le mani",
+                  "imageUrl": "/content/img/raised-hand.png"
+                },
+                {
+                  "text": "la gola",
+                  "imageUrl": "/content/img/face-with-thermometer.png"
+                },
+                {
+                  "text": "il dente — i denti",
+                  "imageUrl": "/content/img/tooth.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la mano — le mani = hand — hands"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/person-standing.png",
+              "options": [
+                {
+                  "text": "il braccio — le braccia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la schiena",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la gola",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il piede — i piedi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la schiena = back"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/leg.png",
+              "options": [
+                {
+                  "text": "la testa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la pancia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la gamba — le gambe",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la gola",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la gamba — le gambe = leg — legs"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la schiena",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "throat",
+                  "imageUrl": null
+                },
+                {
+                  "text": "back",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tooth — teeth",
+                  "imageUrl": null
+                },
+                {
+                  "text": "head",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la gamba — le gambe",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "arm — arms",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leg — legs",
+                  "imageUrl": null
+                },
+                {
+                  "text": "stomach / belly",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hand — hands",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "la schiena",
+                  "right": "back"
+                },
+                {
+                  "left": "la gola",
+                  "right": "throat"
+                },
+                {
+                  "left": "la testa",
+                  "right": "head"
+                },
+                {
+                  "left": "la mano — le mani",
+                  "right": "hand — hands"
+                },
+                {
+                  "left": "il dente — i denti",
+                  "right": "tooth — teeth"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Plural of \"il braccio\"?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "i bracci",
+                  "imageUrl": null
+                },
+                {
+                  "text": "i braccia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le braccia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le braccie",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Plural of \"la mano\"?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le mane",
+                  "imageUrl": null
+                },
+                {
+                  "text": "i mani",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le mani",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le mano",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You eat with your…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "denti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "braccia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "piedi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gambe",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la schiena",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "back",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leg",
+                  "imageUrl": null
+                },
+                {
+                  "text": "stomach",
+                  "imageUrl": null
+                },
+                {
+                  "text": "throat",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la gola",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "head",
+                  "imageUrl": null
+                },
+                {
+                  "text": "throat",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hand",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tooth",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Touch and name 8 parts of your body in Italian."
+        },
+        {
+          "order": 2,
+          "title": "Lesson 1 · Saying what hurts",
+          "titleIt": "Lezione 1 · Ho mal di…, mi fa male…, ho la febbre",
+          "kind": "Grammar",
+          "summary": "3 structures for symptoms — and mi fa male (one) vs mi fanno male (two or more).",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "3 strutture fondamentali",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Struttura",
+                  "Esempio",
+                  "Altri esempi"
+                ],
+                [
+                  "AVERE MAL DI + nome",
+                  "Ho mal di testa.",
+                  "mal di gola, di pancia, di schiena, di denti"
+                ],
+                [
+                  "MI FA / MI FANNO MALE",
+                  "Mi fa male il braccio.",
+                  "singolare: fa male · plurale: fanno male"
+                ],
+                [
+                  "AVERE + sintomo",
+                  "Ho la febbre.",
+                  "il raffreddore, la tosse, la nausea"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Mi fa male vs mi fanno male",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Una parte (singolare)",
+                  "Due o più parti (plurale)"
+                ],
+                [
+                  "Mi fa male la testa.",
+                  "Mi fanno male le gambe."
+                ],
+                [
+                  "Mi fa male la schiena.",
+                  "Mi fanno male le braccia."
+                ],
+                [
+                  "Mi fa male un dente.",
+                  "Mi fanno male i denti."
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "I sintomi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Ho la febbre.",
+                  "english": "I have a temperature.",
+                  "punjabi": "Mainu bukhar hai.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/face-with-thermometer.png",
+                  "audioUrl": null,
+                  "example": "Ho la febbre a 38.",
+                  "exampleEnglish": "I have a temperature of 38."
+                },
+                {
+                  "italian": "Ho il raffreddore.",
+                  "english": "I have a cold.",
+                  "punjabi": "Mainu zukam hai.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/sneezing-face.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho la tosse.",
+                  "english": "I have a cough.",
+                  "punjabi": "Mainu khangh hai.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/face-with-medical-mask.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho la nausea.",
+                  "english": "I feel sick (nausea).",
+                  "punjabi": "Mera ji kacha ho riha hai.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/nauseated-face.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Mi gira la testa.",
+                  "english": "I feel dizzy.",
+                  "punjabi": "Mainu chakkar aa rahe han.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/face-with-spiral-eyes.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ho la febbre.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ho il raffreddore.",
+                  "imageUrl": "/content/img/sneezing-face.png"
+                },
+                {
+                  "text": "Mi gira la testa.",
+                  "imageUrl": "/content/img/face-with-spiral-eyes.png"
+                },
+                {
+                  "text": "Ho la nausea.",
+                  "imageUrl": "/content/img/nauseated-face.png"
+                },
+                {
+                  "text": "Ho la febbre.",
+                  "imageUrl": "/content/img/face-with-thermometer.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho la febbre. = I have a temperature."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Mi gira la testa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi gira la testa.",
+                  "imageUrl": "/content/img/face-with-spiral-eyes.png"
+                },
+                {
+                  "text": "Ho la tosse.",
+                  "imageUrl": "/content/img/face-with-medical-mask.png"
+                },
+                {
+                  "text": "Ho il raffreddore.",
+                  "imageUrl": "/content/img/sneezing-face.png"
+                },
+                {
+                  "text": "Ho la febbre.",
+                  "imageUrl": "/content/img/face-with-thermometer.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Mi gira la testa. = I feel dizzy."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ho il raffreddore.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ho la nausea.",
+                  "imageUrl": "/content/img/nauseated-face.png"
+                },
+                {
+                  "text": "Ho la tosse.",
+                  "imageUrl": "/content/img/face-with-medical-mask.png"
+                },
+                {
+                  "text": "Ho la febbre.",
+                  "imageUrl": "/content/img/face-with-thermometer.png"
+                },
+                {
+                  "text": "Ho il raffreddore.",
+                  "imageUrl": "/content/img/sneezing-face.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho il raffreddore. = I have a cold."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/nauseated-face.png",
+              "options": [
+                {
+                  "text": "Ho il raffreddore.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi gira la testa.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho la febbre.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho la nausea.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho la nausea. = I feel sick (nausea)."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/face-with-medical-mask.png",
+              "options": [
+                {
+                  "text": "Ho la febbre.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi gira la testa.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho la tosse.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho la nausea.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho la tosse. = I have a cough."
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Ho la nausea.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I feel dizzy.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I have a cold.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I have a cough.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I feel sick (nausea).",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Ho la tosse.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I feel sick (nausea).",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I have a cold.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I have a temperature.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I have a cough.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Ho la nausea.",
+                  "right": "I feel sick (nausea)."
+                },
+                {
+                  "left": "Ho la febbre.",
+                  "right": "I have a temperature."
+                },
+                {
+                  "left": "Ho il raffreddore.",
+                  "right": "I have a cold."
+                },
+                {
+                  "left": "Mi gira la testa.",
+                  "right": "I feel dizzy."
+                },
+                {
+                  "left": "Ho la tosse.",
+                  "right": "I have a cough."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho camminato molto oggi e ___ le gambe.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi fanno male",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho mal di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi fa male",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho male",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho lavorato tanto e adesso ___ il braccio destro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi fanno male",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho mal di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi fai male",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi fa male",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Non posso mangiare cose fredde perché ___ i denti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi fanno male",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi fa male",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho ___ testa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "malo di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mal di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "male la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mal la",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho ___ febbre a 38.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mal di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una mal",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho preso freddo e stamattina ho ___ raffreddore.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mal di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Ho mangiato troppo veloce e ora ho…\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la febbre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mal di pancia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mal di schiena",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mal di denti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 4 sentences for the doctor about a time you were ill (Ho la febbre…, mi fa male…, mi fanno male…)."
+        },
+        {
+          "order": 3,
+          "title": "Lesson 1 · Dialogue: at the family doctor's",
+          "titleIt": "Lezione 1 · Dialogo: dal medico di base",
+          "kind": "Dialogue",
+          "summary": "Amandeep explains his symptoms — and how to answer \"Come stai?\".",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Come stai? Risposte utili",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Sto male.",
+                  "english": "I feel ill.",
+                  "punjabi": "Tabiat theek nahi.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/face-with-thermometer.png",
+                  "audioUrl": null,
+                  "example": "Mi gira la testa e ho la tosse.",
+                  "exampleEnglish": "I feel dizzy and I have a cough."
+                },
+                {
+                  "italian": "Sono stanco / stanca.",
+                  "english": "I'm tired.",
+                  "punjabi": "Main thakkia / thakki hoi haan.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/tired-face.png",
+                  "audioUrl": null,
+                  "example": "Non ho dormito bene stanotte.",
+                  "exampleEnglish": "I didn't sleep well last night."
+                },
+                {
+                  "italian": "Sto meglio.",
+                  "english": "I feel better.",
+                  "punjabi": "Hun changa mahisus karda haan.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/smiling-face-with-smiling-eyes.png",
+                  "audioUrl": null,
+                  "example": "Oggi mi sento molto meglio!",
+                  "exampleEnglish": "Today I feel much better!"
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Amandeep visits his family doctor.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: dal medico di base",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Dottoressa",
+                  "italian": "Buongiorno Amandeep! Che cosa si sente oggi?",
+                  "english": "Good morning Amandeep! How are you feeling today?",
+                  "punjabi": "Sat Sri Akal Amandeep! Ajj tuhanu ki taklif hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Amandeep",
+                  "italian": "Buongiorno dottoressa! Da ieri ho mal di gola e ho la febbre.",
+                  "english": "Good morning, doctor! Since yesterday I've had a sore throat and a temperature.",
+                  "punjabi": "Sat Sri Akal daaktar ji! Kall ton mera gala kharab hai ate bukhar hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Dottoressa",
+                  "italian": "Le fa male anche la testa o ha il raffreddore?",
+                  "english": "Does your head hurt too, or do you have a cold?",
+                  "punjabi": "Ki sir vich vi dard hai jaan zukam hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Amandeep",
+                  "italian": "Sì, ho mal di testa e mi fanno male anche le spalle e la schiena.",
+                  "english": "Yes, I have a headache and my shoulders and back hurt too.",
+                  "punjabi": "Haan, sir dard hai ate modhiaan ate pitth vich vi dard hai.",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The doctor uses **Lei**: *Che cosa **si sente**? **Le** fa male la testa?* With a friend: *Come **ti** senti? **Ti** fa male la testa?*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Amandeep has a sore throat.)",
+              "italian": "Amandeep ha mal di gola.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Amandeep doesn't have a temperature.)",
+              "italian": "Amandeep non ha la febbre.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (His shoulders and back hurt.)",
+              "italian": "Gli fanno male le spalle e la schiena.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "A friend asks \"Come stai?\" and you are tired:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi fa male.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sono stanco.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho fame.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Sto meglio.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Since yesterday I've had a sore throat\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Da ieri ho mal di gola",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"My shoulders and back hurt\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Mi fanno male le spalle e la schiena",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Mime game with a partner: touch a part of your body, your partner guesses \"Hai mal di…!\"."
+        },
+        {
+          "order": 4,
+          "title": "Lesson 2 · At the doctor's and the pharmacy",
+          "titleIt": "Lezione 2 · Le parole della salute",
+          "kind": "Vocabulary",
+          "summary": "La visita, la ricetta, la medicina, lo sciroppo, le compresse, la pomata, l'allergia.",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 10 · Lezione 2 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap10-lez2-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Parole fondamentali dal medico e in farmacia",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "la visita (medica)",
+                  "english": "medical check-up / appointment",
+                  "punjabi": "Daaktari jaanch",
+                  "pronunciation": "lah VEE-zee-tah",
+                  "imageUrl": "/content/img/stethoscope.png",
+                  "audioUrl": null,
+                  "example": "Prenotare una visita dal medico.",
+                  "exampleEnglish": "To book an appointment with the doctor."
+                },
+                {
+                  "italian": "la ricetta (medica)",
+                  "english": "prescription",
+                  "punjabi": "Daaktar di parchi",
+                  "pronunciation": "lah ree-CHET-tah",
+                  "imageUrl": "/content/img/page-facing-up.png",
+                  "audioUrl": null,
+                  "example": "Farmaci con o senza ricetta.",
+                  "exampleEnglish": "Medicines with or without prescription."
+                },
+                {
+                  "italian": "la medicina / il farmaco",
+                  "english": "medicine",
+                  "punjabi": "Davai",
+                  "pronunciation": "lah meh-dee-CHEE-nah",
+                  "imageUrl": "/content/img/medical-symbol.png",
+                  "audioUrl": null,
+                  "example": "Prendere una medicina dopo i pasti.",
+                  "exampleEnglish": "To take a medicine after meals."
+                },
+                {
+                  "italian": "lo sciroppo",
+                  "english": "syrup",
+                  "punjabi": "Sharbat (khangh di davai)",
+                  "pronunciation": "loh shee-ROP-poh",
+                  "imageUrl": "/content/img/spoon.png",
+                  "audioUrl": null,
+                  "example": "Un cucchiaio di sciroppo per la tosse.",
+                  "exampleEnglish": "A spoonful of cough syrup."
+                },
+                {
+                  "italian": "le compresse / le pastiglie",
+                  "english": "tablets / pills",
+                  "punjabi": "Goliaan",
+                  "pronunciation": "leh kom-PRES-seh",
+                  "imageUrl": "/content/img/pill.png",
+                  "audioUrl": null,
+                  "example": "Due compresse al giorno con acqua.",
+                  "exampleEnglish": "Two tablets a day with water."
+                },
+                {
+                  "italian": "la pomata / la crema",
+                  "english": "ointment / cream",
+                  "punjabi": "Maraham",
+                  "pronunciation": "lah poh-MAH-tah",
+                  "imageUrl": "/content/img/lotion-bottle.png",
+                  "audioUrl": null,
+                  "example": "Mettere la pomata sulla schiena.",
+                  "exampleEnglish": "Put the ointment on your back."
+                },
+                {
+                  "italian": "l'allergia",
+                  "english": "allergy",
+                  "punjabi": "Alarji",
+                  "pronunciation": "lahl-lehr-JEE-ah",
+                  "imageUrl": "/content/img/sneezing-face.png",
+                  "audioUrl": null,
+                  "example": "Ha qualche allergia ai farmaci?",
+                  "exampleEnglish": "Are you allergic to any medicines?"
+                },
+                {
+                  "italian": "la tessera sanitaria",
+                  "english": "health card",
+                  "punjabi": "Sihat kaard",
+                  "pronunciation": "lah TES-seh-rah sah-nee-TAH-ryah",
+                  "imageUrl": "/content/img/identification-card.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Come e quando prendere i farmaci",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Farmaco",
+                  "Istruzioni"
+                ],
+                [
+                  "Compresse",
+                  "Una compressa ogni 8 ore. A stomaco pieno (dopo mangiato)."
+                ],
+                [
+                  "Sciroppo",
+                  "Un cucchiaio tre volte al giorno: mattina, pomeriggio e sera."
+                ],
+                [
+                  "Pomata",
+                  "Applicare due volte al giorno. Solo uso esterno (on the skin)."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "In Italy many medicines need **la ricetta** of your *medico di base* (family doctor). Always bring your **tessera sanitaria** to the doctor and the pharmacy.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "l'allergia",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le compresse / le pastiglie",
+                  "imageUrl": "/content/img/pill.png"
+                },
+                {
+                  "text": "la tessera sanitaria",
+                  "imageUrl": "/content/img/identification-card.png"
+                },
+                {
+                  "text": "la pomata / la crema",
+                  "imageUrl": "/content/img/lotion-bottle.png"
+                },
+                {
+                  "text": "l'allergia",
+                  "imageUrl": "/content/img/sneezing-face.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'allergia = allergy"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la medicina / il farmaco",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la ricetta (medica)",
+                  "imageUrl": "/content/img/page-facing-up.png"
+                },
+                {
+                  "text": "le compresse / le pastiglie",
+                  "imageUrl": "/content/img/pill.png"
+                },
+                {
+                  "text": "l'allergia",
+                  "imageUrl": "/content/img/sneezing-face.png"
+                },
+                {
+                  "text": "la medicina / il farmaco",
+                  "imageUrl": "/content/img/medical-symbol.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la medicina / il farmaco = medicine"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la pomata / la crema",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la visita (medica)",
+                  "imageUrl": "/content/img/stethoscope.png"
+                },
+                {
+                  "text": "la pomata / la crema",
+                  "imageUrl": "/content/img/lotion-bottle.png"
+                },
+                {
+                  "text": "l'allergia",
+                  "imageUrl": "/content/img/sneezing-face.png"
+                },
+                {
+                  "text": "la tessera sanitaria",
+                  "imageUrl": "/content/img/identification-card.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la pomata / la crema = ointment / cream"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/pill.png",
+              "options": [
+                {
+                  "text": "la ricetta (medica)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la pomata / la crema",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le compresse / le pastiglie",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la medicina / il farmaco",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "le compresse / le pastiglie = tablets / pills"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/page-facing-up.png",
+              "options": [
+                {
+                  "text": "lo sciroppo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la ricetta (medica)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la medicina / il farmaco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le compresse / le pastiglie",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la ricetta (medica) = prescription"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "le compresse / le pastiglie",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "allergy",
+                  "imageUrl": null
+                },
+                {
+                  "text": "medical check-up / appointment",
+                  "imageUrl": null
+                },
+                {
+                  "text": "syrup",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tablets / pills",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la ricetta (medica)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prescription",
+                  "imageUrl": null
+                },
+                {
+                  "text": "medical check-up / appointment",
+                  "imageUrl": null
+                },
+                {
+                  "text": "syrup",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tablets / pills",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "la medicina / il farmaco",
+                  "right": "medicine"
+                },
+                {
+                  "left": "l'allergia",
+                  "right": "allergy"
+                },
+                {
+                  "left": "la pomata / la crema",
+                  "right": "ointment / cream"
+                },
+                {
+                  "left": "la visita (medica)",
+                  "right": "medical check-up / appointment"
+                },
+                {
+                  "left": "la tessera sanitaria",
+                  "right": "health card"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "The paper the doctor writes for your medicine is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la visita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la tessera",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la ricetta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la pomata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "For a cough you take…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la pomata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la tessera",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo sciroppo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la visita",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You put it on your skin:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le compresse",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la pomata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la ricetta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo sciroppo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"A stomaco pieno\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "before eating",
+                  "imageUrl": null
+                },
+                {
+                  "text": "at night",
+                  "imageUrl": null
+                },
+                {
+                  "text": "with an empty stomach",
+                  "imageUrl": null
+                },
+                {
+                  "text": "after eating",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "le compresse",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "tablets",
+                  "imageUrl": null
+                },
+                {
+                  "text": "syrup",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prescription",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ointment",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Look at a medicine box at home and find: name, how many tablets, how many times a day."
+        },
+        {
+          "order": 5,
+          "title": "Lesson 2 · Dialogues: the doctor's visit and the pharmacy counter",
+          "titleIt": "Lezione 2 · Dialoghi: la visita e il bancone della farmacia",
+          "kind": "Dialogue",
+          "summary": "Explain your symptoms, answer about allergies, ask for the prescription and buy the medicine.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "A patient at the family doctor's.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo 1: la visita dal medico di base",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Medico",
+                  "italian": "Buongiorno! Che disturbi ha? Dove le fa male?",
+                  "english": "Good morning! What symptoms do you have? Where does it hurt?",
+                  "punjabi": "Sat Sri Akal! Ki taklif hai? Kitthe dard hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Paziente",
+                  "italian": "Ho mal di gola, la febbre e una forte tosse da tre giorni.",
+                  "english": "I've had a sore throat, a temperature and a bad cough for three days.",
+                  "punjabi": "Tinn dinaan ton gala kharab hai, bukhar hai ate bahut khangh hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Medico",
+                  "italian": "Ha qualche allergia alle medicine?",
+                  "english": "Are you allergic to any medicines?",
+                  "punjabi": "Ki tuhanu kise davai ton alarji hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Paziente",
+                  "italian": "No, nessuna allergia. Mi fa la ricetta medica?",
+                  "english": "No, no allergies. Can you write me a prescription?",
+                  "punjabi": "Nahi, koi alarji nahi. Ki tusi parchi likh dioge?",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "The patient takes the prescription to the pharmacy.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo 2: al bancone della farmacia",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Cliente",
+                  "italian": "Buongiorno! Ho questa ricetta del medico e vorrei anche uno sciroppo.",
+                  "english": "Good morning! I have this prescription from the doctor and I'd also like a syrup.",
+                  "punjabi": "Sat Sri Akal! Mere kol daaktar di eh parchi hai ate mainu sharbat vi chaahida hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Farmacista",
+                  "italian": "Ecco le compresse della ricetta e lo sciroppo per la tosse.",
+                  "english": "Here are the tablets on the prescription and the cough syrup.",
+                  "punjabi": "Eh lao parchi vaaliaan goliaan ate khangh da sharbat.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Grazie! Ha anche una pomata per il mal di schiena senza ricetta?",
+                  "english": "Thank you! Do you also have an ointment for back pain without a prescription?",
+                  "punjabi": "Dhanvad! Ki pitth dard lai bina parchi maraham vi hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Farmacista",
+                  "italian": "Sì, certo! Sono 18 euro in tutto. Mi dà la tessera sanitaria?",
+                  "english": "Yes, of course! That's 18 euros altogether. May I have your health card?",
+                  "punjabi": "Haan, zarur! Kull 18 yuro. Aapna sihat kaard de sakde ho?",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Cosa dire dal medico e al farmacista",
+              "body": "**Dal medico**\n- Vorrei prenotare una visita.\n- Sono allergico/a alla penicillina.\n- Può farmi la ricetta?\n\n**In farmacia**\n- Avete qualcosa per il mal di testa?\n- Serve la ricetta medica?\n- Quante compresse devo prendere?",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The patient has had a cough for three days.)",
+              "italian": "Il paziente ha la tosse da tre giorni.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The patient is allergic to medicines.)",
+              "italian": "Il paziente è allergico alle medicine.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The ointment is for a headache.)",
+              "italian": "La pomata è per il mal di testa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Altogether he spends 18 euros.)",
+              "italian": "In tutto spende 18 euro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "At the pharmacy you ask if you need a prescription:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi fa male la ricetta?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Prenoto la ricetta.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho la ricetta di gola.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Serve la ricetta medica?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I would like to book an appointment\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vorrei prenotare una visita",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"How many tablets do I have to take\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Quante compresse devo prendere",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play: scenario 1 (doctor and patient) and scenario 2 (pharmacist and customer)."
+        },
+        {
+          "order": 6,
+          "title": "Lesson 2 · Understanding the pharmacist",
+          "titleIt": "Lezione 2 · Capire le istruzioni del farmacista",
+          "kind": "Grammar",
+          "summary": "Ogni 8 ore, tre volte al giorno, dopo i pasti, a stomaco vuoto…",
+          "estimatedMinutes": 8,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Quando e quanto?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "ogni 8 ore",
+                  "english": "every 8 hours",
+                  "punjabi": "Har atth ghante",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/alarm-clock.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "tre volte al giorno",
+                  "english": "three times a day",
+                  "punjabi": "Din vich tinn vaar",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/keycap-3.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "dopo i pasti",
+                  "english": "after meals",
+                  "punjabi": "Khaane ton baad",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "a stomaco vuoto",
+                  "english": "on an empty stomach",
+                  "punjabi": "Khaali pet",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/nauseated-face.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "un cucchiaio",
+                  "english": "a spoonful",
+                  "punjabi": "Ikk chammach",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/spoon.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "solo uso esterno",
+                  "english": "for external use only",
+                  "punjabi": "Sirf baahari varton",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/lotion-bottle.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "un cucchiaio",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a stomaco vuoto",
+                  "imageUrl": "/content/img/nauseated-face.png"
+                },
+                {
+                  "text": "tre volte al giorno",
+                  "imageUrl": "/content/img/keycap-3.png"
+                },
+                {
+                  "text": "dopo i pasti",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                },
+                {
+                  "text": "un cucchiaio",
+                  "imageUrl": "/content/img/spoon.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "un cucchiaio = a spoonful"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "ogni 8 ore",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "solo uso esterno",
+                  "imageUrl": "/content/img/lotion-bottle.png"
+                },
+                {
+                  "text": "ogni 8 ore",
+                  "imageUrl": "/content/img/alarm-clock.png"
+                },
+                {
+                  "text": "a stomaco vuoto",
+                  "imageUrl": "/content/img/nauseated-face.png"
+                },
+                {
+                  "text": "tre volte al giorno",
+                  "imageUrl": "/content/img/keycap-3.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "ogni 8 ore = every 8 hours"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "tre volte al giorno",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "solo uso esterno",
+                  "imageUrl": "/content/img/lotion-bottle.png"
+                },
+                {
+                  "text": "tre volte al giorno",
+                  "imageUrl": "/content/img/keycap-3.png"
+                },
+                {
+                  "text": "dopo i pasti",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                },
+                {
+                  "text": "un cucchiaio",
+                  "imageUrl": "/content/img/spoon.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "tre volte al giorno = three times a day"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/fork-and-knife-with-plate.png",
+              "options": [
+                {
+                  "text": "ogni 8 ore",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tre volte al giorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a stomaco vuoto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dopo i pasti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "dopo i pasti = after meals"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/nauseated-face.png",
+              "options": [
+                {
+                  "text": "dopo i pasti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a stomaco vuoto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un cucchiaio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "solo uso esterno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "a stomaco vuoto = on an empty stomach"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "dopo i pasti",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "on an empty stomach",
+                  "imageUrl": null
+                },
+                {
+                  "text": "after meals",
+                  "imageUrl": null
+                },
+                {
+                  "text": "every 8 hours",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a spoonful",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "a stomaco vuoto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "every 8 hours",
+                  "imageUrl": null
+                },
+                {
+                  "text": "for external use only",
+                  "imageUrl": null
+                },
+                {
+                  "text": "on an empty stomach",
+                  "imageUrl": null
+                },
+                {
+                  "text": "after meals",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "dopo i pasti",
+                  "right": "after meals"
+                },
+                {
+                  "left": "un cucchiaio",
+                  "right": "a spoonful"
+                },
+                {
+                  "left": "tre volte al giorno",
+                  "right": "three times a day"
+                },
+                {
+                  "left": "solo uso esterno",
+                  "right": "for external use only"
+                },
+                {
+                  "left": "ogni 8 ore",
+                  "right": "every 8 hours"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Una compressa ogni 8 ore\" = how many a day?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "1",
+                  "imageUrl": null
+                },
+                {
+                  "text": "8",
+                  "imageUrl": null
+                },
+                {
+                  "text": "3",
+                  "imageUrl": null
+                },
+                {
+                  "text": "2",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Tre volte al giorno\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "every three hours",
+                  "imageUrl": null
+                },
+                {
+                  "text": "three times a day",
+                  "imageUrl": null
+                },
+                {
+                  "text": "three tablets",
+                  "imageUrl": null
+                },
+                {
+                  "text": "for three days",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"A stomaco vuoto\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "before eating / empty stomach",
+                  "imageUrl": null
+                },
+                {
+                  "text": "at night",
+                  "imageUrl": null
+                },
+                {
+                  "text": "with milk",
+                  "imageUrl": null
+                },
+                {
+                  "text": "after eating",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prenda lo sciroppo ___ i pasti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ogni",
+                  "imageUrl": null
+                },
+                {
+                  "text": "uso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dopo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "volte",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Un cucchiaio tre ___ al giorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ogni",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pasti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ore",
+                  "imageUrl": null
+                },
+                {
+                  "text": "volte",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the instructions of a medicine you know (Prendo … compresse … volte al giorno…)."
+        },
+        {
+          "order": 7,
+          "title": "Lesson 3 · Direct pronouns: lo, la, li, le",
+          "titleIt": "Lezione 3 · I pronomi diretti: lo, la, li, le",
+          "kind": "Grammar",
+          "summary": "Prendi la medicina? Sì, la prendo — no repetition.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 10 · Lezione 3 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap10-lez3-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Evitare le ripetizioni",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Senza pronome (ripetitivo)",
+                  "Con il pronome (naturale)"
+                ],
+                [
+                  "— Prendi la medicina? — Sì, prendo la medicina.",
+                  "— Prendi la medicina? — Sì, la prendo."
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "I quattro pronomi diretti",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Genere e numero",
+                  "Pronome",
+                  "Esempio",
+                  "English · Punjabi"
+                ],
+                [
+                  "maschile singolare",
+                  "LO",
+                  "Prendi lo sciroppo? → Sì, lo prendo.",
+                  "it · is nu"
+                ],
+                [
+                  "femminile singolare",
+                  "LA",
+                  "Metti la pomata? → Sì, la metto.",
+                  "it · is nu"
+                ],
+                [
+                  "maschile plurale",
+                  "LI",
+                  "Compri i biglietti? → Sì, li compro.",
+                  "them · inhaan nu"
+                ],
+                [
+                  "femminile plurale",
+                  "LE",
+                  "Prendi le compresse? → Sì, le prendo.",
+                  "them · inhaan nu"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Dove si mette il pronome?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Frase",
+                  "Regola",
+                  "Esempio"
+                ],
+                [
+                  "affermativa",
+                  "pronoun + verb",
+                  "Sì, li compro."
+                ],
+                [
+                  "negativa",
+                  "NON + pronoun + verb",
+                  "No, non li compro."
+                ],
+                [
+                  "con l'infinito",
+                  "joined to the end",
+                  "Devo prenderla."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Before **ho, hai, ha, hanno** (avere) *lo* and *la* become **l'**: *Hai la ricetta? — Sì, **l'ho** (ce l'ho) nella borsa.*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prendi lo sciroppo la sera? — Sì, ___ prendo prima di dormire.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Porti la ricetta medica? — Sì, ___ porto nella borsa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Compri i farmaci oggi? — Sì, ___ compro subito.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prendi le compresse con acqua? — Sì, ___ prendo con un bicchiere d'acqua.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Metti la pomata sul braccio? — No, non ___ metto adesso.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Bevi il tè? — Sì, ___ bevo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "No, ___ compro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo non",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Devo prenderla\" — where is the pronoun?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "there is no pronoun",
+                  "imageUrl": null
+                },
+                {
+                  "text": "joined to the end of the infinitive",
+                  "imageUrl": null
+                },
+                {
+                  "text": "before devo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "after devo, separate",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 5 questions and answers with lo, la, li, le about your shopping or medicines."
+        },
+        {
+          "order": 8,
+          "title": "Lesson 3 · Dialogue: before leaving on a trip",
+          "titleIt": "Lezione 3 · Dialogo: prima di partire per il viaggio",
+          "kind": "Dialogue",
+          "summary": "Simran and Gurpreet pack: li compro online, la preparo stasera, lo metto nello zaino.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Usare lo, la, li, le con le medicine",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Porti la ricetta? — Sì, la porto nella borsa.",
+                  "english": "Are you bringing the prescription? — Yes, I'm bringing it in my bag.",
+                  "punjabi": "Ki tusi parchi lai ke ja rahe ho? — Haan, bag vich lai ke ja riha haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Prendi lo sciroppo? — Sì, lo prendo dopo cena.",
+                  "english": "Do you take the syrup? — Yes, I take it after dinner.",
+                  "punjabi": "Ki tusi sharbat lainde ho? — Haan, raat de khaane ton baad lainda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Compri i farmaci oggi? — Sì, li compro in farmacia.",
+                  "english": "Are you buying the medicines today? — Yes, I'm buying them at the pharmacy.",
+                  "punjabi": "Ajj davaiaan kharidoge? — Haan, faramesi ton kharidanga.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Prendi le pastiglie? — No, non le prendo a stomaco vuoto.",
+                  "english": "Do you take the pills? — No, I don't take them on an empty stomach.",
+                  "punjabi": "Goliaan lainde ho? — Nahi, khaali pet nahi lainda.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Simran and Gurpreet are getting ready for a trip.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: prima di partire per il viaggio",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Simran",
+                  "italian": "Ciao Gurpreet! Compri tu i biglietti del treno?",
+                  "english": "Hi Gurpreet! Are you buying the train tickets?",
+                  "punjabi": "Sat Sri Akal Gurpreet! Tren diaan tikataan tusi kharidoge?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Gurpreet",
+                  "italian": "Sì, li compro subito online! E tu prepari la valigia?",
+                  "english": "Yes, I'm buying them online right now! And are you packing the suitcase?",
+                  "punjabi": "Haan, main hune onlain kharid lainda haan! Ate tusi sutkes tiar karoge?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Simran",
+                  "italian": "Sì, la preparo stasera. Porti anche il passaporto?",
+                  "english": "Yes, I'll pack it tonight. Are you bringing the passport too?",
+                  "punjabi": "Haan, ajj raat tiar karangi. Paasport vi lai ke chaloge?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Gurpreet",
+                  "italian": "Certo, lo metto nello zaino insieme alle medicine: le porto sempre!",
+                  "english": "Of course, I'll put it in my backpack with the medicines: I always bring them!",
+                  "punjabi": "Zarur, main is nu davaiaan naal bag vich rakh lainda haan: main inhaan nu hamesha lai ke jaanda haan!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Botta e risposta veloce",
+              "body": "- **Studente A chiede:** «Bevi il tè? Compri il pane? Prendi lo sciroppo? Guardi i film?»\n- **Studente B risponde subito con il pronome:** «Sì, lo bevo! / No, non lo compro! / Sì, li guardo!»",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet buys the tickets online.)",
+              "italian": "Gurpreet compra i biglietti online.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Simran packs the suitcase tomorrow.)",
+              "italian": "Simran prepara la valigia domani.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet always brings the medicines.)",
+              "italian": "Gurpreet porta sempre le medicine.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il passaporto? ___ metto nello zaino.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "La",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La valigia? ___ preparo stasera.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "La",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I'm buying them online right now\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Li compro subito online",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Play \"botta e risposta\" with a partner: 10 quick questions, answers with lo, la, li, le."
+        },
+        {
+          "order": 9,
+          "title": "Lesson 3 · Practice: lo, la, li, le",
+          "titleIt": "Lezione 3 · Esercizi sui pronomi diretti",
+          "kind": "Review",
+          "summary": "Quick practice with food, shopping and everyday things.",
+          "estimatedMinutes": 8,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Ricorda",
+              "body": "- **lo** = il / lo (masc. sing.) · **la** = la (fem. sing.)\n- **li** = i / gli (masc. pl.) · **le** = le (fem. pl.)\n- Always **before** the verb: *lo prendo, non lo prendo* · joined to an infinitive: *devo prenderlo*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Compri il pane? — Sì, ___ compro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Mangi la pizza? — Sì, ___ mangio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Guardi i film italiani? — Sì, ___ guardo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Chiami le tue sorelle? — Sì, ___ chiamo ogni domenica.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Leggi il giornale? — No, non ___ leggo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Devo comprare le uova. Devo ___ oggi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "comprarle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "comprarla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "comprarli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le comprare",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il caffè? ___ bevo senza zucchero.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "La",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 5 sentences about what you buy every week with lo, la, li, le."
+        },
+        {
+          "order": 10,
+          "title": "Lesson 4 · The imperative: tu and Lei",
+          "titleIt": "Lezione 4 · L'imperativo informale (tu) e formale (Lei)",
+          "kind": "Grammar",
+          "summary": "Prendi! / Prenda! · Riposa! / Riposi! · Non uscire!",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 10 · Lezione 4 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap10-lez4-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Chi parla e a chi?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Con un amico / familiare (TU)",
+                  "Dal medico / in ufficio (LEI)"
+                ],
+                [
+                  "Prendi questa compressa!",
+                  "Prenda due compresse al giorno."
+                ],
+                [
+                  "Bevi molta acqua calda!",
+                  "Aspetti un momento in sala."
+                ],
+                [
+                  "Riposa a casa oggi!",
+                  "Firmi qui sul modulo, per favore."
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Come si forma l'imperativo",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Infinito",
+                  "TU",
+                  "LEI",
+                  "English · Punjabi"
+                ],
+                [
+                  "riposare (-ARE)",
+                  "riposa!",
+                  "riposi!",
+                  "Rest! · Aaram karo!"
+                ],
+                [
+                  "aspettare (-ARE)",
+                  "aspetta!",
+                  "aspetti!",
+                  "Wait! · Intazar karo!"
+                ],
+                [
+                  "firmare (-ARE)",
+                  "firma!",
+                  "firmi!",
+                  "Sign! · Dastakhat karo!"
+                ],
+                [
+                  "prendere (-ERE)",
+                  "prendi!",
+                  "prenda!",
+                  "Take! · Lao!"
+                ],
+                [
+                  "bere (irregolare)",
+                  "bevi!",
+                  "beva!",
+                  "Drink! · Pio!"
+                ],
+                [
+                  "aprire / sentire (-IRE)",
+                  "apri! / senti!",
+                  "apra! / senta!",
+                  "Open / Listen! · Kholo / Suno!"
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The endings **swap**: -ARE verbs → tu **-a**, Lei **-i** · -ERE / -IRE verbs → tu **-i**, Lei **-a**.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Imperativo negativo (tu): NON + infinito",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Situazione",
+                  "Consiglio"
+                ],
+                [
+                  "con la febbre",
+                  "Non uscire! (never ~~non esci~~)"
+                ],
+                [
+                  "con mal di pancia",
+                  "Non mangiare troppo!"
+                ],
+                [
+                  "con mal di schiena",
+                  "Non alzare pesi!"
+                ]
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(tu) Hai la febbre! ___ a casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Riposa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Riposare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Riposi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Riposo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(tu) ___ oggi!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Non uscire",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Non esca",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Non esci",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Non uscite",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(Lei) Signor Singh, ___ un attimo, per favore.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "aspettare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aspetta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aspetti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aspetto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(Lei) ___ qui, per favore.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Firmi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Firmo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Firmare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Firma",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(Lei) ___ questa medicina due volte al giorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Prenda",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Prende",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Prendere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Prendi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(tu) ___ molta acqua calda con miele!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Bere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Bevo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Bevi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Beva",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(tu) Hai mal di pancia: ___ troppo!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "non mangia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non mangiare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non mangi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mangia non",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "The doctor (Lei) says: \"___ la bocca, per favore.\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Apri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Aprire",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Apre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Apra",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 pieces of advice for a friend with the flu (2 positive, 1 negative)."
+        },
+        {
+          "order": 11,
+          "title": "Lesson 4 · Formal instructions: at the doctor's and at the office",
+          "titleIt": "Lezione 4 · Istruzioni formali dal medico e allo sportello",
+          "kind": "Vocabulary",
+          "summary": "Prenda, beva, riposi, metta, torni · Entri, si accomodi, compili il modulo, vada allo sportello.",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Le prescrizioni del medico (Lei)",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Prenda questo sciroppo tre volte al giorno dopo i pasti.",
+                  "english": "Take this syrup three times a day after meals.",
+                  "punjabi": "Eh sharbat din vich tinn vaar khaane ton baad lao.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Beva molta acqua e riposi almeno tre giorni a casa.",
+                  "english": "Drink a lot of water and rest at home for at least three days.",
+                  "punjabi": "Bahut paani pio ate ghatto ghatt tinn din ghar aaram karo.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Metta questa pomata sulla schiena mattina e sera.",
+                  "english": "Put this ointment on your back morning and evening.",
+                  "punjabi": "Eh maraham savere ate shaam pitth te lao.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Se ha ancora febbre lunedì, torni in ambulatorio!",
+                  "english": "If you still have a temperature on Monday, come back to the surgery!",
+                  "punjabi": "Je somvar nu vi bukhar hove, taan klinik vaapas ao!",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Allo sportello: Comune, posta, banca, questura",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Entri pure e si accomodi!",
+                  "english": "Please come in and have a seat!",
+                  "punjabi": "Andar ao ate baitho ji!",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/chair.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Aspetti un attimo.",
+                  "english": "Wait a moment.",
+                  "punjabi": "Ikk pal intazar karo.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/hourglass-done.png",
+                  "audioUrl": null,
+                  "example": "Aspetti un attimo, controllo i documenti.",
+                  "exampleEnglish": "Wait a moment, I'm checking the documents."
+                },
+                {
+                  "italian": "Compili questo modulo.",
+                  "english": "Fill in this form.",
+                  "punjabi": "Eh faaram bharo.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/clipboard.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Firmi qui in basso.",
+                  "english": "Sign here at the bottom.",
+                  "punjabi": "Ithe hethaan dastakhat karo.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/writing-hand.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Vada allo sportello numero 4.",
+                  "english": "Go to window number 4.",
+                  "punjabi": "Khidki nambar 4 te jao.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/keycap-4.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "You hear these forms at the **Comune**, the **posta**, the **banca** and the **questura** (for the *permesso di soggiorno*). They are polite orders: just follow them!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Vada allo sportello numero 4.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vada allo sportello numero 4.",
+                  "imageUrl": "/content/img/keycap-4.png"
+                },
+                {
+                  "text": "Firmi qui in basso.",
+                  "imageUrl": "/content/img/writing-hand.png"
+                },
+                {
+                  "text": "Entri pure e si accomodi!",
+                  "imageUrl": "/content/img/chair.png"
+                },
+                {
+                  "text": "Compili questo modulo.",
+                  "imageUrl": "/content/img/clipboard.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Vada allo sportello numero 4. = Go to window number 4."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Entri pure e si accomodi!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Compili questo modulo.",
+                  "imageUrl": "/content/img/clipboard.png"
+                },
+                {
+                  "text": "Vada allo sportello numero 4.",
+                  "imageUrl": "/content/img/keycap-4.png"
+                },
+                {
+                  "text": "Entri pure e si accomodi!",
+                  "imageUrl": "/content/img/chair.png"
+                },
+                {
+                  "text": "Aspetti un attimo.",
+                  "imageUrl": "/content/img/hourglass-done.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Entri pure e si accomodi! = Please come in and have a seat!"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Firmi qui in basso.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Firmi qui in basso.",
+                  "imageUrl": "/content/img/writing-hand.png"
+                },
+                {
+                  "text": "Aspetti un attimo.",
+                  "imageUrl": "/content/img/hourglass-done.png"
+                },
+                {
+                  "text": "Compili questo modulo.",
+                  "imageUrl": "/content/img/clipboard.png"
+                },
+                {
+                  "text": "Vada allo sportello numero 4.",
+                  "imageUrl": "/content/img/keycap-4.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Firmi qui in basso. = Sign here at the bottom."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/hourglass-done.png",
+              "options": [
+                {
+                  "text": "Vada allo sportello numero 4.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Compili questo modulo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Aspetti un attimo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Entri pure e si accomodi!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Aspetti un attimo. = Wait a moment."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/clipboard.png",
+              "options": [
+                {
+                  "text": "Vada allo sportello numero 4.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Compili questo modulo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Firmi qui in basso.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Entri pure e si accomodi!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Compili questo modulo. = Fill in this form."
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Aspetti un attimo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Please come in and have a seat!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Go to window number 4.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Wait a moment.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Fill in this form.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Compili questo modulo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Please come in and have a seat!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Go to window number 4.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Fill in this form.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Wait a moment.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Firmi qui in basso.",
+                  "right": "Sign here at the bottom."
+                },
+                {
+                  "left": "Entri pure e si accomodi!",
+                  "right": "Please come in and have a seat!"
+                },
+                {
+                  "left": "Aspetti un attimo.",
+                  "right": "Wait a moment."
+                },
+                {
+                  "left": "Vada allo sportello numero 4.",
+                  "right": "Go to window number 4."
+                },
+                {
+                  "left": "Compili questo modulo.",
+                  "right": "Fill in this form."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Compili questo modulo\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Sign this form",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Fill in this form",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Read this form",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Buy this form",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Si accomodi\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Wait outside",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Go away",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Stand up",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Have a seat",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Vada allo sportello numero 4\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Take ticket number 4",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Come back on the 4th",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Wait for 4 minutes",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Go to window number 4",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Beva molta acqua e ___ almeno tre giorni.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "riposo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "riposi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "riposa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "riposare",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Se ha ancora febbre lunedì, ___ in ambulatorio!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "torna",
+                  "imageUrl": null
+                },
+                {
+                  "text": "torno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "torni",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tornare",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the instructions you heard the last time you were at an office in Italy."
+        },
+        {
+          "order": 12,
+          "title": "Lesson 4 · Practice: advice for a friend, instructions for a patient",
+          "titleIt": "Lezione 4 · Consigli e istruzioni in coppia",
+          "kind": "Dialogue",
+          "summary": "Situation A: tu (a sick friend) · Situation B: Lei (doctor or office).",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Dai 3 consigli o istruzioni al tuo compagno",
+              "body": "- **Situazione A · tu (amico malato):** il compagno ha mal di gola e febbre — usa 2 imperativi positivi e 1 negativo (*Bevi…, riposa…, non uscire!*).\n- **Situazione B · Lei (medico o ufficio):** usa *prenda, beva, aspetti, firmi qui, compili il modulo*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Ravi phones his friend Karan, who is ill.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Esempio: un amico con l'influenza",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Ravi",
+                  "italian": "Ciao Karan, come stai?",
+                  "english": "Hi Karan, how are you?",
+                  "punjabi": "Sat Sri Akal Karan, ki haal hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Karan",
+                  "italian": "Male: ho la febbre e mi fa male la gola.",
+                  "english": "Bad: I have a temperature and a sore throat.",
+                  "punjabi": "Theek nahi: bukhar hai ate gala kharab hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Ravi",
+                  "italian": "Allora riposa, bevi molta acqua calda e non uscire oggi!",
+                  "english": "Then rest, drink a lot of hot water and don't go out today!",
+                  "punjabi": "Phir aaram kar, bahut garam paani pi ate ajj baahar na jai!",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Karan",
+                  "italian": "Grazie, domani vado dal medico.",
+                  "english": "Thanks, tomorrow I'll go to the doctor.",
+                  "punjabi": "Dhanvad, kall main daaktar kol jaavanga.",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Karan has a temperature.)",
+              "italian": "Karan ha la febbre.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Ravi tells Karan to go out.)",
+              "italian": "Ravi dice a Karan di uscire.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Which sentence is informal (tu)?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Beva molta acqua!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Bevi molta acqua!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Firmi qui!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Prenda la compressa!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Which sentence is formal (Lei)?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Aspetti un attimo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Non uscire!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Aspetta un attimo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Riposa!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Rest and don't go out today\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Riposa e non uscire oggi",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Take these tablets after dinner\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Prenda queste compresse dopo cena",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Do situations A and B with a partner, then change roles."
+        },
+        {
+          "order": 13,
+          "title": "Chapter 10 test",
+          "titleIt": "Test Capitolo 10",
+          "kind": "Exam",
+          "summary": "Listening, body and health words, mi fa / fanno male, lo / la / li / le and the imperative. Pass mark: 60%.",
+          "estimatedMinutes": 25,
+          "xpReward": 60,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Test Capitolo 10",
+              "body": "This test checks everything in Chapter 10 (Lessons 1–4).\n\n- **1. Listening** — sentences and a dialogue at the doctor's\n- **2. Vocabulary** — body, symptoms, doctor and pharmacy\n- **3. Grammar** — mi fa / mi fanno male, lo / la / li / le, the imperative (tu and Lei)\n- **4. Writing** — symptoms and health advice\n\nYou need **60%** to pass. You can repeat the test as many times as you like.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The **written part** (symptoms and advice) and the **oral interview** (where it hurts, at the pharmacy with lo / la / li / le, advice with the imperative — 2 minutes) are done **with your teacher** in the live class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Pdf",
+              "title": "Course phrasebook (PDF)",
+              "body": "Every word and phrase of the course, chapter by chapter, with English and Punjabi.",
+              "mediaUrl": "/content/pdf/corso-italiano-a0-phrasebook.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Oggi non vado al lavoro perché ho mal di testa e ho la febbre.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "MI FANNO MALE I DENTI DA IERI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "HO MAL DI TESTA E HO LA FEBBRE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Buongiorno, ho una ricetta medica del dottore per queste medicine.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "HO UNA RICETTA MEDICA DEL DOTTORE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VORREI UNO SCIROPPO PER LA TOSSE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Prendi la medicina? Sì, la prendo due volte al giorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "LA PRENDO DUE VOLTE AL GIORNO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "LI COMPRO SUBITO IN FARMACIA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Allo sportello l'impiegato dice: aspetti un attimo e firmi qui.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "PRENDA QUESTE COMPRESSE DOPO CENA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ASPETTI UN ATTIMO E FIRMI QUI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Hai il raffreddore: non uscire oggi, riposa a casa!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "NON USCIRE OGGI, RIPOSA A CASA!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "BEVI MOLTA ACQUA CALDA CON MIELE!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen: what hurts? (1)",
+              "italian": "Buongiorno dottore, non sto bene: mi fa male la gola.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "PANCIA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MANO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "GAMBA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "GOLA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"ho un forte…\" (2)",
+              "italian": "Ho un forte raffreddore.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "SCIROPPO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "RAFFREDDORE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "FEBBRE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MAL DI DENTI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: what does the doctor write? (3)",
+              "italian": "Va bene, Le scrivo una ricetta per una medicina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "RICETTA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "POMATA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VISITA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "LETTERA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"___ questa medicina ogni sera\" (4)",
+              "italian": "Prenda questa medicina ogni sera per cinque giorni.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "PRENDA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PRENDO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PRENDI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PRENDE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"e ___ molto durante il giorno\" (5)",
+              "italian": "E beva molto durante il giorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "BERE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "BEVA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "BEVO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "BEVI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "2A · Match each word with its meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Schiena",
+                  "right": "Back · Pitth"
+                },
+                {
+                  "left": "Ricetta medica",
+                  "right": "Prescription · Daaktar di parchi"
+                },
+                {
+                  "left": "Sciroppo",
+                  "right": "Syrup · Sharbat"
+                },
+                {
+                  "left": "Pomata",
+                  "right": "Ointment · Maraham"
+                },
+                {
+                  "left": "Allergia",
+                  "right": "Allergy · Alarji"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Ho mangiato troppo, ho mal di ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "farmacia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pancia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "visita",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Ho 38.5 di temperatura: ho la ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "pancia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "visita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "compresse",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Compro le medicine in ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "farmacia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "visita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pancia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbre",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Prendo due ? dopo pranzo.",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "farmacie",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "visite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "compresse",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Oggi pomeriggio ho una ? medica.",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "compresse",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pancia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "febbre",
+                  "imageUrl": null
+                },
+                {
+                  "text": "visita",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Ho camminato molto oggi e ___ le gambe.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi fa male",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi fanno male",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Ho lavorato tanto e adesso ___ il braccio destro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi fa male",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi fanno male",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Non posso mangiare cose fredde perché ___ i denti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi fa male",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi fanno male",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Prendi lo sciroppo la sera? — Sì, ___ prendo prima di dormire.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Porti la ricetta medica? — Sì, ___ porto nella borsa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Compri i farmaci oggi? — Sì, ___ compro subito.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Prendi le compresse con acqua? — Sì, ___ prendo con un bicchiere d'acqua.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Metti la pomata sul braccio? — No, non ___ metto adesso.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le",
+                  "imageUrl": null
+                },
+                {
+                  "text": "li",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · (Lei) «Signor Singh, ___ un attimo…»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "aspetta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aspetti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · (Lei) «… e ___ qui, per favore.»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "firmi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "firma",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · (tu) «Hai la febbre! ___ a casa…»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Riposi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Riposa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · (tu) «… e ___ oggi!»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "non esci",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non uscire",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · (Lei) «___ questa medicina due volte al giorno dopo i pasti.»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Prendi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Prenda",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Today I don't feel well, I have a headache\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Oggi non sto bene ho mal di testa",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Drink a lot of water and don't catch cold\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Bevi molta acqua e non prendere freddo",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Take these tablets and rest at home\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Prenda queste compresse e riposi a casa",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Written part for your teacher: complete the 5 sentences about a health problem and give advice with the imperative. Then prepare the 2-minute oral interview."
+        }
+      ]
+    }
+  ]
+}

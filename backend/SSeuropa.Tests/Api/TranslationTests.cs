@@ -48,10 +48,10 @@ public class TranslationTests : IClassFixture<WebApplicationFactory<Program>>
         var admin = await LoginAsync("admin@sseuropa.demo");
         var courses = await GetAsync<JsonElement>("/api/courses?pageSize=50", admin);
         var courseId = courses.GetProperty("items").EnumerateArray()
-            .First(c => c.GetProperty("slug").GetString() == "corso-italiano-a0").GetProperty("id").GetString();
+            .First(c => c.GetProperty("slug").GetString() == "corso-italiano-capitolo-1").GetProperty("id").GetString();
 
         var page = await GetAsync<JsonElement>($"/api/translations?courseId={courseId}&search=Lesson%201%20%C2%B7%20The%20Italian%20alphabet", admin);
-        page.GetProperty("totalTexts").GetInt32().Should().BeGreaterThan(1000);
+        page.GetProperty("totalTexts").GetInt32().Should().BeGreaterThan(300);
         var row = page.GetProperty("page").GetProperty("items").EnumerateArray().Single();
         row.GetProperty("source").GetString().Should().Be("Lesson 1 · The Italian alphabet");
 

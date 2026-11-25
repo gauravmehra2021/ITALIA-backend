@@ -20,7 +20,7 @@ export default {
   cefrLevel: 'A2',
   category: 'Core',
   durationWeeks: 8,
-  displayOrder: 2,
+  displayOrder: 21,
   cover: 'Books',
   units: [...units1, ...units2],
 };

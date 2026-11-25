@@ -1,0 +1,4913 @@
+{
+  "slug": "corso-italiano-capitolo-6",
+  "title": "Capitolo 6 · Must, can, want — daily routine and work",
+  "shortDescription": "The modal verbs dovere, potere and volere + infinitive and polite requests, the reflexive verbs of the daily routine (mi sveglio, mi alzo…) with the time, jobs and workplaces (che lavoro fai?), reading a job advert and booking an appointment on the phone with Lei.",
+  "description": "Part of the official SS Europa Italian course used in our classes, for learners from India, Pakistan and Bangladesh who are going to Italy to work, study or live. Chapters 1–7 take you from zero to level A1 and Chapters 8–12 to level A2 — study them in order.\n\nEvery 60-minute class of the chapter is split into three short lessons you can study on your phone, with pictures, audio, grammar tables and exercises. Every word comes with its English and Punjabi meaning, the slides of each class are attached as PDF, and the chapter ends with a test (pass mark 60%).",
+  "objectives": "I can say what I must, can and want to do: devo lavorare, posso entrare?, voglio imparare\nI can ask politely: Posso uscire un attimo? Puoi ripetere? Vorrei un'informazione\nI can describe my daily routine with reflexive verbs and the time\nI can say what job I do and where I work\nI can read a simple job advert: full-time, part-time, contratto, stipendio, esperienza\nI can phone an employer and book an appointment using Lei",
+  "level": "Beginner",
+  "cefrLevel": "A1",
+  "category": "Core",
+  "durationWeeks": 2,
+  "displayOrder": 5,
+  "thumbnailUrl": "/content/img/briefcase.png",
+  "previousTitles": [],
+  "splitFrom": "corso-italiano-a0",
+  "units": [
+    {
+      "key": "capitolo-6",
+      "order": 1,
+      "title": "Chapter 6: Must, can, want — daily routine and work",
+      "titleIt": "Capitolo 6: Dovere, potere, volere — la routine e il lavoro",
+      "description": "The modal verbs dovere, potere and volere + infinitive and polite requests, the reflexive verbs of the daily routine (mi sveglio, mi alzo…) with the time, jobs and workplaces (che lavoro fai?), reading a job advert and booking an appointment on the phone with Lei.",
+      "canDo": [
+        "I can say what I must, can and want to do: devo lavorare, posso entrare?, voglio imparare",
+        "I can ask politely: Posso uscire un attimo? Puoi ripetere? Vorrei un'informazione",
+        "I can describe my daily routine with reflexive verbs and the time",
+        "I can say what job I do and where I work",
+        "I can read a simple job advert: full-time, part-time, contratto, stipendio, esperienza",
+        "I can phone an employer and book an appointment using Lei"
+      ],
+      "imageUrl": "/content/img/briefcase.png",
+      "pdfUrl": "/content/pdf/corso-italiano-a0-unit-06.pdf",
+      "liveClassFocus": "Job interview role-play: describe your routine, say what work you do or want to do, then phone the \"employer\" to book an appointment with Vorrei fissare un appuntamento.",
+      "status": "Published",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Lesson 1 · Must, can, want: modal verb + infinitive",
+          "titleIt": "Lezione 1 · Dovere, potere, volere + infinito",
+          "kind": "Grammar",
+          "summary": "Devo lavorare, posso entrare?, voglio imparare — the full present tense.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 6 · Lezione 1 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap6-lez1-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Verbo modale + infinito",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Devo lavorare.",
+                  "english": "I must / have to work.",
+                  "punjabi": "Mainu kamm karna pavega.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/briefcase.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Posso entrare?",
+                  "english": "May I / Can I come in?",
+                  "punjabi": "Ki main andar aa sakda haan?",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/door.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Voglio imparare l'italiano.",
+                  "english": "I want to learn Italian.",
+                  "punjabi": "Main Italian sikhna chaahunda haan.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/open-book.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Presente indicativo (irregolare)",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "DOVERE (must · paina)",
+                  "POTERE (can · sakna)",
+                  "VOLERE (want · chaahuna)"
+                ],
+                [
+                  "io",
+                  "devo",
+                  "posso",
+                  "voglio"
+                ],
+                [
+                  "tu",
+                  "devi",
+                  "puoi",
+                  "vuoi"
+                ],
+                [
+                  "lui / lei",
+                  "deve",
+                  "può",
+                  "vuole"
+                ],
+                [
+                  "noi",
+                  "dobbiamo",
+                  "possiamo",
+                  "vogliamo"
+                ],
+                [
+                  "voi",
+                  "dovete",
+                  "potete",
+                  "volete"
+                ],
+                [
+                  "loro",
+                  "devono",
+                  "possono",
+                  "vogliono"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Quando usiamo dovere, potere e volere?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Verbo",
+                  "Uso",
+                  "Esempio"
+                ],
+                [
+                  "DOVERE",
+                  "obligation · something you have to do",
+                  "Domani devo lavorare presto."
+                ],
+                [
+                  "POTERE",
+                  "permission, possibility, polite request",
+                  "Scusi, posso entrare in aula?"
+                ],
+                [
+                  "VOLERE",
+                  "wish, personal goal",
+                  "Voglio imparare bene l'italiano."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The second verb **always stays in the infinitive**: *Voglio imparare* — never ~~Voglio imparo~~. *Devo lavorare, posso entrare, voglio prendere un caffè, possiamo aprire la finestra?*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domani io ___ lavorare presto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dobbiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "devi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "devo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "deve",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ venire con noi stasera?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "potete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "puoi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "può",
+                  "imageUrl": null
+                },
+                {
+                  "text": "posso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Lei ___ imparare l'italiano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vogliono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vuoi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vuole",
+                  "imageUrl": null
+                },
+                {
+                  "text": "voglio",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ arrivare alle otto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dobbiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "devono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dovete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "devo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Voi ___ aprire la finestra, per favore?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "possono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "potete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "puoi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "possiamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Loro ___ prendere un caffè.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vogliamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "volete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vuole",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vogliono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Voglio ___ l'italiano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "imparo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "impari",
+                  "imageUrl": null
+                },
+                {
+                  "text": "imparare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "impara",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Devo lavorare\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I work",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I want to work",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I can work",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I have to work",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 sentences about today: one with devo, one with posso, one with voglio."
+        },
+        {
+          "order": 2,
+          "title": "Lesson 1 · Polite requests in class",
+          "titleIt": "Lezione 1 · Richieste cortesi e permessi",
+          "kind": "Vocabulary",
+          "summary": "Posso entrare? Puoi ripetere, per favore? Posso uscire un attimo? Vorrei…",
+          "estimatedMinutes": 8,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Richieste cortesi e permessi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Posso entrare?",
+                  "english": "May I come in?",
+                  "punjabi": "Ki main andar aa sakda haan?",
+                  "pronunciation": "POS-soh en-TRAH-reh",
+                  "imageUrl": "/content/img/door.png",
+                  "audioUrl": null,
+                  "example": "Scusi il ritardo, posso entrare?",
+                  "exampleEnglish": "Sorry I'm late, may I come in?"
+                },
+                {
+                  "italian": "Puoi ripetere, per favore?",
+                  "english": "Can you repeat, please?",
+                  "punjabi": "Kirpa karke dubara dasso?",
+                  "pronunciation": "PWOY ree-PEH-teh-reh",
+                  "imageUrl": "/content/img/ear.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Può ripetere, per favore?",
+                  "english": "Could you repeat, please? (polite)",
+                  "punjabi": "Kirpa karke dubara dasso ji? (aadar naal)",
+                  "pronunciation": "PWOH ree-PEH-teh-reh",
+                  "imageUrl": "/content/img/person-raising-hand.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Posso uscire un attimo?",
+                  "english": "May I go out for a moment?",
+                  "punjabi": "Ki main thodi der lai baahar ja sakda haan?",
+                  "pronunciation": "POS-soh oo-SHEE-reh oon AHT-tee-moh",
+                  "imageUrl": "/content/img/person-walking.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Vorrei un'informazione.",
+                  "english": "I would like some information.",
+                  "punjabi": "Mainu ikk jaankari chaahidi hai.",
+                  "pronunciation": "vor-RAY oo-neen-for-mah-TSYOH-neh",
+                  "imageUrl": "/content/img/person-tipping-hand.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Vorrei** (I would like) is the polite form of **voglio**. In a shop, an office or on the phone always say *vorrei*: *Vorrei un caffè. Vorrei un'informazione.*",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Posso uscire un attimo?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Può ripetere, per favore?",
+                  "imageUrl": "/content/img/person-raising-hand.png"
+                },
+                {
+                  "text": "Vorrei un'informazione.",
+                  "imageUrl": "/content/img/person-tipping-hand.png"
+                },
+                {
+                  "text": "Posso entrare?",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "Posso uscire un attimo?",
+                  "imageUrl": "/content/img/person-walking.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Posso uscire un attimo? = May I go out for a moment?"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Vorrei un'informazione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Posso entrare?",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "Vorrei un'informazione.",
+                  "imageUrl": "/content/img/person-tipping-hand.png"
+                },
+                {
+                  "text": "Posso uscire un attimo?",
+                  "imageUrl": "/content/img/person-walking.png"
+                },
+                {
+                  "text": "Puoi ripetere, per favore?",
+                  "imageUrl": "/content/img/ear.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Vorrei un'informazione. = I would like some information."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Può ripetere, per favore?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vorrei un'informazione.",
+                  "imageUrl": "/content/img/person-tipping-hand.png"
+                },
+                {
+                  "text": "Puoi ripetere, per favore?",
+                  "imageUrl": "/content/img/ear.png"
+                },
+                {
+                  "text": "Può ripetere, per favore?",
+                  "imageUrl": "/content/img/person-raising-hand.png"
+                },
+                {
+                  "text": "Posso entrare?",
+                  "imageUrl": "/content/img/door.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Può ripetere, per favore? = Could you repeat, please? (polite)"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/door.png",
+              "options": [
+                {
+                  "text": "Posso entrare?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vorrei un'informazione.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Posso uscire un attimo?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Puoi ripetere, per favore?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Posso entrare? = May I come in?"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/ear.png",
+              "options": [
+                {
+                  "text": "Può ripetere, per favore?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Puoi ripetere, per favore?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Posso uscire un attimo?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vorrei un'informazione.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Puoi ripetere, per favore? = Can you repeat, please?"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Posso entrare?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I would like some information.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "May I go out for a moment?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Can you repeat, please?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "May I come in?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Puoi ripetere, per favore?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "May I go out for a moment?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Can you repeat, please?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "May I come in?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I would like some information.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Vorrei un'informazione.",
+                  "right": "I would like some information."
+                },
+                {
+                  "left": "Posso uscire un attimo?",
+                  "right": "May I go out for a moment?"
+                },
+                {
+                  "left": "Puoi ripetere, per favore?",
+                  "right": "Can you repeat, please?"
+                },
+                {
+                  "left": "Può ripetere, per favore?",
+                  "right": "Could you repeat, please? (polite)"
+                },
+                {
+                  "left": "Posso entrare?",
+                  "right": "May I come in?"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You arrive late to class. You say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Voglio entrare.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Entro adesso.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Scusi il ritardo, posso entrare?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Devo entrare.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You didn't understand the teacher. You say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Può ripetere, per favore?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Posso uscire un attimo?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Devo lavorare.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vorrei un caffè.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "At the information desk you say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Voglio informazione!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vorrei un'informazione.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Devo un'informazione.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Posso informazione.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Posso uscire un attimo?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I want to leave.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Can you repeat?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "May I come in?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "May I go out for a moment?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Learn the 5 polite requests and use two of them in your next class."
+        },
+        {
+          "order": 3,
+          "title": "Lesson 1 · Dialogue: permissions and plans in class",
+          "titleIt": "Lezione 1 · Dialogo: permessi e progetti in classe",
+          "kind": "Dialogue",
+          "summary": "Harpreet is late: posso entrare? devo uscire alle undici…",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Harpreet arrives late to the Italian class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: permessi e progetti in classe",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Harpreet",
+                  "italian": "Buongiorno! Scusi il ritardo, posso entrare?",
+                  "english": "Good morning! Sorry I'm late, may I come in?",
+                  "punjabi": "Sat Sri Akal! Der lai maafi, ki main andar aa sakda haan?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Docente",
+                  "italian": "Sì, certo! Puoi sederti vicino a Sara.",
+                  "english": "Yes, of course! You can sit next to Sara.",
+                  "punjabi": "Haan, zarur! Tusi Saara de kol baith sakde ho.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Harpreet",
+                  "italian": "Grazie! Oggi devo uscire alle undici perché devo lavorare.",
+                  "english": "Thanks! Today I have to leave at eleven because I have to work.",
+                  "punjabi": "Dhanvad! Ajj mainu giaraan vaje jaana pavega kiunki mainu kamm karna hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Docente",
+                  "italian": "Nessun problema! Tu vuoi imparare l'italiano e sei molto bravo.",
+                  "english": "No problem! You want to learn Italian and you're very good.",
+                  "punjabi": "Koi gall nahi! Tusi Italian sikhni chaahunde ho ate bahut vadhia ho.",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play: permessi, doveri e desideri",
+              "body": "1. **Chiedi un permesso:** usa *posso* o *puoi* con cortesia.\n2. **Parla di un dovere:** spiega cosa *devi* fare oggi.\n3. **Esprimi un desiderio:** di' cosa *vuoi* imparare o fare.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Harpreet arrives late.)",
+              "italian": "Harpreet arriva in ritardo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Harpreet sits next to Marco.)",
+              "italian": "Harpreet si siede vicino a Marco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Harpreet has to leave at eleven.)",
+              "italian": "Harpreet deve uscire alle undici.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Harpreet leaves because he wants to go to the café.)",
+              "italian": "Harpreet esce perché vuole andare al bar.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Today I have to leave at eleven\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Oggi devo uscire alle undici",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I want to learn Italian well\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Voglio imparare bene l'italiano",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play with a partner: ask a permission, say one thing you must do and one thing you want to do."
+        },
+        {
+          "order": 4,
+          "title": "Lesson 2 · The daily routine: reflexive verbs",
+          "titleIt": "Lezione 2 · I verbi riflessivi della routine",
+          "kind": "Vocabulary",
+          "summary": "Mi sveglio, mi alzo, mi lavo, mi vesto, mi pettino, mi preparo, mi addormento.",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 6 · Lezione 2 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap6-lez2-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "I 7 verbi riflessivi della routine",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "svegliarsi — mi sveglio",
+                  "english": "to wake up — I wake up",
+                  "punjabi": "Jaagna",
+                  "pronunciation": "zveh-LYAR-see",
+                  "imageUrl": "/content/img/sunrise.png",
+                  "audioUrl": null,
+                  "example": "Mi sveglio alle sette.",
+                  "exampleEnglish": "I wake up at seven."
+                },
+                {
+                  "italian": "alzarsi — mi alzo",
+                  "english": "to get up — I get up",
+                  "punjabi": "Uthna",
+                  "pronunciation": "ahl-TSAR-see",
+                  "imageUrl": "/content/img/person-standing.png",
+                  "audioUrl": null,
+                  "example": "Mi alzo alle sette e un quarto.",
+                  "exampleEnglish": "I get up at a quarter past seven."
+                },
+                {
+                  "italian": "lavarsi — mi lavo",
+                  "english": "to wash — I wash",
+                  "punjabi": "Nahauna / Munh dhona",
+                  "pronunciation": "lah-VAR-see",
+                  "imageUrl": "/content/img/droplet.png",
+                  "audioUrl": null,
+                  "example": "Mi lavo alle sette e venti.",
+                  "exampleEnglish": "I wash at twenty past seven."
+                },
+                {
+                  "italian": "vestirsi — mi vesto",
+                  "english": "to get dressed — I get dressed",
+                  "punjabi": "Kapde pauna",
+                  "pronunciation": "ves-TEER-see",
+                  "imageUrl": "/content/img/coat.png",
+                  "audioUrl": null,
+                  "example": "Mi vesto alle sette e trentacinque.",
+                  "exampleEnglish": "I get dressed at 7:35."
+                },
+                {
+                  "italian": "pettinarsi — mi pettino",
+                  "english": "to comb your hair — I comb my hair",
+                  "punjabi": "Vaal vaahuna",
+                  "pronunciation": "pet-tee-NAR-see",
+                  "imageUrl": "/content/img/woman.png",
+                  "audioUrl": null,
+                  "example": "Mi pettino alle sette e quarantacinque.",
+                  "exampleEnglish": "I comb my hair at 7:45."
+                },
+                {
+                  "italian": "prepararsi — mi preparo",
+                  "english": "to get ready — I get ready",
+                  "punjabi": "Tiar hona",
+                  "pronunciation": "preh-pah-RAR-see",
+                  "imageUrl": "/content/img/backpack.png",
+                  "audioUrl": null,
+                  "example": "Mi preparo alle otto.",
+                  "exampleEnglish": "I get ready at eight."
+                },
+                {
+                  "italian": "addormentarsi — mi addormento",
+                  "english": "to fall asleep — I fall asleep",
+                  "punjabi": "Saun jaana",
+                  "pronunciation": "ahd-dor-men-TAR-see",
+                  "imageUrl": "/content/img/sleeping-face.png",
+                  "audioUrl": null,
+                  "example": "Mi addormento alle undici.",
+                  "exampleEnglish": "I fall asleep at eleven."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Reflexive verbs end in **-si** (svegliar**si**) and the action goes back to the person: *Lavo la macchina* (I wash the car) but ***Mi** lavo le mani* (I wash my hands — myself).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "vestirsi — mi vesto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "pettinarsi — mi pettino",
+                  "imageUrl": "/content/img/woman.png"
+                },
+                {
+                  "text": "prepararsi — mi preparo",
+                  "imageUrl": "/content/img/backpack.png"
+                },
+                {
+                  "text": "vestirsi — mi vesto",
+                  "imageUrl": "/content/img/coat.png"
+                },
+                {
+                  "text": "alzarsi — mi alzo",
+                  "imageUrl": "/content/img/person-standing.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "vestirsi — mi vesto = to get dressed — I get dressed"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "prepararsi — mi preparo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lavarsi — mi lavo",
+                  "imageUrl": "/content/img/droplet.png"
+                },
+                {
+                  "text": "addormentarsi — mi addormento",
+                  "imageUrl": "/content/img/sleeping-face.png"
+                },
+                {
+                  "text": "pettinarsi — mi pettino",
+                  "imageUrl": "/content/img/woman.png"
+                },
+                {
+                  "text": "prepararsi — mi preparo",
+                  "imageUrl": "/content/img/backpack.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "prepararsi — mi preparo = to get ready — I get ready"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "lavarsi — mi lavo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vestirsi — mi vesto",
+                  "imageUrl": "/content/img/coat.png"
+                },
+                {
+                  "text": "addormentarsi — mi addormento",
+                  "imageUrl": "/content/img/sleeping-face.png"
+                },
+                {
+                  "text": "lavarsi — mi lavo",
+                  "imageUrl": "/content/img/droplet.png"
+                },
+                {
+                  "text": "pettinarsi — mi pettino",
+                  "imageUrl": "/content/img/woman.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "lavarsi — mi lavo = to wash — I wash"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/sleeping-face.png",
+              "options": [
+                {
+                  "text": "addormentarsi — mi addormento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "svegliarsi — mi sveglio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "pettinarsi — mi pettino",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lavarsi — mi lavo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "addormentarsi — mi addormento = to fall asleep — I fall asleep"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/person-standing.png",
+              "options": [
+                {
+                  "text": "lavarsi — mi lavo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "addormentarsi — mi addormento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alzarsi — mi alzo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vestirsi — mi vesto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "alzarsi — mi alzo = to get up — I get up"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "addormentarsi — mi addormento",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to wake up — I wake up",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to get up — I get up",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to fall asleep — I fall asleep",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to get dressed — I get dressed",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "alzarsi — mi alzo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to fall asleep — I fall asleep",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to wash — I wash",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to comb your hair — I comb my hair",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to get up — I get up",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "pettinarsi — mi pettino",
+                  "right": "to comb your hair — I comb my hair"
+                },
+                {
+                  "left": "vestirsi — mi vesto",
+                  "right": "to get dressed — I get dressed"
+                },
+                {
+                  "left": "alzarsi — mi alzo",
+                  "right": "to get up — I get up"
+                },
+                {
+                  "left": "svegliarsi — mi sveglio",
+                  "right": "to wake up — I wake up"
+                },
+                {
+                  "left": "lavarsi — mi lavo",
+                  "right": "to wash — I wash"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You open your eyes in the morning:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi addormento.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi vesto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi sveglio.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi pettino.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You put on your clothes:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi vesto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi sveglio.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi lavo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi alzo.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You go to sleep at night:",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi preparo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi alzo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi pettino.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi addormento.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "mi alzo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I get up",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I get ready",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I get dressed",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I wake up",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your morning in order with 5 reflexive verbs (Mi sveglio, poi mi alzo…)."
+        },
+        {
+          "order": 5,
+          "title": "Lesson 2 · Reflexive pronouns and the time",
+          "titleIt": "Lezione 2 · I pronomi riflessivi e a che ora?",
+          "kind": "Grammar",
+          "summary": "Mi, ti, si, ci, vi, si — and alle sette, all'una, a mezzogiorno.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Pronomi: mi, ti, si, ci, vi, si",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "Pronome",
+                  "ALZARSI (-ARE)",
+                  "VESTIRSI (-IRE)"
+                ],
+                [
+                  "io",
+                  "mi",
+                  "mi alzo",
+                  "mi vesto"
+                ],
+                [
+                  "tu",
+                  "ti",
+                  "ti alzi",
+                  "ti vesti"
+                ],
+                [
+                  "lui / lei",
+                  "si",
+                  "si alza",
+                  "si veste"
+                ],
+                [
+                  "noi",
+                  "ci",
+                  "ci alziamo",
+                  "ci vestiamo"
+                ],
+                [
+                  "voi",
+                  "vi",
+                  "vi alzate",
+                  "vi vestite"
+                ],
+                [
+                  "loro",
+                  "si",
+                  "si alzano",
+                  "si vestono"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": null,
+              "body": "The pronoun goes **before** the verb: *Io **mi** sveglio alle sette.* The verb ending is the normal present tense (alz**o**, alz**i**, alz**a**…).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "A che ora? ALLE, ALL' e A",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Forma",
+                  "Quando",
+                  "Esempio"
+                ],
+                [
+                  "ALLE",
+                  "with the hours from 2 on",
+                  "Mi sveglio alle sette. Alle otto e mezza."
+                ],
+                [
+                  "ALL'",
+                  "with una (1 o'clock)",
+                  "Pranziamo all'una. All'una e un quarto."
+                ],
+                [
+                  "A",
+                  "mezzogiorno, mezzanotte",
+                  "Mi addormento a mezzanotte."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Key question: **«A che ora ti alzi la mattina?»** — **«Mi alzo alle sette e un quarto.»**",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La mattina io ___ alle sei e mezza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi sveglio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ti svegli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si sveglia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sveglio",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "A che ora tu ___ nei giorni feriali?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ti alzi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si alza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi alzo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alzi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prima di uscire lui ___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lava",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si lava",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ti lavi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi lavo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ velocemente per andare a lezione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ci prepariamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si preparano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vi preparate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prepariamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Voi ___ in dieci minuti?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ci vestiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vi vestite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vestite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si vestono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La sera loro ___ verso le undici.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "si addormenta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si addormentano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci addormentiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "addormentano",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Pranziamo ___ una.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "all'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alle",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Mi addormento ___ mezzanotte.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "all'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alle",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Mi sveglio ___ sette.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "all'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alle",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write at what time you, a friend and your family wake up and go to sleep (Io mi sveglio alle…, mia madre si sveglia alle…)."
+        },
+        {
+          "order": 6,
+          "title": "Lesson 2 · Dialogue: What time do you get up?",
+          "titleIt": "Lezione 2 · Dialogo: a che ora ti alzi?",
+          "kind": "Dialogue",
+          "summary": "Elena and Jaspreet compare their routine — la mia giornata tipo.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "La mia giornata tipo",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Ora",
+                  "Momento",
+                  "Cosa faccio"
+                ],
+                [
+                  "07:00",
+                  "la mattina",
+                  "Mi sveglio e mi alzo subito."
+                ],
+                [
+                  "07:30",
+                  "in bagno",
+                  "Mi lavo e mi pettino."
+                ],
+                [
+                  "08:00",
+                  "prima di uscire",
+                  "Mi vesto e mi preparo."
+                ],
+                [
+                  "23:00",
+                  "la sera",
+                  "Mi addormento alle undici."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Elena and Jaspreet talk about their mornings.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: a che ora ti alzi?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "italian": "Ciao Jaspreet! A che ora ti svegli di solito?",
+                  "english": "Hi Jaspreet! What time do you usually wake up?",
+                  "punjabi": "Sat Sri Akal Jaspreet! Tusi aamtaur te kinne vaje jaagde ho?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Jaspreet",
+                  "italian": "Mi sveglio alle sei e mezza e mi alzo alle sette.",
+                  "english": "I wake up at half past six and I get up at seven.",
+                  "punjabi": "Main saadhe chhe vaje jaagda haan ate satt vaje uthda haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Elena",
+                  "italian": "Anch'io! Mi lavo, mi vesto e mi preparo in trenta minuti.",
+                  "english": "Me too! I wash, get dressed and get ready in thirty minutes.",
+                  "punjabi": "Main vi! Main teeh mintaan vich naha ke, kapde pa ke tiar ho jaandi haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Jaspreet",
+                  "italian": "La sera però siamo stanchi e ci addormentiamo alle dieci!",
+                  "english": "But in the evening we're tired and we fall asleep at ten!",
+                  "punjabi": "Par shaam nu asi thakk jaande haan ate das vaje saun jaande haan!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play: la tua routine quotidiana",
+              "body": "1. **Chiedi gli orari:** «A che ora ti svegli?»\n2. **Racconta la mattina:** usa quattro verbi riflessivi.\n3. **Chiudi con la sera:** di' a che ora ti addormenti.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Jaspreet wakes up at half past six.)",
+              "italian": "Jaspreet si sveglia alle sei e mezza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Jaspreet gets up at eight.)",
+              "italian": "Jaspreet si alza alle otto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Elena gets ready in thirty minutes.)",
+              "italian": "Elena si prepara in trenta minuti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (In the evening they fall asleep at midnight.)",
+              "italian": "La sera si addormentano a mezzanotte.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"What time do you usually wake up\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "A che ora ti svegli di solito",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I wash and get dressed in thirty minutes\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Mi lavo e mi vesto in trenta minuti",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Ask a partner about their routine and write 4 sentences about it (Lui / lei si sveglia alle…)."
+        },
+        {
+          "order": 7,
+          "title": "Lesson 3 · Jobs and professions",
+          "titleIt": "Lezione 3 · I mestieri e le professioni",
+          "kind": "Vocabulary",
+          "summary": "L'operaio, il commesso, l'autista, la badante, il cuoco, il cameriere, l'impiegato…",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 6 · Lezione 3 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap6-lez3-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Servizi, ristorazione e negozio",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "il commesso / la commessa",
+                  "english": "shop assistant",
+                  "punjabi": "Dukandar / Selzmain",
+                  "pronunciation": "kom-MES-soh",
+                  "imageUrl": "/content/img/shopping-cart.png",
+                  "audioUrl": null,
+                  "example": "La commessa lavora in negozio.",
+                  "exampleEnglish": "The shop assistant works in a shop."
+                },
+                {
+                  "italian": "il cuoco / la cuoca",
+                  "english": "cook / chef",
+                  "punjabi": "Rasoia / Kukk",
+                  "pronunciation": "KWOH-koh",
+                  "imageUrl": "/content/img/cook.png",
+                  "audioUrl": null,
+                  "example": "Il cuoco lavora al ristorante.",
+                  "exampleEnglish": "The cook works at the restaurant."
+                },
+                {
+                  "italian": "il cameriere / la cameriera",
+                  "english": "waiter / waitress",
+                  "punjabi": "Vetar",
+                  "pronunciation": "kah-meh-RYEH-reh",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il / la badante",
+                  "english": "caregiver (for elderly people)",
+                  "punjabi": "Buzurgaan di dekhbhal karan vaala",
+                  "pronunciation": "bah-DAHN-teh",
+                  "imageUrl": "/content/img/older-person.png",
+                  "audioUrl": null,
+                  "example": "La badante lavora in casa di anziani.",
+                  "exampleEnglish": "The caregiver works in elderly people's homes."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Fabbrica, ufficio, scuola e cantiere",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "l'operaio / l'operaia",
+                  "english": "factory worker",
+                  "punjabi": "Faiktari mazdur",
+                  "pronunciation": "loh-peh-RAH-yoh",
+                  "imageUrl": "/content/img/factory-worker.png",
+                  "audioUrl": null,
+                  "example": "L'operaio lavora in fabbrica.",
+                  "exampleEnglish": "The factory worker works in a factory."
+                },
+                {
+                  "italian": "l'autista",
+                  "english": "driver",
+                  "punjabi": "Draivar",
+                  "pronunciation": "low-TEES-tah",
+                  "imageUrl": "/content/img/delivery-truck.png",
+                  "audioUrl": null,
+                  "example": "L'autista lavora in autobus o in camion.",
+                  "exampleEnglish": "The driver works on a bus or a lorry."
+                },
+                {
+                  "italian": "l'impiegato / l'impiegata",
+                  "english": "office clerk",
+                  "punjabi": "Daftari karmachari",
+                  "pronunciation": "leem-pyeh-GAH-toh",
+                  "imageUrl": "/content/img/office-worker.png",
+                  "audioUrl": null,
+                  "example": "L'impiegata lavora in ufficio.",
+                  "exampleEnglish": "The clerk works in an office."
+                },
+                {
+                  "italian": "l'insegnante",
+                  "english": "teacher",
+                  "punjabi": "Adhiapak",
+                  "pronunciation": "leen-sen-YAHN-teh",
+                  "imageUrl": "/content/img/teacher.png",
+                  "audioUrl": null,
+                  "example": "L'insegnante lavora a scuola.",
+                  "exampleEnglish": "The teacher works at a school."
+                },
+                {
+                  "italian": "il muratore",
+                  "english": "bricklayer / builder",
+                  "punjabi": "Raajmistri",
+                  "pronunciation": "eel moo-rah-TOH-reh",
+                  "imageUrl": "/content/img/construction-worker.png",
+                  "audioUrl": null,
+                  "example": "Il muratore lavora in cantiere.",
+                  "exampleEnglish": "The builder works on a building site."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Maschile e femminile",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Maschile",
+                  "Femminile",
+                  "Dove lavora?"
+                ],
+                [
+                  "l'operaio",
+                  "l'operaia",
+                  "in fabbrica"
+                ],
+                [
+                  "il commesso",
+                  "la commessa",
+                  "in negozio / al supermercato"
+                ],
+                [
+                  "l'autista",
+                  "l'autista",
+                  "in autobus / in camion"
+                ],
+                [
+                  "il badante",
+                  "la badante",
+                  "in casa (di anziani)"
+                ],
+                [
+                  "il cuoco / il cameriere",
+                  "la cuoca / la cameriera",
+                  "al ristorante / al bar"
+                ],
+                [
+                  "l'impiegato",
+                  "l'impiegata",
+                  "in ufficio"
+                ],
+                [
+                  "l'insegnante",
+                  "l'insegnante",
+                  "a scuola"
+                ],
+                [
+                  "il muratore",
+                  "la muratrice",
+                  "in cantiere"
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Words in **-ista** and **-ante / -ente** are the same for men and women: *l'autista, il / la badante, l'insegnante*. Only the article changes.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il cameriere / la cameriera",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'operaio / l'operaia",
+                  "imageUrl": "/content/img/factory-worker.png"
+                },
+                {
+                  "text": "il cuoco / la cuoca",
+                  "imageUrl": "/content/img/cook.png"
+                },
+                {
+                  "text": "il cameriere / la cameriera",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                },
+                {
+                  "text": "il / la badante",
+                  "imageUrl": "/content/img/older-person.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il cameriere / la cameriera = waiter / waitress"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il muratore",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'impiegato / l'impiegata",
+                  "imageUrl": "/content/img/office-worker.png"
+                },
+                {
+                  "text": "il / la badante",
+                  "imageUrl": "/content/img/older-person.png"
+                },
+                {
+                  "text": "il muratore",
+                  "imageUrl": "/content/img/construction-worker.png"
+                },
+                {
+                  "text": "l'autista",
+                  "imageUrl": "/content/img/delivery-truck.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il muratore = bricklayer / builder"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "l'autista",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il / la badante",
+                  "imageUrl": "/content/img/older-person.png"
+                },
+                {
+                  "text": "l'autista",
+                  "imageUrl": "/content/img/delivery-truck.png"
+                },
+                {
+                  "text": "l'insegnante",
+                  "imageUrl": "/content/img/teacher.png"
+                },
+                {
+                  "text": "il cuoco / la cuoca",
+                  "imageUrl": "/content/img/cook.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'autista = driver"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/cook.png",
+              "options": [
+                {
+                  "text": "l'impiegato / l'impiegata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il commesso / la commessa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il cuoco / la cuoca",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il / la badante",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il cuoco / la cuoca = cook / chef"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/factory-worker.png",
+              "options": [
+                {
+                  "text": "il cuoco / la cuoca",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'impiegato / l'impiegata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'insegnante",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'operaio / l'operaia",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'operaio / l'operaia = factory worker"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "il cuoco / la cuoca",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "cook / chef",
+                  "imageUrl": null
+                },
+                {
+                  "text": "teacher",
+                  "imageUrl": null
+                },
+                {
+                  "text": "shop assistant",
+                  "imageUrl": null
+                },
+                {
+                  "text": "factory worker",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'operaio / l'operaia",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "driver",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cook / chef",
+                  "imageUrl": null
+                },
+                {
+                  "text": "factory worker",
+                  "imageUrl": null
+                },
+                {
+                  "text": "shop assistant",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "il cameriere / la cameriera",
+                  "right": "waiter / waitress"
+                },
+                {
+                  "left": "l'impiegato / l'impiegata",
+                  "right": "office clerk"
+                },
+                {
+                  "left": "l'autista",
+                  "right": "driver"
+                },
+                {
+                  "left": "l'operaio / l'operaia",
+                  "right": "factory worker"
+                },
+                {
+                  "left": "l'insegnante",
+                  "right": "teacher"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Who works in a factory?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'operaio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il cameriere",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'insegnante",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la commessa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Who looks after elderly people at home?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'impiegata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'autista",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il muratore",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la badante",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Who works on a building site (in cantiere)?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'insegnante",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la commessa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il muratore",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il cuoco",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Who works at the computer in an office?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il muratore",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'impiegato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la badante",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'operaio",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "il cuoco",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "shop assistant",
+                  "imageUrl": null
+                },
+                {
+                  "text": "driver",
+                  "imageUrl": null
+                },
+                {
+                  "text": "waiter",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cook",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the jobs of 4 people in your family in Italian (Mio padre fa…, mia sorella è…)."
+        },
+        {
+          "order": 8,
+          "title": "Lesson 3 · What job do you do? Where do you work?",
+          "titleIt": "Lezione 3 · Che lavoro fai? Dove lavori?",
+          "kind": "Grammar",
+          "summary": "Faccio il / la… · Sono… · in fabbrica, al ristorante, a scuola — and work shifts.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Chiedere e dire che lavoro si fa",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Domanda / risposta",
+                  "Regola",
+                  "Esempio"
+                ],
+                [
+                  "Che lavoro fai? / Che lavoro fa?",
+                  "informale (tu) / formale (Lei)",
+                  "Che lavoro fa, signor Singh?"
+                ],
+                [
+                  "FACCIO IL / LA…",
+                  "with the article",
+                  "Faccio l'operaio. Faccio la commessa."
+                ],
+                [
+                  "SONO…",
+                  "without the article",
+                  "Sono autista. Sono insegnante."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": null,
+              "body": "Remember **FARE**: io *faccio* · tu *fai* · lui / lei *fa* · noi *facciamo* · voi *fate* · loro *fanno*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Dove lavori? Ambienti di lavoro",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "IN",
+                  "AL",
+                  "A"
+                ],
+                [
+                  "in fabbrica, in cantiere",
+                  "al supermercato",
+                  "a scuola"
+                ],
+                [
+                  "in negozio, in ufficio",
+                  "al ristorante, al bar",
+                  "a casa"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Frasi utili sul lavoro e sui turni",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Lavoro di mattina / di pomeriggio.",
+                  "english": "I work in the morning / in the afternoon.",
+                  "punjabi": "Main savere / dupahir nu kamm karda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Faccio il turno di notte.",
+                  "english": "I do the night shift.",
+                  "punjabi": "Main raat di shift karda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Cerco lavoro come autista.",
+                  "english": "I'm looking for work as a driver.",
+                  "punjabi": "Main draivar vajon kamm labh riha haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho la patente B e C.",
+                  "english": "I have a B and C driving licence.",
+                  "punjabi": "Mere kol B ate C laisains hai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Domani devo lavorare otto ore.",
+                  "english": "Tomorrow I have to work eight hours.",
+                  "punjabi": "Kall mainu atth ghante kamm karna pavega.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Voglio trovare un buon lavoro.",
+                  "english": "I want to find a good job.",
+                  "punjabi": "Main ikk changa kamm labhna chaahunda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Io ___ l'operaio in fabbrica.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faccio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Che lavoro ___, signor Singh?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faccio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Mia sorella fa ___ insegnante.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Che lavoro fai? — Sono ___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "autista",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la autisto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "un autista il",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il autista",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il cuoco lavora ___ ristorante.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'operaio lavora ___ fabbrica.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'insegnante lavora ___ scuola.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Faccio il turno di notte\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I sleep at night",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I start at nine",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I do the night shift",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I work at night only on Sunday",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 sentences about your job: what you do, where you work and your shift."
+        },
+        {
+          "order": 9,
+          "title": "Lesson 3 · Dialogue: What job do you do?",
+          "titleIt": "Lezione 3 · Dialogo: che lavoro fai?",
+          "kind": "Dialogue",
+          "summary": "Manpreet and Giulia talk about their jobs and their families' jobs.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Manpreet meets his friend Giulia.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: che lavoro fai?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Manpreet",
+                  "italian": "Ciao Giulia! Che lavoro fai adesso?",
+                  "english": "Hi Giulia! What job do you do now?",
+                  "punjabi": "Sat Sri Akal Giulia! Hun tusi ki kamm karde ho?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Giulia",
+                  "italian": "Faccio la commessa in un negozio in centro. E tu?",
+                  "english": "I'm a shop assistant in a shop in the centre. And you?",
+                  "punjabi": "Main shahir de vichkar ikk dukan vich selzgarl da kamm kardi haan. Ate tusi?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Manpreet",
+                  "italian": "Io faccio l'autista, e mio fratello è cuoco al ristorante.",
+                  "english": "I'm a driver, and my brother is a cook at the restaurant.",
+                  "punjabi": "Main draivar haan, ate mera bhara restoraint vich rasoia hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Giulia",
+                  "italian": "Bello! Mia sorella invece fa l'insegnante a scuola.",
+                  "english": "Nice! My sister, instead, is a teacher at a school.",
+                  "punjabi": "Bahut vadhia! Meri bhain sakul vich adhiapak hai.",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play: intervista sul lavoro",
+              "body": "1. **Chiedi la professione:** «Che lavoro fai?»\n2. **Di' dove lavori:** in fabbrica, in ufficio, al bar…\n3. **Aggiungi gli orari:** spiega quando inizi e finisci («Inizio alle otto e finisco alle quattro»).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Giulia is a shop assistant.)",
+              "italian": "Giulia fa la commessa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Manpreet is a cook.)",
+              "italian": "Manpreet fa il cuoco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Manpreet's brother works at the restaurant.)",
+              "italian": "Il fratello di Manpreet lavora al ristorante.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Giulia's sister works in an office.)",
+              "italian": "La sorella di Giulia lavora in ufficio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I'm a shop assistant in a shop\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Faccio la commessa in un negozio",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"My brother is a cook at the restaurant\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Mio fratello è cuoco al ristorante",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Interview a partner: their job, where they work and their working hours. Write 3 sentences."
+        },
+        {
+          "order": 10,
+          "title": "Lesson 4 · Reading a job advert",
+          "titleIt": "Lezione 4 · Leggere un annuncio di lavoro",
+          "kind": "Vocabulary",
+          "summary": "L'annuncio, full-time, part-time, il contratto, lo stipendio, l'esperienza.",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 6 · Lezione 4 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap6-lez4-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Parole chiave in un annuncio di lavoro",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "l'annuncio di lavoro",
+                  "english": "job advert",
+                  "punjabi": "Naukari da ishtihar",
+                  "pronunciation": "lahn-NOON-choh",
+                  "imageUrl": "/content/img/newspaper.png",
+                  "audioUrl": null,
+                  "example": "Ho letto il vostro annuncio.",
+                  "exampleEnglish": "I read your advert."
+                },
+                {
+                  "italian": "full-time (tempo pieno)",
+                  "english": "full-time (40 hours)",
+                  "punjabi": "Pura samaan (ful-taim)",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/mantelpiece-clock.png",
+                  "audioUrl": null,
+                  "example": "Cerco un lavoro full-time.",
+                  "exampleEnglish": "I'm looking for a full-time job."
+                },
+                {
+                  "italian": "part-time (tempo parziale)",
+                  "english": "part-time (20 hours)",
+                  "punjabi": "Addha samaan (paart-taim)",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/alarm-clock.png",
+                  "audioUrl": null,
+                  "example": "Preferisco un turno part-time.",
+                  "exampleEnglish": "I prefer a part-time shift."
+                },
+                {
+                  "italian": "il contratto",
+                  "english": "employment contract",
+                  "punjabi": "Kamm da ikrarnama",
+                  "pronunciation": "eel kon-TRAHT-toh",
+                  "imageUrl": "/content/img/page-facing-up.png",
+                  "audioUrl": null,
+                  "example": "Offriamo un contratto regolare.",
+                  "exampleEnglish": "We offer a regular contract."
+                },
+                {
+                  "italian": "lo stipendio",
+                  "english": "salary / wage",
+                  "punjabi": "Tankhah",
+                  "pronunciation": "loh stee-PEN-dyoh",
+                  "imageUrl": "/content/img/euro-banknote.png",
+                  "audioUrl": null,
+                  "example": "Lo stipendio è 1.400 euro al mese.",
+                  "exampleEnglish": "The salary is 1,400 euros a month."
+                },
+                {
+                  "italian": "l'esperienza",
+                  "english": "work experience",
+                  "punjabi": "Kamm da tajurba",
+                  "pronunciation": "les-peh-RYEN-tsah",
+                  "imageUrl": "/content/img/hundred-points.png",
+                  "audioUrl": null,
+                  "example": "Ho tre anni di esperienza.",
+                  "exampleEnglish": "I have three years' experience."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Contratto e requisiti",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Parola",
+                  "Significato"
+                ],
+                [
+                  "contratto fisso / a termine",
+                  "permanent / fixed-term contract"
+                ],
+                [
+                  "stipendio mensile",
+                  "monthly pay"
+                ],
+                [
+                  "con esperienza",
+                  "you already know the work"
+                ],
+                [
+                  "senza esperienza",
+                  "first time — no experience needed"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "Analizziamo un annuncio vero",
+              "body": "**OFFERTA DI LAVORO • MANTOVA — Cercasi cameriere / a**\n\n- Orario: part-time (solo sera)\n- Si richiede minima esperienza\n- Contratto a norma di legge\n- Chiamare il 333-4567890\n\n**1. Che lavoro è?** Cameriere o cameriera al ristorante.\n**2. Qual è l'orario?** Part-time, lavoro solo la sera.\n**3. Cosa devo fare?** Telefonare per fissare un appuntamento.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Cercasi** at the top of an advert means \"wanted\": *Cercasi cameriere* = Waiter wanted.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "lo stipendio",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'esperienza",
+                  "imageUrl": "/content/img/hundred-points.png"
+                },
+                {
+                  "text": "l'annuncio di lavoro",
+                  "imageUrl": "/content/img/newspaper.png"
+                },
+                {
+                  "text": "lo stipendio",
+                  "imageUrl": "/content/img/euro-banknote.png"
+                },
+                {
+                  "text": "part-time (tempo parziale)",
+                  "imageUrl": "/content/img/alarm-clock.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "lo stipendio = salary / wage"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "l'annuncio di lavoro",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'annuncio di lavoro",
+                  "imageUrl": "/content/img/newspaper.png"
+                },
+                {
+                  "text": "part-time (tempo parziale)",
+                  "imageUrl": "/content/img/alarm-clock.png"
+                },
+                {
+                  "text": "lo stipendio",
+                  "imageUrl": "/content/img/euro-banknote.png"
+                },
+                {
+                  "text": "l'esperienza",
+                  "imageUrl": "/content/img/hundred-points.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'annuncio di lavoro = job advert"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il contratto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'esperienza",
+                  "imageUrl": "/content/img/hundred-points.png"
+                },
+                {
+                  "text": "il contratto",
+                  "imageUrl": "/content/img/page-facing-up.png"
+                },
+                {
+                  "text": "part-time (tempo parziale)",
+                  "imageUrl": "/content/img/alarm-clock.png"
+                },
+                {
+                  "text": "full-time (tempo pieno)",
+                  "imageUrl": "/content/img/mantelpiece-clock.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il contratto = employment contract"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/alarm-clock.png",
+              "options": [
+                {
+                  "text": "l'annuncio di lavoro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "part-time (tempo parziale)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il contratto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'esperienza",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "part-time (tempo parziale) = part-time (20 hours)"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/mantelpiece-clock.png",
+              "options": [
+                {
+                  "text": "l'annuncio di lavoro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "part-time (tempo parziale)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "full-time (tempo pieno)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il contratto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "full-time (tempo pieno) = full-time (40 hours)"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "part-time (tempo parziale)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "part-time (20 hours)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "salary / wage",
+                  "imageUrl": null
+                },
+                {
+                  "text": "employment contract",
+                  "imageUrl": null
+                },
+                {
+                  "text": "work experience",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "full-time (tempo pieno)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "work experience",
+                  "imageUrl": null
+                },
+                {
+                  "text": "full-time (40 hours)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "part-time (20 hours)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "employment contract",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "il contratto",
+                  "right": "employment contract"
+                },
+                {
+                  "left": "lo stipendio",
+                  "right": "salary / wage"
+                },
+                {
+                  "left": "l'esperienza",
+                  "right": "work experience"
+                },
+                {
+                  "left": "l'annuncio di lavoro",
+                  "right": "job advert"
+                },
+                {
+                  "left": "part-time (tempo parziale)",
+                  "right": "part-time (20 hours)"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "A job of only 20 hours a week is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "full-time",
+                  "imageUrl": null
+                },
+                {
+                  "text": "part-time",
+                  "imageUrl": null
+                },
+                {
+                  "text": "senza contratto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a termine",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Lo stipendio\" is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "the contract",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the advert",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the salary",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the shift",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "In the Mantova advert, what is the job?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "commessa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cuoco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "autista",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cameriere / cameriera",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "In the Mantova advert, when do you work?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "tutto il giorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la notte",
+                  "imageUrl": null
+                },
+                {
+                  "text": "solo la mattina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "solo la sera",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'esperienza",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "contract",
+                  "imageUrl": null
+                },
+                {
+                  "text": "salary",
+                  "imageUrl": null
+                },
+                {
+                  "text": "advert",
+                  "imageUrl": null
+                },
+                {
+                  "text": "work experience",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Find a job advert (online or in a shop window) and write: what job, what hours, what you must do."
+        },
+        {
+          "order": 11,
+          "title": "Lesson 4 · Booking an appointment on the phone (Lei)",
+          "titleIt": "Lezione 4 · L'appuntamento al telefono con il Lei",
+          "kind": "Grammar",
+          "summary": "Buongiorno, sono… · Chiamo per l'annuncio · Vorrei fissare un appuntamento · Quando può?",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "I 4 passi della telefonata",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Passo",
+                  "Cosa dici"
+                ],
+                [
+                  "1. Salutare e presentarsi",
+                  "Buongiorno, sono Harpreet Singh."
+                ],
+                [
+                  "2. Spiegare il motivo",
+                  "Chiamo per l'annuncio di lavoro."
+                ],
+                [
+                  "3. Fissare l'appuntamento",
+                  "Vorrei fissare un appuntamento."
+                ],
+                [
+                  "4. Confermare giorno e ora",
+                  "Giovedì alle dieci va benissimo."
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "3 formule d'oro per chiamare",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Vorrei fissare un appuntamento.",
+                  "english": "I would like to book an appointment.",
+                  "punjabi": "Main mulakat taia karna chaahunda haan.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Quando posso venire in ufficio?",
+                  "english": "When can I come to the office?",
+                  "punjabi": "Main daftar kadon aa sakda haan?",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/office-building.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Grazie mille e arrivederci!",
+                  "english": "Thank you very much and goodbye!",
+                  "punjabi": "Bahut dhanvad ate phir milange!",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/waving-hand.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "On the phone with an employer always use **Lei** (the polite form): *Quando **può**?* (not *puoi*), *Buongiorno*, *Arrivederci* — never *Ciao*!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "PickTranslation",
+              "prompt": "On the phone with the office you say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ciao, appuntamento?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Dammi un appuntamento.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Voglio un appuntamento.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vorrei fissare un appuntamento.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "To ask the employer when they are free you say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Quando può ricevermi per un colloquio?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Devi ricevermi.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Quando vuoi tu?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Quando puoi?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You end the formal call with…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "A dopo, bello!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Buonanotte.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ciao ciao!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Grazie mille e arrivederci.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Buongiorno, ___ per l'annuncio di lavoro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "chiama",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chiami",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chiamano",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Giovedì alle dieci ___ benissimo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vado",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "va",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I would like to book an appointment\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vorrei fissare un appuntamento",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the 4 steps of a phone call to the Mantova restaurant with your name and a day and time."
+        },
+        {
+          "order": 12,
+          "title": "Lesson 4 · Phone call: I'd like to book an appointment",
+          "titleIt": "Lezione 4 · Telefonata: vorrei fissare un appuntamento",
+          "kind": "Dialogue",
+          "summary": "Simran calls the restaurant \"Da Luigi\" about the waitress job.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Simran phones the restaurant that published the job advert.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Telefonata: vorrei fissare un appuntamento",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Segretaria",
+                  "italian": "Pronto, Ristorante Da Luigi, buongiorno.",
+                  "english": "Hello, Restaurant Da Luigi, good morning.",
+                  "punjabi": "Hailo, Restoraint Da Luigi, Sat Sri Akal.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Simran",
+                  "italian": "Buongiorno, sono Simran Kaur. Vorrei fissare un appuntamento per l'annuncio.",
+                  "english": "Good morning, I'm Simran Kaur. I'd like to book an appointment about the advert.",
+                  "punjabi": "Sat Sri Akal, main Simran Kaur haan. Main ishtihar baare mulakat taia karna chaahundi haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Segretaria",
+                  "italian": "Ha già esperienza come cameriera? Può venire venerdì alle 15:00?",
+                  "english": "Do you already have experience as a waitress? Can you come on Friday at 3 pm?",
+                  "punjabi": "Ki tuhanu vetar da tajurba hai? Ki tusi shukkarvar tinn vaje aa sakde ho?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Simran",
+                  "italian": "Sì, ho due anni di esperienza. Venerdì alle tre va benissimo, grazie!",
+                  "english": "Yes, I have two years' experience. Friday at three is perfect, thank you!",
+                  "punjabi": "Haan ji, do saal da tajurba hai. Shukkarvar tinn vaje theek hai, dhanvad!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play: chiamata per un colloquio",
+              "body": "1. **Presentati al telefono:** saluta con *Buongiorno* e di' il tuo nome.\n2. **Chiedi l'appuntamento:** usa *Vorrei fissare un appuntamento*.\n3. **Fissa giorno e ora:** conferma l'orario e saluta con *Arrivederci*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Simran calls a restaurant.)",
+              "italian": "Simran chiama un ristorante.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Simran has no experience.)",
+              "italian": "Simran non ha esperienza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The appointment is on Friday at three.)",
+              "italian": "L'appuntamento è venerdì alle tre.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The secretary uses \"tu\".)",
+              "italian": "La segretaria usa il \"tu\".",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I have two years' experience\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ho due anni di esperienza",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Friday at three is perfect\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Venerdì alle tre va benissimo",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play with a partner: phone for a job interview, introduce yourself and fix a day and time."
+        },
+        {
+          "order": 13,
+          "title": "Chapter 6 test",
+          "titleIt": "Test Capitolo 6",
+          "kind": "Exam",
+          "summary": "Listening, jobs and job adverts, dovere / potere / volere and reflexive verbs. Pass mark: 60%.",
+          "estimatedMinutes": 25,
+          "xpReward": 60,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Test Capitolo 6",
+              "body": "This test checks everything in Chapter 6 (Lessons 1–4).\n\n- **1. Listening** — sentences and a phone call for a job appointment\n- **2. Vocabulary** — jobs, routine and job adverts\n- **3. Grammar** — dovere, potere, volere and reflexive verbs\n- **4. Writing** — sentences about your routine, your job and an appointment\n\nYou need **60%** to pass. You can repeat the test as many times as you like.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The **written part** (my routine, my job, an appointment) and the **oral interview** (routine, jobs and modal verbs, a formal phone call — 2 minutes) are done **with your teacher** in the live class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Pdf",
+              "title": "Course phrasebook (PDF)",
+              "body": "Every word and phrase of the course, chapter by chapter, with English and Punjabi.",
+              "mediaUrl": "/content/pdf/corso-italiano-a0-phrasebook.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Scusi, posso entrare, per favore? Ho una domanda.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "POSSO ENTRARE, PER FAVORE?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DEVO LAVORARE OGGI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "La domenica non lavoro e mi addormento a mezzanotte.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "MI ADDORMENTO A MEZZANOTTE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MI SVEGLIO ALLE SEI E MEZZA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Faccio il cuoco al ristorante dal martedì alla domenica.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "FACCIO IL CUOCO AL RISTORANTE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "FACCIO L'AUTISTA IN FABBRICA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Nell'annuncio c'è scritto: il lavoro è part-time con contratto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "LO STIPENDIO È MENSILE SENZA ESPERIENZA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "IL LAVORO È PART-TIME CON CONTRATTO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Studio ogni giorno perché voglio imparare l'italiano bene.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "VOGLIO IMPARARE L'ITALIANO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VORREI FISSARE UN APPUNTAMENTO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen to the call. What is the advert for? (1)",
+              "italian": "Buongiorno, chiamo per l'annuncio da magazziniere.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "BADANTE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "INSEGNANTE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "COMMESSA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MAGAZZINIERE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"Vorrei fissare un…\" (2)",
+              "italian": "Vorrei fissare un appuntamento per il lavoro full-time.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "STIPENDIO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "CONTRATTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "APPUNTAMENTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ANNUNCIO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: what kind of job? (3)",
+              "italian": "Vorrei fissare un appuntamento per il lavoro full-time.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "FULL-TIME",
+                  "imageUrl": null
+                },
+                {
+                  "text": "A TERMINE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DI NOTTE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PART-TIME",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"Ho già…\" (4)",
+              "italian": "Ho già esperienza in questo settore.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "UN LAVORO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ESPERIENZA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "LA PATENTE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "UN CONTRATTO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: when can the person come? (5)",
+              "italian": "Posso venire domani alle dieci.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "STASERA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "OGGI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VENERDÌ",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DOMANI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "2A · Match each word with its meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Badante",
+                  "right": "Caregiver · Buzurgaan di dekhbhal"
+                },
+                {
+                  "left": "Commesso / Commessa",
+                  "right": "Shop assistant · Dukandar"
+                },
+                {
+                  "left": "Stipendio",
+                  "right": "Salary · Tankhah"
+                },
+                {
+                  "left": "Contratto",
+                  "right": "Work contract · Ikrarnama"
+                },
+                {
+                  "left": "Vestirsi",
+                  "right": "To get dressed · Kapde pauna"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Lavora al computer in ufficio: ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "muratore",
+                  "imageUrl": null
+                },
+                {
+                  "text": "operaio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "impiegato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "part-time",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Lavora in fabbrica: ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "operaio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "impiegato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "esperienza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "muratore",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Lavora in cantiere: ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "esperienza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "operaio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "impiegato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "muratore",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Solo 20 ore a settimana: ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "muratore",
+                  "imageUrl": null
+                },
+                {
+                  "text": "esperienza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "part-time",
+                  "imageUrl": null
+                },
+                {
+                  "text": "full-time",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Anni di lavoro già fatti: ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "esperienza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "operaio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "impiegato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "part-time",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Scusi, ___ (potere - io) fissare un appuntamento per il colloquio?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "puoi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "può",
+                  "imageUrl": null
+                },
+                {
+                  "text": "possono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "posso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Noi ___ (dovere) arrivare al lavoro alle otto in punto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dovete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dobbiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "devono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "devo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Tu ___ (volere) lavorare full-time o part-time?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "voglio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vuoi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "volete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vuole",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · La mattina io ___ (svegliarsi) alle sei e mezza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sveglio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ti svegli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi sveglio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si sveglia",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · A che ora tu ___ (alzarsi) nei giorni feriali?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "si alza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ti alzi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alzi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi alzo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Prima di uscire lui ___ (lavarsi), si pettina e si veste.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ti lavi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi lavo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si lava",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lava",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Noi ___ (prepararsi) velocemente per andare a lezione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "si preparano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vi preparate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci prepariamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prepariamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · La sera loro ___ (addormentarsi) verso le undici.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ci addormentiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si addormentano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "addormentano",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si addormenta",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Ogni mattina io ___ alle sette e faccio colazione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi alzo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alzo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Al telefono con l'ufficio diciamo: «___»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vorrei fissare un appuntamento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Voglio un appuntamento",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Per chiedere in modo formale: «Quando ___ ricevermi per un colloquio?»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "può",
+                  "imageUrl": null
+                },
+                {
+                  "text": "puoi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"In the morning I wake up at seven\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "La mattina mi sveglio alle sette",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I'm looking for a part-time job\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Cerco un lavoro con orario part-time",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I would like to book an appointment for the interview\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vorrei fissare un appuntamento per il colloquio",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Written part for your teacher: complete the 5 sentences about your routine, your job and booking an appointment. Then prepare the 2-minute oral interview."
+        }
+      ]
+    }
+  ]
+}

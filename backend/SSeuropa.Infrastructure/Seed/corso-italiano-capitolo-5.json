@@ -1,0 +1,5618 @@
+{
+  "slug": "corso-italiano-capitolo-5",
+  "title": "Capitolo 5 · The city, directions and the home",
+  "shortDescription": "Places in town and public transport, andare and venire with in / a, asking for and giving directions, saying where things are (vicino a, di fronte a…), the rooms and furniture of the home, and the simple and articulated prepositions (al, dal, nel, sul…).",
+  "description": "Part of the official SS Europa Italian course used in our classes, for learners from India, Pakistan and Bangladesh who are going to Italy to work, study or live. Chapters 1–7 take you from zero to level A1 and Chapters 8–12 to level A2 — study them in order.\n\nEvery 60-minute class of the chapter is split into three short lessons you can study on your phone, with pictures, audio, grammar tables and exercises. Every word comes with its English and Punjabi meaning, the slides of each class are attached as PDF, and the chapter ends with a test (pass mark 60%).",
+  "objectives": "I can name places in town and say how I get there (in autobus, a piedi…)\nI can use andare and venire with in and a\nI can ask for directions and understand the answer\nI can say where a place is: vicino a, lontano da, di fronte a, accanto a, tra\nI can describe my home: rooms and furniture\nI can use the simple and articulated prepositions: a casa, dal medico, sul tavolo, nel frigo",
+  "level": "Beginner",
+  "cefrLevel": "A1",
+  "category": "Core",
+  "durationWeeks": 2,
+  "displayOrder": 4,
+  "thumbnailUrl": "/content/img/round-pushpin.png",
+  "previousTitles": [],
+  "splitFrom": "corso-italiano-a0",
+  "units": [
+    {
+      "key": "capitolo-5",
+      "order": 1,
+      "title": "Chapter 5: The city, directions and the home",
+      "titleIt": "Capitolo 5: La città, le indicazioni e la casa",
+      "description": "Places in town and public transport, andare and venire with in / a, asking for and giving directions, saying where things are (vicino a, di fronte a…), the rooms and furniture of the home, and the simple and articulated prepositions (al, dal, nel, sul…).",
+      "canDo": [
+        "I can name places in town and say how I get there (in autobus, a piedi…)",
+        "I can use andare and venire with in and a",
+        "I can ask for directions and understand the answer",
+        "I can say where a place is: vicino a, lontano da, di fronte a, accanto a, tra",
+        "I can describe my home: rooms and furniture",
+        "I can use the simple and articulated prepositions: a casa, dal medico, sul tavolo, nel frigo"
+      ],
+      "imageUrl": "/content/img/round-pushpin.png",
+      "pdfUrl": "/content/pdf/corso-italiano-a0-unit-05.pdf",
+      "liveClassFocus": "Map role-play: guide a partner from the station to the pharmacy, then describe your home (rooms and furniture) and where your things are.",
+      "status": "Published",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Lesson 1 · Places in town",
+          "titleIt": "Lezione 1 · I luoghi della città",
+          "kind": "Vocabulary",
+          "summary": "La stazione, la farmacia, la banca, la posta, la piazza, il parco…",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 5 · Lezione 1 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap5-lez1-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "I luoghi della città: servizi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "la stazione",
+                  "english": "train station",
+                  "punjabi": "Relve steshan",
+                  "pronunciation": "lah stah-tsee-OH-neh",
+                  "imageUrl": "/content/img/station.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la fermata dell'autobus",
+                  "english": "bus stop",
+                  "punjabi": "Bass adda",
+                  "pronunciation": "lah fehr-MAH-tah del-LOW-toh-boos",
+                  "imageUrl": "/content/img/bus-stop.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la farmacia",
+                  "english": "pharmacy",
+                  "punjabi": "Davaiaan di dukan",
+                  "pronunciation": "lah fahr-mah-CHEE-ah",
+                  "imageUrl": "/content/img/pill.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "l'ospedale",
+                  "english": "hospital",
+                  "punjabi": "Haspatal",
+                  "pronunciation": "los-peh-DAH-leh",
+                  "imageUrl": "/content/img/hospital.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la banca",
+                  "english": "bank",
+                  "punjabi": "Baink",
+                  "pronunciation": "lah BAHN-kah",
+                  "imageUrl": "/content/img/bank.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la posta",
+                  "english": "post office",
+                  "punjabi": "Daakkhana",
+                  "pronunciation": "lah POS-tah",
+                  "imageUrl": "/content/img/post-office.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il supermercato",
+                  "english": "supermarket",
+                  "punjabi": "Suparmarkit",
+                  "pronunciation": "eel soo-pehr-mehr-KAH-toh",
+                  "imageUrl": "/content/img/shopping-cart.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Spazi aperti",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "la piazza",
+                  "english": "square",
+                  "punjabi": "Chaunk",
+                  "pronunciation": "lah pee-AHT-tsah",
+                  "imageUrl": "/content/img/fountain.png",
+                  "audioUrl": null,
+                  "example": "La fermata dell'autobus è in piazza.",
+                  "exampleEnglish": "The bus stop is in the square."
+                },
+                {
+                  "italian": "il parco",
+                  "english": "park",
+                  "punjabi": "Paarak",
+                  "pronunciation": "eel PAHR-koh",
+                  "imageUrl": "/content/img/deciduous-tree.png",
+                  "audioUrl": null,
+                  "example": "La domenica porto i bambini al parco.",
+                  "exampleEnglish": "On Sunday I take the children to the park."
+                },
+                {
+                  "italian": "il centro",
+                  "english": "town centre",
+                  "punjabi": "Shahir da kendar",
+                  "pronunciation": "eel CHEN-troh",
+                  "imageUrl": "/content/img/cityscape.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**La piazza** is the heart of every Italian town: you find the bar, shops, the market and often the bus stop there.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la fermata dell'autobus",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la banca",
+                  "imageUrl": "/content/img/bank.png"
+                },
+                {
+                  "text": "il supermercato",
+                  "imageUrl": "/content/img/shopping-cart.png"
+                },
+                {
+                  "text": "la fermata dell'autobus",
+                  "imageUrl": "/content/img/bus-stop.png"
+                },
+                {
+                  "text": "la farmacia",
+                  "imageUrl": "/content/img/pill.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la fermata dell'autobus = bus stop"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il centro",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il supermercato",
+                  "imageUrl": "/content/img/shopping-cart.png"
+                },
+                {
+                  "text": "l'ospedale",
+                  "imageUrl": "/content/img/hospital.png"
+                },
+                {
+                  "text": "la stazione",
+                  "imageUrl": "/content/img/station.png"
+                },
+                {
+                  "text": "il centro",
+                  "imageUrl": "/content/img/cityscape.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il centro = town centre"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la farmacia",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la banca",
+                  "imageUrl": "/content/img/bank.png"
+                },
+                {
+                  "text": "la farmacia",
+                  "imageUrl": "/content/img/pill.png"
+                },
+                {
+                  "text": "il centro",
+                  "imageUrl": "/content/img/cityscape.png"
+                },
+                {
+                  "text": "la stazione",
+                  "imageUrl": "/content/img/station.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la farmacia = pharmacy"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/station.png",
+              "options": [
+                {
+                  "text": "la stazione",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il centro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la piazza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il supermercato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la stazione = train station"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/hospital.png",
+              "options": [
+                {
+                  "text": "la farmacia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'ospedale",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la piazza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il supermercato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'ospedale = hospital"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la stazione",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bus stop",
+                  "imageUrl": null
+                },
+                {
+                  "text": "park",
+                  "imageUrl": null
+                },
+                {
+                  "text": "square",
+                  "imageUrl": null
+                },
+                {
+                  "text": "train station",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'ospedale",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hospital",
+                  "imageUrl": null
+                },
+                {
+                  "text": "park",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bus stop",
+                  "imageUrl": null
+                },
+                {
+                  "text": "town centre",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "il parco",
+                  "right": "park"
+                },
+                {
+                  "left": "la piazza",
+                  "right": "square"
+                },
+                {
+                  "left": "il supermercato",
+                  "right": "supermarket"
+                },
+                {
+                  "left": "la posta",
+                  "right": "post office"
+                },
+                {
+                  "left": "la stazione",
+                  "right": "train station"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You need medicine. Where do you go?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in posta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in banca",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al parco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in farmacia",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You want to send a letter. Where do you go?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in stazione",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in farmacia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in posta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al supermercato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You want to take the train. Where do you go?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in banca",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in stazione",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in ospedale",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in piazza",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the 5 places in your town that you go to most often."
+        },
+        {
+          "order": 2,
+          "title": "Lesson 1 · Getting around: transport",
+          "titleIt": "Lezione 1 · I mezzi di trasporto",
+          "kind": "Vocabulary",
+          "summary": "L'autobus, il treno, il tram, la metro, la macchina, la bici — and a piedi.",
+          "estimatedMinutes": 8,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "I trasporti pubblici",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "l'autobus",
+                  "english": "bus",
+                  "punjabi": "Bass",
+                  "pronunciation": "LOW-toh-boos",
+                  "imageUrl": "/content/img/bus.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il treno",
+                  "english": "train",
+                  "punjabi": "Rel gaddi",
+                  "pronunciation": "eel TREH-noh",
+                  "imageUrl": "/content/img/high-speed-train.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il tram",
+                  "english": "tram",
+                  "punjabi": "Traam",
+                  "pronunciation": "eel TRAHM",
+                  "imageUrl": "/content/img/tram.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la metropolitana (la metro)",
+                  "english": "underground / metro",
+                  "punjabi": "Metro",
+                  "pronunciation": "lah meh-troh-poh-lee-TAH-nah",
+                  "imageUrl": "/content/img/metro.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Mezzi privati e a piedi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "la macchina (l'auto)",
+                  "english": "car",
+                  "punjabi": "Kaar / Gaddi",
+                  "pronunciation": "lah MAHK-kee-nah",
+                  "imageUrl": "/content/img/automobile.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la bicicletta (la bici)",
+                  "english": "bicycle",
+                  "punjabi": "Saikil",
+                  "pronunciation": "lah bee-chee-KLET-tah",
+                  "imageUrl": "/content/img/bicycle.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "a piedi",
+                  "english": "on foot",
+                  "punjabi": "Paidal",
+                  "pronunciation": "ah pee-EH-dee",
+                  "imageUrl": "/content/img/person-walking.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Examples",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Prendo il treno in stazione alle otto.",
+                  "english": "I take the train at the station at eight.",
+                  "punjabi": "Main atth vaje steshan ton tren lainda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Vado al lavoro in bici o a piedi.",
+                  "english": "I go to work by bike or on foot.",
+                  "punjabi": "Main saikil te jaan paidal kamm te jaanda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "With a vehicle use **in**: *in autobus, in treno, in macchina, in bici*. Without a vehicle: **a piedi**.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il tram",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il tram",
+                  "imageUrl": "/content/img/tram.png"
+                },
+                {
+                  "text": "la macchina (l'auto)",
+                  "imageUrl": "/content/img/automobile.png"
+                },
+                {
+                  "text": "il treno",
+                  "imageUrl": "/content/img/high-speed-train.png"
+                },
+                {
+                  "text": "l'autobus",
+                  "imageUrl": "/content/img/bus.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il tram = tram"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la metropolitana (la metro)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la metropolitana (la metro)",
+                  "imageUrl": "/content/img/metro.png"
+                },
+                {
+                  "text": "a piedi",
+                  "imageUrl": "/content/img/person-walking.png"
+                },
+                {
+                  "text": "l'autobus",
+                  "imageUrl": "/content/img/bus.png"
+                },
+                {
+                  "text": "la bicicletta (la bici)",
+                  "imageUrl": "/content/img/bicycle.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la metropolitana (la metro) = underground / metro"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "l'autobus",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la macchina (l'auto)",
+                  "imageUrl": "/content/img/automobile.png"
+                },
+                {
+                  "text": "il treno",
+                  "imageUrl": "/content/img/high-speed-train.png"
+                },
+                {
+                  "text": "l'autobus",
+                  "imageUrl": "/content/img/bus.png"
+                },
+                {
+                  "text": "la bicicletta (la bici)",
+                  "imageUrl": "/content/img/bicycle.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'autobus = bus"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/person-walking.png",
+              "options": [
+                {
+                  "text": "la macchina (l'auto)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a piedi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'autobus",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il treno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "a piedi = on foot"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/automobile.png",
+              "options": [
+                {
+                  "text": "la bicicletta (la bici)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il treno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la metropolitana (la metro)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la macchina (l'auto)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la macchina (l'auto) = car"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "a piedi",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "on foot",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tram",
+                  "imageUrl": null
+                },
+                {
+                  "text": "underground / metro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bus",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la macchina (l'auto)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "underground / metro",
+                  "imageUrl": null
+                },
+                {
+                  "text": "train",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tram",
+                  "imageUrl": null
+                },
+                {
+                  "text": "car",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "la metropolitana (la metro)",
+                  "right": "underground / metro"
+                },
+                {
+                  "left": "la macchina (l'auto)",
+                  "right": "car"
+                },
+                {
+                  "left": "a piedi",
+                  "right": "on foot"
+                },
+                {
+                  "left": "la bicicletta (la bici)",
+                  "right": "bicycle"
+                },
+                {
+                  "left": "il treno",
+                  "right": "train"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vado al lavoro ___ autobus.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "per",
+                  "imageUrl": null
+                },
+                {
+                  "text": "con il",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vado a scuola ___ piedi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "per",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "con",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la macchina",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bus",
+                  "imageUrl": null
+                },
+                {
+                  "text": "train",
+                  "imageUrl": null
+                },
+                {
+                  "text": "car",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bicycle",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write how you go to work, to school and to the supermarket (in autobus, a piedi…)."
+        },
+        {
+          "order": 3,
+          "title": "Lesson 1 · Andare and venire with in / a",
+          "titleIt": "Lezione 1 · Andare, venire e le preposizioni in / a",
+          "kind": "Dialogue",
+          "summary": "Vado in banca, vado al parco, vieni con me? — with a dialogue.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "ANDARE e VENIRE (irregolari)",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "ANDARE (go · jaana)",
+                  "VENIRE (come · auna)",
+                  "Esempio"
+                ],
+                [
+                  "io",
+                  "vado",
+                  "vengo",
+                  "Io vado in banca; vengo a casa alle sei."
+                ],
+                [
+                  "tu",
+                  "vai",
+                  "vieni",
+                  "Dove vai adesso? Vieni al parco con me?"
+                ],
+                [
+                  "lui / lei",
+                  "va",
+                  "viene",
+                  "Lei va in farmacia; lui viene in stazione."
+                ],
+                [
+                  "noi",
+                  "andiamo",
+                  "veniamo",
+                  "Noi andiamo al supermercato insieme."
+                ],
+                [
+                  "voi",
+                  "andate",
+                  "venite",
+                  "A che ora andate in posta oggi?"
+                ],
+                [
+                  "loro",
+                  "vanno",
+                  "vengono",
+                  "Loro vanno in ospedale in autobus."
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "3 regole d'oro: IN, AL / ALLA e A PIEDI",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "IN + place (no article)",
+                  "A + article (AL / ALLA)",
+                  "IN + vehicle"
+                ],
+                [
+                  "in banca, in posta, in farmacia",
+                  "al supermercato, al parco, al bar",
+                  "in autobus, in treno, in macchina"
+                ],
+                [
+                  "in ospedale, in stazione, in piazza, in città",
+                  "alla fermata dell'autobus, a casa",
+                  "in bicicletta, in metro — but A PIEDI!"
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": null,
+              "body": "**ANDARE** = movement towards another place. **VENIRE** = movement towards the person who speaks or listens: *Vieni con me?* (Are you coming with me?)",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Marco meets Sara in the street.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: Dove vai stamattina?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Marco",
+                  "italian": "Ciao Sara! Dove vai così di fretta?",
+                  "english": "Hi Sara! Where are you going in such a hurry?",
+                  "punjabi": "Sat Sri Akal Sara! Ini kaahli kitthe ja rahi hain?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Sara",
+                  "italian": "Ciao Marco! Vado in posta e poi in farmacia. Tu dove vai?",
+                  "english": "Hi Marco! I'm going to the post office and then to the pharmacy. Where are you going?",
+                  "punjabi": "Main daakkhane ate phir davaiaan di dukan ja rahi haan. Tu kitthe ja riha hain?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Marco",
+                  "italian": "Io vado al supermercato. Ci vai a piedi o in autobus?",
+                  "english": "I'm going to the supermarket. Are you going on foot or by bus?",
+                  "punjabi": "Main suparmarkit ja riha haan. Paidal ja rahi hain jaan bass raahi?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Sara",
+                  "italian": "Vado in autobus: la fermata è lì in piazza. Vieni con me?",
+                  "english": "By bus: the stop is there in the square. Are you coming with me?",
+                  "punjabi": "Bass raahi: adda othe chaunk vich hai. Mere naal chalega?",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Stamattina io ___ in farmacia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "va",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vado",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vanno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ al parco con noi?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "viene",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vieni",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vengo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Marco e Sara ___ a Milano in treno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "va",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ a scuola in bicicletta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "venite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "veniamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vengono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vengo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vado ___ banca.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vado ___ supermercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Sara is going to the post office and the pharmacy.)",
+              "italian": "Sara va in posta e in farmacia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Sara is going on foot.)",
+              "italian": "Sara va a piedi.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play: ask a partner \"Dove vai oggi? Come ci vai?\" and answer with two places and a means of transport."
+        },
+        {
+          "order": 4,
+          "title": "Lesson 2 · Asking for directions",
+          "titleIt": "Lezione 2 · Chiedere la strada",
+          "kind": "Vocabulary",
+          "summary": "Scusi, dov'è…? Sempre dritto, a destra, a sinistra, attraversa, all'incrocio…",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 5 · Lezione 2 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap5-lez2-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Chiedere la strada e le direzioni",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Scusi, dov'è…?",
+                  "english": "Excuse me, where is…?",
+                  "punjabi": "Maaf karna, … kitthe hai?",
+                  "pronunciation": "SKOO-zee doh-VEH",
+                  "imageUrl": "/content/img/person-tipping-hand.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Per andare a…?",
+                  "english": "How do I get to…?",
+                  "punjabi": "… kiven jaana hai?",
+                  "pronunciation": "pehr ahn-DAH-reh ah",
+                  "imageUrl": "/content/img/world-map.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Vai (Vada) sempre dritto.",
+                  "english": "Go straight ahead.",
+                  "punjabi": "Sidha jao.",
+                  "pronunciation": "VAH-ee SEM-preh DREET-toh",
+                  "imageUrl": "/content/img/up-arrow.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Gira (Giri) a destra.",
+                  "english": "Turn right.",
+                  "punjabi": "Sajje paase mudo.",
+                  "pronunciation": "JEE-rah ah DES-trah",
+                  "imageUrl": "/content/img/right-arrow.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Gira (Giri) a sinistra.",
+                  "english": "Turn left.",
+                  "punjabi": "Khabbe paase mudo.",
+                  "pronunciation": "JEE-rah ah see-NEES-trah",
+                  "imageUrl": "/content/img/left-arrow.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Attraversare e orientarsi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Attraversa la strada.",
+                  "english": "Cross the road.",
+                  "punjabi": "Sadak paar karo.",
+                  "pronunciation": "aht-trah-VEHR-sah",
+                  "imageUrl": "/content/img/person-walking.png",
+                  "audioUrl": null,
+                  "example": "Attraversa la piazza sulle strisce.",
+                  "exampleEnglish": "Cross the square on the zebra crossing."
+                },
+                {
+                  "italian": "all'incrocio",
+                  "english": "at the crossroads",
+                  "punjabi": "Chaurahe te",
+                  "pronunciation": "leen-KROH-choh",
+                  "imageUrl": "/content/img/motorway.png",
+                  "audioUrl": null,
+                  "example": "All'incrocio gira a destra in Via Roma.",
+                  "exampleEnglish": "At the crossroads turn right into Via Roma."
+                },
+                {
+                  "italian": "Prendi la prima / seconda strada.",
+                  "english": "Take the first / second street.",
+                  "punjabi": "Pahili / duji gali lao.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/motorway.png",
+                  "audioUrl": null,
+                  "example": "Prendi la prima strada a sinistra.",
+                  "exampleEnglish": "Take the first street on the left."
+                },
+                {
+                  "italian": "il semaforo",
+                  "english": "traffic lights",
+                  "punjabi": "Traifik lait",
+                  "pronunciation": "eel seh-MAH-foh-roh",
+                  "imageUrl": "/content/img/vertical-traffic-light.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Vai, gira, attraversa** are for a friend (tu). With a stranger use the polite form: **Vada** sempre dritto, **giri** a destra, **attraversi** la strada.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "all'incrocio",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vai (Vada) sempre dritto.",
+                  "imageUrl": "/content/img/up-arrow.png"
+                },
+                {
+                  "text": "all'incrocio",
+                  "imageUrl": "/content/img/motorway.png"
+                },
+                {
+                  "text": "il semaforo",
+                  "imageUrl": "/content/img/vertical-traffic-light.png"
+                },
+                {
+                  "text": "Gira (Giri) a destra.",
+                  "imageUrl": "/content/img/right-arrow.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "all'incrocio = at the crossroads"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Gira (Giri) a destra.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vai (Vada) sempre dritto.",
+                  "imageUrl": "/content/img/up-arrow.png"
+                },
+                {
+                  "text": "Gira (Giri) a destra.",
+                  "imageUrl": "/content/img/right-arrow.png"
+                },
+                {
+                  "text": "il semaforo",
+                  "imageUrl": "/content/img/vertical-traffic-light.png"
+                },
+                {
+                  "text": "Prendi la prima / seconda strada.",
+                  "imageUrl": "/content/img/motorway.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Gira (Giri) a destra. = Turn right."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Prendi la prima / seconda strada.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Attraversa la strada.",
+                  "imageUrl": "/content/img/person-walking.png"
+                },
+                {
+                  "text": "Scusi, dov'è…?",
+                  "imageUrl": "/content/img/person-tipping-hand.png"
+                },
+                {
+                  "text": "Gira (Giri) a destra.",
+                  "imageUrl": "/content/img/right-arrow.png"
+                },
+                {
+                  "text": "Prendi la prima / seconda strada.",
+                  "imageUrl": "/content/img/motorway.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Prendi la prima / seconda strada. = Take the first / second street."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/world-map.png",
+              "options": [
+                {
+                  "text": "Per andare a…?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Prendi la prima / seconda strada.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vai (Vada) sempre dritto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Gira (Giri) a destra.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Per andare a…? = How do I get to…?"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/person-tipping-hand.png",
+              "options": [
+                {
+                  "text": "il semaforo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Attraversa la strada.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Per andare a…?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Scusi, dov'è…?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Scusi, dov'è…? = Excuse me, where is…?"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Per andare a…?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "traffic lights",
+                  "imageUrl": null
+                },
+                {
+                  "text": "How do I get to…?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "at the crossroads",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Take the first / second street.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Scusi, dov'è…?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "traffic lights",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Cross the road.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Go straight ahead.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Excuse me, where is…?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Scusi, dov'è…?",
+                  "right": "Excuse me, where is…?"
+                },
+                {
+                  "left": "Gira (Giri) a destra.",
+                  "right": "Turn right."
+                },
+                {
+                  "left": "il semaforo",
+                  "right": "traffic lights"
+                },
+                {
+                  "left": "Gira (Giri) a sinistra.",
+                  "right": "Turn left."
+                },
+                {
+                  "left": "Attraversa la strada.",
+                  "right": "Cross the road."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Gira a destra\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Cross the road",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Go straight on",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Turn right",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Turn left",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Sempre dritto\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Turn back",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Always right",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Straight ahead",
+                  "imageUrl": null
+                },
+                {
+                  "text": "At the corner",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You ask a stranger the way. You start with…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Che ore sono?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Quanto costa?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Scusi, dov'è…?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ciao, dove vai?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write how to go from your home to the nearest bus stop (vai sempre dritto, gira a…)."
+        },
+        {
+          "order": 5,
+          "title": "Lesson 2 · Where is it? Vicino a, di fronte a…",
+          "titleIt": "Lezione 2 · Le preposizioni di posizione",
+          "kind": "Grammar",
+          "summary": "Vicino a, lontano da, di fronte a, accanto a, tra… e…",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Dove si trova?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Espressione",
+                  "+ articolo",
+                  "English / Punjabi",
+                  "Esempio"
+                ],
+                [
+                  "VICINO A",
+                  "vicino al / alla / all'",
+                  "near · de nede",
+                  "La farmacia è vicino alla banca."
+                ],
+                [
+                  "LONTANO DA",
+                  "lontano dal / dalla / dall'",
+                  "far from · ton door",
+                  "La stazione è lontano dal parco."
+                ],
+                [
+                  "DI FRONTE A",
+                  "di fronte al / alla / all'",
+                  "opposite · de saahmane",
+                  "La posta è di fronte al supermercato."
+                ],
+                [
+                  "ACCANTO A",
+                  "accanto al / alla / all'",
+                  "next to · de bilkul naal",
+                  "Il bar è accanto alla fermata dell'autobus."
+                ],
+                [
+                  "TRA / IN MEZZO A",
+                  "tra … e …",
+                  "between · de vichkar",
+                  "La banca è tra la stazione e la posta."
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Frasi utili in città",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "vicino a",
+                  "english": "near (2 minutes on foot)",
+                  "punjabi": "De nede",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Il supermercato è vicino al parco.",
+                  "exampleEnglish": "The supermarket is near the park."
+                },
+                {
+                  "italian": "lontano da",
+                  "english": "far from (you need the bus)",
+                  "punjabi": "Ton door",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "Casa mia è lontano dal centro.",
+                  "exampleEnglish": "My home is far from the centre."
+                },
+                {
+                  "italian": "di fronte a",
+                  "english": "opposite (other side of the road)",
+                  "punjabi": "De saahmane",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "La banca è di fronte alla piazza centrale.",
+                  "exampleEnglish": "The bank is opposite the main square."
+                },
+                {
+                  "italian": "accanto a",
+                  "english": "next to (right beside)",
+                  "punjabi": "De bilkul naal",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": "La posta è accanto alla banca.",
+                  "exampleEnglish": "The post office is next to the bank."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**A** and **DA** join the article: vicino **al** parco (a + il), vicino **alla** banca (a + la), lontano **dal** centro (da + il), lontano **dalla** stazione (da + la).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La farmacia è vicino ___ banca.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "della",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dalla",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La stazione è lontano ___ parco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dal",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La posta è di fronte ___ supermercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "alla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dal",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il bar è accanto ___ fermata dell'autobus.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dalla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nella",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alla",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La banca è ___ la stazione e la posta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vicino",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tra",
+                  "imageUrl": null
+                },
+                {
+                  "text": "di fronte",
+                  "imageUrl": null
+                },
+                {
+                  "text": "accanto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Di fronte a\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "next to",
+                  "imageUrl": null
+                },
+                {
+                  "text": "opposite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "between",
+                  "imageUrl": null
+                },
+                {
+                  "text": "far from",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Accanto a\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "next to",
+                  "imageUrl": null
+                },
+                {
+                  "text": "behind",
+                  "imageUrl": null
+                },
+                {
+                  "text": "opposite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "far from",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"The post office is next to the bank\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "La posta è accanto alla banca",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Describe where 3 places are near your home (Il supermercato è vicino a…, La farmacia è di fronte a…)."
+        },
+        {
+          "order": 6,
+          "title": "Lesson 2 · Dialogue: How do I get to the pharmacy?",
+          "titleIt": "Lezione 2 · Dialogo: Scusi, per andare in farmacia?",
+          "kind": "Dialogue",
+          "summary": "Directions in the street and reading a simple town map.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "A person asks a passer-by the way to the pharmacy.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: Scusi, per andare in farmacia?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Passante 1",
+                  "italian": "Scusi, per andare alla farmacia centrale? È lontano da qui?",
+                  "english": "Excuse me, how do I get to the main pharmacy? Is it far from here?",
+                  "punjabi": "Maaf karna, vaddi davaiaan di dukan kiven jaana hai? Ki ithon door hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Passante 2",
+                  "italian": "No, è molto vicino! Vai sempre dritto fino all'incrocio con Via Roma.",
+                  "english": "No, it's very close! Go straight on until the crossroads with Via Roma.",
+                  "punjabi": "Nahi, bahut nede hai! Via Roma de chaurahe tak sidha jao.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Passante 2",
+                  "italian": "All'incrocio gira a sinistra e attraversa Piazza Centrale.",
+                  "english": "At the crossroads turn left and cross the main square.",
+                  "punjabi": "Chaurahe te khabbe mudo ate chaunk paar karo.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Passante 2",
+                  "italian": "La farmacia è lì, di fronte alla posta e accanto al bar!",
+                  "english": "The pharmacy is right there, opposite the post office and next to the café!",
+                  "punjabi": "Davaiaan di dukan othe hai, daakkhane de saahmane ate baar de naal!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Orientarsi sulla piantina (the town map)",
+              "body": "On the map: **Corso Italia** goes north–south, **Via Roma** and **Via Verdi** cross it.\n\n- **Dalla stazione al bar:** vai sempre dritto in Corso Italia — il bar è di fronte alla Piazza Centrale.\n- **Dove si trova la posta?** La posta è accanto alla banca e di fronte alla farmacia.\n- **Dal parco all'ospedale:** attraversa Piazza Centrale, vai in Via Verdi e gira a destra — è lontano dalla stazione.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play sulla mappa: guidami in città!",
+              "body": "1. **Studente A chiede:** «Scusi, per andare dalla stazione all'ospedale / al supermercato?»\n2. **Studente B guida:** vai sempre dritto, all'incrocio, gira a destra / sinistra, attraversa.\n3. **Indica la posizione:** vicino a, lontano da, di fronte a, accanto a — poi cambiate ruolo!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The pharmacy is far.)",
+              "italian": "La farmacia è lontano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (At the crossroads he must turn left.)",
+              "italian": "All'incrocio deve girare a sinistra.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The pharmacy is next to the café.)",
+              "italian": "La farmacia è accanto al bar.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The pharmacy is opposite the station.)",
+              "italian": "La farmacia è di fronte alla stazione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Go straight on until the crossroads\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vai sempre dritto fino all'incrocio",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Turn left and cross the square\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Gira a sinistra e attraversa la piazza",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play on the map with a partner: give directions from the station to the hospital, then change roles."
+        },
+        {
+          "order": 7,
+          "title": "Lesson 3 · The rooms of the house",
+          "titleIt": "Lezione 3 · Le stanze della casa",
+          "kind": "Vocabulary",
+          "summary": "L'ingresso, il soggiorno, la cucina, la camera da letto, il bagno, il balcone…",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 5 · Lezione 3 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap5-lez3-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Le stanze della casa",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "l'ingresso",
+                  "english": "entrance / hallway",
+                  "punjabi": "Pravesh duar",
+                  "pronunciation": "leen-GRES-soh",
+                  "imageUrl": "/content/img/door.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il soggiorno",
+                  "english": "living room",
+                  "punjabi": "Baithak / Living room",
+                  "pronunciation": "eel sod-JOR-noh",
+                  "imageUrl": "/content/img/couch-and-lamp.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la cucina",
+                  "english": "kitchen",
+                  "punjabi": "Rasoi",
+                  "pronunciation": "lah koo-CHEE-nah",
+                  "imageUrl": "/content/img/cooking.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la camera da letto",
+                  "english": "bedroom",
+                  "punjabi": "Saun vaala kamra",
+                  "pronunciation": "lah KAH-meh-rah dah LET-toh",
+                  "imageUrl": "/content/img/bed.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il bagno",
+                  "english": "bathroom",
+                  "punjabi": "Baathrum",
+                  "pronunciation": "eel BAHN-yoh",
+                  "imageUrl": "/content/img/bathtub.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il balcone",
+                  "english": "balcony",
+                  "punjabi": "Baalkani",
+                  "pronunciation": "eel bahl-KOH-neh",
+                  "imageUrl": "/content/img/potted-plant.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il giardino",
+                  "english": "garden",
+                  "punjabi": "Bagicha",
+                  "pronunciation": "eel jahr-DEE-noh",
+                  "imageUrl": "/content/img/house-with-garden.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "l'appartamento",
+                  "english": "apartment / flat",
+                  "punjabi": "Flait",
+                  "pronunciation": "lahp-pahr-tah-MEN-toh",
+                  "imageUrl": "/content/img/office-building.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Examples",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "In casa mia ci sono due camere da letto.",
+                  "english": "In my home there are two bedrooms.",
+                  "punjabi": "Mere ghar vich do kamre han.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Il bagno è accanto alla camera da letto.",
+                  "english": "The bathroom is next to the bedroom.",
+                  "punjabi": "Baathrum kamre de naal hai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Abito in un appartamento al secondo piano.",
+                  "english": "I live in a flat on the second floor.",
+                  "punjabi": "Main duji manzil te flait vich rahinda haan.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la camera da letto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la camera da letto",
+                  "imageUrl": "/content/img/bed.png"
+                },
+                {
+                  "text": "il balcone",
+                  "imageUrl": "/content/img/potted-plant.png"
+                },
+                {
+                  "text": "l'ingresso",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "il bagno",
+                  "imageUrl": "/content/img/bathtub.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la camera da letto = bedroom"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "l'appartamento",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la camera da letto",
+                  "imageUrl": "/content/img/bed.png"
+                },
+                {
+                  "text": "il giardino",
+                  "imageUrl": "/content/img/house-with-garden.png"
+                },
+                {
+                  "text": "l'appartamento",
+                  "imageUrl": "/content/img/office-building.png"
+                },
+                {
+                  "text": "il soggiorno",
+                  "imageUrl": "/content/img/couch-and-lamp.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'appartamento = apartment / flat"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il soggiorno",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il bagno",
+                  "imageUrl": "/content/img/bathtub.png"
+                },
+                {
+                  "text": "la camera da letto",
+                  "imageUrl": "/content/img/bed.png"
+                },
+                {
+                  "text": "il balcone",
+                  "imageUrl": "/content/img/potted-plant.png"
+                },
+                {
+                  "text": "il soggiorno",
+                  "imageUrl": "/content/img/couch-and-lamp.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il soggiorno = living room"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/house-with-garden.png",
+              "options": [
+                {
+                  "text": "il soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'appartamento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la camera da letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il giardino",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il giardino = garden"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/bathtub.png",
+              "options": [
+                {
+                  "text": "l'ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'appartamento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il bagno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il giardino",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il bagno = bathroom"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "il giardino",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "balcony",
+                  "imageUrl": null
+                },
+                {
+                  "text": "garden",
+                  "imageUrl": null
+                },
+                {
+                  "text": "apartment / flat",
+                  "imageUrl": null
+                },
+                {
+                  "text": "living room",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "il bagno",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "balcony",
+                  "imageUrl": null
+                },
+                {
+                  "text": "apartment / flat",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bathroom",
+                  "imageUrl": null
+                },
+                {
+                  "text": "entrance / hallway",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "il giardino",
+                  "right": "garden"
+                },
+                {
+                  "left": "il soggiorno",
+                  "right": "living room"
+                },
+                {
+                  "left": "la cucina",
+                  "right": "kitchen"
+                },
+                {
+                  "left": "il bagno",
+                  "right": "bathroom"
+                },
+                {
+                  "left": "l'ingresso",
+                  "right": "entrance / hallway"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where do you sleep?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "nell'ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nella camera da letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sul balcone",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in cucina",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where do you cook?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in bagno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in camera da letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in cucina",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where do you have a shower?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nell'ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in bagno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the rooms of your home in Italian."
+        },
+        {
+          "order": 8,
+          "title": "Lesson 3 · Furniture and appliances",
+          "titleIt": "Lezione 3 · I mobili e gli elettrodomestici",
+          "kind": "Vocabulary",
+          "summary": "Il letto, l'armadio, il tavolo, la sedia, il divano, il frigo, la lavatrice.",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "I mobili principali della casa",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "il letto",
+                  "english": "bed",
+                  "punjabi": "Baid / Manjha",
+                  "pronunciation": "eel LET-toh",
+                  "imageUrl": "/content/img/bed.png",
+                  "audioUrl": null,
+                  "example": "Nella camera da letto.",
+                  "exampleEnglish": "In the bedroom."
+                },
+                {
+                  "italian": "l'armadio",
+                  "english": "wardrobe",
+                  "punjabi": "Almari",
+                  "pronunciation": "lahr-MAH-dee-oh",
+                  "imageUrl": "/content/img/door.png",
+                  "audioUrl": null,
+                  "example": "Nella camera da letto.",
+                  "exampleEnglish": "In the bedroom."
+                },
+                {
+                  "italian": "il tavolo",
+                  "english": "table",
+                  "punjabi": "Mez",
+                  "pronunciation": "eel TAH-voh-loh",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png",
+                  "audioUrl": null,
+                  "example": "In cucina / in soggiorno.",
+                  "exampleEnglish": "In the kitchen / living room."
+                },
+                {
+                  "italian": "la sedia",
+                  "english": "chair",
+                  "punjabi": "Kursi",
+                  "pronunciation": "lah SEH-dee-ah",
+                  "imageUrl": "/content/img/chair.png",
+                  "audioUrl": null,
+                  "example": "In cucina / in soggiorno.",
+                  "exampleEnglish": "In the kitchen / living room."
+                },
+                {
+                  "italian": "il divano",
+                  "english": "sofa",
+                  "punjabi": "Sofa",
+                  "pronunciation": "eel dee-VAH-noh",
+                  "imageUrl": "/content/img/couch-and-lamp.png",
+                  "audioUrl": null,
+                  "example": "In soggiorno.",
+                  "exampleEnglish": "In the living room."
+                },
+                {
+                  "italian": "il frigo (frigorifero)",
+                  "english": "fridge",
+                  "punjabi": "Frij",
+                  "pronunciation": "eel FREE-goh",
+                  "imageUrl": "/content/img/ice.png",
+                  "audioUrl": null,
+                  "example": "In cucina.",
+                  "exampleEnglish": "In the kitchen."
+                },
+                {
+                  "italian": "la lavatrice",
+                  "english": "washing machine",
+                  "punjabi": "Kapde dhon vaali mashin",
+                  "pronunciation": "lah lah-vah-TREE-cheh",
+                  "imageUrl": "/content/img/bubbles.png",
+                  "audioUrl": null,
+                  "example": "In bagno / in cucina.",
+                  "exampleEnglish": "In the bathroom / kitchen."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Singolare e plurale",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Singolare",
+                  "Plurale",
+                  "Dove si trova?"
+                ],
+                [
+                  "il letto",
+                  "i letti",
+                  "nella camera da letto"
+                ],
+                [
+                  "l'armadio",
+                  "gli armadi",
+                  "nella camera da letto"
+                ],
+                [
+                  "il tavolo",
+                  "i tavoli",
+                  "in cucina / in soggiorno"
+                ],
+                [
+                  "la sedia",
+                  "le sedie",
+                  "in cucina / in soggiorno"
+                ],
+                [
+                  "il divano",
+                  "i divani",
+                  "in soggiorno"
+                ],
+                [
+                  "il frigo",
+                  "i frigo",
+                  "in cucina"
+                ],
+                [
+                  "la lavatrice",
+                  "le lavatrici",
+                  "in bagno / in cucina"
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Il frigo** (short for frigorifero) doesn't change in the plural: *un frigo, due frigo*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il frigo (frigorifero)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il tavolo",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                },
+                {
+                  "text": "il divano",
+                  "imageUrl": "/content/img/couch-and-lamp.png"
+                },
+                {
+                  "text": "il frigo (frigorifero)",
+                  "imageUrl": "/content/img/ice.png"
+                },
+                {
+                  "text": "la sedia",
+                  "imageUrl": "/content/img/chair.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il frigo (frigorifero) = fridge"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il divano",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la sedia",
+                  "imageUrl": "/content/img/chair.png"
+                },
+                {
+                  "text": "la lavatrice",
+                  "imageUrl": "/content/img/bubbles.png"
+                },
+                {
+                  "text": "il divano",
+                  "imageUrl": "/content/img/couch-and-lamp.png"
+                },
+                {
+                  "text": "il tavolo",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il divano = sofa"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il tavolo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "l'armadio",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "la lavatrice",
+                  "imageUrl": "/content/img/bubbles.png"
+                },
+                {
+                  "text": "il tavolo",
+                  "imageUrl": "/content/img/fork-and-knife-with-plate.png"
+                },
+                {
+                  "text": "la sedia",
+                  "imageUrl": "/content/img/chair.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il tavolo = table"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/chair.png",
+              "options": [
+                {
+                  "text": "la lavatrice",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'armadio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la sedia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il divano",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la sedia = chair"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/bed.png",
+              "options": [
+                {
+                  "text": "il letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il tavolo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la sedia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "il divano",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il letto = bed"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la sedia",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fridge",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chair",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bed",
+                  "imageUrl": null
+                },
+                {
+                  "text": "table",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "il letto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fridge",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sofa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bed",
+                  "imageUrl": null
+                },
+                {
+                  "text": "washing machine",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "la lavatrice",
+                  "right": "washing machine"
+                },
+                {
+                  "left": "il divano",
+                  "right": "sofa"
+                },
+                {
+                  "left": "il letto",
+                  "right": "bed"
+                },
+                {
+                  "left": "l'armadio",
+                  "right": "wardrobe"
+                },
+                {
+                  "left": "la sedia",
+                  "right": "chair"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where is the bed (il letto)?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "nella camera da letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in bagno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nell'ingresso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where is the fridge (il frigo)?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in bagno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in camera da letto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where is the sofa (il divano)?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "nell'ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in bagno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where is the wardrobe (l'armadio)?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in bagno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sul balcone",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nella camera da letto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where is the washing machine (la lavatrice)?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in bagno / in cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in camera da letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nell'ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in soggiorno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What is the plural of \"la sedia\"?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "gli sedie",
+                  "imageUrl": null
+                },
+                {
+                  "text": "i sedi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le sedia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "le sedie",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'armadio",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sofa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "table",
+                  "imageUrl": null
+                },
+                {
+                  "text": "wardrobe",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fridge",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the furniture in each room of your home."
+        },
+        {
+          "order": 9,
+          "title": "Lesson 3 · Dialogue: your new flat",
+          "titleIt": "Lezione 3 · Dialogo: com'è il tuo nuovo appartamento?",
+          "kind": "Dialogue",
+          "summary": "Priya describes her new flat — and in / nella / nell' with c'è and ci sono.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Dire cosa c'è nelle stanze: IN, NELLA, NELL'",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Forma",
+                  "Stanze",
+                  "Esempio"
+                ],
+                [
+                  "IN",
+                  "cucina, soggiorno, bagno",
+                  "In cucina c'è il frigo."
+                ],
+                [
+                  "NELLA",
+                  "camera da letto",
+                  "Nella camera c'è l'armadio."
+                ],
+                [
+                  "NELL'",
+                  "ingresso",
+                  "Nell'ingresso c'è una sedia."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": null,
+              "body": "Remember: **c'è** + singular (un divano, un letto) · **ci sono** + plural (quattro sedie, due letti)!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Amir asks Priya about her new flat.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: com'è il tuo nuovo appartamento?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Amir",
+                  "italian": "Ciao Priya! Com'è il tuo nuovo appartamento?",
+                  "english": "Hi Priya! What's your new flat like?",
+                  "punjabi": "Sat Sri Akal Priya! Tuhada navaan flait kiven da hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Priya",
+                  "italian": "È grande e luminoso! Ci sono un ingresso, una cucina e un soggiorno.",
+                  "english": "It's big and bright! There's an entrance, a kitchen and a living room.",
+                  "punjabi": "Ih vadda ate rushni vaala hai! Ikk pravesh duar, rasoi ate baithak hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Amir",
+                  "italian": "E quante camere ci sono? Cosa c'è in soggiorno?",
+                  "english": "And how many bedrooms are there? What's in the living room?",
+                  "punjabi": "Kinne kamre han? Baithak vich ki hai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Priya",
+                  "italian": "Ci sono due camere da letto e un bagno. In soggiorno ci sono un divano, un tavolo e sei sedie!",
+                  "english": "There are two bedrooms and a bathroom. In the living room there's a sofa, a table and six chairs!",
+                  "punjabi": "Do kamre ate ikk baathrum hai. Baithak vich sofa, mez ate chhe kursiaan han!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play: descrivi casa tua",
+              "body": "1. **Chiedi:** «Com'è casa tua? Quante stanze ci sono?»\n2. **Elenca le stanze:** ingresso, cucina, soggiorno, camera da letto, bagno.\n3. **Descrivi i mobili:** c'è / ci sono + letto, armadio, tavolo, sedie, divano, frigo, lavatrice.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ cucina c'è il frigo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Nell'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Nella",
+                  "imageUrl": null
+                },
+                {
+                  "text": "In",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ camera da letto c'è l'armadio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "In la",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Nell'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Nella",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ ingresso c'è una sedia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Nella",
+                  "imageUrl": null
+                },
+                {
+                  "text": "In l'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Nell'",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "In soggiorno ___ un divano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "In cucina ___ quattro sedie.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ci sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "c'è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Priya's flat is small.)",
+              "italian": "L'appartamento di Priya è piccolo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (There are two bedrooms.)",
+              "italian": "Ci sono due camere da letto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (In the living room there are six chairs.)",
+              "italian": "In soggiorno ci sono sei sedie.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play with a partner: describe your home — the rooms and what there is in each room."
+        },
+        {
+          "order": 10,
+          "title": "Lesson 4 · The simple prepositions",
+          "titleIt": "Lezione 4 · Le preposizioni semplici",
+          "kind": "Grammar",
+          "summary": "Di, a, da, in, con, su, per, tra / fra — with everyday examples.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 5 · Lezione 4 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap5-lez4-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Le 8 preposizioni semplici",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Preposizione",
+                  "English · Punjabi",
+                  "Esempio"
+                ],
+                [
+                  "DI",
+                  "of / from · da, di, de",
+                  "Un bicchiere di acqua."
+                ],
+                [
+                  "A",
+                  "to / at · nu, vich",
+                  "Vado a casa."
+                ],
+                [
+                  "DA",
+                  "from / at (a person's place) · ton, kol",
+                  "Vengo da Milano."
+                ],
+                [
+                  "IN",
+                  "in / into · vich, andar",
+                  "Lavoro in ufficio."
+                ],
+                [
+                  "CON",
+                  "with · de naal",
+                  "Esco con Sara."
+                ],
+                [
+                  "SU",
+                  "on / about · de utte",
+                  "Leggo un libro su Roma."
+                ],
+                [
+                  "PER",
+                  "for / to · lai",
+                  "Parto per Torino."
+                ],
+                [
+                  "TRA / FRA",
+                  "between / in (time) · vichkar, baad",
+                  "Arrivo tra dieci minuti."
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Dove sei? Luoghi quotidiani",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "a casa",
+                  "english": "at home",
+                  "punjabi": "Ghar",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/house.png",
+                  "audioUrl": null,
+                  "example": "Sono a casa adesso.",
+                  "exampleEnglish": "I'm at home now."
+                },
+                {
+                  "italian": "in ufficio",
+                  "english": "at the office",
+                  "punjabi": "Daftar vich",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/office-building.png",
+                  "audioUrl": null,
+                  "example": "Marco lavora in ufficio.",
+                  "exampleEnglish": "Marco works in an office."
+                },
+                {
+                  "italian": "dal medico",
+                  "english": "at / to the doctor's",
+                  "punjabi": "Daaktar kol",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/stethoscope.png",
+                  "audioUrl": null,
+                  "example": "Oggi vado dal medico.",
+                  "exampleEnglish": "Today I'm going to the doctor's."
+                },
+                {
+                  "italian": "al supermercato",
+                  "english": "at / to the supermarket",
+                  "punjabi": "Suparmarkit",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/shopping-cart.png",
+                  "audioUrl": null,
+                  "example": "Compro il pane al supermercato.",
+                  "exampleEnglish": "I buy bread at the supermarket."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Use **DA** for going to a **person**: *vado **dal** medico, **dal** dentista, **da** Marco*. Use **A / IN** for places: *vado **al** supermercato, **in** farmacia*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vado ___ casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "su",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "da",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Lavoro ___ ufficio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "con",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "da",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Vengo ___ Milano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "da",
+                  "imageUrl": null
+                },
+                {
+                  "text": "su",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Esco ___ Sara.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tra",
+                  "imageUrl": null
+                },
+                {
+                  "text": "con",
+                  "imageUrl": null
+                },
+                {
+                  "text": "per",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Parto ___ Torino.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "su",
+                  "imageUrl": null
+                },
+                {
+                  "text": "con",
+                  "imageUrl": null
+                },
+                {
+                  "text": "per",
+                  "imageUrl": null
+                },
+                {
+                  "text": "di",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Arrivo ___ dieci minuti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "con",
+                  "imageUrl": null
+                },
+                {
+                  "text": "tra",
+                  "imageUrl": null
+                },
+                {
+                  "text": "per",
+                  "imageUrl": null
+                },
+                {
+                  "text": "di",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Un bicchiere ___ acqua.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "di",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "da",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You are going to the doctor's. You say…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vado al medico.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vado in medico.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vado dal medico.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vado del medico.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 8 sentences, one with each simple preposition."
+        },
+        {
+          "order": 11,
+          "title": "Lesson 4 · Prepositions + article: al, dal, nel, sul…",
+          "titleIt": "Lezione 4 · Le preposizioni articolate",
+          "kind": "Grammar",
+          "summary": "A + il = al, da + il = dal, su + il = sul — the full table.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Come nascono le articolate",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Preposizione + articolo",
+                  "=",
+                  "Esempio"
+                ],
+                [
+                  "A + IL",
+                  "AL",
+                  "Vado al supermercato."
+                ],
+                [
+                  "DA + IL",
+                  "DAL",
+                  "Vado dal medico."
+                ],
+                [
+                  "SU + IL",
+                  "SUL",
+                  "Il libro è sul tavolo."
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Schema completo",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Semplice",
+                  "+ il",
+                  "+ lo / l'",
+                  "+ la",
+                  "+ i / gli / le"
+                ],
+                [
+                  "A",
+                  "al",
+                  "allo / all'",
+                  "alla",
+                  "ai / agli / alle"
+                ],
+                [
+                  "DA",
+                  "dal",
+                  "dallo / dall'",
+                  "dalla",
+                  "dai / dagli / dalle"
+                ],
+                [
+                  "IN",
+                  "nel",
+                  "nello / nell'",
+                  "nella",
+                  "nei / negli / nelle"
+                ],
+                [
+                  "DI",
+                  "del",
+                  "dello / dell'",
+                  "della",
+                  "dei / degli / delle"
+                ],
+                [
+                  "SU",
+                  "sul",
+                  "sullo / sull'",
+                  "sulla",
+                  "sui / sugli / sulle"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Oggetti in casa",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "sul tavolo (su + il)",
+                  "english": "on the table",
+                  "punjabi": "Mez utte",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/key.png",
+                  "audioUrl": null,
+                  "example": "Le chiavi sono sul tavolo.",
+                  "exampleEnglish": "The keys are on the table."
+                },
+                {
+                  "italian": "sulla sedia (su + la)",
+                  "english": "on the chair",
+                  "punjabi": "Kursi utte",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/handbag.png",
+                  "audioUrl": null,
+                  "example": "La borsa è sulla sedia.",
+                  "exampleEnglish": "The bag is on the chair."
+                },
+                {
+                  "italian": "nel frigo (in + il)",
+                  "english": "in the fridge",
+                  "punjabi": "Frij vich",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/glass-of-milk.png",
+                  "audioUrl": null,
+                  "example": "Il latte fresco è nel frigo.",
+                  "exampleEnglish": "The fresh milk is in the fridge."
+                },
+                {
+                  "italian": "nella stanza (in + la)",
+                  "english": "in the room",
+                  "punjabi": "Kamre vich",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/door.png",
+                  "audioUrl": null,
+                  "example": "Il letto è nella stanza.",
+                  "exampleEnglish": "The bed is in the room."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**CON, PER, TRA / FRA** almost always stay simple: *con il treno, per la scuola, tra la banca e la posta*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "sulla sedia (su + la)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sul tavolo (su + il)",
+                  "imageUrl": "/content/img/key.png"
+                },
+                {
+                  "text": "nella stanza (in + la)",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "sulla sedia (su + la)",
+                  "imageUrl": "/content/img/handbag.png"
+                },
+                {
+                  "text": "nel frigo (in + il)",
+                  "imageUrl": "/content/img/glass-of-milk.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "sulla sedia (su + la) = on the chair"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "sul tavolo (su + il)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sulla sedia (su + la)",
+                  "imageUrl": "/content/img/handbag.png"
+                },
+                {
+                  "text": "sul tavolo (su + il)",
+                  "imageUrl": "/content/img/key.png"
+                },
+                {
+                  "text": "nella stanza (in + la)",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "nel frigo (in + il)",
+                  "imageUrl": "/content/img/glass-of-milk.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "sul tavolo (su + il) = on the table"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "nella stanza (in + la)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sul tavolo (su + il)",
+                  "imageUrl": "/content/img/key.png"
+                },
+                {
+                  "text": "nel frigo (in + il)",
+                  "imageUrl": "/content/img/glass-of-milk.png"
+                },
+                {
+                  "text": "nella stanza (in + la)",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "sulla sedia (su + la)",
+                  "imageUrl": "/content/img/handbag.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "nella stanza (in + la) = in the room"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/glass-of-milk.png",
+              "options": [
+                {
+                  "text": "nella stanza (in + la)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sulla sedia (su + la)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nel frigo (in + il)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sul tavolo (su + il)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "nel frigo (in + il) = in the fridge"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "nel frigo (in + il)",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "on the chair",
+                  "imageUrl": null
+                },
+                {
+                  "text": "on the table",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in the room",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in the fridge",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "sul tavolo (su + il)",
+                  "right": "on the table"
+                },
+                {
+                  "left": "sulla sedia (su + la)",
+                  "right": "on the chair"
+                },
+                {
+                  "left": "nella stanza (in + la)",
+                  "right": "in the room"
+                },
+                {
+                  "left": "nel frigo (in + il)",
+                  "right": "in the fridge"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Le chiavi sono ___ tavolo della cucina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sulla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "su",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sul",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il latte è ___ frigo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sul",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nella",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La mattina vado ___ ufficio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "all'",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il sabato vado ___ supermercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nel",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Oggi mia madre va ___ medico.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dal",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "da",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Poi torna ___ casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nella",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "La borsa è ___ sedia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sul",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nella",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sulla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "su",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "in + la = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "alla",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nella",
+                  "imageUrl": null
+                },
+                {
+                  "text": "inla",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "da + il = ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dallo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "del",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dal",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dil",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Look around your room and write where 5 things are (Il telefono è sul tavolo…)."
+        },
+        {
+          "order": 12,
+          "title": "Lesson 4 · Dialogue: Where are you going today?",
+          "titleIt": "Lezione 4 · Dialogo: Dove vai oggi?",
+          "kind": "Dialogue",
+          "summary": "Noor goes to the doctor, then to the supermarket and home.",
+          "estimatedMinutes": 8,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Luca meets Noor in the morning.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: Dove vai oggi?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Luca",
+                  "italian": "Ciao Noor! Dove vai adesso?",
+                  "english": "Hi Noor! Where are you going now?",
+                  "punjabi": "Sat Sri Akal Noor! Hun kitthe ja rahi hain?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Noor",
+                  "italian": "Vado dal medico per un controllo.",
+                  "english": "I'm going to the doctor's for a check-up.",
+                  "punjabi": "Main chekap lai daaktar kol ja rahi haan.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Luca",
+                  "italian": "Dopo torni a casa o vai in ufficio?",
+                  "english": "Afterwards are you going home or to the office?",
+                  "punjabi": "Phir ghar vaapas jaavegi jaan daftar?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Noor",
+                  "italian": "Passo al supermercato, poi torno a casa.",
+                  "english": "I'll stop at the supermarket, then go back home.",
+                  "punjabi": "Suparmarkit ja ke ghar vaapas aavangi.",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Role-play: la tua giornata",
+              "body": "1. **Chiedi dove va:** «Dove vai oggi?»\n2. **Usa i luoghi:** scegli due luoghi della città (dal medico, al supermercato, in ufficio, a casa…).\n3. **Descrivi gli oggetti:** di' cosa c'è sul tavolo (sul tavolo ci sono le chiavi…).",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Noor is going to the doctor's.)",
+              "italian": "Noor va dal medico.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (After the doctor Noor goes to the office.)",
+              "italian": "Dopo il medico Noor va in ufficio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Noor stops at the supermarket.)",
+              "italian": "Noor passa al supermercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Torno a casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I stay at home.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I go back home.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I clean the house.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I leave home.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I'm going to the doctor's for a check-up\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vado dal medico per un controllo",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Tell a partner where you go today, in order, with the right prepositions."
+        },
+        {
+          "order": 13,
+          "title": "Chapter 5 test",
+          "titleIt": "Test Capitolo 5",
+          "kind": "Exam",
+          "summary": "Listening, places and directions, rooms and furniture, andare / venire and prepositions. Pass mark: 60%.",
+          "estimatedMinutes": 25,
+          "xpReward": 60,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Test Capitolo 5",
+              "body": "This test checks everything in Chapter 5 (Lessons 1–4).\n\n- **1. Listening** — sentences and a route through town\n- **2. Vocabulary** — city places, directions, rooms and furniture\n- **3. Grammar** — andare / venire, prepositions and directions\n- **4. Writing** — sentences about your town and your home\n\nYou need **60%** to pass. You can repeat the test as many times as you like.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The **written part** (my town and my home) and the **oral interview** (town and transport, giving directions, describing your home — 2 minutes) are done **with your teacher** in the live class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Pdf",
+              "title": "Course phrasebook (PDF)",
+              "body": "Every word and phrase of the course, chapter by chapter, with English and Punjabi.",
+              "mediaUrl": "/content/pdf/corso-italiano-a0-phrasebook.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Stamattina vado in banca in autobus perché piove.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "VADO IN POSTA A PIEDI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VADO IN BANCA IN AUTOBUS",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Scusi, dov'è l'ospedale? L'ospedale è di fronte alla stazione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "L'OSPEDALE È DI FRONTE ALLA STAZIONE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "LA FARMACIA È ACCANTO AL PARCO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Per andare in farmacia, all'incrocio gira a sinistra.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ALL'INCROCIO GIRA A SINISTRA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ALL'INCROCIO GIRA A DESTRA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Nel mio appartamento in soggiorno c'è un divano grande.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "IN CAMERA DA LETTO C'È UN ARMADIO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "IN SOGGIORNO C'È UN DIVANO GRANDE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Non mi sento bene: oggi vado dal medico.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "IL TELEFONO È SUL TAVOLO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "OGGI VADO DAL MEDICO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen to the route. Where are you going? (1)",
+              "italian": "Per andare in farmacia, esci dalla stazione, vai sempre dritto, attraversa la piazza e poi gira a destra: l'edificio è accanto al supermercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "OSPEDALE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "POSTA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "FARMACIA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "BANCA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"vai sempre…\" (2)",
+              "italian": "Esci dalla stazione, vai sempre dritto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "SINISTRA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DRITTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "LONTANO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DESTRA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: what do you do with the square? (3)",
+              "italian": "Attraversa la piazza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ATTRAVERSA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ESCI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "GIRA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PRENDI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"poi gira a…\" (4)",
+              "italian": "Poi gira a destra.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "FRONTE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SINISTRA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DRITTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DESTRA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: where is the building? (5)",
+              "italian": "L'edificio è accanto al supermercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ACCANTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "LONTANO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "TRA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DI FRONTE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "2A · Match each word with its meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Fermata dell'autobus",
+                  "right": "Bus stop · Bass adda"
+                },
+                {
+                  "left": "All'incrocio",
+                  "right": "At the crossroads · Chaurahe te"
+                },
+                {
+                  "left": "Di fronte a",
+                  "right": "Opposite · Saahmane"
+                },
+                {
+                  "left": "Soggiorno",
+                  "right": "Living room · Baithak"
+                },
+                {
+                  "left": "Lavatrice",
+                  "right": "Washing machine · Kapde dhon vaali mashin"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Il letto → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "camera da letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bagno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Il frigo → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "camera da letto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Il divano → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bagno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · L'armadio → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bagno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "cucina",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "camera da letto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · La lavatrice → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ingresso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "bagno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "soggiorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "camera da letto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Stamattina io ___ (andare) in farmacia e poi in posta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vado",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "va",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andiamo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Tu ___ (venire) al parco con noi oggi pomeriggio?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vieni",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vengo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "viene",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Marco e Sara ___ (andare) a Milano in treno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "va",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vado",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Noi ___ (venire) a scuola di italiano in bicicletta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "veniamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vengono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vengo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · La mattina vado ___ ufficio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Il sabato vado ___ supermercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Oggi pomeriggio mia madre va ___ medico.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "al",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dal",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · … e poi torna ___ casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Le chiavi sono ___ tavolo della cucina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "su",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sul",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · … e il latte è ___ frigo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "nel",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Per arrivare in piazza ___ per cento metri su questa strada.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lontano da",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vicino a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gira a sinistra",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vai sempre dritto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · All'incrocio ___: la banca è subito lì all'angolo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vicino a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vai sempre dritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gira a sinistra",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lontano da",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · La fermata dell'autobus è molto ___ casa mia: bastano due minuti a piedi!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "lontano da",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vai sempre dritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gira a sinistra",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vicino a",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · L'ospedale è ___ centro città: devi prendere l'autobus numero 4.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vai sempre dritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lontano dal",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gira a sinistra",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vicino al",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"In the morning I go to school by bus\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "La mattina vado a scuola in autobus",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Near my home there is a pharmacy\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Vicino a casa mia c'è una farmacia",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"In my bedroom there is a wardrobe\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Nella mia camera c'è un armadio",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Written part for your teacher: complete the 5 sentences about how you move around town, what is near your home, your rooms and your furniture. Then prepare the 2-minute oral interview."
+        }
+      ]
+    }
+  ]
+}

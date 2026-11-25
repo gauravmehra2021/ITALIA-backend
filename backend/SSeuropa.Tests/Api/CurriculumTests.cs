@@ -181,16 +181,16 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
     {
         await PlaceInBatchWithAllCoursesAsync("student@sseuropa.demo", "priya@sseuropa.demo");
         var demo = await LoginAsync("student@sseuropa.demo");
-        var course = (await GetAsync<List<CourseCard>>("/api/learn/courses", demo)).Single(c => c.Course.Slug == "corso-italiano-a0");
+        var course = (await GetAsync<List<CourseCard>>("/api/learn/courses", demo)).Single(c => c.Course.Slug == "corso-italiano-capitolo-2");
         var outline = await SendAsync<Outline>(HttpMethod.Post, $"/api/learn/courses/{course.Course.Id}/enroll", demo);
 
         outline.Units.SelectMany(u => u.Lessons).Should().OnlyContain(l => l.Locked == false);
-        var test = outline.Units[1].Lessons[^1]; // Chapter 2 test, nothing completed before it
+        var test = outline.Units[0].Lessons[^1]; // Chapter 2 test, nothing completed before it
         (await RawAsync(HttpMethod.Get, $"/api/learn/lessons/{test.Id}", demo)).StatusCode.Should().Be(HttpStatusCode.OK);
 
         var other = await LoginAsync("priya@sseuropa.demo");
         var otherOutline = await SendAsync<Outline>(HttpMethod.Post, $"/api/learn/courses/{course.Course.Id}/enroll", other);
-        otherOutline.Units[1].Lessons[^1].Locked.Should().BeTrue();
+        otherOutline.Units[0].Lessons[^1].Locked.Should().BeTrue();
         (await RawAsync(HttpMethod.Get, $"/api/learn/lessons/{test.Id}", other)).StatusCode.Should().Be(HttpStatusCode.Forbidden);
     }
 
@@ -200,17 +200,24 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         var admin = await LoginAsync("admin@sseuropa.demo");
         var catalogue = await GetAsync<List<CourseCard>>("/api/learn/courses", admin);
 
-        // Exactly one copy, with all 12 chapters (4 lessons × 3 parts + a test each).
-        var course = catalogue.Should().ContainSingle(c => c.Course.Slug == "corso-italiano-a0").Subject;
-        course.TotalLessons.Should().Be(156);
-        course.Course.CefrLevel.Should().Be("A0–A2");
+        // One course per chapter, listed first and in order, each loaded once
+        // (4 classes × 3 lessons + the chapter test = 13 lessons); the old 156-lesson course is gone.
+        catalogue.Should().NotContain(c => c.Course.Slug == "corso-italiano-a0");
+        var chapters = catalogue.Where(c => c.Course.Slug.StartsWith("corso-italiano-capitolo-")).ToList();
+        chapters.Select(c => c.Course.Slug).Should().Equal(Enumerable.Range(1, 12).Select(n => $"corso-italiano-capitolo-{n}"));
+        catalogue.Take(12).Should().Equal(chapters);
+        chapters.Should().AllSatisfy(c => c.TotalLessons.Should().Be(13));
+        chapters[0].Course.Title.Should().Be("Capitolo 1 · Alphabet, introductions, numbers and the classroom");
+        chapters[6].Course.CefrLevel.Should().Be("A1");
+        chapters[7].Course.CefrLevel.Should().Be("A2");
+        var course = chapters[0];
 
         var outline = await GetAsync<Outline>($"/api/curriculum/courses/{course.Course.Id}", admin);
-        outline.Units.Select(u => u.Title).Should().HaveCount(12).And.AllSatisfy(t => t.Should().StartWith("Chapter"));
+        outline.Units.Should().ContainSingle().Which.Title.Should().StartWith("Chapter 1:");
 
         // Words carry their Punjabi meaning.
         var first = await SendAsync<JsonElement>(HttpMethod.Get, $"/api/curriculum/lessons/{outline.Units[0].Lessons.First(l => !l.IsModuleVideo).Id}", admin);
-        first.GetRawText().Should().Contain("\"punjabi\":\"Kelā\"");
+        first.GetRawText().Should().Contain("\"punjabi\":\"Kela\"");
 
         // Chapter test: 55% is below the school's 60% pass mark, 65% passes.
         var test = outline.Units[0].Lessons[^1];

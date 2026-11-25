@@ -20,7 +20,7 @@ export default {
   cefrLevel: 'A1',
   category: 'Core',
   durationWeeks: 10,
-  displayOrder: 1,
+  displayOrder: 20,
   cover: 'Graduation cap',
   units: [...units1, ...units2],
 };

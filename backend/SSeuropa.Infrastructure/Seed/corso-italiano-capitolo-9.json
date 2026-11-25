@@ -1,0 +1,4874 @@
+{
+  "slug": "corso-italiano-capitolo-9",
+  "title": "Capitolo 9 · The past with ESSERE — travel and arriving in Italy",
+  "shortDescription": "The passato prossimo with essere and participle agreement (sono andato / andata / andati / andate), choosing avere or essere, reflexive verbs in the past (mi sono svegliato), travel words at the station, the airport and the hotel, and telling the story of a trip or of your arrival in Italy.",
+  "description": "Part of the official SS Europa Italian course used in our classes, for learners from India, Pakistan and Bangladesh who are going to Italy to work, study or live. Chapters 1–7 take you from zero to level A1 and Chapters 8–12 to level A2 — study them in order.\n\nEvery 60-minute class of the chapter is split into three short lessons you can study on your phone, with pictures, audio, grammar tables and exercises. Every word comes with its English and Punjabi meaning, the slides of each class are attached as PDF, and the chapter ends with a test (pass mark 60%).",
+  "objectives": "I can use the passato prossimo with essere and make the participle agree: è andato, è andata, sono andati\nI can choose avere or essere: che cosa? → avere · dove? → essere\nI can use reflexive verbs in the past: mi sono svegliato / svegliata\nI can buy a train ticket and ask for the platform\nI can check in at a hotel and ask for a single or double room\nI can tell the story of a trip or of my arrival in Italy",
+  "level": "Beginner",
+  "cefrLevel": "A2",
+  "category": "Core",
+  "durationWeeks": 2,
+  "displayOrder": 8,
+  "thumbnailUrl": "/content/img/airplane.png",
+  "previousTitles": [],
+  "splitFrom": "corso-italiano-a0",
+  "units": [
+    {
+      "key": "capitolo-9",
+      "order": 1,
+      "title": "Chapter 9: The past with ESSERE — travel and arriving in Italy",
+      "titleIt": "Capitolo 9: Il passato prossimo con ESSERE e i viaggi",
+      "description": "The passato prossimo with essere and participle agreement (sono andato / andata / andati / andate), choosing avere or essere, reflexive verbs in the past (mi sono svegliato), travel words at the station, the airport and the hotel, and telling the story of a trip or of your arrival in Italy.",
+      "canDo": [
+        "I can use the passato prossimo with essere and make the participle agree: è andato, è andata, sono andati",
+        "I can choose avere or essere: che cosa? → avere · dove? → essere",
+        "I can use reflexive verbs in the past: mi sono svegliato / svegliata",
+        "I can buy a train ticket and ask for the platform",
+        "I can check in at a hotel and ask for a single or double room",
+        "I can tell the story of a trip or of my arrival in Italy"
+      ],
+      "imageUrl": "/content/img/airplane.png",
+      "pdfUrl": "/content/pdf/corso-italiano-a0-unit-09.pdf",
+      "liveClassFocus": "Role-play at the ticket office or the hotel reception, then interview a partner with the 5 questions about their arrival in Italy and tell the story to the class (watch the -o / -a ending!).",
+      "status": "Published",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Lesson 1 · The passato prossimo with ESSERE",
+          "titleIt": "Lezione 1 · Il passato prossimo con ESSERE",
+          "kind": "Grammar",
+          "summary": "Movement and change: sono andato / andata — the participle agrees (-o, -a, -i, -e).",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 9 · Lezione 1 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap9-lez1-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "AVERE o ESSERE: la regola fondamentale",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Con AVERE (Capitolo 8)",
+                  "Con ESSERE (Capitolo 9)"
+                ],
+                [
+                  "actions on things (mangiare, bere, fare)",
+                  "movement or change of state (andare, partire)"
+                ],
+                [
+                  "the participle always ends in -O",
+                  "the participle changes: -o, -a, -i, -e!"
+                ],
+                [
+                  "Maria ha mangiato la pizza.",
+                  "Maria è andata a Roma."
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "L'accordo del participio: -O, -A, -I, -E",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Masch. singolare -O",
+                  "Femm. singolare -A",
+                  "Masch. plurale -I",
+                  "Femm. plurale -E"
+                ],
+                [
+                  "Marco è andato.",
+                  "Sara è andata.",
+                  "Marco e Paolo sono andati.",
+                  "Sara e Giulia sono andate."
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Esempio completo: ANDARE",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "Essere",
+                  "Maschile",
+                  "Femminile",
+                  "English",
+                  "Punjabi"
+                ],
+                [
+                  "io",
+                  "sono",
+                  "sono andato",
+                  "sono andata",
+                  "I went",
+                  "main gia / gai"
+                ],
+                [
+                  "tu",
+                  "sei",
+                  "sei andato",
+                  "sei andata",
+                  "you went",
+                  "tu gia / gai"
+                ],
+                [
+                  "lui / lei",
+                  "è",
+                  "lui è andato",
+                  "lei è andata",
+                  "he / she went",
+                  "uh gia / gai"
+                ],
+                [
+                  "noi",
+                  "siamo",
+                  "siamo andati",
+                  "siamo andate",
+                  "we went",
+                  "asi gae / gaiaan"
+                ],
+                [
+                  "voi",
+                  "siete",
+                  "siete andati",
+                  "siete andate",
+                  "you (pl.) went",
+                  "tusi gae / gaiaan"
+                ],
+                [
+                  "loro",
+                  "sono",
+                  "sono andati",
+                  "sono andate",
+                  "they went",
+                  "uh gae / gaiaan"
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "A mixed group (men and women) takes **-i**: *Marco e Sara sono andat**i***. Only a group of women takes **-e**.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Sara è ___ a Roma.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andati",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Marco è ___ in stazione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Marco e Paolo sono ___ al lavoro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andate",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Sara e Giulia sono ___ al mercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri noi ___ andati al cinema.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "siete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ andata dal medico?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sei",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Maria ___ mangiato la pizza.",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Marco and Sara went: Marco e Sara sono…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write where you and 3 people in your family went last week (Io sono andato / andata…, mia madre è andata…)."
+        },
+        {
+          "order": 2,
+          "title": "Lesson 1 · The 10 key verbs with ESSERE",
+          "titleIt": "Lezione 1 · I 10 verbi di movimento e cambio di stato",
+          "kind": "Vocabulary",
+          "summary": "Andato, venuto, partito, arrivato, tornato, entrato, uscito, stato, rimasto, nato.",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Verbi di movimento e cambio di stato",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "andare → andato/a",
+                  "english": "to go → gone",
+                  "punjabi": "Gia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/person-walking.png",
+                  "audioUrl": null,
+                  "example": "Sono andato al lavoro.",
+                  "exampleEnglish": "I went to work."
+                },
+                {
+                  "italian": "venire → venuto/a",
+                  "english": "to come → come",
+                  "punjabi": "Aia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/waving-hand.png",
+                  "audioUrl": null,
+                  "example": "Mia sorella è venuta con me.",
+                  "exampleEnglish": "My sister came with me."
+                },
+                {
+                  "italian": "partire → partito/a",
+                  "english": "to leave → left",
+                  "punjabi": "Ravana hoia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/airplane-departure.png",
+                  "audioUrl": null,
+                  "example": "Il treno è partito alle otto.",
+                  "exampleEnglish": "The train left at eight."
+                },
+                {
+                  "italian": "arrivare → arrivato/a",
+                  "english": "to arrive → arrived",
+                  "punjabi": "Pahunchia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/airplane-arrival.png",
+                  "audioUrl": null,
+                  "example": "È arrivato in orario.",
+                  "exampleEnglish": "It arrived on time."
+                },
+                {
+                  "italian": "tornare → tornato/a",
+                  "english": "to return → returned",
+                  "punjabi": "Vaapas aia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/counterclockwise-arrows-button.png",
+                  "audioUrl": null,
+                  "example": "Simran è tornata tardi.",
+                  "exampleEnglish": "Simran came back late."
+                },
+                {
+                  "italian": "entrare → entrato/a",
+                  "english": "to enter → entered",
+                  "punjabi": "Andar aia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/door.png",
+                  "audioUrl": null,
+                  "example": "Sono entrato in classe.",
+                  "exampleEnglish": "I came into the classroom."
+                },
+                {
+                  "italian": "uscire → uscito/a",
+                  "english": "to go out → gone out",
+                  "punjabi": "Baahar gia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/person-running.png",
+                  "audioUrl": null,
+                  "example": "Simran è uscita con le amiche.",
+                  "exampleEnglish": "Simran went out with her friends."
+                },
+                {
+                  "italian": "stare → stato/a",
+                  "english": "to stay / be → stayed / been",
+                  "punjabi": "Riha",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/house.png",
+                  "audioUrl": null,
+                  "example": "Siamo stati tranquilli.",
+                  "exampleEnglish": "We had a quiet time."
+                },
+                {
+                  "italian": "rimanere → rimasto/a",
+                  "english": "to remain → remained",
+                  "punjabi": "Rahi gia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/couch-and-lamp.png",
+                  "audioUrl": null,
+                  "example": "Domenica siamo rimasti a casa.",
+                  "exampleEnglish": "On Sunday we stayed at home."
+                },
+                {
+                  "italian": "nascere → nato/a",
+                  "english": "to be born → born",
+                  "punjabi": "Janam lia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/baby.png",
+                  "audioUrl": null,
+                  "example": "Mio figlio è nato a Mantova.",
+                  "exampleEnglish": "My son was born in Mantova."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Esempi in contesto",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Il treno è partito alle otto ed è arrivato in orario.",
+                  "english": "The train left at eight and arrived on time.",
+                  "punjabi": "Tren atth vaje chali ate samen sir pahunch gai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ieri sera Simran è uscita con le amiche ed è tornata tardi.",
+                  "english": "Last night Simran went out with her friends and came back late.",
+                  "punjabi": "Kall raat Simran saheliaan naal baahar gai ate der naal vaapas ai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Domenica noi siamo rimasti a casa.",
+                  "english": "On Sunday we stayed at home.",
+                  "punjabi": "Aitvar nu asi ghar hi rahe.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Mio figlio è nato a Mantova due anni fa.",
+                  "english": "My son was born in Mantova two years ago.",
+                  "punjabi": "Mera puttar do saal pahilaan Mantova vich jammia.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Three are irregular: **venire → venuto**, **rimanere → rimasto**, **nascere → nato**.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "arrivare → arrivato/a",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "arrivare → arrivato/a",
+                  "imageUrl": "/content/img/airplane-arrival.png"
+                },
+                {
+                  "text": "venire → venuto/a",
+                  "imageUrl": "/content/img/waving-hand.png"
+                },
+                {
+                  "text": "partire → partito/a",
+                  "imageUrl": "/content/img/airplane-departure.png"
+                },
+                {
+                  "text": "nascere → nato/a",
+                  "imageUrl": "/content/img/baby.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "arrivare → arrivato/a = to arrive → arrived"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "stare → stato/a",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "stare → stato/a",
+                  "imageUrl": "/content/img/house.png"
+                },
+                {
+                  "text": "tornare → tornato/a",
+                  "imageUrl": "/content/img/counterclockwise-arrows-button.png"
+                },
+                {
+                  "text": "rimanere → rimasto/a",
+                  "imageUrl": "/content/img/couch-and-lamp.png"
+                },
+                {
+                  "text": "andare → andato/a",
+                  "imageUrl": "/content/img/person-walking.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "stare → stato/a = to stay / be → stayed / been"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "andare → andato/a",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "tornare → tornato/a",
+                  "imageUrl": "/content/img/counterclockwise-arrows-button.png"
+                },
+                {
+                  "text": "stare → stato/a",
+                  "imageUrl": "/content/img/house.png"
+                },
+                {
+                  "text": "venire → venuto/a",
+                  "imageUrl": "/content/img/waving-hand.png"
+                },
+                {
+                  "text": "andare → andato/a",
+                  "imageUrl": "/content/img/person-walking.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "andare → andato/a = to go → gone"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/person-running.png",
+              "options": [
+                {
+                  "text": "partire → partito/a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nascere → nato/a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rimanere → rimasto/a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "uscire → uscito/a",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "uscire → uscito/a = to go out → gone out"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/baby.png",
+              "options": [
+                {
+                  "text": "venire → venuto/a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nascere → nato/a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rimanere → rimasto/a",
+                  "imageUrl": null
+                },
+                {
+                  "text": "entrare → entrato/a",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "nascere → nato/a = to be born → born"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "uscire → uscito/a",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to return → returned",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to be born → born",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to remain → remained",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to go out → gone out",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "nascere → nato/a",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to arrive → arrived",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to stay / be → stayed / been",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to be born → born",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to leave → left",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "venire → venuto/a",
+                  "right": "to come → come"
+                },
+                {
+                  "left": "tornare → tornato/a",
+                  "right": "to return → returned"
+                },
+                {
+                  "left": "andare → andato/a",
+                  "right": "to go → gone"
+                },
+                {
+                  "left": "partire → partito/a",
+                  "right": "to leave → left"
+                },
+                {
+                  "left": "uscire → uscito/a",
+                  "right": "to go out → gone out"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "venire → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "venuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "rimanere → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "rimasto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rimanuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rimanito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rimaso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "nascere → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "nasciuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nasto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nascito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il treno è ___ alle otto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "partita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "partiti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "partito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "partite",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Simran è ___ con le amiche.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "uscita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "uscito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "uscite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "usciti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domenica noi siamo ___ a casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "rimasti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rimasto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rimasta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "rimanuti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "è tornata",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "she stayed",
+                  "imageUrl": null
+                },
+                {
+                  "text": "she left",
+                  "imageUrl": null
+                },
+                {
+                  "text": "she went out",
+                  "imageUrl": null
+                },
+                {
+                  "text": "she came back",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 5 sentences about last weekend with 5 different verbs from the list."
+        },
+        {
+          "order": 3,
+          "title": "Lesson 1 · Dialogue: meeting at the station",
+          "titleIt": "Lezione 1 · Dialogo: incontro in stazione",
+          "kind": "Dialogue",
+          "summary": "Gurpreet is back from India — quando sei tornato? sono arrivato ieri sera.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Elena meets Gurpreet at the station.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: incontro in stazione",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "italian": "Ciao Gurpreet! Quando sei tornato dall'India?",
+                  "english": "Hi Gurpreet! When did you come back from India?",
+                  "punjabi": "Sat Sri Akal Gurpreet! Tusi Bhaarat ton kadon vaapas ae?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Gurpreet",
+                  "italian": "Sono arrivato ieri sera! Sono partito da Delhi alle dieci.",
+                  "english": "I arrived last night! I left Delhi at ten.",
+                  "punjabi": "Main kall shaam nu pahunchia! Main das vaje Dilli ton ravana hoia si.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Elena",
+                  "italian": "È venuta anche tua sorella con te?",
+                  "english": "Did your sister come with you too?",
+                  "punjabi": "Ki tuhadi bhain vi tuhade naal ai?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Gurpreet",
+                  "italian": "No, lei è rimasta là con i nostri genitori. Io sono già uscito per lavorare!",
+                  "english": "No, she stayed there with our parents. I've already gone out to work!",
+                  "punjabi": "Nahi, uh maapiaan naal uthe hi rahi gai. Main taan kamm lai nikal vi pia haan!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "3 domande al compagno con ESSERE",
+              "body": "1. **Dove e quando?** Dove sei andato/a domenica? Quando sei nato/a?\n2. **Uscire o rimanere?** Ieri sera sei uscito/a o sei rimasto/a a casa?\n3. **Arrivare in Italia:** Quando sei arrivato/a in Italia? Sei venuto/a solo/a?",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet came back from India.)",
+              "italian": "Gurpreet è tornato dall'India.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet arrived this morning.)",
+              "italian": "Gurpreet è arrivato stamattina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (His sister came with him.)",
+              "italian": "La sorella è venuta con lui.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (His sister stayed with their parents.)",
+              "italian": "La sorella è rimasta con i genitori.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I left Delhi at ten\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Sono partito da Delhi alle dieci",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"She stayed with our parents\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Lei è rimasta con i nostri genitori",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Ask a partner the 3 questions and write their answers (Lui è nato… / Lei è arrivata…)."
+        },
+        {
+          "order": 4,
+          "title": "Lesson 2 · AVERE or ESSERE? The quick test",
+          "titleIt": "Lezione 2 · AVERE o ESSERE? Il test rapido",
+          "kind": "Grammar",
+          "summary": "Che cosa? → avere · Dove? → essere — and cambiare / finire that use both.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 9 · Lezione 2 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap9-lez2-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Come scegliere: AVERE o ESSERE?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "AVERE: answers «che cosa?»",
+                  "ESSERE: answers «dove?»"
+                ],
+                [
+                  "Ho mangiato che cosa? → La pizza.",
+                  "Sono andato/a dove? → Al lavoro."
+                ],
+                [
+                  "Ho letto che cosa? → Il giornale.",
+                  "Siamo arrivati/e dove? → A casa."
+                ],
+                [
+                  "participle always in -O",
+                  "agreement: -o, -a, -i, -e!"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Casi speciali: cambiare e finire",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Con un oggetto → AVERE",
+                  "Senza oggetto → ESSERE"
+                ],
+                [
+                  "Ho cambiato casa.",
+                  "Il tempo è cambiato."
+                ],
+                [
+                  "Ho finito il turno.",
+                  "Il film è finito."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "If the verb has an object (*che cosa?*) use **avere**. If someone moves or changes on their own, use **essere**.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Stamattina noi ___ partiti alle sette.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "siete",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Al bar Marco ___ preso due cappuccini.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Dove ___ nata tua madre?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri tu ___ comprato i biglietti?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sei",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Giulia ___ uscita con le sue amiche.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il film ___ finito alle dieci.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Io ___ finito il turno alle sei.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'anno scorso ___ cambiato casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "siamo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 6 sentences about yesterday: 3 with avere and 3 with essere."
+        },
+        {
+          "order": 5,
+          "title": "Lesson 2 · Reflexive verbs in the past",
+          "titleIt": "Lezione 2 · I verbi riflessivi al passato",
+          "kind": "Grammar",
+          "summary": "Always with ESSERE: mi sono svegliato / svegliata, ci siamo divertiti…",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "SVEGLIARSI al passato prossimo",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Soggetto",
+                  "Pronome + essere",
+                  "Maschile",
+                  "Femminile"
+                ],
+                [
+                  "io",
+                  "mi sono",
+                  "mi sono svegliato",
+                  "mi sono svegliata"
+                ],
+                [
+                  "tu",
+                  "ti sei",
+                  "ti sei svegliato",
+                  "ti sei svegliata"
+                ],
+                [
+                  "lui / lei",
+                  "si è",
+                  "si è svegliato",
+                  "si è svegliata"
+                ],
+                [
+                  "noi",
+                  "ci siamo",
+                  "ci siamo svegliati",
+                  "ci siamo svegliate"
+                ],
+                [
+                  "voi",
+                  "vi siete",
+                  "vi siete svegliati",
+                  "vi siete svegliate"
+                ],
+                [
+                  "loro",
+                  "si sono",
+                  "si sono svegliati",
+                  "si sono svegliate"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "La mattina di Simran",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Stamattina mi sono svegliata alle sei e mezza.",
+                  "english": "This morning I woke up at half past six.",
+                  "punjabi": "Ajj savere main saadhe chhe vaje jaagi.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Subito dopo mi sono alzata e mi sono lavata la faccia.",
+                  "english": "Right after, I got up and washed my face.",
+                  "punjabi": "Usdon baad main uthi ate munh dhota.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Poi mi sono vestita in fretta per prendere il treno.",
+                  "english": "Then I got dressed quickly to catch the train.",
+                  "punjabi": "Phir main tren phedan lai jaldi kapde pae.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ieri sera invece mi sono addormentata alle undici.",
+                  "english": "Last night, instead, I fell asleep at eleven.",
+                  "punjabi": "Kall raat main giaraan vaje saun gai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Divertirsi, incontrarsi, sentirsi, riposarsi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Ci siamo divertiti molto!",
+                  "english": "We had a lot of fun!",
+                  "punjabi": "Asi bahut maza kita!",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/party-popper.png",
+                  "audioUrl": null,
+                  "example": "Ieri alla festa ci siamo divertiti molto!",
+                  "exampleEnglish": "Yesterday at the party we had a lot of fun!"
+                },
+                {
+                  "italian": "Ci siamo incontrate al bar.",
+                  "english": "We met at the café. (two women)",
+                  "punjabi": "Asi kaife te miliaan.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/handshake.png",
+                  "audioUrl": null,
+                  "example": "Sabato io e Sara ci siamo incontrate al bar.",
+                  "exampleEnglish": "On Saturday Sara and I met at the café."
+                },
+                {
+                  "italian": "Mi sono riposato.",
+                  "english": "I rested.",
+                  "punjabi": "Main aaram kita.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/relieved-face.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Mi sono sentito bene.",
+                  "english": "I felt well.",
+                  "punjabi": "Mainu changa mahisus hoia.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/smiling-face-with-smiling-eyes.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Reflexive verbs **always** take essere in the past, and the participle agrees: *Nadia **si è** svegliat**a***, *io e Paolo **ci siamo** divertit**i***.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Mi sono riposato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi sono sentito bene.",
+                  "imageUrl": "/content/img/smiling-face-with-smiling-eyes.png"
+                },
+                {
+                  "text": "Ci siamo divertiti molto!",
+                  "imageUrl": "/content/img/party-popper.png"
+                },
+                {
+                  "text": "Ci siamo incontrate al bar.",
+                  "imageUrl": "/content/img/handshake.png"
+                },
+                {
+                  "text": "Mi sono riposato.",
+                  "imageUrl": "/content/img/relieved-face.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Mi sono riposato. = I rested."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ci siamo incontrate al bar.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi sono sentito bene.",
+                  "imageUrl": "/content/img/smiling-face-with-smiling-eyes.png"
+                },
+                {
+                  "text": "Ci siamo divertiti molto!",
+                  "imageUrl": "/content/img/party-popper.png"
+                },
+                {
+                  "text": "Ci siamo incontrate al bar.",
+                  "imageUrl": "/content/img/handshake.png"
+                },
+                {
+                  "text": "Mi sono riposato.",
+                  "imageUrl": "/content/img/relieved-face.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ci siamo incontrate al bar. = We met at the café. (two women)"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ci siamo divertiti molto!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi sono riposato.",
+                  "imageUrl": "/content/img/relieved-face.png"
+                },
+                {
+                  "text": "Mi sono sentito bene.",
+                  "imageUrl": "/content/img/smiling-face-with-smiling-eyes.png"
+                },
+                {
+                  "text": "Ci siamo divertiti molto!",
+                  "imageUrl": "/content/img/party-popper.png"
+                },
+                {
+                  "text": "Ci siamo incontrate al bar.",
+                  "imageUrl": "/content/img/handshake.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ci siamo divertiti molto! = We had a lot of fun!"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/smiling-face-with-smiling-eyes.png",
+              "options": [
+                {
+                  "text": "Mi sono sentito bene.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi sono riposato.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ci siamo incontrate al bar.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ci siamo divertiti molto!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Mi sono sentito bene. = I felt well."
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Mi sono sentito bene.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I felt well.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "We had a lot of fun!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I rested.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "We met at the café. (two women)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Mi sono sentito bene.",
+                  "right": "I felt well."
+                },
+                {
+                  "left": "Ci siamo incontrate al bar.",
+                  "right": "We met at the café. (two women)"
+                },
+                {
+                  "left": "Ci siamo divertiti molto!",
+                  "right": "We had a lot of fun!"
+                },
+                {
+                  "left": "Mi sono riposato.",
+                  "right": "I rested."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Stamattina Nadia ___ alle sei e mezza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "si è svegliata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha svegliato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si ha svegliata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è svegliata si",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri sera io e Paolo ___ molto alla festa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "siamo divertito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci siamo divertito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci abbiamo divertiti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci siamo divertiti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "A che ora ___ ieri notte, Luca?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ti sei addormentata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ti sei addormentato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ti hai addormentato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sei ti addormentato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domenica io (Simran) ___ tutto il giorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi sono riposata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi sono riposato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi ho riposata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho riposata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "I ragazzi ___ alle sette.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hanno alzati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si sono alzate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si è alzato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si sono alzati",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Voi ___ in fretta?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vi avete vestiti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vi siete vestito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vi siete vestiti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ci siamo vestiti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your morning yesterday with 5 reflexive verbs in the past."
+        },
+        {
+          "order": 6,
+          "title": "Lesson 2 · Dialogue: after dinner with friends",
+          "titleIt": "Lezione 2 · Dialogo: dopo la cena con gli amici",
+          "kind": "Dialogue",
+          "summary": "Aman tells Chiara about the restaurant: ci siamo incontrati, ci siamo divertiti.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Chiara asks Aman about last night.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: dopo la cena con gli amici",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Chiara",
+                  "italian": "Ciao Aman! Ieri sera siete andati al ristorante?",
+                  "english": "Hi Aman! Did you go to the restaurant last night?",
+                  "punjabi": "Sat Sri Akal Aman! Ki kall raat tusi restoraint gae si?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Aman",
+                  "italian": "Sì! Ci siamo incontrati alle otto e abbiamo mangiato benissimo.",
+                  "english": "Yes! We met at eight and the food was excellent.",
+                  "punjabi": "Haan! Asi atth vaje mile ate bahut vadhia khaana khaadha.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Chiara",
+                  "italian": "Vi siete divertiti? A che ora siete tornati a casa?",
+                  "english": "Did you have fun? What time did you get home?",
+                  "punjabi": "Maza aia? Tusi kinne vaje ghar vaapas ae?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Aman",
+                  "italian": "Tantissimo! Siamo tornati a mezzanotte e stamattina mi sono svegliato tardi!",
+                  "english": "So much! We came back at midnight and this morning I woke up late!",
+                  "punjabi": "Bahut ziada! Asi addhi raat nu vaapas ae ate ajj savere main der naal jaagia!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Intervista: la tua giornata di ieri",
+              "body": "1. **La mattina:** A che ora ti sei svegliato/a e alzato/a ieri?\n2. **Gli spostamenti:** Dove sei andato/a e cos'hai fatto?\n3. **La sera:** Ti sei divertito/a o ti sei riposato/a?",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (They met at eight.)",
+              "italian": "Si sono incontrati alle otto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The food was bad.)",
+              "italian": "Hanno mangiato male.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (They got home at midnight.)",
+              "italian": "Sono tornati a casa a mezzanotte.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (This morning Aman woke up early.)",
+              "italian": "Stamattina Aman si è svegliato presto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"We met at eight\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ci siamo incontrati alle otto",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"This morning I woke up late\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Stamattina mi sono svegliato tardi",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Interview a partner about yesterday with the 3 questions."
+        },
+        {
+          "order": 7,
+          "title": "Lesson 3 · Travel words: station, airport, hotel",
+          "titleIt": "Lezione 3 · Il vocabolario del viaggio",
+          "kind": "Vocabulary",
+          "summary": "Biglietteria, binario, andata e ritorno, volo, valigia, prenotazione, camera doppia…",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 9 · Lezione 3 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap9-lez3-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "In stazione",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "la biglietteria",
+                  "english": "ticket office",
+                  "punjabi": "Tikat ghar",
+                  "pronunciation": "lah bee-lyet-teh-REE-ah",
+                  "imageUrl": "/content/img/ticket.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "solo andata",
+                  "english": "one-way",
+                  "punjabi": "Ikk paase di tikat",
+                  "pronunciation": "SOH-loh ahn-DAH-tah",
+                  "imageUrl": "/content/img/right-arrow.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "andata e ritorno",
+                  "english": "return (round trip)",
+                  "punjabi": "Aun-jaan di tikat",
+                  "pronunciation": "ahn-DAH-tah eh ree-TOR-noh",
+                  "imageUrl": "/content/img/left-right-arrow.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il binario",
+                  "english": "platform",
+                  "punjabi": "Pletfarm",
+                  "pronunciation": "eel bee-NAH-ryoh",
+                  "imageUrl": "/content/img/station.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "convalidare il biglietto",
+                  "english": "to validate the ticket",
+                  "punjabi": "Tikat panch karni",
+                  "pronunciation": "kon-vah-lee-DAH-reh",
+                  "imageUrl": "/content/img/check-mark-button.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "in orario / in ritardo",
+                  "english": "on time / late",
+                  "punjabi": "Samen sir / Der naal",
+                  "pronunciation": "een oh-RAH-ryoh / een ree-TAR-doh",
+                  "imageUrl": "/content/img/alarm-clock.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la coincidenza",
+                  "english": "connection (next train)",
+                  "punjabi": "Agli gaddi",
+                  "pronunciation": "lah ko-een-chee-DEN-tsah",
+                  "imageUrl": "/content/img/high-speed-train.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "In aeroporto e in albergo",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "il volo",
+                  "english": "flight",
+                  "punjabi": "Udan",
+                  "pronunciation": "eel VOH-loh",
+                  "imageUrl": "/content/img/airplane.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la valigia / i bagagli",
+                  "english": "suitcase / luggage",
+                  "punjabi": "Sutkes / Saaman",
+                  "pronunciation": "lah vah-LEE-jah",
+                  "imageUrl": "/content/img/luggage.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la carta d'imbarco",
+                  "english": "boarding pass",
+                  "punjabi": "Boarding paas",
+                  "pronunciation": "lah KAR-tah deem-BAR-koh",
+                  "imageUrl": "/content/img/admission-tickets.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il passaporto / il documento",
+                  "english": "passport / ID",
+                  "punjabi": "Paasport / Shanakhti kaard",
+                  "pronunciation": "eel pahs-sah-POR-toh",
+                  "imageUrl": "/content/img/passport-control.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la prenotazione",
+                  "english": "booking",
+                  "punjabi": "Buking",
+                  "pronunciation": "lah preh-noh-tah-TSYOH-neh",
+                  "imageUrl": "/content/img/calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la camera singola",
+                  "english": "single room",
+                  "punjabi": "Ikk bande da kamra",
+                  "pronunciation": "SEEN-goh-lah",
+                  "imageUrl": "/content/img/bed.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la camera doppia / matrimoniale",
+                  "english": "double room",
+                  "punjabi": "Do bandiaan da kamra",
+                  "pronunciation": "DOP-pyah",
+                  "imageUrl": "/content/img/hotel.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "colazione inclusa",
+                  "english": "breakfast included",
+                  "punjabi": "Naashta shaamil",
+                  "pronunciation": "koh-lah-TSYOH-neh een-KLOO-zah",
+                  "imageUrl": "/content/img/croissant.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Regional train tickets bought on paper must be **convalidati** (stamped) in the green or yellow machine before you get on — otherwise you can get a fine!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la valigia / i bagagli",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la camera doppia / matrimoniale",
+                  "imageUrl": "/content/img/hotel.png"
+                },
+                {
+                  "text": "convalidare il biglietto",
+                  "imageUrl": "/content/img/check-mark-button.png"
+                },
+                {
+                  "text": "la valigia / i bagagli",
+                  "imageUrl": "/content/img/luggage.png"
+                },
+                {
+                  "text": "il passaporto / il documento",
+                  "imageUrl": "/content/img/passport-control.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la valigia / i bagagli = suitcase / luggage"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il passaporto / il documento",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il passaporto / il documento",
+                  "imageUrl": "/content/img/passport-control.png"
+                },
+                {
+                  "text": "la camera doppia / matrimoniale",
+                  "imageUrl": "/content/img/hotel.png"
+                },
+                {
+                  "text": "convalidare il biglietto",
+                  "imageUrl": "/content/img/check-mark-button.png"
+                },
+                {
+                  "text": "la prenotazione",
+                  "imageUrl": "/content/img/calendar.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il passaporto / il documento = passport / ID"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "la biglietteria",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "la valigia / i bagagli",
+                  "imageUrl": "/content/img/luggage.png"
+                },
+                {
+                  "text": "la biglietteria",
+                  "imageUrl": "/content/img/ticket.png"
+                },
+                {
+                  "text": "la camera singola",
+                  "imageUrl": "/content/img/bed.png"
+                },
+                {
+                  "text": "in orario / in ritardo",
+                  "imageUrl": "/content/img/alarm-clock.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la biglietteria = ticket office"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/hotel.png",
+              "options": [
+                {
+                  "text": "la biglietteria",
+                  "imageUrl": null
+                },
+                {
+                  "text": "convalidare il biglietto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la camera doppia / matrimoniale",
+                  "imageUrl": null
+                },
+                {
+                  "text": "andata e ritorno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la camera doppia / matrimoniale = double room"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/high-speed-train.png",
+              "options": [
+                {
+                  "text": "il volo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la valigia / i bagagli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la carta d'imbarco",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la coincidenza",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "la coincidenza = connection (next train)"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la camera doppia / matrimoniale",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "booking",
+                  "imageUrl": null
+                },
+                {
+                  "text": "boarding pass",
+                  "imageUrl": null
+                },
+                {
+                  "text": "return (round trip)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "double room",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la coincidenza",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "double room",
+                  "imageUrl": null
+                },
+                {
+                  "text": "booking",
+                  "imageUrl": null
+                },
+                {
+                  "text": "single room",
+                  "imageUrl": null
+                },
+                {
+                  "text": "connection (next train)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "il volo",
+                  "right": "flight"
+                },
+                {
+                  "left": "colazione inclusa",
+                  "right": "breakfast included"
+                },
+                {
+                  "left": "la prenotazione",
+                  "right": "booking"
+                },
+                {
+                  "left": "il passaporto / il documento",
+                  "right": "passport / ID"
+                },
+                {
+                  "left": "la camera doppia / matrimoniale",
+                  "right": "double room"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "You go and come back the same day. You buy…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "andata e ritorno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la coincidenza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "solo andata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la carta d'imbarco",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "Where do you wait for the train?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "alla reception",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in biglietteria",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al binario",
+                  "imageUrl": null
+                },
+                {
+                  "text": "al check-in",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "A room for one person is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "una camera doppia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una valigia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una prenotazione",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una camera singola",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "The train is not on time: it is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "inclusa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in ritardo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "convalidato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "in orario",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "la valigia",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ticket",
+                  "imageUrl": null
+                },
+                {
+                  "text": "booking",
+                  "imageUrl": null
+                },
+                {
+                  "text": "suitcase",
+                  "imageUrl": null
+                },
+                {
+                  "text": "flight",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write the travel words you need for your next trip home."
+        },
+        {
+          "order": 8,
+          "title": "Lesson 3 · Dialogues: at the ticket office and at the hotel",
+          "titleIt": "Lezione 3 · Dialoghi: in biglietteria e alla reception",
+          "kind": "Dialogue",
+          "summary": "A return ticket to Milano, platform 3 — and check-in at the Hotel Centrale.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "A traveller at the station ticket office.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo 1: comprare un biglietto in biglietteria",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Viaggiatore",
+                  "italian": "Buongiorno! Vorrei un biglietto di andata e ritorno per Milano.",
+                  "english": "Good morning! I'd like a return ticket to Milano.",
+                  "punjabi": "Sat Sri Akal! Mainu Milano di aun-jaan di tikat chaahidi hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Impiegata",
+                  "italian": "Per oggi? C'è un treno regionale alle 10:15. Sono 24 euro.",
+                  "english": "For today? There's a regional train at 10:15. It's 24 euros.",
+                  "punjabi": "Ajj lai? 10:15 vaje ikk rijanal tren hai. 24 yuro honge.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Viaggiatore",
+                  "italian": "Perfetto, pago con la carta. Da quale binario parte?",
+                  "english": "Perfect, I'll pay by card. Which platform does it leave from?",
+                  "punjabi": "Theek hai, main kaard naal denda haan. Kihade pletfarm ton chalegi?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Impiegata",
+                  "italian": "Dal binario 3, ma attenzione: oggi ha 10 minuti di ritardo!",
+                  "english": "From platform 3, but be careful: today it's 10 minutes late!",
+                  "punjabi": "Pletfarm 3 ton, par dhian rakho: ajj das minat der naal hai!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Mr Singh checks in at the hotel.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo 2: alla reception dell'hotel",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Receptionist",
+                  "italian": "Buonasera, benvenuto all'Hotel Centrale!",
+                  "english": "Good evening, welcome to the Hotel Centrale!",
+                  "punjabi": "Sat Sri Akal, Hotal Centrale vich ji aiaan nu!",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Buonasera! Ho una prenotazione a nome Singh per due notti.",
+                  "english": "Good evening! I have a booking under the name Singh for two nights.",
+                  "punjabi": "Sat Sri Akal! Meri Singh de naan te do raataan di buking hai.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Receptionist",
+                  "italian": "Sì, una camera doppia con colazione inclusa. Mi dà il passaporto?",
+                  "english": "Yes, a double room with breakfast included. May I have your passport?",
+                  "punjabi": "Haan ji, naashte samet do bandiaan da kamra. Paasport de sakde ho?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Cliente",
+                  "italian": "Ecco il documento. A che ora è la colazione e dove posso lasciare la valigia?",
+                  "english": "Here is my ID. What time is breakfast and where can I leave my suitcase?",
+                  "punjabi": "Eh lao paasport. Naashta kinne vaje hai ate main sutkes kitthe rakh sakda haan?",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Domande chiave del viaggiatore",
+              "body": "**In stazione e in aeroporto**\n- Scusi, da quale binario parte il treno?\n- Il volo è in orario o in ritardo?\n- Dove devo ritirare la mia valigia?\n\n**In albergo**\n- Avete una camera singola libera?\n- Quanto costa una doppia a notte?\n- Qual è la password del Wi-Fi?",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The traveller wants a one-way ticket.)",
+              "italian": "Il viaggiatore vuole solo andata.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The ticket costs 24 euros.)",
+              "italian": "Il biglietto costa 24 euro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The train leaves from platform 3.)",
+              "italian": "Il treno parte dal binario 3.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Mr Singh has a single room.)",
+              "italian": "Il signor Singh ha una camera singola.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Breakfast is included.)",
+              "italian": "La colazione è inclusa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Which platform does the train leave from\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Da quale binario parte il treno",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I have a booking for two nights\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ho una prenotazione per due notti",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Role-play: scenario A (buy a ticket to Bologna) or scenario B (book a room for three nights)."
+        },
+        {
+          "order": 9,
+          "title": "Lesson 3 · Yesterday's trip: AVERE + ESSERE together",
+          "titleIt": "Lezione 3 · Il viaggio di ieri al passato prossimo",
+          "kind": "Grammar",
+          "summary": "Ho comprato il biglietto, sono partito, sono arrivato, ho aperto la valigia, mi sono riposato.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Il viaggio in 3 momenti",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Momento",
+                  "Ausiliare",
+                  "Esempio"
+                ],
+                [
+                  "1. Partenza",
+                  "AVERE + ESSERE",
+                  "Ho comprato il biglietto, poi sono partito/a dal binario 4."
+                ],
+                [
+                  "2. Arrivo",
+                  "ESSERE",
+                  "Sono arrivato/a in hotel. Il treno è arrivato in orario."
+                ],
+                [
+                  "3. In camera",
+                  "AVERE + riflessivo",
+                  "Ho aperto la valigia. Infine mi sono riposato/a."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "Role-play a coppie",
+              "body": "- **Scenario A · In stazione** (bigliettaio e viaggiatore): chiedi un biglietto per Bologna, l'orario e il binario.\n- **Scenario B · In albergo** (receptionist e ospite): chiedi una camera singola o doppia per tre notti.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri ___ comprato il biglietto in biglietteria.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Poi ___ partita dal binario 4.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il treno ___ arrivato in orario.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "In camera ___ aperto la valigia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Infine ___ riposato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "mi sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si è",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mi ho",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "I miei genitori ___ arrivati a Malpensa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your last trip in 6 sentences: departure, arrival and in the room."
+        },
+        {
+          "order": 10,
+          "title": "Lesson 4 · Your arrival in Italy: 5 questions",
+          "titleIt": "Lezione 4 · Il tuo arrivo in Italia: 5 domande",
+          "kind": "Review",
+          "summary": "Quando sei arrivato/a? Come sei venuto/a? — and sono partito vs sono partita.",
+          "estimatedMinutes": 12,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 9 · Lezione 4 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap9-lez4-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "5 domande per raccontare il tuo arrivo",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Domanda (tu)",
+                  "Risposta modello (io)"
+                ],
+                [
+                  "1. Quando sei arrivato/a in Italia?",
+                  "Sono arrivato/a due anni fa / nel 2024."
+                ],
+                [
+                  "2. Come sei venuto/a?",
+                  "Sono venuto/a in aereo da Amritsar / Delhi."
+                ],
+                [
+                  "3. Con chi sei partito/a?",
+                  "Sono partito/a da solo/a / con la famiglia."
+                ],
+                [
+                  "4. Dove sei stato/a all'inizio?",
+                  "All'inizio sono stato/a a Brescia / Mantova."
+                ],
+                [
+                  "5. Come ti sei sentito/a il primo giorno?",
+                  "Mi sono sentito/a emozionato/a e felice!"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Io parlo di me: -O per un uomo, -A per una donna",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Parla un uomo",
+                  "Parla una donna"
+                ],
+                [
+                  "Sono nato in Punjab.",
+                  "Sono nata in Punjab."
+                ],
+                [
+                  "Sono arrivato da solo.",
+                  "Sono arrivata con mio marito."
+                ],
+                [
+                  "Mi sono trovato subito bene.",
+                  "Mi sono trovata subito bene."
+                ]
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(Kamal) Sono ___ in India.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "nato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "nata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(Simran) Sono ___ in Italia con mio marito.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "arrivata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arrivati",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arrivate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arrivato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(Harpreet, uomo) Sono ___ da solo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "venuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venuta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venite",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venuti",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "(Kiran, donna) Mi sono ___ subito bene.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "trovata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "trovate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "trovato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "trovati",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Quando sei ___ in Italia, Gurpreet?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "arrivato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arrivata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arrivare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "arrivate",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Come ti sei sentito il primo giorno?\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "What did you hear on the first day?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "How did you feel on the first day?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Who did you meet on the first day?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Where did you sleep on the first day?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Answer the 5 questions about yourself in full sentences."
+        },
+        {
+          "order": 11,
+          "title": "Lesson 4 · Model stories: arriving in Italy and a day in Verona",
+          "titleIt": "Lezione 4 · Testi modello: l'arrivo in Italia e una gita a Verona",
+          "kind": "Review",
+          "summary": "Read Kamal's arrival story and a Sunday trip to Verona — then end your story well.",
+          "estimatedMinutes": 12,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Il mio arrivo in Italia",
+              "body": "Mi chiamo Kamal e sono nato in India. Sono arrivato in Italia tre anni fa, nel mese di ottobre.\n\nPrima sono partito da Nuova Delhi in aereo e sono atterrato a Milano Malpensa. Poi mio fratello è venuto a prendermi in macchina e siamo andati a Mantova.\n\nAll'inizio sono stato un po' timido per la lingua, ma oggi ho imparato l'italiano e mi sono integrato bene!",
+              "mediaUrl": null,
+              "caption": "My name is Kamal and I was born in India. I arrived in Italy three years ago, in October.\n\nFirst I left New Delhi by plane and landed at Milano Malpensa. Then my brother came to pick me up by car and we went to Mantova.\n\nAt first I was a bit shy because of the language, but today I have learnt Italian and I have settled in well!",
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "La nostra domenica a Verona",
+              "body": "Domenica scorsa io e mia moglie ci siamo svegliati presto e siamo andati in stazione.\n\nAbbiamo comprato due biglietti di andata e ritorno e siamo partiti alle nove. Siamo arrivati a Verona dopo quaranta minuti.\n\nAbbiamo visitato Piazza Bra, abbiamo fatto tante foto e siamo tornati a casa alle sette di sera. Ci siamo divertiti tantissimo!",
+              "mediaUrl": null,
+              "caption": "Last Sunday my wife and I woke up early and went to the station.\n\nWe bought two return tickets and left at nine. We arrived in Verona after forty minutes.\n\nWe visited Piazza Bra, took lots of photos and came back home at seven in the evening. We had a great time!",
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "4 espressioni per concludere il racconto",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "È stato bellissimo!",
+                  "english": "It was wonderful!",
+                  "punjabi": "Bahut sohna si!",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/star-struck.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ci siamo divertiti!",
+                  "english": "We had fun!",
+                  "punjabi": "Asi bahut maza kita!",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/party-popper.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Mi sono trovato/a bene.",
+                  "english": "I felt comfortable / I got on well.",
+                  "punjabi": "Mainu changa lagia.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/relieved-face.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "È stato un viaggio lungo.",
+                  "english": "It was a long journey.",
+                  "punjabi": "Eh lamma safar si.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/tired-face.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Mi sono trovato/a bene.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ci siamo divertiti!",
+                  "imageUrl": "/content/img/party-popper.png"
+                },
+                {
+                  "text": "È stato un viaggio lungo.",
+                  "imageUrl": "/content/img/tired-face.png"
+                },
+                {
+                  "text": "Mi sono trovato/a bene.",
+                  "imageUrl": "/content/img/relieved-face.png"
+                },
+                {
+                  "text": "È stato bellissimo!",
+                  "imageUrl": "/content/img/star-struck.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Mi sono trovato/a bene. = I felt comfortable / I got on well."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "È stato bellissimo!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi sono trovato/a bene.",
+                  "imageUrl": "/content/img/relieved-face.png"
+                },
+                {
+                  "text": "È stato bellissimo!",
+                  "imageUrl": "/content/img/star-struck.png"
+                },
+                {
+                  "text": "Ci siamo divertiti!",
+                  "imageUrl": "/content/img/party-popper.png"
+                },
+                {
+                  "text": "È stato un viaggio lungo.",
+                  "imageUrl": "/content/img/tired-face.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "È stato bellissimo! = It was wonderful!"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ci siamo divertiti!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "È stato un viaggio lungo.",
+                  "imageUrl": "/content/img/tired-face.png"
+                },
+                {
+                  "text": "Mi sono trovato/a bene.",
+                  "imageUrl": "/content/img/relieved-face.png"
+                },
+                {
+                  "text": "È stato bellissimo!",
+                  "imageUrl": "/content/img/star-struck.png"
+                },
+                {
+                  "text": "Ci siamo divertiti!",
+                  "imageUrl": "/content/img/party-popper.png"
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ci siamo divertiti! = We had fun!"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/tired-face.png",
+              "options": [
+                {
+                  "text": "È stato bellissimo!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "È stato un viaggio lungo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ci siamo divertiti!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Mi sono trovato/a bene.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "È stato un viaggio lungo. = It was a long journey."
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "È stato un viaggio lungo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "It was wonderful!",
+                  "imageUrl": null
+                },
+                {
+                  "text": "It was a long journey.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I felt comfortable / I got on well.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "We had fun!",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Ci siamo divertiti!",
+                  "right": "We had fun!"
+                },
+                {
+                  "left": "È stato bellissimo!",
+                  "right": "It was wonderful!"
+                },
+                {
+                  "left": "È stato un viaggio lungo.",
+                  "right": "It was a long journey."
+                },
+                {
+                  "left": "Mi sono trovato/a bene.",
+                  "right": "I felt comfortable / I got on well."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Kamal arrived in Italy three years ago.)",
+              "italian": "Kamal è arrivato in Italia tre anni fa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Kamal landed in Rome.)",
+              "italian": "Kamal è atterrato a Roma.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (His brother came to pick him up by car.)",
+              "italian": "Il fratello è venuto a prenderlo in macchina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (They left for Verona at seven.)",
+              "italian": "Sono partiti per Verona alle sette.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (In Verona they visited Piazza Bra.)",
+              "italian": "A Verona hanno visitato Piazza Bra.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"We arrived in Verona after forty minutes\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Siamo arrivati a Verona dopo quaranta minuti",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your own story (6–8 sentences) about your arrival in Italy or a trip. Use avere, essere and prima, poi, dopo, infine."
+        },
+        {
+          "order": 12,
+          "title": "Lesson 4 · Chapter 9 practice",
+          "titleIt": "Lezione 4 · Esercizi di ripasso del Capitolo 9",
+          "kind": "Review",
+          "summary": "Mixed practice: essere and agreement, avere or essere, reflexives, travel words.",
+          "estimatedMinutes": 10,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Ripasso lampo",
+              "body": "- **ESSERE** with movement / change: andare, venire, partire, arrivare, tornare, entrare, uscire, stare, rimanere, nascere\n- **Agreement:** -o · -a · -i · -e\n- **Test:** che cosa? → avere · dove? → essere\n- **Reflexives:** always essere (mi sono svegliato/a)\n- **Travel:** biglietteria, binario, andata e ritorno, ritardo, valigia, prenotazione, camera singola / doppia",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri sera Sara ___ a casa alle nove.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è tornato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha tornata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha tornato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è tornata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'anno scorso io e mio fratello ___ in Italia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "siamo venute",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono venuti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo venuti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo venuto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Le ragazze ___ in albergo perché pioveva.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è rimasta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono rimasti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno rimasto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono rimaste",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho comprato il biglietto in ___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "binario",
+                  "imageUrl": null
+                },
+                {
+                  "text": "reception",
+                  "imageUrl": null
+                },
+                {
+                  "text": "valigia",
+                  "imageUrl": null
+                },
+                {
+                  "text": "biglietteria",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'aereo parte dall'___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "aeroporto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "albergo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ufficio",
+                  "imageUrl": null
+                },
+                {
+                  "text": "binario",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Faccio il check-in alla ___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "coincidenza",
+                  "imageUrl": null
+                },
+                {
+                  "text": "stazione",
+                  "imageUrl": null
+                },
+                {
+                  "text": "biglietteria",
+                  "imageUrl": null
+                },
+                {
+                  "text": "reception",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "In hotel serve un ___ d'identità.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "volo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ritardo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "binario",
+                  "imageUrl": null
+                },
+                {
+                  "text": "documento",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Get ready for the test: tell your arrival in Italy aloud in 1 minute."
+        },
+        {
+          "order": 13,
+          "title": "Chapter 9 test",
+          "titleIt": "Test Capitolo 9",
+          "kind": "Exam",
+          "summary": "Listening, travel words, essere and agreement, avere or essere, reflexives in the past. Pass mark: 60%.",
+          "estimatedMinutes": 25,
+          "xpReward": 60,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Test Capitolo 9",
+              "body": "This test checks everything in Chapter 9 (Lessons 1–4).\n\n- **1. Listening** — sentences and a travel story\n- **2. Vocabulary** — station, airport and hotel\n- **3. Grammar** — essere with agreement, avere or essere, reflexive verbs in the past\n- **4. Writing** — your arrival in Italy or a trip\n\nYou need **60%** to pass. You can repeat the test as many times as you like.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The **written part** (your arrival in Italy or a trip) and the **oral interview** (your arrival, at the ticket office or hotel, reflexive verbs in the past — 2 minutes) are done **with your teacher** in the live class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Pdf",
+              "title": "Course phrasebook (PDF)",
+              "body": "Every word and phrase of the course, chapter by chapter, with English and Punjabi.",
+              "mediaUrl": "/content/pdf/corso-italiano-a0-phrasebook.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Stamattina Maria è partita alle otto in treno per Milano.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "MARCO È ARRIVATO IN RITARDO ALLA STAZIONE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MARIA È PARTITA ALLE OTTO IN TRENO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Ieri sera ci siamo divertiti molto alla festa di compleanno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "CI SIAMO DIVERTITI MOLTO ALLA FESTA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MI SONO SVEGLIATA PRESTO STAMATTINA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "In biglietteria abbiamo comprato due biglietti di andata e ritorno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "HO PRENOTATO UNA CAMERA SINGOLA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ABBIAMO COMPRATO DUE BIGLIETTI DI ANDATA E RITORNO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Attenzione: il treno parte dal binario quattro tra cinque minuti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "LA VALIGIA È RIMASTA IN AEROPORTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "IL TRENO PARTE DAL BINARIO QUATTRO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Ciao, mi chiamo Singh e sono venuto in Italia due anni fa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "SONO VENUTO IN ITALIA DUE ANNI FA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SIAMO TORNATI A CASA IERI SERA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen to the story: \"io e mia moglie siamo ___ a Roma\" (1)",
+              "italian": "Domenica scorsa io e mia moglie siamo andati a Roma in treno.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "USCITI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "RIMASTI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ANDATI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "NATI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: the train had ten minutes of… (2)",
+              "italian": "Alla stazione il treno aveva dieci minuti di ritardo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ORARIO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VIAGGIO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "RITARDO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "BINARIO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: what room did they take? (3)",
+              "italian": "In albergo abbiamo preso una camera doppia con colazione inclusa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "SINGOLA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DOPPIA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "GRANDE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PICCOLA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"Il pomeriggio ___ stati al Colosseo\" (4)",
+              "italian": "Il pomeriggio siamo stati al Colosseo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ABBIAMO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SIETE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SONO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SIAMO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"la sera ci siamo ___ molto\" (5)",
+              "italian": "La sera ci siamo divertiti molto insieme.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "VESTITI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "DIVERTITI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SVEGLIATI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ALZATI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "2A · Match each word with its meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Biglietto di andata e ritorno",
+                  "right": "Return ticket · Aun-jaan di tikat"
+                },
+                {
+                  "left": "Binario",
+                  "right": "Platform · Pletfarm"
+                },
+                {
+                  "left": "Valigia",
+                  "right": "Suitcase · Sutkes"
+                },
+                {
+                  "left": "Prenotazione",
+                  "right": "Booking · Buking"
+                },
+                {
+                  "left": "Camera singola / doppia",
+                  "right": "Single / double room · Ikk / do bandiaan da kamra"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Compro il biglietto in ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "reception",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aeroporto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "biglietteria",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ritardo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · L'aereo parte dall'?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "documento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "biglietteria",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aeroporto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "reception",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Faccio il check-in alla ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "aeroporto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "reception",
+                  "imageUrl": null
+                },
+                {
+                  "text": "biglietteria",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ritardo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · Il treno non è in orario, ha ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ritardo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "documento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "reception",
+                  "imageUrl": null
+                },
+                {
+                  "text": "biglietteria",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · In hotel serve un ? d'identità.",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "documento",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aeroporto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ritardo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "biglietteria",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Ieri sera Sara ___ (tornare) a casa alle nove.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è tornato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è tornata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono tornate",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha tornato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · L'anno scorso io e mio fratello ___ (venire) in Italia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "siamo venuti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo venute",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono venuti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo venuto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Le ragazze ___ (rimanere) in albergo perché pioveva.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sono rimasti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono rimanute",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sono rimaste",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno rimasto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Stamattina noi ___ (partire) alle sette dalla stazione.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "siamo partito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo partiti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo partiti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo partito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Al bar Marco ___ (prendere) due cappuccini e un cornetto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha preso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è presa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha prenduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è preso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Dove ___ (nascere) tua madre? In India.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è nato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha nata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha nato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è nata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Ieri tu ___ (comprare) i biglietti per il treno?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sei comprato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai comprato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "sei comprata",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai comprata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Giulia ___ (uscire) con le sue amiche sabato sera.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "è uscito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha uscita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "è uscita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha uscito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Stamattina Nadia ___ alle sei e mezza.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha svegliato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "si è svegliata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Ieri sera io e Paolo ___ molto alla festa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ci siamo divertiti",
+                  "imageUrl": null
+                },
+                {
+                  "text": "siamo divertito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · A che ora ___ ieri notte, Luca?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "sei ti addormentato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ti sei addormentato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I arrived in Italy two years ago\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Sono arrivato in Italia due anni fa",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I travelled by plane with my brother\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ho viaggiato in aereo con mio fratello",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"At first I felt a bit shy\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "All'inizio mi sono sentita un po' timida",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Written part for your teacher: complete the 5 sentences about your arrival in Italy or a recent trip. Then prepare the 2-minute oral interview."
+        }
+      ]
+    }
+  ]
+}

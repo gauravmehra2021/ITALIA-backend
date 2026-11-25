@@ -896,7 +896,7 @@ export default {
   cefrLevel: 'A1–A2',
   category: 'Work',
   durationWeeks: 10,
-  displayOrder: 3,
+  displayOrder: 22,
   cover: 'Briefcase',
   units,
 };

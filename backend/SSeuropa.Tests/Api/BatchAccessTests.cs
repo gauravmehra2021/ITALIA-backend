@@ -31,7 +31,7 @@ public class BatchAccessTests : IClassFixture<WebApplicationFactory<Program>>
     {
         var admin = await DemoLoginAsync("admin@sseuropa.demo");
         var courses = await GetAsync<List<CourseCard>>("/api/learn/courses", admin);
-        var a0 = courses.Single(c => c.Course.Slug == "corso-italiano-a0").Course.Id;
+        var a0 = courses.Single(c => c.Course.Slug == "corso-italiano-capitolo-1").Course.Id;
         var a1 = courses.Single(c => c.Course.Slug == "italian-a1-foundations").Course.Id;
 
         // Added by the team → temporary password, must change it.

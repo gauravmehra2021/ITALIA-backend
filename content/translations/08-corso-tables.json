@@ -1,0 +1,466 @@
+{
+ "coffee · why / because": [
+  null,
+  "कॉफ़ी · क्यों / क्योंकि"
+ ],
+ "Monday · yes": [
+  null,
+  "सोमवार · हाँ"
+ ],
+ "but · I will go": [
+  null,
+  "लेकिन · मैं जाऊँगा"
+ ],
+ "more · menu": [
+  null,
+  "ज़्यादा · मेन्यू"
+ ],
+ "I": [
+  null,
+  "मैं"
+ ],
+ "you (informal)": [
+  null,
+  "तू / तुम"
+ ],
+ "he (man / boy)": [
+  null,
+  "वह (आदमी / लड़का)"
+ ],
+ "she": [
+  null,
+  "वह (औरत / लड़की)"
+ ],
+ "you (formal)": [
+  null,
+  "आप"
+ ],
+ "He is Luca. She is Anna.": [
+  null,
+  "वह लूका है। वह आन्ना है।"
+ ],
+ "book → books": [
+  null,
+  "किताब → किताबें"
+ ],
+ "pen → pens": [
+  null,
+  "पेन → पेन"
+ ],
+ "student / key": [
+  null,
+  "छात्र / चाबी"
+ ],
+ "young": [
+  null,
+  "जवान"
+ ],
+ "kind": [
+  null,
+  "दयालु"
+ ],
+ "I speak / work": [
+  null,
+  "मैं बोलता हूँ / काम करता हूँ"
+ ],
+ "you speak / work": [
+  null,
+  "तू बोलता है / काम करता है"
+ ],
+ "he / she speaks": [
+  null,
+  "वह बोलता / बोलती है"
+ ],
+ "we speak / work": [
+  null,
+  "हम बोलते हैं / काम करते हैं"
+ ],
+ "you (pl.) speak": [
+  null,
+  "आप लोग बोलते हैं"
+ ],
+ "they speak / work": [
+  null,
+  "वे बोलते हैं / काम करते हैं"
+ ],
+ "I read / write": [
+  null,
+  "मैं पढ़ता / लिखता हूँ"
+ ],
+ "you read / write": [
+  null,
+  "तू पढ़ता / लिखता है"
+ ],
+ "he / she reads": [
+  null,
+  "वह पढ़ता / पढ़ती है"
+ ],
+ "we read / write": [
+  null,
+  "हम पढ़ते / लिखते हैं"
+ ],
+ "you (pl.) read": [
+  null,
+  "आप लोग पढ़ते हैं"
+ ],
+ "they read / write": [
+  null,
+  "वे पढ़ते / लिखते हैं"
+ ],
+ "I understand / finish": [
+  null,
+  "मैं समझता हूँ / ख़त्म करता हूँ"
+ ],
+ "you understand / finish": [
+  null,
+  "तू समझता है / ख़त्म करता है"
+ ],
+ "he / she understands": [
+  null,
+  "वह समझता / समझती है"
+ ],
+ "we understand / finish": [
+  null,
+  "हम समझते हैं / ख़त्म करते हैं"
+ ],
+ "you (pl.) understand": [
+  null,
+  "आप लोग समझते हैं"
+ ],
+ "they understand / finish": [
+  null,
+  "वे समझते हैं / ख़त्म करते हैं"
+ ],
+ "It's one o'clock": [
+  null,
+  "एक बजा है"
+ ],
+ "It's two / eleven o'clock": [
+  null,
+  "दो / ग्यारह बजे हैं"
+ ],
+ "It's midday / midnight": [
+  null,
+  "दोपहर के / रात के बारह बजे हैं"
+ ],
+ "quarter past": [
+  null,
+  "सवा"
+ ],
+ "half past": [
+  null,
+  "साढ़े"
+ ],
+ "quarter to": [
+  null,
+  "पौने"
+ ],
+ "I like playing": [
+  null,
+  "मुझे खेलना पसंद है"
+ ],
+ "I like sport / music": [
+  null,
+  "मुझे खेल / संगीत पसंद है"
+ ],
+ "I like action films": [
+  null,
+  "मुझे एक्शन फ़िल्में पसंद हैं"
+ ],
+ "I don't like": [
+  null,
+  "मुझे पसंद नहीं है"
+ ],
+ "Do you like…?": [
+  null,
+  "क्या तुम्हें … पसंद है?"
+ ],
+ "I would like…": [
+  null,
+  "मुझे … चाहिए"
+ ],
+ "I'll have…": [
+  null,
+  "मैं … लूँगा"
+ ],
+ "Do you have…?": [
+  null,
+  "क्या आपके पास … है?"
+ ],
+ "How much is it?": [
+  null,
+  "यह कितने का है?"
+ ],
+ "Right away / Here you are": [
+  null,
+  "अभी लाया / यह लीजिए"
+ ],
+ "1 kg / half a kg": [
+  null,
+  "एक किलो / आधा किलो"
+ ],
+ "100 g / 200 g": [
+  null,
+  "सौ / दो सौ ग्राम"
+ ],
+ "a bottle / litre of": [
+  null,
+  "एक बोतल / लीटर"
+ ],
+ "a pack of": [
+  null,
+  "एक पैकेट"
+ ],
+ "a tin / jar of": [
+  null,
+  "एक डिब्बा / छोटी शीशी"
+ ],
+ "There is": [
+  null,
+  "… है"
+ ],
+ "There are": [
+  null,
+  "… हैं"
+ ],
+ "There isn't": [
+  null,
+  "… नहीं है"
+ ],
+ "Is there…?": [
+  null,
+  "क्या … है?"
+ ],
+ "near": [
+  null,
+  "के पास"
+ ],
+ "far from": [
+  null,
+  "से दूर"
+ ],
+ "opposite": [
+  null,
+  "के सामने"
+ ],
+ "next to": [
+  null,
+  "के बिल्कुल बगल में"
+ ],
+ "between": [
+  null,
+  "के बीच में"
+ ],
+ "of / from": [
+  null,
+  "का, की, के"
+ ],
+ "to / at": [
+  null,
+  "को, में"
+ ],
+ "from / at (a person's place)": [
+  null,
+  "से, के पास"
+ ],
+ "in / into": [
+  null,
+  "में, अंदर"
+ ],
+ "with": [
+  null,
+  "के साथ"
+ ],
+ "on / about": [
+  null,
+  "पर, के बारे में"
+ ],
+ "for / to": [
+  null,
+  "के लिए"
+ ],
+ "between / in (time)": [
+  null,
+  "के बीच, … बाद"
+ ],
+ "this coat": [
+  null,
+  "यह कोट"
+ ],
+ "this jacket": [
+  null,
+  "यह जैकेट"
+ ],
+ "these trousers": [
+  null,
+  "यह पैंट"
+ ],
+ "these shoes": [
+  null,
+  "ये जूते"
+ ],
+ "I went": [
+  null,
+  "मैं गया / गई"
+ ],
+ "you went": [
+  null,
+  "तू गया / गई"
+ ],
+ "he / she went": [
+  null,
+  "वह गया / गई"
+ ],
+ "we went": [
+  null,
+  "हम गए / गईं"
+ ],
+ "you (pl.) went": [
+  null,
+  "आप लोग गए / गईं"
+ ],
+ "they went": [
+  null,
+  "वे गए / गईं"
+ ],
+ "it": [
+  null,
+  "इसे"
+ ],
+ "them": [
+  null,
+  "इन्हें"
+ ],
+ "Rest!": [
+  null,
+  "आराम करो!"
+ ],
+ "Wait!": [
+  null,
+  "इंतज़ार करो!"
+ ],
+ "Sign!": [
+  null,
+  "दस्तख़त करो!"
+ ],
+ "Take!": [
+  null,
+  "लो!"
+ ],
+ "Drink!": [
+  null,
+  "पियो!"
+ ],
+ "Open / Listen!": [
+  null,
+  "खोलो / सुनो!"
+ ],
+ "I used to speak": [
+  null,
+  "मैं बोलता था"
+ ],
+ "you used to speak": [
+  null,
+  "तू बोलता था"
+ ],
+ "he / she used to speak": [
+  null,
+  "वह बोलता / बोलती थी"
+ ],
+ "we used to speak": [
+  null,
+  "हम बोलते थे"
+ ],
+ "you (pl.) used to speak": [
+  null,
+  "आप लोग बोलते थे"
+ ],
+ "they used to speak": [
+  null,
+  "वे बोलते थे"
+ ],
+ "the biggest / very big": [
+  null,
+  "सबसे बड़ा / बहुत बड़ा"
+ ],
+ "the prettiest / very pretty": [
+  null,
+  "सबसे सुंदर / बहुत सुंदर"
+ ],
+ "the tastiest / delicious": [
+  null,
+  "सबसे स्वादिष्ट / बहुत स्वादिष्ट"
+ ],
+ "hottest / freezing": [
+  null,
+  "सबसे गरम / बहुत ठंडा"
+ ],
+ "the nicest / super nice": [
+  null,
+  "सबसे अच्छा / बहुत अच्छा"
+ ],
+ "I will speak": [
+  null,
+  "मैं बोलूँगा"
+ ],
+ "you will speak": [
+  null,
+  "तू बोलेगा"
+ ],
+ "he / she will speak": [
+  null,
+  "वह बोलेगा / बोलेगी"
+ ],
+ "we will speak": [
+  null,
+  "हम बोलेंगे"
+ ],
+ "you (pl.) will speak": [
+  null,
+  "आप लोग बोलेंगे"
+ ],
+ "they will speak": [
+  null,
+  "वे बोलेंगे"
+ ],
+ "to me": [
+  null,
+  "मुझे"
+ ],
+ "to you": [
+  null,
+  "तुझे / तुम्हें"
+ ],
+ "to him": [
+  null,
+  "उसे"
+ ],
+ "to her / to you (polite)": [
+  null,
+  "उसे / आपको"
+ ],
+ "to us": [
+  null,
+  "हमें"
+ ],
+ "to you all": [
+  null,
+  "आप सबको"
+ ],
+ "to them": [
+  null,
+  "उन्हें"
+ ],
+ "I used to go": [
+  null,
+  "मैं जाता था"
+ ],
+ "I work": [
+  null,
+  "मैं काम करता हूँ"
+ ],
+ "I will do": [
+  null,
+  "मैं करूँगा"
+ ]
+}

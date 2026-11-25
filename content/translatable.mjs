@@ -23,6 +23,32 @@ function innerOf(prompt) {
   return m ? m[1] : null;
 }
 
+/** Header of a column that holds "English · Punjabi" in each cell. */
+export const MIXED_HEADER = /^English\s*[·/]\s*Punjabi$/;
+
+/** "the biggest · sab ton vadda" → ["the biggest", "sab ton vadda"] (Punjabi may be missing). */
+export const splitMeaning = (cell) => {
+  const i = (cell ?? '').indexOf(' · ');
+  return i < 0 ? [cell ?? '', null] : [cell.slice(0, i), cell.slice(i + 3)];
+};
+
+/**
+ * Grammar tables with meanings: [English, Punjabi] of every row — from an "English" and a "Punjabi"
+ * column, or from one "English · Punjabi" column. Students see the Punjabi only when they chose
+ * Punjabi; in Hindi / Urdu they see the translation of the English, in English nothing more.
+ * (Same rule in the API — TranslationService — and the student app — LessonBlocks.)
+ */
+export function tableMeanings(table) {
+  const [head, ...rows] = table ?? [];
+  if (!head) return [];
+  const en = head.indexOf('English');
+  const pa = head.indexOf('Punjabi');
+  if (en >= 0 && pa >= 0) return rows.map((r) => [r[en], r[pa]]).filter(([e]) => e && e.trim());
+  const mixed = head.findIndex((h) => MIXED_HEADER.test(h.trim()));
+  if (mixed >= 0) return rows.map((r) => splitMeaning(r[mixed])).filter(([e]) => e && e.trim());
+  return [];
+}
+
 /** Collects the translatable texts of a built course (seed JSON shape). */
 export function collectTexts(course) {
   const out = new Set();
@@ -50,7 +76,8 @@ export function collectTexts(course) {
         add(b.title);
         if (['Text', 'Tip', 'Pdf'].includes(b.type)) add(b.body);
         if (b.type === 'Text' && b.caption) add(b.caption); // English translation of a reading
-        if (b.type === 'Table' && b.table.length) b.table[0].forEach(add); // header row only
+        if (b.type === 'Table' && b.table.length) b.table[0].forEach(add); // header row…
+        if (b.type === 'Table') for (const [en] of tableMeanings(b.table)) add(en); // …and English cells next to a Punjabi column
         for (const it of b.items ?? []) { add(it.english); add(it.exampleEnglish); }
         for (const ln of b.lines ?? []) { add(ln.english); for (const r of ln.replies ?? []) add(r.english); }
       }

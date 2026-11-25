@@ -1,0 +1,4935 @@
+{
+  "slug": "corso-italiano-capitolo-8",
+  "title": "Capitolo 8 · The past with AVERE — what did you do?",
+  "shortDescription": "The passato prossimo with avere (ho mangiato, ho venduto, ho dormito), past time expressions (ieri, la settimana scorsa, due giorni fa), the most common irregular participles (fatto, detto, letto, scritto, visto, preso, bevuto…), telling a story in order with prima, poi, dopo, infine, and writing an informal message to a friend.",
+  "description": "Part of the official SS Europa Italian course used in our classes, for learners from India, Pakistan and Bangladesh who are going to Italy to work, study or live. Chapters 1–7 take you from zero to level A1 and Chapters 8–12 to level A2 — study them in order.\n\nEvery 60-minute class of the chapter is split into three short lessons you can study on your phone, with pictures, audio, grammar tables and exercises. Every word comes with its English and Punjabi meaning, the slides of each class are attached as PDF, and the chapter ends with a test (pass mark 60%).",
+  "objectives": "I can form the passato prossimo with avere: ho mangiato, hai venduto, abbiamo dormito\nI can say when something happened: ieri, l'altro ieri, la settimana scorsa, un mese fa\nI can use the 11 most common irregular participles: fatto, detto, letto, visto, preso, bevuto…\nI can tell what I did yesterday or at the weekend in order: prima, poi, dopo, infine\nI can say what I didn't do: non ho lavorato\nI can write a short WhatsApp message or email to a friend about an event",
+  "level": "Beginner",
+  "cefrLevel": "A2",
+  "category": "Core",
+  "durationWeeks": 2,
+  "displayOrder": 7,
+  "thumbnailUrl": "/content/img/spiral-calendar.png",
+  "previousTitles": [],
+  "splitFrom": "corso-italiano-a0",
+  "units": [
+    {
+      "key": "capitolo-8",
+      "order": 1,
+      "title": "Chapter 8: The past with AVERE — what did you do?",
+      "titleIt": "Capitolo 8: Il passato prossimo con AVERE",
+      "description": "The passato prossimo with avere (ho mangiato, ho venduto, ho dormito), past time expressions (ieri, la settimana scorsa, due giorni fa), the most common irregular participles (fatto, detto, letto, scritto, visto, preso, bevuto…), telling a story in order with prima, poi, dopo, infine, and writing an informal message to a friend.",
+      "canDo": [
+        "I can form the passato prossimo with avere: ho mangiato, hai venduto, abbiamo dormito",
+        "I can say when something happened: ieri, l'altro ieri, la settimana scorsa, un mese fa",
+        "I can use the 11 most common irregular participles: fatto, detto, letto, visto, preso, bevuto…",
+        "I can tell what I did yesterday or at the weekend in order: prima, poi, dopo, infine",
+        "I can say what I didn't do: non ho lavorato",
+        "I can write a short WhatsApp message or email to a friend about an event"
+      ],
+      "imageUrl": "/content/img/spiral-calendar.png",
+      "pdfUrl": "/content/pdf/corso-italiano-a0-unit-08.pdf",
+      "liveClassFocus": "Partner interview about last week, then tell the class what your partner did (io ho → lui / lei ha). Write a 50–70 word message to a friend about your weekend.",
+      "status": "Published",
+      "lessons": [
+        {
+          "order": 1,
+          "title": "Lesson 1 · The passato prossimo with AVERE",
+          "titleIt": "Lezione 1 · Il passato prossimo con AVERE",
+          "kind": "Grammar",
+          "summary": "Avere + participle: ho mangiato, ho venduto, ho dormito — -ato, -uto, -ito.",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 8 · Lezione 1 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap8-lez1-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Dal presente al passato prossimo",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Oggi (presente)",
+                  "Ieri (passato prossimo)"
+                ],
+                [
+                  "Oggi mangio la pasta.",
+                  "Ieri ho mangiato la pasta."
+                ],
+                [
+                  "Oggi vendo la macchina.",
+                  "Ieri ho venduto la macchina."
+                ],
+                [
+                  "Oggi dormo otto ore.",
+                  "Ieri ho dormito otto ore."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": null,
+              "body": "**Passato prossimo = present of AVERE + past participle.** *AVERE* changes with the person (ho, hai, ha, abbiamo, avete, hanno); with *avere* the participle **always ends in -o**.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Le 3 desinenze: -ATO, -UTO, -ITO",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "-ARE → -ATO",
+                  "-ERE → -UTO",
+                  "-IRE → -ITO"
+                ],
+                [
+                  "mangiare → mangiato",
+                  "vendere → venduto",
+                  "dormire → dormito"
+                ],
+                [
+                  "lavorare → lavorato",
+                  "ricevere → ricevuto",
+                  "finire → finito"
+                ],
+                [
+                  "comprare → comprato",
+                  "potere → potuto",
+                  "capire → capito"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Coniugazione completa",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Persona",
+                  "AVERE",
+                  "MANGIARE",
+                  "VENDERE",
+                  "DORMIRE"
+                ],
+                [
+                  "io",
+                  "ho",
+                  "ho mangiato",
+                  "ho venduto",
+                  "ho dormito"
+                ],
+                [
+                  "tu",
+                  "hai",
+                  "hai mangiato",
+                  "hai venduto",
+                  "hai dormito"
+                ],
+                [
+                  "lui / lei / Lei",
+                  "ha",
+                  "ha mangiato",
+                  "ha venduto",
+                  "ha dormito"
+                ],
+                [
+                  "noi",
+                  "abbiamo",
+                  "abbiamo mangiato",
+                  "abbiamo venduto",
+                  "abbiamo dormito"
+                ],
+                [
+                  "voi",
+                  "avete",
+                  "avete mangiato",
+                  "avete venduto",
+                  "avete dormito"
+                ],
+                [
+                  "loro",
+                  "hanno",
+                  "hanno mangiato",
+                  "hanno venduto",
+                  "hanno dormito"
+                ]
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri sera noi ___ pasta al pomodoro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "avete mangiato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno mangiato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo mangiato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho mangiato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'anno scorso Marco ___ la sua vecchia macchina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha venduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho venduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha vendito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno venduto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Stanotte tu ___ bene?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hai dormuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha dormito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai dormito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho dormito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri io ___ fino alle sei.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho lavorato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho lavoruto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai lavorato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha lavorato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Loro ___ il pane al mercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "abbiamo comprato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno comprato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno compruto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha comprato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "vendere → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "venduta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vendito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vendato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "venduto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "finire → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "finita",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "capire → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "caputo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capisce",
+                  "imageUrl": null
+                },
+                {
+                  "text": "capato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 5 things you did yesterday with avere (Ieri ho mangiato…, ho lavorato…)."
+        },
+        {
+          "order": 2,
+          "title": "Lesson 1 · When did it happen? Past time expressions",
+          "titleIt": "Lezione 1 · Espressioni di tempo passato",
+          "kind": "Vocabulary",
+          "summary": "Ieri, ieri sera, l'altro ieri, la settimana scorsa, il mese scorso, due giorni fa.",
+          "estimatedMinutes": 10,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Quando è successo?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "ieri · ieri sera · ieri mattina",
+                  "english": "yesterday / last night / yesterday morning",
+                  "punjabi": "Kall (bitia hoia)",
+                  "pronunciation": "YEH-ree",
+                  "imageUrl": "/content/img/spiral-calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "l'altro ieri",
+                  "english": "the day before yesterday",
+                  "punjabi": "Parson (bitia hoia)",
+                  "pronunciation": "LAHL-troh YEH-ree",
+                  "imageUrl": "/content/img/calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "la settimana scorsa",
+                  "english": "last week",
+                  "punjabi": "Pichhle hafte",
+                  "pronunciation": "lah set-tee-MAH-nah SKOR-sah",
+                  "imageUrl": "/content/img/tear-off-calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "il mese scorso · l'anno scorso",
+                  "english": "last month / last year",
+                  "punjabi": "Pichhle mahine · pichhle saal",
+                  "pronunciation": "eel MEH-zeh SKOR-soh",
+                  "imageUrl": "/content/img/calendar.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "due giorni fa",
+                  "english": "two days ago",
+                  "punjabi": "Do din pahilaan",
+                  "pronunciation": "DOO-eh JOR-nee fah",
+                  "imageUrl": "/content/img/hourglass-done.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "una settimana fa · un mese fa",
+                  "english": "a week ago / a month ago",
+                  "punjabi": "Ikk hafta pahilaan · ikk mahina pahilaan",
+                  "pronunciation": "OO-nah set-tee-MAH-nah fah",
+                  "imageUrl": "/content/img/hourglass-done.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Scorso / scorsa e fa",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Forma",
+                  "Regola",
+                  "Esempio"
+                ],
+                [
+                  "SCORSO",
+                  "with masculine nouns",
+                  "Il mese scorso ho lavorato tanto. Il weekend scorso, l'anno scorso."
+                ],
+                [
+                  "SCORSA",
+                  "with feminine nouns",
+                  "La settimana scorsa ho comprato un cappotto. L'estate scorsa."
+                ],
+                [
+                  "FA",
+                  "always at the end: number + time + fa",
+                  "Ho finito il corso un mese fa."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Fa** always comes **after** the time: *due giorni **fa***, never ~~fa due giorni~~. **Scorso / scorsa** agrees with the noun: *il mese scors**o**, la settimana scors**a***.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "il mese scorso · l'anno scorso",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il mese scorso · l'anno scorso",
+                  "imageUrl": "/content/img/calendar.png"
+                },
+                {
+                  "text": "una settimana fa · un mese fa",
+                  "imageUrl": "/content/img/hourglass-done.png"
+                },
+                {
+                  "text": "due giorni fa",
+                  "imageUrl": "/content/img/hourglass-done.png"
+                },
+                {
+                  "text": "ieri · ieri sera · ieri mattina",
+                  "imageUrl": "/content/img/spiral-calendar.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "il mese scorso · l'anno scorso = last month / last year"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "ieri · ieri sera · ieri mattina",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ieri · ieri sera · ieri mattina",
+                  "imageUrl": "/content/img/spiral-calendar.png"
+                },
+                {
+                  "text": "l'altro ieri",
+                  "imageUrl": "/content/img/calendar.png"
+                },
+                {
+                  "text": "due giorni fa",
+                  "imageUrl": "/content/img/hourglass-done.png"
+                },
+                {
+                  "text": "la settimana scorsa",
+                  "imageUrl": "/content/img/tear-off-calendar.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "ieri · ieri sera · ieri mattina = yesterday / last night / yesterday morning"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "due giorni fa",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "due giorni fa",
+                  "imageUrl": "/content/img/hourglass-done.png"
+                },
+                {
+                  "text": "l'altro ieri",
+                  "imageUrl": "/content/img/calendar.png"
+                },
+                {
+                  "text": "il mese scorso · l'anno scorso",
+                  "imageUrl": "/content/img/calendar.png"
+                },
+                {
+                  "text": "la settimana scorsa",
+                  "imageUrl": "/content/img/tear-off-calendar.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "due giorni fa = two days ago"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/hourglass-done.png",
+              "options": [
+                {
+                  "text": "due giorni fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "una settimana fa · un mese fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la settimana scorsa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ieri · ieri sera · ieri mattina",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "una settimana fa · un mese fa = a week ago / a month ago"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/calendar.png",
+              "options": [
+                {
+                  "text": "una settimana fa · un mese fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la settimana scorsa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "l'altro ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "due giorni fa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "l'altro ieri = the day before yesterday"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "una settimana fa · un mese fa",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "last month / last year",
+                  "imageUrl": null
+                },
+                {
+                  "text": "yesterday / last night / yesterday morning",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a week ago / a month ago",
+                  "imageUrl": null
+                },
+                {
+                  "text": "two days ago",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "l'altro ieri",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "last month / last year",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the day before yesterday",
+                  "imageUrl": null
+                },
+                {
+                  "text": "two days ago",
+                  "imageUrl": null
+                },
+                {
+                  "text": "a week ago / a month ago",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "una settimana fa · un mese fa",
+                  "right": "a week ago / a month ago"
+                },
+                {
+                  "left": "il mese scorso · l'anno scorso",
+                  "right": "last month / last year"
+                },
+                {
+                  "left": "ieri · ieri sera · ieri mattina",
+                  "right": "yesterday / last night / yesterday morning"
+                },
+                {
+                  "left": "l'altro ieri",
+                  "right": "the day before yesterday"
+                },
+                {
+                  "left": "la settimana scorsa",
+                  "right": "last week"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ settimana scorsa ho comprato un cappotto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Il",
+                  "imageUrl": null
+                },
+                {
+                  "text": "La",
+                  "imageUrl": null
+                },
+                {
+                  "text": "L'",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Lo",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il mese ___ ho lavorato tanto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "scorsa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scorso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ieri",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "L'estate ___ ho lavorato in un ristorante.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "scorso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scorsa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prossima",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho finito il corso un mese ___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scorso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scorsa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Sono arrivato in Italia sei mesi ___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scorsi",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scorso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"L'altro ieri\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "the other day next week",
+                  "imageUrl": null
+                },
+                {
+                  "text": "last week",
+                  "imageUrl": null
+                },
+                {
+                  "text": "the day before yesterday",
+                  "imageUrl": null
+                },
+                {
+                  "text": "yesterday evening",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "due giorni fa",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "in two days",
+                  "imageUrl": null
+                },
+                {
+                  "text": "every two days",
+                  "imageUrl": null
+                },
+                {
+                  "text": "for two days",
+                  "imageUrl": null
+                },
+                {
+                  "text": "two days ago",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 4 sentences with ieri, l'altro ieri, la settimana scorsa and un mese fa."
+        },
+        {
+          "order": 3,
+          "title": "Lesson 1 · Dialogue: What did you do yesterday?",
+          "titleIt": "Lezione 1 · Dialogo: cos'hai fatto ieri?",
+          "kind": "Dialogue",
+          "summary": "Elena and Gurpreet talk about shopping, cooking and a new bike.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Elena meets Gurpreet the day after work.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: cos'hai fatto ieri?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "italian": "Ciao Gurpreet! Cos'hai fatto ieri dopo il lavoro?",
+                  "english": "Hi Gurpreet! What did you do yesterday after work?",
+                  "punjabi": "Sat Sri Akal Gurpreet! Kall kamm ton baad tusi ki kita?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Gurpreet",
+                  "italian": "Ieri ho comprato le verdure al mercato e ho cucinato il riso.",
+                  "english": "Yesterday I bought vegetables at the market and cooked rice.",
+                  "punjabi": "Kall main baazar ton sabziaan kharidiaan ate chaul pakae.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Elena",
+                  "italian": "Bravo! Io invece la settimana scorsa ho venduto la mia vecchia bici.",
+                  "english": "Well done! Last week, instead, I sold my old bike.",
+                  "punjabi": "Shaabash! Main pichhle hafte aapna purana saikil vech ditta.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Gurpreet",
+                  "italian": "Davvero? Anch'io ho comprato una bici nuova un mese fa!",
+                  "english": "Really? I bought a new bike a month ago too!",
+                  "punjabi": "Sachchi? Main vi ikk mahina pahilaan navaan saikil kharidia si!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Intervista al compagno: racconta il passato",
+              "body": "1. **Ieri e l'altro ieri:** Cos'hai mangiato? Quanto hai dormito?\n2. **La settimana scorsa:** Dove hai lavorato? Cosa hai comprato?\n3. **Un mese fa:** Chi hai incontrato o chiamato?",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet bought vegetables at the market.)",
+              "italian": "Gurpreet ha comprato le verdure al mercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet cooked pasta.)",
+              "italian": "Gurpreet ha cucinato la pasta.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Elena sold her old bike.)",
+              "italian": "Elena ha venduto la sua vecchia bici.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Gurpreet bought a new bike yesterday.)",
+              "italian": "Gurpreet ha comprato una bici nuova ieri.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Yesterday I cooked rice\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ieri ho cucinato il riso",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I bought a new bike a month ago\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ho comprato una bici nuova un mese fa",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Interview a partner with the 3 questions and write their answers."
+        },
+        {
+          "order": 4,
+          "title": "Lesson 2 · The 11 key irregular participles",
+          "titleIt": "Lezione 2 · Gli 11 participi irregolari più frequenti",
+          "kind": "Vocabulary",
+          "summary": "Fatto, detto, letto, scritto, visto, preso, bevuto, aperto, chiuso, chiesto, risposto.",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 8 · Lezione 2 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap8-lez2-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Regolari e irregolari: cosa cambia?",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Regolari (-ato / -uto / -ito)",
+                  "Irregolari (forme speciali)"
+                ],
+                [
+                  "mangiare → ho mangiato",
+                  "fare → ho fatto (not ~~facciuto~~)"
+                ],
+                [
+                  "vendere → ho venduto",
+                  "prendere → ho preso (not ~~prenduto~~)"
+                ],
+                [
+                  "dormire → ho dormito",
+                  "aprire → ho aperto (not ~~aprito~~)"
+                ]
+              ]
+            },
+            {
+              "type": "Vocabulary",
+              "title": "Infinito → participio passato",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "fare → fatto",
+                  "english": "to do / make → done",
+                  "punjabi": "Kita",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/flexed-biceps.png",
+                  "audioUrl": null,
+                  "example": "Ho fatto colazione.",
+                  "exampleEnglish": "I had breakfast."
+                },
+                {
+                  "italian": "dire → detto",
+                  "english": "to say → said",
+                  "punjabi": "Kiha",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/speaking-head.png",
+                  "audioUrl": null,
+                  "example": "Il direttore ha detto di sì.",
+                  "exampleEnglish": "The manager said yes."
+                },
+                {
+                  "italian": "leggere → letto",
+                  "english": "to read → read",
+                  "punjabi": "Padhia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/open-book.png",
+                  "audioUrl": null,
+                  "example": "Ho letto un libro in italiano.",
+                  "exampleEnglish": "I read a book in Italian."
+                },
+                {
+                  "italian": "scrivere → scritto",
+                  "english": "to write → written",
+                  "punjabi": "Likhia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/writing-hand.png",
+                  "audioUrl": null,
+                  "example": "Ho scritto un messaggio al capo.",
+                  "exampleEnglish": "I wrote a message to the boss."
+                },
+                {
+                  "italian": "vedere → visto",
+                  "english": "to see → seen",
+                  "punjabi": "Vekhia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/eyes.png",
+                  "audioUrl": null,
+                  "example": "Abbiamo visto un bel film.",
+                  "exampleEnglish": "We watched a good film."
+                },
+                {
+                  "italian": "prendere → preso",
+                  "english": "to take → taken",
+                  "punjabi": "Laia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/bus.png",
+                  "audioUrl": null,
+                  "example": "Ho preso l'autobus numero 4.",
+                  "exampleEnglish": "I took bus number 4."
+                },
+                {
+                  "italian": "bere → bevuto",
+                  "english": "to drink → drunk",
+                  "punjabi": "Pita",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/hot-beverage.png",
+                  "audioUrl": null,
+                  "example": "Ho bevuto un caffè.",
+                  "exampleEnglish": "I drank a coffee."
+                },
+                {
+                  "italian": "aprire → aperto",
+                  "english": "to open → opened",
+                  "punjabi": "Kholhia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/door.png",
+                  "audioUrl": null,
+                  "example": "Il negozio ha aperto alle nove.",
+                  "exampleEnglish": "The shop opened at nine."
+                },
+                {
+                  "italian": "chiudere → chiuso",
+                  "english": "to close → closed",
+                  "punjabi": "Band kita",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/locked.png",
+                  "audioUrl": null,
+                  "example": "La banca ha chiuso alle cinque.",
+                  "exampleEnglish": "The bank closed at five."
+                },
+                {
+                  "italian": "chiedere → chiesto",
+                  "english": "to ask → asked",
+                  "punjabi": "Puchhia",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/person-raising-hand.png",
+                  "audioUrl": null,
+                  "example": "Ho chiesto un giorno di ferie.",
+                  "exampleEnglish": "I asked for a day off."
+                },
+                {
+                  "italian": "rispondere → risposto",
+                  "english": "to answer → answered",
+                  "punjabi": "Javab ditta",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/mobile-phone.png",
+                  "audioUrl": null,
+                  "example": "Lui ha risposto subito.",
+                  "exampleEnglish": "He answered at once."
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "4 gruppi facili da ricordare",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Gruppo",
+                  "Participi"
+                ],
+                [
+                  "-TTO",
+                  "fatto · detto · letto · scritto"
+                ],
+                [
+                  "-SO",
+                  "preso · chiuso"
+                ],
+                [
+                  "-TO / -STO",
+                  "visto · aperto · chiesto · risposto"
+                ],
+                [
+                  "speciale -UTO",
+                  "bere → bevuto"
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "Golden rule: these verbs always take **AVERE + participle in -o**: *ho fatto, hai letto, ha bevuto, abbiamo visto*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "rispondere → risposto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "bere → bevuto",
+                  "imageUrl": "/content/img/hot-beverage.png"
+                },
+                {
+                  "text": "rispondere → risposto",
+                  "imageUrl": "/content/img/mobile-phone.png"
+                },
+                {
+                  "text": "aprire → aperto",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "prendere → preso",
+                  "imageUrl": "/content/img/bus.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "rispondere → risposto = to answer → answered"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "chiudere → chiuso",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fare → fatto",
+                  "imageUrl": "/content/img/flexed-biceps.png"
+                },
+                {
+                  "text": "chiudere → chiuso",
+                  "imageUrl": "/content/img/locked.png"
+                },
+                {
+                  "text": "bere → bevuto",
+                  "imageUrl": "/content/img/hot-beverage.png"
+                },
+                {
+                  "text": "rispondere → risposto",
+                  "imageUrl": "/content/img/mobile-phone.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "chiudere → chiuso = to close → closed"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "aprire → aperto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "chiudere → chiuso",
+                  "imageUrl": "/content/img/locked.png"
+                },
+                {
+                  "text": "aprire → aperto",
+                  "imageUrl": "/content/img/door.png"
+                },
+                {
+                  "text": "chiedere → chiesto",
+                  "imageUrl": "/content/img/person-raising-hand.png"
+                },
+                {
+                  "text": "dire → detto",
+                  "imageUrl": "/content/img/speaking-head.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "aprire → aperto = to open → opened"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/open-book.png",
+              "options": [
+                {
+                  "text": "leggere → letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scrivere → scritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chiedere → chiesto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aprire → aperto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "leggere → letto = to read → read"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/person-raising-hand.png",
+              "options": [
+                {
+                  "text": "rispondere → risposto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scrivere → scritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggere → letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chiedere → chiesto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "chiedere → chiesto = to ask → asked"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "leggere → letto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to open → opened",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to say → said",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to read → read",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to answer → answered",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "chiedere → chiesto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "to drink → drunk",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to ask → asked",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to say → said",
+                  "imageUrl": null
+                },
+                {
+                  "text": "to close → closed",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "rispondere → risposto",
+                  "right": "to answer → answered"
+                },
+                {
+                  "left": "bere → bevuto",
+                  "right": "to drink → drunk"
+                },
+                {
+                  "left": "chiudere → chiuso",
+                  "right": "to close → closed"
+                },
+                {
+                  "left": "dire → detto",
+                  "right": "to say → said"
+                },
+                {
+                  "left": "chiedere → chiesto",
+                  "right": "to ask → asked"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "fare → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fatto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faciuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fattato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "farato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "prendere → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "presto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prendito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prenduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "preso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "aprire → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "aperto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aprito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aputo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aprato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "vedere → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vidato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vedito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vedato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "dire → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "diciuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "detto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "diretto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "leggere → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "leggiuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "letuto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "ho chiesto",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I asked",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I closed",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I said",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I answered",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Learn the 11 participles: cover the right column and say them aloud."
+        },
+        {
+          "order": 5,
+          "title": "Lesson 2 · Irregular participles in context",
+          "titleIt": "Lezione 2 · I participi irregolari nella vita quotidiana",
+          "kind": "Grammar",
+          "summary": "At home, at work and in the shops: ho bevuto, ho scritto, ha risposto, ha chiuso…",
+          "estimatedMinutes": 12,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Contesto 1 · Casa, colazione e tempo libero",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Stamattina ho bevuto un caffè e ho fatto colazione.",
+                  "english": "This morning I drank a coffee and had breakfast.",
+                  "punjabi": "Ajj savere main kauffi piti ate naashta kita.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ieri pomeriggio ho letto un libro in italiano.",
+                  "english": "Yesterday afternoon I read a book in Italian.",
+                  "punjabi": "Kall dupahir main Italian vich kitab padhi.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ieri sera noi abbiamo visto un bel film in TV.",
+                  "english": "Last night we watched a good film on TV.",
+                  "punjabi": "Kall raat asi tivi te vadhia film vekhi.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Per venire qui ho preso l'autobus numero 4.",
+                  "english": "To come here I took bus number 4.",
+                  "punjabi": "Ithe aun lai main nambar 4 bass lai.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Contesto 2 · Lavoro, messaggi e negozi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Coppia",
+                  "Esempio"
+                ],
+                [
+                  "scritto e risposto",
+                  "Ho scritto un messaggio al capo. Lui ha risposto subito!"
+                ],
+                [
+                  "chiesto e detto",
+                  "Ho chiesto un giorno di ferie. Il direttore ha detto di sì!"
+                ],
+                [
+                  "aperto e chiuso",
+                  "Il negozio ha aperto alle nove. La banca ha chiuso alle cinque."
+                ]
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Stamattina io ___ un cappuccino al bar.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho beuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho bevuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha bevuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho bevato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Sabato scorso i miei amici ___ il treno per Verona.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hanno prenduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo preso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha preso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno preso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu ___ l'email all'ufficio ieri?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hai scrito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai scrivuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai scritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha scritto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il supermercato ___ alle otto di sera.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha chiudato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno chiuso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha chiuduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha chiuso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Noi ___ un'informazione all'insegnante.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hanno chiesto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo chieduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo chiesto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "avete chiesto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "… e lei ___ subito.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha risposto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho risposto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha rispostato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha risponduto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri sera ___ un bel film in TV.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "abbiamo vedato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "avete vedito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo vedito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il direttore ___ di sì!",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha detto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha diciuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha dito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha dicato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 6 sentences about your week with 6 different irregular participles."
+        },
+        {
+          "order": 6,
+          "title": "Lesson 2 · Dialogue: a morning at the office",
+          "titleIt": "Lezione 2 · Dialogo: una mattina in ufficio",
+          "kind": "Dialogue",
+          "summary": "Simran opened the office, read the emails and answered the client.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Marco arrives at the office where Simran works.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: una mattina in ufficio",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Marco",
+                  "italian": "Ciao Simran! Hai già aperto l'ufficio stamattina?",
+                  "english": "Hi Simran! Have you already opened the office this morning?",
+                  "punjabi": "Sat Sri Akal Simran! Ki tusi ajj savere daftar khol ditta?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Simran",
+                  "italian": "Sì! Ho preso il treno delle sette, ho letto le email e ho già risposto.",
+                  "english": "Yes! I took the seven o'clock train, read the emails and already answered.",
+                  "punjabi": "Haan! Main satt vaje di tren lai, imel padhiaan ate javab vi de ditta.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Marco",
+                  "italian": "Brava! Cos'ha detto il cliente? Hai scritto il preventivo?",
+                  "english": "Well done! What did the client say? Did you write the quote?",
+                  "punjabi": "Shaabash! Graahak ne ki kiha? Ki tusi kimat da andaza likhia?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Simran",
+                  "italian": "Ha chiesto uno sconto, ma ho fatto tutto. Adesso prendiamo un caffè!",
+                  "english": "He asked for a discount, but I did everything. Now let's have a coffee!",
+                  "punjabi": "Us ne chhot mangi, par main saara kamm kar lia. Hun kauffi pie!",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Gioco della memoria: 3 domande lampo",
+              "body": "1. **Bere e prendere:** Cos'hai bevuto stamattina? Quale autobus hai preso?\n2. **Leggere e scrivere:** A chi hai scritto ieri? Cos'hai letto?\n3. **Vedere e fare:** Quale film hai visto? Cos'hai fatto domenica?",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Simran took the seven o'clock train.)",
+              "italian": "Simran ha preso il treno delle sette.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Simran didn't read the emails.)",
+              "italian": "Simran non ha letto le email.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The client asked for a discount.)",
+              "italian": "Il cliente ha chiesto uno sconto.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Marco wrote the quote.)",
+              "italian": "Marco ha scritto il preventivo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"I read the emails and answered\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ho letto le email e ho risposto",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"The client asked for a discount\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Il cliente ha chiesto uno sconto",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Ask a partner the 3 quick questions and write their answers with lui / lei ha…"
+        },
+        {
+          "order": 7,
+          "title": "Lesson 3 · Telling a story in order: prima, poi, dopo, infine",
+          "titleIt": "Lezione 3 · I connettivi del racconto",
+          "kind": "Grammar",
+          "summary": "First, then, after, finally — Harpreet's Sunday in 4 steps.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 8 · Lezione 3 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap8-lez3-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "I 4 connettivi del racconto",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "prima",
+                  "english": "first",
+                  "punjabi": "Pahilaan",
+                  "pronunciation": "PREE-mah",
+                  "imageUrl": "/content/img/keycap-1.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "poi",
+                  "english": "then",
+                  "punjabi": "Phir",
+                  "pronunciation": "POY",
+                  "imageUrl": "/content/img/keycap-2.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "dopo",
+                  "english": "after / afterwards",
+                  "punjabi": "Baad vich",
+                  "pronunciation": "DOH-poh",
+                  "imageUrl": "/content/img/keycap-3.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "infine",
+                  "english": "finally / in the end",
+                  "punjabi": "Aakhir vich",
+                  "pronunciation": "een-FEE-neh",
+                  "imageUrl": "/content/img/keycap-4.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Vocabulary",
+              "title": "La domenica di Harpreet in 4 passi",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Prima ho bevuto un tè caldo e ho fatto colazione.",
+                  "english": "First I drank a hot tea and had breakfast.",
+                  "punjabi": "Pahilaan main garam chaah piti ate naashta kita.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Poi ho preso la bici e ho fatto la spesa al mercato.",
+                  "english": "Then I took the bike and did the shopping at the market.",
+                  "punjabi": "Phir main saikil laia ate baazar ton sauda lia.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Dopo ho cucinato il pranzo e ho chiamato la mia famiglia.",
+                  "english": "After that I cooked lunch and called my family.",
+                  "punjabi": "Baad vich main dupahir da khaana banaia ate aapne parivar nu fon kita.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Infine ho visto un film e ho dormito presto.",
+                  "english": "Finally I watched a film and went to sleep early.",
+                  "punjabi": "Aakhir vich main film vekhi ate jaldi saun gia.",
+                  "pronunciation": null,
+                  "imageUrl": null,
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "prima",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prima",
+                  "imageUrl": "/content/img/keycap-1.png"
+                },
+                {
+                  "text": "poi",
+                  "imageUrl": "/content/img/keycap-2.png"
+                },
+                {
+                  "text": "infine",
+                  "imageUrl": "/content/img/keycap-4.png"
+                },
+                {
+                  "text": "dopo",
+                  "imageUrl": "/content/img/keycap-3.png"
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "prima = first"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "dopo",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "prima",
+                  "imageUrl": "/content/img/keycap-1.png"
+                },
+                {
+                  "text": "dopo",
+                  "imageUrl": "/content/img/keycap-3.png"
+                },
+                {
+                  "text": "infine",
+                  "imageUrl": "/content/img/keycap-4.png"
+                },
+                {
+                  "text": "poi",
+                  "imageUrl": "/content/img/keycap-2.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "dopo = after / afterwards"
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "infine",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dopo",
+                  "imageUrl": "/content/img/keycap-3.png"
+                },
+                {
+                  "text": "infine",
+                  "imageUrl": "/content/img/keycap-4.png"
+                },
+                {
+                  "text": "poi",
+                  "imageUrl": "/content/img/keycap-2.png"
+                },
+                {
+                  "text": "prima",
+                  "imageUrl": "/content/img/keycap-1.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "infine = finally / in the end"
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/keycap-2.png",
+              "options": [
+                {
+                  "text": "infine",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prima",
+                  "imageUrl": null
+                },
+                {
+                  "text": "dopo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "poi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": "poi = then"
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "poi",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "after / afterwards",
+                  "imageUrl": null
+                },
+                {
+                  "text": "first",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finally / in the end",
+                  "imageUrl": null
+                },
+                {
+                  "text": "then",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "prima",
+                  "right": "first"
+                },
+                {
+                  "left": "dopo",
+                  "right": "after / afterwards"
+                },
+                {
+                  "left": "infine",
+                  "right": "finally / in the end"
+                },
+                {
+                  "left": "poi",
+                  "right": "then"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ ho fatto colazione, poi ho lavato i piatti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Prima",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Scorso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Infine",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Fa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Prima ho fatto la spesa, ___ ho cucinato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "scorso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "prima",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "poi",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "___ la sera ho visto un film e ho dormito.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ieri fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Scorsa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Infine",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Infine\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "before",
+                  "imageUrl": null
+                },
+                {
+                  "text": "first",
+                  "imageUrl": null
+                },
+                {
+                  "text": "then",
+                  "imageUrl": null
+                },
+                {
+                  "text": "finally",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"First I drank a hot tea\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Prima ho bevuto un tè caldo",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Finally I watched a film\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Infine ho visto un film",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your last Sunday in 4 steps with prima, poi, dopo, infine."
+        },
+        {
+          "order": 8,
+          "title": "Lesson 3 · The weekend: questions and answers",
+          "titleIt": "Lezione 3 · Il fine settimana: domande e risposte",
+          "kind": "Vocabulary",
+          "summary": "Ho pulito casa, ho riposato… · Com'è andato il fine settimana? · non ho lavorato.",
+          "estimatedMinutes": 12,
+          "xpReward": 20,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Vocabulary",
+              "title": "Attività frequenti nel fine settimana",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [
+                {
+                  "italian": "Ho pulito casa.",
+                  "english": "I cleaned the house.",
+                  "punjabi": "Main ghar saaf kita.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/broom.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho lavato i vestiti.",
+                  "english": "I washed the clothes.",
+                  "punjabi": "Main kapde dhote.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/soap.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho cucinato e ho riposato.",
+                  "english": "I cooked and rested.",
+                  "punjabi": "Main khaana banaia ate aaram kita.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/cooking.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho fatto la spesa al supermercato.",
+                  "english": "I did the shopping at the supermarket.",
+                  "punjabi": "Main suparmarkit ton sauda lia.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/shopping-cart.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho bevuto un caffè con un amico.",
+                  "english": "I had a coffee with a friend.",
+                  "punjabi": "Main dost naal kauffi piti.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/hot-beverage.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho visto una partita.",
+                  "english": "I watched a match.",
+                  "punjabi": "Main maich vekhia.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/soccer-ball.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                },
+                {
+                  "italian": "Ho scritto messaggi ai parenti.",
+                  "english": "I wrote messages to my relatives.",
+                  "punjabi": "Main rishtedaraan nu saneh likhe.",
+                  "pronunciation": null,
+                  "imageUrl": "/content/img/mobile-phone.png",
+                  "audioUrl": null,
+                  "example": null,
+                  "exampleEnglish": null
+                }
+              ],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "Domande e risposte: ieri e il fine settimana",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Domanda (tu)",
+                  "Risposta modello (io)"
+                ],
+                [
+                  "Che cosa hai fatto ieri?",
+                  "Ieri ho lavorato fino alle sei."
+                ],
+                [
+                  "Com'è andato il fine settimana?",
+                  "Benissimo! Ho riposato tanto."
+                ],
+                [
+                  "Cos'hai mangiato ieri sera?",
+                  "Ho mangiato riso e verdure."
+                ],
+                [
+                  "Hai visto qualcuno sabato?",
+                  "Sì, ho incontrato mio cugino."
+                ],
+                [
+                  "Hai fatto la spesa ieri?",
+                  "No, non ho avuto tempo."
+                ],
+                [
+                  "A che ora hai finito di lavorare?",
+                  "Ho finito alle cinque e mezza."
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Dire quello che NON hai fatto",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Affermativo (+)",
+                  "Negativo (NON + avere)"
+                ],
+                [
+                  "Sabato ho lavorato.",
+                  "Domenica non ho lavorato."
+                ],
+                [
+                  "Ieri ho visto la TV.",
+                  "Ieri non ho visto la TV."
+                ],
+                [
+                  "Stamattina ho bevuto il caffè.",
+                  "Stamattina non ho bevuto il caffè."
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "**Non** goes **before avere**: *non ho visto* — never ~~ho non visto~~.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ho visto una partita.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ho bevuto un caffè con un amico.",
+                  "imageUrl": "/content/img/hot-beverage.png"
+                },
+                {
+                  "text": "Ho visto una partita.",
+                  "imageUrl": "/content/img/soccer-ball.png"
+                },
+                {
+                  "text": "Ho scritto messaggi ai parenti.",
+                  "imageUrl": "/content/img/mobile-phone.png"
+                },
+                {
+                  "text": "Ho cucinato e ho riposato.",
+                  "imageUrl": "/content/img/cooking.png"
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho visto una partita. = I watched a match."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ho lavato i vestiti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ho bevuto un caffè con un amico.",
+                  "imageUrl": "/content/img/hot-beverage.png"
+                },
+                {
+                  "text": "Ho pulito casa.",
+                  "imageUrl": "/content/img/broom.png"
+                },
+                {
+                  "text": "Ho lavato i vestiti.",
+                  "imageUrl": "/content/img/soap.png"
+                },
+                {
+                  "text": "Ho scritto messaggi ai parenti.",
+                  "imageUrl": "/content/img/mobile-phone.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho lavato i vestiti. = I washed the clothes."
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "Listen and choose the right picture",
+              "italian": "Ho fatto la spesa al supermercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Ho lavato i vestiti.",
+                  "imageUrl": "/content/img/soap.png"
+                },
+                {
+                  "text": "Ho bevuto un caffè con un amico.",
+                  "imageUrl": "/content/img/hot-beverage.png"
+                },
+                {
+                  "text": "Ho fatto la spesa al supermercato.",
+                  "imageUrl": "/content/img/shopping-cart.png"
+                },
+                {
+                  "text": "Ho pulito casa.",
+                  "imageUrl": "/content/img/broom.png"
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho fatto la spesa al supermercato. = I did the shopping at the supermarket."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/mobile-phone.png",
+              "options": [
+                {
+                  "text": "Ho bevuto un caffè con un amico.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho scritto messaggi ai parenti.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho cucinato e ho riposato.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho visto una partita.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho scritto messaggi ai parenti. = I wrote messages to my relatives."
+            },
+            {
+              "type": "PickWord",
+              "prompt": "What is this in Italian?",
+              "italian": null,
+              "imageUrl": "/content/img/broom.png",
+              "options": [
+                {
+                  "text": "Ho pulito casa.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho bevuto un caffè con un amico.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho visto una partita.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho lavato i vestiti.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": "Ho pulito casa. = I cleaned the house."
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Ho scritto messaggi ai parenti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I cooked and rested.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I wrote messages to my relatives.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I watched a match.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I washed the clothes.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Ho pulito casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I cooked and rested.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I did the shopping at the supermarket.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I wrote messages to my relatives.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I cleaned the house.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "Match the Italian words with their meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "Ho pulito casa.",
+                  "right": "I cleaned the house."
+                },
+                {
+                  "left": "Ho cucinato e ho riposato.",
+                  "right": "I cooked and rested."
+                },
+                {
+                  "left": "Ho fatto la spesa al supermercato.",
+                  "right": "I did the shopping at the supermarket."
+                },
+                {
+                  "left": "Ho visto una partita.",
+                  "right": "I watched a match."
+                },
+                {
+                  "left": "Ho lavato i vestiti.",
+                  "right": "I washed the clothes."
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri sera ___ la televisione perché ero stanco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "non ho visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho visto non",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho non visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non visto ho",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Domenica ___ lavorato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "no ho",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ho",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non hai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho non",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Com'è andato il fine settimana?\" — a good answer is…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Mi chiamo Ravi.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Vado al mare.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Benissimo! Ho riposato tanto.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Domani lavoro.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Hai fatto la spesa ieri?\" — \"No, …\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho non avuto tempo.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non faccio.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ho tempo domani.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ho avuto tempo.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "What does it mean?",
+              "italian": "Ho pulito casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "I stayed at home.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I cleaned the house.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I left the house.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "I bought a house.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write 3 things you did and 2 things you didn't do last weekend."
+        },
+        {
+          "order": 9,
+          "title": "Lesson 3 · Dialogue: Monday morning at the café",
+          "titleIt": "Lezione 3 · Dialogo: lunedì mattina al bar",
+          "kind": "Dialogue",
+          "summary": "Luca asks Manpreet about his weekend.",
+          "estimatedMinutes": 10,
+          "xpReward": 25,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "The situation",
+              "body": "Luca and Manpreet meet at the café on Monday morning.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Dialogue",
+              "title": "Dialogo: lunedì mattina al bar",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [
+                {
+                  "speaker": "Luca",
+                  "italian": "Ciao Manpreet! Com'è andato il fine settimana?",
+                  "english": "Hi Manpreet! How did your weekend go?",
+                  "punjabi": "Sat Sri Akal Manpreet! Hafte da ant kiven riha?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Manpreet",
+                  "italian": "Molto bene! Sabato prima ho pulito casa, poi ho fatto la spesa.",
+                  "english": "Very well! On Saturday first I cleaned the house, then I did the shopping.",
+                  "punjabi": "Bahut vadhia! Shanivar nu pahilaan main ghar saaf kita, phir sauda lia.",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Luca",
+                  "italian": "E domenica cos'hai fatto? Hai lavorato?",
+                  "english": "And on Sunday what did you do? Did you work?",
+                  "punjabi": "Ate aitvar nu ki kita? Kamm kita?",
+                  "audioUrl": null
+                },
+                {
+                  "speaker": "Manpreet",
+                  "italian": "No, non ho lavorato! Dopo pranzo ho visto gli amici e infine ho dormito.",
+                  "english": "No, I didn't work! After lunch I saw my friends and finally I slept.",
+                  "punjabi": "Nahi, kamm nahi kita! Dupahir de khaane ton baad dostaan nu milia ate aakhir vich saun gia.",
+                  "audioUrl": null
+                }
+              ],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Racconta il tuo sabato o la tua domenica",
+              "body": "1. **Fai 3 domande:** chiedi cos'ha fatto sabato e domenica.\n2. **Usa i 4 connettivi:** rispondi con *prima, poi, dopo, infine*.\n3. **Riferisci in classe:** racconta cosa ha fatto il tuo compagno!",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (On Saturday Manpreet cleaned the house.)",
+              "italian": "Sabato Manpreet ha pulito casa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (On Sunday Manpreet worked.)",
+              "italian": "Domenica Manpreet ha lavorato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (After lunch he saw his friends.)",
+              "italian": "Dopo pranzo ha visto gli amici.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"How did the weekend go\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Com'è andato il fine settimana",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Then I did the shopping\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Poi ho fatto la spesa",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Tell a partner about your weekend in order, then tell the class what your partner did."
+        },
+        {
+          "order": 10,
+          "title": "Lesson 4 · Interview: your partner's last week",
+          "titleIt": "Lezione 4 · Intervista: la settimana scorsa del compagno",
+          "kind": "Review",
+          "summary": "The Chapter 8 toolbox and how to report: io ho → lui / lei ha.",
+          "estimatedMinutes": 12,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Pdf",
+              "title": "Class slides: Capitolo 8 · Lezione 4 (PDF)",
+              "body": "The slides your teacher uses in class. Open them on your phone or print them.",
+              "mediaUrl": "/content/slides/corso-a0-cap8-lez4-slides.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Table",
+              "title": "La cassetta degli attrezzi del Capitolo 8",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Domanda",
+                  "Strumenti"
+                ],
+                [
+                  "Quando?",
+                  "ieri, l'altro ieri, la settimana scorsa, due giorni fa"
+                ],
+                [
+                  "In che ordine?",
+                  "prima, poi, dopo, infine"
+                ],
+                [
+                  "Quali verbi?",
+                  "ho fatto, visto, preso, bevuto, letto, scritto"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Intervista: la settimana scorsa del tuo compagno",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Domanda",
+                  "Aiuto per rispondere"
+                ],
+                [
+                  "1. Quanti giorni hai lavorato la settimana scorsa?",
+                  "Ho lavorato cinque giorni…"
+                ],
+                [
+                  "2. Hai fatto qualcosa di speciale nel weekend?",
+                  "Sì, ho visto… / No, ho riposato."
+                ],
+                [
+                  "3. Hai cucinato o hai mangiato fuori?",
+                  "Ho cucinato… / Ho mangiato…"
+                ],
+                [
+                  "4. Hai comprato qualcosa in negozio o al mercato?",
+                  "Ho comprato… / Non ho comprato…"
+                ],
+                [
+                  "5. Hai scritto o chiamato la tua famiglia?",
+                  "Sì, ho chiamato… / Ho scritto…"
+                ],
+                [
+                  "6. Hai letto un libro o visto un film?",
+                  "Ho visto un film… / Ho letto…"
+                ]
+              ]
+            },
+            {
+              "type": "Table",
+              "title": "Racconta alla classe: da IO HO a LUI / LEI HA",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Il compagno dice",
+                  "Tu racconti"
+                ],
+                [
+                  "«La settimana scorsa ho lavorato cinque giorni.»",
+                  "«La settimana scorsa Sukhdeep ha lavorato cinque giorni.»"
+                ],
+                [
+                  "«Sabato ho fatto la spesa e ho visto un film.»",
+                  "«Sabato Kiran ha fatto la spesa e ha visto un film.»"
+                ]
+              ]
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "When you report, change **io ho → lui / lei ha** (Punjabi: *main → us ne*). The participle stays the same: *ho lavorato → ha lavorato*.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Kiran dice: «Ho visto un film». Tu racconti: «Kiran ___ un film».",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hai visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho visto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Sukhdeep dice: «Ho lavorato cinque giorni». Tu: «Sukhdeep ___ cinque giorni».",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha lavorato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo lavorato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai lavorato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho lavorato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu chiedi: «___ cucinato o hai mangiato fuori?»",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Hai",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ha",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Hanno",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Ho",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "I miei amici dicono: «Abbiamo bevuto un tè». Tu: «I miei amici ___ un tè».",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "abbiamo bevuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "avete bevuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha bevuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno bevuto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"Hai fatto qualcosa di speciale nel weekend?\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Do you work at the weekend?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "What is special about the weekend?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Did you do anything special at the weekend?",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Are you doing anything special this weekend?",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Interview a partner with the 6 questions and write a report of 5 sentences with lui / lei ha."
+        },
+        {
+          "order": 11,
+          "title": "Lesson 4 · Writing an informal message",
+          "titleIt": "Lezione 4 · Scrivere un messaggio informale",
+          "kind": "Review",
+          "summary": "WhatsApp or email to a friend in 3 parts — with a model text about a birthday party.",
+          "estimatedMinutes": 12,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Table",
+              "title": "Un messaggio informale in 3 parti",
+              "body": null,
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": [
+                [
+                  "Parte",
+                  "Esempi"
+                ],
+                [
+                  "1. Saluto iniziale",
+                  "Ciao Sara! Come stai? · Caro Marco, tutto bene?"
+                ],
+                [
+                  "2. Racconto dell'evento",
+                  "Ieri ho passato una bella giornata! Prima…, poi…, dopo…, infine…"
+                ],
+                [
+                  "3. Domanda e saluto",
+                  "E tu cos'hai fatto nel weekend? A presto! Un abbraccio, Ravi."
+                ]
+              ]
+            },
+            {
+              "type": "Text",
+              "title": "Oggetto: La festa di ieri sera!",
+              "body": "Ciao Giulia! Come stai?\n\nTi scrivo per raccontarti la festa di mio fratello. Prima io e mia madre abbiamo cucinato tanti piatti buoni. Poi gli ospiti hanno portato una torta al cioccolato e abbiamo bevuto il succo di frutta. Dopo abbiamo ascoltato musica e abbiamo fatto tante foto insieme. Infine mio fratello ha aperto tutti i regali!\n\nE tu cos'hai fatto domenica? Scrivimi presto! Un abbraccio, Jaspreet.",
+              "mediaUrl": null,
+              "caption": "Hi Giulia! How are you?\n\nI'm writing to tell you about my brother's party. First my mother and I cooked lots of good dishes. Then the guests brought a chocolate cake and we drank fruit juice. After that we listened to music and took lots of photos together. Finally my brother opened all his presents!\n\nAnd what did you do on Sunday? Write to me soon! A hug, Jaspreet.",
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Text",
+              "title": "Compito scritto: il tuo messaggio (50–70 parole)",
+              "body": "1. **Scegli l'argomento:** la giornata di ieri, il weekend o una festa.\n2. **Usa le parole chiave:** almeno 5 verbi al passato + *prima, poi, dopo, infine*.\n3. **Scambia e rispondi:** il compagno legge e risponde con 2 frasi.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (Jaspreet writes about her sister's party.)",
+              "italian": "Jaspreet scrive della festa di sua sorella.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The guests brought a chocolate cake.)",
+              "italian": "Gli ospiti hanno portato una torta al cioccolato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (They drank wine.)",
+              "italian": "Hanno bevuto il vino.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "TrueFalse",
+              "prompt": "True or false? (The brother opened all the presents.)",
+              "italian": "Il fratello ha aperto tutti i regali.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vero (true)",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Falso (false)",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "How do you end an informal message?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Vorrei fissare un appuntamento.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Distinti saluti, Ravi.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Buongiorno, sono Ravi.",
+                  "imageUrl": null
+                },
+                {
+                  "text": "A presto! Un abbraccio, Ravi.",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"Yesterday I had a lovely day\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Ieri ho passato una bella giornata",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Write your own message (50–70 words) to a friend about yesterday, your weekend or a party. Use at least 5 past verbs."
+        },
+        {
+          "order": 12,
+          "title": "Lesson 4 · Chapter 8 practice",
+          "titleIt": "Lezione 4 · Esercizi di ripasso del Capitolo 8",
+          "kind": "Review",
+          "summary": "Mixed practice: regular and irregular participles, time expressions and connectors.",
+          "estimatedMinutes": 10,
+          "xpReward": 40,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Ripasso lampo",
+              "body": "- **Regolari:** -are → **-ato** · -ere → **-uto** · -ire → **-ito**\n- **Irregolari:** fatto, detto, letto, scritto, visto, preso, bevuto, aperto, chiuso, chiesto, risposto\n- **Quando:** ieri, l'altro ieri, la settimana scorsa, il mese scorso, due giorni fa\n- **Ordine:** prima → poi → dopo → infine\n- **Negativo:** *non* + avere + participio",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ieri ___ la pizza con gli amici.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho mangiato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho mangiuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "mangiato ho",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho mangiata",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Abbiamo ___ un bel film al cinema.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vista",
+                  "imageUrl": null
+                },
+                {
+                  "text": "visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vedato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vedito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il negozio ha ___ alle sette.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "chiudito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chiuduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chiuso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "chiusa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Tu hai ___ il libro?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "leggiuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "letta",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Loro hanno ___ un messaggio.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "scrivato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scrito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scrivuto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Il supermercato ha ___ alle nove.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "aperto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "apruto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aperta",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aprito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho fatto la spesa ___ settimana scorsa.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "il",
+                  "imageUrl": null
+                },
+                {
+                  "text": "lo",
+                  "imageUrl": null
+                },
+                {
+                  "text": "gli",
+                  "imageUrl": null
+                },
+                {
+                  "text": "la",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "Ho bevuto un caffè con Marco un mese ___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "scorso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scorsa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ieri",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "\"L'altro ieri ho dormito fino a mezzogiorno\" means…",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "The day before yesterday I slept until midday",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Yesterday I slept until midnight",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Last week I slept at midday",
+                  "imageUrl": null
+                },
+                {
+                  "text": "The other day I didn't sleep",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Get ready for the test: say aloud what you did yesterday, in order, in 6 sentences."
+        },
+        {
+          "order": 13,
+          "title": "Chapter 8 test",
+          "titleIt": "Test Capitolo 8",
+          "kind": "Exam",
+          "summary": "Listening, past time expressions and participles, the passato prossimo with avere. Pass mark: 60%.",
+          "estimatedMinutes": 25,
+          "xpReward": 60,
+          "status": "Published",
+          "isFreePreview": false,
+          "blocks": [
+            {
+              "type": "Text",
+              "title": "Test Capitolo 8",
+              "body": "This test checks everything in Chapter 8 (Lessons 1–4).\n\n- **1. Listening** — sentences and a story about yesterday\n- **2. Vocabulary** — past time expressions, connectors and irregular participles\n- **3. Grammar** — the passato prossimo with avere (regular and irregular)\n- **4. Writing** — a message to a friend about your weekend\n\nYou need **60%** to pass. You can repeat the test as many times as you like.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Tip",
+              "title": "Good to know",
+              "body": "The **written part** (a message to a friend about last weekend) and the **oral interview** (what you did yesterday, irregular participles, your last weekend in order — 2 minutes) are done **with your teacher** in the live class.",
+              "mediaUrl": null,
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            },
+            {
+              "type": "Pdf",
+              "title": "Course phrasebook (PDF)",
+              "body": "Every word and phrase of the course, chapter by chapter, with English and Punjabi.",
+              "mediaUrl": "/content/pdf/corso-italiano-a0-phrasebook.pdf",
+              "caption": null,
+              "items": [],
+              "lines": [],
+              "table": []
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Ieri ho mangiato la pizza con gli amici in centro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "IERI HO MANGIATO LA PIZZA CON GLI AMICI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "L'ALTRO IERI HO DORMITO FINO A MEZZOGIORNO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Stamattina ho scritto un messaggio al direttore per l'orario.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "HO SCRITTO UN MESSAGGIO AL DIRETTORE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "HO LETTO UN LIBRO INTERESSANTE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "Ieri sera abbiamo visto un bel film al cinema.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ABBIAMO VISTO UN BEL FILM AL CINEMA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ABBIAMO PRESO L'AUTOBUS DELLE OTTO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "L'altro ieri ho chiesto un giorno di ferie al mio capo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "HO CHIESTO UN GIORNO DI FERIE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "IL NEGOZIO HA CHIUSO ALLE SETTE",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1A · Listen and choose the sentence you hear",
+              "italian": "La settimana scorsa ho fatto la spesa al mercato.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "UN MESE FA HO BEVUTO UN CAFFÈ CON MARCO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "LA SETTIMANA SCORSA HO FATTO LA SPESA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen to the story: \"___ mattina ho lavorato fino all'una.\" (1)",
+              "italian": "Ieri mattina ho lavorato fino all'una.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "DOMANI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "OGGI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SEMPRE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "IERI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"___ ho preparato il pranzo\" (2)",
+              "italian": "Poi ho preparato il pranzo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "FA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "MAI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "POI",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PRIMA",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: what did the person drink? (3)",
+              "italian": "Ho bevuto un tè caldo.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "FATTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PRESO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "VISTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "BEVUTO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: what did the person do with the emails? (4)",
+              "italian": "Nel pomeriggio ho letto le email del lavoro.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "CHIUSO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "LETTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "APERTO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SCRITTO",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "ListenPick",
+              "prompt": "1B · Listen again: \"___ ho chiamato la mia famiglia\" (5)",
+              "italian": "Infine ho chiamato la mia famiglia.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "INFINE",
+                  "imageUrl": null
+                },
+                {
+                  "text": "SCORSO",
+                  "imageUrl": null
+                },
+                {
+                  "text": "PRIMA",
+                  "imageUrl": null
+                },
+                {
+                  "text": "IERI",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "MatchPairs",
+              "prompt": "2A · Match each expression with its meaning",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [
+                {
+                  "left": "L'altro ieri",
+                  "right": "The day before yesterday · Parson"
+                },
+                {
+                  "left": "La settimana scorsa",
+                  "right": "Last week · Pichhle hafte"
+                },
+                {
+                  "left": "Un mese fa",
+                  "right": "A month ago · Ikk mahina pahilaan"
+                },
+                {
+                  "left": "Infine",
+                  "right": "Finally · Aakhir vich"
+                },
+                {
+                  "left": "Chiesto / Risposto",
+                  "right": "Asked / Answered · Puchhia / Javab ditta"
+                }
+              ],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · fare → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "farato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "faciuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "fatto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · dire → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "dito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "diciuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "detto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "direto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · leggere → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "leggiuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "letto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leggito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "leto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · vedere → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "vedito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vidato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "vesto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "PickTranslation",
+              "prompt": "2B · aprire → ?",
+              "italian": null,
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "apruto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aprato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aprito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "aperto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Ieri sera noi ___ (mangiare) pasta al pomodoro e insalata.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "avete mangiato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo mangiato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo mangiare",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno mangiato",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · L'anno scorso Marco ___ (vendere) la sua vecchia macchina.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha vendito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho venduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha vendato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha venduto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3A · Stanotte tu ___ (dormire) bene o sei stanco?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hai dormato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai dormito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai dormuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha dormito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Stamattina io ___ (bere) un cappuccino al bar.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho bevito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho bevato",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho bevuto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho beuto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Sabato scorso i miei amici ___ (prendere) il treno per Verona.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hanno preso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno prendito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno prenduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha preso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Tu ___ (scrivere) l'email all'ufficio ieri?",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "hai scrivito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha scritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai scritto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hai scrivuto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 2,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Il supermercato ___ (chiudere) alle otto di sera.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha chiuso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha chiuduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "hanno chiuso",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha chiudito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · Noi ___ (chiedere) un'informazione all'insegnante…",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "abbiamo chieduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo chiesto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "avete chiesto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "abbiamo chiedito",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3B · … e lei ___ (rispondere) subito.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ha risponduto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha rispondito",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ho risposto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "ha risposto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 3,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · ___ ho fatto colazione, poi ho lavato i piatti.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "Prima",
+                  "imageUrl": null
+                },
+                {
+                  "text": "Infine",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Ieri sera ___ la televisione perché ero stanco.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "ho non visto",
+                  "imageUrl": null
+                },
+                {
+                  "text": "non ho visto",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 1,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "FillBlank",
+              "prompt": "Choose the missing word",
+              "italian": "3C · Sono arrivato in Italia sei mesi ___.",
+              "imageUrl": null,
+              "options": [
+                {
+                  "text": "fa",
+                  "imageUrl": null
+                },
+                {
+                  "text": "scorso",
+                  "imageUrl": null
+                }
+              ],
+              "correctIndex": 0,
+              "answer": null,
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"On Saturday morning first I cleaned the house\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Sabato mattina prima ho pulito casa",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"On Sunday I had pizza for lunch\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "Domenica a pranzo ho mangiato la pizza",
+              "pairs": [],
+              "explanation": null
+            },
+            {
+              "type": "WordOrder",
+              "prompt": "Put the words in order: \"And what did you do at the weekend\"",
+              "italian": null,
+              "imageUrl": null,
+              "options": [],
+              "correctIndex": 0,
+              "answer": "E tu che cosa hai fatto nel fine settimana",
+              "pairs": [],
+              "explanation": null
+            }
+          ],
+          "homework": "Written part for your teacher: complete the 5 lines of the message to a friend about last weekend. Then prepare the 2-minute oral interview."
+        }
+      ]
+    }
+  ]
+}
