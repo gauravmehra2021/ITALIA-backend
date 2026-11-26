@@ -85,6 +85,17 @@ public class AuthController(
         return Ok(ApiResponse<UserDto>.Ok(user, "Password changed."));
     }
 
+    /// <summary>The signed-in account as it is now (role, status, permissions). The admin panel refreshes from this.</summary>
+    [HttpGet("me")]
+    [Authorize]
+    public async Task<ActionResult<ApiResponse<UserDto>>> Me([FromServices] IUserRepository users, CancellationToken ct)
+    {
+        if (currentUser.UserId is null) return Unauthorized();
+        var user = await users.GetByIdAsync(currentUser.UserId.Value, ct);
+        if (user is null || user.IsDeleted) return Unauthorized();
+        return Ok(ApiResponse<UserDto>.Ok(AuthService.Map(user)));
+    }
+
     [HttpPost("logout")]
     [Authorize]
     public async Task<ActionResult<ApiResponse<object>>> Logout(CancellationToken ct)

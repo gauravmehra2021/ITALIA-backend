@@ -1,3 +1,4 @@
+using SSeuropa.Api.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SSeuropa.Api.Storage;
@@ -34,7 +35,8 @@ public class UploadsController(
     };
 
     [HttpPost("s3/presigned-url")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses, RequireFull = true)]
     public async Task<ActionResult<ApiResponse<PresignedUploadResponseDto>>> GetPresignedUrl(
         [FromBody] PresignedUploadRequestDto request,
         CancellationToken ct)
@@ -87,7 +89,8 @@ public class UploadsController(
     }
 
     [HttpPost("s3/multipart/initiate")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses, RequireFull = true)]
     public async Task<ActionResult<ApiResponse<InitiateMultipartResponseDto>>> InitiateMultipart(
         [FromBody] InitiateMultipartRequestDto request,
         CancellationToken ct)
@@ -102,7 +105,8 @@ public class UploadsController(
     }
 
     [HttpPost("s3/multipart/presigned-part")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses, RequireFull = true)]
     public async Task<ActionResult<ApiResponse<string>>> GetPresignedPartUrl(
         [FromQuery] string objectKey,
         [FromQuery] string uploadId,
@@ -114,7 +118,8 @@ public class UploadsController(
     }
 
     [HttpPost("s3/multipart/complete")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses, RequireFull = true)]
     public async Task<ActionResult<ApiResponse<CompleteMultipartResponseDto>>> CompleteMultipart(
         [FromBody] CompleteMultipartRequestDto request,
         CancellationToken ct)
@@ -124,7 +129,8 @@ public class UploadsController(
     }
 
     [HttpPost("s3/confirm")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses, RequireFull = true)]
     public async Task<ActionResult<ApiResponse<ConfirmUploadResponseDto>>> ConfirmUpload(
         [FromBody] ConfirmUploadRequestDto request,
         CancellationToken ct)
@@ -219,7 +225,8 @@ public class UploadsController(
     // Staff only, and the key must stay inside the uploads folder: before, anyone could write
     // any file anywhere on the server with a key like "../../appsettings.json".
     [HttpPut("local-direct")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses, RequireFull = true)]
     [RequestSizeLimit(UploadStorage.MaxUploadBytes)]
     public async Task<IActionResult> LocalDirectUpload([FromQuery] string key, [FromServices] IConfiguration config, CancellationToken ct)
     {

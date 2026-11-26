@@ -10,7 +10,7 @@ namespace SSeuropa.Application.Services;
 /// <summary>
 /// Which courses a student may open.
 ///
-/// A student may join the courses assigned to their batch plus any course marked "open to all"
+/// A student may join the courses assigned to any of their batches plus any course marked "open to all"
 /// (e.g. a free demo course). Courses a student was already enrolled in before batches existed
 /// stay visible until the team places the student in a batch. From then on the batch decides.
 /// Team members (Teacher, Staff, Admin, Super Admin) are never limited.
@@ -55,9 +55,18 @@ public class CourseAccessService(
     private async Task<HashSet<Guid>> AllowedForAsync(User user, CancellationToken ct)
     {
         var allowed = (await courses.GetAllAsync(ct)).Where(c => c.OpenToAll && !c.IsDeleted).Select(c => c.Id).ToHashSet();
-        if (user.BatchId is { } batchId && await batches.GetByIdAsync(batchId, ct) is { } batch)
-            allowed.UnionWith(batch.CourseIds);
+        allowed.UnionWith(await BatchCoursesAsync(user, ct));
         return allowed;
+    }
+
+    /// <summary>The courses of every batch the student is in (a student may be in several batches).</summary>
+    private async Task<HashSet<Guid>> BatchCoursesAsync(User user, CancellationToken ct)
+    {
+        var result = new HashSet<Guid>();
+        foreach (var batchId in user.AllBatchIds())
+            if (await batches.GetByIdAsync(batchId, ct) is { } batch)
+                result.UnionWith(batch.CourseIds);
+        return result;
     }
 
     /// <summary>
@@ -70,9 +79,7 @@ public class CourseAccessService(
         if (user.Role != UserRole.User) return;
 
         var allowed = await AllowedForAsync(user, ct);
-        var batchCourses = user.BatchId is { } batchId && await batches.GetByIdAsync(batchId, ct) is { } batch
-            ? batch.CourseIds.Distinct().ToList()
-            : [];
+        var batchCourses = (await BatchCoursesAsync(user, ct)).ToList();
         var mine = (await enrollments.GetByUserAsync(user.Id, ct))
             .GroupBy(e => e.CourseId)
             .ToDictionary(g => g.Key, g => g.OrderByDescending(e => e.Status == EnrollmentStatus.Active).First());
@@ -136,9 +143,12 @@ public class StudentService(
     ICurrentUserService current,
     CourseAccessService access)
 {
-    private bool IsAdmin => current.IsInRole(UserRole.Admin, UserRole.SuperAdmin);
-    private bool CanManageStudents => current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Staff);
-    private bool IsTeacher => current.Role == UserRole.Mentor;
+    // The endpoints already check each person's Students / Batches permission; here any team member may act.
+    private bool IsAdmin => current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Staff, UserRole.Mentor);
+    private bool CanManageStudents => current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Staff, UserRole.Mentor);
+    // A Teacher sees only the batches they teach, unless the Super Admin gave them full access.
+    private bool TeacherSeesOwnStudentsOnly => current.Role == UserRole.Mentor && current.ModuleAccess(Common.TeamPermissions.Students) != Common.AccessLevel.Full;
+    private bool TeacherSeesOwnBatchesOnly => current.Role == UserRole.Mentor && current.ModuleAccess(Common.TeamPermissions.Batches) != Common.AccessLevel.Full;
 
     // ══════════════════════════════════════════════════════════════════════
     //  Students
@@ -150,10 +160,11 @@ public class StudentService(
         var allBatches = (await batches.GetAllAsync(ct)).ToDictionary(b => b.Id);
         var students = (await users.GetAllAsync(ct)).Where(u => u.Role == UserRole.User);
 
-        if (IsTeacher)
+        if (TeacherSeesOwnStudentsOnly)
         {
             var mine = allBatches.Values.Where(b => b.MentorId == current.UserId).Select(b => b.Id).ToHashSet();
-            students = students.Where(u => u.BatchId.HasValue && mine.Contains(u.BatchId.Value) && !u.IsDeleted);
+            // Plus paid students still waiting for their login, so a Teacher can send it.
+            students = students.Where(u => !u.IsDeleted && (u.AwaitingLogin || u.AllBatchIds().Any(mine.Contains)));
         }
 
         var allEnrollments = await enrollments.GetAllAsync(ct);
@@ -169,8 +180,7 @@ public class StudentService(
                 var active = activeByUser.GetValueOrDefault(u.Id) ?? [];
                 var records = (progressByUser.GetValueOrDefault(u.Id) ?? []).Where(p => active.Contains(p.CourseId)).ToList();
                 var percent = records.Count == 0 ? 0 : (int)Math.Round(records.Average(p => (double)p.CompletionPercent));
-                var batch = u.BatchId.HasValue ? allBatches.GetValueOrDefault(u.BatchId.Value) : null;
-                return Map(u, batch, active.Count, percent);
+                return Map(u, BatchesOf(u, allBatches), active.Count, percent);
             })
             .ToList();
     }
@@ -186,7 +196,7 @@ public class StudentService(
         if (await users.GetByEmailAsync(emailAddress, ct) is not null)
             throw new ConflictException("An account with this email already exists.");
 
-        var batch = await GetBatchOrNullAsync(request.BatchId, ct);
+        var chosen = await ResolveBatchesAsync(request.BatchIds, request.BatchId, ct);
         var password = GeneratePassword();
         var user = new User
         {
@@ -200,14 +210,15 @@ public class StudentService(
             Status = AccountStatus.Active,
             EmailVerified = true,
             AddedByStaff = true,
-            MustChangePassword = true,
-            BatchId = batch?.Id
+            MustChangePassword = true
         };
+        user.SetBatches(chosen.Select(b => b.Id));
         await users.AddAsync(user, ct);
         await access.SyncEnrollmentsAsync(user, ct);
 
-        await email.SendStudentWelcomeAsync(user.Email, user.FirstName, password, batch?.Name, isReset: false, ct);
-        await LogAsync("student_created", $"Created student {user.Email}{(batch is null ? "" : $" in batch '{batch.Name}'")}", ct);
+        var names = NamesOf(chosen);
+        await email.SendStudentWelcomeAsync(user.Email, user.FirstName, password, names, isReset: false, ct);
+        await LogAsync("student_created", $"Created student {user.Email}{(names is null ? "" : $" in {names}")}", ct);
 
         return new StudentPasswordResultDto(await GetDtoAsync(user, ct), password);
     }
@@ -219,42 +230,74 @@ public class StudentService(
         if (string.IsNullOrWhiteSpace(request.FirstName))
             throw new ValidationDomainException("First name is required.");
 
-        var batch = await GetBatchOrNullAsync(request.BatchId, ct);
-        var batchChanged = user.BatchId != batch?.Id;
+        var chosen = await ResolveBatchesAsync(request.BatchIds, request.BatchId, ct);
+        var before = user.AllBatchIds().ToHashSet();
+        var batchChanged = !before.SetEquals(chosen.Select(b => b.Id));
+        if (batchChanged && chosen.Count > 0 && WaitingForPayment(user))
+            throw new ValidationDomainException(PaymentFirstMessage(user));
 
         user.FirstName = request.FirstName.Trim();
         user.LastName = (request.LastName ?? "").Trim();
         user.PhoneNumber = string.IsNullOrWhiteSpace(request.PhoneNumber) ? null : request.PhoneNumber.Trim();
         if (request.PreferredLanguage.HasValue) user.PreferredLanguage = request.PreferredLanguage.Value;
-        user.BatchId = batch?.Id;
+        user.SetBatches(chosen.Select(b => b.Id));
         await users.UpdateAsync(user, ct);
         if (batchChanged) await access.SyncEnrollmentsAsync(user, ct);
 
-        await LogAsync("student_updated", $"Updated student {user.Email}{(batchChanged ? $" → batch '{batch?.Name ?? "none"}'" : "")}", ct);
+        await LogAsync("student_updated", $"Updated student {user.Email}{(batchChanged ? $" → {NamesOf(chosen) ?? "no batch"}" : "")}", ct);
         return await GetDtoAsync(user, ct);
     }
 
-    /// <summary>Places several students in one batch (or takes them out of their batch when BatchId is null).</summary>
+    /// <summary>
+    /// Bulk batch change for several students:
+    ///   "replace" (default) — the batch becomes their only batch (no batch when BatchId is null);
+    ///   "add" — they also join the batch and keep their other batches;
+    ///   "remove" — they leave the batch and keep their other batches.
+    /// </summary>
     public async Task<MoveStudentsResultDto> MoveStudentsAsync(MoveStudentsRequest request, CancellationToken ct = default)
     {
         EnsureCanManageStudents();
         if (request.StudentIds is null || request.StudentIds.Count == 0)
             throw new ValidationDomainException("Choose at least one student.");
 
+        var mode = (request.Mode ?? "replace").Trim().ToLowerInvariant();
+        if (mode is not ("replace" or "add" or "remove"))
+            throw new ValidationDomainException("Choose whether to move, add or remove.");
         var batch = await GetBatchOrNullAsync(request.BatchId, ct);
-        var moved = 0;
+        if (batch is null && mode != "replace")
+            throw new ValidationDomainException("Choose a batch.");
+
+        // A batch opens lessons, so students waiting for payment / their login only get one through "Mark paid" / "Send login".
+        if (batch is not null && mode != "remove")
+        {
+            var waiting = new List<string>();
+            foreach (var id in request.StudentIds.Distinct())
+                if (await users.GetByIdAsync(id, ct) is { } u && WaitingForPayment(u)) waiting.Add(u.FullName);
+            if (waiting.Count > 0)
+                throw new ValidationDomainException($"Mark these students as paid first (or send their login): {string.Join(", ", waiting)}. Then they can be placed in a batch.");
+        }
+
+        var changed = 0;
         foreach (var id in request.StudentIds.Distinct())
         {
             var user = await GetStudentAsync(id, ct);
-            if (user.BatchId == batch?.Id) continue;
-            user.BatchId = batch?.Id;
+            var mine = user.AllBatchIds().ToList();
+            var next = mode switch
+            {
+                "add" => mine.Contains(batch!.Id) ? mine : [.. mine, batch.Id],
+                "remove" => mine.Where(b => b != batch!.Id).ToList(),
+                _ => batch is null ? [] : new List<Guid> { batch.Id },
+            };
+            if (mine.ToHashSet().SetEquals(next)) continue;
+            user.SetBatches(next);
             await users.UpdateAsync(user, ct);
             await access.SyncEnrollmentsAsync(user, ct);
-            moved++;
+            changed++;
         }
 
-        await LogAsync("students_moved", $"Moved {moved} student(s) to batch '{batch?.Name ?? "none"}'", ct);
-        return new MoveStudentsResultDto(moved, batch?.Name);
+        var verb = mode switch { "add" => "Added", "remove" => "Removed", _ => "Moved" };
+        await LogAsync("students_moved", $"{verb} {changed} student(s) {(mode == "remove" ? "from" : "to")} batch '{batch?.Name ?? "none"}'", ct);
+        return new MoveStudentsResultDto(changed, batch?.Name);
     }
 
     public async Task<StudentDto> SetStudentStatusAsync(Guid id, bool isActive, CancellationToken ct = default)
@@ -272,15 +315,117 @@ public class StudentService(
     {
         EnsureCanManageStudents();
         var user = await GetStudentAsync(id, ct);
+        if (user.AwaitingLogin)
+            throw new ValidationDomainException("This student hasn't received a login yet. Use “Send login” to choose their batch and email it.");
         var password = GeneratePassword();
         user.PasswordHash = hasher.Hash(password);
         user.MustChangePassword = true;
         await users.UpdateAsync(user, ct);
 
-        var batch = await GetBatchOrNullAsync(user.BatchId, ct, throwIfMissing: false);
-        await email.SendStudentWelcomeAsync(user.Email, user.FirstName, password, batch?.Name, isReset: true, ct);
+        var batchNames = NamesOf(await BatchesOfAsync(user, ct));
+        await email.SendStudentWelcomeAsync(user.Email, user.FirstName, password, batchNames, isReset: true, ct);
         await LogAsync("student_password_reset", $"Reset password for student {user.Email}", ct);
         return new StudentPasswordResultDto(await GetDtoAsync(user, ct), password);
+    }
+
+    // ══════════════════════════════════════════════════════════════════════
+    //  Paid students: enquiry → account → access
+    // ══════════════════════════════════════════════════════════════════════
+
+    /// <summary>
+    /// Called when an enquiry is marked Paid. Creates the student account (no email yet) and returns its id.
+    /// If a student already uses this email (e.g. they signed up themselves), that account is linked instead.
+    /// The student shows under Students → "New (paid)" until someone gives access.
+    /// </summary>
+    public async Task<Guid> CreateFromEnquiryAsync(Enquiry enquiry, CancellationToken ct = default)
+    {
+        var emailAddress = (enquiry.Email ?? "").Trim().ToLowerInvariant();
+        if (!emailAddress.Contains('@'))
+            throw new ValidationDomainException("This enquiry has no valid email, so no student account can be made. Fix the email first.");
+
+        var existing = await users.GetByEmailAsync(emailAddress, ct);
+        if (existing is not null)
+        {
+            if (existing.Role != UserRole.User)
+                throw new ValidationDomainException("This email belongs to a team member, so it can't become a student account.");
+            if (existing.IsDeleted)
+                throw new ConflictException("A removed student account uses this email. Restore it or use another email.");
+
+            if (existing.AllBatchIds().Count == 0) existing.AwaitingLogin = true;
+            if (string.IsNullOrWhiteSpace(existing.PhoneNumber) && !string.IsNullOrWhiteSpace(enquiry.Phone))
+                existing.PhoneNumber = enquiry.Phone.Trim();
+            await users.UpdateAsync(existing, ct);
+            await LogAsync("student_linked_to_enquiry", $"Paid enquiry linked to existing student {existing.Email}", ct);
+            return existing.Id;
+        }
+
+        var name = (enquiry.FullName ?? "").Trim();
+        var space = name.IndexOf(' ');
+        var user = new User
+        {
+            Email = emailAddress,
+            // Nobody knows this password; the real one is emailed when access is given.
+            PasswordHash = hasher.Hash(GeneratePassword()),
+            FirstName = space > 0 ? name[..space] : (name.Length > 0 ? name : emailAddress.Split('@')[0]),
+            LastName = space > 0 ? name[(space + 1)..].Trim() : "",
+            PhoneNumber = string.IsNullOrWhiteSpace(enquiry.Phone) ? null : enquiry.Phone.Trim(),
+            PreferredLanguage = Enum.TryParse<PreferredLanguage>(enquiry.PreferredLanguage, true, out var lang) ? lang : PreferredLanguage.English,
+            Role = UserRole.User,
+            Status = AccountStatus.Active,
+            EmailVerified = true,
+            AddedByStaff = true,
+            MustChangePassword = true,
+            AwaitingLogin = true
+        };
+        await users.AddAsync(user, ct);
+        await LogAsync("student_created_from_enquiry", $"Created student {user.Email} from a paid enquiry", ct);
+        return user.Id;
+    }
+
+    /// <summary>
+    /// Gives a paid student access: places them in the chosen batches (their courses open) and, for accounts
+    /// the team made, emails a one-time password. Students who signed up themselves keep their own password.
+    ///
+    /// Anyone with Students "Full" access may do this for any student (e.g. a self sign-up who paid by phone).
+    /// With "View" access (a Teacher by default) it is only allowed for students waiting for their login,
+    /// and a Teacher can only use the batches they teach.
+    /// </summary>
+    public async Task<StudentAccessResultDto> GiveAccessAsync(Guid id, GiveAccessRequest request, CancellationToken ct = default)
+    {
+        EnsureCanView();
+        var user = await GetStudentAsync(id, ct);
+        if (user.IsDeleted) throw new ValidationDomainException("This student was removed.");
+
+        var fullAccess = current.Role == UserRole.SuperAdmin || current.ModuleAccess(Common.TeamPermissions.Students) == Common.AccessLevel.Full;
+        if (!fullAccess && !user.AwaitingLogin)
+            throw new UnauthorizedAccessDomainException("You have view-only access to Students. Ask the Super Admin if you need to give access to this student.");
+
+        var chosen = await ResolveBatchesAsync(request.BatchIds, null, ct);
+        if (chosen.Count == 0)
+            throw new ValidationDomainException("Choose at least one batch. The batch decides which courses the student can open.");
+        if (TeacherSeesOwnBatchesOnly && chosen.Any(b => b.MentorId != current.UserId))
+            throw new ValidationDomainException("You can only place students in the batches you teach.");
+
+        user.SetBatches(user.AllBatchIds().Concat(chosen.Select(b => b.Id)));
+        user.AwaitingLogin = false;
+        if (user.Status is AccountStatus.Suspended or AccountStatus.Disabled) user.Status = AccountStatus.Active;
+
+        string? password = null;
+        if (user.AddedByStaff)
+        {
+            password = GeneratePassword();
+            user.PasswordHash = hasher.Hash(password);
+            user.MustChangePassword = true;
+        }
+        await users.UpdateAsync(user, ct);
+        await access.SyncEnrollmentsAsync(user, ct);
+
+        var names = NamesOf(await BatchesOfAsync(user, ct));
+        if (password is not null)
+            await email.SendStudentWelcomeAsync(user.Email, user.FirstName, password, names, isReset: false, ct);
+        await LogAsync("student_access_given", $"Gave access to {user.Email} in {names}{(password is null ? "" : " and emailed login details")}", ct);
+
+        return new StudentAccessResultDto(await GetDtoAsync(user, ct), password);
     }
 
     // ══════════════════════════════════════════════════════════════════════
@@ -291,7 +436,7 @@ public class StudentService(
     {
         EnsureCanView();
         var list = await batches.GetAllAsync(ct);
-        if (IsTeacher) list = list.Where(b => b.MentorId == current.UserId).ToList();
+        if (TeacherSeesOwnBatchesOnly) list = list.Where(b => b.MentorId == current.UserId).ToList();
 
         var allUsers = await users.GetAllAsync(ct);
         var allCourses = (await courses.GetAllAsync(ct)).ToDictionary(c => c.Id);
@@ -342,7 +487,7 @@ public class StudentService(
         var batch = await batches.GetByIdAsync(id, ct) ?? throw new NotFoundException("Batch", id);
         var students = await StudentsInAsync(batch.Id, ct);
         if (students.Count > 0)
-            throw new ValidationDomainException($"This batch still has {students.Count} student(s). Move them to another batch first.");
+            throw new ValidationDomainException($"This batch still has {students.Count} student(s). Move them to another batch or remove them from this batch first.");
         await batches.DeleteAsync(batch.Id, ct);
         await LogAsync("batch_deleted", $"Deleted batch '{batch.Name}'", ct);
     }
@@ -374,15 +519,46 @@ public class StudentService(
         }
 
         batch.Name = name;
-        batch.Level = string.IsNullOrWhiteSpace(request.Level) ? "A0" : request.Level.Trim().ToUpperInvariant();
+        // Level is no longer asked for: keep what the batch had (new batches: "A0").
+        if (!string.IsNullOrWhiteSpace(request.Level)) batch.Level = request.Level.Trim().ToUpperInvariant();
         batch.Description = (request.Description ?? "").Trim();
         batch.MentorId = request.MentorId;
         batch.CourseIds = courseIds;
         batch.StartDateUtc = request.StartDateUtc;
+        (batch.StartTime, batch.EndTime) = ParseTiming(request.StartTime, request.EndTime);
     }
 
+    /// <summary>Batch class time as "HH:mm" (24-hour). Both or neither; the end must be after the start.</summary>
+    private static (string? Start, string? End) ParseTiming(string? start, string? end)
+    {
+        static TimeOnly? Parse(string? value, string label)
+        {
+            if (string.IsNullOrWhiteSpace(value)) return null;
+            if (!TimeOnly.TryParseExact(value.Trim(), ["HH:mm", "H:mm"], out var t))
+                throw new ValidationDomainException($"{label} must be a time like 11:00 or 17:30.");
+            return t;
+        }
+
+        var s = Parse(start, "Start time");
+        var e = Parse(end, "End time");
+        if (s is null && e is null) return (null, null);
+        if (s is null || e is null) throw new ValidationDomainException("Give both a start and an end time, or leave both empty.");
+        if (e <= s) throw new ValidationDomainException("The end time must be after the start time.");
+        return (s.Value.ToString("HH:mm"), e.Value.ToString("HH:mm"));
+    }
+
+    /// <summary>
+    /// Paid enquiry waiting for "Send login", or a self sign-up with no batch (payment not taken yet).
+    /// These students get a batch only through Give access, never through Edit or bulk move.
+    /// </summary>
+    private static bool WaitingForPayment(User u) => u.AwaitingLogin || (!u.AddedByStaff && u.AllBatchIds().Count == 0);
+
+    private static string PaymentFirstMessage(User u) => u.AwaitingLogin
+        ? "Use “Send login” to place this student in a batch: it also emails their one-time password."
+        : "Mark this student as paid first. “Mark paid” places them in a batch and opens their lessons.";
+
     private async Task<List<User>> StudentsInAsync(Guid batchId, CancellationToken ct) =>
-        (await users.GetAllAsync(ct)).Where(u => u.Role == UserRole.User && u.BatchId == batchId && !u.IsDeleted).ToList();
+        (await users.GetAllAsync(ct)).Where(u => u.Role == UserRole.User && u.IsInBatch(batchId) && !u.IsDeleted).ToList();
 
     private async Task<Batch?> GetBatchOrNullAsync(Guid? batchId, CancellationToken ct, bool throwIfMissing = true)
     {
@@ -391,6 +567,31 @@ public class StudentService(
         if (batch is null && throwIfMissing) throw new ValidationDomainException("That batch no longer exists.");
         return batch;
     }
+
+    /// <summary>The batches chosen in a form: the list when given, otherwise the single (older) BatchId field.</summary>
+    private async Task<List<Batch>> ResolveBatchesAsync(List<Guid>? batchIds, Guid? batchId, CancellationToken ct)
+    {
+        var ids = batchIds ?? (batchId is { } single ? [single] : []);
+        var result = new List<Batch>();
+        foreach (var id in ids.Where(id => id != Guid.Empty).Distinct())
+            result.Add(await GetBatchOrNullAsync(id, ct) ?? throw new ValidationDomainException("That batch no longer exists."));
+        return result;
+    }
+
+    private async Task<List<Batch>> BatchesOfAsync(User user, CancellationToken ct)
+    {
+        var result = new List<Batch>();
+        foreach (var id in user.AllBatchIds())
+            if (await batches.GetByIdAsync(id, ct) is { } b) result.Add(b);
+        return result;
+    }
+
+    private static List<Batch> BatchesOf(User user, Dictionary<Guid, Batch> allBatches) =>
+        user.AllBatchIds().Select(allBatches.GetValueOrDefault).OfType<Batch>().ToList();
+
+    /// <summary>"Morning batch" or "Morning batch, Evening batch" (null = no batch), used in emails and the log.</summary>
+    private static string? NamesOf(IReadOnlyCollection<Batch> list) =>
+        list.Count == 0 ? null : string.Join(", ", list.Select(b => b.Name));
 
     private async Task<User> GetStudentAsync(Guid id, CancellationToken ct)
     {
@@ -401,20 +602,26 @@ public class StudentService(
 
     private async Task<StudentDto> GetDtoAsync(User user, CancellationToken ct)
     {
-        var batch = await GetBatchOrNullAsync(user.BatchId, ct, throwIfMissing: false);
+        var mine = await BatchesOfAsync(user, ct);
         var active = (await enrollments.GetByUserAsync(user.Id, ct)).Where(e => e.Status == EnrollmentStatus.Active).Select(e => e.CourseId).ToHashSet();
         var records = (await progress.GetByUserAsync(user.Id, ct)).Where(p => active.Contains(p.CourseId)).ToList();
         var percent = records.Count == 0 ? 0 : (int)Math.Round(records.Average(p => (double)p.CompletionPercent));
-        return Map(user, batch, active.Count, percent);
+        return Map(user, mine, active.Count, percent);
     }
 
     private async Task<BatchDto> GetBatchDtoAsync(Batch batch, CancellationToken ct) =>
         MapBatch(batch, await users.GetAllAsync(ct), (await courses.GetAllAsync(ct)).ToDictionary(c => c.Id));
 
-    private static StudentDto Map(User u, Batch? batch, int activeCourses, int percent) => new(
-        u.Id, u.FirstName, u.LastName, u.FullName, u.Email, u.PhoneNumber, u.Status, u.EmailVerified, u.PreferredLanguage,
-        batch?.Id, batch?.Name, u.AddedByStaff, u.MustChangePassword, u.CreatedAtUtc, u.LastLoginAtUtc,
-        activeCourses, percent, u.IsDeleted);
+    private static StudentDto Map(User u, List<Batch> mine, int activeCourses, int percent)
+    {
+        var first = mine.FirstOrDefault();
+        return new StudentDto(
+            u.Id, u.FirstName, u.LastName, u.FullName, u.Email, u.PhoneNumber, u.Status, u.EmailVerified, u.PreferredLanguage,
+            first?.Id, first?.Name, u.AddedByStaff, u.MustChangePassword, u.CreatedAtUtc, u.LastLoginAtUtc,
+            activeCourses, percent, u.IsDeleted,
+            mine.Select(b => new StudentBatchDto(b.Id, b.Name, b.StartTime, b.EndTime)).ToList(),
+            u.AwaitingLogin);
+    }
 
     private static BatchDto MapBatch(Batch b, IReadOnlyList<User> allUsers, Dictionary<Guid, Course> allCourses) => new(
         b.Id,
@@ -427,8 +634,10 @@ public class StudentService(
             .Where(c => !c.IsDeleted)
             .Select(c => new BatchCourseDto(c.Id, c.Title, c.CefrLevel, c.Status)).ToList(),
         b.StartDateUtc,
-        allUsers.Count(u => u.Role == UserRole.User && u.BatchId == b.Id && !u.IsDeleted),
-        b.CreatedAtUtc);
+        allUsers.Count(u => u.Role == UserRole.User && u.IsInBatch(b.Id) && !u.IsDeleted),
+        b.CreatedAtUtc,
+        b.StartTime,
+        b.EndTime);
 
     /// <summary>12 characters, easy to read aloud (no 0/O or 1/l), always with a digit and a symbol.</summary>
     public static string GeneratePassword()
@@ -460,12 +669,12 @@ public class StudentService(
     private void EnsureCanManageStudents()
     {
         if (!CanManageStudents)
-            throw new UnauthorizedAccessDomainException("Only Admin and Staff can change student accounts.");
+            throw new UnauthorizedAccessDomainException("You don't have permission to change student accounts.");
     }
 
     private void EnsureAdmin()
     {
         if (!IsAdmin)
-            throw new UnauthorizedAccessDomainException("Only an Admin can create or change batches.");
+            throw new UnauthorizedAccessDomainException("You don't have permission to create or change batches.");
     }
 }

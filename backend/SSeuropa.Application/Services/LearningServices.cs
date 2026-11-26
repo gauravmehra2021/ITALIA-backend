@@ -6,84 +6,169 @@ using SSeuropa.Domain.Exceptions;
 
 namespace SSeuropa.Application.Services;
 
+/// <summary>
+/// Live classes. A class is scheduled for one batch: only the students in that batch see it, can open
+/// its meeting link and get its alerts. Teachers see the classes they teach and the classes of batches they lead.
+/// </summary>
 public class ClassService
 {
     private readonly IClassRepository _classes;
     private readonly ICourseRepository _courses;
     private readonly IUserRepository _users;
     private readonly IEnrollmentRepository _enrollments;
+    private readonly IBatchRepository _batches;
+    private readonly IAuditLogRepository _audit;
     private readonly ICurrentUserService _current;
+
+    private const string DefaultMeetingUrl = "https://meet.google.com/uyj-tfhh-zsq";
 
     public ClassService(
         IClassRepository classes,
         ICourseRepository courses,
         IUserRepository users,
         IEnrollmentRepository enrollments,
+        IBatchRepository batches,
+        IAuditLogRepository audit,
         ICurrentUserService current)
     {
         _classes = classes;
         _courses = courses;
         _users = users;
         _enrollments = enrollments;
+        _batches = batches;
+        _audit = audit;
         _current = current;
     }
 
+    private bool IsTeam => _current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff);
+
     public async Task<IReadOnlyList<ClassSessionDto>> GetAllAsync(CancellationToken ct = default)
     {
-        var items = await _classes.GetAllAsync(ct);
-        if (_current.Role == UserRole.Mentor && _current.UserId.HasValue)
-            items = items.Where(c => c.MentorId == _current.UserId).ToList();
+        if (_current.UserId is not { } userId) throw new UnauthorizedAccessDomainException();
+        IEnumerable<ClassSession> items = await _classes.GetAllAsync(ct);
 
-        var result = new List<ClassSessionDto>();
-        foreach (var item in items.OrderBy(c => c.ScheduledAtUtc))
-            result.Add(await MapAsync(item, ct));
-        return result;
+        if (_current.Role == UserRole.User)
+        {
+            // Students only see the classes meant for them (their batches), never other groups' meeting links.
+            var me = await _users.GetByIdAsync(userId, ct) ?? throw new UnauthorizedAccessDomainException();
+            items = ClassAudience.ForStudent(items, me, await _enrollments.GetByUserAsync(userId, ct))
+                .Where(c => c.Status != ClassStatus.Cancelled);
+        }
+        else if (_current.Role == UserRole.Mentor && _current.ModuleAccess(Common.TeamPermissions.Classes) != Common.AccessLevel.Full)
+        {
+            var myBatches = (await _batches.GetAllAsync(ct)).Where(b => b.MentorId == userId).Select(b => b.Id).ToHashSet();
+            items = items.Where(c => c.MentorId == userId || (c.BatchId is { } b && myBatches.Contains(b)));
+        }
+
+        return await MapManyAsync(items.OrderBy(c => c.ScheduledAtUtc), ct);
     }
 
     public async Task<ClassSessionDto> CreateAsync(CreateClassRequest request, CancellationToken ct = default)
     {
-        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
-            throw new UnauthorizedAccessDomainException();
+        if (!IsTeam || _current.UserId is not { } userId) throw new UnauthorizedAccessDomainException();
 
-        _ = await _courses.GetByIdAsync(request.CourseId, ct) ?? throw new NotFoundException("Course", request.CourseId);
+        if (request.BatchId is not { } batchId || batchId == Guid.Empty)
+            throw new ValidationDomainException("Choose the batch this class is for.");
+        var batch = await _batches.GetByIdAsync(batchId, ct)
+            ?? throw new ValidationDomainException("That batch no longer exists.");
+
+        var courseId = Guid.Empty;
+        if (request.CourseId is { } requestedCourse && requestedCourse != Guid.Empty)
+        {
+            var course = await _courses.GetByIdAsync(requestedCourse, ct) ?? throw new NotFoundException("Course", requestedCourse);
+            courseId = course.Id;
+        }
+
+        // Teacher: the one chosen, else the batch's teacher, else whoever schedules it.
+        var mentorId = request.MentorId is { } m && m != Guid.Empty ? m : batch.MentorId ?? userId;
+        var mentor = await _users.GetByIdAsync(mentorId, ct);
+        if (mentor is null || mentor.IsDeleted || mentor.Role == UserRole.User)
+            throw new ValidationDomainException("Choose a teacher from your team.");
+
+        var title = (request.Title ?? "").Trim();
+        if (title.Length == 0) title = $"{batch.Name} — live class";
+
         var session = new ClassSession
         {
-            CourseId = request.CourseId,
-            MentorId = request.MentorId,
-            Title = request.Title.Trim(),
+            BatchId = batch.Id,
+            CourseId = courseId,
+            MentorId = mentorId,
+            Title = title,
             ScheduledAtUtc = request.ScheduledAtUtc.ToUniversalTime(),
             DurationMinutes = request.DurationMinutes,
-            MeetingUrl = !string.IsNullOrWhiteSpace(request.MeetingUrl) ? request.MeetingUrl.Trim() : "https://meet.google.com/uyj-tfhh-zsq",
+            MeetingUrl = !string.IsNullOrWhiteSpace(request.MeetingUrl) ? request.MeetingUrl.Trim() : DefaultMeetingUrl,
             MeetingProvider = "GoogleMeet",
             Status = ClassStatus.Scheduled
         };
         await _classes.AddAsync(session, ct);
+        await _audit.AddAsync(new AuditLog
+        {
+            ActorUserId = userId,
+            Action = "class_scheduled",
+            Resource = "class",
+            Details = $"Scheduled '{session.Title}' for batch '{batch.Name}' at {session.ScheduledAtUtc:yyyy-MM-dd HH:mm} UTC"
+        }, ct);
+        return await MapAsync(session, ct);
+    }
+
+    /// <summary>Cancels a class: it disappears for students and can't be joined. Teachers can cancel only their own classes.</summary>
+    public async Task<ClassSessionDto> CancelAsync(Guid classId, CancellationToken ct = default)
+    {
+        if (!IsTeam || _current.UserId is not { } userId) throw new UnauthorizedAccessDomainException();
+        var session = await _classes.GetByIdAsync(classId, ct) ?? throw new NotFoundException("Class", classId);
+        if (_current.Role == UserRole.Mentor && session.MentorId != userId && _current.ModuleAccess(Common.TeamPermissions.Classes) != Common.AccessLevel.Full)
+            throw new UnauthorizedAccessDomainException("Teachers can cancel only their own classes.");
+        if (session.Status == ClassStatus.Completed)
+            throw new ValidationDomainException("This class has already taken place.");
+
+        session.Status = ClassStatus.Cancelled;
+        session.UpdatedAtUtc = DateTime.UtcNow;
+        await _classes.UpdateAsync(session, ct);
+        await _audit.AddAsync(new AuditLog { ActorUserId = userId, Action = "class_cancelled", Resource = "class", Details = $"Cancelled '{session.Title}'" }, ct);
         return await MapAsync(session, ct);
     }
 
     public async Task<ClassSessionDto> GetMeetingAccessAsync(Guid classId, CancellationToken ct = default)
     {
         var session = await _classes.GetByIdAsync(classId, ct) ?? throw new NotFoundException("Class", classId);
-        if (_current.UserId is null) throw new UnauthorizedAccessDomainException();
+        if (_current.UserId is not { } userId) throw new UnauthorizedAccessDomainException();
+        if (IsTeam) return await MapAsync(session, ct);
 
-        if (_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin) ||
-            (_current.Role == UserRole.Mentor && session.MentorId == _current.UserId))
-            return await MapAsync(session, ct);
-
-        var enrollment = await _enrollments.GetByUserAndCourseAsync(_current.UserId.Value, session.CourseId, ct);
-        if (enrollment is null || enrollment.Status != EnrollmentStatus.Active)
-            throw new UnauthorizedAccessDomainException("Enrollment required for meeting access.");
+        if (session.Status == ClassStatus.Cancelled)
+            throw new ValidationDomainException("This class was cancelled.");
+        var me = await _users.GetByIdAsync(userId, ct) ?? throw new UnauthorizedAccessDomainException();
+        var active = (await _enrollments.GetByUserAsync(userId, ct))
+            .Where(e => e.Status == EnrollmentStatus.Active).Select(e => e.CourseId).ToHashSet();
+        if (!ClassAudience.IsFor(session, me, active))
+            throw new UnauthorizedAccessDomainException("This class is for another batch.");
 
         return await MapAsync(session, ct);
     }
 
-    private async Task<ClassSessionDto> MapAsync(ClassSession s, CancellationToken ct)
+    private async Task<ClassSessionDto> MapAsync(ClassSession s, CancellationToken ct) =>
+        (await MapManyAsync([s], ct))[0];
+
+    private async Task<List<ClassSessionDto>> MapManyAsync(IEnumerable<ClassSession> sessions, CancellationToken ct)
     {
-        var course = await _courses.GetByIdAsync(s.CourseId, ct);
-        var mentor = await _users.GetByIdAsync(s.MentorId, ct);
-        return new ClassSessionDto(
-            s.Id, s.CourseId, course?.Title ?? "", s.MentorId, mentor?.FullName ?? "",
-            s.Title, s.ScheduledAtUtc, s.DurationMinutes, s.Status, s.MeetingUrl, s.MeetingProvider);
+        var list = sessions.ToList();
+        if (list.Count == 0) return [];
+        var users = (await _users.GetAllAsync(ct)).ToDictionary(u => u.Id);
+        var courses = (await _courses.GetAllAsync(ct)).ToDictionary(c => c.Id);
+        var batches = (await _batches.GetAllAsync(ct)).ToDictionary(b => b.Id);
+        var studentCounts = users.Values
+            .Where(u => u.Role == UserRole.User && !u.IsDeleted)
+            .SelectMany(u => u.AllBatchIds())
+            .GroupBy(id => id).ToDictionary(g => g.Key, g => g.Count());
+
+        return list.Select(s =>
+        {
+            var batch = s.BatchId is { } b ? batches.GetValueOrDefault(b) : null;
+            return new ClassSessionDto(
+                s.Id, s.CourseId, courses.GetValueOrDefault(s.CourseId)?.Title ?? "",
+                s.MentorId, users.GetValueOrDefault(s.MentorId)?.FullName ?? "",
+                s.Title, s.ScheduledAtUtc, s.DurationMinutes, s.Status, s.MeetingUrl, s.MeetingProvider,
+                batch?.Id, batch?.Name, batch is null ? 0 : studentCounts.GetValueOrDefault(batch.Id));
+        }).ToList();
     }
 }
 
@@ -125,7 +210,7 @@ public class MaterialService
 
     public async Task<MaterialDto> CreateAsync(CreateMaterialRequest request, CancellationToken ct = default)
     {
-        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff))
             throw new UnauthorizedAccessDomainException();
 
         var material = new Material
@@ -155,14 +240,14 @@ public class MaterialService
 
     public async Task DeleteAsync(Guid id, CancellationToken ct = default)
     {
-        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff))
             throw new UnauthorizedAccessDomainException();
         await _materials.DeleteAsync(id, ct);
     }
 
     private async Task EnsureCourseAccessAsync(Guid courseId, CancellationToken ct)
     {
-        if (_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor)) return;
+        if (_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff)) return;
         if (_current.UserId is null) throw new UnauthorizedAccessDomainException();
         var enrollment = await _enrollments.GetByUserAndCourseAsync(_current.UserId.Value, courseId, ct);
         if (enrollment is null || enrollment.Status != EnrollmentStatus.Active)
@@ -210,7 +295,7 @@ public class AssessmentService
         var enrollment = await _enrollments.GetByUserAndCourseAsync(_current.UserId.Value, assessment.CourseId, ct);
         if (enrollment is null || enrollment.Status != EnrollmentStatus.Active)
         {
-            if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+            if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff))
                 throw new UnauthorizedAccessDomainException("Enrollment required.");
         }
 
@@ -293,7 +378,7 @@ public class ProgressService
 
     public async Task<AttendanceDto> MarkAttendanceAsync(MarkAttendanceRequest request, CancellationToken ct = default)
     {
-        if (!_current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin))
+        if (!_current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin, UserRole.Staff))
             throw new UnauthorizedAccessDomainException();
 
         _ = await _classes.GetByIdAsync(request.ClassSessionId, ct) ?? throw new NotFoundException("Class", request.ClassSessionId);
@@ -362,7 +447,7 @@ public class AssignmentService
 
     public async Task<AssignmentDto> CreateAsync(CreateAssignmentRequest request, CancellationToken ct = default)
     {
-        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff))
             throw new UnauthorizedAccessDomainException();
 
         _ = await _courses.GetByIdAsync(request.CourseId, ct) ?? throw new NotFoundException("Course", request.CourseId);
@@ -385,7 +470,7 @@ public class AssignmentService
 
     public async Task DeleteAsync(Guid id, CancellationToken ct = default)
     {
-        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff))
             throw new UnauthorizedAccessDomainException();
         await _assignments.DeleteAsync(id, ct);
     }
@@ -428,7 +513,7 @@ public class AssignmentService
 
     public async Task<IReadOnlyList<AssignmentSubmissionDto>> GetSubmissionsForAssignmentAsync(Guid assignmentId, CancellationToken ct = default)
     {
-        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff))
             throw new UnauthorizedAccessDomainException();
 
         var items = await _assignments.GetSubmissionsByAssignmentAsync(assignmentId, ct);
@@ -444,7 +529,7 @@ public class AssignmentService
 
     public async Task<AssignmentSubmissionDto> GradeSubmissionAsync(Guid submissionId, GradeAssignmentRequest request, CancellationToken ct = default)
     {
-        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
+        if (!_current.IsInRole(UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor, UserRole.Staff))
             throw new UnauthorizedAccessDomainException();
 
         var submission = await _assignments.GetSubmissionByIdAsync(submissionId, ct)

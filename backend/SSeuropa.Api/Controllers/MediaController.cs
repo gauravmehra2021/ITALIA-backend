@@ -1,3 +1,4 @@
+using SSeuropa.Api.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SSeuropa.Application.Common;
@@ -32,7 +33,8 @@ public class MediaController : ControllerBase
     }
 
     [HttpPost("upload")]
-    [Authorize(Roles = "Admin,SuperAdmin,Mentor")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses, RequireFull = true)]
     [RequestSizeLimit(UploadStorage.MaxUploadBytes)] // 500 MB max for video lectures
     [RequestFormLimits(MultipartBodyLengthLimit = UploadStorage.MaxUploadBytes)]
     public async Task<ActionResult<ApiResponse<FileUploadResponse>>> Upload(

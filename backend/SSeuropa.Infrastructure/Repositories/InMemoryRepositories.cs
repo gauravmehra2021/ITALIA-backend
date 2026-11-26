@@ -360,6 +360,22 @@ public class InMemoryAuditLogRepository(InMemoryStore store) : IAuditLogReposito
 
     public Task<IReadOnlyList<AuditLog>> GetRecentAsync(int take = 50, CancellationToken ct = default) =>
         Task.FromResult<IReadOnlyList<AuditLog>>(store.AuditLogs.OrderByDescending(a => a.CreatedAtUtc).Take(take).ToList());
+
+    private static bool InRange(AuditLog a, DateTime? from, DateTime? to) =>
+        (from is null || a.CreatedAtUtc >= from) && (to is null || a.CreatedAtUtc < to);
+
+    public Task<IReadOnlyList<AuditLog>> GetRangeAsync(DateTime? fromUtc, DateTime? toUtc, int take, CancellationToken ct = default) =>
+        Task.FromResult<IReadOnlyList<AuditLog>>(store.AuditLogs.Where(a => InRange(a, fromUtc, toUtc))
+            .OrderByDescending(a => a.CreatedAtUtc).Take(take).ToList());
+
+    public Task<long> DeleteRangeAsync(DateTime? fromUtc, DateTime? toUtc, CancellationToken ct = default) =>
+        Task.FromResult((long)store.AuditLogs.RemoveAll(a => InRange(a, fromUtc, toUtc)));
+
+    public Task<long> DeleteManyAsync(IReadOnlyCollection<Guid> ids, CancellationToken ct = default)
+    {
+        var set = ids.ToHashSet();
+        return Task.FromResult((long)store.AuditLogs.RemoveAll(a => set.Contains(a.Id)));
+    }
 }
 
 public class InMemoryAiSessionRepository(InMemoryStore store) : IAiSessionRepository

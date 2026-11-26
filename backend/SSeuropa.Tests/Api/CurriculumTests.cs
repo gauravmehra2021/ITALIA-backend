@@ -177,7 +177,7 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         // In a batch with Capitolo 1: a link that shows the PDF in the page and is never cached.
         var chapter1 = (await GetAsync<List<CourseCard>>("/api/learn/courses", admin)).Single(c => c.Course.Slug == "corso-italiano-capitolo-1").Course.Id;
         var batch = await SendAsync<JsonElement>(HttpMethod.Post, "/api/batches", admin, new { name = $"Pdf batch {Guid.NewGuid():N}", level = "A0", courseIds = new[] { chapter1 } });
-        await SendAsync<JsonElement>(HttpMethod.Post, "/api/students/move", admin, new { studentIds = new[] { studentId }, batchId = batch.GetProperty("id").GetGuid() });
+        await SendAsync<JsonElement>(HttpMethod.Post, $"/api/students/{studentId}/give-access", admin, new { batchIds = new[] { batch.GetProperty("id").GetGuid() } });
         var link = await SendAsync<JsonElement>(HttpMethod.Post, "/api/documents/link", student, new { url = slides });
         var url = link.GetProperty("url").GetString()!;
         var file = await _client.GetAsync(url);
@@ -292,7 +292,9 @@ public class CurriculumTests : IClassFixture<WebApplicationFactory<Program>>
         var students = await GetAsync<List<StudentRow>>("/api/students", admin);
         var ids = students.Where(s => emails.Contains(s.Email)).Select(s => s.Id).ToList();
         ids.Should().HaveCount(emails.Length);
-        await SendAsync<JsonElement>(HttpMethod.Post, "/api/students/move", admin, new { studentIds = ids, batchId = batch.GetProperty("id").GetGuid() });
+        // Demo students signed up themselves, so they get a batch through "Mark paid" (give-access), like in the admin panel.
+        foreach (var id in ids)
+            await SendAsync<JsonElement>(HttpMethod.Post, $"/api/students/{id}/give-access", admin, new { batchIds = new[] { batch.GetProperty("id").GetGuid() } });
     }
 
     private async Task SetOpenToAllAsync(Guid courseId, bool open)

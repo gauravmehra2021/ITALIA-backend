@@ -23,6 +23,7 @@ public static class DependencyInjection
         services.AddScoped<AiService>();
         services.AddScoped<CommunicationService>();
         services.AddScoped<DashboardService>();
+        services.AddScoped<TeamService>();
         services.AddScoped<EnquiryService>();
         services.AddScoped<CourseAccessService>();
         services.AddScoped<StudentService>();

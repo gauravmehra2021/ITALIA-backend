@@ -1,6 +1,7 @@
+using SSeuropa.Api.Security;
+using SSeuropa.Application.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SSeuropa.Application.Common;
 using SSeuropa.Application.DTOs;
 using SSeuropa.Application.Services;
 
@@ -33,7 +34,8 @@ public class AssignmentsController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Roles = "Admin,SuperAdmin,Mentor")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<AssignmentDto>>> Create([FromBody] CreateAssignmentRequest request, CancellationToken ct)
     {
         var item = await _service.CreateAsync(request, ct);
@@ -41,7 +43,8 @@ public class AssignmentsController : ControllerBase
     }
 
     [HttpDelete("{id:guid}")]
-    [Authorize(Roles = "Admin,SuperAdmin,Mentor")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<object>>> Delete(Guid id, CancellationToken ct)
     {
         await _service.DeleteAsync(id, ct);
@@ -57,7 +60,8 @@ public class AssignmentsController : ControllerBase
     }
 
     [HttpGet("{id:guid}/submissions")]
-    [Authorize(Roles = "Admin,SuperAdmin,Mentor")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<IReadOnlyList<AssignmentSubmissionDto>>>> GetSubmissions(Guid id, CancellationToken ct)
     {
         var items = await _service.GetSubmissionsForAssignmentAsync(id, ct);
@@ -72,7 +76,8 @@ public class AssignmentsController : ControllerBase
     }
 
     [HttpPost("submissions/{submissionId:guid}/grade")]
-    [Authorize(Roles = "Admin,SuperAdmin,Mentor")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<AssignmentSubmissionDto>>> Grade(
         Guid submissionId, [FromBody] GradeAssignmentRequest request, CancellationToken ct)
     {

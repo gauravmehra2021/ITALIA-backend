@@ -1,13 +1,15 @@
+using SSeuropa.Api.Security;
+using SSeuropa.Application.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SSeuropa.Application.Common;
 using SSeuropa.Application.Services;
 
 namespace SSeuropa.Api.Controllers;
 
 /// <summary>Teachers and admins: Punjabi / Hindi / Urdu translations of the lesson content.</summary>
 [ApiController]
-[Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+[Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+[TeamModule(TeamPermissions.Translations)]
 [Route("api/translations")]
 public class TranslationsController(TranslationService service) : ControllerBase
 {

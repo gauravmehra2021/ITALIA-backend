@@ -1,6 +1,7 @@
+using SSeuropa.Api.Security;
+using SSeuropa.Application.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SSeuropa.Application.Common;
 using SSeuropa.Application.DTOs;
 using SSeuropa.Application.Services;
 using SSeuropa.Domain.Enums;
@@ -9,7 +10,8 @@ namespace SSeuropa.Api.Controllers;
 
 /// <summary>Course builder for Teachers, Admins and the Super Admin.</summary>
 [ApiController]
-[Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+[Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+[TeamModule(TeamPermissions.Courses)]
 [Route("api/curriculum")]
 public class CurriculumController(CurriculumService service) : ControllerBase
 {

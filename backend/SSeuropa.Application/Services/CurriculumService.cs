@@ -38,7 +38,7 @@ public class CurriculumService(
     public static int StarsFor(int scorePercent, LessonKind kind) =>
         kind == LessonKind.Exam && scorePercent < ExamPassPercent ? 0 : StarsFor(scorePercent);
 
-    private bool IsStaff => current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin);
+    private bool IsStaff => current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin, UserRole.Staff);
 
     /// <summary>Students with UnlockAllLessons (e.g. the demo account) can open any lesson of a course they're enrolled in.</summary>
     private async Task<bool> UnlocksAllLessonsAsync(Guid userId, CancellationToken ct) =>

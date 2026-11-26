@@ -142,6 +142,11 @@ public interface IAuditLogRepository
 {
     Task AddAsync(AuditLog log, CancellationToken ct = default);
     Task<IReadOnlyList<AuditLog>> GetRecentAsync(int take = 50, CancellationToken ct = default);
+    /// <summary>Newest first, optionally limited to [fromUtc, toUtc).</summary>
+    Task<IReadOnlyList<AuditLog>> GetRangeAsync(DateTime? fromUtc, DateTime? toUtc, int take, CancellationToken ct = default);
+    /// <summary>Permanently removes entries in [fromUtc, toUtc) (both null = everything). Returns how many went.</summary>
+    Task<long> DeleteRangeAsync(DateTime? fromUtc, DateTime? toUtc, CancellationToken ct = default);
+    Task<long> DeleteManyAsync(IReadOnlyCollection<Guid> ids, CancellationToken ct = default);
 }
 
 public interface IAiSessionRepository

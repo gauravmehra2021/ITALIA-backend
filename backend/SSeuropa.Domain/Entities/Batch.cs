@@ -17,4 +17,8 @@ public class Batch : EntityBase
     public Guid? MentorId { get; set; }
     public List<Guid> CourseIds { get; set; } = [];
     public DateTime? StartDateUtc { get; set; }
+    /// <summary>Usual class time of the batch, "HH:mm" (24-hour, e.g. "11:00"). Optional.</summary>
+    public string? StartTime { get; set; }
+    /// <summary>Usual end time, "HH:mm" (e.g. "12:00"). Optional.</summary>
+    public string? EndTime { get; set; }
 }

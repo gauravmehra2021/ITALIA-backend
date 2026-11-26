@@ -33,7 +33,7 @@ if (File.Exists(envFile))
 builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
 builder.Configuration.AddEnvironmentVariables();
 
-builder.Services.AddControllers()
+builder.Services.AddControllers(options => options.Filters.Add<SSeuropa.Api.Security.TeamAccessFilter>())
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());

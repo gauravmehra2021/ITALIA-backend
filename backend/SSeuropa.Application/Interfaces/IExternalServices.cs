@@ -43,6 +43,9 @@ public interface ICurrentUserService
     UserRole? Role { get; }
     bool IsAuthenticated { get; }
     bool IsInRole(params UserRole[] roles);
+
+    /// <summary>The signed-in team member's access to an admin module (set per request by the API's access check). Super Admin: Full.</summary>
+    Common.AccessLevel ModuleAccess(string module) => Role == UserRole.SuperAdmin ? Common.AccessLevel.Full : Common.AccessLevel.None;
 }
 
 public interface IEmailService
@@ -55,3 +58,9 @@ public interface IEmailService
     Task SendStudentWelcomeAsync(string toEmail, string studentName, string temporaryPassword, string? batchName, bool isReset, CancellationToken ct = default);
 }
 
+
+/// <summary>Short-lived cache of team accounts used to check access on every request. Clear it when an account changes.</summary>
+public interface ITeamAccessCache
+{
+    void Invalidate(Guid userId);
+}

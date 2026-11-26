@@ -1,7 +1,8 @@
+using SSeuropa.Api.Security;
+using SSeuropa.Application.Common;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SSeuropa.Application.Common;
 using SSeuropa.Application.DTOs;
 using SSeuropa.Application.Interfaces;
 using SSeuropa.Application.Services;
@@ -55,7 +56,8 @@ public class CoursesController(
     }
 
     [HttpPost]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<CourseDto>>> Create(CreateCourseRequest request, CancellationToken ct)
     {
         await createValidator.ValidateAndThrowAsync(request, ct);
@@ -64,7 +66,8 @@ public class CoursesController(
     }
 
     [HttpPut("{id:guid}")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<CourseDto>>> Update(Guid id, UpdateCourseRequest request, CancellationToken ct)
     {
         var course = await courseService.UpdateAsync(id, request, ct);
@@ -72,7 +75,8 @@ public class CoursesController(
     }
 
     [HttpPost("{id:guid}/publish")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<CourseDto>>> Publish(Guid id, CancellationToken ct)
     {
         var course = await courseService.SetStatusAsync(id, CourseStatus.Published, ct);
@@ -80,7 +84,8 @@ public class CoursesController(
     }
 
     [HttpPost("{id:guid}/unpublish")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<CourseDto>>> Unpublish(Guid id, CancellationToken ct)
     {
         var course = await courseService.SetStatusAsync(id, CourseStatus.Draft, ct);
@@ -89,6 +94,7 @@ public class CoursesController(
 
     [HttpDelete("{id:guid}")]
     [Authorize(Roles = "Admin,SuperAdmin")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<object>>> Delete(Guid id, CancellationToken ct)
     {
         await courseService.DeleteAsync(id, ct);

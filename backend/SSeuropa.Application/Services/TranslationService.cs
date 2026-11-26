@@ -37,7 +37,7 @@ public class TranslationService(
     private const int MaxTextsPerRequest = 3000;
     private const int MaxTextLength = 4000;
 
-    private bool IsStaff => current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin);
+    private bool IsStaff => current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin, UserRole.Staff);
 
     // ── Student side ────────────────────────────────────────────────────────
 

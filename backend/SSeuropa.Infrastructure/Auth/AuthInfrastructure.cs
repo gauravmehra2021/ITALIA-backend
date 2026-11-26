@@ -25,6 +25,8 @@ public class JwtTokenService(IConfiguration configuration) : IJwtTokenService
         {
             new(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
             new(JwtRegisteredClaimNames.Email, user.Email),
+            // Issue time: lets the API refuse tokens issued before the Super Admin signed someone out.
+            new(JwtRegisteredClaimNames.Iat, DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString(), ClaimValueTypes.Integer64),
             new(ClaimTypes.NameIdentifier, user.Id.ToString()),
             new(ClaimTypes.Name, user.FullName),
             new(ClaimTypes.Role, user.Role.ToString()),
@@ -98,4 +100,39 @@ public class CurrentUserService(IHttpContextAccessor accessor) : ICurrentUserSer
     public bool IsAuthenticated => UserId.HasValue;
 
     public bool IsInRole(params UserRole[] roles) => Role.HasValue && roles.Contains(Role.Value);
+
+    public SSeuropa.Application.Common.AccessLevel ModuleAccess(string module)
+    {
+        if (Role == UserRole.SuperAdmin) return SSeuropa.Application.Common.AccessLevel.Full;
+        if (accessor.HttpContext?.Items[TeamAccessItems.Key] is IReadOnlyDictionary<string, SSeuropa.Application.Common.AccessLevel> map
+            && map.TryGetValue(module, out var level))
+            return level;
+        return Role is { } role ? SSeuropa.Application.Common.TeamPermissions.Default(role, module) : SSeuropa.Application.Common.AccessLevel.None;
+    }
+}
+
+/// <summary>
+/// Keeps team accounts in memory for a few seconds so the per-request access check
+/// doesn't hit the database on every call. TeamService clears an entry the moment it changes the account.
+/// </summary>
+public class TeamAccessCache : ITeamAccessCache
+{
+    private static readonly TimeSpan Lifetime = TimeSpan.FromSeconds(20);
+    private readonly System.Collections.Concurrent.ConcurrentDictionary<Guid, (User? User, DateTime Expires)> _entries = new();
+
+    public async Task<User?> GetAsync(Guid userId, IUserRepository users, CancellationToken ct)
+    {
+        if (_entries.TryGetValue(userId, out var hit) && hit.Expires > DateTime.UtcNow) return hit.User;
+        var user = await users.GetByIdAsync(userId, ct);
+        _entries[userId] = (user, DateTime.UtcNow.Add(Lifetime));
+        return user;
+    }
+
+    public void Invalidate(Guid userId) => _entries.TryRemove(userId, out _);
+}
+
+/// <summary>Where the API's access check leaves the signed-in team member's module permissions for the services.</summary>
+public static class TeamAccessItems
+{
+    public const string Key = "sseuropa:team-permissions";
 }

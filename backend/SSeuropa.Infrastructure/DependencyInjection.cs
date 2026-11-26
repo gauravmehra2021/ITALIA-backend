@@ -27,6 +27,8 @@ public static class DependencyInjection
 
         services.AddHttpContextAccessor();
         services.AddScoped<ICurrentUserService, CurrentUserService>();
+        services.AddSingleton<TeamAccessCache>();
+        services.AddSingleton<ITeamAccessCache>(sp => sp.GetRequiredService<TeamAccessCache>());
 
         RegisterPersistence(services, configuration, hasher);
 

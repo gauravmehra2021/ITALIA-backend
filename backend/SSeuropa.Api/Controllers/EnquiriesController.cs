@@ -1,7 +1,8 @@
+using SSeuropa.Api.Security;
+using SSeuropa.Application.Common;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SSeuropa.Application.Common;
 using SSeuropa.Application.DTOs;
 using SSeuropa.Application.Services;
 
@@ -26,7 +27,8 @@ public class EnquiriesController(
     }
 
     [HttpGet]
-    [Authorize(Roles = "Staff,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Enquiries)]
     public async Task<ActionResult<ApiResponse<IReadOnlyList<EnquiryDto>>>> GetAll(CancellationToken ct)
     {
         var result = await service.GetAllAsync(ct);
@@ -34,7 +36,8 @@ public class EnquiriesController(
     }
 
     [HttpGet("{id:guid}")]
-    [Authorize(Roles = "Staff,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Enquiries)]
     public async Task<ActionResult<ApiResponse<EnquiryDto>>> GetById(Guid id, CancellationToken ct)
     {
         var result = await service.GetByIdAsync(id, ct);
@@ -42,7 +45,8 @@ public class EnquiriesController(
     }
 
     [HttpPut("{id:guid}/status")]
-    [Authorize(Roles = "Staff,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Enquiries)]
     public async Task<ActionResult<ApiResponse<EnquiryDto>>> UpdateStatus(
         Guid id,
         [FromBody] UpdateEnquiryStatusRequest request,

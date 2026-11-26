@@ -1,3 +1,4 @@
+using SSeuropa.Api.Security;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -17,19 +18,27 @@ public class ClassesController(ClassService classService, IValidator<CreateClass
         => Ok(ApiResponse<IReadOnlyList<ClassSessionDto>>.Ok(await classService.GetAllAsync(ct)));
 
     [HttpPost]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Classes)]
     public async Task<ActionResult<ApiResponse<ClassSessionDto>>> Create(CreateClassRequest request, CancellationToken ct)
     {
         await validator.ValidateAndThrowAsync(request, ct);
         return Ok(ApiResponse<ClassSessionDto>.Ok(await classService.CreateAsync(request, ct), "Class scheduled."));
     }
 
+    [HttpPost("{id:guid}/cancel")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Classes)]
+    public async Task<ActionResult<ApiResponse<ClassSessionDto>>> Cancel(Guid id, CancellationToken ct)
+        => Ok(ApiResponse<ClassSessionDto>.Ok(await classService.CancelAsync(id, ct), "Class cancelled."));
+
     [HttpGet("{id:guid}/meeting")]
     public async Task<ActionResult<ApiResponse<ClassSessionDto>>> Meeting(Guid id, CancellationToken ct)
         => Ok(ApiResponse<ClassSessionDto>.Ok(await classService.GetMeetingAccessAsync(id, ct)));
 
     [HttpPost("{id:guid}/notify-start")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Classes)]
     public async Task<ActionResult<ApiResponse<SendNotificationResultDto>>> NotifyStart(Guid id, [FromServices] CommunicationService comms, CancellationToken ct)
     {
         var result = await comms.NotifyClassStartingAsync(id, ct);
@@ -47,12 +56,14 @@ public class MaterialsController(MaterialService materialService) : ControllerBa
         => Ok(ApiResponse<IReadOnlyList<MaterialDto>>.Ok(await materialService.GetByCourseAsync(courseId, ct)));
 
     [HttpPost]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<MaterialDto>>> Create(CreateMaterialRequest request, CancellationToken ct)
         => Ok(ApiResponse<MaterialDto>.Ok(await materialService.CreateAsync(request, ct), "Material added."));
 
     [HttpDelete("{id:guid}")]
-    [Authorize(Roles = "Mentor,Admin,SuperAdmin")]
+    [Authorize(Roles = "SuperAdmin,Admin,Staff,Mentor")]
+    [TeamModule(TeamPermissions.Courses)]
     public async Task<ActionResult<ApiResponse<object>>> Delete(Guid id, CancellationToken ct)
     {
         await materialService.DeleteAsync(id, ct);

@@ -287,13 +287,8 @@ public class CommunicationService
             if (senderRole == UserRole.Mentor && session.MentorId != _current.UserId)
                 throw new UnauthorizedAccessDomainException("Teachers can only notify students for their own assigned classes.");
 
-            var enrollments = (await _enrollments.GetAllAsync(ct))
-                .Where(e => e.CourseId == session.CourseId && e.Status == EnrollmentStatus.Active)
-                .ToList();
-
-            var studentIds = enrollments.Select(e => e.UserId).ToHashSet();
-            targetUsers = allUsers.Where(u => studentIds.Contains(u.Id)).ToList();
-            targetDesc = $"Enrolled students of class '{session.Title}'";
+            targetUsers = ClassAudience.Students(session, allUsers, await _enrollments.GetAllAsync(ct));
+            targetDesc = $"Students of class '{session.Title}'";
         }
         else if (request.TargetUserId.HasValue)
         {
@@ -379,20 +374,18 @@ public class CommunicationService
         if (_current.Role == UserRole.Mentor && session.MentorId != _current.UserId)
             throw new UnauthorizedAccessDomainException("Teachers can only notify students for their assigned class.");
 
-        if (!_current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin))
+        if (!_current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin, UserRole.Staff))
             throw new UnauthorizedAccessDomainException();
 
         var course = await _courses.GetByIdAsync(session.CourseId, ct);
-        var enrollments = (await _enrollments.GetAllAsync(ct))
-            .Where(e => e.CourseId == session.CourseId && e.Status == EnrollmentStatus.Active)
-            .ToList();
-
+        // Batch class: the students of that batch. Older classes without a batch: the course's enrolled students.
         var allUsers = await _users.GetAllAsync(ct);
-        var studentIds = enrollments.Select(e => e.UserId).ToHashSet();
-        var targetStudents = allUsers.Where(u => studentIds.Contains(u.Id)).ToList();
+        var targetStudents = ClassAudience.Students(session, allUsers, await _enrollments.GetAllAsync(ct));
 
         var title = $"Class Starting Soon: {session.Title}";
-        var body = $"Your live class for '{course?.Title ?? "your course"}' is starting now! Join here: {session.MeetingUrl}";
+        if (session.Status == ClassStatus.Cancelled)
+            throw new ValidationDomainException("This class was cancelled.");
+        var body = $"Your live class '{session.Title}'{(course is null ? "" : $" ({course.Title})")} is starting now! Join here: {session.MeetingUrl}";
 
         foreach (var student in targetStudents)
         {
@@ -415,7 +408,7 @@ public class CommunicationService
             Details = $"Sent class start alert for '{session.Title}' to {targetStudents.Count} student(s)"
         }, ct);
 
-        return new SendNotificationResultDto(targetStudents.Count, $"Enrolled students of {session.Title}");
+        return new SendNotificationResultDto(targetStudents.Count, $"Students of {session.Title}");
     }
 
     public async Task<IReadOnlyList<AnnouncementDto>> GetAnnouncementsAsync(CancellationToken ct = default)
@@ -454,13 +447,36 @@ public class CommunicationService
         return result;
     }
 
-    public async Task<IReadOnlyList<AuditLogDto>> GetAuditLogsAsync(CancellationToken ct = default)
+    private const int AuditRangeCap = 5000;
+
+    /// <summary>Audit entries in [fromUtc, toUtc), newest first (capped). No range = the latest entries.</summary>
+    public async Task<IReadOnlyList<AuditLogDto>> GetAuditLogsAsync(DateTime? fromUtc, DateTime? toUtc, CancellationToken ct = default)
+    {
+        EnsureSuperAdmin();
+        var items = await _audit.GetRangeAsync(AsUtc(fromUtc), AsUtc(toUtc), AuditRangeCap, ct);
+        return items.Select(a => new AuditLogDto(a.Id, a.ActorUserId, a.Action, a.Resource, a.Details, a.CreatedAtUtc)).ToList();
+    }
+
+    /// <summary>Super Admin can permanently delete audit entries: chosen ids, a whole period, or everything.</summary>
+    public async Task<long> DeleteAuditLogsAsync(DeleteAuditLogsRequest request, CancellationToken ct = default)
+    {
+        EnsureSuperAdmin();
+        if (request.Ids is { Count: > 0 })
+            return await _audit.DeleteManyAsync(request.Ids, ct);
+        if (request.FromUtc is null && request.ToUtc is null && request.All != true)
+            throw new ValidationDomainException("Choose a period to delete, or confirm deleting everything.");
+        return await _audit.DeleteRangeAsync(AsUtc(request.FromUtc), AsUtc(request.ToUtc), ct);
+    }
+
+    private void EnsureSuperAdmin()
     {
         if (!_current.IsInRole(UserRole.SuperAdmin))
             throw new UnauthorizedAccessDomainException("Audit logs are accessible to Super Administrators only.");
-        var items = await _audit.GetRecentAsync(100, ct);
-        return items.Select(a => new AuditLogDto(a.Id, a.ActorUserId, a.Action, a.Resource, a.Details, a.CreatedAtUtc)).ToList();
     }
+
+    private static DateTime? AsUtc(DateTime? d) => d is null ? null
+        : d.Value.Kind == DateTimeKind.Local ? d.Value.ToUniversalTime()
+        : DateTime.SpecifyKind(d.Value, DateTimeKind.Utc);
 }
 
 public class DashboardService
@@ -524,8 +540,9 @@ public class DashboardService
         var userId = _current.UserId.Value;
         var enrollments = await _enrollments.GetByUserAsync(userId, ct);
         var classes = await _classes.GetAllAsync(ct);
-        var enrolledCourseIds = enrollments.Select(e => e.CourseId).ToHashSet();
-        var upcoming = classes.Count(c => enrolledCourseIds.Contains(c.CourseId) && c.ScheduledAtUtc > DateTime.UtcNow);
+        var me = await _users.GetByIdAsync(userId, ct);
+        var upcoming = me is null ? 0 : ClassAudience.ForStudent(classes, me, enrollments)
+            .Count(c => c.ScheduledAtUtc > DateTime.UtcNow && c.Status != ClassStatus.Cancelled);
         var attempts = await _assessments.GetAttemptsByUserAsync(userId, ct);
         var certs = await _certificates.GetByUserAsync(userId, ct);
         var progress = await _progress.GetByUserAsync(userId, ct);
@@ -582,7 +599,7 @@ public class DashboardService
             classes.Count(c => c.ScheduledAtUtc > now && c.Status == ClassStatus.Scheduled),
             enquiries.Count(e => e.Status == EnquiryStatus.New),
             enquiries.Count(e => e.Status is EnquiryStatus.Contacted or EnquiryStatus.Qualified),
-            enquiries.Count(e => e.Status == EnquiryStatus.Enrolled));
+            enquiries.Count(e => e.Status is EnquiryStatus.Enrolled or EnquiryStatus.Paid));
     }
 
     public async Task<MentorDashboardDto> GetMentorAsync(CancellationToken ct = default)
@@ -621,136 +638,13 @@ public class DashboardService
             enquiries.Count,
             enquiries.Count(e => e.Status == EnquiryStatus.New),
             enquiries.Count(e => e.Status is EnquiryStatus.Contacted or EnquiryStatus.Qualified),
-            enquiries.Count(e => e.Status == EnquiryStatus.Enrolled),
+            enquiries.Count(e => e.Status is EnquiryStatus.Enrolled or EnquiryStatus.Paid),
             enquiries.Count(e => e.Status == EnquiryStatus.Closed),
             notes.Count(n => !n.IsRead));
     }
 
-    // ── Team management: Super Admin only ─────────────────────────────────────
-    // The Super Admin is the only one who creates and manages team accounts.
-    // Assignable team roles are Admin, Staff and Teacher (internal name: Mentor).
-    // There is exactly one Super Admin: that role can never be assigned, and the
-    // Super Admin account can't be suspended, deleted or have its role changed.
+    // Team accounts (create, edit, permissions, suspend, remove) live in TeamService.
 
     private static readonly UserRole[] TeamRoles = [UserRole.Admin, UserRole.Staff, UserRole.Mentor];
-
-    private void EnsureSuperAdmin()
-    {
-        if (!_current.IsInRole(UserRole.SuperAdmin))
-            throw new UnauthorizedAccessDomainException("Only the Super Admin can manage team accounts.");
-    }
-
-    private async Task<User> GetManageableTeamMemberAsync(Guid userId, CancellationToken ct)
-    {
-        var user = await _users.GetByIdAsync(userId, ct)
-            ?? throw new NotFoundException("User", userId);
-
-        if (user.Role == UserRole.SuperAdmin || user.IsProtectedSuperAdmin)
-            throw new ValidationDomainException("The Super Admin account can't be changed from here.");
-        if (_current.UserId == user.Id)
-            throw new ValidationDomainException("You can't change your own account here.");
-
-        return user;
-    }
-
-    private static void EnsureAssignableRole(UserRole role)
-    {
-        if (!TeamRoles.Contains(role))
-            throw new ValidationDomainException("Role must be Admin, Staff or Teacher.");
-    }
-
-    public async Task<IReadOnlyList<UserDto>> GetUsersAsync(CancellationToken ct = default)
-    {
-        EnsureSuperAdmin();
-        var users = await _users.GetAllAsync(ct);
-        return users.Select(AuthService.Map).ToList();
-    }
-
-    public async Task<UserDto> UpdateUserStatusAsync(Guid userId, bool isActive, CancellationToken ct = default)
-    {
-        EnsureSuperAdmin();
-        var user = await GetManageableTeamMemberAsync(userId, ct);
-        user.Status = isActive ? AccountStatus.Active : AccountStatus.Suspended;
-        await _users.UpdateAsync(user, ct);
-        return AuthService.Map(user);
-    }
-
-    public async Task<UserDto> UpdateUserRoleAsync(Guid userId, UserRole role, CancellationToken ct = default)
-    {
-        EnsureSuperAdmin();
-        EnsureAssignableRole(role);
-        var user = await GetManageableTeamMemberAsync(userId, ct);
-        if (!TeamRoles.Contains(user.Role))
-            throw new ValidationDomainException("Only Admin, Staff and Teacher accounts can change role. Students stay students.");
-        user.Role = role;
-        await _users.UpdateAsync(user, ct);
-        return AuthService.Map(user);
-    }
-
-    public async Task<UserDto> CreateUserByAdminAsync(CreateUserByAdminRequest request, CancellationToken ct = default)
-    {
-        EnsureSuperAdmin();
-        EnsureAssignableRole(request.Role);
-
-        var existing = await _users.GetByEmailAsync(request.Email.Trim().ToLowerInvariant(), ct);
-        if (existing is not null)
-            throw new ConflictException("An account with this email already exists.");
-
-        if (string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.FirstName) || string.IsNullOrWhiteSpace(request.LastName))
-            throw new ValidationDomainException("First name, last name and email are required.");
-        if (string.IsNullOrWhiteSpace(request.Password) || request.Password.Length < 8)
-            throw new ValidationDomainException("Temporary password must be at least 8 characters.");
-
-        var temporaryPassword = request.Password;
-        var user = new User
-        {
-            Email = request.Email.Trim().ToLowerInvariant(),
-            PasswordHash = _hasher.Hash(temporaryPassword),
-            FirstName = request.FirstName.Trim(),
-            LastName = request.LastName.Trim(),
-            Role = request.Role,
-            Status = AccountStatus.Active,
-            EmailVerified = true,
-            PreferredLanguage = request.PreferredLanguage,
-            PhoneNumber = request.PhoneNumber,
-            IsProtectedSuperAdmin = false
-        };
-
-        await _users.AddAsync(user, ct);
-
-        // Send onboarding notification email
-        await _emailService.SendStaffInvitationAsync(
-            user.Email,
-            $"{user.FirstName} {user.LastName}",
-            request.Role.ToString(),
-            temporaryPassword,
-            ct);
-
-        return AuthService.Map(user);
-    }
-
-    public async Task SoftDeleteUserAsync(Guid userId, CancellationToken ct = default)
-    {
-        EnsureSuperAdmin();
-        var user = await GetManageableTeamMemberAsync(userId, ct);
-
-        user.IsDeleted = true;
-        user.DeletedAtUtc = DateTime.UtcNow;
-        user.Status = AccountStatus.Disabled;
-
-        await _users.UpdateAsync(user, ct);
-    }
-
-    public async Task RestoreUserAsync(Guid userId, CancellationToken ct = default)
-    {
-        EnsureSuperAdmin();
-        var user = await GetManageableTeamMemberAsync(userId, ct);
-
-        user.IsDeleted = false;
-        user.DeletedAtUtc = null;
-        user.Status = AccountStatus.Active;
-
-        await _users.UpdateAsync(user, ct);
-    }
 }
 

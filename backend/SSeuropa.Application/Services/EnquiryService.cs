@@ -12,17 +12,20 @@ public class EnquiryService
     private readonly IUserRepository _users;
     private readonly ICurrentUserService _current;
     private readonly IAuditLogRepository _audit;
+    private readonly StudentService _students;
 
     public EnquiryService(
         IEnquiryRepository enquiries,
         IUserRepository users,
         ICurrentUserService current,
-        IAuditLogRepository audit)
+        IAuditLogRepository audit,
+        StudentService students)
     {
         _enquiries = enquiries;
         _users = users;
         _current = current;
         _audit = audit;
+        _students = students;
     }
 
     public async Task<EnquiryDto> SubmitAsync(CreateEnquiryRequest request, CancellationToken ct = default)
@@ -76,6 +79,10 @@ public class EnquiryService
 
         var item = await _enquiries.GetByIdAsync(id, ct) ?? throw new NotFoundException("Enquiry", id);
 
+        // Paid → the student account is made now (once). Access and the password are given from Students → New (paid).
+        if (request.Status == EnquiryStatus.Paid && item.ConvertedUserId is null)
+            item.ConvertedUserId = await _students.CreateFromEnquiryAsync(item, ct);
+
         item.Status = request.Status;
         if (request.StaffNotes is not null)
         {
@@ -122,7 +129,7 @@ public class EnquiryService
 
     private void EnsureStaffOrAdmin()
     {
-        if (_current.UserId is null || !_current.IsInRole(UserRole.Staff, UserRole.Admin, UserRole.SuperAdmin))
+        if (_current.UserId is null || !_current.IsInRole(UserRole.Staff, UserRole.Admin, UserRole.SuperAdmin, UserRole.Mentor))
         {
             throw new UnauthorizedAccessDomainException();
         }

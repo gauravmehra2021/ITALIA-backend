@@ -401,6 +401,28 @@ public class MongoAuditLogRepository(MongoDbContext db) : IAuditLogRepository
             .SortByDescending(a => a.CreatedAtUtc)
             .Limit(take)
             .ToListAsync(ct);
+
+    private static FilterDefinition<AuditLog> Range(DateTime? from, DateTime? to)
+    {
+        var f = Builders<AuditLog>.Filter;
+        var filter = f.Empty;
+        if (from is not null) filter &= f.Gte(a => a.CreatedAtUtc, from.Value);
+        if (to is not null) filter &= f.Lt(a => a.CreatedAtUtc, to.Value);
+        return filter;
+    }
+
+    public async Task<IReadOnlyList<AuditLog>> GetRangeAsync(DateTime? fromUtc, DateTime? toUtc, int take, CancellationToken ct = default) =>
+        await db.AuditLogs
+            .Find(Range(fromUtc, toUtc))
+            .SortByDescending(a => a.CreatedAtUtc)
+            .Limit(take)
+            .ToListAsync(ct);
+
+    public async Task<long> DeleteRangeAsync(DateTime? fromUtc, DateTime? toUtc, CancellationToken ct = default) =>
+        (await db.AuditLogs.DeleteManyAsync(Range(fromUtc, toUtc), ct)).DeletedCount;
+
+    public async Task<long> DeleteManyAsync(IReadOnlyCollection<Guid> ids, CancellationToken ct = default) =>
+        (await db.AuditLogs.DeleteManyAsync(Builders<AuditLog>.Filter.In(a => a.Id, ids), ct)).DeletedCount;
 }
 
 public class MongoAiSessionRepository(MongoDbContext db) : IAiSessionRepository

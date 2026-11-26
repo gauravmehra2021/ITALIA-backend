@@ -1,3 +1,4 @@
+using SSeuropa.Api.Security;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -87,6 +88,7 @@ public class NotificationsController(CommunicationService service) : ControllerB
     }
 
     [HttpPost("send")]
+    [TeamModule(TeamPermissions.Notifications)]
     public async Task<ActionResult<ApiResponse<SendNotificationResultDto>>> Send(SendNotificationRequest request, CancellationToken ct)
     {
         var result = await service.SendNotificationAsync(request, ct);
@@ -152,35 +154,58 @@ public class DashboardController(DashboardService service) : ControllerBase
 [ApiController]
 [Authorize(Roles = "SuperAdmin")]
 [Route("api/users")]
-public class UsersController(DashboardService service) : ControllerBase
+public class UsersController(TeamService service) : ControllerBase
 {
+    /// <summary>Every account (used by the audit log and notification pickers).</summary>
     [HttpGet]
     public async Task<ActionResult<ApiResponse<IReadOnlyList<UserDto>>>> Get(CancellationToken ct)
-        => Ok(ApiResponse<IReadOnlyList<UserDto>>.Ok(await service.GetUsersAsync(ct)));
+        => Ok(ApiResponse<IReadOnlyList<UserDto>>.Ok(await service.GetAllAsync(ct)));
 
-    [HttpPut("{id:guid}/status")]
-    public async Task<ActionResult<ApiResponse<UserDto>>> UpdateStatus(Guid id, [FromBody] UpdateUserStatusRequest request, CancellationToken ct)
-        => Ok(ApiResponse<UserDto>.Ok(await service.UpdateUserStatusAsync(id, request.IsActive, ct), "User status updated."));
+    /// <summary>The team: Super Admin, Admins, Staff and Teachers (including removed accounts).</summary>
+    [HttpGet("team")]
+    public async Task<ActionResult<ApiResponse<IReadOnlyList<UserDto>>>> Team(CancellationToken ct)
+        => Ok(ApiResponse<IReadOnlyList<UserDto>>.Ok(await service.GetTeamAsync(ct)));
 
-    [HttpPut("{id:guid}/role")]
-    public async Task<ActionResult<ApiResponse<UserDto>>> UpdateRole(Guid id, [FromBody] UpdateUserRoleRequest request, CancellationToken ct)
-        => Ok(ApiResponse<UserDto>.Ok(await service.UpdateUserRoleAsync(id, request.Role, ct), "User role updated."));
+    /// <summary>Permission areas and the most each role may have in each one.</summary>
+    [HttpGet("permissions-catalog")]
+    public ActionResult<ApiResponse<TeamPermissionCatalogDto>> Catalog()
+        => Ok(ApiResponse<TeamPermissionCatalogDto>.Ok(service.GetCatalog()));
 
     [HttpPost]
     public async Task<ActionResult<ApiResponse<UserDto>>> Create([FromBody] CreateUserByAdminRequest request, CancellationToken ct)
-        => Ok(ApiResponse<UserDto>.Ok(await service.CreateUserByAdminAsync(request, ct), "User created and invitation dispatched."));
+        => Ok(ApiResponse<UserDto>.Ok(await service.CreateAsync(request, ct), "Team member created and invitation sent."));
+
+    [HttpPut("{id:guid}")]
+    public async Task<ActionResult<ApiResponse<UserDto>>> Update(Guid id, [FromBody] UpdateTeamMemberRequest request, CancellationToken ct)
+        => Ok(ApiResponse<UserDto>.Ok(await service.UpdateDetailsAsync(id, request, ct), "Details saved."));
+
+    [HttpPut("{id:guid}/status")]
+    public async Task<ActionResult<ApiResponse<UserDto>>> UpdateStatus(Guid id, [FromBody] UpdateUserStatusRequest request, CancellationToken ct)
+        => Ok(ApiResponse<UserDto>.Ok(await service.UpdateStatusAsync(id, request.IsActive, ct), "User status updated."));
+
+    [HttpPut("{id:guid}/role")]
+    public async Task<ActionResult<ApiResponse<UserDto>>> UpdateRole(Guid id, [FromBody] UpdateUserRoleRequest request, CancellationToken ct)
+        => Ok(ApiResponse<UserDto>.Ok(await service.UpdateRoleAsync(id, request.Role, ct), "User role updated."));
+
+    [HttpPut("{id:guid}/permissions")]
+    public async Task<ActionResult<ApiResponse<UserDto>>> UpdatePermissions(Guid id, [FromBody] UpdateTeamPermissionsRequest request, CancellationToken ct)
+        => Ok(ApiResponse<UserDto>.Ok(await service.UpdatePermissionsAsync(id, request, ct), "Permissions saved."));
+
+    [HttpPost("{id:guid}/reset-password")]
+    public async Task<ActionResult<ApiResponse<TeamPasswordResultDto>>> ResetPassword(Guid id, [FromBody] ResetTeamPasswordRequest? request, CancellationToken ct)
+        => Ok(ApiResponse<TeamPasswordResultDto>.Ok(await service.ResetPasswordAsync(id, request ?? new ResetTeamPasswordRequest(null), ct), "Password reset."));
 
     [HttpDelete("{id:guid}")]
     public async Task<ActionResult<ApiResponse<object>>> SoftDelete(Guid id, CancellationToken ct)
     {
-        await service.SoftDeleteUserAsync(id, ct);
+        await service.SoftDeleteAsync(id, ct);
         return Ok(ApiResponse<object>.Ok(new { }, "User deactivated (soft deleted)."));
     }
 
     [HttpPost("{id:guid}/restore")]
     public async Task<ActionResult<ApiResponse<object>>> Restore(Guid id, CancellationToken ct)
     {
-        await service.RestoreUserAsync(id, ct);
+        await service.RestoreAsync(id, ct);
         return Ok(ApiResponse<object>.Ok(new { }, "User restored."));
     }
 }
@@ -191,6 +216,14 @@ public class UsersController(DashboardService service) : ControllerBase
 public class AuditController(CommunicationService service) : ControllerBase
 {
     [HttpGet]
-    public async Task<ActionResult<ApiResponse<IReadOnlyList<AuditLogDto>>>> Get(CancellationToken ct)
-        => Ok(ApiResponse<IReadOnlyList<AuditLogDto>>.Ok(await service.GetAuditLogsAsync(ct)));
+    public async Task<ActionResult<ApiResponse<IReadOnlyList<AuditLogDto>>>> Get([FromQuery] DateTime? fromUtc, [FromQuery] DateTime? toUtc, CancellationToken ct)
+        => Ok(ApiResponse<IReadOnlyList<AuditLogDto>>.Ok(await service.GetAuditLogsAsync(fromUtc, toUtc, ct)));
+
+    /// <summary>Super Admin only: permanently delete audit entries (chosen ids, a period, or everything).</summary>
+    [HttpPost("delete")]
+    public async Task<ActionResult<ApiResponse<object>>> Delete([FromBody] DeleteAuditLogsRequest request, CancellationToken ct)
+    {
+        var deleted = await service.DeleteAuditLogsAsync(request, ct);
+        return Ok(ApiResponse<object>.Ok(new { deleted }, $"{deleted} log entries deleted."));
+    }
 }

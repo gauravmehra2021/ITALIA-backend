@@ -289,7 +289,7 @@ public class CourseService
 
     private void EnsureInstructorOrAdmin()
     {
-        if (!_current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin))
+        if (!_current.IsInRole(UserRole.Mentor, UserRole.Admin, UserRole.SuperAdmin, UserRole.Staff))
             throw new UnauthorizedAccessDomainException("Instructor or Admin role required.");
     }
 

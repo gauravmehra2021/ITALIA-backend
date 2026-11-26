@@ -25,6 +25,7 @@ public class MobileV1Controller(
     IMaterialRepository materialRepository,
     IAssessmentRepository assessmentRepository,
     IClassRepository classRepository,
+    IBatchRepository batchRepository,
     ICurrentUserService currentUser,
     CourseAccessService courseAccess) : ControllerBase
 {
@@ -138,14 +139,14 @@ public class MobileV1Controller(
         var enrollments = (await enrollmentRepository.GetByUserAsync(user.Id, ct))
             .Where(e => e.Status == EnrollmentStatus.Active).ToList();
 
-        var classes = (await classRepository.GetAllAsync(ct))
-            .Where(c => c.ScheduledAtUtc > DateTime.UtcNow)
+        // Only classes for this student's batches (or, for older classes, their enrolled courses).
+        var classes = ClassAudience.ForStudent(await classRepository.GetAllAsync(ct), user, enrollments)
+            .Where(c => c.ScheduledAtUtc > DateTime.UtcNow && c.Status != ClassStatus.Cancelled)
             .OrderBy(c => c.ScheduledAtUtc)
             .ToList();
 
         MobileLiveClassDto? upcoming = null;
-        var enrolledCourseIds = enrollments.Select(e => e.CourseId).ToHashSet();
-        var nextClass = classes.FirstOrDefault(c => enrolledCourseIds.Contains(c.CourseId));
+        var nextClass = classes.FirstOrDefault();
         if (nextClass is not null)
         {
             var course = await courseRepository.GetByIdAsync(nextClass.CourseId, ct);
@@ -156,7 +157,7 @@ public class MobileV1Controller(
                 nextClass.ScheduledAtUtc.ToString("o"),
                 nextClass.DurationMinutes,
                 mentor?.FullName ?? "Instructor",
-                course?.Title ?? "Course",
+                course?.Title ?? (nextClass.BatchId is { } nb ? (await batchRepository.GetByIdAsync(nb, ct))?.Name : null) ?? "Live class",
                 nextClass.MeetingUrl,
                 "not-marked"
             );
@@ -542,7 +543,10 @@ public class MobileV1Controller(
     public async Task<ActionResult<IReadOnlyList<MobileLiveClassDto>>> GetLiveClasses(CancellationToken ct)
     {
         var user = await GetCurrentStudentUserAsync(ct);
-        var classes = await classRepository.GetAllAsync(ct);
+        // Only classes for this student's batches (or, for older classes, their enrolled courses).
+        var classes = ClassAudience.ForStudent(
+                await classRepository.GetAllAsync(ct), user, await enrollmentRepository.GetByUserAsync(user.Id, ct))
+            .Where(c => c.Status != ClassStatus.Cancelled);
 
         var result = new List<MobileLiveClassDto>();
         foreach (var c in classes.OrderBy(x => x.ScheduledAtUtc))
@@ -556,7 +560,7 @@ public class MobileV1Controller(
                 StartsAt: c.ScheduledAtUtc.ToString("o"),
                 DurationMinutes: c.DurationMinutes,
                 InstructorName: mentor?.FullName ?? "Instructor",
-                CourseTitle: course?.Title ?? "Course",
+                CourseTitle: course?.Title ?? (c.BatchId is { } cb ? (await batchRepository.GetByIdAsync(cb, ct))?.Name : null) ?? "Live class",
                 MeetUrl: c.MeetingUrl,
                 AttendanceStatus: "not-marked"
             ));

@@ -454,11 +454,12 @@ public class AuthService
                 {
                     if (purpose == "forgot_password")
                     {
-                        _ = _emailService.SendPasswordResetCodeAsync(user.Email, code, ct);
+                        // Not tied to the request: the email must still go out if the student closes the page.
+                        _ = _emailService.SendPasswordResetCodeAsync(user.Email, code, CancellationToken.None);
                     }
                     else
                     {
-                        _ = _emailService.SendVerificationOtpAsync(user.Email, user.FirstName, code, ct);
+                        _ = _emailService.SendVerificationOtpAsync(user.Email, user.FirstName, code, CancellationToken.None);
                     }
                 }
             }
@@ -481,5 +482,15 @@ public class AuthService
         user.Status,
         user.PreferredLanguage,
         user.EmailVerified,
-        user.MustChangePassword);
+        user.MustChangePassword,
+        user.PhoneNumber,
+        user.LastLoginAtUtc,
+        user.CreatedAtUtc,
+        user.IsDeleted,
+        user.IsProtectedSuperAdmin,
+        IsPanelRole(user.Role) ? Common.TeamPermissions.EffectiveMap(user) : null,
+        user.Role != UserRole.SuperAdmin && IsPanelRole(user.Role) && user.Permissions is not null);
+
+    private static bool IsPanelRole(UserRole role) =>
+        role is UserRole.SuperAdmin or UserRole.Admin or UserRole.Staff or UserRole.Mentor;
 }

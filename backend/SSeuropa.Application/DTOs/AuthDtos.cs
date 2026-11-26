@@ -35,7 +35,15 @@ public record UserDto(
     AccountStatus Status,
     PreferredLanguage PreferredLanguage,
     bool EmailVerified,
-    bool MustChangePassword = false);
+    bool MustChangePassword = false,
+    string? PhoneNumber = null,
+    DateTime? LastLoginAtUtc = null,
+    DateTime? CreatedAtUtc = null,
+    bool IsDeleted = false,
+    bool IsProtectedSuperAdmin = false,
+    /// <summary>Team members: effective access per admin module ("None" / "View" / "Full"). Null for students.</summary>
+    IReadOnlyDictionary<string, string>? Permissions = null,
+    bool HasCustomPermissions = false);
 
 public record ForgotPasswordRequest(string Email);
 

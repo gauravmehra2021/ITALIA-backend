@@ -107,7 +107,9 @@ public enum EnquiryStatus
     Contacted = 1,
     Qualified = 2,
     Enrolled = 3,
-    Closed = 4
+    Closed = 4,
+    /// <summary>Payment received (in the client's own system). Saving this creates the student account.</summary>
+    Paid = 5
 }
 
 // ── Curriculum ──────────────────────────────────────────────────────────────

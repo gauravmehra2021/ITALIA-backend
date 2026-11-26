@@ -90,14 +90,19 @@ public record ClassSessionDto(
     int DurationMinutes,
     ClassStatus Status,
     string? MeetingUrl,
-    string? MeetingProvider);
+    string? MeetingProvider,
+    Guid? BatchId = null,
+    string? BatchName = null,
+    int BatchStudentCount = 0);
 
+/// <summary>A live class for one batch. Course and teacher are optional (teacher defaults to the batch's teacher).</summary>
 public record CreateClassRequest(
-    Guid CourseId,
-    Guid MentorId,
+    Guid? BatchId,
     string Title,
     DateTime ScheduledAtUtc,
     int DurationMinutes,
+    Guid? CourseId = null,
+    Guid? MentorId = null,
     string? MeetingUrl = null);
 
 public record EnrollmentDto(
@@ -293,6 +298,8 @@ public record StaffDashboardDto(
     int UnreadNotifications);
 
 public record AuditLogDto(Guid Id, Guid? ActorUserId, string Action, string Resource, string Details, DateTime CreatedAtUtc);
+/// <summary>Ids wins; otherwise the [FromUtc, ToUtc) period; All = true with no period wipes everything.</summary>
+public record DeleteAuditLogsRequest(List<Guid>? Ids, DateTime? FromUtc, DateTime? ToUtc, bool? All);
 
 public record SessionDto(Guid Id, Guid UserId, string DeviceId, string DeviceName, DateTime ExpiresAtUtc, bool IsRevoked, DateTime CreatedAtUtc);
 
@@ -309,7 +316,8 @@ public record CreateUserByAdminRequest(
     string LastName,
     UserRole Role,
     PreferredLanguage PreferredLanguage = PreferredLanguage.English,
-    string? PhoneNumber = null);
+    string? PhoneNumber = null,
+    Dictionary<string, string>? Permissions = null);
 
 public record AssignmentDto(
     Guid Id,
@@ -353,3 +361,19 @@ public record SubmitAssignmentRequest(
 public record GradeAssignmentRequest(
     int MarksObtained,
     string? TeacherFeedback);
+
+// ── Team module (Super Admin) ────────────────────────────────────────────────
+
+public record UpdateTeamMemberRequest(string FirstName, string LastName, string Email, string? PhoneNumber);
+
+/// <summary>Per-module access ("None" / "View" / "Full"). Null or empty = back to the role defaults.</summary>
+public record UpdateTeamPermissionsRequest(Dictionary<string, string>? Permissions);
+
+/// <summary>Password is optional: the server generates one when it is left empty.</summary>
+public record ResetTeamPasswordRequest(string? Password);
+
+public record TeamPasswordResultDto(UserDto User, string TemporaryPassword);
+
+public record TeamPermissionCatalogDto(
+    IReadOnlyList<string> Modules,
+    IReadOnlyDictionary<string, IReadOnlyDictionary<string, string>> RoleDefaults);

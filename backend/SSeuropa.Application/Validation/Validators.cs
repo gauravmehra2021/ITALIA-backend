@@ -29,7 +29,7 @@ public class CreateCourseRequestValidator : AbstractValidator<CreateCourseReques
 {
     public CreateCourseRequestValidator()
     {
-        RuleFor(x => x.Title).NotEmpty().MaximumLength(200);
+        RuleFor(x => x.Title).MaximumLength(200);
         RuleFor(x => x.Description).NotEmpty().MaximumLength(2000);
     }
 }
@@ -38,9 +38,8 @@ public class CreateClassRequestValidator : AbstractValidator<CreateClassRequest>
 {
     public CreateClassRequestValidator()
     {
-        RuleFor(x => x.Title).NotEmpty().MaximumLength(200);
-        RuleFor(x => x.CourseId).NotEmpty();
-        RuleFor(x => x.MentorId).NotEmpty();
+        RuleFor(x => x.Title).MaximumLength(200);
+        RuleFor(x => x.BatchId).NotEmpty().WithMessage("Choose the batch this class is for.");
         RuleFor(x => x.DurationMinutes).InclusiveBetween(15, 240);
     }
 }
